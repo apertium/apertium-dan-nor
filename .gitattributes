@@ -6,5 +6,6 @@
 /apertium-da-nb.nb-da.t1x -text
 /apertium-da-nb.nb.dix -text
 /da-nb.prob -text
-/full.nb.dix -text
+dev/full.nb.dix -text
+dev/generation-test.da-nb.sh -text
 /modes.xml -text
