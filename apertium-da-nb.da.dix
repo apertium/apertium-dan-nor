@@ -81,16 +81,18 @@
     <!-- Punctuation -->
 
 <pardef n="numeros">
-  <e>       <re>[0-9]+([.,][0-9]+)?(%)?</re><p><l></l><r><s n="num"/></r></p></e>
 
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><b/>mm</l><r><b/>mm<s n="num"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><b/>cm</l><r><b/>cm<s n="num"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><b/>km</l><r><b/>km<s n="num"/></r></p></e>
-<!-- senere
-  <e>       <re>[1-9]+([0-9]+)?(%)?</re><p><l>-årige</l><r>-årige<s n="num"/></r></p></e>
-  <e>       <re>[MCDXVLI]+</re><p><l></l><r><s n="num"/></r></p></e>
--->
+  <!-- separate out the number 1 as singular (fortunately "1.00" is usually plural!) -->
+  <e>       <re>1</re><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
+  <e>       <re>[02-9]</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+  <e>       <re>[0-9][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+  <e>       <re>[0-9][.,][0-9]+</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+  <e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
 </pardef>
+
 
 <pardef n="separa">
   <e>       <re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
@@ -6642,7 +6644,7 @@
 <e lm="alt imens">       <i>alt<b/>imens</i><par n="alt_imens__cnjadv"/></e>
 <e lm="for eksempel">    <i>for<b/>eksempel</i><par n="alt_imens__cnjadv"/></e>
 <e lm="altimens">        <i>altimens</i><par n="alt_imens__cnjadv"/></e>
-<e lm="at">              <i>at</i><par n="alt_imens__cnjadv"/></e>
+<!--<e lm="at">              <i>at</i><par n="alt_imens__cnjadv"/></e>-->
 <e lm="da">              <i>da</i><par n="alt_imens__cnjadv"/></e>
 <e lm="dengang">         <i>dengang</i><par n="alt_imens__cnjadv"/></e>
 <e lm="efter">           <i>efter</i><par n="alt_imens__cnjadv"/></e>
@@ -9167,7 +9169,7 @@
 <e lm="melde">           <i>meld</i><par n="tal/e__vblex"/></e>
 <e lm="mene">            <i>men</i><par n="tal/e__vblex"/></e>
 <e lm="merkantilisere">  <i>merkantiliser</i><par n="mal/e__vblex"/></e>
-<e lm="mide">            <i>mid</i><par n="tal/e__vblex"/></e>
+<!--<e lm="mide">            <i>mid</i><par n="tal/e__vblex"/></e>-->
 <e lm="mikrofotografere"><i>mikrofotografer</i><par n="mal/e__vblex"/></e>
 <e lm="militarisere">    <i>militariser</i><par n="mal/e__vblex"/></e>
 <e lm="miljømærke">      <i>miljømærk</i><par n="mal/e__vblex"/></e>
@@ -10114,7 +10116,7 @@
 <!--<e lm="ville">           <i>vil</i><par n="vil/le__vblex"/></e>-->
 
 <e lm="vildlede">        <i>vildled</i><par n="tal/e__vblex"/></e>
-<e lm="vinge">           <i>ving</i><par n="mal/e__vblex"/></e>
+<!--<e lm="vinge">           <i>ving</i><par n="mal/e__vblex"/></e>-->
 <e lm="vinke">           <i>vink</i><par n="mal/e__vblex"/></e>
 <e lm="vippe">           <i>vip</i><par n="dyp/pe__vblex"/></e>
 <e lm="virke">           <i>virk</i><par n="mal/e__vblex"/></e>

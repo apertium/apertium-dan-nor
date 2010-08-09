@@ -23,10 +23,12 @@
     <sdef n="det"     c="Determiner"/>
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="emph"   c="Emphatic"/>
+    <sdef n="ref"   c="Reflexive"/>
     <sdef n="pos"     c="Possessive"/>
     <sdef n="itg"     c="Question word / interrogative"/>
     <sdef n="qnt"     c="Quantifier"/>
 
+    <sdef n="ord"      c="Ordinal"/>
     <sdef n="def"      c="Definite"/>
     <sdef n="ind"      c="Indefinite"/>
 
@@ -403,7 +405,9 @@
     </pardef>
 
     <pardef n="år_år__n">
-      <e><p><l></l><r></r></p></e>
+      <e r="LR"><p><l><s n="sp"/></l><r><s n="ND"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="år_då__n">
@@ -1460,6 +1464,9 @@
     <e><p><l>og<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>at<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
+    <e><p><l>hvor<s n="cnjsub"/></l><r>hvor<s n="cnjsub"/></r></p></e>
+    <e><p><l>da<s n="cnjsub"/></l><r>da<s n="cnjsub"/></r></p></e>
+    <e><p><l>så<s n="cnjsub"/></l><r>så<s n="cnjsub"/></r></p></e>
     <e><p><l>fordi<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
     <e><p><l>hvis<s n="cnjsub"/></l><r>hvis<s n="cnjsub"/></r></p></e>
     <e><p><l>om<s n="cnjsub"/></l><r>om<s n="cnjsub"/></r></p></e>
@@ -1467,10 +1474,13 @@
 
     <!-- Prepositions -->
 
+    <e><p><l>af<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
+    <e><p><l>mellem<s n="pr"/></l><r>mellem<s n="pr"/></r></p></e>
+    <e><p><l>udenfor<s n="pr"/></l><r>utenfor<s n="pr"/></r></p></e>
     <e><p><l>ad<s n="pr"/></l><r>ad<s n="pr"/></r></p></e>
     <e><p><l>angående<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
     <e><p><l>efter<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
-<e r="RL"><p><l>efter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>efter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
     <e><p><l>foran<s n="pr"/></l><r>foran<s n="pr"/></r></p></e>
     <e><p><l>forbi<s n="pr"/></l><r>forbi<s n="pr"/></r></p></e>
@@ -1505,10 +1515,18 @@
     <e><p><l>det<s n="prn"/><s n="p3"/><s n="nt"/></l><r>det<s n="prn"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>vi<s n="prn"/><s n="p1"/><s n="un"/></l><r>vi<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>de<s n="prn"/><s n="p3"/><s n="un"/></l><r>de<s n="prn"/><s n="p3"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/></l><r>de<s n="prn"/><s n="p3"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/></l><r>de<s n="prn"/><s n="p3"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/></l><r>de<s n="prn"/><s n="p3"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
 
     <!-- Determiners -->
 
     <e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/></l><r>en<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
+    <e><p><l>en<s n="det"/><s n="ind"/><s n="nt"/></l><r>en<s n="det"/><s n="qnt"/><s n="nt"/></r></p></e>
 
     <e><p><l>hver<s n="det"/><s n="ind"/></l><r>hver<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>den<s n="det"/><s n="def"/></l><r>den<s n="det"/><s n="dem"/></r></p></e>
@@ -1520,6 +1538,7 @@
     <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
     <e><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
     <e><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+    <e><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
     <e><p><l>din<s n="det"/><s n="pos"/></l><r>du<s n="det"/><s n="pos"/></r></p></e>
 
     <e><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
@@ -1530,8 +1549,28 @@
     <e><p><l>flere<s n="det"/><s n="qnt"/></l><r>mange<s n="adj"/><s n="comp"/></r></p></e>
     <e><p><l>flest<s n="det"/><s n="qnt"/></l><r>mange<s n="adj"/><s n="sup"/></r></p></e>
 
+    <e><p><l>første<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>første<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
+    <e><p><l>tredje<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>tredje<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
+    <e><p><l>femte<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>femte<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
+    <e><p><l>sjette<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>sjette<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
+
+
+    <!-- Numerals -->
+
+    <e><p><l>et<s n="num"/><s n="sg"/><s n="nt"/></l><r>et<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>to<s n="num"/><s n="un"/><s n="pl"/></l><r>to<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>fire<s n="num"/><s n="un"/><s n="pl"/></l><r>fire<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+   
 
     <!-- Nouns -->
+
+    <e><p><l>jord<s n="n"/><s n="ut"/></l><r>jord<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fader<s n="n"/><s n="ut"/></l><r>fader<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hustru<s n="n"/><s n="ut"/></l><r>hustru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lys<s n="n"/><s n="nt"/></l><r>lys<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hav<s n="n"/><s n="nt"/></l><r>hav<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>liv<s n="n"/><s n="nt"/></l><r>liv<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>frø<s n="n"/><s n="nt"/></l><r>frø<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>abbed<s n="n"/><s n="ut"/></l><r>abbed<s n="n"/><s n="m"/></r></p><par n="ateist_ep__n"/></e>
     <e><p><l>abdikation<s n="n"/><s n="ut"/></l><r>abdikasjon<s n="n"/><s n="m"/></r></p><par n="ateist_ep__n"/></e>
@@ -4172,6 +4211,12 @@
 
     <!-- Adverbs -->
 
+    <e><p><l>hvad<s n="adv"/><s n="itg"/></l><r>hva<s n="adv"/></r></p></e>
+
+    <e><p><l>oppe<s n="adv"/></l><r>opp<s n="adv"/></r></p></e>
+    <e><p><l>deraf<s n="adv"/></l><r>derav<s n="adv"/></r></p></e>
+    <e><p><l>til<s n="adv"/></l><r>til<s n="adv"/></r></p></e>
+    <e><p><l>der<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
     <e><p><l>akkurat<s n="adv"/></l><r>akkurat<s n="adv"/></r></p></e>
     <e><p><l>aldeles<s n="adv"/></l><r>aldeles<s n="adv"/></r></p></e>
     <e><p><l>allerede<s n="adv"/></l><r>allerede<s n="adv"/></r></p></e>
@@ -8053,7 +8098,6 @@
     <e><p><l>vikle<s n="vblex"/></l><r>svingete<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ville<s n="vblex"/></l><r>ønsker<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vildlede<s n="vblex"/></l><r>villede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vinge<s n="vblex"/></l><r>vinge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vinke<s n="vblex"/></l><r>vinke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vippe<s n="vblex"/></l><r>tipping<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>virke<s n="vblex"/></l><r>fungere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
@@ -8251,7 +8295,7 @@
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/><s n="clb"/></r></p></e>
     <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
     <e><p><l>1<s n="num"/></l><r>1<s n="det"/><s n="qnt"/><s n="sg"/></r></p></e>
-    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 
 
   </section>
