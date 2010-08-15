@@ -1475,11 +1475,12 @@
     <!-- Prepositions -->
 
     <e><p><l>af<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
-    <e><p><l>mellem<s n="pr"/></l><r>mellem<s n="pr"/></r></p></e>
+    <e><p><l>mellem<s n="pr"/></l><r>mellom<s n="pr"/></r></p></e>
     <e><p><l>udenfor<s n="pr"/></l><r>utenfor<s n="pr"/></r></p></e>
     <e><p><l>ad<s n="pr"/></l><r>ad<s n="pr"/></r></p></e>
     <e><p><l>angående<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
     <e><p><l>efter<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
+    <e><p><l>bag<s n="pr"/></l><r>bak<s n="pr"/></r></p></e>
     <e r="RL"><p><l>efter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
     <e><p><l>foran<s n="pr"/></l><r>foran<s n="pr"/></r></p></e>
@@ -1559,8 +1560,15 @@
 
     <e><p><l>et<s n="num"/><s n="sg"/><s n="nt"/></l><r>et<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>to<s n="num"/><s n="un"/><s n="pl"/></l><r>to<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>tre<s n="num"/><s n="un"/><s n="pl"/></l><r>tre<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     <e><p><l>fire<s n="num"/><s n="un"/><s n="pl"/></l><r>fire<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-   
+    <e><p><l>fem<s n="num"/><s n="un"/><s n="pl"/></l><r>fem<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>seks<s n="num"/><s n="un"/><s n="pl"/></l><r>seks<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>syv<s n="num"/><s n="un"/><s n="pl"/></l><r>sju<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>syv<s n="num"/><s n="un"/><s n="pl"/></l><r>syv<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>otte<s n="num"/><s n="un"/><s n="pl"/></l><r>åtte<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>ni<s n="num"/><s n="un"/><s n="pl"/></l><r>ni<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>ti<s n="num"/><s n="un"/><s n="pl"/></l><r>ti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
     <!-- Nouns -->
 
@@ -4268,11 +4276,12 @@
     <e><p><l>være<s n="vbser"/></l><r>være<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>have<s n="vbhaver"/></l><r>ha<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <!-- Modals (need some work): -->
-    <e><p><l>måtte<s n="vaux"/></l><r>måtte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>måtte<s n="vaux"/></l><r>kunne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e srl="1"><p><l>kunne<s n="vaux"/></l><r>kunne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e r="RL"><p><l>måtte<s n="vblex"/></l><r>måtte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>skulle<s n="vbmod"/></l><r>skulle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>burde<s n="vblex"/></l><r>burde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ville<s n="vaux"/></l><r>ville<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>kunne<s n="vblex"/></l><r>kunne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
 
     <!-- Lexical verbs: -->
     <e><p><l>attakere<s n="vblex"/></l><r>attakkere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
@@ -4288,7 +4297,7 @@
     <e><p><l>fikse<s n="vblex"/></l><r>fikse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>lide<s n="vblex"/></l><r>like<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>grille<s n="vblex"/></l><r>grille<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>hacke<s n="vblex"/></l><r>hakke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>hacke<s n="vblex"/></l><r>hacke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>halvere<s n="vblex"/></l><r>halvere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>klappe<s n="vblex"/></l><r>klappe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>koncentrere<s n="vblex"/></l><r>konsentrere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
@@ -5163,9 +5172,10 @@
     <e><p><l>påtale<s n="vblex"/></l><r>påtale<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>påvirke<s n="vblex"/></l><r>påvirke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>påvise<s n="vblex"/></l><r>påvise<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>pønse<s n="vblex"/></l><r>pønse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>pønse<s n="vblex"/></l><r>pønske<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>re<s n="vblex"/></l><r>re<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>rage<s n="vblex"/></l><r>rage<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>rage<s n="vblex"/></l><r>rake<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e slr="1"><p><l>rage<s n="vblex"/></l><r>rage<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>rakke<s n="vblex"/></l><r>rakke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>rangere<s n="vblex"/></l><r>rangere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ranke<s n="vblex"/></l><r>ranke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
@@ -7954,184 +7964,181 @@
     <e><p><l>udelukke<s n="vblex"/></l><r>utelukke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udfase<s n="vblex"/></l><r>fase<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udflytte<s n="vblex"/></l><r>flytte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udfolde<s n="vblex"/></l><r>skal<b/>blomstre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udfolde<s n="vblex"/></l><r>utfolde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udfordre<s n="vblex"/></l><r>utfordring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udforme<s n="vblex"/></l><r>utforme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udforske<s n="vblex"/></l><r>utforske<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udfylde<s n="vblex"/></l><r>fullføre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udfærdige<s n="vblex"/></l><r>foreta<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udfylde<s n="vblex"/></l><r>utfylle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udfærdige<s n="vblex"/></l><r>utferdige<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udføre<s n="vblex"/></l><r>utføre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udhugge<s n="vblex"/></l><r>som<b/>skåret<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udhungre<s n="vblex"/></l><r>starved<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udjage<s n="vblex"/></l><r>udjage<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udjævne<s n="vblex"/></l><r>glatte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udkomme<s n="vblex"/></l><r>levebrød<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udkonkurrere<s n="vblex"/></l><r>sine<b/>konkurrenter<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udkrage<s n="vblex"/></l><r>udkrage<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udkrystallisere<s n="vblex"/></l><r>crystallises<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udkrænge<s n="vblex"/></l><r>udkrænge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udkæmpe<s n="vblex"/></l><r>sloss<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udlede<s n="vblex"/></l><r>slutte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udleje<s n="vblex"/></l><r>hiring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udlevere<s n="vblex"/></l><r>formidle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udligne<s n="vblex"/></l><r>for<b/>å<b/>kompensere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udhugge<s n="vblex"/></l><r>uthugge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udhungre<s n="vblex"/></l><r>uthungre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udjage<s n="vblex"/></l><r>jage<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udjævne<s n="vblex"/></l><r>utjevne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udkomme<s n="vblex"/></l><r>komme<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udkonkurrere<s n="vblex"/></l><r>utkonkurrere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udkrage<s n="vblex"/></l><r>utkrage<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udkrystallisere<s n="vblex"/></l><r>utkrystallisere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udkrænge<s n="vblex"/></l><r>utkrenge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udkæmpe<s n="vblex"/></l><r>utkjempe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udlede<s n="vblex"/></l><r>utlede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udleje<s n="vblex"/></l><r>leie<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udlevere<s n="vblex"/></l><r>utlevere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udligne<s n="vblex"/></l><r>utligne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udløse<s n="vblex"/></l><r>utløser<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udmarve<s n="vblex"/></l><r>udmarve<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udmatte<s n="vblex"/></l><r>dekk<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udmejsle<s n="vblex"/></l><r>udmejsle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udmunde<s n="vblex"/></l><r>lede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udmønte<s n="vblex"/></l><r>omforming<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udmarve<s n="vblex"/></l><r>utmarge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udmatte<s n="vblex"/></l><r>utmatte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udmejsle<s n="vblex"/></l><r>utmeisle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udmunde<s n="vblex"/></l><r>munne<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udmønte<s n="vblex"/></l><r>utmynte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udnytte<s n="vblex"/></l><r>utnytte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udnytte<s n="vblex"/></l><r>utnytte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udnævne<s n="vblex"/></l><r>utpeke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udnævne<s n="vblex"/></l><r>utnevne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udpege<s n="vblex"/></l><r>utpeke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udpine<s n="vblex"/></l><r>som<b/>tappe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udplyndre<s n="vblex"/></l><r>plyndre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udrangere<s n="vblex"/></l><r>pensjonister<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udrede<s n="vblex"/></l><r>teasing<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udregne<s n="vblex"/></l><r>regne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udrette<s n="vblex"/></l><r>skal<b/>gjøres<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udringe<s n="vblex"/></l><r>udringe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udruge<s n="vblex"/></l><r>den<b/>brood<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udruste<s n="vblex"/></l><r>utstyre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udpine<s n="vblex"/></l><r>utpine<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udplyndre<s n="vblex"/></l><r>utplyndre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udrangere<s n="vblex"/></l><r>utrangere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udrede<s n="vblex"/></l><r>utrede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udregne<s n="vblex"/></l><r>regne<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udrette<s n="vblex"/></l><r>utrette<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udringe<s n="vblex"/></l><r>utringe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udruge<s n="vblex"/></l><r>ruge<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udruste<s n="vblex"/></l><r>utruste<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udrydde<s n="vblex"/></l><r>utrydde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udråbe<s n="vblex"/></l><r>fortolle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udsætte<s n="vblex"/></l><r>opphold<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udsende<s n="vblex"/></l><r>sende<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udråbe<s n="vblex"/></l><r>utrope<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udsætte<s n="vblex"/></l><r>utsette<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udsende<s n="vblex"/></l><r>sende<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udsige<s n="vblex"/></l><r>forutse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udskifte<s n="vblex"/></l><r>erstatning<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udskifte<s n="vblex"/></l><r>skifte<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udskrive<s n="vblex"/></l><r>skrive<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udslette<s n="vblex"/></l><r>for<b/>å<b/>ødelegge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udslynge<s n="vblex"/></l><r>bli<b/>utløst<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udspecificere<s n="vblex"/></l><r>spesifisere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udspille<s n="vblex"/></l><r>handle<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udspionere<s n="vblex"/></l><r>for<b/>å<b/>spionere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstationere<s n="vblex"/></l><r>andre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstede<s n="vblex"/></l><r>problemet<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstemple<s n="vblex"/></l><r>udstemple<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstene<s n="vblex"/></l><r>som<b/>problemet<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstille<s n="vblex"/></l><r>utstillingen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstrege<s n="vblex"/></l><r>passende<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstråle<s n="vblex"/></l><r>irradiate<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udslette<s n="vblex"/></l><r>utslette<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udslynge<s n="vblex"/></l><r>slynge<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udspecificere<s n="vblex"/></l><r>utspesifisere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udspille<s n="vblex"/></l><r>utspille<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udspionere<s n="vblex"/></l><r>utspionere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstationere<s n="vblex"/></l><r>utstasjonere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstede<s n="vblex"/></l><r>utstede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstemple<s n="vblex"/></l><r>utstemple<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstene<s n="vblex"/></l><r>ta<b/>steinene<b/>ut<b/>av<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstille<s n="vblex"/></l><r>stille<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstrege<s n="vblex"/></l><r>stryke<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstråle<s n="vblex"/></l><r>utstråle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udstyre<s n="vblex"/></l><r>utstyre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udstøde<s n="vblex"/></l><r>slippe<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udsuge<s n="vblex"/></l><r>byttedyr<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udsulte<s n="vblex"/></l><r>sulter<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udsøge<s n="vblex"/></l><r>søke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udtage<s n="vblex"/></l><r>satt<b/>til<b/>side<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udstøde<s n="vblex"/></l><r>støte<b/>ut<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udsuge<s n="vblex"/></l><r>utsuge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udsulte<s n="vblex"/></l><r>utsulte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udsøge<s n="vblex"/></l><r>utsøkee<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udtage<s n="vblex"/></l><r>ta<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udtale<s n="vblex"/></l><r>uttale<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udtynde<s n="vblex"/></l><r>thinning<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udtænke<s n="vblex"/></l><r>tenke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udtørre<s n="vblex"/></l><r>tørke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udvande<s n="vblex"/></l><r>vanning<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udvandre<s n="vblex"/></l><r>emigrere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udveksle<s n="vblex"/></l><r>exchange<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udtynde<s n="vblex"/></l><r>uttynne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udtænke<s n="vblex"/></l><r>tenke<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udtørre<s n="vblex"/></l><r>tørke<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udvande<s n="vblex"/></l><r>utvanne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udvandre<s n="vblex"/></l><r>utvandre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udveksle<s n="vblex"/></l><r>utveksle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udvide<s n="vblex"/></l><r>utvide<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udvikle<s n="vblex"/></l><r>utviklingsland<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udvikle<s n="vblex"/></l><r>utvikle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udvirke<s n="vblex"/></l><r>oppnå<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udvise<s n="vblex"/></l><r>fordrive<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udviske<s n="vblex"/></l><r>dimme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>udøve<s n="vblex"/></l><r>arbeide<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ugestemple<s n="vblex"/></l><r>uken<b/>tempel<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ulejlige<s n="vblex"/></l><r>inconveniencing<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ulme<s n="vblex"/></l><r>smolder<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>umage<s n="vblex"/></l><r>bekymring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>unde<s n="vblex"/></l><r>unde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udvise<s n="vblex"/></l><r>utvide<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udviske<s n="vblex"/></l><r>viske<b/>ut<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>udøve<s n="vblex"/></l><r>utøve<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ugestemple<s n="vblex"/></l><r>ukestemple<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ulejlige<s n="vblex"/></l><r>uleilige<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ulme<s n="vblex"/></l><r>ulme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>umage<s n="vblex"/></l><r>umake<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>unde<s n="vblex"/></l><r>unne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>underbygge<s n="vblex"/></l><r>underbygge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>undergrave<s n="vblex"/></l><r>undergrave<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>underkaste<s n="vblex"/></l><r>faget<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>underkende<s n="vblex"/></l><r>nedvurdere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>underkue<s n="vblex"/></l><r>gjøre<b/>til<b/>slave<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>underminere<s n="vblex"/></l><r>undergrave<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>underordne<s n="vblex"/></l><r>subordinating<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>underkaste<s n="vblex"/></l><r>underkaste<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>underkende<s n="vblex"/></l><r>underkjenne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>underkue<s n="vblex"/></l><r>underkue<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>underminere<s n="vblex"/></l><r>underminere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>underordne<s n="vblex"/></l><r>underordne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>underrette<s n="vblex"/></l><r>informere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>underspille<s n="vblex"/></l><r>spille<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>understrege<s n="vblex"/></l><r>stress<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>understøtte<s n="vblex"/></l><r>støtte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>underspille<s n="vblex"/></l><r>underspille<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>understrege<s n="vblex"/></l><r>understreke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>understøtte<s n="vblex"/></l><r>understøtte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>undersøge<s n="vblex"/></l><r>undersøke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>undertegne<s n="vblex"/></l><r>registrere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>undertegne<s n="vblex"/></l><r>undertegne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>undertrykke<s n="vblex"/></l><r>undertrykke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>undervise<s n="vblex"/></l><r>undervise<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>undervurdere<s n="vblex"/></l><r>underestimating<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>undfange<s n="vblex"/></l><r>tenke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>undervurdere<s n="vblex"/></l><r>undervurdere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>undfange<s n="vblex"/></l><r>unnfange<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>undgå<s n="vblex"/></l><r>unngå<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>undre<s n="vblex"/></l><r>undres<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>undskylde<s n="vblex"/></l><r>for<b/>å<b/>si<b/>unnskyld<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>undtage<s n="vblex"/></l><r>fritak<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>uniformere<s n="vblex"/></l><r>i<b/>uniform<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>uvane<s n="vblex"/></l><r>dårlig<b/>vane<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>undre<s n="vblex"/></l><r>undre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>undskylde<s n="vblex"/></l><r>unnskylde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>undtage<s n="vblex"/></l><r>unnta<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>uniformere<s n="vblex"/></l><r>uniformere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vinde<s n="vblex"/></l><r>vinne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vaccinere<s n="vblex"/></l><r>vaksinere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vade<s n="vblex"/></l><r>vasse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vakle<s n="vblex"/></l><r>vakle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>validere<s n="vblex"/></l><r>validere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>valte<s n="vblex"/></l><r>administrere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vane<s n="vblex"/></l><r>den<b/>vanen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vandre<s n="vblex"/></l><r>walking<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vanhellige<s n="vblex"/></l><r>desecrating<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vandre<s n="vblex"/></l><r>vandre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vanhellige<s n="vblex"/></l><r>vanhellige<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vanke<s n="vblex"/></l><r>vanke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>varetægtsfængsle<s n="vblex"/></l><r>varetekt<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>varetægtsfængsle<s n="vblex"/></l><r>varetektsfengsle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>variere<s n="vblex"/></l><r>variere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>varsle<s n="vblex"/></l><r>varsel<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>varsle<s n="vblex"/></l><r>varsle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vaske<b/>op<s n="vblex"/></l><r>vaske<b/>opp<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vaske<s n="vblex"/></l><r>vask<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vedhæfte<s n="vblex"/></l><r>feste<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vedkende<s n="vblex"/></l><r>erkjenne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vaske<s n="vblex"/></l><r>vaske<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vedhæfte<s n="vblex"/></l><r>hefte<b/>ved<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vedkende<s n="vblex"/></l><r>vedkjenne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vedligeholde<s n="vblex"/></l><r>vedlikeholde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vedtage<s n="vblex"/></l><r>adoptere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vedtage<s n="vblex"/></l><r>adoptere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>veje<s n="vblex"/></l><r>veiene<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vejlede<s n="vblex"/></l><r>gi<b/>veiledning<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>veksle<s n="vblex"/></l><r>endring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vedtage<s n="vblex"/></l><r>vedta<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>veje<s n="vblex"/></l><r>veie<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vejlede<s n="vblex"/></l><r>veilede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>veksle<s n="vblex"/></l><r>veksle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>velsigne<s n="vblex"/></l><r>velsigne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vende<s n="vblex"/></l><r>snu<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vente<s n="vblex"/></l><r>vente<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>verificere<s n="vblex"/></l><r>bekrefte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>versere<s n="vblex"/></l><r>som<b/>venter<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>versere<s n="vblex"/></l><r>versere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vie<s n="vblex"/></l><r>vie<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>videreføre<s n="vblex"/></l><r>fortsette<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>videreføre<s n="vblex"/></l><r>videreføre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>videresende<s n="vblex"/></l><r>videresende<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>videreuddanne<s n="vblex"/></l><r>opplæring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>videreudvikle<s n="vblex"/></l><r>utvikle<b/>seg<b/>videre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>videreuddanne<s n="vblex"/></l><r>videreutdanne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>videreudvikle<s n="vblex"/></l><r>videreutvikle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vidne<s n="vblex"/></l><r>vitne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vifte<s n="vblex"/></l><r>dette<b/>området<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vikle<s n="vblex"/></l><r>svingete<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ville<s n="vblex"/></l><r>ønsker<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vifte<s n="vblex"/></l><r>vifte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vikle<s n="vblex"/></l><r>vikle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ville<s n="vblex"/></l><r>ville<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vildlede<s n="vblex"/></l><r>villede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vinke<s n="vblex"/></l><r>vinke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vippe<s n="vblex"/></l><r>tipping<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>virke<s n="vblex"/></l><r>fungere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vippe<s n="vblex"/></l><r>vippe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>virke<s n="vblex"/></l><r>virke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vise<s n="vblex"/></l><r>vise<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>visne<s n="vblex"/></l><r>visne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vokse<s n="vblex"/></l><r>vokse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>volde<s n="vblex"/></l><r>forårsake<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vove<s n="vblex"/></l><r>våge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vrage<s n="vblex"/></l><r>velge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vrinske<s n="vblex"/></l><r>whinny<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vrænge<s n="vblex"/></l><r>hånlig<b/>flir<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vugge<s n="vblex"/></l><r>holderen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vrage<s n="vblex"/></l><r>vrake<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vrinske<s n="vblex"/></l><r>vrinske<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vrænge<s n="vblex"/></l><r>vrenge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vugge<s n="vblex"/></l><r>vugge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vurdere<s n="vblex"/></l><r>vurdere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>våge<s n="vblex"/></l><r>se<b/>på<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vågne<s n="vblex"/></l><r>waking<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>væbne<s n="vblex"/></l><r>være<b/>bevæpnet<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vægre<s n="vblex"/></l><r>nekte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vægte<s n="vblex"/></l><r>vekting<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>våge<s n="vblex"/></l><r>våge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vågne<s n="vblex"/></l><r>våkne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>væbne<s n="vblex"/></l><r>væpne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vægre<s n="vblex"/></l><r>vegre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vægte<s n="vblex"/></l><r>vekte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vække<s n="vblex"/></l><r>vekke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>vælte<s n="vblex"/></l><r>velte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>vænne<s n="vblex"/></l><r>få<b/>brukt<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>værdige<s n="vblex"/></l><r>denne<b/>verdien<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>værne<s n="vblex"/></l><r>opprettholde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>væve<s n="vblex"/></l><r>vev<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>vænne<s n="vblex"/></l><r>venne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>værdige<s n="vblex"/></l><r>verdige<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>værne<s n="vblex"/></l><r>verne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>væve<s n="vblex"/></l><r>veve<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>xylografere<s n="vblex"/></l><r>xylografere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>yde<s n="vblex"/></l><r>gi<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>yde<s n="vblex"/></l><r>yte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ympe<s n="vblex"/></l><r>ympe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ynde<s n="vblex"/></l><r>nåde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ytre<s n="vblex"/></l><r>uttrykk<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ynde<s n="vblex"/></l><r>ynde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ytre<s n="vblex"/></l><r>ytre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>zappe<s n="vblex"/></l><r>zappe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>zigzagge<s n="vblex"/></l><r>zigzag<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>zigzagge<s n="vblex"/></l><r>zikzakke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>zoome<s n="vblex"/></l><r>zoome<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>åbne<s n="vblex"/></l><r>åpne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ægge<s n="vblex"/></l><r>de<b/>egg<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ægge<s n="vblex"/></l><r>egge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ændre<s n="vblex"/></l><r>endre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ænse<s n="vblex"/></l><r>ense<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>ære<s n="vblex"/></l><r>ære<s n="vblex"/></r></p><par n="generic__vblex"/></e>
@@ -8139,142 +8146,142 @@
     <e><p><l>ødsle<s n="vblex"/></l><r>ødsle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>øge<s n="vblex"/></l><r>øke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>øjne<s n="vblex"/></l><r>øyne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ønske<s n="vblex"/></l><r>være<b/>ønskelig<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>øremærke<s n="vblex"/></l><r>earmarking<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>øve<s n="vblex"/></l><r>praksis<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>adlyde<s n="vblex"/></l><r>overholde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>afbryde<s n="vblex"/></l><r>avbruddsordrelinje<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ønske<s n="vblex"/></l><r>ønske<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>øremærke<s n="vblex"/></l><r>øremerke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>øve<s n="vblex"/></l><r>øve<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>adlyde<s n="vblex"/></l><r>adlyde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>afbryde<s n="vblex"/></l><r>avbryte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>afsky<s n="vblex"/></l><r>avsky<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>angribe<s n="vblex"/></l><r>for<b/>angrep<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>antage<s n="vblex"/></l><r>tro<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>angribe<s n="vblex"/></l><r>angripe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>antage<s n="vblex"/></l><r>anta<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>bede<s n="vblex"/></l><r>be<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>bære<s n="vblex"/></l><r>bære<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>byde<b/>velkommen<s n="vblex"/></l><r>velkommen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>byde<b/>velkommen<s n="vblex"/></l><r>ønske<b/>velkommen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>bide<s n="vblex"/></l><r>bite<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>bage<s n="vblex"/></l><r>bakervarer<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>befrie<s n="vblex"/></l><r>frigjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>begribe<s n="vblex"/></l><r>comprehending<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>besætte<s n="vblex"/></l><r>fylle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>beslaglægge<s n="vblex"/></l><r>gripe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>bestikke<s n="vblex"/></l><r>bestikkelse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>betyde<s n="vblex"/></l><r>mene<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>bage<s n="vblex"/></l><r>bake<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>befrie<s n="vblex"/></l><r>befri<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>begribe<s n="vblex"/></l><r>begripe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>besætte<s n="vblex"/></l><r>besette<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>beslaglægge<s n="vblex"/></l><r>beslaglegge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>bestikke<s n="vblex"/></l><r>bestikke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>betyde<s n="vblex"/></l><r>bety<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>bevise<s n="vblex"/></l><r>bevise<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>bryde<s n="vblex"/></l><r>bryte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>bringe<s n="vblex"/></l><r>gi<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>bringe<s n="vblex"/></l><r>bringe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>deltage<s n="vblex"/></l><r>delta<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>desarmere<s n="vblex"/></l><r>uskadeliggjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>doble<s n="vblex"/></l><r>fordoblet<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>doktorere<s n="vblex"/></l><r>legene<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>desarmere<s n="vblex"/></l><r>desarmere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>doble<s n="vblex"/></l><r>doble<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>doktorere<s n="vblex"/></l><r>doktorere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>drikke<s n="vblex"/></l><r>drikke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>dufte<s n="vblex"/></l><r>lukt<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>dufte<s n="vblex"/></l><r>dufte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>dø<s n="vblex"/></l><r>dø<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>efterspørge<s n="vblex"/></l><r>etterspørselen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>efterspørge<s n="vblex"/></l><r>etterspørre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>følge<s n="vblex"/></l><r>følge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>feje<s n="vblex"/></l><r>feie<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>fikse<s n="vblex"/></l><r>som<b/>smart<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>fikse<s n="vblex"/></l><r>fikse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>flyve<s n="vblex"/></l><r>fly<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>folkebogføre<s n="vblex"/></l><r>folk<b/>booket<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>folkebogføre<s n="vblex"/></l><r>folkebokføre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>foreslå<s n="vblex"/></l><r>foreslå<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>forlade<s n="vblex"/></l><r>dra<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>formere<s n="vblex"/></l><r>multiplisere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>forudsige<s n="vblex"/></l><r>forutse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>forlade<s n="vblex"/></l><r>forlate<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>formere<s n="vblex"/></l><r>formere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>forudsige<s n="vblex"/></l><r>forutsi<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>fryse<s n="vblex"/></l><r>fryse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>frigive<s n="vblex"/></l><r>løsne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>frigive<s n="vblex"/></l><r>frigi<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>gøre<s n="vblex"/></l><r>gjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>gøre<b/>rent<s n="vblex"/></l><r>gjøre<b/>rent<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>gælde<s n="vblex"/></l><r>søke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>gælde<s n="vblex"/></l><r>gjelde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>give<s n="vblex"/></l><r>gi<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>gemme<s n="vblex"/></l><r>for<b/>å<b/>lagre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>gemme<s n="vblex"/></l><r>gjemme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e slr="1"><p><l>gemme<s n="vblex"/></l><r>lagre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>gnide<s n="vblex"/></l><r>gni<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>gribe<s n="vblex"/></l><r>gripe<b/>inn<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>grille<s n="vblex"/></l><r>grilling<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>hacke<s n="vblex"/></l><r>angriperen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>gribe<s n="vblex"/></l><r>gripe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>grille<s n="vblex"/></l><r>grille<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>hacke<s n="vblex"/></l><r>hacke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>halvere<s n="vblex"/></l><r>halvere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>hamre<s n="vblex"/></l><r>den<b/>hammer<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>hedde<s n="vblex"/></l><r>ringe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>hikke<s n="vblex"/></l><r>den<b/>hiccups<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>hamre<s n="vblex"/></l><r>hamre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>hedde<s n="vblex"/></l><r>hete<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>hikke<s n="vblex"/></l><r>hikke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>hjælpe<s n="vblex"/></l><r>hjelpe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>indbyde<s n="vblex"/></l><r>invitere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>indgå<s n="vblex"/></l><r>prisen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>jævne<s n="vblex"/></l><r>razing<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>jævnføre<s n="vblex"/></l><r>som<b/>jevnlig<b/>fører<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>kameraovervåge<s n="vblex"/></l><r>kameraet<b/>overvåke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>krydsforhøre<s n="vblex"/></l><r>på<b/>grillen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>indgå<s n="vblex"/></l><r>inngå<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>jævne<s n="vblex"/></l><r>jevne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>jævnføre<s n="vblex"/></l><r>jevnføre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>kameraovervåge<s n="vblex"/></l><r>kameraovervåke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>krydsforhøre<s n="vblex"/></l><r>kryssforhøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>kvæle<s n="vblex"/></l><r>kvele<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>køre<b/>spirituskørsel<s n="vblex"/></l><r>kjører<b/>beruset<b/>kjøring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>køre<b/>forstyrrende<s n="vblex"/></l><r>kjører<b/>nedbrytende<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>lyde<s n="vblex"/></l><r>som<b/>lyder<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>køre<b/>spirituskørsel<s n="vblex"/></l><r>fyllekjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>lyde<s n="vblex"/></l><r>lyde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>lide<s n="vblex"/></l><r>lidelse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>le<s n="vblex"/></l><r>le<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>lyve<s n="vblex"/></l><r>lyve<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>lagerføre<s n="vblex"/></l><r>lager<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>lede<s n="vblex"/></l><r>administrere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>lagerføre<s n="vblex"/></l><r>lagerføre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>lede<s n="vblex"/></l><r>lede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>lykkes<s n="vblex"/></l><r>lykkes<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>låne<s n="vblex"/></l><r>låne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>længes<s n="vblex"/></l><r>lengte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>løsnes<s n="vblex"/></l><r>løsne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>mane<s n="vblex"/></l><r>trylle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>løsnes<s n="vblex"/></l><r>løsnes<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>mane<s n="vblex"/></l><r>mane<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>medgive<s n="vblex"/></l><r>innrømme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>mildne<s n="vblex"/></l><r>for<b/>å<b/>bløtgjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>misse<s n="vblex"/></l><r>savne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>mistro<s n="vblex"/></l><r>mistillit<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>modne<s n="vblex"/></l><r>modnes<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>mildne<s n="vblex"/></l><r>mildne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>misse<s n="vblex"/></l><r>misse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>mistro<s n="vblex"/></l><r>mistro<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>modne<s n="vblex"/></l><r>modne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>multiplicere<s n="vblex"/></l><r>multiplisere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>nulle<s n="vblex"/></l><r>nullement<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>nulle<s n="vblex"/></l><r>nulle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>nyse<s n="vblex"/></l><r>nyse<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>nære<s n="vblex"/></l><r>nærende<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>nære<s n="vblex"/></l><r>nære<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>nævne<s n="vblex"/></l><r>nevne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>opgive<s n="vblex"/></l><r>forlate<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ophøre<s n="vblex"/></l><r>stoppe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>oplade<s n="vblex"/></l><r>lading<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>oxidere<s n="vblex"/></l><r>oxidize<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>planlægge<s n="vblex"/></l><r>planlegging<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>plukke<s n="vblex"/></l><r>rørt<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>prøvekøre<s n="vblex"/></l><r>prøve<b/>å<b/>kjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ryge<s n="vblex"/></l><r>smoking<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ride<s n="vblex"/></l><r>turen<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>ramme<s n="vblex"/></l><r>som<b/>ramme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>rede<s n="vblex"/></l><r>forklare<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>opgive<s n="vblex"/></l><r>oppgi<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ophøre<s n="vblex"/></l><r>opphøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>oplade<s n="vblex"/></l><r>lade<b/>opp<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>oxidere<s n="vblex"/></l><r>oksidere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>planlægge<s n="vblex"/></l><r>planlegg<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>plukke<s n="vblex"/></l><r>plukke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>prøvekøre<s n="vblex"/></l><r>prøvekjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ryge<s n="vblex"/></l><r>røyke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ride<s n="vblex"/></l><r>ri<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>ramme<s n="vblex"/></l><r>ramme<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>rede<s n="vblex"/></l><r>rede<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>sige<s n="vblex"/></l><r>si<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>sidde<s n="vblex"/></l><r>sitte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>sælge<s n="vblex"/></l><r>selge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>synge<s n="vblex"/></l><r>synge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>sanere<s n="vblex"/></l><r>sin<b/>forbedring<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>save<s n="vblex"/></l><r>for<b/>å<b/>lagre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>sanere<s n="vblex"/></l><r>sanere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>save<s n="vblex"/></l><r>save<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>skyde<s n="vblex"/></l><r>skyte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>skære<s n="vblex"/></l><r>cutting<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>skære<s n="vblex"/></l><r>skjære<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>skændes<s n="vblex"/></l><r>krangle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>slanke<s n="vblex"/></l><r>effektivisere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>slanke<s n="vblex"/></l><r>slanke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>sludre<s n="vblex"/></l><r>skravle<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>smide<s n="vblex"/></l><r>throwing<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>snyde<s n="vblex"/></l><r>juks<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>smide<s n="vblex"/></l><r>kaste<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>snyde<s n="vblex"/></l><r>snyte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>snurre<s n="vblex"/></l><r>snurre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>spørge<s n="vblex"/></l><r>be<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>spionere<s n="vblex"/></l><r>for<b/>å<b/>spionere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>spørge<s n="vblex"/></l><r>spørre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>spionere<s n="vblex"/></l><r>spionere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>spore<s n="vblex"/></l><r>spore<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>springe<s n="vblex"/></l><r>hoppe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>stikke<s n="vblex"/></l><r>begrave<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>stave<s n="vblex"/></l><r>stave<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>stege<s n="vblex"/></l><r>lage<b/>mat<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>stege<s n="vblex"/></l><r>steke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>støtte<s n="vblex"/></l><r>støtte<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>sy<s n="vblex"/></l><r>sy<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>syne<s n="vblex"/></l><r>syne<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>synde<s n="vblex"/></l><r>synd<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>synde<s n="vblex"/></l><r>synde<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>synke<s n="vblex"/></l><r>synke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>så<s n="vblex"/></l><r>så<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>turde<s n="vblex"/></l><r>våge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>tagge<s n="vblex"/></l><r>merke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>tapetsere<s n="vblex"/></l><r>papiret<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>tapetsere<s n="vblex"/></l><r>tapetsere<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>telefonere<s n="vblex"/></l><r>ringe<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>testkøre<s n="vblex"/></l><r>test<b/>kjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>testkøre<s n="vblex"/></l><r>testkjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>tie<s n="vblex"/></l><r>tie<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>tilbyde<s n="vblex"/></l><r>tilby<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>tillade<s n="vblex"/></l><r>tillater<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>trække<s n="vblex"/></l><r>dra<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>træde<s n="vblex"/></l><r>framover<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>trætte<s n="vblex"/></l><r>dekk<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>trække<s n="vblex"/></l><r>trekke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>træde<s n="vblex"/></l><r>tre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>trætte<s n="vblex"/></l><r>trette<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>tvinge<s n="vblex"/></l><r>tvinge<s n="vblex"/></r></p><par n="generic__vblex"/></e>
-    <e><p><l>tø<s n="vblex"/></l><r>tøvær<s n="vblex"/></r></p><par n="generic__vblex"/></e>
+    <e><p><l>tø<s n="vblex"/></l><r>tø<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udgøre<s n="vblex"/></l><r>utgjøre<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udlove<s n="vblex"/></l><r>utlove<s n="vblex"/></r></p><par n="generic__vblex"/></e>
     <e><p><l>udtrykke<s n="vblex"/></l><r>uttrykke<s n="vblex"/></r></p><par n="generic__vblex"/></e>
