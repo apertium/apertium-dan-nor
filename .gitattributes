@@ -8,4 +8,5 @@
 /da-nb.prob -text
 dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
+dev/nb-da.test -text
 /modes.xml -text
