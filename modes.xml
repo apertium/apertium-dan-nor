@@ -9,10 +9,12 @@
         <file name="da-nb.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="da-nb.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-da-nb.da-nb.t1x"/>
         <file name="da-nb.t1x.bin"/>
-        <file name="da-nb.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="da-nb.autogen.bin"/>
@@ -41,6 +43,22 @@
     </pipeline>
   </mode>
 
+  <mode name="da-nb-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="da-nb.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="da-nb.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="da-nb.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="da-nb-transfer" install="no">
     <pipeline>
       <program name="lt-proc">
@@ -50,15 +68,17 @@
         <file name="da-nb.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="da-nb.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-da-nb.da-nb.t1x"/>
         <file name="da-nb.t1x.bin"/>
-        <file name="da-nb.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <!-- Bulgarian → Macedonian -->
+  <!-- Norwegian → Danish -->
 
   <mode name="nb-da" install="yes">
     <pipeline>
@@ -68,11 +88,13 @@
       <program name="apertium-tagger -g $2">
         <file name="nb-da.prob"/>
       </program>
+      <program name="lt-proc -b">
+        <file name="nb-da.autobil.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-da-nb.nb-da.t1x"/>
         <file name="nb-da.t1x.bin"/>
-        <file name="nb-da.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="nb-da.autogen.bin"/>
@@ -103,6 +125,22 @@
     </pipeline>
   </mode>
 
+  <mode name="nb-da-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nb-da.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nb-da.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="nb-da-transfer" install="no">
     <pipeline>
       <program name="lt-proc">
@@ -112,10 +150,12 @@
         <file name="nb-da.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="nb-da.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-da-nb.nb-da.t1x"/>
         <file name="nb-da.t1x.bin"/>
-        <file name="nb-da.autobil.bin"/>
       </program>
     </pipeline>
   </mode>

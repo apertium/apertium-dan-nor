@@ -4,7 +4,7 @@ BASENAME=apertium-$(LANG1)-$(LANG2)
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
-all:
+all: modes
 	# Danish -> Bokmål
 
 	lt-comp lr $(BASENAME).$(LANG1).dix $(PREFIX1).automorf.bin
@@ -21,6 +21,7 @@ all:
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $(PREFIX2).t1x.bin
 
+modes: 
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
  
