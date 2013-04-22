@@ -6,6 +6,8 @@
 /apertium-da-nb.nb-da.t1x -text
 /apertium-da-nb.nb.dix -text
 /da-nb.prob -text
+dev/cuento.da.txt -text
+dev/cuento.nb.txt -text
 dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
 dev/nb-da.test -text
