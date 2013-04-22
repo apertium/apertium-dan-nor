@@ -88,10 +88,10 @@
       <program name="apertium-tagger -g $2">
         <file name="nb-da.prob"/>
       </program>
+      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="nb-da.autobil.bin"/>
       </program>
-      <program name="apertium-pretransfer"/>
       <program name="apertium-transfer -b">
         <file name="apertium-da-nb.nb-da.t1x"/>
         <file name="nb-da.t1x.bin"/>
