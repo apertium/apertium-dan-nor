@@ -99,9 +99,6 @@
       <program name="lt-proc $1">
         <file name="nb-da.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="nb-da.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
   
