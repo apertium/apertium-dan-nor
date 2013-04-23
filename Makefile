@@ -18,6 +18,7 @@ all: modes
 	lt-comp lr $(BASENAME).$(LANG2).dix $(PREFIX2).automorf.bin 
 	lt-comp rl $(BASENAME).$(PREFIX1).dix $(PREFIX2).autobil.bin
 	lt-comp rl $(BASENAME).$(LANG1).dix $(PREFIX2).autogen.bin
+	cg-comp $(BASENAME).$(PREFIX2).rlx $(PREFIX2).rlx.bin
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $(PREFIX2).t1x.bin
 

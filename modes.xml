@@ -82,8 +82,11 @@
 
   <mode name="nb-da" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nb-da.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nb-da.prob"/>
@@ -112,8 +115,11 @@
 
   <mode name="nb-da-tagger" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nb-da.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nb-da.prob"/>
@@ -124,8 +130,11 @@
 
   <mode name="nb-da-biltrans" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nb-da.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nb-da.prob"/>
@@ -140,8 +149,11 @@
 
   <mode name="nb-da-transfer" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nb-da.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nb-da.prob"/>
