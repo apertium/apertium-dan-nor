@@ -1,11 +1,11 @@
 * text=auto !eol
 /Makefile -text
-/apertium-da-nb.da-nb.dix -text
 /apertium-da-nb.da-nb.t1x -text
 /apertium-da-nb.da.dix -text
 /apertium-da-nb.nb-da.t1x -text
 /apertium-da-nb.nb.dix -text
 /da-nb.prob -text
+dev/apertium-da-nb.da-nb.dix -text
 dev/cuento.da.txt -text
 dev/cuento.nb.txt -text
 dev/full.nb.dix -text
