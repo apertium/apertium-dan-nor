@@ -2,7 +2,7 @@
 <modes>
   <mode name="da-nb" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="da-nb.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -82,7 +82,7 @@
 
   <mode name="nb-da" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -107,7 +107,7 @@
   
   <mode name="nb-da-morph" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
       </program>
     </pipeline>
@@ -115,7 +115,7 @@
 
   <mode name="nb-da-tagger" install="no">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -130,7 +130,7 @@
 
   <mode name="nb-da-biltrans" install="no">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -149,7 +149,7 @@
 
   <mode name="nb-da-transfer" install="no">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -171,7 +171,7 @@
 
   <mode name="nb-da-debug" install="no">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
