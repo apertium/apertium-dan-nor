@@ -74,10 +74,10 @@
  <!-- Nouns -->
 
 
-    <e><p><l>have<s n="n"/></l>         <r>hage<s n="n"/></r></p></e>
+    <e><p><l>have<s n="n"/><s n="ut"/></l><r>hage<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pige<s n="n"/></l>         <r>pike<s n="n"/></r></p></e>
     <e><p><l>dag<s n="n"/></l>          <r>dag<s n="n"/></r></p></e>
-    <e><p><l>hus<s n="n"/></l>          <r>hus<s n="n"/></r></p></e>
+    <e><p><l>hus<s n="n"/><s n="nt"/></l><r>hus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vejr<s n="n"/></l>          <r>vær<s n="n"/></r></p></e>
     <e><p><l>dreng<s n="n"/></l>         <r>gutt<s n="n"/></r></p></e>
     <e><p><l>år<s n="n"/></l>           <r>år<s n="n"/></r></p></e>
