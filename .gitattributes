@@ -6,6 +6,7 @@
 /apertium-da-nb.nb-da.rlx -text
 /apertium-da-nb.nb-da.t1x -text
 /apertium-da-nb.nb.dix -text
+/apertium-view.sh -text
 /da-nb.prob -text
 dev/apertium-da-nb.da-nb.dix -text
 dev/cuento.da.txt -text
