@@ -68,8 +68,108 @@
     <sdef n="cm"      c="Comma"/>
     <sdef n="clb"       c="Clause boundary"/>
   </sdefs>
-  <section id="main" type="standard"> 
+  <section id="main" type="standard">
     <e><p><l>og<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
- 
+
+ <!-- Nouns -->
+
+
+    <e><p><l>have<s n="n"/></l>         <r>hage<s n="n"/></r></p></e>
+    <e><p><l>pige<s n="n"/></l>         <r>pike<s n="n"/></r></p></e>
+    <e><p><l>dag<s n="n"/></l>          <r>dag<s n="n"/></r></p></e>
+    <e><p><l>hus<s n="n"/></l>          <r>hus<s n="n"/></r></p></e>
+    <e><p><l>vejr<s n="n"/></l>          <r>vær<s n="n"/></r></p></e>
+    <e><p><l>dreng<s n="n"/></l>         <r>gutt<s n="n"/></r></p></e>
+    <e><p><l>år<s n="n"/></l>           <r>år<s n="n"/></r></p></e>
+    <e><p><l>hund<s n="n"/></l>         <r>hund<s n="n"/></r></p></e>
+    <e><p><l>barn<s n="n"/></l>         <r>barn<s n="n"/></r></p></e>
+    <e><p><l>søster<s n="n"/></l>        <r>søster<s n="n"/></r></p></e>
+    <e><p><l>træ<s n="n"/></l>        <r>træ<s n="n"/></r></p></e>
+    <e><p><l>kat<s n="n"/></l>        <r>kat<s n="n"/></r></p></e>
+    <e><p><l>gemme<s n="n"/></l>        <r>gemme<s n="n"/></r></p></e>
+
+
+<!-- Nouns: Proper -->
+ <e><p><l>James<s n="np"/></l>        <r>James<s n="np"/></r></p></e>
+ <e><p><l>Mary<s n="np"/></l>        <r>James<s n="np"/></r></p></e>
+
+
+<!-- Verbs:lexical -->
+ <e><p><l>leke<s n="vblex"/></l>        <r>lege<s n="vblex"/></r></p></e>
+ <e><p><l>elske<s n="vblex"/></l>        <r>elske<s n="vblex"/></r></p></e>
+ <e><p><l>like<s n="vblex"/></l>        <r>lide<s n="vblex"/></r></p></e>
+
+
+<!-- Verbs: modal -->
+ <e><p><l>kunne<s n="vbmod"/></l>        <r>kunne<s n="vbmod"/></r></p></e>
+
+
+<!-- Verbs: copula -->
+ <e><p><l>være<s n="vbser"/></l>        <r>være<s n="vbser"/></r></p></e>
+
+<!-- Verbs: have -->
+ <e><p><l>ha<s n="vbhaver"/></l>             <r>have<s n="vbhaver"/></r></p></e>
+
+
+<!-- Adverbs manner time place -->
+ <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
+ <e><p><l>ute<s n="adv"/></l>           <r>udenfor<s n="adv"/></r></p></e>
+ <e><p><l>nå<s n="adv"/></l>            <r>nu<s n="adv"/></r></p></e>
+ <e><p><l>hvor<s n="adv"/></l>          <r>hvor<s n="adv"/></r></p></e>
+ <e><p><l>går<s n="adv"/></l>           <r>går<s n="adv"/></r></p></e>
+ <e><p><l>da<s n="adv"/></l>            <r>så<s n="adv"/></r></p></e>
+
+<!-- Adverbs sentence adverbs -->
+ <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
+ <e><p><l>alltid<s n="adv"/></l>           <r>altid<s n="adv"/></r></p></e>
+ <e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
+
+<!-- Adverbs intensifiers -->
+ <e><p><l>meget<s n="adv"/></l>            <r>meget<s n="adv"/></r></p></e>
+<e><p><l>veldig<s n="adv"/></l>            <r>meget<s n="adv"/></r></p></e>
+
+<!-- Adjectives -->
+<e><p><l>god<s n="adj"/></l>            <r>god<s n="adj"/></r></p></e>
+<e><p><l>varm<s n="adj"/></l>            <r>varm<s n="adj"/></r></p></e>
+<e><p><l>kald<s n="adj"/></l>            <r>kold<s n="adj"/></r></p></e>
+<e><p><l>glad<s n="adj"/></l>            <r>glad<s n="adj"/></r></p></e>
+<e><p><l>lille<s n="adj"/></l>            <r>lille<s n="adj"/></r></p></e>
+
+<!-- Pronouns -->
+<e><p><l>han<s n="prn"/></l>            <r>han<s n="prn"/></r></p></e>
+<e><p><l>hun<s n="prn"/></l>            <r>hun<s n="prn"/></r></p></e>
+<e><p><l>den<s n="prn"/></l>            <r>den<s n="prn"/></r></p></e>
+<e><p><l>de<s n="prn"/></l>            <r>de<s n="prn"/></r></p></e>
+<e><p><l>det<s n="prn"/></l>            <r>det<s n="prn"/></r></p></e>
+
+
+<!-- Infinitive marker -->
+<e><p><l>at<s n="cnjsub"/></l>            <r>at<s n="cnjsub"/></r></p></e>
+
+<!-- Conjunctions-->
+<e><p><l>og<s n="cnjcoo"/></l>            <r>og<s n="cnjcoo"/></r></p></e>
+<e><p><l>men<s n="cnjcoo"/></l>            <r>men<s n="cnjcoo"/></r></p></e>
+<e><p><l>at<s n="cnjsub"/></l>            <r>at<s n="cnjsub"/></r></p></e>
+<e><p><l>så<s n="cnjsub"/></l>            <r>da<s n="cnjsub"/></r></p></e>
+
+<!--Prepositions-->
+<e><p><l>i<s n="pr"/></l>            <r>i<s n="pr"/></r></p></e>
+<e><p><l>på<s n="pr"/></l>            <r>på<s n="pr"/></r></p></e>
+<e><p><l>foran<s n="pr"/></l>            <r>foran<s n="pr"/></r></p></e>
+<e><p><l>med<s n="pr"/></l>            <r>med<s n="pr"/></r></p></e>
+
+
+<!-- Numerals-->
+<e><p><l>to<s n="num"/></l>            <r>to<s n="num"/></r></p></e>
+<e><p><l>fem<s n="num"/></l>            <r>fem<s n="num"/></r></p></e>
+<e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
+
+<!-- Determiners -->
+<e><p><l>en<s n="det"/></l>            <r>en<s n="det"/></r></p></e>
+<e><p><l>den<s n="det"/></l>            <r>den<s n="det"/></r></p></e>
+<e><p><l>sin<s n="det"/></l>            <r>sin<s n="det"/></r></p></e>
+
+
+
   </section>
 </dictionary>
