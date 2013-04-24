@@ -169,4 +169,30 @@
     </pipeline>
   </mode>
 
+  <mode name="nb-da-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nb-da.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nb-da.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nb-da.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-da-nb.nb-da.t1x"/>
+        <file name="nb-da.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="nb-da.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+
 </modes>
