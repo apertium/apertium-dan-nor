@@ -16,7 +16,9 @@
 
 
    <def-cat n="verb">
-    <cat-item tags="vb.*"/>
+    <cat-item tags="vblex.*"/>
+    <cat-item tags="vbser.*"/>
+    <cat-item tags="vbhaver.*"/>
      </def-cat>
 
 
@@ -63,7 +65,7 @@
 
 
     <def-attr n="a_verb">
-          <attr-item tags="vblex"/>
+    <attr-item tags="vblex"/>
     <attr-item tags="vber"/>
     <attr-item tags="vbhar"/>
     <attr-item tags="vbmod"/>
@@ -165,6 +167,9 @@
       </rule>
 
 
+
+
+<!--TODO    adj det prn   -->
 
 
 
