@@ -95,7 +95,9 @@
 
 
 <pardef n="separa">
-  <e>       <re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+  <e>       <p><l>..</l><r>..<s n="sent"/></r></p></e>
+  <e>       <p><l>...</l><r>...<s n="sent"/></r></p></e>
+  <e>       <re>[.\?;:!…¿¶]</re><p><l></l><r><s n="sent"/></r></p></e>
 </pardef>
 
 <pardef n="coma">
@@ -7156,6 +7158,7 @@
     <!-- Proper nouns -->
 
 <e lm="Ada">             <i>Ada</i><par n="Eva__np"/></e>
+<e lm="Mary">            <i>Mary</i><par n="Eva__np"/></e>
 <e lm="Afrika">          <i>Afrika</i><par n="Danmark__np"/></e>
 <e lm="Amerika">         <i>Amerika</i><par n="Danmark__np"/></e>
 <e lm="Anders">          <i>Anders</i><par n="Anders__np"/></e>

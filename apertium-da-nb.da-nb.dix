@@ -31,6 +31,7 @@
     <sdef n="ord"      c="Ordinal"/>
     <sdef n="def"      c="Definite"/>
     <sdef n="ind"      c="Indefinite"/>
+    <sdef n="ant"      c="Anthroponym"/>
 
     <sdef n="p1"      c="First person"/>
     <sdef n="p2"      c="Second person"/>
@@ -66,6 +67,11 @@
 
     <sdef n="sent"      c="Sentence boundary"/>
     <sdef n="cm"      c="Comma"/>
+    <sdef n="rpar"     c=""/>
+    <sdef n="lpar"     c=""/>
+    <sdef n="rquot"     c=""/>
+    <sdef n="lquot"     c=""/>
+    <sdef n="apos"     c=""/>
     <sdef n="clb"       c="Clause boundary"/>
   </sdefs>
   <section id="main" type="standard">
@@ -90,8 +96,8 @@
 
 
 <!-- Nouns: Proper -->
- <e><p><l>James<s n="np"/></l>        <r>James<s n="np"/></r></p></e>
- <e><p><l>Mary<s n="np"/></l>        <r>Mary<s n="np"/></r></p></e>
+ <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
+ <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/></r></p></e>
 
 
 <!-- Verbs:lexical -->
@@ -105,7 +111,7 @@
 
 
 <!-- Verbs: copula -->
- <e><p><l>være<s n="vbser"/></l>        <r>være<s n="vbser"/></r></p></e>
+ <e><p><l>være<s n="vbser"/></l>        <r>være<s n="vblex"/></r></p></e>
 
 <!-- Verbs: have -->
  <e><p><l>have<s n="vbhaver"/></l>             <r>ha<s n="vbhaver"/></r></p></e>
@@ -118,11 +124,13 @@
  <e><p><l>hvor<s n="adv"/></l>          <r>hvor<s n="adv"/></r></p></e>
  <e><p><l>går<s n="adv"/></l>           <r>går<s n="adv"/></r></p></e>
  <e><p><l>da<s n="adv"/></l>            <r>så<s n="adv"/></r></p></e>
+ <e><p><l>i<b/>går<s n="adv"/></l>        <r>i<b/>går<s n="adv"/></r></p></e>
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
  <e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
  <e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
+
 
 <!-- Adverbs intensifiers -->
 <e><p><l>meget<s n="adv"/></l>            <r>veldig<s n="adv"/></r></p></e>
@@ -168,6 +176,18 @@
 <e><p><l>den<s n="det"/></l>            <r>den<s n="det"/></r></p></e>
 <e><p><l>sin<s n="det"/></l>            <r>sin<s n="det"/></r></p></e>
 
+<!-- Puncutation -->
+
+    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="num"/></r></p></e>
+
+    <e><re>[.\?;:!·…]+</re><p><l><s n="sent"/></l><r><s n="sent"/><s n="clb"/></r></p></e>
+    <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+    <e r="RL"><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/><s n="clb"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
 
 
   </section>

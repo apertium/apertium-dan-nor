@@ -8,6 +8,7 @@
 
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
     </def-cat>
 
    <def-cat n="adj">
@@ -56,6 +57,7 @@
 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="np.ant"/>
     </def-attr>
 
     <def-attr n="a_adj">
@@ -66,41 +68,35 @@
 
     <def-attr n="a_verb">
     <attr-item tags="vblex"/>
-    <attr-item tags="vber"/>
-    <attr-item tags="vbhar"/>
+    <attr-item tags="vbser"/>
+    <attr-item tags="vbhaver"/>
     <attr-item tags="vbmod"/>
-    <attr-item tags="vbaux"/>
-    <attr-item tags="vbs"/>
+    <attr-item tags="vaux"/>
      </def-attr>
 
 
-
-     <def-attr n="a_inf">
-          <attr-item tags="vblex.prs"/>
-    <attr-item tags="vber.prs"/>
-    <attr-item tags="vbhar.prs"/>
-    <attr-item tags="vbmod.prs"/>
-    <attr-item tags="vbaux.prs"/>
-    <attr-item tags="vbs.prs"/>
-
-   </def-attr>
 
    <def-attr n="tense">
       <attr-item tags="inf"/>
       <attr-item tags="imp"/>
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
+      <attr-item tags="pret"/>
     <attr-item tags="pp"/>
     <attr-item tags="pprs"/>
     </def-attr>
-
-
 
     <def-attr n="pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
     </def-attr>
+
+    <def-attr n="a_diatese">
+      <attr-item tags="pasv"/>
+      <attr-item tags="actv"/>
+    </def-attr>
+
 
     <def-attr n="defnes">
       <attr-item tags="ind"/>
@@ -113,6 +109,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="fall"/>
+    <def-var n="diatese"/>
 
   </section-def-vars>
 
@@ -141,6 +138,7 @@
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
+           <let><var n="fall"/><lit v=""/></let>
       </action>
     </rule>
 
@@ -153,16 +151,25 @@
            <pattern-item n="verb"/>
          </pattern>
          <action>
+        <choose>
+          <when><test><equal>
+                <clip pos="1" side="sl" part="a_diatese"/><lit v=""/></equal></test>
+                <let><var n="diatese"/><lit-tag v="actv"/></let></when>
+          <otherwise><let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
+        </choose>
+
 
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_verb"/>
                <clip pos="1" side="tl" part="tense"/>
+               <var n="diatese"/>
             <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
            </out>
+           <let><var n="diatese"/><lit v=""/></let>
          </action>
       </rule>
 
