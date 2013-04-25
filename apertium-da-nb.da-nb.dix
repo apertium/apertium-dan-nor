@@ -74,31 +74,31 @@
  <!-- Nouns -->
 
 
-    <e><p><l>have<s n="n"/><s n="ut"/></l><r>hage<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>pige<s n="n"/></l>         <r>pike<s n="n"/></r></p></e>
-    <e><p><l>dag<s n="n"/></l>          <r>dag<s n="n"/></r></p></e>
-    <e><p><l>hus<s n="n"/><s n="nt"/></l><r>hus<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>vejr<s n="n"/></l>          <r>vær<s n="n"/></r></p></e>
-    <e><p><l>dreng<s n="n"/></l>         <r>gutt<s n="n"/></r></p></e>
-    <e><p><l>år<s n="n"/></l>           <r>år<s n="n"/></r></p></e>
-    <e><p><l>hund<s n="n"/></l>         <r>hund<s n="n"/></r></p></e>
-    <e><p><l>barn<s n="n"/></l>         <r>barn<s n="n"/></r></p></e>
-    <e><p><l>søster<s n="n"/></l>        <r>søster<s n="n"/></r></p></e>
-    <e><p><l>træ<s n="n"/></l>        <r>træ<s n="n"/></r></p></e>
-    <e><p><l>kat<s n="n"/></l>        <r>kat<s n="n"/></r></p></e>
-    <e><p><l>gemme<s n="n"/></l>        <r>gemme<s n="n"/></r></p></e>
+    <e><p><l>have<s n="n"/><s n="ut"/></l>         <r>hage<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pige<s n="n"/><s n="ut"/></l>         <r>pike<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dag<s n="n"/><s n="ut"/></l>          <r>dag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hus<s n="n"/><s n="nt"/></l>          <r>hus<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vejr<s n="n"/><s n="nt"/></l>        <r>vær<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dreng<s n="n"/><s n="ut"/> </l>       <r>gutt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>år<s n="n"/><s n="nt"/></l>          <r>år<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hund<s n="n"/><s n="ut"/></l>         <r>hund<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>barn<s n="n"/><s n="nt"/></l>        <r>barn<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>søster<s n="n"/><s n="ut"/></l>       <r>søster<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>træ<s n="n"/><s n="nt"/></l>         <r>træ<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kat<s n="n"/><s n="ut"/></l>           <r>kat<s n="n"/><s n="m"/></r></p></e>
+
 
 
 <!-- Nouns: Proper -->
  <e><p><l>James<s n="np"/></l>        <r>James<s n="np"/></r></p></e>
- <e><p><l>Mary<s n="np"/></l>        <r>James<s n="np"/></r></p></e>
+ <e><p><l>Mary<s n="np"/></l>        <r>Mary<s n="np"/></r></p></e>
 
 
 <!-- Verbs:lexical -->
- <e><p><l>leke<s n="vblex"/></l>        <r>lege<s n="vblex"/></r></p></e>
+ <e><p><l>lege<s n="vblex"/></l>        <r>leke<s n="vblex"/></r></p></e>
  <e><p><l>elske<s n="vblex"/></l>        <r>elske<s n="vblex"/></r></p></e>
- <e><p><l>like<s n="vblex"/></l>        <r>lide<s n="vblex"/></r></p></e>
-
+ <e><p><l>lide<s n="vblex"/></l>        <r>like<s n="vblex"/></r></p></e>
+<e><p><l>gemme<s n="vblex"/></l>        <r>gemme<s n="vblex"/></r></p></e>
 
 <!-- Verbs: modal -->
  <e><p><l>kunne<s n="vbmod"/></l>        <r>kunne<s n="vbmod"/></r></p></e>
@@ -108,25 +108,24 @@
  <e><p><l>være<s n="vbser"/></l>        <r>være<s n="vbser"/></r></p></e>
 
 <!-- Verbs: have -->
- <e><p><l>ha<s n="vbhaver"/></l>             <r>have<s n="vbhaver"/></r></p></e>
+ <e><p><l>have<s n="vbhaver"/></l>             <r>ha<s n="vbhaver"/></r></p></e>
 
 
 <!-- Adverbs manner time place -->
  <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
- <e><p><l>ute<s n="adv"/></l>           <r>udenfor<s n="adv"/></r></p></e>
- <e><p><l>nå<s n="adv"/></l>            <r>nu<s n="adv"/></r></p></e>
+ <e><p><l>udenfor<s n="adv"/></l>           <r>ute<s n="adv"/></r></p></e>
+ <e><p><l>nu<s n="adv"/></l>            <r>nå<s n="adv"/></r></p></e>
  <e><p><l>hvor<s n="adv"/></l>          <r>hvor<s n="adv"/></r></p></e>
  <e><p><l>går<s n="adv"/></l>           <r>går<s n="adv"/></r></p></e>
  <e><p><l>da<s n="adv"/></l>            <r>så<s n="adv"/></r></p></e>
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
- <e><p><l>alltid<s n="adv"/></l>           <r>altid<s n="adv"/></r></p></e>
+ <e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
  <e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
 
 <!-- Adverbs intensifiers -->
- <e><p><l>meget<s n="adv"/></l>            <r>meget<s n="adv"/></r></p></e>
-<e><p><l>veldig<s n="adv"/></l>            <r>meget<s n="adv"/></r></p></e>
+<e><p><l>meget<s n="adv"/></l>            <r>veldig<s n="adv"/></r></p></e>
 
 <!-- Adjectives -->
 <e><p><l>god<s n="adj"/></l>            <r>god<s n="adj"/></r></p></e>
@@ -165,7 +164,7 @@
 <e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
 
 <!-- Determiners -->
-<e><p><l>en<s n="det"/></l>            <r>en<s n="det"/></r></p></e>
+<e><p><l>en<s n="det"/></l>             <r>en<s n="det"/></r></p></e>
 <e><p><l>den<s n="det"/></l>            <r>den<s n="det"/></r></p></e>
 <e><p><l>sin<s n="det"/></l>            <r>sin<s n="det"/></r></p></e>
 

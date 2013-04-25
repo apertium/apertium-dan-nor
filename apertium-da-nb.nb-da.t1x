@@ -9,34 +9,45 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-   
+
    <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
+
+
+   <def-cat n="verb">
+    <cat-item tags="vb.*"/>
+     </def-cat>
+
+
   </section-def-cats>
-  
+
+
   <section-def-attrs>
-  
+
     <def-attr n="gen">
       <attr-item tags="m"/>
+      <attr-item tags="f"/>
       <attr-item tags="nt"/>
       <attr-item tags="ut"/>
       <attr-item tags="mf"/>
       <attr-item tags="GD"/>
     </def-attr>
- 
+
     <def-attr n="cas">
       <attr-item tags="nom"/>
       <attr-item tags="gen"/>
     </def-attr>
-    
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="sp"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
-        
+
+
+
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
@@ -44,10 +55,44 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
-    
+
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
     </def-attr>
+
+
+
+    <def-attr n="a_verb">
+          <attr-item tags="vblex"/>
+    <attr-item tags="vber"/>
+    <attr-item tags="vbhar"/>
+    <attr-item tags="vbmod"/>
+    <attr-item tags="vbaux"/>
+    <attr-item tags="vbs"/>
+     </def-attr>
+
+
+
+     <def-attr n="a_inf">
+          <attr-item tags="vblex.prs"/>
+    <attr-item tags="vber.prs"/>
+    <attr-item tags="vbhar.prs"/>
+    <attr-item tags="vbmod.prs"/>
+    <attr-item tags="vbaux.prs"/>
+    <attr-item tags="vbs.prs"/>
+
+   </def-attr>
+
+   <def-attr n="tense">
+      <attr-item tags="inf"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+    <attr-item tags="pp"/>
+    <attr-item tags="pprs"/>
+    </def-attr>
+
+
 
     <def-attr n="pers">
       <attr-item tags="p1"/>
@@ -61,24 +106,28 @@
     </def-attr>
 
   </section-def-attrs>
- 
+
+
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="fall"/>
-  </section-def-vars>  
+
+  </section-def-vars>
 
   <section-rules>
-    
+
     <rule comment="RULE: Noun → Noun : ( → )">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
         <choose>
-          <when><test><equal><clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+          <when><test><equal>
+                <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
                 <let><var n="fall"/><lit-tag v="nom"/></let></when>
           <otherwise><let><var n="fall"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
-        </choose> 
+        </choose>
+
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -92,7 +141,36 @@
         </out>
       </action>
     </rule>
-    
+
+
+
+
+
+      <rule>
+         <pattern>
+           <pattern-item n="verb"/>
+         </pattern>
+         <action>
+
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <clip pos="1" side="tl" part="tense"/>
+            <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+         </action>
+      </rule>
+
+
+
+
+
+
+
+
 
 
   </section-rules>
