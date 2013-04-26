@@ -69,12 +69,17 @@
     <attr-item tags="vaux"/>
      </def-attr>
 
-
      <def-attr n="a_adj">
-      <attr-item tags="adj.pst"/>
-      <attr-item tags="adj.comp"/>
-      <attr-item tags="adj.sup"/>
-      <attr-item tags="adj.ssup"/>
+    <attr-item tags="adj"/>
+    <attr-item tags="adj.sint"/>
+     </def-attr>
+
+     <def-attr n="grau">
+      <attr-item tags="pst"/>
+      <attr-item tags="posi"/>
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+      <attr-item tags="ssup"/>
 </def-attr>
 
 
@@ -114,9 +119,6 @@
     <def-var n="number"/>
     <def-var n="fall"/>
     <def-var n="diatese"/>
-    <def-var n="adjcomparison"/>
-    <def-var n="tid"/>
-
 
   </section-def-vars>
 
@@ -173,12 +175,9 @@
       <choose>
           <when><test><equal>
                 <!--  if tag is pret convert to past -->
-                <clip pos="1" side="sl" part="tense"/><lit v="pret"/></equal></test>
-                <let><var n="tid"/><lit-tag v="past"/></let></when>
-          <otherwise> <!--otherwise let variable be the same as the source language-->
-            <let><var n="tid"/><clip pos="1" side="sl" part="tense"/></let></otherwise>
+                <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
+                <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
         </choose>
-
 
         <out>
              <lu>
@@ -186,13 +185,11 @@
                <clip pos="1" side="tl" part="a_verb"/>
                <clip pos="1" side="tl" part="tense"/>
                <var n="diatese"/>
-               <var n="tid"/>
             <clip pos="1" side="tl" part="lemq"/>
              </lu>
            </out>
            <!--purge the variable-->
            <let><var n="diatese"/><lit v=""/></let>
-           <let><var n="tid"/><lit v=""/></let>
          </action>
       </rule>
 
@@ -207,23 +204,20 @@
       <choose>
           <when><test><equal>
                 <!--if the tag is 'posi' change it to 'pst'-->
-                <clip pos="1" side="sl" part="a_adj"/><lit v="*.posi"/></equal></test>
-                <let><var n="adjcomparison"/><lit-tag v="*.pst"/></let></when>
-          <otherwise> <!--otherwise let var n=adjcomparison be the same as the source language-->
-            <let><var n="adjcomparison"/><clip pos="1" side="sl" part="a_adj"/></let></otherwise>
+                <clip pos="1" side="sl" part="grau"/><lit-tag v="posi"/></equal></test>
+                <let><clip pos="1" side="tl" part="grau"/><lit-tag v="pst"/></let></when>
         </choose>
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_adj"/>
+               <clip pos="1" side="tl" part="grau"/>
                <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="nbr"/>
-               <var n="adjcomparison"/>
+               <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="lemq"/>
              </lu>
            </out>
-           <let><var n="adjcomparison"/><lit v=""/></let>
          </action>
       </rule>
 
