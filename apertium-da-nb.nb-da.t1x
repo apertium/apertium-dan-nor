@@ -182,8 +182,6 @@
 
                 <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
                 <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
-          <otherwise> <!--otherwise let variable be the same as the source language-->
-            <let><var n="tid"/><clip pos="1" side="sl" part="tense"/></let></otherwise>
 
         </choose>
 
@@ -215,10 +213,6 @@
 
                 <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
                 <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
-          <otherwise> <!--otherwise let var n=adjcomparison be the same as the source language-->
-            <let><var n="adjcomparison"/><clip pos="1" side="sl" part="grad"/></let></otherwise>
-
-
         </choose>
         <out>
              <lu>
