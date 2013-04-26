@@ -60,11 +60,6 @@
       <attr-item tags="np.ant"/>
     </def-attr>
 
-    <def-attr n="a_adj">
-      <attr-item tags="adj"/>
-    </def-attr>
-
-
 
     <def-attr n="a_verb">
     <attr-item tags="vblex"/>
@@ -75,6 +70,13 @@
      </def-attr>
 
 
+     <def-attr n="a_adj">
+      <attr-item tags="adj.pst"/>
+      <attr-item tags="adj.comp"/>
+      <attr-item tags="adj.sup"/>
+      <attr-item tags="adj.ssup"/>
+</def-attr>
+
 
    <def-attr n="tense">
       <attr-item tags="inf"/>
@@ -82,6 +84,7 @@
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="pret"/>
+
     <attr-item tags="pp"/>
     <attr-item tags="pprs"/>
     </def-attr>
@@ -103,6 +106,7 @@
       <attr-item tags="def"/>
     </def-attr>
 
+
   </section-def-attrs>
 
 
@@ -110,6 +114,9 @@
     <def-var n="number"/>
     <def-var n="fall"/>
     <def-var n="diatese"/>
+    <def-var n="adjcomparison"/>
+    <def-var n="tid"/>
+
 
   </section-def-vars>
 
@@ -122,10 +129,12 @@
       <action>
         <choose>
           <when><test><equal>
+                <!--if the noun has no tag for case, give it the case 'nom'-->
                 <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
                 <let><var n="fall"/><lit-tag v="nom"/></let></when>
           <otherwise><let><var n="fall"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
         </choose>
+
 
         <out>
           <lu>
@@ -146,16 +155,28 @@
 
 
 
-      <rule>
+      <rule comment="VERB -> VERB">
          <pattern>
            <pattern-item n="verb"/>
          </pattern>
          <action>
         <choose>
           <when><test><equal>
+                <!-- when there's theres no diatese tag, let it be active voice -->
                 <clip pos="1" side="sl" part="a_diatese"/><lit v=""/></equal></test>
                 <let><var n="diatese"/><lit-tag v="actv"/></let></when>
-          <otherwise><let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
+
+          <otherwise> <!--otherwise let variable be the same as the source language-->
+            <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
+     </choose>
+
+      <choose>
+          <when><test><equal>
+                <!--  if tag is pret convert to past -->
+                <clip pos="1" side="sl" part="tense"/><lit v="pret"/></equal></test>
+                <let><var n="tid"/><lit-tag v="past"/></let></when>
+          <otherwise> <!--otherwise let variable be the same as the source language-->
+            <let><var n="tid"/><clip pos="1" side="sl" part="tense"/></let></otherwise>
         </choose>
 
 
@@ -165,18 +186,69 @@
                <clip pos="1" side="tl" part="a_verb"/>
                <clip pos="1" side="tl" part="tense"/>
                <var n="diatese"/>
+               <var n="tid"/>
             <clip pos="1" side="tl" part="lemq"/>
-
              </lu>
            </out>
+           <!--purge the variable-->
            <let><var n="diatese"/><lit v=""/></let>
+           <let><var n="tid"/><lit v=""/></let>
          </action>
       </rule>
 
 
 
 
-<!--TODO    adj det prn   -->
+      <rule comment="ADJ -> ADJ">
+         <pattern>
+           <pattern-item n="adj"/>
+         </pattern>
+         <action>
+      <choose>
+          <when><test><equal>
+                <!--if the tag is 'posi' change it to 'pst'-->
+                <clip pos="1" side="sl" part="a_adj"/><lit v="*.posi"/></equal></test>
+                <let><var n="adjcomparison"/><lit-tag v="*.pst"/></let></when>
+          <otherwise> <!--otherwise let var n=adjcomparison be the same as the source language-->
+            <let><var n="adjcomparison"/><clip pos="1" side="sl" part="a_adj"/></let></otherwise>
+        </choose>
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_adj"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="defnes"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <var n="adjcomparison"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </out>
+           <let><var n="adjcomparison"/><lit v=""/></let>
+         </action>
+      </rule>
+
+
+
+
+
+
+
+
+
+<!--TODO
+
+verber i datid  nb past >  da pret
+
+
+
+da
+^lille/liten<adj><posi><sg><def>$
+
+ nb
+^lille/lille<adj><pst><un><sg><ind>/lille<adj><pst><un><sg><def>$
+
+
+-->
 
 
 
