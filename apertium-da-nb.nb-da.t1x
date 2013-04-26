@@ -74,12 +74,16 @@
     <attr-item tags="adj.sint"/>
      </def-attr>
 
-     <def-attr n="grau">
+
+
+
+     <def-attr n="grad">
       <attr-item tags="pst"/>
       <attr-item tags="posi"/>
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
       <attr-item tags="ssup"/>
+
 </def-attr>
 
 
@@ -168,15 +172,19 @@
                 <clip pos="1" side="sl" part="a_diatese"/><lit v=""/></equal></test>
                 <let><var n="diatese"/><lit-tag v="actv"/></let></when>
 
-          <otherwise> <!--otherwise let variable be the same as the source language-->
+            <otherwise> <!--otherwise let variable be the same as the source language-->
             <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
      </choose>
 
       <choose>
           <when><test><equal>
                 <!--  if tag is pret convert to past -->
+
                 <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
                 <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
+          <otherwise> <!--otherwise let variable be the same as the source language-->
+            <let><var n="tid"/><clip pos="1" side="sl" part="tense"/></let></otherwise>
+
         </choose>
 
         <out>
@@ -204,14 +212,22 @@
       <choose>
           <when><test><equal>
                 <!--if the tag is 'posi' change it to 'pst'-->
-                <clip pos="1" side="sl" part="grau"/><lit-tag v="posi"/></equal></test>
-                <let><clip pos="1" side="tl" part="grau"/><lit-tag v="pst"/></let></when>
+
+                <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
+                <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
+          <otherwise> <!--otherwise let var n=adjcomparison be the same as the source language-->
+            <let><var n="adjcomparison"/><clip pos="1" side="sl" part="grad"/></let></otherwise>
+
+
         </choose>
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_adj"/>
-               <clip pos="1" side="tl" part="grau"/>
+
+
+               <clip pos="1" side="tl" part="grad"/>
+
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="defnes"/>
