@@ -124,6 +124,7 @@
     <def-var n="fall"/>
     <def-var n="diatese"/>
 
+
   </section-def-vars>
 
   <section-rules>
@@ -210,23 +211,23 @@
       <choose>
           <when><test><equal>
                 <!--if the tag is 'posi' change it to 'pst'-->
-
                 <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
                 <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
+
+
         </choose>
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_adj"/>
-
-
                <clip pos="1" side="tl" part="grad"/>
-
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="lemq"/>
+
              </lu>
+
            </out>
          </action>
       </rule>
