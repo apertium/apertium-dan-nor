@@ -11,70 +11,71 @@
 <dictionary>
   <alphabet>ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
-    <sdef n="n" 	c="Noun"/> 
-    <sdef n="np" 	c="Proper noun"/> 
-    <sdef n="ut" 	c="Common gender (utrum)"/> 
-    <sdef n="nt" 	c="Neuter"/> 
-    <sdef n="un" 	c="Common and neuter"/> 
-    <sdef n="m" 	c="Masculine"/> 
-    <sdef n="f" 	c="Feminine"/> 
-    <sdef n="mf" 	c="Masculine / feminine"/> 
-    <sdef n="top" 	c="Toponym"/> 
-    <sdef n="ant" 	c="Anthroponym"/> 
-    <sdef n="cog" 	c="Cognomen"/> 
-    <sdef n="al" 	c=""/> 
-    <sdef n="sp" 	c="Singular and plural"/> 
-    <sdef n="sg" 	c="Singular"/> 
-    <sdef n="pl" 	c="Plural"/> 
-    <sdef n="def" 	c="Definite"/> 
-    <sdef n="ind" 	c="Indefinite"/> 
-    <sdef n="qnt" 	c="Quantifier"/> 
-    <sdef n="itg" 	c="Interrogative"/> 
-    <sdef n="dem" 	c="Demonstrative"/> 
-    <sdef n="ord" 	c="Ordinal"/> 
-    <sdef n="nom" 	c="Nominative"/> 
-    <sdef n="gen" 	c="Genitive"/> 
-    <sdef n="vblex" 	c="Lexical (normal) verb"/> 
-    <sdef n="vbmod" 	c="Modal verb"/> 
-    <sdef n="vaux" 	c="Auxiliary verb"/> 
-    <sdef n="vbser" 	c="'To be' verb"/> 
-    <sdef n="vbhaver" 	c="'To have' verb"/> 
-    <sdef n="actv" 	c="Active voice"/> 
-    <sdef n="pasv" 	c="Passive voice"/> 
-    <sdef n="pres" 	c="Present"/> 
-    <sdef n="past" 	c="Past"/> 
-    <sdef n="imp" 	c="Imperfect"/> 
-    <sdef n="inf" 	c="Infinitive"/> 
-    <sdef n="pp" 	c="Past participle"/> 
-    <sdef n="pprs" 	c="Present participle"/> 
-    <sdef n="prn" 	c="Pronoun"/> 
-    <sdef n="rel" 	c="Relative pronoun"/> 
-    <sdef n="ref" 	c="Reflexive pronoun"/> 
-    <sdef n="nom" 	c="Subject"/> 
-    <sdef n="acc" 	c="Object"/> 
-    <sdef n="det" /> 
-    <sdef n="p1" 	c="First person"/> 
-    <sdef n="p2" 	c="Second person"/> 
-    <sdef n="p3" 	c="Third person"/> 
-    <sdef n="pos" 	c="Possesive"/> 
-    <sdef n="pst" 	c="Positive"/> 
-    <sdef n="comp" 	c="Comparative"/> 
-    <sdef n="sup" 	c="Superlative"/> 
-    <sdef n="ssup" 	c="Super-superlative"/> 
-    <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/> 
-    <sdef n="cnjsub" 	c="Sub-ordinating conjunction"/> 
-    <sdef n="cnjadv" /> 
-    <sdef n="pr" 	c="Preposition"/> 
-    <sdef n="ij" 	c="Interjection"/> 
-    <sdef n="num" 	c="Numbers"/> 
-    <sdef n="adv" 	c="Adverb"/> 
-    <sdef n="preadv" 	c="Preadverbial"/> 
-    <sdef n="adj" 	c="Adjective"/> 
-    <sdef n="pas" 	c="Passive"/> 
-    <sdef n="sent" 	c="End of sentence"/> 
-    <sdef n="cm" 	c="Comma"/> 
-    <sdef n="lpar" 	c="Left parenthesis ("/> 
-    <sdef n="rpar" 	c="Right parenthesis )"/> 
+    <sdef n="n" 	c="Noun"/>
+    <sdef n="np" 	c="Proper noun"/>
+    <sdef n="ut" 	c="Common gender (utrum)"/>
+    <sdef n="nt" 	c="Neuter"/>
+    <sdef n="un" 	c="Common and neuter"/>
+    <sdef n="m" 	c="Masculine"/>
+    <sdef n="f" 	c="Feminine"/>
+    <sdef n="mf" 	c="Masculine / feminine"/>
+    <sdef n="top" 	c="Toponym"/>
+    <sdef n="ant" 	c="Anthroponym"/>
+    <sdef n="cog" 	c="Cognomen"/>
+    <sdef n="al" 	c=""/>
+    <sdef n="sp" 	c="Singular and plural"/>
+    <sdef n="sg" 	c="Singular"/>
+    <sdef n="pl" 	c="Plural"/>
+    <sdef n="def" 	c="Definite"/>
+    <sdef n="ind" 	c="Indefinite"/>
+    <sdef n="qnt" 	c="Quantifier"/>
+    <sdef n="itg" 	c="Interrogative"/>
+    <sdef n="dem" 	c="Demonstrative"/>
+    <sdef n="ord" 	c="Ordinal"/>
+    <sdef n="nom" 	c="Nominative"/>
+    <sdef n="gen" 	c="Genitive"/>
+    <sdef n="vblex" 	c="Lexical (normal) verb"/>
+    <sdef n="vbmod" 	c="Modal verb"/>
+    <sdef n="vaux" 	c="Auxiliary verb"/>
+    <sdef n="vbser" 	c="'To be' verb"/>
+    <sdef n="vbhaver" 	c="'To have' verb"/>
+    <sdef n="actv" 	c="Active voice"/>
+    <sdef n="pasv" 	c="Passive voice"/>
+    <sdef n="pres" 	c="Present"/>
+    <sdef n="past" 	c="Past"/>
+    <sdef n="imp" 	c="Imperfect"/>
+    <sdef n="inf" 	c="Infinitive"/>
+    <sdef n="pp" 	c="Past participle"/>
+    <sdef n="pprs" 	c="Present participle"/>
+    <sdef n="prn" 	c="Pronoun"/>
+    <sdef n="rel" 	c="Relative pronoun"/>
+    <sdef n="ref" 	c="Reflexive pronoun"/>
+    <sdef n="nom" 	c="Subject"/>
+    <sdef n="acc" 	c="Object"/>
+    <sdef n="det" />
+    <sdef n="p1" 	c="First person"/>
+    <sdef n="p2" 	c="Second person"/>
+    <sdef n="p3" 	c="Third person"/>
+    <sdef n="pos" 	c="Possesive"/>
+    <sdef n="pst" 	c="Positive"/>
+    <sdef n="comp" 	c="Comparative"/>
+    <sdef n="sup" 	c="Superlative"/>
+    <sdef n="ssup" 	c="Super-superlative"/>
+    <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub" 	c="Sub-ordinating conjunction"/>
+    <sdef n="cnjadv" />
+    <sdef n="pr" 	c="Preposition"/>
+    <sdef n="ij" 	c="Interjection"/>
+    <sdef n="num" 	c="Numbers"/>
+    <sdef n="adv" 	c="Adverb"/>
+    <sdef n="preadv" 	c="Preadverbial"/>
+    <sdef n="adj" 	c="Adjective"/>
+    <sdef n="pas" 	c="Passive"/>
+    <sdef n="sent" 	c="End of sentence"/>
+    <sdef n="cm" 	c="Comma"/>
+    <sdef n="lpar" 	c="Left parenthesis ("/>
+    <sdef n="rpar" 	c="Right parenthesis )"/>
+    <sdef n="part"  c="Participle (infinitive)"/>
   </sdefs>
   <pardefs>
 
@@ -432,6 +433,12 @@
 
     <!-- Adverbs -->
 
+
+<pardef n="at__part">
+  <e>       <p><l></l>          <r><s n="part"/></r></p></e>
+</pardef>
+
+
 <pardef n="mere__preadv">
   <e>       <p><l></l>          <r><s n="preadv"/></r></p></e>
 </pardef>
@@ -633,6 +640,9 @@
 <pardef n="ak__ij">
   <e>       <p><l></l>          <r><s n="ij"/></r></p></e>
 </pardef>
+
+
+
 
 
     <!-- Pronouns -->
@@ -6762,6 +6772,7 @@
 <e lm="farlig">          <i>farlig</i><par n="lykkelig__adj"/></e>
 <e lm="fast">            <i>fast</i><par n="amerikansk__adj"/></e>
 <e lm="fattig">          <i>fattig</i><par n="lykkelig__adj"/></e>
+<e lm="fin">              <i>fin</i><par n="lykkelig__adj"/></e>
 <e lm="finsk">           <i>finsk</i><par n="amerikansk__adj"/></e>
 <e lm="flad">            <i>flad</i><par n="rund__adj"/></e>
 <e lm="flittig">         <i>flittig</i><par n="aktiv__adj"/></e>

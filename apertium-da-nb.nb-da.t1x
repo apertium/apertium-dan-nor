@@ -15,6 +15,29 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
+    <def-cat n="pr">
+      <cat-item tags="pr"/>
+    </def-cat>
+
+    <def-cat n="part"> <!-- Participle (infinitive) -->
+
+      <cat-item tags="part"/>
+    </def-cat>
+
+    <def-cat n="prn">
+      <cat-item tags="prn.def.*"/>
+      <cat-item tags="prn.ind.*"/>
+    </def-cat>
+
+
+   <def-cat n="adv">
+      <cat-item tags="adv"/>
+    </def-cat>
+
+ <def-cat n="det">
+      <cat-item tags="det.*"/>
+    </def-cat>
+
 
    <def-cat n="verb">
     <cat-item tags="vblex.*"/>
@@ -50,9 +73,12 @@
     </def-attr>
 
 
-
     <def-attr n="a_num">
       <attr-item tags="num"/>
+    </def-attr>
+
+<def-attr n="a_part">
+      <attr-item tags="part"/>
     </def-attr>
 
     <def-attr n="a_nom">
@@ -60,6 +86,19 @@
       <attr-item tags="np.ant"/>
     </def-attr>
 
+ <def-attr n="a_det">
+      <attr-item tags="det.def"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.pos"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="det.ord"/>
+      <attr-item tags="det.qnt"/>
+    </def-attr>
+
+  <def-attr n="a_prn">
+      <attr-item tags="prn.def"/>
+      <attr-item tags="prn.ind"/>
+    </def-attr>
 
     <def-attr n="a_verb">
     <attr-item tags="vblex"/>
@@ -75,7 +114,15 @@
      </def-attr>
 
 
+  <def-attr n="a_adv">
+    <attr-item tags="adv"/>
+    <attr-item tags="adj.*"/>
+     </def-attr>
 
+     <def-attr n="a_pr">
+    <attr-item tags="pr"/>
+    <attr-item tags="pr.*"/>
+     </def-attr>
 
      <def-attr n="grad">
       <attr-item tags="pst"/>
@@ -87,15 +134,15 @@
 </def-attr>
 
 
+
    <def-attr n="tense">
       <attr-item tags="inf"/>
       <attr-item tags="imp"/>
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="pret"/>
-
-    <attr-item tags="pp"/>
-    <attr-item tags="pprs"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="pprs"/>
     </def-attr>
 
     <def-attr n="pers">
@@ -122,7 +169,8 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="fall"/>
-    <def-var n="diatese"/>
+     <def-var n="køn"/>
+     <def-var n="diatese"/>
 
 
   </section-def-vars>
@@ -179,8 +227,7 @@
 
       <choose>
           <when><test><equal>
-                <!--  if tag is pret convert to past -->
-
+                <!--  if tag is 'pret' convert to 'past' -->
                 <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
                 <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
 
@@ -213,9 +260,20 @@
                 <!--if the tag is 'posi' change it to 'pst'-->
                 <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
                 <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
-
-
         </choose>
+
+        <!-- TODO if source language adj has no gender tag , tag it 'un' (common and neuter)
+        <choose>
+          <when><test><equal>
+                <clip pos="1" side="sl" part="gen"/><lit v=""/></equal></test>
+                <let><var n="køn"/><lit-tag v="un"/></let></when>
+                    <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+                    </otherwise>
+
+        </choose>-->
+
+
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -224,10 +282,66 @@
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="defnes"/>
+               <var n="køn"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
+           </out>
+           <let><var n="køn"/><lit v=""/></let>
+         </action>
+      </rule>
 
+
+
+
+      <rule comment="ADV -> ADV">
+         <pattern>
+           <pattern-item n="adv"/>
+         </pattern>
+         <action>
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_adv"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+         </action>
+      </rule>
+
+  <rule comment="DET -> DET">
+         <pattern>
+           <pattern-item n="det"/>
+         </pattern>
+         <action>
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_det"/>
+               <clip pos="1" side="tl" part="defnes"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+         </action>
+      </rule>
+
+
+
+      <rule comment="PR-> PR">
+         <pattern>
+           <pattern-item n="pr"/>
+         </pattern>
+         <action>
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_pr"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
            </out>
          </action>
       </rule>
@@ -237,20 +351,36 @@
 
 
 
-
-
-
 <!--TODO
 
-verber i datid  nb past >  da pret
+
+
+lider > kan lide at
 
 
 
-da
-^lille/liten<adj><posi><sg><def>$
+un pl not showing up?
+^store/stor<adj><posi><pl>/stor<adj><posi><sg><def>$
 
- nb
-^lille/lille<adj><pst><un><sg><ind>/lille<adj><pst><un><sg><def>$
+^store/stor<adj><pst><un><pl><ind>/stor<adj><pst><un><sp><def>$
+
+
+hvor blev det @av ham? > hvor blev han af?
+
+N poss pron > poss pron N
+
+
+fix determines
+
+noe?
+
+gjøre > gøre eller lave?
+
+Placement of preposition in idiomatic expressions. Less movement in nb?
+
+
+
+determiners ? make the bidix entry have <det><def>:<det><dem>
 
 
 -->

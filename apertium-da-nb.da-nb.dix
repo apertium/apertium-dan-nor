@@ -15,6 +15,7 @@
     <sdef n="vbmod"      c="Modal verb"/>
     <sdef n="vbser"      c="Verb 'to be'"/>
     <sdef n="vbhaver"   c="Verb 'to have'"/>
+    <sdef n="ij"  c="Interjection"/>
 
     <sdef n="sg"     c="Singular"/>
     <sdef n="pl"     c="Plural"/>
@@ -61,9 +62,10 @@
     <sdef n="pasv"     c="Passive voice (Danish)"/>
     <sdef n="pass"     c="Passive voice (Bokmål)"/>
     <sdef n="pprs"      c="Present participle"/>
-
+      <sdef n="part"  c="Participle (infinitive)"/>
     <sdef n="GD"        c="Gender to be determined"/>
     <sdef n="ND"        c="Number to be determined"/>
+
 
     <sdef n="sent"      c="Sentence boundary"/>
     <sdef n="cm"      c="Comma"/>
@@ -81,7 +83,7 @@
 
 
     <e><p><l>have<s n="n"/><s n="ut"/></l>         <r>hage<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>pige<s n="n"/><s n="ut"/></l>         <r>pike<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pige<s n="n"/><s n="ut"/></l>         <r>pike<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dag<s n="n"/><s n="ut"/></l>          <r>dag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hus<s n="n"/><s n="nt"/></l>          <r>hus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vejr<s n="n"/><s n="nt"/></l>        <r>vær<s n="n"/><s n="nt"/></r></p></e>
@@ -90,9 +92,16 @@
     <e><p><l>hund<s n="n"/><s n="ut"/></l>         <r>hund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>barn<s n="n"/><s n="nt"/></l>        <r>barn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>søster<s n="n"/><s n="ut"/></l>       <r>søster<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>træ<s n="n"/><s n="nt"/></l>         <r>træ<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>kat<s n="n"/><s n="ut"/></l>           <r>kat<s n="n"/><s n="m"/></r></p></e>
-
+    <e><p><l>træ<s n="n"/><s n="nt"/></l>         <r>tre<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kat<s n="n"/><s n="ut"/></l>           <r>katt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hus<s n="n"/><s n="nt"/></l>           <r>hus<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bord<s n="n"/><s n="nt"/></l>           <r>bord<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stol<s n="n"/><s n="ut"/></l>           <r>stol<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hoved<s n="n"/><s n="nt"/></l>           <r>hode<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hand<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>vindue<s n="n"/><s n="nt"/></l>           <r>vindu<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>leg<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="m"/></r></p></e>
 
 
 <!-- Nouns: Proper -->
@@ -104,32 +113,71 @@
  <e><p><l>lege<s n="vblex"/></l>        <r>leke<s n="vblex"/></r></p></e>
  <e><p><l>elske<s n="vblex"/></l>        <r>elske<s n="vblex"/></r></p></e>
  <e><p><l>lide<s n="vblex"/></l>        <r>like<s n="vblex"/></r></p></e>
-<e><p><l>gemme<s n="vblex"/></l>        <r>gemme<s n="vblex"/></r></p></e>
+<e><p><l>gemme<s n="vblex"/></l>        <r>gjemme<s n="vblex"/></r></p></e>
+<e><p><l>gå<s n="vblex"/></l>               <r>gå<s n="vblex"/></r></p></e>
+<e><p><l>forsøge<s n="vblex"/></l>        <r>forsøke<s n="vblex"/></r></p></e>
+<e><p><l>kigge<s n="vblex"/></l>           <r>titte<s n="vblex"/></r></p></e>
+<e><p><l>se<s n="vblex"/></l>           <r>se<s n="vblex"/></r></p></e>
+<e><p><l>sove<s n="vblex"/></l>           <r>sove<s n="vblex"/></r></p></e>
+<e><p><l>gøre<s n="vblex"/></l>           <r>gjøre<s n="vblex"/></r></p></e>
+<e><p><l>spørge<s n="vblex"/></l>           <r>spørre<s n="vblex"/></r></p></e>
+<e><p><l>løbe<s n="vblex"/></l>           <r>løpe<s n="vblex"/></r></p></e>
+<e><p><l>vide<s n="vblex"/></l>           <r>vite<s n="vblex"/></r></p></e>
+<e><p><l>finde<s n="vblex"/></l>           <r>finne<s n="vblex"/></r></p></e>
+<e><p><l>drikke<s n="vblex"/></l>           <r>drikke<s n="vblex"/></r></p></e>
+<e><p><l>få<s n="vblex"/></l>               <r>få<s n="vblex"/></r></p></e>
+<e><p><l>tælle<s n="vblex"/></l>           <r>telle<s n="vblex"/></r></p></e>
+<e><p><l>fortælle<s n="vblex"/></l>        <r>fortelle<s n="vblex"/></r></p></e>
+<e><p><l>lede<s n="vblex"/></l>           <r>lete<s n="vblex"/></r></p></e>
+<e><p><l>sove<s n="vblex"/></l>           <r>sove<s n="vblex"/></r></p></e>
+<e><p><l>sidde<s n="vblex"/></l>           <r>sitte<s n="vblex"/></r></p></e>
+<e><p><l>blive<s n="vblex"/></l>           <r>bli<s n="vblex"/></r></p></e>
+<e><p><l>snakke<s n="vblex"/></l>           <r>snakke<s n="vblex"/></r></p></e>
+<e><p><l>sige<s n="vblex"/></l>           <r>si<s n="vblex"/></r></p></e>
+<e><p><l>høre<s n="vblex"/></l>           <r>høre<s n="vblex"/></r></p></e>
+<e><p><l>le<s n="vblex"/></l>           <r>le<s n="vblex"/></r></p></e>
+
+
 
 <!-- Verbs: modal -->
  <e><p><l>kunne<s n="vbmod"/></l>        <r>kunne<s n="vbmod"/></r></p></e>
+<e><p><l>måtte<s n="vbmod"/></l>        <r>måtte<s n="vbmod"/></r></p></e>
+<e><p><l>skulle<s n="vbmod"/></l>        <r>skulle<s n="vbmod"/></r></p></e>
+<e><p><l>ville<s n="vbmod"/></l>        <r>ville<s n="vbmod"/></r></p></e>
 
 
 <!-- Verbs: copula -->
  <e><p><l>være<s n="vbser"/></l>        <r>være<s n="vblex"/></r></p></e>
 
 <!-- Verbs: have -->
- <e><p><l>have<s n="vbhaver"/></l>             <r>ha<s n="vbhaver"/></r></p></e>
+ <e><p><l>have<s n="vbhaver"/></l>             <r>ha<s n="vblex"/></r></p></e>
 
 
 <!-- Adverbs manner time place -->
  <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
- <e><p><l>udenfor<s n="adv"/></l>           <r>ute<s n="adv"/></r></p></e>
+ <e><p><l>udenfor<s n="adv"/></l>       <r>ute<s n="adv"/></r></p></e>
  <e><p><l>nu<s n="adv"/></l>            <r>nå<s n="adv"/></r></p></e>
  <e><p><l>hvor<s n="adv"/></l>          <r>hvor<s n="adv"/></r></p></e>
  <e><p><l>går<s n="adv"/></l>           <r>går<s n="adv"/></r></p></e>
- <e><p><l>da<s n="adv"/></l>            <r>så<s n="adv"/></r></p></e>
+ <e><p><l>så<s n="adv"/></l>            <r>så<s n="adv"/></r></p></e>
  <e><p><l>i<b/>går<s n="adv"/></l>        <r>i<b/>går<s n="adv"/></r></p></e>
+
+  <e><p><l>udenfor<s n="adv"/></l>        <r>utenfor<s n="adv"/></r></p></e>
+  <e><p><l>i<b/>dag<s n="adv"/></l>        <r>i<b/>i<b/>dag<s n="adv"/></r></p></e>
+  <e><p><l>hvad<s n="adv"/></l>        <r>hva<s n="adv"/></r></p></e>
+  <e><p><l>hvorfor<s n="adv"/></l>        <r>hvorfor<s n="adv"/></r></p></e>
+   <e><p><l>stadig<s n="adv"/></l>        <r>fremdeles<s n="adv"/></r></p></e>
+   <e><p><l>så<s n="adv"/></l>        <r>da<s n="adv"/></r></p></e>
+    <e><p><l>igen<s n="adv"/></l>        <r>igjen<s n="adv"/></r></p></e>
+
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
  <e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
  <e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
+
+<!-- Infinitive participle -->
+  <e><p><l>at<s n="part"/></l>            <r>å<s n="part"/></r></p></e>
 
 
 <!-- Adverbs intensifiers -->
@@ -138,9 +186,22 @@
 <!-- Adjectives -->
 <e><p><l>god<s n="adj"/></l>            <r>god<s n="adj"/></r></p></e>
 <e><p><l>varm<s n="adj"/></l>            <r>varm<s n="adj"/></r></p></e>
-<e><p><l>kald<s n="adj"/></l>            <r>kold<s n="adj"/></r></p></e>
+<e><p><l>kold<s n="adj"/></l>            <r>kald<s n="adj"/></r></p></e>
 <e><p><l>glad<s n="adj"/></l>            <r>glad<s n="adj"/></r></p></e>
 <e><p><l>lille<s n="adj"/></l>            <r>lille<s n="adj"/></r></p></e>
+<e><p><l>fin<s n="adj"/></l>            <r>fin<s n="adj"/></r></p></e>
+<e><p><l>stor<s n="adj"/></l>            <r>stor<s n="adj"/></r></p></e>
+<e><p><l>rigtig<s n="adj"/></l>            <r>veldig<s n="adj"/></r></p></e>
+<e><p><l>lille<s n="adj"/></l>            <r>liten<s n="adj"/></r></p></e>
+<e><p><l>nogen<s n="adj"/></l>            <r>noe<s n="adj"/></r></p></e>
+<e><p><l>glad<s n="adj"/></l>            <r>lykkelig<s n="adj"/></r></p></e>
+<e><p><l>gammel<s n="adj"/></l>            <r>gammel<s n="adj"/></r></p></e>
+<e><p><l>stille<s n="adj"/></l>            <r>sakte<s n="adj"/></r></p></e>
+<e><p><l>færdig<s n="adj"/></l>            <r>ferdig<s n="adj"/></r></p></e>
+<e><p><l>hurtig<s n="adj"/></l>            <r>fort<s n="adj"/></r></p></e>
+
+
+
 
 <!-- Pronouns -->
 <e><p><l>han<s n="prn"/></l>            <r>han<s n="prn"/></r></p></e>
@@ -148,10 +209,8 @@
 <e><p><l>den<s n="prn"/></l>            <r>den<s n="prn"/></r></p></e>
 <e><p><l>de<s n="prn"/></l>            <r>de<s n="prn"/></r></p></e>
 <e><p><l>det<s n="prn"/></l>            <r>det<s n="prn"/></r></p></e>
+<e><p><l>sig<s n="prn"/></l>            <r>seg<s n="prn"/></r></p></e>
 
-
-<!-- Infinitive marker -->
-<e><p><l>at<s n="cnjsub"/></l>            <r>at<s n="cnjsub"/></r></p></e>
 
 <!-- Conjunctions-->
 <e><p><l>og<s n="cnjcoo"/></l>            <r>og<s n="cnjcoo"/></r></p></e>
@@ -164,6 +223,14 @@
 <e><p><l>på<s n="pr"/></l>            <r>på<s n="pr"/></r></p></e>
 <e><p><l>foran<s n="pr"/></l>            <r>foran<s n="pr"/></r></p></e>
 <e><p><l>med<s n="pr"/></l>            <r>med<s n="pr"/></r></p></e>
+<e><p><l>ude<s n="pr"/></l>            <r>ute<s n="pr"/></r></p></e>
+<e><p><l>udenfor<s n="pr"/></l>            <r>utenfor<s n="pr"/></r></p></e>
+<e><p><l>bag<s n="pr"/></l>            <r>bak<s n="pr"/></r></p></e>
+<e><p><l>gennem<s n="pr"/></l>            <r>gjennom<s n="pr"/></r></p></e>
+<e><p><l>inde<s n="pr"/></l>            <r>inne<s n="pr"/></r></p></e>
+<e><p><l>efter<s n="pr"/></l>            <r>etter<s n="pr"/></r></p></e>
+<e><p><l>ved<s n="pr"/></l>            <r>nær<s n="pr"/></r></p></e>
+
 
 
 <!-- Numerals-->
@@ -175,6 +242,15 @@
 <e><p><l>en<s n="det"/></l>             <r>en<s n="det"/></r></p></e>
 <e><p><l>den<s n="det"/></l>            <r>den<s n="det"/></r></p></e>
 <e><p><l>sin<s n="det"/></l>            <r>sin<s n="det"/></r></p></e>
+
+ <!-- Interjections -->
+<e><p><l>nej<s n="ij"/></l>            <r>nei<s n="ij"/></r></p></e>
+<e><p><l>ja<s n="ij"/></l>            <r>ja<s n="ij"/></r></p></e>
+
+ <!-- Interrogativer -->
+<e><p><l>hvorfor<s n="ij"/></l>            <r>hvorfor<s n="ij"/></r></p></e>
+<e><p><l>hvem<s n="ij"/></l>            <r>hvem<s n="ij"/></r></p></e>
+
 
 <!-- Puncutation -->
 
