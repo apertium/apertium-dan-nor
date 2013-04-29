@@ -274,16 +274,17 @@
 
 
             </choose>
-      <!-- TODO if source language adj sg def tag it sp def -->
+        <!-- TODO if source language adj <sg> <def> tag it <sp> <def> -->
 
              <choose>
             <when><test>
               <and>
               <equal>
-                <clip pos="1" side="sl" part="nbr"/><lit-tag="sg"/></equal>
+                <clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 
                 <equal>
-                <clip pos="1" side="sl" part="defnes"/><lit-tag="def"/></equal></and>
+                <clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+                </and>
                 </test>
 
                 <let><var n="tal"/><lit-tag v="sp"/></let></when>
@@ -310,6 +311,7 @@
              </lu>
            </out>
            <let><var n="køn"/><lit v=""/></let>
+            <let><var n="tal"/><lit v=""/></let>
          </action>
       </rule>
 
