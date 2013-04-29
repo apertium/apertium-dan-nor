@@ -3,6 +3,13 @@ PAIR=$2
 OUT=testvoc-summary.$PAIR.txt
 POS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv prn rel vaux vbhaver vblex vbser vbmod"
 
+# for macs / computers without 'apcalc'
+which calc > /dev/null
+CALC=calc
+if [[ $? -eq 1 ]]; then
+	CALC=bc
+fi
+
 echo -n "" > $OUT;
 
 date >> $OUT
@@ -58,14 +65,29 @@ for i in $POS; do
 		AT=`cat $INC | grep "<$i>" | grep '@'  | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v REGEX |  wc -l`;
 	fi
-	UNCLEAN=`calc $AT+$HASH`;
-	CLEAN=`calc $TOTAL-$UNCLEAN`;
-	PERCLEAN=`calc $UNCLEAN/$TOTAL*100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+
+
+	if [[ $CALC == "bc" ]]; then
+		UNCLEAN=`echo $AT+$HASH | bc -l`;
+		CLEAN=`echo $TOTAL-$UNCLEAN | bc -l`;
+		PERCLEAN=`echo $UNCLEAN/$TOTAL*100 | bc -l 2>/dev/null | sed 's/^\./0./g' | head -c 5`;
+	else
+		UNCLEAN=`calc $AT+$HASH`;
+		CLEAN=`calc $TOTAL-$UNCLEAN`;
+		PERCLEAN=`calc $UNCLEAN/$TOTAL*100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+	fi
+
 	echo $PERCLEAN | grep "Err" > /dev/null;
 	if [ $? -eq 0 ]; then
 		TOTPERCLEAN="100";
+	elif [[ $PERCLEAN == "" ]]; then
+		TOTPERCLEAN="100";
 	else
-		TOTPERCLEAN=`calc 100-$PERCLEAN | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+		if [[ $CALC == "bc" ]]; then
+			TOTPERCLEAN=`echo 100-$PERCLEAN | bc -l | sed 's/^\./0./g' | head -c 5`;
+		else
+			TOTPERCLEAN=`calc 100-$PERCLEAN | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+		fi
 	fi
 
 	echo -e $TOTAL";"$i";"$CLEAN";"$AT";"$HASH";"$TOTPERCLEAN;
