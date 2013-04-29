@@ -340,16 +340,28 @@
            <pattern-item n="det"/>
          </pattern>
          <action>
+            <!-- TODO  gender -->
+        <choose>
+          <when>
+            <test><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal></test>
+                <let><var n="køn"/><lit-tag v="ut"/></let></when>
+                    <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+                    </otherwise>
+            </choose>
+
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_det"/>
-               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="køn"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
            </out>
+            <let><var n="køn"/><lit v=""/></let>
          </action>
       </rule>
 
@@ -368,6 +380,7 @@
 
              </lu>
            </out>
+
          </action>
       </rule>
 
@@ -417,6 +430,8 @@ nb: det/den<det><dem><nt><sg>
 da: det/den<det><def><nt><sg>
 
 ''
+
+, and in the adjective, <mf> needs to go to <un>
 
 AMBIGUITY
 
