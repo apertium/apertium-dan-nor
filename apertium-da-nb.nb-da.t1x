@@ -171,6 +171,7 @@
     <def-var n="fall"/>
      <def-var n="køn"/>
      <def-var n="diatese"/>
+     <def-var n="tal"/>
 
 
   </section-def-vars>
@@ -271,7 +272,28 @@
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
                     </otherwise>
 
+
+            </choose>
+      <!-- TODO if source language adj sg def tag it sp def -->
+
+             <choose>
+            <when><test>
+              <and>
+              <equal>
+                <clip pos="1" side="sl" part="nbr"/><lit-tag="sg"/></equal>
+
+                <equal>
+                <clip pos="1" side="sl" part="defnes"/><lit-tag="def"/></equal></and>
+                </test>
+
+                <let><var n="tal"/><lit-tag v="sp"/></let></when>
+                    <otherwise>
+                      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
+                    </otherwise>
+
         </choose>
+
+
 
 
         <out>
@@ -281,7 +303,7 @@
                <clip pos="1" side="tl" part="grad"/>
                <!--<clip pos="1" side="tl" part="gen"/>-->
                <var n="køn"/>
-               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="tal"/>
                <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="lemq"/>
 
@@ -353,11 +375,18 @@
 
 <!--TODO
 
-
-
+EXPANSIONS
 lider > kan lide at
 
+TRANSFER
 
+N poss pron > poss pron N
+
+hvor blev det @av ham? > hvor blev han af?
+
+noe?
+
+ADJECTIVES
 
 un pl not showing up?
 ^store/stor<adj><posi><pl>/stor<adj><posi><sg><def>$
@@ -365,24 +394,31 @@ un pl not showing up?
 ^store/stor<adj><pst><un><pl><ind>/stor<adj><pst><un><sp><def>$
 
 
-hvor blev det @av ham? > hvor blev han af?
+DETERMINER PROBLEMS
+en
+nb:  en<det><qnt><m><sg>/en<det><qnt><m><sg><ind>
+da:  en<det><ind><ut><sg>$
 
-N poss pron > poss pron N
+den
+nb : den/den<det><dem><m><sg>/den<det><dem><f><sg>
+da : den/den<det><def><ut><sg>
+
+det
+da: det/den<det><def><nt><sg>/det<prn><p3><nt><sg><nom>
+nb: det/den<det><dem><nt><sg>
 
 
-fix determines
-
-noe?
+AMBIGUITY
 
 gjøre > gøre eller lave?
 
 Placement of preposition in idiomatic expressions. Less movement in nb?
 
 
-
 determiners ? make the bidix entry have <det><def>:<det><dem>
 
 
+'da' in the end of sentence > så + INVERSION
 -->
 
 
