@@ -38,7 +38,6 @@
       <cat-item tags="det.*"/>
     </def-cat>
 
-
    <def-cat n="verb">
     <cat-item tags="vblex.*"/>
     <cat-item tags="vbser.*"/>
@@ -217,9 +216,12 @@
          </pattern>
          <action>
         <choose>
-          <when><test><equal>
-                <!-- when there's theres no diatese tag, let it be active voice -->
-                <clip pos="1" side="sl" part="a_diatese"/><lit v=""/></equal></test>
+          <when><test><and><equal>
+                <!-- when there's theres no diatese tag and it isn't a pastpart or imp, let it be active voice -->
+                <clip pos="1" side="sl" part="a_diatese"/><lit v=""/></equal>
+                <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="pp"/></equal></not>
+                <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="imp"/></equal></not>
+                </and></test>
                 <let><var n="diatese"/><lit-tag v="actv"/></let></when>
 
             <otherwise> <!--otherwise let variable be the same as the source language-->
