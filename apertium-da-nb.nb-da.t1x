@@ -304,7 +304,8 @@
                <clip pos="1" side="tl" part="grad"/>
                <!--<clip pos="1" side="tl" part="gen"/>-->
                <var n="køn"/>
-               <clip pos="1" side="tl" part="tal"/>
+               <var n="tal"/>
+               <!--<clip pos="1" side="tl" part="tal"/>-->
                <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="lemq"/>
 
