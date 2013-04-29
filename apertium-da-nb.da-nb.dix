@@ -15,7 +15,7 @@
     <sdef n="vbmod"      c="Modal verb"/>
     <sdef n="vbser"      c="Verb 'to be'"/>
     <sdef n="vbhaver"   c="Verb 'to have'"/>
-    <sdef n="ij"  c="Interjection"/>
+    <sdef n="ij"        c="Interjection"/>
 
     <sdef n="sg"     c="Singular"/>
     <sdef n="pl"     c="Plural"/>
@@ -101,7 +101,8 @@
     <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hand<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vindue<s n="n"/><s n="nt"/></l>           <r>vindu<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>leg<s n="n"/><s n="m"/></r></p></e>
-          <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>spørgsmål<s n="n"/><s n="nt"/></l>           <r>spørsmål<s n="n"/><s n="nt"/></r></p></e>
 
 
 <!-- Nouns: Proper -->
@@ -112,7 +113,6 @@
 <!-- Verbs:lexical -->
  <e><p><l>lege<s n="vblex"/></l>        <r>leke<s n="vblex"/></r></p></e>
  <e><p><l>elske<s n="vblex"/></l>        <r>elske<s n="vblex"/></r></p></e>
- <e><p><l>lide<s n="vblex"/></l>        <r>like<s n="vblex"/></r></p></e>
 <e><p><l>gemme<s n="vblex"/></l>        <r>gjemme<s n="vblex"/></r></p></e>
 <e><p><l>gå<s n="vblex"/></l>               <r>gå<s n="vblex"/></r></p></e>
 <e><p><l>forsøge<s n="vblex"/></l>        <r>forsøke<s n="vblex"/></r></p></e>
@@ -136,14 +136,13 @@
 <e><p><l>sige<s n="vblex"/></l>           <r>si<s n="vblex"/></r></p></e>
 <e><p><l>høre<s n="vblex"/></l>           <r>høre<s n="vblex"/></r></p></e>
 <e><p><l>le<s n="vblex"/></l>           <r>le<s n="vblex"/></r></p></e>
-
-
+<e><p><l>kunne<g><b/>lide</g><s n="vblex"/></l>           <r>like<s n="vblex"/></r></p></e>
 
 <!-- Verbs: modal -->
- <e><p><l>kunne<s n="vbmod"/></l>        <r>kunne<s n="vbmod"/></r></p></e>
-<e><p><l>måtte<s n="vbmod"/></l>        <r>måtte<s n="vbmod"/></r></p></e>
-<e><p><l>skulle<s n="vbmod"/></l>        <r>skulle<s n="vbmod"/></r></p></e>
-<e><p><l>ville<s n="vbmod"/></l>        <r>ville<s n="vbmod"/></r></p></e>
+ <e><p><l>kunne<s n="vblex"/></l>        <r>kunne<s n="vblex"/></r></p></e>
+<e><p><l>måtte<s n="vblex"/></l>        <r>måtte<s n="vblex"/></r></p></e>
+<e><p><l>skulle<s n="vblex"/></l>        <r>skulle<s n="vblex"/></r></p></e>
+<e><p><l>ville<s n="vblex"/></l>        <r>ville<s n="vblex"/></r></p></e>
 
 
 <!-- Verbs: copula -->
@@ -240,9 +239,9 @@
 <e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
 
 <!-- Determiners -->
-<e><p><l>en<s n="det"/></l>             <r>en<s n="det"/></r></p></e>
-<e><p><l>den<s n="det"/></l>            <r>den<s n="det"/></r></p></e>
-<e><p><l>sin<s n="det"/></l>            <r>sin<s n="det"/></r></p></e>
+<e><p><l>en<s n="det"/><s n="ind"/></l>         <r>en<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="dem"/></l>        <r>den<s n="det"/><s n="def"/></r></p></e>
+<e><p><l>sin<s n="det"/></l>                    <r>sin<s n="det"/></r></p></e>
 
  <!-- Interjections -->
 <e><p><l>nej<s n="ij"/></l>            <r>nei<s n="ij"/></r></p></e>

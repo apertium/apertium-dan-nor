@@ -283,12 +283,10 @@
               <and>
               <equal>
                 <clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-
                 <equal>
                 <clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
                 </and>
                 </test>
-
                 <let><var n="tal"/><lit-tag v="sp"/></let></when>
                     <otherwise>
                       <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
@@ -304,10 +302,10 @@
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_adj"/>
                <clip pos="1" side="tl" part="grad"/>
-               <!--<clip pos="1" side="tl" part="gen"/>-->
+
                <var n="køn"/>
                <var n="tal"/>
-               <!--<clip pos="1" side="tl" part="tal"/>-->
+
                <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="lemq"/>
 
@@ -346,8 +344,8 @@
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_det"/>
-               <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
@@ -401,17 +399,24 @@ un pl not showing up?
 
 DETERMINER PROBLEMS
 en
-nb:  en<det><qnt><m><sg>/en<det><qnt><m><sg><ind>
+
+nb:  en<det><qnt><m><sg>/
+     en<det><qnt><m><sg><ind>
 da:  en<det><ind><ut><sg>$
 
+
 den
-nb : den/den<det><dem><m><sg>/den<det><dem><f><sg>
+nb : den
+    /den<det><dem><m><sg>
+    /den<det><dem><f><sg>
+
 da : den/den<det><def><ut><sg>
 
 det
-da: det/den<det><def><nt><sg>/det<prn><p3><nt><sg><nom>
 nb: det/den<det><dem><nt><sg>
+da: det/den<det><def><nt><sg>
 
+''
 
 AMBIGUITY
 

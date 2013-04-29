@@ -8920,6 +8920,7 @@
 <e lm="jumpe">           <i>jump</i><par n="mal/e__vblex"/></e>
 <e lm="justere">         <i>juster</i><par n="mal/e__vblex"/></e>
 <e lm="kunne">           <i>k</i><par n="k/unne__vblex"/></e>
+<e lm="kunne lide">        <i>k</i><par n="k/unne__vblex"/><p><l><b/>lide</l><r><g><b/>lide</g></r></p></e>
 <e lm="kalde">           <i>kald</i><par n="tal/e__vblex"/></e>
 <e lm="kalke">           <i>kalk</i><par n="mal/e__vblex"/></e>
 <e lm="kalkere">         <i>kalker</i><par n="mal/e__vblex"/></e>
