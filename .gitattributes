@@ -14,5 +14,10 @@ dev/cuento.nb.txt -text
 dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
 dev/nb-da.test -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.dan-nob.txt -text
+dev/testvoc/testvoc-summary.nob-dan.txt -text
+dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /nb-da.prob -text
