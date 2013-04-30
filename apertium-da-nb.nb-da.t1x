@@ -279,8 +279,10 @@
 
         <!-- TODO if source language adj has tag mf , tag it 'un' (common and neuter)-->
          <choose>
-          <when><test><equal>
-                <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal></test>
+          <when><test><or><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+                <equal><clip pos="1" side="sl" part="gen"/><lit v=""/></equal></or></test>
+
                 <let><var n="køn"/><lit-tag v="un"/></let></when>
                     <otherwise>
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
@@ -288,9 +290,11 @@
             </choose>
 
 
+                      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
 
         <!-- TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet-->
 
+<!--
              <choose>
             <when><test>
               <and>
@@ -306,7 +310,7 @@
                     </otherwise>
 
               </choose>
-
+-->
 
 
 
