@@ -214,8 +214,9 @@
 <e><p><l>den<s n="prn"/></l>            <r>den<s n="prn"/></r></p></e>
 <e><p><l>de<s n="prn"/></l>            <r>de<s n="prn"/></r></p></e>
 <e><p><l>det<s n="prn"/></l>            <r>det<s n="prn"/></r></p></e>
-<e><p><l>sig<s n="prn"/></l>            <r>seg<s n="prn"/></r></p></e>
-
+<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="ND"/></r></p></e>
 
 
 <!-- Conjunctions-->
