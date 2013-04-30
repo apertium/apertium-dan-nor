@@ -27,6 +27,7 @@
     <def-cat n="prn">
       <cat-item tags="prn.def.*"/>
       <cat-item tags="prn.ind.*"/>
+      <cat-item lemma="seg" tags="prn"/>
     </def-cat>
 
 
@@ -254,6 +255,60 @@
 
 
 
+ <rule comment="seg -> sig">
+         <pattern>
+           <pattern-item lemma="seg"/>
+         </pattern>
+         <action>
+
+          <!-- if   no gender, tag un
+                    if sg or pl change to sp
+
+                    nb /seg<prn><ref><p3><sg>/seg<prn><ref><p3><pl>
+                    da sig <prn><ref><p3><un><sp>
+                        -->
+        <choose>
+          <when>
+            <test><equal>
+              <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+              <let><var n="køn"/><lit-tag v="un"/></let></when>
+
+            <when><test><or><equal>
+                <clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal></or></test>
+                <let><var n="tal"/><lit-tag v="sp"/></let></when>
+                    <otherwise>
+                      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
+                    </otherwise>
+
+            </choose>
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_prn"/>
+                <clip pos="1" side="tl" part="per"/>
+               <var n="køn"/>
+               <var n="tal"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </out>
+            <let><var n="køn"/><lit v=""/></let>
+             <let><var n="tal"/><lit v=""/></let>
+         </action>
+      </rule>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <rule comment="ADJ -> ADJ">
          <pattern>
@@ -292,7 +347,7 @@
 
                       <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
 
-        <!-- TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet-->
+        <!-- TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet?-->
 
 <!--
              <choose>
@@ -389,7 +444,7 @@
            <pattern-item n="pr"/>
          </pattern>
          <action>
-        <out>
+          <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_pr"/>
@@ -465,6 +520,14 @@ da: det/den<det><def><nt><sg>
 
 ''
 
+nb /seg<prn><ref><p3><sg>/seg<prn><ref><p3><pl>
+da sig<prn><ref><p3><un><sp>
+
+
+
+
+
+
 
 AMBIGUITY
 
@@ -477,6 +540,9 @@ determiners ? make the bidix entry have <det><def>:<det><dem>
 
 
 'da' in the end of sentence > så + INVERSION
+
+
+
 -->
 
 
