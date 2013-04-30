@@ -274,10 +274,21 @@
                     <otherwise>
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
                     </otherwise>
-
-
             </choose>
-        <!-- TODO if source language adj <sg> <def> tag it <sp> <def> -->
+
+        <!-- TODO if source language adj has tag mf , tag it 'un' (common and neuter)-->
+         <choose>
+          <when><test><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal></test>
+                <let><var n="køn"/><lit-tag v="un"/></let></when>
+                    <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+                    </otherwise>
+            </choose>
+
+
+
+        <!-- TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet-->
 
              <choose>
             <when><test>
@@ -293,7 +304,7 @@
                       <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
                     </otherwise>
 
-        </choose>
+              </choose>
 
 
 
@@ -303,10 +314,8 @@
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_adj"/>
                <clip pos="1" side="tl" part="grad"/>
-
                <var n="køn"/>
                <var n="tal"/>
-
                <clip pos="1" side="tl" part="defnes"/>
                <clip pos="1" side="tl" part="lemq"/>
 
@@ -341,12 +350,24 @@
            <pattern-item n="det"/>
          </pattern>
          <action>
-            <!-- TODO  gender -->
+            <!-- TODO  gender let m and f go to ut-->
         <choose>
           <when>
             <test><equal>
                 <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal></test>
                 <let><var n="køn"/><lit-tag v="ut"/></let></when>
+
+                    <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+                    </otherwise>
+            </choose>
+
+      <choose>
+          <when>
+            <test><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></test>
+                <let><var n="køn"/><lit-tag v="ut"/></let></when>
+
                     <otherwise>
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
                     </otherwise>
@@ -392,18 +413,35 @@
 
 <!--TODO
 
-EXPANSIONS
-lider > kan lide at
 
 TRANSFER
 
-N poss pron > poss pron N
+N poss pron > poss pron N:
+hendene sine> sine hænder
 
+CHUNKING?
 hvor blev det @av ham? > hvor blev han af?
+  delete 'det'+  move 'av' to end of sentence
 
 noe?
 
+Central adverb placement:
+ Hun kan høre det @godt nu >  Hun kan godt høre det nu
+
+if there's 'hvor' and 'går' we need 'hen':
+ Mary tror at hun så hvor James gikk > Mary tror at hun så hvor James gik _hen_
+
+ problem with the multiword implementation of "kunne lide": need to be able to output any central adverbs:
+ liker ikke > kan ikke lide
+
+
+
+
+
 ADJECTIVES
+
+
+spectie: and in the adjectives, <mf> needs to go to <un>
 
 un pl not showing up?
 ^store/stor<adj><posi><pl>/stor<adj><posi><sg><def>$
@@ -432,7 +470,6 @@ da: det/den<det><def><nt><sg>
 
 ''
 
-, and in the adjective, <mf> needs to go to <un>
 
 AMBIGUITY
 

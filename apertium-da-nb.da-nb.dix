@@ -100,10 +100,13 @@
     <e><p><l>hoved<s n="n"/><s n="nt"/></l>           <r>hode<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hand<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vindue<s n="n"/><s n="nt"/></l>           <r>vindu<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>leg<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>lek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>spørgsmål<s n="n"/><s n="nt"/></l>           <r>spørsmål<s n="n"/><s n="nt"/></r></p></e>
-
+    <e><p><l>fugl<s n="n"/><s n="m"/></l>           <r>fugl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dyr<s n="n"/><s n="nt"/></l>           <r>dyr<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>lyd<s n="n"/><s n="m"/></l>           <r>lyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>menneske<s n="n"/><s n="nt"/></l>           <r>menneske<s n="n"/><s n="nt"/></r></p></e>
 
 <!-- Nouns: Proper -->
  <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
@@ -136,6 +139,8 @@
 <e><p><l>sige<s n="vblex"/></l>           <r>si<s n="vblex"/></r></p></e>
 <e><p><l>høre<s n="vblex"/></l>           <r>høre<s n="vblex"/></r></p></e>
 <e><p><l>le<s n="vblex"/></l>           <r>le<s n="vblex"/></r></p></e>
+<e><p><l>tro<s n="vblex"/></l>           <r>tro<s n="vblex"/></r></p></e>
+
 <e><p><l>kunne<g><b/>lide</g><s n="vblex"/></l>           <r>like<s n="vblex"/></r></p></e>
 
 <!-- Verbs: modal -->
@@ -167,8 +172,9 @@
   <e><p><l>hvorfor<s n="adv"/></l>        <r>hvorfor<s n="adv"/></r></p></e>
    <e><p><l>stadig<s n="adv"/></l>        <r>fremdeles<s n="adv"/></r></p></e>
    <e><p><l>så<s n="adv"/></l>        <r>da<s n="adv"/></r></p></e>
-    <e><p><l>igen<s n="adv"/></l>        <r>igjen<s n="adv"/></r></p></e>
-
+<e><p><l>igen<s n="adv"/></l>        <r>igjen<s n="adv"/></r></p></e>
+    <e><p><l>nøje<s n="adv"/></l>        <r>nøye<s n="adv"/></r></p></e>
+    <e><p><l>lidt<s n="adv"/></l>        <r>litt<s n="adv"/></r></p></e>
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
@@ -230,7 +236,7 @@
 <e><p><l>inde<s n="pr"/></l>            <r>inne<s n="pr"/></r></p></e>
 <e><p><l>efter<s n="pr"/></l>            <r>etter<s n="pr"/></r></p></e>
 <e><p><l>ved<s n="pr"/></l>            <r>nær<s n="pr"/></r></p></e>
-
+<e><p><l>af<s n="pr"/></l>            <r>av<s n="pr"/></r></p></e>
 
 
 <!-- Numerals-->
