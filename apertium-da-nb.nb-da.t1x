@@ -56,6 +56,7 @@
       <attr-item tags="nt"/>
       <attr-item tags="un"/>
       <attr-item tags="ut"/>
+      <attr-item tags="un"/>
       <attr-item tags="mf"/>
       <attr-item tags="GD"/>
     </def-attr>
@@ -353,19 +354,9 @@
             <!-- TODO  gender let m and f go to ut-->
         <choose>
           <when>
-            <test><equal>
-                <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal></test>
-                <let><var n="køn"/><lit-tag v="ut"/></let></when>
-
-                    <otherwise>
-                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
-                    </otherwise>
-            </choose>
-
-      <choose>
-          <when>
-            <test><equal>
-                <clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></test>
+            <test><or><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or></test>
                 <let><var n="køn"/><lit-tag v="ut"/></let></when>
 
                     <otherwise>
@@ -377,7 +368,7 @@
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_det"/>
-               <clip pos="1" side="tl" part="køn"/>
+               <var n="køn"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="lemq"/>
 
