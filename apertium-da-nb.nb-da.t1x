@@ -266,59 +266,6 @@
 
 
 
- <rule comment="seg -> sig">
-         <pattern>
-           <pattern-item lemma="seg"/>
-         </pattern>
-         <action>
-
-          <!-- if   no gender, tag un
-                    if sg or pl change to sp
-
-                    nb /seg<prn><ref><p3><sg>/seg<prn><ref><p3><pl>
-                    da sig <prn><ref><p3><un><sp>
-                        -->
-        <choose>
-          <when>
-            <test><equal>
-              <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
-              <let><var n="køn"/><lit-tag v="un"/></let></when>
-
-            <when><test><or><equal>
-                <clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal></or></test>
-                <let><var n="tal"/><lit-tag v="sp"/></let></when>
-                    <otherwise>
-                      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
-                    </otherwise>
-
-            </choose>
-        <out>
-             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_prn"/>
-                <clip pos="1" side="tl" part="per"/>
-               <var n="køn"/>
-               <var n="tal"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </out>
-            <let><var n="køn"/><lit v=""/></let>
-             <let><var n="tal"/><lit v=""/></let>
-         </action>
-      </rule>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       <rule comment="ADJ -> ADJ">
