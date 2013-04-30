@@ -2,6 +2,12 @@
 
 <transfer>
   <section-def-cats>
+    <def-cat n="cnjcoo">
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjcoo.*"/>
+    </def-cat>
+
+
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
@@ -121,9 +127,14 @@
     <attr-item tags="adj.*"/>
      </def-attr>
 
+     <def-attr n="a_cnj">
+    <attr-item tags="cnjcoo"/>
+    <attr-item tags="cnjsub"/>
+    <attr-item tags="cnjadv"/>
+     </def-attr>
+
      <def-attr n="a_pr">
     <attr-item tags="pr"/>
-    <attr-item tags="pr.*"/>
      </def-attr>
 
      <def-attr n="grad">
@@ -448,6 +459,25 @@
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_pr"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+
+         </action>
+      </rule>
+
+
+
+      <rule comment="CNJCOO -> CNJCOO">
+         <pattern>
+           <pattern-item n="cnjcoo"/>
+         </pattern>
+         <action>
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_cnj"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
