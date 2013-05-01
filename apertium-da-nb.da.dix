@@ -941,6 +941,15 @@
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>erne</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+
+</pardef>
+
+<pardef n="vindue__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / ~er / ~erne -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>t</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>r</l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>rne</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+
 </pardef>
 
 <pardef n="suffiks__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / ~er / ~erne; Like alibi__n but for lemmas ending in 's' -->
@@ -2815,6 +2824,7 @@
 <e lm="til">             <i>til</i><par n="på__pr"/></e>
 <e lm="ud">              <i>ud</i><par n="på__pr"/></e>
 <e lm="ud af">           <i>ud<b/>af</i><par n="på__pr"/></e>
+<e lm="ude">            <i>ude</i><par n="på__pr"/></e>
 <e lm="uden">            <i>uden</i><par n="på__pr"/></e>
 <e lm="udenfor">         <i>udenfor</i><par n="på__pr"/></e>
 <e lm="under">           <i>under</i><par n="på__pr"/></e>
@@ -12935,6 +12945,7 @@
 <e lm="vin">             <i>vin</i><par n="bold__n"/></e>
 <e lm="vinavl">          <i>vinavl</i><par n="bold__n"/></e>
 <e lm="vind">            <i>vind</i><par n="bold__n"/></e>
+<e lm="vindue">         <i>vindrue</i><par n="vindue__n"/></e>
 <e lm="vindrue">         <i>vindrue</i><par n="abe__n"/></e>
 <e lm="vindspejl">       <i>vindspejl</i><par n="år__n"/></e>
 <e lm="vinge">           <i>vinge</i><par n="abe__n"/></e>

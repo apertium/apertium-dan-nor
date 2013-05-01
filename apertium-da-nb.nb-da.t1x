@@ -26,14 +26,12 @@
     </def-cat>
 
     <def-cat n="part"> <!-- Participle (infinitive) -->
-
       <cat-item tags="part"/>
     </def-cat>
 
     <def-cat n="prn">
       <cat-item tags="prn.def.*"/>
       <cat-item tags="prn.ind.*"/>
-      <cat-item lemma="seg" tags="prn"/>
     </def-cat>
 
 
@@ -136,6 +134,8 @@
      <def-attr n="a_pr">
     <attr-item tags="pr"/>
      </def-attr>
+
+
 
      <def-attr n="grad">
       <attr-item tags="pst"/>
@@ -394,7 +394,28 @@
             <let><var n="køn"/><lit v=""/></let>
          </action>
       </rule>
+<!--
 
+  <rule comment="PRN-> PRN">
+         <pattern>
+           <pattern-item n="prn"/>
+         </pattern>
+         <action>
+          <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_prn"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="case"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+
+         </action>
+     </rule>
+-->
 
 
       <rule comment="PR-> PR">
@@ -432,8 +453,6 @@
 
          </action>
       </rule>
-
-
 
 
 
@@ -497,10 +516,16 @@ da: det/den<det><def><nt><sg>
 
 ''
 
-nb /seg<prn><ref><p3><sg>/seg<prn><ref><p3><pl>
-da sig<prn><ref><p3><un><sp>
+
+nb   de<prn><p3><mf><pl><nom>
+da   de<prn><p3><un><pl><nom>
 
 
+sin
+
+
+da ^sin/sin<det><pos><ut><sg>$
+^seg<det><pos><m><sg>$
 
 
 
@@ -518,6 +543,15 @@ determiners ? make the bidix entry have <det><def>:<det><dem>
 
 'da' in the end of sentence > så + INVERSION
 
+
+
+
+
+<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+spectie
+<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+spectie
+<e r="LR"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="ND"/></r></p></e>
 
 
 -->
