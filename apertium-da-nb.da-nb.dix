@@ -28,6 +28,7 @@
     <sdef n="pos"     c="Possessive"/>
     <sdef n="itg"     c="Question word / interrogative"/>
     <sdef n="qnt"     c="Quantifier"/>
+     <sdef n="part"  c="infinitive participle"/>
 
     <sdef n="ord"      c="Ordinal"/>
     <sdef n="def"      c="Definite"/>
@@ -144,6 +145,8 @@
 <e><p><l>høre<s n="vblex"/></l>           <r>høre<s n="vblex"/></r></p></e>
 <e><p><l>le<s n="vblex"/></l>           <r>le<s n="vblex"/></r></p></e>
 <e><p><l>tro<s n="vblex"/></l>           <r>tro<s n="vblex"/></r></p></e>
+<e><p><l>komme<s n="vblex"/></l>           <r>komme<s n="vblex"/></r></p></e>
+<e><p><l>svare<s n="vblex"/></l>           <r>svare<s n="vblex"/></r></p></e>
 
 <e><p><l>kunne<g><b/>lide</g><s n="vblex"/></l>           <r>like<s n="vblex"/></r></p></e>
 
@@ -151,7 +154,7 @@
  <e><p><l>kunne<s n="vblex"/></l>        <r>kunne<s n="vblex"/></r></p></e>
 <e><p><l>måtte<s n="vblex"/></l>        <r>måtte<s n="vblex"/></r></p></e>
 <e><p><l>skulle<s n="vblex"/></l>        <r>skulle<s n="vblex"/></r></p></e>
-<e><p><l>ville<s n="vblex"/></l>        <r>ville<s n="vblex"/></r></p></e>
+<e><p><l>ville<s n="vaux"/></l>        <r>ville<s n="vblex"/></r></p></e>
 
 
 <!-- Verbs: copula -->
@@ -214,20 +217,18 @@
 
 
 <!-- Pronouns -->
+
+<e><p><l>jeg<s n="prn"/><s n="un"/></l>            <r>jeg<s n="prn"/><s n="mf"/></r></p></e>
+
+
+
 <e><p><l>han<s n="prn"/></l>            <r>han<s n="prn"/></r></p></e>
 <e><p><l>hun<s n="prn"/></l>            <r>hun<s n="prn"/></r></p></e>
+
 <e><p><l>du<s n="prn"/></l>            <r>du<s n="prn"/></r></p></e>
 
-<e><p><l>dig<s n="prn"/><s n="p2"/><s n="un"/><s n="sg"/><s n="acc"/></l> <r>du<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
-<e><p><l>dig<s n="prn"/><s n="p2"/><s n="un"/><s n="sg"/><s n="acc"/></l> <r>seg<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
-
-
-
-
-<e><p><l>jeg<s n="prn"/></l>            <r>jeg<s n="prn"/></r></p></e>
-<e><p><l>vi<s n="prn"/></l>            <r>vi<s n="prn"/></r></p></e>
-<e><p><l>I<s n="prn"/></l>            <r>dere<s n="prn"/></r></p></e>
-<e><p><l>de<s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></l>  <r>de<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+<e r="RL"><p><l>dig<s n="prn"/><s n="p2"/><s n="un"/><s n="sg"/><s n="acc"/></l> <r>du<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="RL"><p><l>dig<s n="prn"/><s n="p2"/><s n="un"/><s n="sg"/><s n="acc"/></l> <r>seg<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
 
 
 <e><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></l> <r>den<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -235,13 +236,61 @@
 <e><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></l> <r>den<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 <e><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></l> <r>den<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
 
-
-
 <e><p><l>det<s n="prn"/></l>            <r>det<s n="prn"/></r></p></e>
 
 <e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="ND"/></r></p></e>
+
+
+
+<e><p><l>vi<s n="prn"/></l>            <r>vi<s n="prn"/></r></p></e>
+<e><p><l>I<s n="prn"/></l>            <r>dere<s n="prn"/></r></p></e>
+
+<e><p><l>de<s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></l>  <r>de<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+
+
+<!-- Poss pronominer-->
+<!--is this right? not sure if the surface form or the lemma goes on the right?
+these forms are translated correctly but are all #'ed
+-->
+
+
+    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+
+    <e r="RL"><p><l>din<s n="det"/><s n="pos"/></l><r>du<s n="det"/><s n="pos"/></r></p></e>
+
+
+    <e r="RL"><p><l>hans<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l> <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>hans<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l>  <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>hans<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>hans<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l>  <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    <e r="RL"><p><l>hendes<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l> <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>hendes<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l>  <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>hendes<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>hendes<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l>  <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>sine<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/> </l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+
+
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
 
 
 <!-- Conjunctions-->
@@ -273,38 +322,7 @@
 <!-- Determiners -->
 <e><p><l>en<s n="det"/><s n="ind"/></l>             <r>en<s n="det"/><s n="qnt"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="def"/></l>             <r>den<s n="det"/><s n="dem"/></r></p></e>
-
-<!--is this right? not sure if the surface form or the lemma goes on the right?-->
-
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-
-
-    <e><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
-    <e><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-    <e><p><l>sine<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/> </l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-
-
-
-<!--from /dev-->
-
-    <e><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
-    <e><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-    <e><p><l>din<s n="det"/><s n="pos"/></l><r>du<s n="det"/><s n="pos"/></r></p></e>
-
-
-
-
-
+<e><p><l>de<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>             <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 

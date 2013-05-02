@@ -47,6 +47,7 @@
     <sdef n="inf" 	c="Infinitive"/>
     <sdef n="pp" 	c="Past participle"/>
     <sdef n="pprs" 	c="Present participle"/>
+    <sdef n="part"  c="infinitive participle"/>
     <sdef n="prn" 	c="Pronoun"/>
     <sdef n="rel" 	c="Relative pronoun"/>
     <sdef n="ref" 	c="Reflexive pronoun"/>
@@ -75,7 +76,7 @@
     <sdef n="cm" 	c="Comma"/>
     <sdef n="lpar" 	c="Left parenthesis ("/>
     <sdef n="rpar" 	c="Right parenthesis )"/>
-    <sdef n="part"  c="Participle (infinitive)"/>
+
   </sdefs>
   <pardefs>
 
@@ -6458,6 +6459,7 @@
 <e lm="søskende">        <i>søskende</i><par n="søskende__n"/></e>
 <e lm="valuta">          <i>valuta</i><par n="ateist__n"/></e>
 <e lm="vampyr">          <i>vampyr</i><par n="ateist__n"/></e>
+<e lm="vand">            <i>vand</i><par n="alibi__n"/></e>
 <e lm="vandal">          <i>vandal</i><par n="ateist__n"/></e>
 <e lm="vanddamp">        <i>vanddamp</i><par n="bold__n"/></e>
 <e lm="vandfald">        <i>vandfald</i><par n="år__n"/></e>
@@ -6646,8 +6648,16 @@
 <e lm="uden">            <i>uden</i><par n="og__cnjcoo"/></e>
 
     <!-- ******************************
+         infinitive participle
+      ****************************** -->
+
+<e lm="at">              <i>at</i><par n="at__part"/></e>
+
+
+    <!-- ******************************
           group cnjsub
       ****************************** -->
+
 <e lm="at">              <i>at</i><par n="at__cnjsub"/></e>
 <e lm="da">              <i>da</i><par n="at__cnjsub"/></e>
 <e lm="eftersom">        <i>eftersom</i><par n="at__cnjsub"/></e>
