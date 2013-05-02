@@ -281,10 +281,8 @@ these forms are translated correctly but are all #'ed
 
 
 <!-- #-->
-    <e><p><l>han<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l> <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e><p><l>han<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l>  <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>han<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>han<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l>  <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>han<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l> <r>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="pos"/></r></p></e>
+
 
 <!-- #-->
     <e r="RL"><p><l>hun<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l> <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
