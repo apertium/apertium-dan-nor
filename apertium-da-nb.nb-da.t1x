@@ -373,14 +373,19 @@
             <!-- TODO  gender let m and f go to ut-->
         <choose>
           <when>
-            <test><or><equal>
+            <test>
+               <and><or><equal>
                 <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
-                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or></test>
-                <let><var n="køn"/><lit-tag v="ut"/></let></when>
+                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
+                <not><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="un"/></equal></not>
+               </and>
+            </test>
+            <let><var n="køn"/><lit-tag v="ut"/></let>
+          </when>
 
-                    <otherwise>
-                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
-                    </otherwise>
+          <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="tl" part="gen"/></let>
+          </otherwise>
             </choose>
 
         <out>
