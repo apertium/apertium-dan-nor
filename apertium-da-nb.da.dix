@@ -530,6 +530,20 @@
   <e>       <p><l>t</l>         <r>n<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>ne</l>        <r>n<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
+<pardef n="han/__det">
+  <e>       <p><l>s</l>         <r><s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>        <r><s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="h/un__det">
+  <e>       <p><l>endes</l>         <r>un<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>endes</l>         <r>un<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>endes</l>        <r>un<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+
+
 
 <pardef n="di/n__det">
   <e>       <p><l>n</l>         <r>n<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
@@ -726,7 +740,7 @@
 
 <pardef n="alting/__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>t</l>         <r><s n="prn"/><s n="def"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>         <r><s n="prn"/><s n="def"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
   <e r="RL"><p><l></l>          <r><s n="prn"/><s n="def"/><s n="un"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
@@ -2743,7 +2757,7 @@
     <!-- ******************************
           group det
       ****************************** -->
-<e lm="deres">           <i>deres</i><par n="vores__det"/></e> <!-- @@@ check -->
+
 <e lm="din">             <i>di</i><par n="di/n__det"/></e>
 
 
@@ -2751,7 +2765,10 @@
 
 <e lm="en">              <i>e</i><par n="e/n__det"/></e>
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
+<e lm="han">             <i>han</i><par n="han/__det"/></e>
+<e lm="hun">             <i>h</i><par n="h/un__det"/></e>
 <e lm="jeres">           <i>jeres</i><par n="vores__det"/></e>
+<e lm="deres">           <i>deres</i><par n="vores__det"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__det"/></e>
 <e lm="flere">           <i>flere</i><par n="flere__det"/></e>
 <e lm="flest">           <i>flest</i><par n="flere__det"/></e>

@@ -190,7 +190,8 @@
 <e><p><l>rundt<s n="adv"/></l>        <r>rundt<s n="adv"/></r></p></e>
 <e><p><l>overalt<s n="adv"/></l>        <r>overalt<s n="adv"/></r></p></e>
 <e><p><l>hvor<s n="adv"/></l>        <r>hvor<s n="adv"/></r></p></e>
-<e><p><l>selvfølgelig<s n="adv"/></l>        <r>selvfølgelig<s n="adv"/></r></p></e>
+<e><p><l>selvfølgelig<s n="adv"/></l>        <r>selvfølgelig<s n="adj"/></r></p></e>
+<e><p><l>der<s n="adv"/></l>        <r>der<s n="adv"/></r></p></e>
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
@@ -232,9 +233,15 @@
 <e><p><l>jeg<s n="prn"/><s n="p1"/><s n="un"/><s n="sg"/><s n="acc"/></l>   <r>jeg<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
 <e><p><l>jeg<s n="prn"/><s n="p1"/><s n="un"/><s n="sg"/><s n="acc"/></l>   <r>seg<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
 
-<e><p><l>han<s n="prn"/></l>            <r>han<s n="prn"/></r></p></e>
-<e><p><l>hun<s n="prn"/></l>            <r>hun<s n="prn"/></r></p></e>
+<!--
+<e><p><l>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></l> <r>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/> </r></p></e>
+<e><p><l>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></l> <r>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/> </r></p></e>
+<e><p><l>han<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="nom"/></l><r>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/> </r></p></e>
+<e><p><l>han<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="nom"/></l><r>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/> </r></p></e>
+-->
 
+<e><p><l>hun<s n="prn"/></l>            <r>hun<s n="prn"/></r></p></e>
+<e><p><l>han<s n="prn"/></l>            <r>han<s n="prn"/></r></p></e>
 
 <e><p><l>du<s n="prn"/><s n="p2"/><s n="un"/><s n="sg"/><s n="nom"/></l>   <r>du<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
 
@@ -268,44 +275,6 @@
 <e><p><l>ingen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/><s n="nom"/></l>  <r>ingen<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>ingen<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/><s n="nom"/></l>  <r>ingen<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
 
-<!-- Poss pronominer-->
-<!--is this right? not sure if the surface form or the lemma goes on the right?
-these forms are translated correctly but are all #'ed
--->
-
-
-    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
-    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-    <e r="RL"><p><l>din<s n="det"/><s n="pos"/></l><r>du<s n="det"/><s n="pos"/></r></p></e>
-
-
-<!-- #-->
-    <e><p><l>han<s n="prn"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l> <r>han<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="pos"/></r></p></e>
-
-
-<!-- #-->
-    <e r="RL"><p><l>hun<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l> <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>hun<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l>  <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>hun<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>hun<s n="prn"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l>  <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-
-<!-- #-->
-    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/> </l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-<!-- #-->
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>de<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-
 
 
 
@@ -334,6 +303,7 @@ these forms are translated correctly but are all #'ed
 <e><p><l>til<s n="pr"/></l>            <r>til<s n="pr"/></r></p></e>
 <e><p><l>fra<s n="pr"/></l>            <r>fra<s n="pr"/></r></p></e>
 <e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
+<e r="RL"><p><l>under<s n="pr"/></l>            <r>undre<s n="pr"/></r></p></e>
 
 
 <!-- Numerals-->
@@ -342,12 +312,88 @@ these forms are translated correctly but are all #'ed
 <e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
 
 <!-- Determiners -->
-<e><p><l>en<s n="det"/><s n="ind"/></l>                          <r>en<s n="det"/><s n="qnt"/></r></p></e>
-<!--<e><p><l>et<s n="det"/><s n="ind"/></l>              <r>en<s n="det"/><s n="qnt"/></r></p></e>-->
+
+<e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></l>                          <r>en<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></l>                         <r>en<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
+
+
+
+
+<e><p><l>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></l>                          <r>én<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></l>                         <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+
+
+<!--<e><p><l>en<s n="det"/><s n="ind"/></l>              <r>en<s n="det"/><s n="qnt"/></r></p></e>-->
 <e><p><l>den<s n="det"/><s n="def"/></l>                        <r>den<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>de<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
-<e><p><l>noget<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>   <r>noe<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
+    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>din<s n="det"/><s n="pos"/></l><r>du<s n="det"/><s n="pos"/></r></p></e>
+
+
+
+
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/> </l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+
+
+<e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>de<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="un"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="un"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="un"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
+
+
+
+
+
+
+
+
+<e><p><l>nogen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>   <r>noe<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <e><p><l>ingen<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>ingen<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e><p><l>ingen<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>ingen<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
@@ -378,3 +424,7 @@ these forms are translated correctly but are all #'ed
 
   </section>
 </dictionary>
+
+
+
+<!--i tide + på tide add as adverbs-->
