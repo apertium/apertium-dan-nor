@@ -113,6 +113,19 @@
     </pipeline>
   </mode>
 
+  <mode name="nb-da-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nb-da.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="nb-da.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="nb-da-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">

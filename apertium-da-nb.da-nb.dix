@@ -307,9 +307,9 @@
 
 
 <!-- Numerals-->
-<e><p><l>to<s n="num"/></l>            <r>to<s n="num"/></r></p></e>
-<e><p><l>fem<s n="num"/></l>            <r>fem<s n="num"/></r></p></e>
-<e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
+<e><p><l>to<s n="num"/><s n="un"/></l>            <r>to<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>fem<s n="num"/><s n="un"/></l>            <r>fem<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>seks<s n="num"/><s n="un"/></l>            <r>seks<s n="det"/><s n="qnt"/></r></p></e>
 
 <!-- Determiners -->
 
