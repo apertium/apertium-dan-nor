@@ -350,10 +350,6 @@
 
 
 
-
-
-
-
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -396,7 +392,7 @@
            <pattern-item n="det"/>
          </pattern>
          <action>
-            <!-- TODO  gender let m and f go to ut-->
+            <!-- gender: let m and f go to ut-->
         <choose>
           <when>
             <test>

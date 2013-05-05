@@ -139,6 +139,17 @@
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
 
+<pardef n="nær__adj">
+  <e>       <p><l>mere</l>      <r><s n="adj"/><s n="comp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>meste</l>     <r><s n="adj"/><s n="sup"/><s n="def"/></r></p></e>
+  <e>       <p><l>mest</l>      <r><s n="adj"/><s n="sup"/><s n="ind"/></r></p></e>
+</pardef>
+
+
 
 <pardef n="rund__adj"> <!-- Model #1 -->
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e> <!-- en rund bold -->
@@ -6751,6 +6762,8 @@
 
     <!-- Adjectives -->
 
+<e lm="omhyggelig">             <i>omhyggelig</i><par n="øvrig__adj"/></e>
+<e lm="nær">             <i>nær</i><par n="nær__adj"/></e>
 <e lm="øvrig">           <i>øvrig</i><par n="øvrig__adj"/></e>
 <e lm="færdig">          <i>færdig</i><par n="lykkelig__adj"/></e>
 <e lm="gammel">          <i></i><par n="/gammel__adj"/></e>
@@ -12993,7 +13006,7 @@
 <e lm="vin">             <i>vin</i><par n="bold__n"/></e>
 <e lm="vinavl">          <i>vinavl</i><par n="bold__n"/></e>
 <e lm="vind">            <i>vind</i><par n="bold__n"/></e>
-<e lm="vindue">         <i>vindrue</i><par n="vindue__n"/></e>
+<e lm="vindue">         <i>vindue</i><par n="vindue__n"/></e>
 <e lm="vindrue">         <i>vindrue</i><par n="abe__n"/></e>
 <e lm="vindspejl">       <i>vindspejl</i><par n="år__n"/></e>
 <e lm="vinge">           <i>vinge</i><par n="abe__n"/></e>
