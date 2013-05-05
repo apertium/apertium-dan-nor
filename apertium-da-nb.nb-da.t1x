@@ -97,8 +97,6 @@
  <def-attr n="a_det">
       <attr-item tags="num"/>
       <attr-item tags="det"/>
-
-
       <attr-item tags="det.def"/>
       <attr-item tags="det.ind"/>
       <attr-item tags="det.pos"/>
