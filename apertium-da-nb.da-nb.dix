@@ -209,7 +209,7 @@
 <e><p><l>når<s n="cnjadv"/></l>        <r>når<s n="adv"/></r></p></e>
 <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
 
-<e><p><l>lidt<s n="adv"/><s n="pst"/></l>    <r>litt<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+<e><p><l>lidt<s n="adv"/><s n="pst"/></l>    <r>litt<s n="adv"/></r></p></e>
 
  <e><p><l>i<b/>hænde<s n="adv"/></l>        <r>i<b/>hende<s n="adv"/></r></p></e>
  <e><p><l>af<b/>hænde<s n="adv"/></l>        <r>af<b/>hende<s n="adv"/></r></p></e>
@@ -227,6 +227,7 @@
 
 <!-- Adverbs intensifiers -->
 <e><p><l>meget<s n="adv"/></l>            <r>veldig<s n="adv"/></r></p></e>
+
 
 <!-- Adjectives -->
 <e><p><l>god<s n="adj"/></l>            <r>god<s n="adj"/></r></p></e>
