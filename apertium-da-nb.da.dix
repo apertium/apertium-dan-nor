@@ -6746,7 +6746,7 @@
     <!-- Adjectives -->
 
 <e lm="øvrig">           <i>øvrig</i><par n="øvrig__adj"/></e>
-<e lm="færdig">          <i></i><par n="lykkelig__adj"/></e>
+<e lm="færdig">          <i>færdig</i><par n="lykkelig__adj"/></e>
 <e lm="gammel">          <i></i><par n="/gammel__adj"/></e>
 <e lm="god">             <i></i><par n="/god__adj"/></e>
 <e lm="lille">           <i></i><par n="/lille__adj"/></e>
