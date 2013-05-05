@@ -8,6 +8,7 @@
     <sdef n="adj"       c="Adjective"/>
     <sdef n="cnjcoo"    c=""/>
     <sdef n="cnjsub"    c=""/>
+    <sdef n="cnjadv"    c="Conjunction adverbs - Danish?"/>
     <sdef n="pr"        c="Preposition"/>
     <sdef n="adv"       c="Adverb"/>
     <sdef n="vblex"     c="Verb"/>
@@ -91,7 +92,7 @@
     <e><p><l>hus<s n="n"/><s n="nt"/></l>          <r>hus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vejr<s n="n"/><s n="nt"/></l>        <r>vær<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dreng<s n="n"/><s n="ut"/> </l>       <r>gutt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>år<s n="n"/><s n="nt"/></l>          <r>år<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>år<s n="n"/><s n="nt"/>   </l>              <r>år<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hund<s n="n"/><s n="ut"/></l>         <r>hund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>barn<s n="n"/><s n="nt"/></l>        <r>barn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>søster<s n="n"/><s n="ut"/></l>       <r>søster<s n="n"/><s n="f"/></r></p></e>
@@ -102,6 +103,7 @@
     <e><p><l>stol<s n="n"/><s n="ut"/></l>           <r>stol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hoved<s n="n"/><s n="nt"/></l>           <r>hode<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hand<s n="n"/><s n="f"/></r></p></e>
+
      <e><p><l>vindue<s n="n"/><s n="nt"/></l>           <r>vindu<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>lek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="nt"/></r></p></e>
@@ -190,8 +192,13 @@
 <e><p><l>rundt<s n="adv"/></l>        <r>rundt<s n="adv"/></r></p></e>
 <e><p><l>overalt<s n="adv"/></l>        <r>overalt<s n="adv"/></r></p></e>
 <e><p><l>hvor<s n="adv"/></l>        <r>hvor<s n="adv"/></r></p></e>
-<e><p><l>selvfølgelig<s n="adv"/></l>        <r>selvfølgelig<s n="adj"/></r></p></e>
+<e><p><l>selvfølgelig<s n="adj"/></l>        <r>selvfølgelig<s n="adj"/></r></p></e>
 <e><p><l>der<s n="adv"/></l>        <r>der<s n="adv"/></r></p></e>
+ <e><p><l>i<b/>tide<s n="adv"/></l>        <r>i<b/>tide<s n="adv"/></r></p></e>
+  <e><p><l>på<b/>tide<s n="adv"/></l>        <r>på<b/>tide<s n="adv"/></r></p></e>
+    <e><p><l>selv<b/>om<s n="cnjadv"/></l>        <r>selv<b/>om<s n="cnjsub"/></r></p></e>
+    <e><p><l>selvfølgelig<s n="adv"/></l>        <r>selvfølgelig<s n="adv"/></r></p></e>
+
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
@@ -285,6 +292,7 @@
 <e><p><l>at<s n="cnjsub"/></l>            <r>at<s n="cnjsub"/></r></p></e>
 <e r="RL"><p><l>så<s n="cnjsub"/></l>            <r>da<s n="cnjsub"/></r></p></e>
 <e><p><l>hvor<s n="cnjsub"/></l>            <r>hvor<s n="cnjsub"/></r></p></e>
+<e><p><l>eller<s n="cnjcoo"/></l>            <r>eller<s n="cnjcoo"/></r></p></e>
 
 <!--Prepositions-->
 <e><p><l>i<s n="pr"/></l>            <r>i<s n="pr"/></r></p></e>
@@ -295,7 +303,7 @@
 <e><p><l>udenfor<s n="pr"/></l>            <r>utenfor<s n="pr"/></r></p></e>
 <e><p><l>bag<s n="pr"/></l>            <r>bak<s n="pr"/></r></p></e>
 <e><p><l>gennem<s n="pr"/></l>            <r>gjennom<s n="pr"/></r></p></e>
-<e><p><l>inde<s n="pr"/></l>            <r>inne<s n="pr"/></r></p></e>
+<e><p><l>inde<s n="adv"/></l>            <r>inne<s n="adv"/></r></p></e>
 <e><p><l>efter<s n="pr"/></l>            <r>etter<s n="pr"/></r></p></e>
 <e><p><l>ved<s n="pr"/></l>            <r>nær<s n="pr"/></r></p></e>
 <e><p><l>af<s n="pr"/></l>            <r>av<s n="pr"/></r></p></e>
@@ -303,13 +311,15 @@
 <e><p><l>til<s n="pr"/></l>            <r>til<s n="pr"/></r></p></e>
 <e><p><l>fra<s n="pr"/></l>            <r>fra<s n="pr"/></r></p></e>
 <e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
+<e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
 <e r="RL"><p><l>under<s n="pr"/></l>            <r>undre<s n="pr"/></r></p></e>
+ <e><p><l>inde<b/>i<s n="pr"/></l>        <r>inne<b/>i<s n="pr"/></r></p></e>
 
 
 <!-- Numerals-->
-<e><p><l>to<s n="num"/><s n="un"/></l>            <r>to<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>fem<s n="num"/><s n="un"/></l>            <r>fem<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>seks<s n="num"/><s n="un"/></l>            <r>seks<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>to<s n="num"/></l>            <r>to<s n="num"/></r></p></e>
+<e><p><l>fem<s n="num"/></l>            <r>fem<s n="num"/></r></p></e>
+<e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
 
 <!-- Determiners -->
 
@@ -325,7 +335,8 @@
 
 <!--<e><p><l>en<s n="det"/><s n="ind"/></l>              <r>en<s n="det"/><s n="qnt"/></r></p></e>-->
 <e><p><l>den<s n="det"/><s n="def"/></l>                        <r>den<s n="det"/><s n="dem"/></r></p></e>
-<e><p><l>de<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+<e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 <e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
@@ -362,6 +373,7 @@
 <e><p><l>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 
+<e><p><l>begge<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>begge<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
 
     <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
@@ -378,14 +390,15 @@
     <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/> </l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
 
+
+
+
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>de<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 
-
-
-
+<e><p><l>de<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>  <r>de<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 

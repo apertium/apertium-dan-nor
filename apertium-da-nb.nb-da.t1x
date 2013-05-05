@@ -19,6 +19,7 @@
 
    <def-cat n="adj">
       <cat-item tags="adj.*"/>
+
     </def-cat>
 
     <def-cat n="pr">
@@ -187,6 +188,7 @@
      <def-var n="køn"/>
      <def-var n="diatese"/>
      <def-var n="tal"/>
+     <def-var n="bestemthed"/>
 
 
   </section-def-vars>
@@ -292,11 +294,16 @@
                     </otherwise>
             </choose>
 
-        <!-- TODO if source language adj has tag mf , tag it 'un' (common and neuter)-->
+        <!-- TODO if source language adj has tag mf, m f or Ø , tag it 'un' (common and neuter)-->
          <choose>
           <when><test><or><equal>
                 <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
-                <equal><clip pos="1" side="sl" part="gen"/><lit v=""/></equal></or></test>
+                <equal><clip pos="1" side="sl" part="gen"/><lit v=""/></equal>
+                <equal><clip pos="1" side="sl" part="gen"/><lit v="m"/></equal>
+                <equal><clip pos="1" side="sl" part="gen"/><lit v="f"/></equal>
+
+
+              </or></test>
 
                 <let><var n="køn"/><lit-tag v="un"/></let></when>
                     <otherwise>
@@ -305,11 +312,12 @@
             </choose>
 
 
-                      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
 
-        <!-- TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet?-->
+            <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
 
-<!--
+
+          <!--TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet? Should only for for asynthetic adjectives or will also catch  eg. 'lille' -->
+
              <choose>
             <when><test>
               <and>
@@ -319,13 +327,30 @@
                 <clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
                 </and>
                 </test>
+
                 <let><var n="tal"/><lit-tag v="sp"/></let></when>
                     <otherwise>
                       <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
                     </otherwise>
 
               </choose>
--->
+
+
+
+
+        <!--  TODO if source language adj has no defnes tag, tag ind-->
+                <choose>
+          <when><test><equal>
+                <clip pos="1" side="sl" part="defnes"/><lit v=""/></equal></test>
+                <let><var n="bestemthed"/><lit-tag v="ind"/></let></when>
+                    <otherwise>
+                      <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
+                    </otherwise>
+            </choose>
+
+
+
+
 
 
 
@@ -336,13 +361,14 @@
                <clip pos="1" side="tl" part="grad"/>
                <var n="køn"/>
                <var n="tal"/>
-               <clip pos="1" side="tl" part="defnes"/>
+               <var n="bestemthed"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
            </out>
            <let><var n="køn"/><lit v=""/></let>
             <let><var n="tal"/><lit v=""/></let>
+            <let><var n="bestemthed"/><lit v=""/></let>
          </action>
       </rule>
 

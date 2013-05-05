@@ -525,6 +525,13 @@
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
+
+<pardef n="begge__det">
+  <e>       <p><l></l>         <r><s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
+
+</pardef>
+
+
 <pardef n="mi/n__det">
   <e>       <p><l>n</l>         <r>n<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>n<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -550,6 +557,8 @@
   <e>       <p><l>t</l>         <r>n<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>ne</l>        <r>n<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
+
+
 
 <pardef n="si/n__det">
   <e>       <p><l>n</l>         <r>n<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
@@ -2767,6 +2776,7 @@
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
 <e lm="han">             <i>han</i><par n="han/__det"/></e>
 <e lm="hun">             <i>h</i><par n="h/un__det"/></e>
+<e lm="begge">           <i>begge</i><par n="begge__det"/></e>
 <e lm="jeres">           <i>jeres</i><par n="vores__det"/></e>
 <e lm="deres">           <i>deres</i><par n="vores__det"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__det"/></e>
@@ -2818,6 +2828,7 @@
 <e lm="igennem">         <i>igennem</i><par n="på__pr"/></e>
 <e lm="imellem">         <i>imellem</i><par n="på__pr"/></e>
 <e lm="imod">            <i>imod</i><par n="på__pr"/></e>
+<e lm="inde i">        <i>inde<b/>i</i><par n="på__pr"/></e>
 <e lm="inde fra">        <i>inde<b/>fra</i><par n="på__pr"/></e>
 <e lm="inden">           <i>inden</i><par n="på__pr"/></e>
 <e lm="inden for">       <i>inden<b/>for</i><par n="på__pr"/></e>
@@ -6906,6 +6917,7 @@
 <e lm="rusten">          <i>rust</i><par n="besked/en__adj"/></e>
 <e lm="rå">              <i>rå</i><par n="rå__adj"/></e>
 <e lm="sandsynlig">      <i>sandsynlig</i><par n="aktiv__adj"/></e>
+
 <e lm="sikker">          <i>sik</i><par n="sik/ker__adj"/></e>
 <e lm="sjov">            <i>sjov</i><par n="aktiv__adj"/></e>
 <e lm="skadelig">        <i>skadelig</i><par n="amerikansk__adj"/></e>
@@ -7120,6 +7132,7 @@
 <e lm="imidlertid">      <i>imidlertid</i><par n="ikke__adv"/></e>
 <e lm="imod">            <i>imod</i><par n="ikke__adv"/></e>
 <e lm="ind i">           <i>ind<b/>i</i><par n="ikke__adv"/></e>
+<e lm="i tide">           <i>i<b/>tide</i><par n="ikke__adv"/></e>
 <e lm="inde">            <i>inde</i><par n="ikke__adv"/></e>
 <e lm="indenfor">        <i>indenfor</i><par n="ikke__adv"/></e>
 <e lm="intetsteds">      <i>intetsteds</i><par n="ikke__adv"/></e>
@@ -7134,6 +7147,7 @@
 <e lm="ligesom">         <i>ligesom</i><par n="ikke__adv"/></e>
 <e lm="live">            <i>live</i><par n="ikke__adv"/></e>
 <e lm="længe">           <i>længe</i><par n="ikke__adv"/></e>
+<e lm="selvfølgelig">    <i>selvfølgelig</i><par n="ikke__adv"/></e>
 
     <!-- TODO: CHECK THESE: -->
 <e lm="mere">            <i>mere</i><par n="mere__preadv"/></e>
@@ -7171,6 +7185,7 @@
 <e lm="pludseligt">      <i>pludseligt</i><par n="ikke__adv"/></e>
 <e lm="præcis">          <i>præcis</i><par n="ikke__adv"/></e>
 <e lm="på">              <i>på</i><par n="ikke__adv"/></e>
+<e lm="på tide">           <i>på<b/>tide</i><par n="ikke__adv"/></e>
 <e lm="ret">             <i>ret</i><par n="ret__adv"/></e>
 <e lm="sammen">          <i>sammen</i><par n="ikke__adv"/></e>
 <e lm="sandsynligvis">   <i>sandsynligvis</i><par n="ikke__adv"/></e>
