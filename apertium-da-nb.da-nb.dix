@@ -112,11 +112,12 @@
     <e><p><l>dyr<s n="n"/><s n="nt"/></l>           <r>dyr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lyd<s n="n"/><s n="ut"/></l>           <r>lyd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>menneske<s n="n"/><s n="nt"/></l>           <r>menneske<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>vand<s n="n"/><s n="nt"/></l>           <r>vann<s n="adv"/><s n="nt"/> <!--TAGGING ERROR IN WOKRING EXAMPLE-->
+     <e><p><l>vand<s n="n"/><s n="nt"/></l>           <r>vann<s n="adv"/><s n="nt"/></r></p></e>    <!--TAGGING ERROR IN WOKRING EXAMPLE-->
       <e><p><l>svar<s n="n"/><s n="nt"/></l>           <r>svar<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>mor<s n="n"/><s n="ut"/></l>           <r>mor<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mor<s n="n"/><s n="ut"/></l>           <r>mor<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>leg<s n="n"/><s n="ut"/></l>           <r>lek<s n="n"/><s n="m"/></r></p></e>
+
 <!-- Nouns: Proper -->
  <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
  <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/></r></p></e>
