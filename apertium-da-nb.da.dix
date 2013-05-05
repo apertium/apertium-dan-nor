@@ -2826,6 +2826,8 @@
     <!-- ******************************
           group pr
       ****************************** -->
+<e lm="rundt">              <i>ad</i><par n="på__pr"/></e>
+<e lm="sammen med">      <i>sammen<b/>med</i><par n="på__pr"/></e>
 <e lm="ad">              <i>ad</i><par n="på__pr"/></e>
 <e lm="af">              <i>af</i><par n="på__pr"/></e>
 <e lm="angående">        <i>angående</i><par n="på__pr"/></e>
@@ -7072,6 +7074,7 @@
     <!-- ******************************
           group adv
       ****************************** -->
+<e lm="nærmere">        <i>nærmere</i><par n="ikke__adv"/></e>
 <e lm="virkelig">        <i>virkelig</i><par n="ikke__adv"/></e>
 <e lm="akkurat">         <i>akkurat</i><par n="ikke__adv"/></e>
 <e lm="aldeles">         <i>aldeles</i><par n="ikke__adv"/></e>

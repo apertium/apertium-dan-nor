@@ -17,7 +17,7 @@
     <sdef n="vbser"      c="Verb 'to be'"/>
     <sdef n="vbhaver"   c="Verb 'to have'"/>
     <sdef n="ij"        c="Interjection"/>
-
+<sdef n="pp"        c="present particple"/>
     <sdef n="sg"     c="Singular"/>
     <sdef n="pl"     c="Plural"/>
     <sdef n="sp"     c="Singular / plural"/>
@@ -208,11 +208,13 @@
     <e><p><l>selvfølgelig<s n="adv"/></l>        <r>selvfølgelig<s n="adv"/></r></p></e>
 <e><p><l>når<s n="cnjadv"/></l>        <r>når<s n="adv"/></r></p></e>
 <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
-<e><p><l>lidt<s n="adv"/></l>        <r>litt<s n="adv"/></r></p></e>
+
+<e><p><l>lidt<s n="adv"/><s n="pst"/></l>    <r>litt<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+
  <e><p><l>i<b/>hænde<s n="adv"/></l>        <r>i<b/>hende<s n="adv"/></r></p></e>
  <e><p><l>af<b/>hænde<s n="adv"/></l>        <r>af<b/>hende<s n="adv"/></r></p></e>
  <e><p><l>fra<s n="cnjadv"/></l>            <r>fra<s n="adv"/></r></p></e>
-
+<e><p><l>nærmere<s n="adv"/></l>            <r>nærmere<s n="adv"/></r></p></e>
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
  <e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
@@ -244,10 +246,10 @@
 <e><p><l>hurtig<s n="adj"/></l>            <r>fort<s n="adj"/></r></p></e>
 <e><p><l>sikker<s n="adj"/></l>            <r>antagelig<s n="adj"/></r></p></e>
 <e><p><l>nær<s n="adj"/></l>            <r>nær<s n="adj"/></r></p></e>
-<e><p><l>nærmere<s n="adj"/><s n="comp"/></l>            <r>nærmere<s n="adj"/><s n="comp"/></r></p></e>
+
 <e><p><l>omhyggelig<s n="adj"/></l>        <r>nøye<s n="adj"/></r></p></e>
 <!--<e><p><l>år<b/>gammel<s n="adj"/></l>        <r>år<b/>gammel<s n="adj"/></r></p></e>-->
-<e><p><l>rund<s n="adj"/></l>        <r>rund<s n="adj"/></r></p></e>
+
 
 
 <!-- Pronouns -->
@@ -335,8 +337,8 @@
 <e><p><l>fra<s n="pr"/></l>            <r>fra<s n="pr"/></r></p></e>
 <e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
  <e><p><l>inde<b/>i<s n="pr"/></l>        <r>inne<b/>i<s n="pr"/></r></p></e>
-
-
+ <e><p><l>sammen<b/>med<s n="pr"/></l>        <r>sammen<b/>med<s n="pr"/></r></p></e>
+<e><p><l>rundt<s n="pr"/></l>        <r>rundt<s n="pr"/></r></p></e>
 <!-- Numerals-->
 <e><p><l>to<s n="num"/><s n="un"/></l>            <r>to<s n="det"/><s n="qnt"/></r></p></e>
 <e><p><l>fem<s n="num"/><s n="un"/></l>            <r>fem<s n="det"/><s n="qnt"/></r></p></e>
@@ -486,6 +488,18 @@
 
 
 <!--
+
+ cat dev/cuento.nb.txt | apertium -d . nb-da-biltrans | sed 's/\$\W*\^/$\n^/g' | grep '@'
+spectre
+spectre
+^rundt<pr>/@rundt<pr>$
+spectre
+^nærmere<adv>/@nærmere<adv>$
+spectre
+^lite<adj><pp><nt><sg><ind>/@lite<adj><pp><nt><sg><ind>$
+22:03 jonasfromseier
+cool
+
 
 av% dage dt ;
 ttr000
