@@ -7074,6 +7074,9 @@
     <!-- ******************************
           group adv
       ****************************** -->
+
+
+  <e lm="fra">        <i>fra</i><par n="ikke__adv"/></e>
 <e lm="nærmere">        <i>nærmere</i><par n="ikke__adv"/></e>
 <e lm="virkelig">        <i>virkelig</i><par n="ikke__adv"/></e>
 <e lm="akkurat">         <i>akkurat</i><par n="ikke__adv"/></e>
