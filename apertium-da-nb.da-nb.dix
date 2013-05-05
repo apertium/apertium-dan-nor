@@ -103,7 +103,9 @@
     <e><p><l>bord<s n="n"/><s n="nt"/></l>           <r>bord<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stol<s n="n"/><s n="ut"/></l>           <r>stol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hoved<s n="n"/><s n="nt"/></l>           <r>hode<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hand<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hånd<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hand<s n="n"/><s n="f"/></r></p></e>
+
      <e><p><l>vindue<s n="n"/><s n="nt"/></l>           <r>vindu<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>lek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="nt"/></r></p></e>
