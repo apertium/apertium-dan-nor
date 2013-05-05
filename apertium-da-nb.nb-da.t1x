@@ -96,6 +96,9 @@
 
  <def-attr n="a_det">
       <attr-item tags="num"/>
+      <attr-item tags="det"/>
+
+
       <attr-item tags="det.def"/>
       <attr-item tags="det.ind"/>
       <attr-item tags="det.pos"/>
@@ -392,7 +395,7 @@
            <pattern-item n="det"/>
          </pattern>
          <action>
-            <!-- gender: let m and f go to ut-->
+            <!-- gender:a let m and f go to ut-->
         <choose>
           <when>
             <test>
