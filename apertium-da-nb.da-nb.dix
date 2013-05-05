@@ -96,6 +96,7 @@
     <e><p><l>hund<s n="n"/><s n="ut"/></l>         <r>hund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>barn<s n="n"/><s n="nt"/></l>        <r>barn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>søster<s n="n"/><s n="ut"/></l>       <r>søster<s n="n"/><s n="f"/></r></p></e>
+
     <e><p><l>træ<s n="n"/><s n="nt"/></l>         <r>tre<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kat<s n="n"/><s n="ut"/></l>           <r>katt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hus<s n="n"/><s n="nt"/></l>           <r>hus<s n="n"/><s n="nt"/></r></p></e>
@@ -204,6 +205,7 @@
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
  <e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
  <e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
+  <e><p><l>godt<s n="adv"/></l>            <r>godt<s n="adv"/></r></p></e>
 
 <!-- Infinitive participle -->
   <e><p><l>at<s n="part"/></l>            <r>å<s n="part"/></r></p></e>
@@ -417,8 +419,8 @@
 <e><p><l>jo<s n="ij"/></l>            <r>jo<s n="ij"/></r></p></e>
 
  <!-- Interrogativer -->
-<e><p><l>hvorfor<s n="ij"/></l>            <r>hvorfor<s n="ij"/></r></p></e>
-<e><p><l>hvem<s n="ij"/></l>            <r>hvem<s n="ij"/></r></p></e>
+<e><p><l>hvorfor<s n="itg"/></l>            <r>hvorfor<s n="itg"/></r></p></e>
+<e><p><l>hvem<s n="itg"/></l>            <r>hvem<s n="itg"/></r></p></e>
 
 
 <!-- Puncutation -->

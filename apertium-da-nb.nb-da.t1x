@@ -338,7 +338,7 @@
 
 
 
-        <!--  TODO if source language adj has no defnes tag, tag ind-->
+        <!-- if source language adj has no defnes tag, tag ind-->
                 <choose>
           <when><test><equal>
                 <clip pos="1" side="sl" part="defnes"/><lit v=""/></equal></test>
