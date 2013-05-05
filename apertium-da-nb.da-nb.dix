@@ -92,7 +92,12 @@
     <e><p><l>hus<s n="n"/><s n="nt"/></l>          <r>hus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vejr<s n="n"/><s n="nt"/></l>        <r>vær<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dreng<s n="n"/><s n="ut"/> </l>       <r>gutt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>år<s n="n"/><s n="nt"/>   </l>              <r>år<s n="n"/><s n="nt"/></r></p></e>
+
+
+    <e><p><l>år<s n="n"/><s n="nt"/><s n="sp"/>    </l>         <r>år<s n="n"/><s n="nt"/>><s n="sg"/></r></p></e>
+    <e><p><l>år<s n="n"/><s n="nt"/><s n="sp"/>  </l>         <r>år<s n="n"/><s n="nt"/>><s n="pl"/></r></p></e>
+
+
     <e><p><l>hund<s n="n"/><s n="ut"/></l>         <r>hund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>barn<s n="n"/><s n="nt"/></l>        <r>barn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>søster<s n="n"/><s n="ut"/></l>       <r>søster<s n="n"/><s n="f"/></r></p></e>
@@ -105,8 +110,6 @@
     <e><p><l>hoved<s n="n"/><s n="nt"/></l>           <r>hode<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hånd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hånd<s n="n"/><s n="ut"/></l>           <r>hånd<s n="n"/><s n="f"/></r></p></e>
-
-
      <e><p><l>vindue<s n="n"/><s n="nt"/></l>           <r>vindu<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>leg<s n="n"/><s n="nt"/></l>           <r>lek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>øje<s n="n"/><s n="nt"/></l>           <r>øye<s n="n"/><s n="nt"/></r></p></e>
@@ -205,6 +208,8 @@
 <e><p><l>når<s n="cnjadv"/></l>        <r>når<s n="adv"/></r></p></e>
 <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
 <e><p><l>lidt<s n="adv"/></l>        <r>litt<s n="adv"/></r></p></e>
+ <e><p><l>i<b/>hænde<s n="adv"/></l>        <r>i<b/>hende<s n="adv"/></r></p></e>
+ <e><p><l>af<b/>hænde<s n="adv"/></l>        <r>af<b/>hende<s n="adv"/></r></p></e>
 
 <!-- Adverbs sentence adverbs -->
  <e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
@@ -239,7 +244,8 @@
 <e><p><l>nær<s n="adj"/></l>            <r>nær<s n="adj"/></r></p></e>
 <e><p><l>nærmere<s n="adj"/><s n="comp"/></l>            <r>nærmere<s n="adj"/><s n="comp"/></r></p></e>
 <e><p><l>omhyggelig<s n="adj"/></l>        <r>nøye<s n="adj"/></r></p></e>
-
+<!--<e><p><l>år<b/>gammel<s n="adj"/></l>        <r>år<b/>gammel<s n="adj"/></r></p></e>-->
+<e><p><l>rund<s n="adj"/></l>        <r>rund<s n="adj"/></r></p></e>
 
 
 <!-- Pronouns -->
@@ -477,4 +483,88 @@
 
 
 
-<!--i tide + på tide add as adverbs-->
+<!--
+
+av% dage dt ;
+ttr000
+av% garde dt ;
+ttr000
+av% gårde dt ;
+ttr000
+av% syne dt ;
+ttr000
+for% fote dt ;
+ttr000
+i% alle% fall adv ;
+ttr000
+i% en% fei adv ;
+ttr000
+i% gjenge dt ;
+ttr000
+i% gjære dt ;
+ttr000
+i% hvert% fall dt ;
+ttr000
+i% hjel dt ;
+ttr000
+i% live dt ;
+ttr000
+i% stampe dt ;
+ttr000
+i% svime dt ;
+ttr000
+i% tide dt ;
+ttr000
+i% ugreie dt ;
+ttr000
+i% ulage dt ;
+ttr000
+i% utide dt ;
+ttr000
+i% vare dt ;
+ttr000
+i% vånde dt ;
+MaryX has joined (~MaryX@188.247.73.44)
+ttr000
+i% ånde dt ;
+ttr000
+med% lempe dt ;
+ttr000
+på% ferde dt ;
+ttr000
+på% folkemunne dt ;
+ttr000
+på% tverke dt ;
+ttr000
+på% vegne dt ;
+ttr000
+på% vidvanke dt ;
+ttr000
+til% bords dt ;
+ttr000
+til% bygds dt ;
+ttr000
+til% dels dt ;
+ttr000
+til% fjells dt ;
+ttr000
+til% hånde dt ;
+ttr000
+til% overs dt ;
+ttr000
+til% seters dt ;
+ttr000
+til% sjøs dt ;
+spectre
+oops
+ttr000
+til% syne dt ;
+ttr000
+i do not guarantee these are all the forms
+ttr000
+but they are all in my nob.fst
+ttr000
+e.g. "i hende" is lacking :-D
+
+
+-->
