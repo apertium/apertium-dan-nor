@@ -313,15 +313,13 @@
 <e><p><l>til<s n="pr"/></l>            <r>til<s n="pr"/></r></p></e>
 <e><p><l>fra<s n="pr"/></l>            <r>fra<s n="pr"/></r></p></e>
 <e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
-<e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
-<e r="RL"><p><l>under<s n="pr"/></l>            <r>undre<s n="pr"/></r></p></e>
  <e><p><l>inde<b/>i<s n="pr"/></l>        <r>inne<b/>i<s n="pr"/></r></p></e>
 
 
 <!-- Numerals-->
 <e><p><l>to<s n="num"/></l>            <r>to<s n="num"/></r></p></e>
-<e><p><l>fem<s n="num"/></l>            <r>fem<s n="num"/></r></p></e>
-<e><p><l>seks<s n="num"/></l>            <r>seks<s n="num"/></r></p></e>
+<e><p><l>fem<s n="num"/></l>            <r><s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>seks<s n="num"/></l>            <r>seks<s n="det"/><s n="qnt"/></r></p></e>
 
 <!-- Determiners -->
 
@@ -336,8 +334,14 @@
 
 
 <!--<e><p><l>en<s n="det"/><s n="ind"/></l>              <r>en<s n="det"/><s n="qnt"/></r></p></e>-->
-<e><p><l>den<s n="det"/><s n="def"/></l>                        <r>den<s n="det"/><s n="dem"/></r></p></e>
 
+
+
+
+
+
+
+<e><p><l>den<s n="det"/><s n="def"/></l>                        <r>den<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
@@ -405,6 +409,17 @@
 
 
 
+
+<e><p><l>anden<s n="det"/><s n="ut"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
+<e><p><l>anden<s n="det"/><s n="ut"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="sg"/><s n="def"/></r></p></e> <!-- will this work for nb: det andre...?-->
+
+<!--andet-->
+<e><p><l>anden<s n="det"/><s n="nt"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+
+
+<e><p><l>anden<s n="det"/><s n="ut"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
+
+<e><p><l>anden<s n="det"/><s n="un"/><s n="pl"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 

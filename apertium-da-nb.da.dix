@@ -525,6 +525,11 @@
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="and/en__det">
+  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>re</l>        <r>en<s n="det"/><s n="un"/><s n="pl"/></r></p></e>
+</pardef>
 
 <pardef n="begge__det">
   <e>       <p><l></l>         <r><s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
@@ -2776,6 +2781,7 @@
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
 <e lm="han">             <i>han</i><par n="han/__det"/></e>
 <e lm="hun">             <i>h</i><par n="h/un__det"/></e>
+<e lm="anden">           <i>and</i><par n="and/en__det"/></e>
 <e lm="begge">           <i>begge</i><par n="begge__det"/></e>
 <e lm="jeres">           <i>jeres</i><par n="vores__det"/></e>
 <e lm="deres">           <i>deres</i><par n="vores__det"/></e>
