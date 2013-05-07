@@ -209,7 +209,6 @@
           <otherwise><let><var n="fall"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
         </choose>
 
-
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -285,7 +284,7 @@
                 <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
         </choose>
 
-        <!--if source language adj has no gender tag , tag it 'un' (common and neuter)-->
+        <!--if source language adj has no gender tag , tag it 'un' (common and neuter)
         <choose>
           <when><test><equal>
                 <clip pos="1" side="sl" part="gen"/><lit v=""/></equal></test>
@@ -293,31 +292,29 @@
                     <otherwise>
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
                     </otherwise>
-            </choose>
+            </choose>-->
 
-        <!-- TODO if source language adj has tag mf, m f or Ø , tag it 'un' (common and neuter)-->
+        <!-- if source language adj has tag mf tag it 'ut' (utrum)-->
+
          <choose>
-          <when><test><or><equal>
+          <when><test><equal>
                 <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
-                <equal><clip pos="1" side="sl" part="gen"/><lit v=""/></equal>
-                <equal><clip pos="1" side="sl" part="gen"/><lit v="m"/></equal>
-                <equal><clip pos="1" side="sl" part="gen"/><lit v="f"/></equal>
 
+              </test>
 
-              </or></test>
-
-                <let><var n="køn"/><lit-tag v="un"/></let></when>
+                <let><var n="køn"/><lit-tag v="ut"/></let></when>
                     <otherwise>
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
                     </otherwise>
             </choose>
 
-
-
             <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
 
+            <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
 
-          <!--TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet? Should only for for asynthetic adjectives or will also catch  eg. 'lille' -->
+
+
+          <!--TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet? Should only for for asynthetic adjectives or will also catch  eg. 'lille'
 
              <choose>
             <when><test>
@@ -336,10 +333,10 @@
 
               </choose>
 
+-->
 
 
-
-        <!-- if source language adj has no defnes tag, tag ind-->
+        <!-- if source language adj has no defnes tag, tag ind
                 <choose>
           <when><test><equal>
                 <clip pos="1" side="sl" part="defnes"/><lit v=""/></equal></test>
@@ -348,7 +345,7 @@
                       <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
                     </otherwise>
             </choose>
-
+-->
 
 
         <out>

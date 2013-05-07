@@ -235,6 +235,7 @@
 <e><p><l>kold<s n="adj"/></l>            <r>kald<s n="adj"/></r></p></e>
 <e><p><l>glad<s n="adj"/></l>            <r>glad<s n="adj"/></r></p></e>
 <e><p><l>lille<s n="adj"/></l>            <r>lille<s n="adj"/></r></p></e>
+<e><p><l>lille<s n="adj"/></l>            <r>liten<s n="adj"/></r></p></e>
 <e><p><l>fin<s n="adj"/></l>            <r>fin<s n="adj"/></r></p></e>
 <e><p><l>stor<s n="adj"/></l>            <r>stor<s n="adj"/></r></p></e>
 <e><p><l>rigtig<s n="adj"/></l>            <r>veldig<s n="adj"/></r></p></e>
@@ -242,6 +243,7 @@
 <e><p><l>nogen<s n="adj"/></l>            <r>noe<s n="adj"/></r></p></e>
 <e><p><l>glad<s n="adj"/></l>            <r>lykkelig<s n="adj"/></r></p></e>
 <e><p><l>gammel<s n="adj"/></l>            <r>gammel<s n="adj"/></r></p></e>
+<e><p><l>gammel<s n="adj"/></l>            <r>gammal<s n="adj"/></r></p></e>
 <e><p><l>stille<s n="adj"/></l>            <r>sakte<s n="adj"/></r></p></e>
 <e><p><l>færdig<s n="adj"/></l>            <r>ferdig<s n="adj"/></r></p></e>
 <e><p><l>hurtig<s n="adj"/></l>            <r>fort<s n="adj"/></r></p></e>
@@ -491,12 +493,7 @@
 <!--
 
  cat dev/cuento.nb.txt | apertium -d . nb-da-biltrans | sed 's/\$\W*\^/$\n^/g' | grep '@'
-spectre
-spectre
-^rundt<pr>/@rundt<pr>$
-spectre
-^nærmere<adv>/@nærmere<adv>$
-spectre
+
 ^lite<adj><pp><nt><sg><ind>/@lite<adj><pp><nt><sg><ind>$
 22:03 jonasfromseier
 cool
@@ -584,4 +581,10 @@ ttr000
 e.g. "i hende" is lacking :-D
 
 
+
+just a rule fires
+spectre
+rule 3011
+jonasfromseier
+ok. Ill have to l
 -->

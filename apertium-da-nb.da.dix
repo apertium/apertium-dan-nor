@@ -139,14 +139,26 @@
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
 
+
 <pardef n="nær__adj">
-  <e>       <p><l>mere</l>      <r><s n="adj"/><s n="comp"/></r></p></e>
+  <e>       <p><l>mere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="pl"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
-  <e>       <p><l>meste</l>     <r><s n="adj"/><s n="sup"/><s n="def"/></r></p></e>
-  <e>       <p><l>mest</l>      <r><s n="adj"/><s n="sup"/><s n="ind"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>meste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="def"/></r></p></e>
+  <e>       <p><l>mest</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
+</pardef>
+
+
+<pardef n="stille__adj">
+  <e>       <p><l>re</l>        <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>ste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="def"/></r></p></e>
+  <e>       <p><l>st</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
 </pardef>
 
 
@@ -235,6 +247,8 @@
   <e>       <p><l>angt</l>      <r>ang<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ange</l>      <r>ang<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ange</l>      <r>ang<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+ <!--> <e>       <p><l>ange</l>      <r>ang<s n="adj"/><s n="pst"/><s n="un"/><s n="slimep"/><s n="def"/></r></p></e>
+ <-->
   <e>       <p><l>ængere</l>    <r>ang<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>ængst</l>     <r>ang<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l>ængste</l>    <r>ang<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
@@ -251,7 +265,8 @@
 </pardef>
 
 <pardef n="/lille__adj">
-  <e>       <p><l>lille</l>     <r>lille<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>lille</l>     <r>lille<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+   <e>       <p><l>lille</l>     <r>lille<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>små</l>       <r>lille<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>lille</l>     <r>lille<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
   <e>       <p><l>små</l>       <r>lille<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
@@ -6764,7 +6779,10 @@
 
     <!-- Adjectives -->
 
-<e lm="omhyggelig">             <i>omhyggelig</i><par n="øvrig__adj"/></e>
+
+<e lm="stille">       <i>stille</i><par n="stille__adj"/></e>
+<e lm="hurtig">       <i>hurtig</i><par n="lykkelig__adj"/></e>
+<e lm="omhyggelig">       <i>omhyggelig</i><par n="lykkelig__adj"/></e>
 <e lm="nær">             <i>nær</i><par n="nær__adj"/></e>
 <e lm="øvrig">           <i>øvrig</i><par n="øvrig__adj"/></e>
 <e lm="færdig">          <i>færdig</i><par n="lykkelig__adj"/></e>
