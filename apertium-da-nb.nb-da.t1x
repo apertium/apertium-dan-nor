@@ -273,11 +273,11 @@
 
       <rule comment="VERB → VERB">
          <pattern>
-           <pattern-item n="verb"/>
-         </pattern>
-         <action>
-        <choose>
-          <when><test><and><equal>
+            <pattern-item n="verb"/>
+          </pattern>
+            <action>
+              <choose>
+                  <when><test><and><equal>
                 <!-- when there's theres no diatese tag and it isn't a pastpart or imp, let it be active voice -->
                 <clip pos="1" side="sl" part="a_diatese"/><lit v=""/></equal>
                 <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="pp"/></equal></not>
@@ -285,29 +285,30 @@
                 </and></test>
                 <let><var n="diatese"/><lit-tag v="actv"/></let></when>
 
-            <otherwise> <!--otherwise let variable be the same as the source language-->
-            <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
-     </choose>
+                  <otherwise> <!--otherwise let variable be the same as the source language-->
+                  <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
+              </choose>
 
-      <choose>
-          <when><test><equal>
+            <choose>
+              <when><test><equal>
                 <!--  if tag is 'pret' convert to 'past' -->
                 <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
                 <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
 
-        </choose>
+            </choose>
 
         <out>
              <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_verb"/>
-               <clip pos="1" side="tl" part="tense"/>
-               <var n="diatese"/>
-            <clip pos="1" side="tl" part="lemq"/>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_verb"/>
+                <clip pos="1" side="tl" part="tense"/>
+                <var n="diatese"/>
+                <clip pos="1" side="tl" part="lemq"/>
              </lu>
-           </out>
+        </out>
            <!--purge the variable-->
            <let><var n="diatese"/><lit v=""/></let>
+
          </action>
       </rule>
 
@@ -321,19 +322,54 @@
            <pattern-item n="det"/>
           </pattern>
           <action>
-          <call-macro n="determiner">
+         <!-- <call-macro n="determiner">
           <with-param pos="1"/>
-           </call-macro>
+           </call-macro>-->
+
           <choose>
           <when><test><and>
                 <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
                 <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="pos"/></equal></and></test>
-                <let><clip pos="1" side="tl" part="defnes"/><lit-tag v="ind"/></let></when>
+                  <let><var n="bestemthed"/><lit-tag v="ind"/></let></when>
+                    <otherwise><let><var n="bestemthed"/><clip pos="2" side="sl" part="defnes"/></let></otherwise>
+                    </choose>
 
-          </choose>
+          <choose>
+          <when><test><equal>
+                <!--if the noun has no tag for case, give it the case 'nom'-->
+                <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+                <let><var n="fall"/><lit-tag v="nom"/></let></when>
+
+                <otherwise><let><var n="fall"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+               </choose>
+
+          <!--if the det is m or f give it gender un-->
+          <choose>
+          <when>
+            <test>
+               <and><or><equal>
+                <clip pos="2" side="sl" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
+                <not><equal><clip pos="2" side="tl" part="gen"/><lit-tag v="un"/></equal></not>
+               </and>
+            </test>
+            <let><var n="køn"/><lit-tag v="ut"/></let>
+          </when>
+
+          <otherwise>
+                      <let><var n="køn"/><clip pos="2" side="tl" part="gen"/></let>
+          </otherwise>
+            </choose>
+
+
+
           <out>
              <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_det"/>
+               <var n="køn"/>
+               <clip pos="2" side="tl" part="nbr"/>
+               <clip pos="2" side="tl" part="lemq"/>
               </lu>
               <b pos="1"/>
             <lu>
@@ -341,10 +377,14 @@
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="defnes"/>
+            <var n="bestemthed"/>
+            <var n="fall"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
+        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="fall"/><lit v=""/></let>
+        <let><var n="bestemthed"/><lit v=""/></let>
          </action>
       </rule>
 
