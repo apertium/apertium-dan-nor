@@ -194,6 +194,49 @@
 
   </section-def-vars>
 
+
+<section-def-macros>
+
+
+
+    <def-macro n="resetvars" npar="1">
+  <let>
+    <var n="køn"/>
+    <lit-tag v=""/>
+  </let>
+    </def-macro>
+
+
+
+
+
+
+ <def-macro n="determiner" npar="1">
+        <choose>
+          <when>
+            <test>
+               <and><or><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
+                <not><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="un"/></equal></not>
+               </and>
+            </test>
+            <let><var n="køn"/><lit-tag v="ut"/></let>
+          </when>
+
+          <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="tl" part="gen"/></let>
+          </otherwise>
+            </choose>
+ </def-macro>
+
+
+
+</section-def-macros>
+
+
+
+
   <section-rules>
 
     <rule comment="RULE: Noun → Noun : ( → )">
@@ -272,12 +315,15 @@
 
 
 
-      <rule comment="N def  +  DETpos →  DET pos  + N ind (moren sin  sin mor">
+      <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor)">
           <pattern>
            <pattern-item n="nom"/>
            <pattern-item n="det"/>
           </pattern>
           <action>
+          <call-macro n="determiner">
+          <with-param pos="1"/>
+           </call-macro>
           <choose>
           <when><test><and>
                 <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
@@ -285,10 +331,9 @@
                 <let><clip pos="1" side="tl" part="defnes"/><lit-tag v="ind"/></let></when>
 
           </choose>
-
           <out>
              <lu>
-                <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="whole"/>
               </lu>
               <b pos="1"/>
             <lu>
