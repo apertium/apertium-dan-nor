@@ -331,7 +331,7 @@
                 <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
                 <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="pos"/></equal></and></test>
                   <let><var n="bestemthed"/><lit-tag v="ind"/></let></when>
-                    <otherwise><let><var n="bestemthed"/><clip pos="2" side="sl" part="defnes"/></let></otherwise>
+                    <otherwise><let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let></otherwise>
                     </choose>
 
           <choose>
