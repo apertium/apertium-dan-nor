@@ -113,7 +113,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nb-da-disam" install="no">
+  <mode name="nb-da-disam" install="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nb-da.automorf.bin"/>
