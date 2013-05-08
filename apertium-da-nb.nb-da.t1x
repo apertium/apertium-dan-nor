@@ -228,7 +228,7 @@
 
 
 
-      <rule comment="VERB -> VERB">
+      <rule comment="VERB → VERB">
          <pattern>
            <pattern-item n="verb"/>
          </pattern>
@@ -272,12 +272,46 @@
 
 
 
+      <rule comment="N def  +  DETpos →  DET pos  + N ind (moren sin  sin mor">
+          <pattern>
+           <pattern-item n="nom"/>
+           <pattern-item n="det"/>
+          </pattern>
+          <action>
+          <choose>
+          <when><test><and>
+                <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+                <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="pos"/></equal></and></test>
+                <let><clip pos="1" side="tl" part="defnes"/><lit-tag v="ind"/></let></when>
+
+          </choose>
+
+          <out>
+             <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+            <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="defnes"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+         </action>
+      </rule>
+
+
+
+
       <rule comment="ADJ -> ADJ">
          <pattern>
            <pattern-item n="adj"/>
          </pattern>
          <action>
-      <choose>
+          <choose>
           <when><test><equal>
                 <!--if the tag is 'posi' change it to 'pst'-->
                 <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
@@ -385,6 +419,8 @@
          </action>
       </rule>
 
+
+
   <rule comment="DET -> DET">
          <pattern>
            <pattern-item n="det"/>
@@ -464,6 +500,8 @@
 
 
 
+
+
       <rule comment="CNJCOO -> CNJCOO">
          <pattern>
            <pattern-item n="cnjcoo"/>
@@ -494,7 +532,7 @@ hendene sine> sine hænder
 
 CHUNKING?
 hvor blev det @av ham? > hvor blev han af?
-  delete 'det'+  move 'av' to end of sentence
+  delete 'det'+  move 'av' to end of sentence + ham > nom
 
 noe?
 
@@ -514,12 +552,6 @@ if there's 'hvor' and 'går' we need 'hen':
 ADJECTIVES
 
 
-spectie: and in the adjectives, <mf> needs to go to <un>
-
-un pl not showing up?
-^store/stor<adj><posi><pl>/stor<adj><posi><sg><def>$
-
-^store/stor<adj><pst><un><pl><ind>/stor<adj><pst><un><sp><def>$
 
 
 DETERMINER PROBLEMS
@@ -582,10 +614,6 @@ spectie
 
 
 -->
-
-
-
-
 
 
 
