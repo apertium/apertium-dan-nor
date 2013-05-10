@@ -185,7 +185,7 @@
 
   <section-def-vars>
     <def-var n="number"/>
-    <def-var n="fall"/>
+    <def-var n="kasus"/>
      <def-var n="køn"/>
      <def-var n="diatese"/>
      <def-var n="tal"/>
@@ -235,8 +235,6 @@
 </section-def-macros>
 
 
-
-
   <section-rules>
 
     <rule comment="RULE: Noun → Noun : ( → )">
@@ -248,8 +246,8 @@
           <when><test><equal>
                 <!--if the noun has no tag for case, give it the case 'nom'-->
                 <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
-                <let><var n="fall"/><lit-tag v="nom"/></let></when>
-          <otherwise><let><var n="fall"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+                <let><var n="kasus"/><lit-tag v="nom"/></let></when>
+          <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
         </choose>
 
         <out>
@@ -259,11 +257,11 @@
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="defnes"/>
-            <var n="fall"/>
+            <var n="kasus"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
-           <let><var n="fall"/><lit v=""/></let>
+           <let><var n="kasus"/><lit v=""/></let>
       </action>
     </rule>
 
@@ -316,7 +314,7 @@
 
 
 
-      <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor)">
+      <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor) DEFINITENESS HAS TO BE FIXED">
           <pattern>
            <pattern-item n="nom"/>
            <pattern-item n="det"/>
@@ -330,17 +328,19 @@
           <when><test><and>
                 <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
                 <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="pos"/></equal></and></test>
-                  <let><var n="bestemthed"/><lit-tag v="ind"/></let></when>
-                    <otherwise><let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let></otherwise>
-                    </choose>
+                  <let><clip pos="1" side="tl" part="defnes"/><lit-tag v="ind"/> </let></when>
+          </choose>
+
+
 
           <choose>
           <when><test><equal>
+
                 <!--if the noun has no tag for case, give it the case 'nom'-->
                 <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
-                <let><var n="fall"/><lit-tag v="nom"/></let></when>
+                <let><var n="kasus"/><lit-tag v="nom"/></let></when>
 
-                <otherwise><let><var n="fall"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+                <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
                </choose>
 
           <!--if the det is m or f give it gender un-->
@@ -377,13 +377,13 @@
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
-            <var n="bestemthed"/>
-            <var n="fall"/>
+            <clip pos="1" side="tl" part="defnes"/>
+            <var n="kasus"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
         <let><var n="køn"/><lit v=""/></let>
-        <let><var n="fall"/><lit v=""/></let>
+        <let><var n="kasus"/><lit v=""/></let>
         <let><var n="bestemthed"/><lit v=""/></let>
          </action>
       </rule>
@@ -478,7 +478,7 @@
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
-           </out>
+        </out>
            <let><var n="køn"/><lit v=""/></let>
             <let><var n="tal"/><lit v=""/></let>
             <let><var n="bestemthed"/><lit v=""/></let>
