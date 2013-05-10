@@ -327,7 +327,7 @@
           <choose>
           <when><test><and>
                 <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
-                <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="pos"/></equal></and></test>
+                <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="det.pos"/></equal></and></test>
                   <let><clip pos="1" side="tl" part="defnes"/><lit-tag v="ind"/> </let></when>
           </choose>
 
