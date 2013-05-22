@@ -140,6 +140,16 @@
 </pardef>
 
 
+<pardef n="klar__adj">
+  <e>       <p><l>ere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>este</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="def"/></r></p></e>
+  <e>       <p><l>est</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
+</pardef>
+
 <pardef n="nær__adj">
   <e>       <p><l>mere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -6893,6 +6903,7 @@
 <e lm="jaloux">          <i>jaloux</i><par n="bange__adj"/></e>
 <e lm="katolsk">         <i>katolsk</i><par n="amerikansk__adj"/></e>
 <e lm="kinesisk">        <i>kinesisk</i><par n="amerikansk__adj"/></e>
+<e lm="klar">           <i>klar</i><par n="klar__adj"/></e>
 <e lm="klassisk">        <i>klassisk</i><par n="amerikansk__adj"/></e>
 <e lm="kold">            <i>kold</i><par n="rund__adj"/></e>
 <e lm="kolossal">        <i>kolossal</i><par n="amerikansk__adj"/></e>
@@ -7093,6 +7104,7 @@
           group adv
       ****************************** -->
 
+<e lm="naturligvis">     <i>naturligvis</i><par n="ikke_adv"/></e>
 
   <e lm="fra">        <i>fra</i><par n="ikke__adv"/></e>
 <e lm="nærmere">        <i>nærmere</i><par n="ikke__adv"/></e>
@@ -7180,6 +7192,7 @@
 <e lm="ind i">           <i>ind<b/>i</i><par n="ikke__adv"/></e>
 <e lm="i tide">           <i>i<b/>tide</i><par n="ikke__adv"/></e>
 <e lm="inde">            <i>inde</i><par n="ikke__adv"/></e>
+<e lm="især">            <i>især</i><par n="ikke__adv"/></e>
 <e lm="indenfor">        <i>indenfor</i><par n="ikke__adv"/></e>
 <e lm="intetsteds">      <i>intetsteds</i><par n="ikke__adv"/></e>
 <e lm="istedet">         <i>istedet</i><par n="ikke__adv"/></e>
@@ -7847,6 +7860,7 @@
 <e lm="anordne">         <i>anordn</i><par n="mal/e__vblex"/></e>
 <e lm="anrette">         <i>anret</i><par n="støt/te__vblex"/></e>
 <e lm="anrette">         <i>anret</i><par n="byt/te__vblex"/></e>
+<e lm="angå">            <i>ang</i><par n="f/å__vblex"/></e>
 <e lm="anråbe">          <i>anråb</i><par n="tal/e__vblex"/></e>
 <e lm="ansætte">         <i>ans</i><par n="s/ætte__vblex"/></e>
 <e lm="anse">            <i>ans</i><par n="s/e__vblex"/></e>
@@ -12202,6 +12216,7 @@
 <e lm="peber">           <i>peber</i><par n="blod__n"/></e>
 <e lm="pels">            <i>pels</i><par n="boks__n"/></e>
 <e lm="pen">             <i>pen</i><par n="pen__n"/></e>
+
 <e lm="pengeskab">       <i>pengeskab</i><par n="skib__n"/></e>
 <e lm="penis">           <i>penis</i><par n="mis__n"/></e>
 <e lm="percussionist">   <i>percussionist</i><par n="ateist__n"/></e>
@@ -13014,7 +13029,7 @@
 <e lm="vejviser">        <i>vejviser</i><par n="spiller__n"/></e>
 <e lm="veksling">        <i>veksling</i><par n="ateist__n"/></e>
 <e lm="velfærdsstat">    <i>velfærdsstat</i><par n="ateist__n"/></e>
-<e lm="ven">             <i>ven</i><par n="ateist__n"/></e>
+<e lm="ven">             <i>ven</i><par n="søn__n"/></e><!--TODO-->
 <e lm="venskab">         <i>venskab</i><par n="ateist__n"/></e>
 <e lm="venskabsby">      <i>venskabsby</i><par n="ateist__n"/></e>
 <e lm="ventilator">      <i>ventilator</i><par n="ateist__n"/></e>

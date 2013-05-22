@@ -314,7 +314,7 @@
 
 
 
-      <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor) DEFINITENESS HAS TO BE FIXED">
+      <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor) ">
           <pattern>
            <pattern-item n="nom"/>
            <pattern-item n="det"/>
@@ -384,7 +384,6 @@
         </out>
         <let><var n="køn"/><lit v=""/></let>
         <let><var n="kasus"/><lit v=""/></let>
-        <let><var n="bestemthed"/><lit v=""/></let>
          </action>
       </rule>
 
