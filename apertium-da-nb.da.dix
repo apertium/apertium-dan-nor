@@ -878,7 +878,6 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/></r></p></e>
 </pardef>
 
-
 <pardef n="hvis__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="pos"/></r></p></e>
 </pardef>
@@ -7331,6 +7330,7 @@
 <e lm="ugift">           <i>ugift</i><par n="amerikansk__adj"/></e>
 <e lm="giftig">          <i>giftig</i><par n="aktiv__adj"/></e>
 <e lm="glad">            <i>glad</i><par n="glad__adj"/></e>
+<e lm="glad for">           <i>glad<b/>for</i><par n="glad__adj"/></e>
 <e lm="grim">            <i>grim</i><par n="dum__adj"/></e>
 <e lm="grusom">          <i>grusom</i><par n="grusom__adj"/></e>
 <e lm="hel">             <i>hel</i><par n="aktiv__adj"/></e>
@@ -10683,7 +10683,7 @@
 <e lm="vifte">           <i>vift</i><par n="mal/e__vblex"/></e>
 <e lm="vikle">           <i>vikl</i><par n="mal/e__vblex"/></e>
 
-<!--<e lm="ville">           <i>vil</i><par n="vil/le__vblex"/></e>-->
+<e lm="ville">           <i>vil</i><par n="vil/le__vblex"/></e>
 
 <e lm="vildlede">        <i>vildled</i><par n="tal/e__vblex"/></e>
 <!--<e lm="vinge">           <i>ving</i><par n="mal/e__vblex"/></e>-->

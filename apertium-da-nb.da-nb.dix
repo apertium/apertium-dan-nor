@@ -173,6 +173,7 @@
 <e><p><l>hvor<s n="cnjsub"/></l>            <r>hvor<s n="cnjsub"/></r></p></e>
 
 <e><p><l>for<b/>at<s n="cnjsub"/></l>            <r>for<b/>at<s n="cnjsub"/></r></p></e>
+<e><p><l>for<b/>at<s n="cnjsub"/></l>            <r>for<b/>å<s n="cnjsub"/></r></p></e>
 <e><p><l>men<s n="cnjcoo"/></l>            <r>men<s n="cnjcoo"/></r></p></e>
 
 <e><p><l>når<s n="cnjsub"/></l>            <r>når<s n="cnjsub"/></r></p></e>
@@ -3083,6 +3084,7 @@
 <e><p><l>gammel<s n="adj"/></l>            <r>gammal<s n="adj"/></r></p></e>
 <e><p><l>gammel<s n="adj"/></l>            <r>gammel<s n="adj"/></r></p></e>
 <e><p><l>glad<s n="adj"/></l>            <r>glad<s n="adj"/></r></p></e>
+<e><p><l>glad<b/>for<s n="adj"/></l>            <r>glad<b/>i<s n="adj"/></r></p></e>
 <e><p><l>glad<s n="adj"/></l>            <r>lykkelig<s n="adj"/></r></p></e>
 <e><p><l>god<s n="adj"/></l>            <r>god<s n="adj"/></r></p></e>
 <e><p><l>grim<s n="adj"/></l><r>stygg<s n="adj"/></r></p></e>
@@ -3184,6 +3186,7 @@
 <e><p><l>hvordan<s n="adv"/></l><r>hvordan<s n="adv"/></r></p></e>
 <e><p><l>hvorfor<s n="adv"/></l><r>hvorfor<s n="adv"/></r></p></e>
 <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
+<e><p><l>ikke<s n="adv"/></l><r>ei<s n="adv"/></r></p></e>
 <e><p><l>ikke<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
 <e><p><l>imidlertid<s n="adv"/></l><r>imidlertid<s n="adv"/></r></p></e>
 <e><p><l>istedet<s n="adv"/></l><r>istedet<s n="adv"/></r></p></e>
