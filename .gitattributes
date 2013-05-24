@@ -1,5 +1,10 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
 /Makefile -text
+/README -text
+/TODO -text
 /apertium-dan-nor.dan-nob.dix -text
 /apertium-dan-nor.dan-nob.t1x -text
 /apertium-dan-nor.dan.dix -text
