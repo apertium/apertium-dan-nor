@@ -198,25 +198,35 @@
 
 <!-- Prepositions -->
 
-<e><p><l>af<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
-<e><p><l>mellem<s n="pr"/></l><r>mellom<s n="pr"/></r></p></e>
-<e><p><l>udenfor<s n="pr"/></l><r>utenfor<s n="pr"/></r></p></e>
-<e><p><l>ad<s n="pr"/></l><r>ad<s n="pr"/></r></p></e>
-<e><p><l>angående<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
-<e><p><l>efter<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
-<e><p><l>bag<s n="pr"/></l><r>bak<s n="pr"/></r></p></e>
 <e r="RL"><p><l>efter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
+<e><p><l>ad<s n="pr"/></l><r>ad<s n="pr"/></r></p></e>
+<e><p><l>af<s n="pr"/></l>            <r>av<s n="pr"/></r></p></e>
+<e><p><l>af<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
+<e><p><l>angående<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
+<e><p><l>bag<s n="pr"/></l>            <r>bak<s n="pr"/></r></p></e>
+<e><p><l>bag<s n="pr"/></l><r>bak<s n="pr"/></r></p></e>
+<e><p><l>efter<s n="pr"/></l>            <r>etter<s n="pr"/></r></p></e>
+<e><p><l>efter<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
+<e><p><l>for<s n="pr"/></l>            <r>for<s n="pr"/></r></p></e>
 <e><p><l>for<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+<e><p><l>foran<s n="pr"/></l>            <r>foran<s n="pr"/></r></p></e>
 <e><p><l>foran<s n="pr"/></l><r>foran<s n="pr"/></r></p></e>
 <e><p><l>forbi<s n="pr"/></l><r>forbi<s n="pr"/></r></p></e>
+<e><p><l>fra<s n="pr"/></l>            <r>fra<s n="pr"/></r></p></e>
 <e><p><l>fra<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
 <e><p><l>før<s n="pr"/></l><r>før<s n="pr"/></r></p></e>
+<e><p><l>gennem<s n="pr"/></l>            <r>gjennom<s n="pr"/></r></p></e>
 <e><p><l>hos<s n="pr"/></l><r>hos<s n="pr"/></r></p></e>
+<e><p><l>i<s n="pr"/></l>            <r>i<s n="pr"/></r></p></e>
 <e><p><l>i<s n="pr"/></l><r>i<s n="pr"/></r></p></e>
 <e><p><l>ifølge<s n="pr"/></l><r>ifølge<s n="pr"/></r></p></e>
+<e><p><l>inde<b/>i<s n="pr"/></l>        <r>inne<b/>i<s n="pr"/></r></p></e>
+<e><p><l>inde<s n="adv"/></l>            <r>inne<s n="adv"/></r></p></e>
 <e><p><l>kring<s n="pr"/></l><r>kring<s n="pr"/></r></p></e>
 <e><p><l>langs<s n="pr"/></l><r>langs<s n="pr"/></r></p></e>
+<e><p><l>med<s n="pr"/></l>            <r>med<s n="pr"/></r></p></e>
 <e><p><l>med<s n="pr"/></l><r>med<s n="pr"/></r></p></e>
+<e><p><l>mellem<s n="pr"/></l><r>mellom<s n="pr"/></r></p></e>
 <e><p><l>ned<s n="pr"/></l><r>ned<s n="pr"/></r></p></e>
 <e><p><l>nær<s n="pr"/></l><r>nær<s n="pr"/></r></p></e>
 <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
@@ -225,30 +235,20 @@
 <e><p><l>over<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
 <e><p><l>overfor<s n="pr"/></l><r>overfor<s n="pr"/></r></p></e>
 <e><p><l>per<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
-<e><p><l>på<s n="pr"/></l><r>på<s n="pr"/></r></p></e>
-<e><p><l>til<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
-<e><p><l>under<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
-<e><p><l>ved<s n="pr"/></l><r>ved<s n="pr"/></r></p></e>
-<e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
-<e><p><l>i<s n="pr"/></l>            <r>i<s n="pr"/></r></p></e>
 <e><p><l>på<s n="pr"/></l>            <r>på<s n="pr"/></r></p></e>
-<e><p><l>foran<s n="pr"/></l>            <r>foran<s n="pr"/></r></p></e>
-<e><p><l>med<s n="pr"/></l>            <r>med<s n="pr"/></r></p></e>
+<e><p><l>på<s n="pr"/></l><r>på<s n="pr"/></r></p></e>
+<e><p><l>rundt<s n="pr"/></l>        <r>rundt<s n="pr"/></r></p></e>
+<e><p><l>sammen<b/>med<s n="pr"/></l>        <r>sammen<b/>med<s n="pr"/></r></p></e>
+<e><p><l>til<s n="pr"/></l>            <r>til<s n="pr"/></r></p></e>
+<e><p><l>til<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
 <e><p><l>ude<s n="pr"/></l>            <r>ute<s n="pr"/></r></p></e>
 <e><p><l>udenfor<s n="pr"/></l>            <r>utenfor<s n="pr"/></r></p></e>
-<e><p><l>bag<s n="pr"/></l>            <r>bak<s n="pr"/></r></p></e>
-<e><p><l>gennem<s n="pr"/></l>            <r>gjennom<s n="pr"/></r></p></e>
-<e><p><l>inde<s n="adv"/></l>            <r>inne<s n="adv"/></r></p></e>
-<e><p><l>efter<s n="pr"/></l>            <r>etter<s n="pr"/></r></p></e>
-<e><p><l>ved<s n="pr"/></l>            <r>nær<s n="pr"/></r></p></e>
-<e><p><l>af<s n="pr"/></l>            <r>av<s n="pr"/></r></p></e>
-<e><p><l>for<s n="pr"/></l>            <r>for<s n="pr"/></r></p></e>
-<e><p><l>til<s n="pr"/></l>            <r>til<s n="pr"/></r></p></e>
-<e><p><l>fra<s n="pr"/></l>            <r>fra<s n="pr"/></r></p></e>
+<e><p><l>udenfor<s n="pr"/></l><r>utenfor<s n="pr"/></r></p></e>
 <e><p><l>under<s n="pr"/></l>            <r>under<s n="pr"/></r></p></e>
-<e><p><l>inde<b/>i<s n="pr"/></l>        <r>inne<b/>i<s n="pr"/></r></p></e>
-<e><p><l>sammen<b/>med<s n="pr"/></l>        <r>sammen<b/>med<s n="pr"/></r></p></e>
-<e><p><l>rundt<s n="pr"/></l>        <r>rundt<s n="pr"/></r></p></e>
+<e><p><l>under<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
+<e><p><l>ved<s n="pr"/></l>            <r>nær<s n="pr"/></r></p></e>
+<e><p><l>ved<s n="pr"/></l><r>ved<s n="pr"/></r></p></e>
+<e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
 
 <!-- Pronouns -->
 <e><p><l>hvad<b/>i<s n="prn"/><s n="itg"/></l>        <r>hva<b/>i<s n="prn"/><s n="itg"/></r></p></e>
