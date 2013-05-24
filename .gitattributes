@@ -1,13 +1,14 @@
 * text=auto !eol
 /Makefile -text
-/apertium-da-nb.da-nb.dix -text
-/apertium-da-nb.da-nb.t1x -text
-/apertium-da-nb.da.dix -text
-/apertium-da-nb.nb-da.rlx -text
-/apertium-da-nb.nb-da.t1x -text
-/apertium-da-nb.nb.dix -text
+/apertium-dan-nor.dan-nob.dix -text
+/apertium-dan-nor.dan-nob.t1x -text
+/apertium-dan-nor.dan.dix -text
+/apertium-dan-nor.nob-dan.rlx -text
+/apertium-dan-nor.nob-dan.t1x -text
+/apertium-dan-nor.nob.dix -text
 /apertium-view.sh -text
-/da-nb.prob -text
+/configure.ac -text
+/dan-nob.prob -text
 dev/apertium-da-nb.da-nb.dix -text
 dev/cuento.da.txt -text
 dev/cuento.nb.txt -text
@@ -21,4 +22,4 @@ dev/testvoc/testvoc-summary.dan-nob.txt -text
 dev/testvoc/testvoc-summary.nob-dan.txt -text
 dev/testvoc/testvoc.sh -text
 /modes.xml -text
-/nb-da.prob -text
+/nob-dan.prob -text
