@@ -139,13 +139,13 @@
 
 
 <pardef n="finansiel__adj">
-  <e>       <p><l>lere</l>      <r>l<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
-  <e>       <p><l></l>         <r>l<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>t</l>         <r>l<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>le</l>        <r>l<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>le</l>        <r>l<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l>leste</l>     <r>l<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l>lest</l>      <r>l<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+  <e>       <p><l>lere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>le</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>le</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>leste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>lest</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
 
 
@@ -872,6 +872,15 @@
 <pardef n="/som__prn">
   <e>       <p><l>som</l>       <r>som<s n="prn"/><s n="rel"/><s n="un"/><s n="sp"/><s n="nom"/></r></p></e>
   <e>       <p><l>hvis</l>      <r>som<s n="prn"/><s n="rel"/><s n="un"/><s n="sp"/><s n="gen"/></r></p></e>
+</pardef>
+
+<pardef n="hvad__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/></r></p></e>
+</pardef>
+
+
+<pardef n="hvis__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="pos"/></r></p></e>
 </pardef>
 
 <pardef n="hver__prn">
@@ -1653,6 +1662,14 @@
   <e>       <p><l>de<b/>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
+<pardef n="mid/del__n">
+  <e>       <p><l>dlerne</l>     <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>lerne</l>      <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>dler</l>      <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ler</l>       <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>dlet</l>     <r>del<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>del</l>       <r>del<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+</pardef>
 <pardef n="ryg__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~gen / ~ge / ~gene -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>gen</l>       <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
@@ -3043,15 +3060,15 @@
     <!-- Proper nouns -->
 
 <pardef n="S__case___mergeTODO"> <!-- Case endings for nouns not ending on s (mand / mands) -->
-  <e>       <p><l></l>          <r><s n="nom"/></r></p><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
   <e>       <p><l></l>          <r></r></p><par n="cp-L"/></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p><par n="cp-R"/></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="apos__case___mergeTODO"> <!-- Case endings for nouns ending on s (hus / hus' ) -->
-  <e>       <p><l></l>          <r><s n="nom"/></r></p><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
   <e>       <p><l></l>          <r></r></p><par n="cp-L"/></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p><par n="cp-R"/></e>
+  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
     <!-- Abbreviations -->
@@ -3369,6 +3386,8 @@
     <!-- ******************************
           group prn
       ****************************** -->
+
+<e lm="hvad">             <i>hvad</i><par n="hvad__prn"/></e>
 <e lm="jeg">             <i></i><par n="/jeg__prn"/></e>
 <e lm="vi">              <i></i><par n="/vi__prn"/></e>
 <e lm="I">               <i></i><par n="/I__prn"/></e>
@@ -3460,7 +3479,7 @@
 
 
     <!-- Nouns -->
-
+<e lm="middel">          <i>mid</i><par n="mid/del__n"/></e>
 <e lm="virus">           <i>vir</i><par n="vir/us__n"/></e>
 <e lm="abbed">           <i>abbed</i><par n="ateist__n"/></e>
 <e lm="euro">            <i>euro</i><par n="ateist__n"/></e>
@@ -7164,6 +7183,7 @@
 <e lm="om">              <i>om</i><par n="at__cnjsub"/></e>
 <e lm="som">             <i>som</i><par n="at__cnjsub"/></e>
 <e lm="så">              <i>så</i><par n="at__cnjsub"/></e>
+<e lm="for at">          <i>for<b/>at</i><par n="at__cnjsub"/></e>
 
     <!-- ******************************
           group cnjadv
@@ -7212,7 +7232,7 @@
 
     <!-- Adjectives -->
 
-<e lm="finansiel">      <i>finansiel</i><par n="finansiel__adj"/></e>
+<e lm="finansiel">      <i>finansiel</i><par n="finansiel__adj"/></e><!--todo check-->
 <e lm="stille">          <i>stille</i><par n="stille__adj"/></e>
 <e lm="hurtig">          <i>hurtig</i><par n="lykkelig__adj"/></e>
 <e lm="omhyggelig">      <i>omhyggelig</i><par n="lykkelig__adj"/></e>
@@ -7528,7 +7548,7 @@
       ****************************** -->
 
 <e lm="naturligvis">     <i>naturligvis</i><par n="ikke__adv"/></e>
-
+<e lm="faktisk">         <i>faktisk</i><par n="ikke__adv"/></e>
 <e lm="fra">             <i>fra</i><par n="ikke__adv"/></e>
 <e lm="nærmere">         <i>nærmere</i><par n="ikke__adv"/></e>
 <e lm="virkelig">        <i>virkelig</i><par n="ikke__adv"/></e>
@@ -11167,7 +11187,7 @@
 <e lm="hvordan" a="PT">  <i>hvordan</i><par n="ak__ij"/></e>
 <e lm="hvorfor det" a="PT"><i>hvorfor<b/>det</i><par n="ak__ij"/></e>
 <e lm="hvorfor" a="PT">  <i>hvorfor</i><par n="ak__ij"/></e>
-<e lm="i alle tillfelde" a="PT"><i>i<b/>alle<b/>tillfelde</i><par n="ak__ij"/></e>
+<e lm="i alle tillfelde" a="PT"><i>i<b/>alle<b/>tillfælde</i><par n="ak__ij"/></e>
 <e lm="ikke sandt" a="PT"><i>ikke<b/>sandt</i><par n="ak__ij"/></e>
 <e lm="ja gu" a="PT">    <i>ja<b/>gu</i><par n="ak__ij"/></e>
 <e lm="ja såmænd" a="PT"><i>ja<b/>såmænd</i><par n="ak__ij"/></e>
@@ -11208,10 +11228,7 @@
 <e lm="undskyld" a="PT"> <i>undskyld</i><par n="ak__ij"/></e>
 <e lm="usch" a="PT">     <i>usch</i><par n="ak__ij"/></e>
 <e lm="virkelig" a="PT"> <i>virkelig</i><par n="ak__ij"/></e>
-<e lm="voff" a="PT" c="domain:djur style:neu"><i>voff</i><par n="ak__ij"/></e>
-<e lm="vor er du dum" a="PT"><i>vor<b/>er<b/>du<b/>dum</i><par n="ak__ij"/></e>
-<e lm="vov" a="PT" c="domain:djur style:neu"><i>vov</i><par n="ak__ij"/></e>
-<e lm="äsch" a="PT">     <i>äsch</i><par n="ak__ij"/></e>
+
 
     <!-- Abbreviations -->
 

@@ -391,6 +391,9 @@
 
 
       <rule comment="ADJ -> ADJ">
+
+<!--TODO mf has to go to un-->
+
          <pattern>
            <pattern-item n="adj"/>
          </pattern>
