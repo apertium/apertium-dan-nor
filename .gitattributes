@@ -14,6 +14,7 @@ dev/cuento.nb.txt -text
 dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
 dev/nb-da.test -text
+dev/nbkorpus5000.txt -text
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
 dev/testvoc/testvoc-summary.dan-nob.txt -text
