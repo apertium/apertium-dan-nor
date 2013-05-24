@@ -251,7 +251,7 @@
 <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
 
 <!-- Pronouns -->
-<e><p><l>hvad<b/>i<s n="prn"/><s n="itg"/></l>        <r>hva<b/>i<s n="prn"/><s n="itg"/></r></p></e>
+<e><p><l>hvad<s n="prn"/><s n="itg"/></l>        <r>hva<s n="prn"/><s n="itg"/></r></p></e>
 
 
 <e><p><l>jeg<s n="prn"/><s n="p1"/><s n="un"/><s n="sg"/><s n="nom"/></l>   <r>jeg<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
