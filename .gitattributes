@@ -8,6 +8,7 @@
 /TODO -text
 /alt.xsl -text
 /apertium-dan-nor.dan-nno.lrx -text
+/apertium-dan-nor.dan-nno.t1x -text
 /apertium-dan-nor.dan-nob.lrx -text
 /apertium-dan-nor.dan-nob.t1x -text
 /apertium-dan-nor.dan-nor.dix -text
@@ -15,6 +16,7 @@
 /apertium-dan-nor.dan.dix -text
 /apertium-dan-nor.dan.rlx -text
 /apertium-dan-nor.nno-dan.lrx -text
+/apertium-dan-nor.nno-dan.t1x -text
 /apertium-dan-nor.nno.dix -text
 /apertium-dan-nor.nno.rlx -text
 /apertium-dan-nor.nob-dan.lrx -text

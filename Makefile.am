@@ -27,6 +27,8 @@ TARGETS_COMMON = \
       $(PREFIX1a).autolex.bin \
       $(PREFIX1b).autolex.bin \
       $(PREFIX1a).autogen.bin \
+      $(PREFIX1b).t1x.bin \
+      $(PREFIX1a).t1x.bin \
       $(PREFIX1b).autogen.bin \
       $(PREFIX2a).automorf.bin \
       $(PREFIX2b).automorf.bin \
@@ -36,7 +38,9 @@ TARGETS_COMMON = \
       $(PREFIX2b).autobil.bin \
       $(PREFIX2a).autolex.bin \
       $(PREFIX2b).autolex.bin \
-      $(PREFIX2).autogen.bin
+      $(PREFIX2).autogen.bin \
+      $(PREFIX2b).t1x.bin \
+      $(PREFIX2a).t1x.bin
 
 
 
@@ -74,6 +78,15 @@ $(PREFIX1a).autogen.bin: $(BASENAME).$(LANG2a).dix
 $(PREFIX1b).autogen.bin: $(BASENAME).$(LANG2a).dix 
 	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
 	lt-comp rl $(BASENAME).$(LANG2a).dix $@ 
+
+$(PREFIX1a).t1x.bin: $(BASENAME).$(PREFIX1a).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX1a).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX1a).t1x $@
+
+$(PREFIX1b).t1x.bin: $(BASENAME).$(PREFIX1b).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX1b).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX1b).t1x $@
+
 
 ###
 
@@ -119,7 +132,18 @@ $(PREFIX2b).autolex.bin: $(BASENAME).$(PREFIX2b).lrx
 $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
 	lt-comp rl $(BASENAME).$(LANG1).dix $@
 
+$(PREFIX2a).t1x.bin: $(BASENAME).$(PREFIX2a).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX2a).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2a).t1x $@
 
+$(PREFIX2b).t1x.bin: $(BASENAME).$(PREFIX2b).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX2b).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2b).t1x $@
+
+
+modes: modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 EXTRA_DIST= \
     $(BASENAME).$(LANG1).dix
@@ -132,6 +156,7 @@ apertium_dan_nor_DATA=$(TARGETS_COMMON) \
     $(PREFIX1).prob \
     $(PREFIX2a).prob \
     $(PREFIX2b).prob \
+    modes \
     modes.xml 
 
 CLEANFILES = $(TARGETS_COMMON) 

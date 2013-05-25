@@ -3,10 +3,10 @@
   <mode name="dan-nob" install="yes">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nob.automorf.bin"/>
+        <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="dan-nob.prob"/>
+        <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -26,7 +26,7 @@
   <mode name="dan-nob-morph" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="dan-nob.automorf.bin"/>
+        <file name="dan-nor.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -34,10 +34,10 @@
   <mode name="dan-nob-tagger" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="dan-nob.automorf.bin"/>
+        <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="dan-nob.prob"/>
+        <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -46,10 +46,10 @@
   <mode name="dan-nob-biltrans" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="dan-nob.automorf.bin"/>
+        <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="dan-nob.prob"/>
+        <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -62,10 +62,10 @@
   <mode name="dan-nob-transfer" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="dan-nob.automorf.bin"/>
+        <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="dan-nob.prob"/>
+        <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -100,7 +100,7 @@
         <file name="nob-dan.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="nob-dan.autogen.bin"/>
+        <file name="nor-dan.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -202,7 +202,7 @@
         <file name="nob-dan.t1x.bin"/>
       </program>
       <program name="lt-proc -d">
-        <file name="nob-dan.autogen.bin"/>
+        <file name="nor-dan.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
