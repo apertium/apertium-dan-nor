@@ -9,6 +9,7 @@
 
 -->
 <dictionary>
+
   <alphabet>ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
     <sdef n="n"   c="Noun"/>
@@ -26,7 +27,7 @@
     <sdef n="sp"  c="Singular and plural"/>
     <sdef n="sg"  c="Singular"/>
     <sdef n="pl"  c="Plural"/>
-        <sdef n="unc"   c="Uncountable"/>
+    <sdef n="unc"   c="Uncountable"/>
     <sdef n="def"   c="Definite"/>
     <sdef n="ind"   c="Indefinite"/>
     <sdef n="qnt"   c="Quantifier"/>
@@ -83,6 +84,7 @@
     <sdef n="cmp"   c="Generation only: added by transfer to say we have a compound"/>
     <sdef n="cmp-split"   c="Left part of a split compound"/>
   </sdefs>
+
   <pardefs>
 
     <!-- Punctuation -->
@@ -270,6 +272,17 @@
   <e>       <p><l>bedst</l>     <r>god<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l>bedste</l>    <r>god<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
+
+<pardef n="sidst__adj">
+            <e><p><l></l>           <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+            <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+            <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+            <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+            <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+            <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+            <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+</pardef>
+
 
 <pardef n="l/ang__adj">
   <e>       <p><l>ang</l>       <r>ang<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -7202,12 +7215,14 @@
 <e lm="såfremt">         <i>såfremt</i><par n="alt_imens__cnjadv"/></e>
 <e lm="såsom">           <i>såsom</i><par n="alt_imens__cnjadv"/></e>
 <e lm="til">             <i>til</i><par n="alt_imens__cnjadv"/></e>
+
     <!-- ******************************
           group adj
       ****************************** -->
 
 
     <!-- Adjectives -->
+<e lm="sidst">           <i>sidst</i><par n="sidst__adj"/></e>
 <e lm="meget">           <i>m</i><par n="m/eget__adj"/></e>
 <e lm="finansiel">      <i>finansiel</i><par n="finansiel__adj"/></e><!--todo check-->
 <e lm="stille">          <i>stille</i><par n="stille__adj"/></e>
@@ -7524,7 +7539,7 @@
     <!-- ******************************
           group adv
       ****************************** -->
-
+<e lm="sidst">     <i>sidst</i><par n="ikke__adv"/></e>
 <e lm="herhen">     <i>herhen</i><par n="ikke__adv"/></e>
 <e lm="naturligvis">     <i>naturligvis</i><par n="ikke__adv"/></e>
 <e lm="faktisk">         <i>faktisk</i><par n="ikke__adv"/></e>
@@ -12019,13 +12034,13 @@
 <e lm="ærte" a="DAINF">  <i>ærte</i><par n="abe__n"/></e>
 <e lm="økolog" a="DAINF"><i>økolog</i><par n="ateist__n"/></e>
 
-    <!-- PT: Gold washing from apertium-sv-da.da.dix.INFREQ END -->
+    <!-- PT: Gold washing from apertium-sv-da.da.dix.INFREQ END-->
 
     <!-- PT: Gold washing from apertium-sv-da.da.dix-mergeleftover BEGIN -->
 
 <e lm="skulder" a="MLO"> <i>skulder</i><par n="skuld/er__n"/></e>
 <e lm="tryk" a="MLO">    <i>tryk</i><par n="udtryk__n"/></e>
-<e lm="vindue" a="MLO">  <i>vindue</i><par n="æble__n"/></e>
+
 
     <!-- PT: Gold washing from apertium-sv-da.da.dix-mergeleftover END -->
 
@@ -14732,11 +14747,7 @@
 <e lm="ødelægge">        <i>ødel</i><par n="l/ægge__vblex"/></e>
 
 
-
-
-
 <!-- ====== HERE AND BELOW ARE ADDITIONS FROM SECOND FILE====== -->
-
 
   </section>
   <section id="final" type="inconditional">
