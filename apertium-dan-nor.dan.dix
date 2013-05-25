@@ -1,86 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Dictionary:
-	Sections: 3
-	Entries: 11111
-	Sdefs: 70
-	Paradigms: 396
-	Last processed by: apertium-dixtools merge-morph apertium-da-nb.da.dix /Users/jonasfromseier/apertiumBuild/apertium-sv-da/apertium-sv-da.da.dix apertium-merged-da.dix -debug
+  Dictionary:
+  Sections: 3
+  Entries: 11111
+  Sdefs: 70
+  Paradigms: 396
+  Last processed by: apertium-dixtools merge-morph apertium-da-nb.da.dix /Users/jonasfromseier/apertiumBuild/apertium-sv-da/apertium-sv-da.da.dix apertium-merged-da.dix -debug
 
 -->
 <dictionary>
   <alphabet>ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
-    <sdef n="n" 	c="Noun"/>
-    <sdef n="np" 	c="Proper noun"/>
-    <sdef n="ut" 	c="Common gender (utrum)"/>
-    <sdef n="nt" 	c="Neuter"/>
-    <sdef n="un" 	c="Common and neuter"/>
-    <sdef n="m" 	c="Masculine"/>
-    <sdef n="f" 	c="Feminine"/>
-    <sdef n="mf" 	c="Masculine / feminine"/>
-    <sdef n="top" 	c="Toponym"/>
-    <sdef n="ant" 	c="Anthroponym"/>
-    <sdef n="cog" 	c="Cognomen"/>
-    <sdef n="al" 	c=""/>
-    <sdef n="sp" 	c="Singular and plural"/>
-    <sdef n="sg" 	c="Singular"/>
-    <sdef n="pl" 	c="Plural"/>
-    <sdef n="def" 	c="Definite"/>
-    <sdef n="ind" 	c="Indefinite"/>
-    <sdef n="qnt" 	c="Quantifier"/>
-    <sdef n="itg" 	c="Interrogative"/>
-    <sdef n="dem" 	c="Demonstrative"/>
-    <sdef n="ord" 	c="Ordinal"/>
-    <sdef n="nom" 	c="Nominative"/>
-    <sdef n="gen" 	c="Genitive"/>
-    <sdef n="vblex" 	c="Lexical (normal) verb"/>
-    <sdef n="vbmod" 	c="Modal verb"/>
-    <sdef n="vaux" 	c="Auxiliary verb"/>
-    <sdef n="vbser" 	c="'To be' verb"/>
-    <sdef n="vbhaver" 	c="'To have' verb"/>
-    <sdef n="actv" 	c="Active voice"/>
-    <sdef n="pasv" 	c="Passive voice"/>
-    <sdef n="pres" 	c="Present"/>
-    <sdef n="past" 	c="Past"/>
-    <sdef n="imp" 	c="Imperfect"/>
-    <sdef n="inf" 	c="Infinitive"/>
-    <sdef n="pp" 	c="Past participle"/>
-    <sdef n="pprs" 	c="Present participle"/>
-    <sdef n="part" 	c="infinitive participle"/>
-    <sdef n="prn" 	c="Pronoun"/>
-    <sdef n="rel" 	c="Relative pronoun"/>
-    <sdef n="ref" 	c="Reflexive pronoun"/>
-    <sdef n="acc" 	c="Object"/>
+    <sdef n="n"   c="Noun"/>
+    <sdef n="np"  c="Proper noun"/>
+    <sdef n="ut"  c="Common gender (utrum)"/>
+    <sdef n="nt"  c="Neuter"/>
+    <sdef n="un"  c="Common and neuter"/>
+    <sdef n="m"   c="Masculine"/>
+    <sdef n="f"   c="Feminine"/>
+    <sdef n="mf"  c="Masculine / feminine"/>
+    <sdef n="top"   c="Toponym"/>
+    <sdef n="ant"   c="Anthroponym"/>
+    <sdef n="cog"   c="Cognomen"/>
+    <sdef n="al"  c=""/>
+    <sdef n="sp"  c="Singular and plural"/>
+    <sdef n="sg"  c="Singular"/>
+    <sdef n="pl"  c="Plural"/>
+        <sdef n="unc"   c="Uncountable"/>
+    <sdef n="def"   c="Definite"/>
+    <sdef n="ind"   c="Indefinite"/>
+    <sdef n="qnt"   c="Quantifier"/>
+    <sdef n="itg"   c="Interrogative"/>
+    <sdef n="dem"   c="Demonstrative"/>
+    <sdef n="ord"   c="Ordinal"/>
+    <sdef n="nom"   c="Nominative"/>
+    <sdef n="gen"   c="Genitive"/>
+    <sdef n="vblex"   c="Lexical (normal) verb"/>
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="vaux"  c="Auxiliary verb"/>
+    <sdef n="vbser"   c="'To be' verb"/>
+    <sdef n="vbhaver"   c="'To have' verb"/>
+    <sdef n="actv"  c="Active voice"/>
+    <sdef n="pasv"  c="Passive voice"/>
+    <sdef n="pres"  c="Present"/>
+    <sdef n="past"  c="Past"/>
+    <sdef n="imp"   c="Imperfect"/>
+    <sdef n="inf"   c="Infinitive"/>
+    <sdef n="pp"  c="Past participle"/>
+    <sdef n="pprs"  c="Present participle"/>
+    <sdef n="part"  c="infinitive participle"/>
+    <sdef n="prn"   c="Pronoun"/>
+    <sdef n="rel"   c="Relative pronoun"/>
+    <sdef n="ref"   c="Reflexive pronoun"/>
+    <sdef n="acc"   c="Object"/>
     <sdef n="det" />
-    <sdef n="p1" 	c="First person"/>
-    <sdef n="p2" 	c="Second person"/>
-    <sdef n="p3" 	c="Third person"/>
-    <sdef n="pos" 	c="Possesive"/>
-    <sdef n="pst" 	c="Positive"/>
-    <sdef n="comp" 	c="Comparative"/>
-    <sdef n="sup" 	c="Superlative"/>
-    <sdef n="ssup" 	c="Super-superlative"/>
-    <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/>
-    <sdef n="cnjsub" 	c="Sub-ordinating conjunction"/>
+    <sdef n="p1"  c="First person"/>
+    <sdef n="p2"  c="Second person"/>
+    <sdef n="p3"  c="Third person"/>
+    <sdef n="pos"   c="Possesive"/>
+    <sdef n="pst"   c="Positive"/>
+    <sdef n="comp"  c="Comparative"/>
+    <sdef n="sup"   c="Superlative"/>
+    <sdef n="ssup"  c="Super-superlative"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
     <sdef n="cnjadv" />
-    <sdef n="pr" 	c="Preposition"/>
-    <sdef n="ij" 	c="Interjection"/>
-    <sdef n="num" 	c="Numbers"/>
-    <sdef n="adv" 	c="Adverb"/>
-    <sdef n="preadv" 	c="Preadverbial"/>
-    <sdef n="adj" 	c="Adjective"/>
-    <sdef n="pas" 	c="Passive"/>
-    <sdef n="sent" 	c="End of sentence"/>
-    <sdef n="cm" 	c="Comma"/>
-    <sdef n="lpar" 	c="Left parenthesis ("/>
-    <sdef n="rpar" 	c="Right parenthesis )"/>
-    <sdef n="abbr" 	c="Abbreviation"/>
-    <sdef n="pers" 	c="Personal Pronoun"/>
-    <sdef n="compound-only-L" 	c="May only be the left-side of a compound"/>
-    <sdef n="compound-R" 	c="May be the right-side of a compound, or a full word"/>
-    <sdef n="cmp" 	c="Generation only: added by transfer to say we have a compound"/>
-    <sdef n="cmp-split" 	c="Left part of a split compound"/>
+    <sdef n="pr"  c="Preposition"/>
+    <sdef n="ij"  c="Interjection"/>
+    <sdef n="num"   c="Numbers"/>
+    <sdef n="adv"   c="Adverb"/>
+    <sdef n="preadv"  c="Preadverbial"/>
+    <sdef n="adj"   c="Adjective"/>
+    <sdef n="pas"   c="Passive"/>
+    <sdef n="sent"  c="End of sentence"/>
+    <sdef n="cm"  c="Comma"/>
+    <sdef n="lpar"  c="Left parenthesis ("/>
+    <sdef n="rpar"  c="Right parenthesis )"/>
+    <sdef n="abbr"  c="Abbreviation"/>
+    <sdef n="pers"  c="Personal Pronoun"/>
+    <sdef n="compound-only-L"   c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"  c="May be the right-side of a compound, or a full word"/>
+    <sdef n="cmp"   c="Generation only: added by transfer to say we have a compound"/>
+    <sdef n="cmp-split"   c="Left part of a split compound"/>
   </sdefs>
   <pardefs>
 
@@ -486,6 +487,8 @@
 </pardef>
 
 
+
+
     <!-- Adverbs -->
 
 
@@ -536,12 +539,33 @@
   <e>       <p><l>ærre</l>      <r>å<s n="adv"/><s n="comp"/></r></p></e>
   <e>       <p><l>ærrest</l>    <r>å<s n="adv"/><s n="sup"/></r></p></e>
 </pardef>
-
+<!--
 <pardef n="me/get__adv">
   <e>       <p><l>get</l>       <r>get<s n="adv"/><s n="pst"/></r></p></e>
   <e>       <p><l>re</l>        <r>get<s n="adv"/><s n="comp"/></r></p></e>
-  <e>       <p><l>st</l>        <r>get<s n="adv"/><s n="sup"/></r></p></e>
+  <e>       <p><l>st</l>        <r>get<s n="adv"/><s n="sup"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ste</l>       <r>get<s n="adv"/><s n="sup"/><s n="def"/></r></p></e>
 </pardef>
+
+-->
+
+<pardef n="m/eget__adj">
+  <e>       <p><l>ere</l>    <r>eget<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l>ere</l>   <r>eget<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+
+  <e>       <p><l>eget</l>    <r>eget<s n="adj"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>eget</l>    <r>eget<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>eget</l>    <r>eget<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>eget</l>    <r>eget<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>este</l>  <r>eget<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>est</l>   <r>eget<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+</pardef>
+
+
+
+
+
+
 
 
     <!-- Prepositions -->
@@ -588,6 +612,12 @@
 <pardef n="begge__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
 
+</pardef>
+
+<pardef n="al/__det">
+  <e>       <p><l></l>         <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>le</l>        <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -2810,9 +2840,9 @@
 
 <pardef n="sk/ulle__vbmod">
   <e>       <p><l>ulle</l>      <r>ulle<s n="vbmod"/><s n="inf"/></r></p></e>
-  <e>       <p><l>al</l>        <r>ulle<s n="vbmod"/><s n="pres"/></r></p></e>
-  <e>       <p><l>ulle</l>      <r>ulle<s n="vbmod"/><s n="past"/></r></p></e>
-  <e>       <p><l>ullet</l>     <r>ulle<s n="vbmod"/><s n="pp"/></r></p></e>
+  <e>       <p><l>al</l>        <r>ulle<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ulle</l>      <r>ulle<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ullet</l>     <r>ulle<s n="vbmod"/><s n="pp"/><s n="actv"/></r></p></e>
 </pardef>
 
 <pardef n="vil/le__vaux">
@@ -3077,62 +3107,6 @@
 </pardef>
 
 
-    <!-- Pronouns -->
-
-<pardef n="/jeg__prn___mergeTODO">
-  <e>       <p><l>jeg</l>       <r>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>mig</l>       <r>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="sg"/><s n="acc"/></r></p></e>
-</pardef>
-
-<pardef n="d/u__prn___mergeTODO">
-  <e>       <p><l>u</l>         <r>u<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ig</l>        <r>u<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="sg"/><s n="acc"/></r></p></e>
-</pardef>
-
-<pardef n="ha/n__prn___mergeTODO">
-  <e>       <p><l>n</l>         <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>m</l>         <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ns</l>        <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="h/un__prn___mergeTODO">
-  <e>       <p><l>un</l>        <r>un<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ende</l>      <r>un<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>endes</l>     <r>un<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="den__prn___mergeTODO">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="det__prn___mergeTODO">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="/vi__prn___mergeTODO">
-  <e>       <p><l>vi</l>        <r>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>os</l>        <r>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-</pardef>
-
-<pardef n="/I__prn___mergeTODO">
-  <e>       <p><l>I</l>         <r>I<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>jer</l>       <r>I<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-</pardef>
-
-<pardef n="de__prn___mergeTODO">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>m</l>         <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>res</l>       <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="/man__prn">
-  <e a="PT"><p><l>man</l>       <r>man<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
-  <!--<e>       <p><l>en</l>         <r>man<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>-->
-</pardef>
 
 <pardef n="undertegnede__prn">
   <e r="RL" a="PT"><p><l></l>   <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -3252,6 +3226,7 @@
 
     <!-- Determiners -->
 
+<e lm="al">              <i>al</i><par n="al/__det"/></e>
 <e lm="en">              <i>e</i><par n="e/n__det"/></e>
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
 <e lm="han">             <i>han</i><par n="han/__det"/></e>
@@ -3290,6 +3265,7 @@
     <!-- ******************************
           group pr
       ****************************** -->
+<e lm="herhen">           <i>herhen</i><par n="på__pr"/></e>
 <e lm="rundt">           <i>rundt</i><par n="på__pr"/></e>
 <e lm="sammen med">      <i>sammen<b/>med</i><par n="på__pr"/></e>
 <e lm="ad">              <i>ad</i><par n="på__pr"/></e>
@@ -3478,6 +3454,7 @@
 
 
     <!-- Nouns -->
+<e lm="fred">            <i>fred</i><par n="bold__n"/></e>
 <e lm="middel">          <i>mid</i><par n="mid/del__n"/></e>
 <e lm="virus">           <i>vir</i><par n="vir/us__n"/></e>
 <e lm="abbed">           <i>abbed</i><par n="ateist__n"/></e>
@@ -7103,6 +7080,7 @@
 <e lm="yoghurt">         <i>yoghurt</i><par n="ateist__n"/></e>
 <e lm="ytring">          <i>ytring</i><par n="ateist__n"/></e>
 <e lm="zar">             <i>zar</i><par n="ateist__n"/></e>
+<e lm="gråzone">            <i>gråzone</i><par n="abe__n"/></e>
 <e lm="zone">            <i>zone</i><par n="abe__n"/></e>
 <e lm="zoolog">          <i>zoolog</i><par n="ateist__n"/></e>
 <e lm="zoologi">         <i>zoologi</i><par n="ateist__n"/></e>
@@ -7230,7 +7208,7 @@
 
 
     <!-- Adjectives -->
-
+<e lm="meget">           <i>m</i><par n="m/eget__adj"/></e>
 <e lm="finansiel">      <i>finansiel</i><par n="finansiel__adj"/></e><!--todo check-->
 <e lm="stille">          <i>stille</i><par n="stille__adj"/></e>
 <e lm="hurtig">          <i>hurtig</i><par n="lykkelig__adj"/></e>
@@ -7547,6 +7525,7 @@
           group adv
       ****************************** -->
 
+<e lm="herhen">     <i>herhen</i><par n="ikke__adv"/></e>
 <e lm="naturligvis">     <i>naturligvis</i><par n="ikke__adv"/></e>
 <e lm="faktisk">         <i>faktisk</i><par n="ikke__adv"/></e>
 <e lm="fra">             <i>fra</i><par n="ikke__adv"/></e>
@@ -7654,7 +7633,8 @@
     <!-- TODO: CHECK THESE: -->
 <e lm="mere">            <i>mere</i><par n="mere__preadv"/></e>
 <e lm="mest">            <i>mest</i><par n="mere__preadv"/></e>
-<e lm="meget">           <i>me</i><par n="me/get__adv"/></e>
+<!--<e lm="meget">           <i>me</i><par n="me/get__adv"/></e>-->
+<e lm="meget">          <i>meget</i><par n="ikke__adv"/></e>
 <e lm="mellem">          <i>mellem</i><par n="ikke__adv"/></e>
 <e lm="mere">            <i>mere</i><par n="ikke__adv"/></e>
 <e lm="mindst">          <i>mindst</i><par n="ikke__adv"/></e>
@@ -9578,6 +9558,7 @@
 <e lm="konfrontere">     <i>konfronter</i><par n="mal/e__vblex"/></e>
 <e lm="konkludere">      <i>konkluder</i><par n="mal/e__vblex"/></e>
 <e lm="konkretisere">    <i>konkretiser</i><par n="mal/e__vblex"/></e>
+<e lm="filmatisere">    <i>filmatiser</i><par n="mal/e__vblex"/></e>
 <e lm="konkurrere">      <i>konkurrer</i><par n="mal/e__vblex"/></e>
 <e lm="konsolidere">     <i>konsolider</i><par n="mal/e__vblex"/></e>
 <e lm="konstatere">      <i>konstater</i><par n="mal/e__vblex"/></e>
@@ -11591,7 +11572,7 @@
 <e r="LR" lm="tsk" a="PT" c="domain:recept"><i>tsk</i><par n="t.eks.__abbr"/></e>
 <e lm="tsk." a="PT" c="domain:recept"><i>tsk.</i><par n="t.eks.__abbr"/></e>
 <e lm="hinanden">        <i>hinanden</i><par n="hinanden__prn"/></e>
-<e lm="man">             <i></i><par n="/man__prn"/></e>
+
 
 <e r="RL" lm="undertegnede" a="PT"><i>undertegnede</i><par n="undertegnede__prn"/></e>
 <e r="RL" lm="forfatteren" a="PT"><i>forfatter</i><par n="forfatter/en__prn"/></e>
@@ -11645,9 +11626,9 @@
 <e lm="gammel mand" a="PT"><i>gammel<b/>mand</i><par n="m/and__n"/></e>
 <e lm="gestus" a="PT">   <i>gestus</i><par n="boks__n"/></e>
 <e lm="grime" a="PT" c="domain:lantliv"><i>grime</i><par n="abe__n"/></e>
-<e lm="gruseplads" a="PT"><i>gruseplads</i><par n="residens__n"/></e>
+<e lm="grusplads" a="PT"><i>grusplads</i><par n="residens__n"/></e>
 
-<e lm="grusesti" a="PT"> <i>grusesti</i><par n="ateist__n"/></e>
+<e lm="grussti" a="PT"> <i>grussti</i><par n="ateist__n"/></e>
 <e lm="grynpølse" a="PT" c="domain:mat"><i>grynpølse</i><par n="abe__n"/></e>
 <e lm="gråd" a="PT">     <i>gråd</i><par n="ateist__n"/></e>
 <e lm="gær" a="PT" c="domain:mat"><i>gær</i><par n="ateist__n"/></e>
@@ -11669,7 +11650,7 @@
 <e lm="hundejer" a="PT"> <i>hundejer</i><par n="spiller__n"/></e>
 <e lm="hundkurv" a="PT"> <i>hundkurv</i><par n="bold__n"/></e>
 
-<e lm="hönsehegn" a="PT" c="domain:lantliv"><i>hönsehegn</i><par n="skib__n"/></e>
+<e lm="hønsehegn" a="PT" c="domain:lantliv"><i>hønsehegn</i><par n="skib__n"/></e>
 <e lm="hønsehus" a="PT" c="domain:lantliv"><i>hønsehus</i><par n="hus__n"/></e>
 <e lm="jeans" a="PT" c="domain:kläder"><i>jeans</i><par n="chips__n"/></e>
 <e lm="kaffekande" a="PT"><i>kaffekande</i><par n="abe__n"/></e>
@@ -11680,7 +11661,7 @@
 <e lm="kantarel" a="PT" c="domain:natur"><i>kantarel</i><par n="spil__n"/></e>
 <e lm="kid" a="PT" c="domain:djur"><i>kid</i><par n="skib__n"/></e>
 
-<e lm="klappjaktkæde" a="PT" c="domain:lantliv"><i>klappjaktkæde</i><par n="abe__n"/></e>
+<e lm="klapjagtkæde" a="PT" c="domain:lantliv"><i>klapjagtkæde</i><par n="abe__n"/></e>
 <e lm="klæde" a="PT">    <i>klæde</i><par n="tilfælde__n"/></e>
 <e lm="knækbrød" a="PT" c="domain:mat"><i>knækbrød</i><par n="år__n"/></e>
 <e lm="kolde" a="PT" c="domain:sjukvård"><i>kolde</i><par n="abe__n"/></e>
@@ -12101,12 +12082,6 @@
       ****************************** -->
 
 
-    <!-- Verbs -->
-
-<!-- PT: These are untranslatable to Swedish. Use være__vbser instead!
-<e lm="være">            <i></i><par n="/være__vblex"/></e>
-<e lm="være ligeglad">   <i></i><par n="/være__vblex"/><p><l><b/>ligeglad</l><r><g><b/>ligeglad</g></r></p></e>
--->
 
 <!-- PT: Många betydelser av danska vare: vara, räcka, dröja, bestå, vakta, passa sig för, varna -->
 <e lm="vare" a="PT" c="bestå"><i>vare</i><par n="mal/e__vblex"/></e>
@@ -12377,6 +12352,7 @@
 <e lm="dans">            <i>dans</i><par n="boks__n"/></e>
 <e lm="danse">           <i>danse</i><par n="abe__n"/></e>
 <e lm="dansk">           <i>dansk</i><par n="afghansk__n"/></e>
+<e lm="norsk">           <i>norsk</i><par n="afghansk__n"/></e>
 <e lm="danske">          <i>danske</i><par n="abe__n"/></e>
 <e lm="dansker">         <i>dansker</i><par n="spiller__n"/></e>
 <e lm="date">            <i>date</i><par n="drink__n"/></e>
@@ -14761,7 +14737,7 @@
 
 <!-- ====== HERE AND BELOW ARE ADDITIONS FROM SECOND FILE====== -->
 
-<e lm="ven">             <i>ven</i><par n="ateist__n"/></e>
+
   </section>
   <section id="final" type="inconditional">
 <e>                      <par n="separa"/></e>
