@@ -62,6 +62,27 @@ $(PREFIX1a).autobil.bin: .deps/$(PREFIX1a).dix
 $(PREFIX1b).autobil.bin: .deps/$(PREFIX1b).dix 
 	lt-comp lr .deps/$(PREFIX1b).dix $@
 
+$(PREFIX1a).autolex.bin: $(BASENAME).$(PREFIX1a).lrx
+	lrx-comp $(BASENAME).$(PREFIX1a).lrx $@
+
+$(PREFIX1b).autolex.bin: $(BASENAME).$(PREFIX1b).lrx
+	lrx-comp $(BASENAME).$(PREFIX1b).lrx $@
+$(PREFIX1a).autogen.bin: $(BASENAME).$(LANG2a).dix 
+	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
+	lt-comp rl $(BASENAME).$(LANG2a).dix $@ 
+
+$(PREFIX1b).autogen.bin: $(BASENAME).$(LANG2a).dix 
+	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
+	lt-comp rl $(BASENAME).$(LANG2a).dix $@ 
+
+###
+
+$(PREFIX2a).autolex.bin: $(BASENAME).$(PREFIX2a).lrx
+	lrx-comp $(BASENAME).$(PREFIX2a).lrx $@
+
+$(PREFIX2b).autolex.bin: $(BASENAME).$(PREFIX2b).lrx
+	lrx-comp $(BASENAME).$(PREFIX2b).lrx $@
+
 
 EXTRA_DIST= \
     $(BASENAME).$(LANG1).dix

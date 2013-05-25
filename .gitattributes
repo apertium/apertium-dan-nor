@@ -6,12 +6,16 @@
 /NEWS -text
 /README -text
 /TODO -text
+/apertium-dan-nor.dan-nno.lrx -text
+/apertium-dan-nor.dan-nob.lrx -text
 /apertium-dan-nor.dan-nob.t1x -text
 /apertium-dan-nor.dan-nor.dix -text
 /apertium-dan-nor.dan.acx -text
 /apertium-dan-nor.dan.dix -text
 /apertium-dan-nor.dan.rlx -text
+/apertium-dan-nor.nno-dan.lrx -text
 /apertium-dan-nor.nno-dan.rlx -text
+/apertium-dan-nor.nob-dan.lrx -text
 /apertium-dan-nor.nob-dan.rlx -text
 /apertium-dan-nor.nob-dan.t1x -text
 /apertium-dan-nor.nob.dix -text
