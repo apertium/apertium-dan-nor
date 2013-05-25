@@ -2,6 +2,7 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
+/Makefile.am -text
 /NEWS -text
 /README -text
 /TODO -text
@@ -9,6 +10,7 @@
 /apertium-dan-nor.dan-nor.dix -text
 /apertium-dan-nor.dan.acx -text
 /apertium-dan-nor.dan.dix -text
+/apertium-dan-nor.dan.rlx -text
 /apertium-dan-nor.nno-dan.rlx -text
 /apertium-dan-nor.nob-dan.rlx -text
 /apertium-dan-nor.nob-dan.t1x -text
