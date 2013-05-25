@@ -77,6 +77,18 @@ $(PREFIX1b).autogen.bin: $(BASENAME).$(LANG2a).dix
 
 ###
 
+$(PREFIX2a).automorf.bin: $(BASENAME).$(LANG2a).dix $(BASENAME).$(LANG2).acx
+	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
+	lt-comp lr $(BASENAME).$(LANG2a).dix $@ $(BASENAME).$(LANG2).acx
+
+.deps/$(LANG2b).dix:  $(BASENAME).$(LANG2b).dix
+	if [ ! -d .deps ] ; then mkdir .deps ; fi
+	xsltproc --stringparam alt nn_e alt.xsl $(BASENAME).$(LANG2b).dix > $@
+
+$(PREFIX2b).automorf.bin: .deps/$(LANG2b).dix $(BASENAME).$(LANG2).acx
+	apertium-validate-dictionary .deps/$(LANG2b).dix
+	lt-comp lr .deps/$(LANG2b).dix $@ $(BASENAME).$(LANG2).acx
+
 $(PREFIX2a).autolex.bin: $(BASENAME).$(PREFIX2a).lrx
 	lrx-comp $(BASENAME).$(PREFIX2a).lrx $@
 

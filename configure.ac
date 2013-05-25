@@ -57,6 +57,17 @@ then
   AC_MSG_ERROR([You don't have lrx-proc installed.])
 fi
 
+AC_PATH_PROG(XSLTPROC, xsltproc, no)
+if test x$ac_cv_path_XSLTPROC = x
+then
+  AC_MSG_ERROR([You don't have xsltproc installed.])
+fi
+if test x$ac_cv_path_XSLTPROC = xno
+then
+  AC_MSG_ERROR([You don't have xsltproc installed.])
+fi
+
+
 
 
 
