@@ -2,7 +2,6 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
-/Makefile -text
 /NEWS -text
 /README -text
 /TODO -text
@@ -18,7 +17,7 @@
 /apertium-view.sh -text
 /autogen.sh -text
 /configure.ac -text
-/dan-nob.prob -text
+/dan-nor.prob -text
 dev/apertium-da-nb.da-nb.dix -text
 dev/cuento.da.txt -text
 dev/cuento.nb.txt -text
