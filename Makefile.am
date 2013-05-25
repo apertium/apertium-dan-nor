@@ -95,12 +95,30 @@ $(PREFIX2a).rlx.bin: $(BASENAME).$(LANG2a).rlx
 $(PREFIX2b).rlx.bin: $(BASENAME).$(LANG2b).rlx 
 	cg-comp $(BASENAME).$(LANG2b).rlx $@ 
 
+# replace this with stripping for nob-dan
+.deps/$(PREFIX2a).dix: $(BASENAME).$(PREFIX1).dix
+	if [ ! -d .deps ] ; then mkdir .deps ; fi
+	cp $(BASENAME).$(PREFIX1).dix $@
+
+.deps/$(PREFIX2b).dix: $(BASENAME).$(PREFIX1).dix
+	if [ ! -d .deps ] ; then mkdir .deps ; fi
+	cp $(BASENAME).$(PREFIX1).dix $@
+
+$(PREFIX2a).autobil.bin: .deps/$(PREFIX2a).dix 
+	lt-comp rl .deps/$(PREFIX2a).dix $@
+
+$(PREFIX2b).autobil.bin: .deps/$(PREFIX2b).dix 
+	lt-comp rl .deps/$(PREFIX2b).dix $@
 
 $(PREFIX2a).autolex.bin: $(BASENAME).$(PREFIX2a).lrx
 	lrx-comp $(BASENAME).$(PREFIX2a).lrx $@
 
 $(PREFIX2b).autolex.bin: $(BASENAME).$(PREFIX2b).lrx
 	lrx-comp $(BASENAME).$(PREFIX2b).lrx $@
+
+$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
+	lt-comp rl $(BASENAME).$(LANG1).dix $@
+
 
 
 EXTRA_DIST= \
