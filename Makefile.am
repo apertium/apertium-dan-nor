@@ -47,6 +47,20 @@ $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 $(PREFIX1).rlx.bin: $(BASENAME).$(LANG1).rlx 
 	cg-comp $(BASENAME).$(LANG1).rlx $@ 
 
+# replace this with stripping for dan-nob
+.deps/$(PREFIX1a).dix: $(BASENAME).$(PREFIX1).dix
+	if [ ! -d .deps ] ; then mkdir .deps ; fi
+	cp $(BASENAME).$(PREFIX1).dix $@
+
+.deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix
+	if [ ! -d .deps ] ; then mkdir .deps ; fi
+	cp $(BASENAME).$(PREFIX1).dix $@
+
+$(PREFIX1a).autobil.bin: .deps/$(PREFIX1a).dix 
+	lt-comp lr .deps/$(PREFIX1a).dix $@
+
+$(PREFIX1b).autobil.bin: .deps/$(PREFIX1b).dix 
+	lt-comp lr .deps/$(PREFIX1b).dix $@
 
 
 EXTRA_DIST= \
