@@ -89,6 +89,13 @@ $(PREFIX2b).automorf.bin: .deps/$(LANG2b).dix $(BASENAME).$(LANG2).acx
 	apertium-validate-dictionary .deps/$(LANG2b).dix
 	lt-comp lr .deps/$(LANG2b).dix $@ $(BASENAME).$(LANG2).acx
 
+$(PREFIX2a).rlx.bin: $(BASENAME).$(LANG2a).rlx 
+	cg-comp $(BASENAME).$(LANG2a).rlx $@ 
+
+$(PREFIX2b).rlx.bin: $(BASENAME).$(LANG2b).rlx 
+	cg-comp $(BASENAME).$(LANG2b).rlx $@ 
+
+
 $(PREFIX2a).autolex.bin: $(BASENAME).$(PREFIX2a).lrx
 	lrx-comp $(BASENAME).$(PREFIX2a).lrx $@
 
