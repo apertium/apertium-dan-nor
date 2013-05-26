@@ -49,8 +49,9 @@
 <sdef n="ut"        c="Common"/>
 <sdef n="nt"        c="Neuter"/>
 <sdef n="mf"        c="Masculine / feminine"/>
-<sdef n="nom"   c="Subject"/>
-<sdef n="acc"   c="Object"/>
+<sdef n="nom"   c="nominative"/>
+<sdef n="acc"   c="accusative"/>
+<sdef n="gen"   c="genitive"/>
 <sdef n="posi"      c="Positive degree (Bokmål)"/>
 <sdef n="pst"       c="Positive degree (Danish)"/>
 <sdef n="cnjadv"    c="Conjunction adverbs - Danish?"/>
@@ -216,11 +217,19 @@
 <e><p><l>han<s n="prn"/><s n="p3"/><s n="m"/></l><r>han<s n="prn"/><s n="p3"/><s n="m"/></r></p></e>
 <e><p><l>hun<s n="prn"/><s n="p3"/><s n="f"/></l><r>hun<s n="prn"/><s n="p3"/><s n="f"/></r></p></e>
 
-<!--denne-->
+<!--denne messy! both gen and nom forms-->
 
 <e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>denne<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></l><r>denne<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+
+
 <e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l>    <r>denne<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></l>    <r>denne<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+
+
 
 <!--dette-->
 <e><p><l>denne<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>denne<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
