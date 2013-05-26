@@ -690,10 +690,12 @@
   <e>       <p><l></l>          <r><s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></r></p></e>
 </pardef>
 
+
 <pardef n="d/enne__det">
   <e>       <p><l>enne</l>      <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>ette</l>      <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>isse</l>      <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
+
 </pardef>
 
 <pardef n="nog/en__det">
@@ -880,7 +882,11 @@
 
 <pardef n="d/enne__prn">
   <e>       <p><l>enne</l>      <r>enne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
+
+
   <e>       <p><l>ette</l>      <r>enne<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+
+
   <e>       <p><l>isse</l>      <r>enne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
@@ -3263,7 +3269,7 @@
     <!--<e lm="selv"><i>selv</i><par n="selv__det"/></e>-->
 
 <e lm="første">          <i>første</i><par n="første__det"/></e>
-<e lm="andre">           <i>andre</i><par n="første__det"/></e> <!-- THIS IS WRONG  // NEEDS CAREFUL THOUGHT ~fmt -->
+<e lm="anden">           <i>anden</i><par n="første__det"/></e> <!-- THIS IS WRONG  // NEEDS CAREFUL THOUGHT ~fmt -->
 <e lm="tredje">          <i>tredje</i><par n="første__det"/></e>
 <e lm="fjerde">          <i>fjerde</i><par n="første__det"/></e>
 <e lm="femte">           <i>femte</i><par n="første__det"/></e>
@@ -3279,6 +3285,7 @@
           group pr
       ****************************** -->
 <e lm="herhen">           <i>herhen</i><par n="på__pr"/></e>
+<e lm="derop">           <i>derop</i><par n="på__pr"/></e>
 <e lm="rundt">           <i>rundt</i><par n="på__pr"/></e>
 <e lm="sammen med">      <i>sammen<b/>med</i><par n="på__pr"/></e>
 <e lm="ad">              <i>ad</i><par n="på__pr"/></e>

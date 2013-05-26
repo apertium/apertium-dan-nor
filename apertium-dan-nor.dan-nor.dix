@@ -5,6 +5,7 @@
 <sdef n="np"        c="Proper noun"/>
 <sdef n="num"       c="Numeral"/>
 <sdef n="prn"       c="Pronoun"/>
+<sdef n="ant"      c="Anthroponym"/>
 <sdef n="adj"       c="Adjective"/>
 <sdef n="cnjcoo"    c=""/>
 <sdef n="cnjsub"    c=""/>
@@ -198,6 +199,7 @@
 
 
 <!-- Prepositions -->
+<e><p><l>derop<s n="pr"/></l>            <r>opp<b/>dit<s n="pr"/></r></p></e>
 <e><p><l>herhen<s n="pr"/></l>            <r>hit<s n="pr"/></r></p></e>
 <e r="RL"><p><l>efter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
 <e><p><l>ad<s n="pr"/></l><r>ad<s n="pr"/></r></p></e>
@@ -241,6 +243,7 @@
 <e><p><l>sammen<b/>med<s n="pr"/></l>        <r>sammen<b/>med<s n="pr"/></r></p></e>
 <e><p><l>til<s n="pr"/></l>            <r>til<s n="pr"/></r></p></e>
 <e><p><l>til<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
+<e><p><l>ud<s n="pr"/></l>            <r>ut<s n="pr"/></r></p></e>
 <e><p><l>ude<s n="pr"/></l>            <r>ute<s n="pr"/></r></p></e>
 <e><p><l>udenfor<s n="pr"/></l>            <r>utenfor<s n="pr"/></r></p></e>
 <e><p><l>udenfor<s n="pr"/></l><r>utenfor<s n="pr"/></r></p></e>
@@ -251,6 +254,10 @@
 <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
 
 <!-- Pronouns -->
+
+
+
+
 <e><p><l>hvad<s n="prn"/><s n="itg"/></l>        <r>hva<s n="prn"/><s n="itg"/></r></p></e>
 
 
@@ -269,6 +276,29 @@
 
 <e><p><l>han<s n="prn"/><s n="p3"/><s n="m"/></l><r>han<s n="prn"/><s n="p3"/><s n="m"/></r></p></e>
 <e><p><l>hun<s n="prn"/><s n="p3"/><s n="f"/></l><r>hun<s n="prn"/><s n="p3"/><s n="f"/></r></p></e>
+
+<!--denne-->
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>denne<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></l>    <r>denne<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+<!--dette-->
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></l><r>denne<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
+<!--disse-->
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></l><r>denne<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></l><r>denne<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+
+<e><p><l>denne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></l><r>denne<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+
+
+
+
 <e><p><l>det<s n="prn"/><s n="p3"/><s n="nt"/></l><r>det<s n="prn"/><s n="p3"/><s n="nt"/></r></p></e>
 
 <e><p><l>man<s n="prn"/><s n="p3"/><s n="un"/><s n="sg"/><s n="nom"/></l><r>man<s n="prn"/><s n="sg"/></r></p></e>
@@ -318,6 +348,10 @@
 <!-- Determiners -->
 
 
+
+
+
+
 <e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></l>                          <r>en<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></l> <r>en<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
 
@@ -332,6 +366,11 @@
 <e><p><l>hver<s n="det"/><s n="ind"/></l><r>hver<s n="det"/><s n="qnt"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="def"/></l> <r>den<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+
+
+
+
 
 
 
@@ -409,10 +448,20 @@
 
 
 
+<!--denne-->
+<e><p><l>denne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>denne<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 
-<e><p><l>denne<s n="det"/><s n="dem"/><s n="ut"/></l><r>denne<s n="det"/><s n="dem"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>denne<s n="det"/><s n="dem"/><s n="ut"/></l><r>denne<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
-<e><p><l>denne<s n="det"/><s n="dem"/><s n="nt"/></l><r>denne<s n="det"/><s n="dem"/><s n="nt"/></r></p></e>
+<e><p><l>denne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>denne<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+
+
+<!--dette-->
+<e><p><l>denne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></l><r>denne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+
+<!--disse-->
+<e><p><l>denne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></l><r>denne<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+
+
 
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l><r>dere<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 <e><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
@@ -447,9 +496,17 @@
 
 <e><p><l>al<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>all<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
 
-<e><p><l>al<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>   <r>all<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>al<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>all<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>al<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>   <r>all<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
 
 <e><p><l>al<s n="det"/><s n="qnt"/><s n="pl"/></l>   <r>all<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+
+
+
+
+
 
 
 <e><p><l>ingen<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>ingen<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
@@ -492,6 +549,7 @@
 <e><p><l>ti<s n="num"/><s n="un"/><s n="pl"/></l><r>ti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
 <!-- Nouns -->
+    <e><p><l>tones n="n"/><s n="ut"/></l>         <r>tone<s n="n"/><s n="m"/></r></p></e>
    <e><p><l>brev<s n="n"/><s n="nt"/></l>         <r>brev<s n="n"/><s n="nt"/></r></p></e>
 
    <e><p><l>variation<s n="n"/><s n="ut"/></l>         <r>variasjon<s n="n"/><s n="m"/></r></p></e>
@@ -525,7 +583,7 @@
     <e><p><l>dyr<s n="n"/><s n="nt"/></l>           <r>dyr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lyd<s n="n"/><s n="ut"/></l>           <r>lyd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>menneske<s n="n"/><s n="nt"/></l>           <r>menneske<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>vand<s n="n"/><s n="nt"/></l>           <r>vann<s n="n"/><s n="nt"/></r></p></e>    <!--TAGGING ERROR IN WOKRING EXAMPLE-->
+     <e><p><l>vand<s n="n"/><s n="nt"/></l>           <r>vann<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>svar<s n="n"/><s n="nt"/></l>           <r>svar<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>mor<s n="n"/><s n="ut"/></l>           <r>mor<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mor<s n="n"/><s n="ut"/></l>           <r>mor<s n="n"/><s n="f"/></r></p></e>
@@ -2893,6 +2951,8 @@
 <e><p><l>Ada<s n="np"/></l><r>Ada</r></p></e>
 <e><p><l>Maria<s n="np"/></l><r>Maria</r></p></e>
 <e><p><l>Eva<s n="np"/></l><r>Eva</r></p></e>
+<e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
+ <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/></r></p></e>
 
 <e><p><l>Jacob<s n="np"/></l><r>Jacob</r></p></e>
 <e><p><l>David<s n="np"/></l><r>David</r></p></e>
@@ -3091,6 +3151,8 @@
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
 <!-- Adjectives -->
+<e><p><l>sidst<s n="adj"/></l><r>sist<s n="adj"/></r></p></e>
+
 <e><p><l>tidlig<s n="adj"/></l><r>tidlig<s n="adj"/></r></p></e>
 <e><p><l>mange<s n="adj"/></l><r>mange<s n="adj"/></r></p></e>
 <e><p><l>forsigtig<s n="adj"/></l><r>forsiktig<s n="adj"/></r></p></e>
@@ -3206,6 +3268,7 @@
 
 
 <!-- Adverbs -->
+<e><p><l>sidst<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 <e><p><l>måske<s n="adv"/></l><r>kanskje<s n="adv"/></r></p></e>
 <e><p><l>herhen<s n="adv"/></l><r>hit<s n="adv"/></r></p></e>
 <e><p><l>faktisk<s n="adv"/></l><r>faktisk<s n="adv"/></r></p></e>
