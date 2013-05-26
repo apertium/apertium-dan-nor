@@ -890,6 +890,7 @@
   <e>       <p><l>isse</l>      <r>enne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
+
 <pardef n="mang/e__prn">
   <e>       <p><l>e</l>         <r>e<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
   <e>       <p><l>en</l>        <r>e<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
@@ -7229,6 +7230,7 @@
 
 
     <!-- Adjectives -->
+<e lm="nødvendig">         <i>nødvendig</i><par n="øvrig__adj"/></e>
 <e lm="sidst">           <i>sidst</i><par n="sidst__adj"/></e>
 <e lm="meget">           <i>m</i><par n="m/eget__adj"/></e>
 <e lm="finansiel">      <i>finansiel</i><par n="finansiel__adj"/></e><!--todo check-->
@@ -7450,6 +7452,7 @@
 <e lm="tysk">            <i>tysk</i><par n="amerikansk__adj"/></e>
 <e lm="ubehagelig">      <i>ubehagelig</i><par n="lykkelig__adj"/></e>
 <e lm="udenlandsk">      <i>udenlandsk</i><par n="amerikansk__adj"/></e>
+<e lm="enig">           <i>enig</i><par n="amerikansk__adj"/></e>
 <e lm="uenig">           <i>uenig</i><par n="amerikansk__adj"/></e>
 <e lm="ulykkelig">       <i>ulykkelig</i><par n="amerikansk__adj"/></e>
 <e lm="underlig">        <i>underlig</i><par n="lykkelig__adj"/></e>
@@ -7546,6 +7549,7 @@
     <!-- ******************************
           group adv
       ****************************** -->
+<e lm="at">     <i>at</i><par n="ikke__adv"/></e>
 <e lm="sidst">     <i>sidst</i><par n="ikke__adv"/></e>
 <e lm="herhen">     <i>herhen</i><par n="ikke__adv"/></e>
 <e lm="naturligvis">     <i>naturligvis</i><par n="ikke__adv"/></e>
@@ -10620,6 +10624,7 @@
 <e lm="udvirke">         <i>udvirk</i><par n="mal/e__vblex"/></e>
 <e lm="udvise">          <i>udvis</i><par n="tal/e__vblex"/></e>
 <e lm="udviske">         <i>udvisk</i><par n="mal/e__vblex"/></e>
+<e lm="viske">         <i>udvisk</i><par n="mal/e__vblex"/></e>
 <e lm="udøve">           <i>udøv</i><par n="mal/e__vblex"/></e>
 <e lm="ugestemple">      <i>ugestempl</i><par n="mal/e__vblex"/></e>
 <e lm="ulejlige">        <i>ulejlig</i><par n="mal/e__vblex"/></e>

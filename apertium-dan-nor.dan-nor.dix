@@ -75,72 +75,6 @@
 
 <!-- Adjectives -->
 
-<pardef n="rund_ny__adj"> <!-- This is where forms match up exactly; just makes assumptions and transfers tags -->
-<e><p><l><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e><p><l><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e><p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></l><r><s n="posi"/><s n="pl"/></r></p></e>
-<e><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="posi"/><s n="sg"/><s n="def"/></r></p></e>
-
-<e><p><l><s n="comp"/><s n="un"/><s n="sp"/></l><r><s n="comp"/></r></p></e>
-
-<e><p><l><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="sup"/><s n="ind"/></r></p></e>
-<e><p><l><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="sup"/><s n="def"/></r></p></e>
-</pardef>
-
-<pardef n="bange_OK__adj">
-<e r="LR"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="GD"/><s n="ND"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="posi"/><s n="GD"/><s n="ND"/><s n="def"/></r></p></e>
-
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="posi"/><s n="sg"/><s n="def"/></r></p></e>
-</pardef>
-
-<pardef n="aktiv_sen__adj">
-<e><p><l><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e><p><l><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e><p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></l><r><s n="posi"/><s n="pl"/></r></p></e>
-<e><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="posi"/><s n="sg"/><s n="def"/></r></p></e>
-
-<e r="RL"><p><l><s n="unsint"/><s n="comp"/><s n="GD"/><s n="ND"/></l><r><s n="comp"/></r></p></e>
-
-<e r="RL"><p><l><s n="unsint"/><s n="sup"/><s n="GD"/><s n="ND"/><s n="ind"/></l><r><s n="sup"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="unsint"/><s n="sup"/><s n="GD"/><s n="ND"/><s n="def"/></l><r><s n="sup"/><s n="def"/></r></p></e>
-</pardef>
-
-<pardef n="amerikansk_sort__adj">
-<e r="LR"><p><l><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="GD"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></l><r><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-
-<e><p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></l><r><s n="posi"/><s n="pl"/></r></p></e>
-<e><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="posi"/><s n="sg"/><s n="def"/></r></p></e>
-
-<e r="RL"><p><l><s n="unsint"/><s n="comp"/><s n="GD"/><s n="ND"/></l><r><s n="comp"/></r></p></e>
-
-<e r="RL"><p><l><s n="unsint"/><s n="sup"/><s n="GD"/><s n="ND"/><s n="ind"/></l><r><s n="sup"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="unsint"/><s n="sup"/><s n="GD"/><s n="ND"/><s n="def"/></l><r><s n="sup"/><s n="def"/></r></p></e>
-</pardef>
-
-<pardef n="bange_sort__adj">
-<e r="LR"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="GD"/><s n="ND"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></l><r><s n="posi"/><s n="pl"/></r></p></e>
-
-<e><p><l><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></l><r><s n="posi"/><s n="sg"/><s n="def"/></r></p></e>
-
-<e r="RL"><p><l><s n="unsint"/><s n="comp"/><s n="GD"/><s n="ND"/></l><r><s n="comp"/></r></p></e>
-
-<e r="RL"><p><l><s n="unsint"/><s n="sup"/><s n="GD"/><s n="ND"/><s n="ind"/></l><r><s n="sup"/><s n="ind"/></r></p></e>
-<e r="RL"><p><l><s n="unsint"/><s n="sup"/><s n="GD"/><s n="ND"/><s n="def"/></l><r><s n="sup"/><s n="def"/></r></p></e>
-</pardef>
-
-<pardef n="bange_nøye__adj">
-<e><p><l></l><r></r></p></e>
-</pardef>
-
 
 
 <!-- Verbs -->
@@ -3151,8 +3085,10 @@
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
 <!-- Adjectives -->
+<e><p><l>uenig<s n="adj"/></l><r>uenig<s n="adj"/></r></p></e>
+<e><p><l>enig<s n="adj"/></l><r>enig<s n="adj"/></r></p></e>
+<e><p><l>nødvendig<s n="adj"/></l><r>nødvendig<s n="adj"/></r></p></e>
 <e><p><l>sidst<s n="adj"/></l><r>sist<s n="adj"/></r></p></e>
-
 <e><p><l>tidlig<s n="adj"/></l><r>tidlig<s n="adj"/></r></p></e>
 <e><p><l>mange<s n="adj"/></l><r>mange<s n="adj"/></r></p></e>
 <e><p><l>forsigtig<s n="adj"/></l><r>forsiktig<s n="adj"/></r></p></e>
@@ -3268,6 +3204,7 @@
 
 
 <!-- Adverbs -->
+<e><p><l>at<s n="adv"/></l><r>at<s n="adv"/></r></p></e>
 <e><p><l>sidst<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 <e><p><l>måske<s n="adv"/></l><r>kanskje<s n="adv"/></r></p></e>
 <e><p><l>herhen<s n="adv"/></l><r>hit<s n="adv"/></r></p></e>
@@ -3385,6 +3322,16 @@
 <e><p><l>ville<s n="vaux"/></l><r>ville<s n="vblex"/></r></p></e>
 
 <!-- Lexical verbs: -->
+<e><p><l>føle<s n="vblex"/></l>        <r>føle<s n="vblex"/></r></p></e>
+<e><p><l>sætte<s n="vblex"/></l>        <r>sette<s n="vblex"/></r></p></e>
+<e><p><l>erkende<s n="vblex"/></l>        <r>erkjenne<s n="vblex"/></r></p></e>
+<e><p><l>frikende<s n="vblex"/></l>        <r>frikjenne<s n="vblex"/></r></p></e>
+<e><p><l>anerkende<s n="vblex"/></l>        <r>anerkjenne<s n="vblex"/></r></p></e>
+<e><p><l>godkende<s n="vblex"/></l>        <r>godkjenne<s n="vblex"/></r></p></e>
+<e><p><l>kende<s n="vblex"/></l>        <r>kjenne<s n="vblex"/></r></p></e>
+<e><p><l>arbejde<s n="vblex"/></l>        <r>jobbe<s n="vblex"/></r></p></e>
+<e><p><l>viske<s n="vblex"/></l>        <r>viske<s n="vblex"/></r></p></e>
+<e><p><l>behøve<s n="vblex"/></l>        <r>trenge<s n="vblex"/></r></p></e>
   <e><p><l>byde<s n="vblex"/></l>        <r>by<s n="vblex"/></r></p></e>
   <e><p><l>lancere<s n="vblex"/></l>        <r>lansere<s n="vblex"/></r></p></e>
  <e><p><l>filmatisere<s n="vblex"/></l>        <r>filmatisere<s n="vblex"/></r></p></e>

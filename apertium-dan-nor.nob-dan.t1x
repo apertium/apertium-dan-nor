@@ -544,28 +544,36 @@
             <let><var n="køn"/><lit v=""/></let>
          </action>
       </rule>
-<!--
+
 
   <rule comment="PRN-> PRN">
          <pattern>
            <pattern-item n="prn"/>
          </pattern>
          <action>
+          <choose>
+          <when><test><equal>
+                <!--if the pronoun has no tag for case, give it the case 'nom'-->
+                <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+                <let><var n="kasus"/><lit-tag v="nom"/></let></when>
+          <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+        </choose>
+
           <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_prn"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="case"/>
+                <var n="kasus"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
            </out>
-
+           <let><var n="kasus"/><lit v=""/></let>
          </action>
      </rule>
--->
+
 
 
       <rule comment="PR-> PR">
