@@ -55,6 +55,7 @@
     <sdef n="ref"   c="Reflexive pronoun"/>
     <sdef n="acc"   c="Object"/>
     <sdef n="det" />
+     <sdef n="pass"  c="nb passive"/>
     <sdef n="p1"  c="First person"/>
     <sdef n="p2"  c="Second person"/>
     <sdef n="p3"  c="Third person"/>
