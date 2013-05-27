@@ -299,6 +299,8 @@
                   <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
               </choose>
 
+
+
             <choose>
               <when><test><equal>
                 <!--  if diatese tag is 'pass' convert to 'pasv' -->

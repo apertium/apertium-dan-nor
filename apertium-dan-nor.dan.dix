@@ -419,6 +419,18 @@
   <e>       <p><l>me</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
+
+<pardef n="enkelt__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
+
+
+  <e>       <p><l>e</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+
+  <e>       <p><l>e</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+</pardef>
+
+
+
 <pardef n="absolut__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
@@ -2181,7 +2193,7 @@
   <e>       <p><l>iver</l>      <r>ive<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>ives</l>      <r>ive<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ev</l>        <r>ive<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>evedes</l>    <r>ive<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
+  <e>       <p><l>ev</l>    <r>ive<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
   <e>       <p><l>evet</l>      <r>ive<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ivende</l>    <r>ive<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
@@ -7333,7 +7345,7 @@
 <e lm="engelsk">         <i>engelsk</i><par n="amerikansk__adj"/></e>
 
 <e lm="enkel">          <i>enk</i><par n="æd/el__adj"/></e>
-
+<e lm="enkelt">          <i>enkelt</i><par n="enkelt__adj"/></e>
 
 <e lm="enlig">           <i>enlig</i><par n="amerikansk__adj"/></e>
 <e lm="ekstra">          <i>ekstra</i><par n="bange__adj"/></e>
@@ -7631,6 +7643,7 @@
 <e lm="formodentligt">   <i>formodentligt</i><par n="ikke__adv"/></e>
 <e lm="fortsat">         <i>fortsat</i><par n="ikke__adv"/></e>
 <e lm="frem">            <i>frem</i><par n="ikke__adv"/></e>
+<e lm="lige så">          <i>lige<b/>så</i><par n="ikke__adv"/></e>
 <e lm="frem for">        <i>frem<b/>for</i><par n="ikke__adv"/></e>
 <e lm="få">              <i>f</i><par n="f/å__adv"/></e>
 <e lm="før">             <i>før</i><par n="ikke__adv"/></e>
