@@ -3282,7 +3282,7 @@
 <e lm="denne">           <i>d</i><par n="d/enne__det"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
-
+<e lm="så mange">        <i>så<b/>m</i><par n="mang/e__det"/></e>
 
     <!--<e lm="selv"><i>selv</i><par n="selv__det"/></e>-->
 
@@ -3325,6 +3325,8 @@
 <e lm="igennem">         <i>igennem</i><par n="på__pr"/></e>
 <e lm="imellem">         <i>imellem</i><par n="på__pr"/></e>
 <e lm="imod">            <i>imod</i><par n="på__pr"/></e>
+<e lm="ind">            <i>ind</i><par n="på__pr"/></e>
+
 <e lm="inde i">          <i>inde<b/>i</i><par n="på__pr"/></e>
 <e lm="inde fra">        <i>inde<b/>fra</i><par n="på__pr"/></e>
 <e lm="inden">           <i>inden</i><par n="på__pr"/></e>
@@ -7185,8 +7187,9 @@
 
     <!-- ******************************
           group cnjsub
-      ****************************** -->
-
+     '' ****************************** -->
+<e lm="der">            <i>der</i><par n="at__cnjsub"/></e>
+<e lm="bare">            <i>bare</i><par n="at__cnjsub"/></e>
 <e lm="at">              <i>at</i><par n="at__cnjsub"/></e>
 <e lm="da">              <i>da</i><par n="at__cnjsub"/></e>
 <e lm="eftersom">        <i>eftersom</i><par n="at__cnjsub"/></e>
@@ -7418,6 +7421,7 @@
 <e lm="offensiv">        <i>offensiv</i><par n="aktiv__adj"/></e>
 <e lm="offentlig">       <i>offentlig</i><par n="aktiv__adj"/></e>
 <e lm="officiel">        <i>officiel</i><par n="officiel__adj"/></e>
+<e lm="homoseksuel">         <i>homoseksuel</i><par n="officiel__adj"/></e>
 <e lm="seksuel">         <i>seksuel</i><par n="officiel__adj"/></e>
 <e lm="opmærksom">           <i>opmærksom</i><par n="ensom__adj"/></e>
 <e lm="ensom">           <i>ensom</i><par n="ensom__adj"/></e>
@@ -7578,6 +7582,7 @@
     <!-- ******************************
           group adv
       ****************************** -->
+  <e lm="alligevel">     <i>alligevel</i><par n="ikke__adv"/></e>
 <e lm="at">     <i>at</i><par n="ikke__adv"/></e>
 <e lm="sidst">     <i>sidst</i><par n="ikke__adv"/></e>
 <e lm="herhen">     <i>herhen</i><par n="ikke__adv"/></e>

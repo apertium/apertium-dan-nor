@@ -100,6 +100,9 @@
 
 <!-- Conjunctions -->
 
+<e><p><l>der<s n="cnjsub"/></l>            <r>der<s n="cnjsub"/></r></p></e>
+<e><p><l>bare<s n="cnjsub"/></l>            <r>bare<s n="cnjsub"/></r></p></e>
+<e><p><l>bare<s n="cnjadv"/></l>            <r>bare<s n="cnjsub"/></r></p></e>
 <e><p><l>end<s n="cnjadv"/></l>            <r>enn<s n="cnjsub"/></r></p></e>
 <e><p><l>at<s n="cnjsub"/></l>            <r>at<s n="cnjsub"/></r></p></e>
 <e><p><l>at<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
@@ -136,6 +139,8 @@
 
 
 <!-- Prepositions -->
+
+<e><p><l>ind<s n="pr"/></l>            <r>inn<s n="pr"/></r></p></e>
 <e><p><l>derop<s n="pr"/></l>            <r>opp<b/>dit<s n="pr"/></r></p></e>
 <e><p><l>herhen<s n="pr"/></l>            <r>hit<s n="pr"/></r></p></e>
 <e r="RL"><p><l>efter<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
@@ -191,6 +196,7 @@
 <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
 
 <!-- Pronouns -->
+<e><p><l>hvad<s n="prn"/><s n="itg"/></l>        <r>hva<s n="prn"/><s n="itg"/></r></p></e>
 
 
 <e><p><l>hinanden<s n="prn"/><s n="def"/><s n="un"/><s n="sg"/><s n="nom"/></l>        <r>hverandre<s n="prn"/><s n="res"/><s n="pl"/></r></p></e>
@@ -3109,6 +3115,12 @@
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
 <!-- Adjectives -->
+
+<e><p><l>bar<s n="adj"/></l><r>bar<s n="adj"/></r></p></e>
+
+<e><p><l>homoseksuel<s n="adj"/></l><r>homofil<s n="adj"/></r></p></e>
+
+<e><p><l>ung<s n="adj"/></l><r>ung<s n="adj"/></r></p></e>
 <e><p><l>økonomisk<s n="adj"/></l><r>økonomisk<s n="adj"/></r></p></e>
 <e><p><l>eventuel<s n="adj"/></l><r>eventuell<s n="adj"/></r></p></e>
 <e><p><l>villig<s n="adj"/></l><r>villig<s n="adj"/></r></p></e>
@@ -3240,6 +3252,11 @@
 
 
 <!-- Adverbs -->
+
+<e><p><l>mindst<s n="adv"/></l><r>minst<s n="adv"/></r></p></e>
+<e><p><l>alligevel<s n="adv"/></l><r>allikevel<s n="adv"/></r></p></e>
+<e><p><l>alligevel<s n="adv"/></l><r>likevel<s n="adv"/></r></p></e>
+<e><p><l>hjemme<s n="adv"/></l><r>hjemme<s n="adv"/></r></p></e>
 <e><p><l>sandsynligvis<s n="adv"/></l><r>sannsynligvis<s n="adv"/></r></p></e>
 <e><p><l>at<s n="adv"/></l><r>at<s n="adv"/></r></p></e>
 <e><p><l>sidst<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
@@ -3299,7 +3316,9 @@
 <e><p><l>således<s n="adv"/></l><r>således<s n="adv"/></r></p></e>
 <e><p><l>til<s n="adv"/></l><r>til<s n="adv"/></r></p></e>
 <e><p><l>undertiden<s n="adv"/></l><r>undertiden<s n="adv"/></r></p></e>
-<e><p><l>vel<s n="adv"/></l><r>vel<s n="adv"/></r></p></e>
+
+<e><p><l>vel<s n="adv"/><s n="pst"/></l><r>vel<s n="adv"/></r></p></e>
+
 <e><p><l>sammen<s n="adv"/></l>        <r>sammen<s n="adv"/></r></p></e>
 <e><p><l>udenfor<s n="adv"/></l>       <r>ute<s n="adv"/></r></p></e>
 <e><p><l>nu<s n="adv"/></l>            <r>nå<s n="adv"/></r></p></e>
