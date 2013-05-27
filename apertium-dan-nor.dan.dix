@@ -226,7 +226,8 @@
 </pardef>
 
 <pardef n="træt__adj">
-  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+    <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>tere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
@@ -379,8 +380,11 @@
 
 <pardef n="amerikansk__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+ <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+ <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="rå__adj">
@@ -640,18 +644,19 @@
   <e>       <p><l>t</l>         <r>n<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>ne</l>        <r>n<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="han/__det">
   <e>       <p><l>s</l>         <r><s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
+
+
 <pardef n="h/un__det">
   <e>       <p><l>endes</l>     <r>un<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>endes</l>     <r>un<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>endes</l>     <r>un<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
-
-
 
 
 
@@ -7231,9 +7236,14 @@
 
 
     <!-- Adjectives -->
+<e lm="kommerciel">        <i>kommerciel</i><par n="finansiel__adj"/></e>
+<e lm="kriminel">        <i>kriminel</i><par n="finansiel__adj"/></e>
+        <e lm="villig">         <i>villig</i><par n="øvrig__adj"/></e>
+    <e lm="frivillig">         <i>frivillig</i><par n="øvrig__adj"/></e>
 <e lm="nødvendig">         <i>nødvendig</i><par n="øvrig__adj"/></e>
 <e lm="sidst">           <i>sidst</i><par n="sidst__adj"/></e>
 <e lm="meget">           <i>m</i><par n="m/eget__adj"/></e>
+<e lm="eventuel">      <i>eventuel</i><par n="finansiel__adj"/></e>
 <e lm="finansiel">      <i>finansiel</i><par n="finansiel__adj"/></e><!--todo check-->
 <e lm="stille">          <i>stille</i><par n="stille__adj"/></e>
 <e lm="hurtig">          <i>hurtig</i><par n="lykkelig__adj"/></e>
@@ -7353,6 +7363,7 @@
 <e lm="klassisk">        <i>klassisk</i><par n="amerikansk__adj"/></e>
 <e lm="kold">            <i>kold</i><par n="rund__adj"/></e>
 <e lm="kolossal">        <i>kolossal</i><par n="amerikansk__adj"/></e>
+
 <e lm="kort">            <i>kort</i><par n="rund__adj"/></e>
 <e lm="kunstig">         <i>kunstig</i><par n="lykkelig__adj"/></e>
 <e lm="kvindelig">       <i>kvindelig</i><par n="amerikansk__adj"/></e>
@@ -7394,6 +7405,7 @@
 <e lm="offentlig">       <i>offentlig</i><par n="aktiv__adj"/></e>
 <e lm="officiel">        <i>officiel</i><par n="officiel__adj"/></e>
 <e lm="seksuel">         <i>seksuel</i><par n="officiel__adj"/></e>
+<e lm="opmærksom">           <i>opmærksom</i><par n="ensom__adj"/></e>
 <e lm="ensom">           <i>ensom</i><par n="ensom__adj"/></e>
 <e lm="oprindelig">      <i>oprindelig</i><par n="lykkelig__adj"/></e>
 <e lm="passiv">          <i>passiv</i><par n="aktiv__adj"/></e>
@@ -7444,6 +7456,8 @@
 <e lm="tilfreds">        <i>tilfreds</i><par n="amerikansk__adj"/></e>
 <e lm="tom">             <i>tom</i><par n="dum__adj"/></e>
 <e lm="trist">           <i>trist</i><par n="amerikansk__adj"/></e>
+<e lm="hot">            <i>hot</i><par n="træt__adj"/></e>
+<e lm="flot">            <i>flot</i><par n="træt__adj"/></e>
 <e lm="træt">            <i>træt</i><par n="træt__adj"/></e>
 <e lm="tung">            <i>tung</i><par n="rund__adj"/></e>
 <e lm="tydelig">         <i>tydelig</i><par n="lykkelig__adj"/></e>
@@ -9106,6 +9120,8 @@
 <e lm="frankere">        <i>franker</i><par n="mal/e__vblex"/></e>
 <e lm="fraråde">         <i>fraråd</i><par n="mal/e__vblex"/></e>
 <e lm="frasortere">      <i>frasorter</i><par n="mal/e__vblex"/></e>
+<e lm="støde">        <i>stød</i><par n="tal/e__vblex"/></e>
+
 <e lm="frastøde">        <i>frastød</i><par n="tal/e__vblex"/></e>
 <e lm="frede">           <i>fred</i><par n="mal/e__vblex"/></e>
 <e lm="fregne">          <i>fregn</i><par n="mal/e__vblex"/></e>
@@ -9874,6 +9890,7 @@
 <e lm="onanere">         <i>onaner</i><par n="mal/e__vblex"/></e>
 <e lm="oparbejde">       <i>oparbejd</i><par n="mal/e__vblex"/></e>
 <e lm="opbevare">        <i>opbevar</i><par n="mal/e__vblex"/></e>
+<e lm="misbruge">         <i>misbrug</i><par n="tal/e__vblex"/></e>
 <e lm="opbruge">         <i>opbrug</i><par n="tal/e__vblex"/></e>
 <e lm="opbygge">         <i>opbyg</i><par n="tyg/ge__vblex"/></e>
 <e lm="opdage">          <i>opdag</i><par n="mal/e__vblex"/></e>
@@ -12554,7 +12571,7 @@
 <e lm="feste">           <i>feste</i><par n="abe__n"/></e>
 <e lm="fil">             <i>fil</i><par n="ateist__n"/></e>
 <e lm="file">            <i>file</i><par n="abe__n"/></e>
-<e lm="film">            <i>film</i><par n="bold__n"/></e>
+<e lm="film">            <i>film</i><par n="sko__n"/></e>
 <e lm="filmrolle">       <i>filmrolle</i><par n="abe__n"/></e>
 <e lm="filnavn">         <i>filnavn</i><par n="skib__n"/></e>
 <e lm="finansiere">      <i>finansiere</i><par n="abe__n"/></e>
@@ -14421,6 +14438,7 @@
 <e lm="uddannelsessystem"><i>uddannelsessystem</i><par n="alibi__n"/></e>
 <e lm="uddrag">          <i>uddrag</i><par n="år__n"/></e>
 <e lm="udgivelsesår">    <i>udgivelsesår</i><par n="år__n"/></e>
+<e lm="rådgiver">         <i>rådgiver</i><par n="bold__n"/></e>
 <e lm="udgiver">         <i>udgiver</i><par n="bold__n"/></e>
 <e lm="udhus">           <i>udhus</i><par n="hus__n"/></e>
 <e lm="udkast">          <i>udkast</i><par n="år__n"/></e>
@@ -14643,6 +14661,7 @@
 <e lm="fryse">           <i>fr</i><par n="fr/yse__vblex"/></e>
 <e lm="frigive">         <i>frig</i><par n="g/ive__vblex"/></e>
 <e lm="gøre">            <i>g</i><par n="g/øre__vblex"/></e>
+<e lm="afgøre">            <i>afg</i><par n="g/øre__vblex"/></e>
 <e lm="gøre rent">       <i>g</i><par n="g/øre__vblex"/><p><l><b/>rent</l><r><g><b/>rent</g></r></p></e>
 <e lm="gælde">           <i>g</i><par n="g/ælde__vblex"/></e>
 <e lm="give">            <i>g</i><par n="g/ive__vblex"/></e>

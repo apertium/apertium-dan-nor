@@ -217,17 +217,13 @@
 <e><p><l>han<s n="prn"/><s n="p3"/><s n="m"/></l><r>han<s n="prn"/><s n="p3"/><s n="m"/></r></p></e>
 <e><p><l>hun<s n="prn"/><s n="p3"/><s n="f"/></l><r>hun<s n="prn"/><s n="p3"/><s n="f"/></r></p></e>
 
-<!--denne messy! both gen and nom forms-->
+<!--denne TODO gen not working because of nom tag , needs rule-->
 
 <e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>denne<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
 
-<e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></l><r>denne<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-
 
 <e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l>    <r>denne<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-
-<e><p><l>denne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></l>    <r>denne<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
 
 
 
@@ -496,7 +492,21 @@
 <e><p><l>ti<s n="num"/><s n="un"/><s n="pl"/></l><r>ti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
 <!-- Nouns -->
-    <e><p><l>tones n="n"/><s n="ut"/></l>         <r>tone<s n="n"/><s n="m"/></r></p></e>
+
+
+<e><p><l>uge<s n="n"/><s n="ut"/></l>         <r>uke<s n="n"/><s n="m"/></r></p></e>
+
+<e><p><l>uge<s n="n"/><s n="ut"/></l>         <r>uke<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>nyhed<s n="n"/><s n="ut"/></l>         <r>nyhet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nyhed<s n="n"/><s n="ut"/></l>         <r>nyhet<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>rådgiver<s n="n"/><s n="ut"/></l>         <r>rådgiver<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>branche<s n="n"/><s n="ut"/></l>         <r>bransje<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>historie<s n="n"/><s n="ut"/></l>         <r>historie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>historie<s n="n"/><s n="ut"/></l>         <r>historie<s n="n"/><s n="f"/></r></p></e>
+ <e><p><l>film<s n="n"/><s n="ut"/></l>         <r>film<s n="n"/><s n="m"/></r></p></e>
+ <e><p><l>moral<s n="n"/><s n="ut"/></l>         <r>moral<s n="n"/><s n="m"/></r></p></e>
+
+    <e><p><l>tone<s n="n"/><s n="ut"/></l>         <r>tone<s n="n"/><s n="m"/></r></p></e>
    <e><p><l>brev<s n="n"/><s n="nt"/></l>         <r>brev<s n="n"/><s n="nt"/></r></p></e>
 
    <e><p><l>variation<s n="n"/><s n="ut"/></l>         <r>variasjon<s n="n"/><s n="m"/></r></p></e>
@@ -854,6 +864,7 @@
 <e><p><l>bøgeskov<s n="n"/><s n="ut"/></l><r>bøkeskog<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>boghandel<s n="n"/><s n="ut"/></l><r>bokhandel<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bog<s n="n"/><s n="ut"/></l><r>bok<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>bog<s n="n"/><s n="ut"/></l><r>bok<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bold<s n="n"/><s n="ut"/></l><r>ball<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bolighus<s n="n"/><s n="nt"/></l><r>bolighus<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>bolig<s n="n"/><s n="ut"/></l><r>bolig<s n="n"/><s n="m"/></r></p></e>
@@ -3098,7 +3109,16 @@
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
 <!-- Adjectives -->
-
+<e><p><l>økonomisk<s n="adj"/></l><r>økonomisk<s n="adj"/></r></p></e>
+<e><p><l>eventuel<s n="adj"/></l><r>eventuell<s n="adj"/></r></p></e>
+<e><p><l>villig<s n="adj"/></l><r>villig<s n="adj"/></r></p></e>
+<e><p><l>frivillig<s n="adj"/></l><r>frivillig<s n="adj"/></r></p></e>
+<e><p><l>kommerciel<s n="adj"/></l><r>kommersiell<s n="adj"/></r></p></e>
+<e><p><l>hel<s n="adj"/></l><r>hel<s n="adj"/></r></p></e>
+<e><p><l>kriminel<s n="adj"/></l><r>kriminell<s n="adj"/></r></p></e>
+<e><p><l>kendt<s n="adj"/></l><r>kjent<s n="adj"/></r></p></e>
+<e><p><l>opmærksom<s n="adj"/></l><r>oppmerksom<s n="adj"/></r></p></e>
+<e><p><l>flot<s n="adj"/></l><r>flott<s n="adj"/></r></p></e>
 <e><p><l>vanskelig<s n="adj"/></l><r>vanskelig<s n="adj"/></r></p></e>
 <e><p><l>vigtig<s n="adj"/></l><r>viktig<s n="adj"/></r></p></e>
 <e><p><l>uenig<s n="adj"/></l><r>uenig<s n="adj"/></r></p></e>
@@ -3220,6 +3240,7 @@
 
 
 <!-- Adverbs -->
+<e><p><l>sandsynligvis<s n="adv"/></l><r>sannsynligvis<s n="adv"/></r></p></e>
 <e><p><l>at<s n="adv"/></l><r>at<s n="adv"/></r></p></e>
 <e><p><l>sidst<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 <e><p><l>måske<s n="adv"/></l><r>kanskje<s n="adv"/></r></p></e>
@@ -3336,8 +3357,6 @@
 <e><p><l>have<s n="vbhaver"/></l><r>ha<s n="vblex"/></r></p></e>
 
 
-
-
 <!-- Modals (need some work): -->
  <e><p><l>kunne<s n="vblex"/></l>        <r>kunne<s n="vblex"/></r></p></e>
 <e><p><l>måtte<s n="vaux"/></l><r>måtte<s n="vblex"/></r></p></e>
@@ -3347,6 +3366,15 @@
 <e><p><l>ville<s n="vaux"/></l><r>ville<s n="vblex"/></r></p></e>
 
 <!-- Lexical verbs: -->
+<e><p><l>afgøre<s n="vblex"/></l> <r>afgjøre<s n="vblex"/></r></p></e>
+<e><p><l>optage<s n="vblex"/></l> <r>oppta<s n="vblex"/></r></p></e>
+<e><p><l>misbruge<s n="vblex"/></l>        <r>misbruke<s n="vblex"/></r></p></e>
+<e><p><l>dræbe<s n="vblex"/></l>        <r>drepe<s n="vblex"/></r></p></e>
+<e><p><l>overrumple<s n="vblex"/></l>        <r>overrumple<s n="vblex"/></r></p></e>
+<e><p><l>føde<s n="vblex"/></l>        <r>føde<s n="vblex"/></r></p></e>
+<e><p><l>efterlade<s n="vblex"/></l>        <r>etterlate<s n="vblex"/></r></p></e>
+<e><p><l>indeholde<s n="vblex"/></l>        <r>inneholde<s n="vblex"/></r></p></e>
+<e><p><l>støde<s n="vblex"/></l>        <r>støte<s n="vblex"/></r></p></e>
 <e><p><l>føle<s n="vblex"/></l>        <r>føle<s n="vblex"/></r></p></e>
 <e><p><l>sætte<s n="vblex"/></l>        <r>sette<s n="vblex"/></r></p></e>
 <e><p><l>erkende<s n="vblex"/></l>        <r>erkjenne<s n="vblex"/></r></p></e>
@@ -6471,14 +6499,14 @@
 <e><p><l>opsamle<s n="vblex"/></l><r>akkumuleringen<s n="vblex"/></r></p></e>
 <e><p><l>opskalke<s n="vblex"/></l><r>opskalke<s n="vblex"/></r></p></e>
 <e><p><l>opskrue<s n="vblex"/></l><r>opskrue<s n="vblex"/></r></p></e>
-<e><p><l>opspare<s n="vblex"/></l><r>akkumuleringen<s n="vblex"/></r></p></e>
-<e><p><l>opsplitte<s n="vblex"/></l><r>deling<s n="vblex"/></r></p></e>
-<e><p><l>opspore<s n="vblex"/></l><r>tracing<s n="vblex"/></r></p></e>
+<e><p><l>opspare<s n="vblex"/></l><r>akkumulere<s n="vblex"/></r></p></e>
+<e><p><l>opsplitte<s n="vblex"/></l><r>dele<s n="vblex"/></r></p></e>
+<e><p><l>opspore<s n="vblex"/></l><r>trace<s n="vblex"/></r></p></e>
 <e><p><l>opstå<s n="vblex"/></l><r>oppstå<s n="vblex"/></r></p></e>
-<e><p><l>opstille<s n="vblex"/></l><r>innstilling<s n="vblex"/></r></p></e>
+<e><p><l>opstille<s n="vblex"/></l><r>innstille<s n="vblex"/></r></p></e>
 <e><p><l>opsuge<s n="vblex"/></l><r>absorbere<s n="vblex"/></r></p></e>
 <e><p><l>opsøge<s n="vblex"/></l><r>oppsøke<s n="vblex"/></r></p></e>
-<e><p><l>optage<s n="vblex"/></l><r>innspillingen<s n="vblex"/></r></p></e>
+<e><p><l>optage<s n="vblex"/></l><r>innspille<s n="vblex"/></r></p></e>
 <e><p><l>optanke<s n="vblex"/></l><r>optanke<s n="vblex"/></r></p></e>
 <e><p><l>optimere<s n="vblex"/></l><r>optimalisere<s n="vblex"/></r></p></e>
 <e><p><l>optjene<s n="vblex"/></l><r>tjene<s n="vblex"/></r></p></e>
