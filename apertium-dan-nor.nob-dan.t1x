@@ -126,6 +126,8 @@
 
      <def-attr n="a_adj">
     <attr-item tags="adj"/>
+    <attr-item tags="vblex.pp"/>
+    <attr-item tags="vblex.pprs"/>
     <attr-item tags="adj.sint"/>
     <attr-item tags="adj.pprs"/>
      </def-attr>
@@ -506,33 +508,6 @@
       </rule>
 
 
-
-
-      <rule comment="ADJ -> VERB">
-         <pattern>
-           <pattern-item n="adj-pprs"/>
-         </pattern>
-         <action>
-             <choose>
-          <when><test><equal>
-                <clip pos="1" side="sl" part="a_adj"/><lit-tag v="pprs"/></equal></test>
-                <let><var n="tempus"/><lit-tag v="pprs"/></let>
-                 <let><var n="kategori"/><lit-tag v="vblex"/></let>
-              </when>
-        </choose>
-        <out>
-             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="kategori"/>
-               <clip pos="1" side="tl" part="tempus"/>
-               <clip pos="1" side="tl" part="lemq"/>
-
-             </lu>
-           </out>
-           <let><var n="kategori"/><lit v=""/></let>
-           <let><var n="tempus"/><lit v=""/></let>
-         </action>
-      </rule>
 
 
 
