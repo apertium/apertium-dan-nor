@@ -17,9 +17,14 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
+   <def-cat n="adj-pprs">
+      <cat-item tags="adj.pprs"/>
+      <cat-item tags="adj.pprs.*"/>
+    </def-cat>
+
+
    <def-cat n="adj">
       <cat-item tags="adj.*"/>
-
     </def-cat>
 
     <def-cat n="pr">
@@ -505,7 +510,7 @@
 
       <rule comment="ADJ -> VERB">
          <pattern>
-           <pattern-item n="adj"/>
+           <pattern-item n="adj-pprs"/>
          </pattern>
          <action>
              <choose>
