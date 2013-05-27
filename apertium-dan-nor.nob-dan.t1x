@@ -194,6 +194,7 @@
      <def-var n="tal"/>
      <def-var n="bestemthed"/>
      <def-var n="tempus"/>
+    <def-var n="kategori"/>
 
 
   </section-def-vars>
@@ -511,17 +512,20 @@
           <when><test><equal>
                 <!--if we have adj.pprs let var tempus be pprs-->
                 <clip pos="1" side="sl" part="a_adj"/><lit-tag v="pprs"/></equal></test>
-                <let><var n="tempus"/><lit-tag v="pprs"/></let></when>
+                <let><var n="tempus"/><lit-tag v="pprs"/></let>
+                 <let><var n="kategori"/><lit-tag v="vblex"/></let>
+              </when>
         </choose>
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
-
+              <clip pos="1" side="tl" part="kategori"/>
                <clip pos="1" side="tl" part="tempus"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
            </out>
+           <let><var n="kategori"/><lit v=""/></let>
            <let><var n="tempus"/><lit v=""/></let>
          </action>
       </rule>
