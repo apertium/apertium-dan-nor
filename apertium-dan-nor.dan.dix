@@ -141,6 +141,17 @@
     <!-- Adjectives -->
 
 
+<pardef n="æd/el__adj">
+  <e>       <p><l>lere</l>      <r>el<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l>el</l>        <r>el<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>elt</l>       <r>el<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>le</l>        <r>el<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>le</l>        <r>el<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>leste</l>     <r>el<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>lest</l>      <r>el<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+</pardef>
+
+
 
 <pardef n="finansiel__adj">
   <e>       <p><l>lere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
@@ -7318,9 +7329,9 @@
 <e lm="eneste">          <i>eneste</i><par n="bange__adj"/></e>
 <e lm="engelsk">         <i>engelsk</i><par n="amerikansk__adj"/></e>
 
-<e lm="enkel">          <i>enkelt</i><par n="amerikansk__adj"/></e>
+<e lm="enkel">          <i>enk</i><par n="æd/el__adj"/></e>
 
-<e lm="enkelt">          <i>enkelt</i><par n="amerikansk__adj"/></e>
+
 <e lm="enlig">           <i>enlig</i><par n="amerikansk__adj"/></e>
 <e lm="ekstra">          <i>ekstra</i><par n="bange__adj"/></e>
 <e lm="direkte">         <i>direkte</i><par n="bange__adj"/></e>
