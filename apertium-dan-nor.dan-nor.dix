@@ -89,7 +89,7 @@
    necessary here. -->
 
 <e>       <p><l></l><r></r></p></e>
-<e>       <p><l><s n="past"/><s n="pasv"/></l><r><s n="vblex"/><s n="pret"/></r></p></e>
+<e>       <p><l><s n="past"/><s n="pasv"/></l><r><s n="vblex"/><s n="pret"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pres"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="past"/><s n="actv"/></l><r><s n="vblex"/><s n="pret"/></r></p></e>
@@ -1272,6 +1272,7 @@
 <e><p><l>frikativ<s n="n"/><s n="ut"/></l><r>frikativ<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>friktion<s n="n"/><s n="ut"/></l><r>friksjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>frimærke<s n="n"/><s n="nt"/></l><r>frimerke<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>mærke<s n="n"/><s n="nt"/></l><r>merke<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>frisør<s n="n"/><s n="ut"/></l><r>frisør<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>frispark<s n="n"/><s n="nt"/></l><r>frispark<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>frisure<s n="n"/><s n="ut"/></l><r>frisyre<s n="n"/><s n="m"/></r></p></e>
@@ -3397,6 +3398,7 @@
 <e><p><l>ville<s n="vaux"/></l><r>ville<s n="vblex"/></r></p></e>
 
 <!-- Lexical verbs: -->
+
 <e><p><l>afgøre<s n="vblex"/></l> <r>afgjøre</r></p><par n="generic__vblex"/></e>
 <e><p><l>optage<s n="vblex"/></l> <r>oppta</r></p><par n="generic__vblex"/></e>
 <e><p><l>misbruge<s n="vblex"/></l>        <r>misbruke</r></p><par n="generic__vblex"/></e>
@@ -6402,7 +6404,7 @@
 
 <e><p><l>målrette<s n="vblex"/></l><r>målgruppe</r></p><par n="generic__vblex"/></e>
 <e><p><l>mægle<s n="vblex"/></l><r>megle</r></p><par n="generic__vblex"/></e>
-<e><p><l>mærke<s n="vblex"/></l><r>som<b/>merkevare</r></p><par n="generic__vblex"/></e>
+<e><p><l>mærke<s n="vblex"/></l><r>merke</r></p><par n="generic__vblex"/></e>
 <e><p><l>mætte<s n="vblex"/></l><r>mette</r></p><par n="generic__vblex"/></e>
 <e><p><l>mætte<s n="vblex"/></l><r>mette</r></p><par n="generic__vblex"/></e>
 <e><p><l>møde<s n="vblex"/></l><r>møtet</r></p><par n="generic__vblex"/></e>
