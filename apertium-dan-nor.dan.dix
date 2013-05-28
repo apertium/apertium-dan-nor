@@ -7262,6 +7262,7 @@
 
 
     <!-- Adjectives -->
+  <e lm="stolt">        <i>stolt</i><par n="finansiel__adj"/></e>
 <e lm="kommerciel">        <i>kommerciel</i><par n="finansiel__adj"/></e>
 <e lm="kriminel">        <i>kriminel</i><par n="finansiel__adj"/></e>
         <e lm="villig">         <i>villig</i><par n="øvrig__adj"/></e>
@@ -9633,6 +9634,7 @@
 <e lm="konfrontere">     <i>konfronter</i><par n="mal/e__vblex"/></e>
 <e lm="konkludere">      <i>konkluder</i><par n="mal/e__vblex"/></e>
 <e lm="konkretisere">    <i>konkretiser</i><par n="mal/e__vblex"/></e>
+<e lm="radikalisere">    <i>radikaliser</i><par n="mal/e__vblex"/></e>
 <e lm="filmatisere">    <i>filmatiser</i><par n="mal/e__vblex"/></e>
 <e lm="konkurrere">      <i>konkurrer</i><par n="mal/e__vblex"/></e>
 <e lm="konsolidere">     <i>konsolider</i><par n="mal/e__vblex"/></e>
@@ -14420,6 +14422,7 @@
 <e lm="tredjeplads">     <i>tredjeplads</i><par n="residens__n"/></e>
 <e lm="treer">           <i>treer</i><par n="spiller__n"/></e>
 <e lm="trekant">         <i>trekant</i><par n="ateist__n"/></e>
+<e lm="frivillig">     <i>frivillig</i><par n="årig__n"/></e>
 <e lm="trettenårig">     <i>trettenårig</i><par n="årig__n"/></e>
 <e lm="trin">            <i>trin</i><par n="år__n"/></e>
 <e lm="trappetrin">      <i>trappetrin</i><par n="år__n"/></e>

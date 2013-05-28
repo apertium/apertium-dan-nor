@@ -96,8 +96,9 @@
 <e>       <p><l><s n="pres"/><s n="actv"/></l><r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="inf"/><s n="actv"/></l><r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
-<e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>
+<e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
+
 </pardef>
 </pardefs>
 <section id="main" type="standard">
@@ -501,8 +502,10 @@
 <e><p><l>ni<s n="num"/><s n="un"/><s n="pl"/></l><r>ni<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e><p><l>ti<s n="num"/><s n="un"/><s n="pl"/></l><r>ti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
-<!-- Nouns -->
+<!-- *Nouns -->
 
+<e><p><l>gruppe<s n="n"/><s n="ut"/></l>         <r>gjeng<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>frivillig<s n="n"/><s n="ut"/></l>         <r>dugnad<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>jagt<s n="n"/><s n="ut"/></l>         <r>jakt<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>jagt<s n="n"/><s n="ut"/></l>         <r>jakt<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>uge<s n="n"/><s n="ut"/></l>         <r>uke<s n="n"/><s n="m"/></r></p></e>
@@ -1356,6 +1359,8 @@
 <e><p><l>grav<s n="n"/><s n="nt"/></l><r>grav<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>grav<s n="n"/><s n="ut"/></l><r>grav<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>gravsten<s n="n"/><s n="ut"/></l><r>gravstein<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>seng<s n="n"/><s n="ut"/></l><r>seng<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>seng<s n="n"/><s n="ut"/></l><r>seng<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>greb<s n="n"/><s n="nt"/></l><r>grep<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>gren<s n="n"/><s n="ut"/></l><r>grein<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>greve<s n="n"/><s n="ut"/></l><r>greve<s n="n"/><s n="m"/></r></p></e>
@@ -3123,9 +3128,9 @@
 <e><p><l>Magnusson<s n="np"/></l><r>Magnusson</r></p></e>
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
-<!-- Adjectives -->
+<!-- *Adjectives -->
 
-
+<e><p><l>stolt<s n="adj"/></l><r>stolt<s n="adj"/></r></p></e>
 <e><p><l>underlig<s n="adj"/></l><r>underlig<s n="adj"/></r></p></e>
 <e><p><l>politisk<s n="adj"/></l><r>politisk<s n="adj"/></r></p></e>
 <e><p><l>bar<s n="adj"/></l><r>bar<s n="adj"/></r></p></e>
@@ -3390,7 +3395,8 @@
 
 
 
-<!-- Verbs -->
+<!-- *Verbs -->
+
 <e><p><l>være<s n="vbser"/></l><r>være<s n="vblex"/></r></p></e>
 <e><p><l>have<s n="vbhaver"/></l><r>ha<s n="vblex"/></r></p></e>
 
@@ -3404,7 +3410,7 @@
 <e><p><l>ville<s n="vaux"/></l><r>ville<s n="vblex"/></r></p></e>
 
 <!-- Lexical verbs: -->
-
+<e><p><l>radikalisere<s n="vblex"/></l> <r>radikalisere</r></p><par n="generic__vblex"/></e>
 <e><p><l>oplyse<s n="vblex"/></l> <r>opplyse</r></p><par n="generic__vblex"/></e>
 <e><p><l>indebære<s n="vblex"/></l> <r>innebære</r></p><par n="generic__vblex"/></e>
 <e><p><l>afgøre<s n="vblex"/></l> <r>afgjøre</r></p><par n="generic__vblex"/></e>
@@ -3562,7 +3568,9 @@
 <e><p><l>anmelde<s n="vblex"/></l><r>anmelde</r></p><par n="generic__vblex"/></e>
 <e><p><l>annamme<s n="vblex"/></l><r>annamme</r></p><par n="generic__vblex"/></e>
 <e><p><l>annektere<s n="vblex"/></l><r>annektere</r></p><par n="generic__vblex"/></e>
+
 <e><p><l>annotere<s n="vblex"/></l><r>annotere</r></p><par n="generic__vblex"/></e>
+
 <e><p><l>annullere<s n="vblex"/></l><r>annullere</r></p><par n="generic__vblex"/></e>
 <e><p><l>anse<s n="vblex"/></l><r>anse</r></p><par n="generic__vblex"/></e>
 <e><p><l>anstrenge<s n="vblex"/></l><r>anstrenge</r></p><par n="generic__vblex"/></e>
@@ -4852,12 +4860,10 @@
 <e><p><l>afnazificere<s n="vblex"/></l><r>avnazificere</r></p><par n="generic__vblex"/></e>
 <e><p><l>afparere<s n="vblex"/></l><r>parere</r></p><par n="generic__vblex"/></e>
 <e><p><l>afpasse<s n="vblex"/></l><r>matche</r></p><par n="generic__vblex"/></e>
-<e><p><l>afpille<s n="vblex"/></l><r>scraggy</r></p><par n="generic__vblex"/></e>
 <e><p><l>afplukke<s n="vblex"/></l><r>avplukke</r></p><par n="generic__vblex"/></e>
 <e><p><l>afpresse<s n="vblex"/></l><r>utpressing</r></p><par n="generic__vblex"/></e>
 <e><p><l>afproppe<s n="vblex"/></l><r>avproppe</r></p><par n="generic__vblex"/></e>
 <e><p><l>afprøve<s n="vblex"/></l><r>testing</r></p><par n="generic__vblex"/></e>
-<e><p><l>afpudse<s n="vblex"/></l><r>avgrense</r></p><par n="generic__vblex"/></e>
 <e><p><l>afpæle<s n="vblex"/></l><r>avpæle</r></p><par n="generic__vblex"/></e>
 <e><p><l>afreagere<s n="vblex"/></l><r>la<b/>damp<b/>av</r></p><par n="generic__vblex"/></e>
 <e><p><l>afregne<s n="vblex"/></l><r>avgjøre</r></p><par n="generic__vblex"/></e>
@@ -4883,9 +4889,8 @@
 <e><p><l>afskrabe<s n="vblex"/></l><r>avskrabe</r></p><par n="generic__vblex"/></e>
 <e><p><l>afskridte<s n="vblex"/></l><r>avskridte</r></p><par n="generic__vblex"/></e>
 <e><p><l>afskrække<s n="vblex"/></l><r>avskrekke</r></p><par n="generic__vblex"/></e>
-<e><p><l>afskumme<s n="vblex"/></l><r>skimmings</r></p><par n="generic__vblex"/></e>
-<e><p><l>afskumme<s n="vblex"/></l><r>skimmings</r></p><par n="generic__vblex"/></e>
-<e><p><l>afskærme<s n="vblex"/></l><r>den<b/>foreclosure</r></p><par n="generic__vblex"/></e>
+<e><p><l>afskumme<s n="vblex"/></l><r>skimme</r></p><par n="generic__vblex"/></e>
+
 <e><p><l>afslutte<s n="vblex"/></l><r>avslutte</r></p><par n="generic__vblex"/></e>
 <e><p><l>afslutte<s n="vblex"/></l><r>avslutte</r></p><par n="generic__vblex"/></e>
 <e><p><l>afsløre<s n="vblex"/></l><r>avslørende</r></p><par n="generic__vblex"/></e>
@@ -4948,8 +4953,8 @@
 <e><p><l>amputere<s n="vblex"/></l><r>amputating</r></p><par n="generic__vblex"/></e>
 <e><p><l>analysere<s n="vblex"/></l><r>analysere</r></p><par n="generic__vblex"/></e>
 <e><p><l>anbefale<s n="vblex"/></l><r>anbefale</r></p><par n="generic__vblex"/></e>
-<e><p><l>anerkende<s n="vblex"/></l><r>gjenkjenner</r></p><par n="generic__vblex"/></e>
-<e><p><l>anfægte<s n="vblex"/></l><r>utfordrende</r></p><par n="generic__vblex"/></e>
+<e><p><l>anerkende<s n="vblex"/></l><r>gjenkjenne</r></p><par n="generic__vblex"/></e>
+<e><p><l>anfægte<s n="vblex"/></l><r>utfordre</r></p><par n="generic__vblex"/></e>
 <e><p><l>anføre<s n="vblex"/></l><r>staten</r></p><par n="generic__vblex"/></e>
 <e><p><l>angive<s n="vblex"/></l><r>delta</r></p><par n="generic__vblex"/></e>
 <e><p><l>anholde<s n="vblex"/></l><r>arrestere</r></p><par n="generic__vblex"/></e>
@@ -4962,11 +4967,10 @@
 <e><p><l>anmode<s n="vblex"/></l><r>be</r></p><par n="generic__vblex"/></e>
 <e><p><l>anmode<s n="vblex"/></l><r>anmode</r></p><par n="generic__vblex"/></e>
 <e><p><l>annamme<s n="vblex"/></l><r>annamme</r></p><par n="generic__vblex"/></e>
-<e><p><l>annektere<s n="vblex"/></l><r>annexing</r></p><par n="generic__vblex"/></e>
+<e><p><l>annektere<s n="vblex"/></l><r>annektere</r></p><par n="generic__vblex"/></e>
 <e><p><l>annoncere<s n="vblex"/></l><r>annonsere</r></p><par n="generic__vblex"/></e>
-<e><p><l>annotere<s n="vblex"/></l><r>den<b/>anno<b/>på</r></p><par n="generic__vblex"/></e>
-<e><p><l>annullere<s n="vblex"/></l><r>for<b/>å<b/>avbryte</r></p><par n="generic__vblex"/></e>
-<e><p><l>anordne<s n="vblex"/></l><r>for<b/>å<b/>bestille</r></p><par n="generic__vblex"/></e>
+<e><p><l>annullere<s n="vblex"/></l><r>avbryte</r></p><par n="generic__vblex"/></e>
+<e><p><l>bestille<s n="vblex"/></l><r>bestille</r></p><par n="generic__vblex"/></e>
 <e><p><l>anrette<s n="vblex"/></l><r>forårsake</r></p><par n="generic__vblex"/></e>
 <e><p><l>anrette<s n="vblex"/></l><r>forårsake</r></p><par n="generic__vblex"/></e>
 <e><p><l>anråbe<s n="vblex"/></l><r>bønnfalle</r></p><par n="generic__vblex"/></e>
@@ -5303,7 +5307,7 @@
 <e><p><l>censurere<s n="vblex"/></l><r>sensurere</r></p><par n="generic__vblex"/></e>
 <e><p><l>centralisere<s n="vblex"/></l><r>centralizing</r></p><par n="generic__vblex"/></e>
 <e><p><l>centrere<s n="vblex"/></l><r>fokusere</r></p><par n="generic__vblex"/></e>
-<e><p><l>centrifugere<s n="vblex"/></l><r>være<b/>centrifuged</r></p><par n="generic__vblex"/></e>
+<e><p><l>centrifugere<s n="vblex"/></l><r>være<b/>centrifugeret</r></p><par n="generic__vblex"/></e>
 <e><p><l>certificere<s n="vblex"/></l><r>bekrefte</r></p><par n="generic__vblex"/></e>
 <e><p><l>charme<s n="vblex"/></l><r>sjarm</r></p><par n="generic__vblex"/></e>
 <e><p><l>chartre<s n="vblex"/></l><r>chartring</r></p><par n="generic__vblex"/></e>
@@ -5340,19 +5344,19 @@
 <e><p><l>degenerere<s n="vblex"/></l><r>utarte</r></p><par n="generic__vblex"/></e>
 <e><p><l>degradere<s n="vblex"/></l><r>nedgradere</r></p><par n="generic__vblex"/></e>
 <e><p><l>deklarere<s n="vblex"/></l><r>fortolle</r></p><par n="generic__vblex"/></e>
-<e><p><l>dekoncentrere<s n="vblex"/></l><r>deconcentrate</r></p><par n="generic__vblex"/></e>
-<e><p><l>dekretere<s n="vblex"/></l><r>den<b/>decrees</r></p><par n="generic__vblex"/></e>
+<e><p><l>dekoncentrere<s n="vblex"/></l><r>dekoncentrere</r></p><par n="generic__vblex"/></e>
+<e><p><l>dekretere<s n="vblex"/></l><r>dekretere</r></p><par n="generic__vblex"/></e>
 <e><p><l>delegere<s n="vblex"/></l><r>delegere</r></p><par n="generic__vblex"/></e>
 <e><p><l>dementere<s n="vblex"/></l><r>nekte</r></p><par n="generic__vblex"/></e>
-<e><p><l>demilitarisere<s n="vblex"/></l><r>den<b/>demilitarization</r></p><par n="generic__vblex"/></e>
-<e><p><l>demobilisere<s n="vblex"/></l><r>demobilize</r></p><par n="generic__vblex"/></e>
+<e><p><l>demilitarisere<s n="vblex"/></l><r>demilitarisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>demobilisere<s n="vblex"/></l><r>demobilisere</r></p><par n="generic__vblex"/></e>
 <e><p><l>demokratisere<s n="vblex"/></l><r>demokratiserende</r></p><par n="generic__vblex"/></e>
 <e><p><l>demonstrere<s n="vblex"/></l><r>demonstrere</r></p><par n="generic__vblex"/></e>
 <e><p><l>demotivere<s n="vblex"/></l><r>demotivate</r></p><par n="generic__vblex"/></e>
-<e><p><l>deponere<s n="vblex"/></l><r>innskudds</r></p><par n="generic__vblex"/></e>
+<e><p><l>deponere<s n="vblex"/></l><r>innskydde</r></p><par n="generic__vblex"/></e>
 <e><p><l>deportere<s n="vblex"/></l><r>deportere</r></p><par n="generic__vblex"/></e>
 <e><p><l>deputere<s n="vblex"/></l><r>nestleder</r></p><par n="generic__vblex"/></e>
-<e><p><l>deregulere<s n="vblex"/></l><r>deregulate</r></p><par n="generic__vblex"/></e>
+<e><p><l>deregulere<s n="vblex"/></l><r>deregulere</r></p><par n="generic__vblex"/></e>
 <e><p><l>desavouere<s n="vblex"/></l><r>tilbakevise</r></p><par n="generic__vblex"/></e>
 <e><p><l>desertere<s n="vblex"/></l><r>ørkenen</r></p><par n="generic__vblex"/></e>
 <e><p><l>designe<s n="vblex"/></l><r>utforme</r></p><par n="generic__vblex"/></e>
@@ -5867,7 +5871,7 @@
 <e><p><l>grillstege<s n="vblex"/></l><r>det<b/>grill<b/>kokk</r></p><par n="generic__vblex"/></e>
 <e><p><l>grine<s n="vblex"/></l><r>le</r></p><par n="generic__vblex"/></e>
 <e><p><l>grovsortere<s n="vblex"/></l><r>alvorlig<b/>slag</r></p><par n="generic__vblex"/></e>
-<e><p><l>gruble<s n="vblex"/></l><r>tenke</r></p><par n="generic__vblex"/></e>
+<e><p><l>tænke<s n="vblex"/></l><r>tenke</r></p><par n="generic__vblex"/></e>
 <e><p><l>grundfæste<s n="vblex"/></l><r>basen</r></p><par n="generic__vblex"/></e>
 <e><p><l>gruppere<s n="vblex"/></l><r>gruppering</r></p><par n="generic__vblex"/></e>
 <e><p><l>grynte<s n="vblex"/></l><r>grynte</r></p><par n="generic__vblex"/></e>
