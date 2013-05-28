@@ -24,8 +24,8 @@
 
 
    <def-cat n="vb-pp">
-      <cat-item tags="vb.pp"/>
-      <cat-item tags="vb.pp.*"/>
+      <cat-item tags="adj.pp"/>
+      <cat-item tags="adj.pp.*"/>
     </def-cat>
 
 
