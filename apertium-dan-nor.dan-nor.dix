@@ -88,6 +88,7 @@
    due to the Oslo Bergen tagger, so a pardef will probably be
    necessary here. -->
 
+<e>       <p><l></l><r></r></p></e>->
 <e>       <p><l><s n="past"/><s n="pasv"/></l><r><s n="vblex"/><s n="pret"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pres"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
@@ -96,6 +97,7 @@
 <e>       <p><l><s n="inf"/><s n="actv"/></l><r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
 <e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
+<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>
 </pardef>
 </pardefs>
 <section id="main" type="standard">
@@ -520,7 +522,7 @@
 
    <e><p><l>variation<s n="n"/><s n="ut"/></l>         <r>variasjon<s n="n"/><s n="m"/></r></p></e>
 
-   <e><p><l>fred<s n="n"/><s n="ut"/></l>         <r>fred<s n="n"/><s n="m"/></r></p></e>
+
 
     <e><p><l>have<s n="n"/><s n="ut"/></l>         <r>hage<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pige<s n="n"/><s n="ut"/></l>         <r>pike<s n="n"/><s n="m"/></r></p></e>
@@ -1360,6 +1362,8 @@
 <e><p><l>grin<s n="n"/><s n="nt"/></l><r>glis<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>gris<s n="n"/><s n="nt"/></l><r>gris<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>gris<s n="n"/><s n="ut"/></l><r>gris<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ring<s n="n"/><s n="ut"/></l><r>ring<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ring<s n="n"/><s n="nt"/></l><r>ring<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>grundemne<s n="n"/><s n="nt"/></l><r>grunnemne<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>grundlag<s n="n"/><s n="nt"/></l><r>grunnlag<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>grundlov<s n="n"/><s n="ut"/></l><r>grunnlov<s n="n"/><s n="m"/></r></p></e>
