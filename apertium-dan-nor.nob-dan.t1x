@@ -23,6 +23,15 @@
     </def-cat>
 
 
+   <def-cat n="vb-pp">
+      <cat-item tags="vb.pp"/>
+      <cat-item tags="vb.pp.*"/>
+    </def-cat>
+
+
+
+
+
    <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -131,6 +140,9 @@
     <attr-item tags="adj.sint"/>
     <attr-item tags="adj.pprs"/>
      </def-attr>
+
+
+
 
 
   <def-attr n="a_adv">
@@ -280,6 +292,24 @@
 
 
 
+          <rule comment="STRIP extra tags from vblex pp">
+         <pattern>
+            <pattern-item n="vb-pp"/>
+          </pattern>
+            <action>
+                <out>
+                     <lu>
+                        <clip pos="1" side="tl" part="lemh"/>
+                        <clip pos="1" side="tl" part="a_verb"/>
+                        <clip pos="1" side="tl" part="tense"/>
+                        <clip pos="1" side="tl" part="lemq"/>
+                     </lu>
+                </out>
+                 </action>
+              </rule>
+
+
+
 
       <rule comment="VERB → VERB">
          <pattern>
@@ -298,6 +328,7 @@
                   <otherwise> <!--otherwise let variable be the same as the source language-->
                   <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
               </choose>
+
 
 
 
