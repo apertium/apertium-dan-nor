@@ -88,7 +88,6 @@
    due to the Oslo Bergen tagger, so a pardef will probably be
    necessary here. -->
 
-<e>       <p><l></l><r></r></p></e>
 <e>       <p><l><s n="past"/><s n="pasv"/></l><r><s n="vblex"/><s n="pret"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pres"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
@@ -502,7 +501,8 @@
 
 <!-- Nouns -->
 
-
+<e><p><l>jagt<s n="n"/><s n="ut"/></l>         <r>jakt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>jagt<s n="n"/><s n="ut"/></l>         <r>jakt<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>uge<s n="n"/><s n="ut"/></l>         <r>uke<s n="n"/><s n="m"/></r></p></e>
 
 <e><p><l>uge<s n="n"/><s n="ut"/></l>         <r>uke<s n="n"/><s n="f"/></r></p></e>
@@ -865,7 +865,7 @@
 <e><p><l>blodtryk<s n="n"/><s n="nt"/></l><r>blodtrykk<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>blokade<s n="n"/><s n="ut"/></l><r>blokade<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>blokering<s n="n"/><s n="ut"/></l><r>blokkering<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>blok<s n="n"/><s n="nt"/></l><r>blokk<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>blok<s n="n"/><s n="ut"/></l><r>blokk<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>blomst<s n="n"/><s n="ut"/></l><r>blomst<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>blues<s n="n"/><s n="ut"/></l><r>blues<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bluse<s n="n"/><s n="ut"/></l><r>bluse<s n="n"/><s n="f"/></r></p></e>
@@ -2413,6 +2413,7 @@
 <e><p><l>sidespor<s n="n"/><s n="nt"/></l><r>sidespor<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>signal<s n="n"/><s n="nt"/></l><r>signal<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>sikkerhed<s n="n"/><s n="ut"/></l><r>sikkerhet<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>sikkerhed<s n="n"/><s n="ut"/></l><r>sikkerhet<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sikring<s n="n"/><s n="ut"/></l><r>sikring<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>silicium<s n="n"/><s n="nt"/></l><r>silisium<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>silke<s n="n"/><s n="ut"/></l><r>silke<s n="n"/><s n="m"/></r></p></e>
@@ -3226,7 +3227,8 @@
 <e><p><l>omhyggelig<s n="adj"/></l>        <r>nøye<s n="adj"/></r></p></e>
 <e><p><l>oprindelig<s n="adj"/></l><r>opprinnelig<s n="adj"/></r></p></e>
 <e><p><l>personlig<s n="adj"/></l><r>personlig<s n="adj"/></r></p></e>
-<e><p><l>ren<s n="adj"/></l><r>vanlig<s n="adj"/></r></p></e>
+<e><p><l>normal<s n="adj"/></l><r>vanlig<s n="adj"/></r></p></e>
+<e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>
 <e><p><l>rigtig<s n="adj"/></l>            <r>veldig<s n="adj"/></r></p></e>
 <e><p><l>russisk<s n="adj"/></l><r>russisk<s n="adj"/></r></p></e>
 <e><p><l>sand<s n="adj"/></l><r>sann<s n="adj"/></r></p></e>
@@ -3399,6 +3401,8 @@
 
 <!-- Lexical verbs: -->
 
+<e><p><l>oplyse<s n="vblex"/></l> <r>opplyse</r></p><par n="generic__vblex"/></e>
+<e><p><l>indebære<s n="vblex"/></l> <r>innebære</r></p><par n="generic__vblex"/></e>
 <e><p><l>afgøre<s n="vblex"/></l> <r>afgjøre</r></p><par n="generic__vblex"/></e>
 <e><p><l>optage<s n="vblex"/></l> <r>oppta</r></p><par n="generic__vblex"/></e>
 <e><p><l>misbruge<s n="vblex"/></l>        <r>misbruke</r></p><par n="generic__vblex"/></e>
@@ -3443,7 +3447,7 @@
 <e><p><l>sidde<s n="vblex"/></l>           <r>sitte</r></p><par n="generic__vblex"/></e>
 <e><p><l>blive<s n="vblex"/></l>           <r>bli</r></p><par n="generic__vblex"/></e>
 <e><p><l>snakke<s n="vblex"/></l>           <r>snakke</r></p><par n="generic__vblex"/></e>
-<e><p><l>sige<s n="vblex"/></l>           <r>si</r></p><par n="generic__vblex"/></e>
+
 <e><p><l>høre<s n="vblex"/></l>           <r>høre</r></p><par n="generic__vblex"/></e>
 <e><p><l>le<s n="vblex"/></l>           <r>le</r></p><par n="generic__vblex"/></e>
 <e><p><l>tro<s n="vblex"/></l>           <r>tro</r></p><par n="generic__vblex"/></e>
@@ -6123,9 +6127,8 @@
 <e><p><l>kende<s n="vblex"/></l><r>vite</r></p><par n="generic__vblex"/></e>
 <e><p><l>kendetegne<s n="vblex"/></l><r>karakterisere</r></p><par n="generic__vblex"/></e>
 <e><p><l>kickstarte<s n="vblex"/></l><r>kick-start</r></p><par n="generic__vblex"/></e>
-<e><p><l>kidnappe<s n="vblex"/></l><r>som<b/>kidnappet</r></p><par n="generic__vblex"/></e>
-<e><p><l>kigge<s n="vblex"/></l><r>jakt</r></p><par n="generic__vblex"/></e>
-<e><p><l>kikke<s n="vblex"/></l><r>jakt</r></p><par n="generic__vblex"/></e>
+<e><p><l>kidnappe<s n="vblex"/></l><r>kidnappe</r></p><par n="generic__vblex"/></e>
+
 <e><p><l>kikse<s n="vblex"/></l><r>backfire</r></p><par n="generic__vblex"/></e>
 <e><p><l>kilde<s n="vblex"/></l><r>som<b/>kilde</r></p><par n="generic__vblex"/></e>
 <e><p><l>kime<s n="vblex"/></l><r>kime</r></p><par n="generic__vblex"/></e>
@@ -7411,7 +7414,7 @@
 <e><p><l>ride<s n="vblex"/></l><r>ri</r></p><par n="generic__vblex"/></e>
 <e><p><l>ramme<s n="vblex"/></l><r>ramme</r></p><par n="generic__vblex"/></e>
 <e><p><l>rede<s n="vblex"/></l><r>rede</r></p><par n="generic__vblex"/></e>
-<e><p><l>sige<s n="vblex"/></l><r>si</r></p><par n="generic__vblex"/></e>
+
 <e><p><l>sidde<s n="vblex"/></l><r>sitte</r></p><par n="generic__vblex"/></e>
 <e><p><l>sælge<s n="vblex"/></l><r>selge</r></p><par n="generic__vblex"/></e>
 <e><p><l>synge<s n="vblex"/></l><r>synge</r></p><par n="generic__vblex"/></e>

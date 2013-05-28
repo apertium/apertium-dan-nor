@@ -11077,7 +11077,7 @@
 <e lm="gæst">            <i>gæst</i><par n="ateist__n"/></e>
 <e lm="hvælv">           <i>hvælv</i><par n="år__n"/></e>
 <e lm="interview">       <i>interview</i><par n="år__n"/></e>
-<e lm="jagt">            <i>jagt</i><par n="ateist__n"/></e>
+
 <e lm="jalousi">         <i>jalousi</i><par n="ateist__n"/></e>
 <e lm="jord">            <i>jord</i><par n="ateist__n"/></e>
 <e lm="kandidatur">      <i>kandidatur</i><par n="ateist__n"/></e>
@@ -12111,7 +12111,7 @@
 <e lm="garam masala" a="PT"><i>garam<b/>masala</i><par n="masala__n"/></e>
 <e lm="sambal oelek" a="PT"><i>sambal<b/>oelek</i><par n="oelek__n"/></e>
 <e lm="at">              <i>at</i><par n="alt_imens__cnjadv"/></e>
-<e lm="fin" a="PT">      <i>fin</i><par n="amerikansk__adj"/></e>
+
 <e lm="fløjtende" a="PT"><i>fløjtende</i><par n="amerikansk__adj"/></e>
 <e lm="forholdsord" a="PT"><i>forholdsord</i><par n="amerikansk__adj"/></e>
 <e lm="miljøvenlig" a="PT"><i>miljøvenlig</i><par n="amerikansk__adj"/></e>
@@ -12270,7 +12270,7 @@
 <e lm="kobberstik">      <i>kobberstik</i><par n="stik__n"/></e>
 <e lm="blog">            <i>blog</i><par n="blog__n"/></e>
 <e lm="bug">             <i>bug</i><par n="blog__n"/></e>
-<e lm="blok">            <i>blok</i><par n="alibi__n"/></e>
+<e lm="blok">            <i>blok</i><par n="drik__n"/></e>
 <e lm="blokbogstav">     <i>blokbogstav</i><par n="alibi__n"/></e>
 <e lm="blomme">          <i>blomme</i><par n="abe__n"/></e>
 <e lm="æggeblomme">      <i>æggeblomme</i><par n="abe__n"/></e>
@@ -13101,7 +13101,7 @@
 <e lm="italiener">       <i>italiener</i><par n="spiller__n"/></e>
 <e lm="italiensk">       <i>italiensk</i><par n="afghansk__n"/></e>
 <e lm="jag">             <i>jag</i><par n="år__n"/></e>
-<e lm="jagte">           <i>jagte</i><par n="abe__n"/></e>
+<e lm="jagt">             <i>jagt</i><par n="bold__n"/></e>
 <e lm="januar">          <i>januar</i><par n="januar__n"/></e>
 <e lm="japansk">         <i>japansk</i><par n="afghansk__n"/></e>
 <e lm="jernbanebro">     <i>jernbanebro</i><par n="ateist__n"/></e>
@@ -14658,6 +14658,7 @@
 <e lm="angribe">         <i>angr</i><par n="gr/ibe__vblex"/></e>
 <e lm="antage">          <i>ant</i><par n="t/age__vblex"/></e>
 <e lm="bede">            <i>b</i><par n="b/ede__vblex"/></e>
+<e lm="indebære">         <i>indeb</i><par n="b/ære__vblex"/></e>
 <e lm="bære">            <i>b</i><par n="b/ære__vblex"/></e>
 <e lm="byde">            <i>b</i><par n="br/yde__vblex"/></e>
 <e lm="byde velkommen">  <i>b</i><par n="br/yde__vblex"/><p><l><b/>velkommen</l><r><g><b/>velkommen</g></r></p></e>
