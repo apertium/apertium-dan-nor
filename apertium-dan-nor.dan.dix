@@ -165,11 +165,23 @@
 
 
 
+
+
 <pardef n="øvrig__adj"> <!-- This is broken, should be det.ind, but then we have problems in transfer -->
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+</pardef>
+
+<pardef n="stolt__adj">
+  <e>       <p><l>ere</l>       <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>este</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="def"/></r></p></e>
+  <e>       <p><l>est</l>       <r><s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
 </pardef>
 
 
@@ -7262,7 +7274,7 @@
 
 
     <!-- Adjectives -->
-  <e lm="stolt">        <i>stolt</i><par n="finansiel__adj"/></e>
+  <e lm="stolt">        <i>stolt</i><par n="stolt__adj"/></e>
 <e lm="kommerciel">        <i>kommerciel</i><par n="finansiel__adj"/></e>
 <e lm="kriminel">        <i>kriminel</i><par n="finansiel__adj"/></e>
         <e lm="villig">         <i>villig</i><par n="øvrig__adj"/></e>
@@ -12335,7 +12347,9 @@
 <e lm="brug" c="brugen af IT"><i>brug</i><par n="bold__n"/></e>
 <e lm="brug" c="et (ager)brug"><i>brug</i><par n="år__n"/></e>
 <e lm="bruge">           <i>bruge</i><par n="abe__n"/></e>
-<e lm="bruger">          <i>bruger</i><par n="bold__n"/></e>
+
+<e lm="bruger">          <i>bruger</i><par n="spiller__n"/></e>
+
 <e lm="brugernavn">      <i>brugernavn</i><par n="skib__n"/></e>
 <e lm="brugs">           <i>brugs</i><par n="residens__n"/></e>
 <e lm="brugsgenstand">   <i>brugsgenstand</i><par n="bold__n"/></e>
@@ -14455,6 +14469,7 @@
 <e lm="tykke">           <i>tykke</i><par n="æble__n"/></e>
 <e lm="tyr">             <i>tyr</i><par n="bold__n"/></e>
 <e lm="tysk">            <i>tysk</i><par n="afghansk__n"/></e>
+<e lm="fantastisk">        <i>fantastisk</i><par n="afghansk__n"/></e>
 <e lm="kinesisk">        <i>kinesisk</i><par n="afghansk__n"/></e>
 <e lm="tysker">          <i>tysker</i><par n="spiller__n"/></e>
 <e lm="vesttysker">      <i>vesttysker</i><par n="spiller__n"/></e>

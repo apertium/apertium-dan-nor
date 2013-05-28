@@ -292,22 +292,45 @@
 
 
 
-          <rule comment="STRIP extra tags from vblex pp">
+
+
+          <rule comment="CONVERT NOB SIDE PP'S">
          <pattern>
             <pattern-item n="vb-pp"/>
           </pattern>
-            <action>
+           <action>
+          <choose>
+            <when><test><or>
+              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal></or></test>
+             <let><var n="tempus"/><lit-tag v="past"/></let>
+             <let><var n="diatese"/><lit-tag v="actv"/></let></when>
+               </choose>
+
+                  <choose>
+            <when><test><equal>
+
+
+
+            <clip pos="1" side="sl" part="defnes"/><lit-tag v="ind"/></equal></test>
+             <let><var n="tempus"/><lit-tag v="pp"/></let></when>
+               </choose>
+
+
+
                 <out>
                      <lu>
                         <clip pos="1" side="tl" part="lemh"/>
                         <clip pos="1" side="tl" part="a_verb"/>
-                        <clip pos="1" side="tl" part="tense"/>
+                         <var n="tempus"/>
+                         <var n="diatese"/>
                         <clip pos="1" side="tl" part="lemq"/>
                      </lu>
                 </out>
+                 <let><var n="tempus"/><lit v=""/></let>
+                 <let><var n="diatese"/><lit v=""/></let>
                  </action>
               </rule>
-
 
 
 

@@ -88,6 +88,8 @@
    due to the Oslo Bergen tagger, so a pardef will probably be
    necessary here. -->
 
+
+
 <e>       <p><l></l><r></r></p></e>->
 <e>       <p><l><s n="past"/><s n="pasv"/></l><r><s n="vblex"/><s n="pret"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pres"/><s n="pass"/></r></p></e>
@@ -98,6 +100,8 @@
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
 <e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>
 <e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
+
+
 
 </pardef>
 </pardefs>
@@ -504,6 +508,7 @@
 
 <!-- *Nouns -->
 
+<e><p><l>arrestation<s n="n"/><s n="ut"/></l>         <r>arrestasjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>gruppe<s n="n"/><s n="ut"/></l>         <r>gjeng<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>frivillig<s n="n"/><s n="ut"/></l>         <r>dugnad<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>jagt<s n="n"/><s n="ut"/></l>         <r>jakt<s n="n"/><s n="m"/></r></p></e>
@@ -3129,6 +3134,9 @@
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
 <!-- *Adjectives -->
+<e><p><l>vidunderlig<s n="adj"/></l><r>vidunderlig<s n="adj"/></r></p></e>
+
+<e><p><l>fantastisk<s n="adj"/></l><r>fantastisk<s n="adj"/></r></p></e>
 
 <e><p><l>stolt<s n="adj"/></l><r>stolt<s n="adj"/></r></p></e>
 <e><p><l>underlig<s n="adj"/></l><r>underlig<s n="adj"/></r></p></e>
@@ -3410,6 +3418,7 @@
 <e><p><l>ville<s n="vaux"/></l><r>ville<s n="vblex"/></r></p></e>
 
 <!-- Lexical verbs: -->
+<e><p><l>instruere<s n="vblex"/></l> <r>regissere</r></p><par n="generic__vblex"/></e>
 <e><p><l>radikalisere<s n="vblex"/></l> <r>radikalisere</r></p><par n="generic__vblex"/></e>
 <e><p><l>oplyse<s n="vblex"/></l> <r>opplyse</r></p><par n="generic__vblex"/></e>
 <e><p><l>indebære<s n="vblex"/></l> <r>innebære</r></p><par n="generic__vblex"/></e>
