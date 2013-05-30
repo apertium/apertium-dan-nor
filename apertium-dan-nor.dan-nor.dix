@@ -3638,7 +3638,7 @@
 <e><p><l>avancere<s n="vblex"/></l> <r>avansere</r></p><par n="generic__vblex"/></e>
 <e><p><l>pludre<s n="vblex"/></l> <r>bable</r></p><par n="generic__vblex"/></e>
 <e><p><l>bagbinde<s n="vblex"/></l> <r>bakbinde</r></p><par n="generic__vblex"/></e>
-<e><p><l>bagse<s n="vblex"/></l> <r>bakse</r></p><par n="generic__vblex"/></e>
+<e><p><l>bakse<s n="vblex"/></l> <r>bakse</r></p><par n="generic__vblex"/></e>
 <e><p><l>bagsnakke<s n="vblex"/></l> <r>baksnakke</r></p><par n="generic__vblex"/></e>
 <e><p><l>bagtale<s n="vblex"/></l> <r>baktale</r></p><par n="generic__vblex"/></e>
 <e><p><l>bagvaske<s n="vblex"/></l> <r>bakvaske</r></p><par n="generic__vblex"/></e>
@@ -3675,6 +3675,56 @@
 <e><p><l>befrugte<s n="vblex"/></l> <r>befrukte</r></p><par n="generic__vblex"/></e>
 <e><p><l>begejstre<s n="vblex"/></l> <r>begeistre</r></p><par n="generic__vblex"/></e>
 
+
+
+
+<e><p><l>begrebsbestemme<s n="vblex"/></l> <r>begrepsbestemme</r></p><par n="generic__vblex"/></e>
+<e><p><l>begrunde<s n="vblex"/></l> <r>begrunde</r></p><par n="generic__vblex"/></e>
+<e><p><l>begå<s n="vblex"/></l> <r>begå</r></p><par n="generic__vblex"/></e>
+<e><p><l>begå<s n="vblex"/></l> <r>begå</r></p><par n="generic__vblex"/></e>
+<e><p><l>behæfte<s n="vblex"/></l> <r>behefte</r></p><par n="generic__vblex"/></e>
+<e><p><l>behænge<s n="vblex"/></l> <r>behenge</r></p><par n="generic__vblex"/></e>
+<e><p><l>behovsprøve<s n="vblex"/></l> <r>behovsprøve</r></p><par n="generic__vblex"/></e>
+<e><p><l>behøve<s n="vblex"/></l> <r>behøve</r></p><par n="generic__vblex"/></e>
+<e><p><l>bene<s n="vblex"/></l> <r>beine</r></p><par n="generic__vblex"/></e>
+<e><p><l>stæse<s n="vblex"/></l> <r>beinfly</r></p><par n="generic__vblex"/></e>
+<e><p><l>stæse<s n="vblex"/></l> <r>beinflyge</r></p><par n="generic__vblex"/></e>
+<e><p><l>rette<s n="vblex"/></l> <r>beinke</r></p><par n="generic__vblex"/></e>
+<e><p><l>bejdse<s n="vblex"/></l> <r>beise</r></p><par n="generic__vblex"/></e>
+<e><p><l>forsure<s n="vblex"/></l> <r>beiskne</r></p><par n="generic__vblex"/></e>
+<e><p><l>bege<s n="vblex"/></l> <r>beke</r></p><par n="generic__vblex"/></e>
+<e><p><l>bede<s n="vblex"/></l> <r>be</r></p><par n="generic__vblex"/></e>
+<e><p><l>bekoste<s n="vblex"/></l> <r>bekoste</r></p><par n="generic__vblex"/></e>
+<e><p><l>bidsle<s n="vblex"/></l> <r>beksle</r></p><par n="generic__vblex"/></e>
+<e><p><l>belejre<s n="vblex"/></l> <r>beleire</r></p><par n="generic__vblex"/></e>
+<e><p><l>beligge<s n="vblex"/></l> <r>beligge</r></p><par n="generic__vblex"/></e>
+<e><p><l>bælle<s n="vblex"/></l> <r>belje</r></p><par n="generic__vblex"/></e>
+<e><p><l>brøle<s n="vblex"/></l> <r>belje</r></p><par n="generic__vblex"/></e>
+<e><p><l>bælle<s n="vblex"/></l> <r>belme</r></p><par n="generic__vblex"/></e>
+<e><p><l>belægge<s n="vblex"/></l> <r>belægge</r></p><par n="generic__vblex"/></e>
+<e><p><l>bemande<s n="vblex"/></l> <r>bemanne</r></p><par n="generic__vblex"/></e>
+<e><p><l>binde<s n="vblex"/></l> <r>bende</r></p><par n="generic__vblex"/></e>
+<e><p><l>surree<s n="vblex"/></l> <r>bendsle</r></p><par n="generic__vblex"/></e>
+<e><p><l>benævne<s n="vblex"/></l> <r>benevne</r></p><par n="generic__vblex"/></e>
+<e><p><l>bænke<s n="vblex"/></l> <r>benke</r></p><par n="generic__vblex"/></e>
+<e><p><l>benægte<s n="vblex"/></l> <r>benekte</r></p><par n="generic__vblex"/></e>
+<e><p><l>beregne<s n="vblex"/></l> <r>berekne</r></p><par n="generic__vblex"/></e>
+<e><p><l>bjergtage<s n="vblex"/></l> <r>bergta</r></p><par n="generic__vblex"/></e>
+<e><p><l>beråbe<s n="vblex"/></l> <r>berope</r></p><par n="generic__vblex"/></e>
+<e><p><l>dytte<s n="vblex"/></l> <r>berte</r></p><par n="generic__vblex"/></e>
+<e><p><l>besejle<s n="vblex"/></l> <r>beseile</r></p><par n="generic__vblex"/></e>
+<e><p><l>besjæle<s n="vblex"/></l> <r>besjele</r></p><par n="generic__vblex"/></e>
+<e><p><l>beskatte<s n="vblex"/></l> <r>beskatte</r></p><par n="generic__vblex"/></e>
+<e><p><l>beslå<s n="vblex"/></l> <r>beslå</r></p><par n="generic__vblex"/></e>
+<e><p><l>forbedre<s n="vblex"/></l> <r>besne</r></p><par n="generic__vblex"/></e>
+<e><p><l>bestyre<s n="vblex"/></l> <r>bestyre</r></p><par n="generic__vblex"/></e>
+<e><p><l>betone<s n="vblex"/></l> <r>betone</r></p><par n="generic__vblex"/></e>
+<e><p><l>betragte<s n="vblex"/></l> <r>betrakte</r></p><par n="generic__vblex"/></e>
+<e><p><l>betræde<s n="vblex"/></l> <r>betre</r></p><par n="generic__vblex"/></e>
+<e><p><l>betvivle<s n="vblex"/></l> <r>betvile</r></p><par n="generic__vblex"/></e>
+<e><p><l>betænke<s n="vblex"/></l> <r>betenke</r></p><par n="generic__vblex"/></e>
+<e><p><l>beværte<s n="vblex"/></l> <r>beverte</r></p><par n="generic__vblex"/></e>
+<e><p><l>bevidstgøre<s n="vblex"/></l> <r>bevidstgjøre</r></p><par n="generic__vblex"/></e>
 
 
 
