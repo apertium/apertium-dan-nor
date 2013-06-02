@@ -2419,6 +2419,16 @@
   <e>       <p><l>ørende</l>    <r>øre<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
+<pardef n="f/are__vblex">
+  <e>       <p><l>ar</l>        <r>are<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>are</l>       <r>are<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>arer</l>        <r>are<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ares</l>      <r>are<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>or</l>     <r>are<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>aret</l>      <r>are<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>arende</l>    <r>are<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
 <pardef n="v/ide__vblex">
   <e>       <p><l>id</l>        <r>ide<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ide</l>       <r>ide<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -8651,7 +8661,7 @@
 <e lm="afmaskere"><i>afmasker</i><par n="mal/e__vblex"/></e>
 <e lm="demissionere"><i>demissioner</i><par n="mal/e__vblex"/></e>
 <e lm="dæmme"><i>dæmm</i><par n="stem/me__vblex"/></e>
-<e lm="nedrive"><i>nedriv</i><par n="mal/e__vblex"/></e>
+<e lm="nedrive"><i>nedr</i><par n="bl/ive__vblex"/></e>
 <e lm="demontere"><i>demonter</i><par n="mal/e__vblex"/></e>
 <e lm="demoralisere"><i>demoraliser</i><par n="mal/e__vblex"/></e>
 <e lm="dæmpe"><i>dæmp</i><par n="mal/e__vblex"/></e>
@@ -8876,6 +8886,52 @@
 <e lm="evangelisere"><i>evangeliser</i><par n="mal/e__vblex"/></e>
 <e lm="fordampe"><i>fordamp</i><par n="mal/e__vblex"/></e>
 
+<e lm="nøle"><i>nøl</i><par n="mal/e__vblex"/></e>
+<e lm="x'e"><i>x'</i><par n="mal/e__vblex"/></e>
+<e lm="fable"><i>fabl</i><par n="mal/e__vblex"/></e>
+<e lm="fabrikere"><i>fabriker</i><par n="mal/e__vblex"/></e>
+<e lm="favne"><i>favn</i><par n="mal/e__vblex"/></e>
+<e lm="velkomme"><i>velkom</i><par n="stem/me__vblex"/></e>
+<e lm="fagorganisere"><i>fagorganiser</i><par n="mal/e__vblex"/></e>
+<e lm="fagpåmelde"><i>fagpåmeld</i><par n="mal/e__vblex"/></e>
+<e lm="fange"><i>fang</i><par n="mal/e__vblex"/></e>
+<e lm="faxe"><i>fax</i><par n="mal/e__vblex"/></e>
+<e lm="faksimilere"><i>faksimiler</i><par n="mal/e__vblex"/></e>
+<e lm="faktorisere"><i>faktoriser</i><par n="mal/e__vblex"/></e>
+<e lm="falbyde"><i>falbyd</i><par n="l/yde__vblex"/></e>
+<e lm="fallere"><i>faller</i><par n="mal/e__vblex"/></e>
+<e lm="falme"><i>falm</i><par n="mal/e__vblex"/></e>
+<e lm="false"><i>fals</i><par n="mal/e__vblex"/></e>
+<e lm="falsificere"><i>falsifiser</i><par n="mal/e__vblex"/></e>
+<e lm="famle"><i>faml</i><par n="mal/e__vblex"/></e>
+<e lm="fangstdrive"><i>fangstdr</i><par n="bl/ive__vblex"/></e>
+<e lm="skulke"><i>skulk</i><par n="mal/e__vblex"/></e>
+<e lm="fare"><i>far</i><par n="f/are__vblex"/></e>
+<e lm="farte"><i>fart</i><par n="mal/e__vblex"/></e>
+<e lm="farve"><i>farv</i><par n="mal/e__vblex"/></e>
+<e lm="farvelægge"><i>farvelægg</i><par n="l/ægge__vblex"/></e>
+<e lm="facettere"><i>fasefter</i><par n="mal/e__vblex"/></e>
+<e lm="fæste"><i>fæst</i><par n="mal/e__vblex"/></e>
+<e lm="faconnere"><i>faconner</i><par n="mal/e__vblex"/></e>
+<e lm="faste"><i>fast</i><par n="mal/e__vblex"/></e>
+<e lm="fastlægge"><i>fastlægg</i><par n="l/ægge__vblex"/></e>
+<e lm="sidde fast"><i>sidde<b/>fast</i><par n="s/idde__vblex"/></e>
+<e lm="fænge"><i>fæng</i><par n="mal/e__vblex"/></e>
+<e lm="fejlbedømme"><i>fejlbedøm</i><par n="stem/me__vblex"/></e>
+<e lm="fejle"><i>fejl</i><par n="mal/e__vblex"/></e>
+<e lm="fejlinformere"><i>fejlinformer</i><par n="mal/e__vblex"/></e>
+<e lm="fejlparkere"><i>fejlparker</i><par n="mal/e__vblex"/></e>
+<e lm="fejlpostere"><i>fejlposter</i><par n="mal/e__vblex"/></e>
+<e lm="fejlregistrere"><i>fejlregistrer</i><par n="mal/e__vblex"/></e>
+<e lm="fejlvurdere"><i>fejlvurder</i><par n="mal/e__vblex"/></e>
+<e lm="opfede"><i>opfed</i><par n="mal/e__vblex"/></e>
+<e lm="fedne"><i>fedn</i><par n="mal/e__vblex"/></e>
+<e lm="femdoble"><i>femdobl</i><par n="mal/e__vblex"/></e>
+<e lm="værne"><i>værn</i><par n="mal/e__vblex"/></e>
+<e lm="færdiggøre"><i>færd</i><par n="mal/e__vblex"/></e>
+<e lm="færdigbefare"><i>færdigbefar</i><par n="mal/e__vblex"/></e>
+<e lm="færge"><i>ferg</i><par n="mal/e__vblex"/></e>
+<e lm="feriere"><i>ferier</i><par n="mal/e__vblex"/></e>
 
 <!-- /end of NOB transformed verbs
 
