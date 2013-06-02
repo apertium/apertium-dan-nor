@@ -2141,6 +2141,9 @@
   <e>       <p><l>rende</l>     <r>re<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
+
+
+
 <pardef n="rul/le__vblex">
   <e>       <p><l></l>          <r>le<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>le</l>        <r>le<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -2525,6 +2528,19 @@
   <e>       <p><l>ukket</l>     <r>ække<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ækkende</l>   <r>ække<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
+
+
+<pardef n="f/ælde__vblex">
+  <e>       <p><l>æld</l>       <r>ælde<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ælde</l>      <r>ælde<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>ælder</l>     <r>ælde<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ældes</l>     <r>ælde<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>aldt</l>      <r>ælde<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+
+  <e>       <p><l>aldet</l>      <r>ælde<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ældende</l>   <r>ælde<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
 
 <pardef n="g/ælde__vblex">
   <e>       <p><l>æld</l>       <r>ælde<s n="vblex"/><s n="imp"/></r></p></e>
@@ -8702,7 +8718,7 @@
 <e lm="dokke"><i>dokk</i><par n="mal/e__vblex"/></e>
 <e lm="doksætte"><i>dokksætt</i><par n="s/ætte__vblex"/></e>
 <e lm="dolke"><i>dolk</i><par n="mal/e__vblex"/></e>
-<e lm="domfælde"><i>domfæld</i><par n="fel/le__vblex"/></e>
+<e lm="domfælde"><i>domf</i><par n="f/ælde__vblex"/></e>
 <e lm="domiciliere"><i>domicilier</i><par n="mal/e__vblex"/></e>
 <e lm="pusle"><i>pusl</i><par n="mal/e__vblex"/></e>
 <!--<e lm="dore"><i>dor</i><par n="mal/e__vblex"/></e>-->
@@ -8717,20 +8733,20 @@
 <e lm="slæbe"><i>drass</i><par n="mal/e__vblex"/></e>
 <e lm="dratte"><i>dratt</i><par n="mal/e__vblex"/></e>
 <!--<e lm="dregge"><i>dregg</i><par n="mal/e__vblex"/></e>-->
-<e lm="dreje"><i>drej</i><par n="mei/e__vblex"/></e>
+<e lm="dreje"><i>drej</i><par n="mal/e__vblex"/></e>
 <e lm="slå"><i>sl</i><par n="sl/å__vblex"/></e>
 <e lm="dræne"><i>dræn</i><par n="mal/e__vblex"/></e>
 <e lm="dresse"><i>dress</i><par n="mal/e__vblex"/></e>
 <e lm="drifte"><i>drift</i><par n="mal/e__vblex"/></e>
-<e lm="skide"><i>skid</i><par n="dr/ite__vblex"/></e>
+<e lm="skide"><i>sk</i><par n="l/ide__vblex"/></e>
 <e lm="drive"><i>driv</i><par n="bl/ive__vblex"/></e>
 <e lm="dovne"><i>dovn</i><par n="mal/e__vblex"/></e>
 <e lm="drøje"><i>drøj</i><par n="mal/e__vblex"/></e>
 <e lm="dryppe"><i>drypp</i><par n="mal/e__vblex"/></e>
-<e lm="dryptørre"><i>dryptørr</i><par n="mal/e__vblex"/></e>
+<e lm="dryptørre"><i>dryptør</i><par n="tør/re__vblex"/></e>
 <e lm="dundre"><i>dundr</i><par n="mal/e__vblex"/></e>
 <e lm="sludre"><i>sludr</i><par n="mal/e__vblex"/></e>
-<e lm="dubbe"><i>dubb</i><par n="mal/e__vblex"/></e>
+<e lm="dubbe"><i>dub</i><par n="skub/be__vblex"/></e>
 <e lm="duppe"><i>dupp</i><par n="mal/e__vblex"/></e>
 <e lm="døse"><i>døs</i><par n="mal/e__vblex"/></e>
 <e lm="dusse"><i>duss</i><par n="mal/e__vblex"/></e>
