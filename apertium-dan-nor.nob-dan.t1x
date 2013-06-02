@@ -30,8 +30,6 @@
 
 
 
-
-
    <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -294,7 +292,7 @@
 
 
 
-          <rule comment="CONVERT NOB SIDE PP'S">
+          <rule comment="CONVERT NOB SIDE ADJ PP'S TO VERB">
          <pattern>
             <pattern-item n="vb-pp"/>
           </pattern>
@@ -310,13 +308,9 @@
                   <choose>
             <when><test><equal>
 
-
-
             <clip pos="1" side="sl" part="defnes"/><lit-tag v="ind"/></equal></test>
              <let><var n="tempus"/><lit-tag v="pp"/></let></when>
                </choose>
-
-
 
                 <out>
                      <lu>
