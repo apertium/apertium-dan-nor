@@ -2764,6 +2764,8 @@
   <e>       <p><l>kende</l>     <r>ke<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
+
+
 <pardef n="r/yge__vblex">
   <e>       <p><l>yg</l>        <r>yge<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>yge</l>       <r>yge<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -2833,6 +2835,16 @@
   <e>       <p><l>ed</l>        <r>ide<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>edet</l>      <r>ide<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>idende</l>    <r>ide<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
+<pardef n="/æde__vblex">
+  <e>       <p><l>æd</l>        <r>æde<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>æde</l>       <r>æde<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>æder</l>      <r>æde<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ædes</l>      <r>æde<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>åd</l>        <r>æde<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ædt</l>      <r>æde<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ædende</l>    <r>æde<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
 <pardef n="tag/ge__vblex">
@@ -8232,7 +8244,7 @@
 
 
 <e lm="afspejle"><i>afspejl</i><par n="mal/e__vblex"/></e>
-<e lm="afspærre"><i>afspærr</i><par n="mal/e__vblex"/></e>
+<e lm="afspærre"><i>afspær</i><par n="tør/re__vblex"/></e>
 <e lm="afspise"><i>afspis</i><par n="tal/e__vblex"/></e>
 <e lm="afspore"><i>afspor</i><par n="mal/e__vblex"/></e>
 <e lm="afstaliniserere"><i>afstaliniserer</i><par n="mal/e__vblex"/></e>
@@ -8393,13 +8405,13 @@
 <e lm="bidsle"><i>bidsl</i><par n="mal/e__vblex"/></e>
 <e lm="belejre"><i>belejr</i><par n="mal/e__vblex"/></e>
 <e lm="beligge"><i>beligg</i><par n="l/igge__vblex"/></e>
-<e lm="bælle"><i>bæll</i><par n="mal/e__vblex"/></e>
+<e lm="bælle"><i>bæl</i><par n="rul/le__vblex"/></e>
 <e lm="brøle"><i>brøl</i><par n="mal/e__vblex"/></e>
 <e lm="bede"><i>b</i><par n="b/ede__vblex"/></e>
 <e lm="belægge"><i>belægg</i><par n="l/ægge__vblex"/></e>
 <e lm="bemande"><i>bemand</i><par n="mal/e__vblex"/></e>
 <e lm="binde"><i>bind</i><par n="mal/e__vblex"/></e>
-<e lm="surre"><i>surr</i><par n="mal/e__vblex"/></e>
+<e lm="surre"><i>sur</i><par n="tør/re__vblex"/></e>
 <e lm="benævne"><i>benævn</i><par n="tal/e__vblex"/></e>
 <e lm="bænke"><i>bænk</i><par n="mal/e__vblex"/></e>
 <e lm="benægte"><i>benægt</i><par n="mal/e__vblex"/></e>
@@ -8535,7 +8547,7 @@
 <e lm="bugte"><i>bugt</i><par n="mal/e__vblex"/></e>
 <e lm="bukke"><i>buk</i><par n="bræk/ke__vblex"/></e>
 <e lm="mavelande"><i>maveland</i><par n="mal/e__vblex"/></e>
-<e lm="krølle"><i>krøll</i><par n="mal/e__vblex"/></e>
+<e lm="krølle"><i>krøl</i><par n="rul/le__vblex"/></e>
 <e lm="bugsere"><i>bugser</i><par n="mal/e__vblex"/></e>
 <e lm="kollidere"><i>bulk</i><par n="mal/e__vblex"/></e>
 <e lm="falde"><i>bums</i><par n="mal/e__vblex"/></e>
@@ -8548,7 +8560,7 @@
 <e lm="buske"><i>busk</i><par n="mal/e__vblex"/></e>
 <e lm="busse"><i>bus</i><par n="kys/se__vblex"/></e>
 <e lm="bosætte"><i>bos</i><par n="s/ætte__vblex"/></e>
-<e lm="lulle"><i>lull</i><par n="mal/e__vblex"/></e>
+<e lm="lulle"><i>lul</i><par n="rul/le__vblex"/></e>
 <e lm="byggeanmelde"><i>byggeanmeld</i><par n="mal/e__vblex"/></e>
 <e lm="byggemelde"><i>byggemeld</i><par n="mal/e__vblex"/></e>
 <e lm="udleje"><i>udlej</i><par n="mal/e__vblex"/></e>
@@ -8600,7 +8612,7 @@
 <e lm="dandere"><i>dander</i><par n="mal/e__vblex"/></e>
 <e lm="dingle"><i>dingl</i><par n="mal/e__vblex"/></e>
 <e lm="overvinde"><i>overvind</i><par n="f/inde__vblex"/></e>
-<e lm="dirre"><i>dirr</i><par n="mal/e__vblex"/></e>
+
 <e lm="daske"><i>dask</i><par n="mal/e__vblex"/></e>
 <e lm="databehandle"><i>databehandl</i><par n="mal/e__vblex"/></e>
 <e lm="dataføre"><i>datafør</i><par n="mal/e__vblex"/></e>
@@ -8681,14 +8693,14 @@
 
 <e lm="dikke"><i>dik</i><par n="bræk/ke__vblex"/></e>
 <e lm="sammenbanke"><i>sammenbank</i><par n="mal/e__vblex"/></e>
-<e lm="tulle"><i>tull</i><par n="mal/e__vblex"/></e>
+<e lm="tulle"><i>tul</i><par n="rul/le__vblex"/></e>
 <e lm="lunte"><i>lunt</i><par n="mal/e__vblex"/></e>
 <e lm="dimensionere"><i>dimensioner</i><par n="mal/e__vblex"/></e>
 <e lm="dimittere"><i>dimitter</i><par n="mal/e__vblex"/></e>
 <e lm="dinere"><i>diner</i><par n="mal/e__vblex"/></e>
 <e lm="dingle"><i>dingl</i><par n="mal/e__vblex"/></e>
 <e lm="dirke"><i>dirk</i><par n="mal/e__vblex"/></e>
-<e lm="dirre"><i>dirr</i><par n="mal/e__vblex"/></e>
+<e lm="dirre"><i>dir</i><par n="tør/re__vblex"/></e>
 <e lm="frakoble"><i>frakobl</i><par n="mal/e__vblex"/></e>
 <!--<e lm="dise"><i>dis</i><par n="mal/e__vblex"/></e>-->
 <e lm="disciplinere"><i>disipliner</i><par n="mal/e__vblex"/></e>
@@ -8797,11 +8809,77 @@
 <e lm="efterstege"><i>eftersteg</i><par n="tal/e__vblex"/></e>
 <e lm="eftersynkronisere"><i>eftersynkroniser</i><par n="mal/e__vblex"/></e>
 
+<e lm="eftersøge"><i>eftersøg</i><par n="mal/e__vblex"/></e>
+<e lm="efteruddanne"><i>efteruddan</i><par n="dan/ne__vblex"/></e>
+<e lm="egalisere"><i>egaliser</i><par n="mal/e__vblex"/></e>
+<e lm="ægvende"><i>ægvend</i><par n="tal/e__vblex"/></e>
+<e lm="opildne"><i>opildn</i><par n="mal/e__vblex"/></e>
+<e lm="emme"><i>em</i><par n="stem/me__vblex"/></e>
+<e lm="irre"><i>irre</i><par n="mal/e__vblex"/></e>
+<e lm="ejakulere"><i>ejakuler</i><par n="mal/e__vblex"/></e>
+<e lm="eksaltere"><i>eksalter</i><par n="mal/e__vblex"/></e>
+<e lm="ekse"><i>eks</i><par n="mal/e__vblex"/></e>
+<e lm="fortolke"><i>fortolk</i><par n="mal/e__vblex"/></e>
+<e lm="excellere"><i>exceller</i><par n="mal/e__vblex"/></e>
+<e lm="eksemplificere"><i>eksemplifcser</i><par n="mal/e__vblex"/></e>
+<e lm="excerpere"><i>excerper</i><par n="mal/e__vblex"/></e>
+<e lm="eksercere"><i>eksercer</i><par n="mal/e__vblex"/></e>
+<e lm="udånde"><i>udånd</i><par n="mal/e__vblex"/></e>
+<e lm="udråbe"><i>udråb</i><par n="mal/e__vblex"/></e>
+<e lm="ekskommunikere"><i>ekskommuniker</i><par n="mal/e__vblex"/></e>
+<e lm="ekspandere"><i>ekspander</i><par n="mal/e__vblex"/></e>
+<e lm="ekspirere"><i>ekspirer</i><par n="mal/e__vblex"/></e>
+<e lm="eksplisitere"><i>eksplisiter</i><par n="mal/e__vblex"/></e>
+<e lm="eksploatere"><i>eksploater</i><par n="mal/e__vblex"/></e>
+<e lm="eksplorere"><i>eksplorer</i><par n="mal/e__vblex"/></e>
+<e lm="ekstemporere"><i>ekstemporer</i><par n="mal/e__vblex"/></e>
+<e lm="ekstensivere"><i>ekstensiver</i><par n="mal/e__vblex"/></e>
+<e lm="ekstrahere"><i>ekstraher</i><par n="mal/e__vblex"/></e>
+<e lm="ekstrapolere"><i>ekstrapoler</i><par n="mal/e__vblex"/></e>
+<e lm="ekstrudere"><i>ekstruder</i><par n="mal/e__vblex"/></e>
+<e lm="ækvivalere"><i>ækvivaler</i><par n="mal/e__vblex"/></e>
+<e lm="ælde"><i>æld</i><par n="mal/e__vblex"/></e>
+<e lm="regne"><i>regn</i><par n="mal/e__vblex"/></e>
+<e lm="sne"><i>nå</i><par n="nå__vblex"/></e>
+<e lm="elektrificere"><i>elektrificer</i><par n="mal/e__vblex"/></e>
+<e lm="elevere"><i>elever</i><par n="mal/e__vblex"/></e>
+<e lm="udvælge"><i>udv</i><par n="v/ælge__vblex"/></e>
+<e lm="eloxere"><i>eloxer</i><par n="mal/e__vblex"/></e>
+<e lm="ælte"><i>elt</i><par n="mal/e__vblex"/></e>
+<e lm="undvige"><i>undv</i><par n="v/ige__vblex"/></e>
+<e lm="elektere"><i>elekter</i><par n="mal/e__vblex"/></e>
+<e lm="emaljere"><i>emaljer</i><par n="mal/e__vblex"/></e>
+<e lm="emancipere"><i>emanciper</i><par n="mal/e__vblex"/></e>
+<e lm="emballere"><i>emballer</i><par n="mal/e__vblex"/></e>
+<e lm="embarkere"><i>embarker</i><par n="mal/e__vblex"/></e>
+<e lm="ansætte"><i>ans</i><par n="s/ætte__vblex"/></e>
+<e lm="emulgere"><i>emulger</i><par n="mal/e__vblex"/></e>
+<e lm="ene"><i>en</i><par n="mal/e__vblex"/></e>
+<e lm="engagere"><i>engager</i><par n="mal/e__vblex"/></e>
+<e lm="ængste"><i>ængst</i><par n="mal/e__vblex"/></e>
+<e lm="ensilere"><i>ensiler</i><par n="mal/e__vblex"/></e>
+<e lm="entre"><i>entr</i><par n="mal/e__vblex"/></e>
+<e lm="envejsregulere"><i>envejsreguler</i><par n="mal/e__vblex"/></e>
+<e lm="ærgre"><i>ergr</i><par n="mal/e__vblex"/></e>
+<e lm="erigere"><i>eriger</i><par n="mal/e__vblex"/></e>
+<e lm="erotisere"><i>erotiser</i><par n="mal/e__vblex"/></e>
+<e lm="tirre"><i>tir</i><par n="mal/e__vblex"/></e>
+<e lm="svulme"><i>svulm</i><par n="mal/e__vblex"/></e>
+<e lm="borttrylle"><i>borttryl</i><par n="rul/le__vblex"/></e>
+<e lm="eskapere"><i>eskaper</i><par n="mal/e__vblex"/></e>
+<e lm="æstetisere"><i>estetiser</i><par n="mal/e__vblex"/></e>
+<e lm="æde"><i></i><par n="/æde__vblex"/></e>
+<e lm="etikettere"><i>etiketter</i><par n="mal/e__vblex"/></e>
+<e lm="ætse"><i>æts</i><par n="mal/e__vblex"/></e>
+<e lm="euforisere"><i>euforiser</i><par n="mal/e__vblex"/></e>
+<e lm="europæisere"><i>europæiser</i><par n="mal/e__vblex"/></e>
+<e lm="evangelisere"><i>evangeliser</i><par n="mal/e__vblex"/></e>
+<e lm="fordampe"><i>fordamp</i><par n="mal/e__vblex"/></e>
 
 
 <!-- /end of NOB transformed verbs
 
-dyppe kysse skubbe skaffe stemme lægge brække bytte tørre
+dyppe kysse skubbe skaffe stemme lægge brække bytte tørre dannee
 
 
  -->
