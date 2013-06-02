@@ -2131,6 +2131,18 @@
   <e>       <p><l>sende</l>     <r>se<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
+<pardef n="f/ise__vblex">
+  <e>       <p><l>is</l>          <r>ise<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ise</l>        <r>ise<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>iser</l>       <r>ise<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ises</l>       <r>ise<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>es</l>      <r>ise<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>eset</l>       <r>ise<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>isende</l>     <r>ise<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
+
+
 <pardef n="tør/re__vblex">
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>re</l>        <r>re<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -2204,6 +2216,7 @@
   <e>       <p><l>eende</l>     <r>e<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
+
 <pardef n="bl/ive__vblex">
   <e>       <p><l>iv</l>        <r>ive<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ive</l>       <r>ive<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -2213,6 +2226,19 @@
   <e>       <p><l>ev</l>    <r>ive<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
   <e>       <p><l>evet</l>      <r>ive<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ivende</l>    <r>ive<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
+
+
+<pardef n="sl/ibe__vblex">
+  <e>       <p><l>ib</l>        <r>ibe<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ibe</l>       <r>ibe<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>iber</l>      <r>ibe<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ibes</l>      <r>ibe<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>eb</l>        <r>ibe<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>eb</l>    <r>ibe<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
+  <e>       <p><l>ebet</l>      <r>ibe<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ibende</l>    <r>ibe<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
 <pardef n="k/unne__vblex"><!-- speciel - kun fra sv: "orka" -->
@@ -8455,8 +8481,8 @@
 <e lm="blankpolere"><i>blankpoler</i><par n="mal/e__vblex"/></e>
 <e lm="blankpudse"><i>blankpuds</i><par n="mal/e__vblex"/></e>
 <e lm="blankskure"><i>blankskur</i><par n="mal/e__vblex"/></e>
-<e lm="blankslibe"><i>blankslib</i><par n="mal/e__vblex"/></e>
-<e lm="blankslide"><i>blankslid</i><par n="l/ide__vblex"/></e>
+<e lm="blankslibe"><i>blanksl</i><par n="sl/ibe__vblex"/></e>
+<e lm="blankslide"><i>blanksl</i><par n="l/ide__vblex"/></e>
 <e lm="blasonere"><i>blasoner</i><par n="mal/e__vblex"/></e>
 <e lm="blødkoge"><i>blødkog</i><par n="mal/e__vblex"/></e>
 <e lm="blække"><i>blæk</i><par n="bræk/ke__vblex"/></e>
@@ -8898,7 +8924,7 @@
 <e lm="faxe"><i>fax</i><par n="mal/e__vblex"/></e>
 <e lm="faksimilere"><i>faksimiler</i><par n="mal/e__vblex"/></e>
 <e lm="faktorisere"><i>faktoriser</i><par n="mal/e__vblex"/></e>
-<e lm="falbyde"><i>falbyd</i><par n="l/yde__vblex"/></e>
+<e lm="falbyde"><i>falb</i><par n="l/yde__vblex"/></e>
 <e lm="fallere"><i>faller</i><par n="mal/e__vblex"/></e>
 <e lm="falme"><i>falm</i><par n="mal/e__vblex"/></e>
 <e lm="false"><i>fals</i><par n="mal/e__vblex"/></e>
@@ -8933,9 +8959,59 @@
 <e lm="færge"><i>ferg</i><par n="mal/e__vblex"/></e>
 <e lm="feriere"><i>ferier</i><par n="mal/e__vblex"/></e>
 
+
+<e lm="konfirmere"><i>konfirmer</i><par n="mal/e__vblex"/></e>
+<e lm="fermentere"><i>fermenter</i><par n="mal/e__vblex"/></e>
+<e lm="fernisere"><i>ferniser</i><par n="mal/e__vblex"/></e>
+<e lm="raffinere"><i>raffiner</i><par n="mal/e__vblex"/></e>
+<e lm="fetere"><i>feter</i><par n="mal/e__vblex"/></e>
+<e lm="pynte"><i>pynte</i><par n="mal/e__vblex"/></e>
+<e lm="fighte"><i>fight</i><par n="mal/e__vblex"/></e>
+<e lm="figte"><i>figt</i><par n="mal/e__vblex"/></e>
+<e lm="fiksere"><i>fikser</i><par n="mal/e__vblex"/></e>
+<e lm="filere"><i>filer</i><par n="mal/e__vblex"/></e>
+<e lm="filosofere"><i>filosofer</i><par n="mal/e__vblex"/></e>
+<e lm="filtre"><i>filtr</i><par n="mal/e__vblex"/></e>
+<e lm="findele"><i>findel</i><par n="mal/e__vblex"/></e>
+<e lm="finere"><i>finer</i><par n="mal/e__vblex"/></e>
+<e lm="finfordele"><i>finfordel</i><par n="mal/e__vblex"/></e>
+<e lm="finhakke"><i>finhakk</i><par n="bræk/ke__vblex"/></e>
+<e lm="finhøvle"><i>finhøvl</i><par n="mal/e__vblex"/></e>
+<e lm="finjustere"><i>finjuster</i><par n="mal/e__vblex"/></e>
+<e lm="finkæmme"><i>finkæm</i><par n="stem/me__vblex"/></e>
+<e lm="finknuse"><i>finknus</i><par n="mal/e__vblex"/></e>
+<e lm="finlandisere"><i>finlandiser</i><par n="mal/e__vblex"/></e>
+<e lm="finlæse"><i>finlæs</i><par n="mal/e__vblex"/></e>
+<e lm="finmale"><i>finmal</i><par n="mal/e__vblex"/></e>
+<e lm="finpolere"><i>finpoler</i><par n="mal/e__vblex"/></e>
+<e lm="finpudse"><i>finpuss</i><par n="mal/e__vblex"/></e>
+<e lm="finregne"><i>finregn</i><par n="mal/e__vblex"/></e>
+<e lm="finsigte"><i>finsigt</i><par n="mal/e__vblex"/></e>
+<e lm="finske"><i>finsk</i><par n="mal/e__vblex"/></e>
+<e lm="finslibe"><i>finsl</i><par n="sl/ibe__vblex"/></e>
+<e lm="finstemme"><i>finstem</i><par n="stem/me__vblex"/></e>
+<e lm="finstille"><i>finstil</i><par n="rul/le__vblex"/></e>
+<e lm="finstudere"><i>finstuder</i><par n="mal/e__vblex"/></e>
+<e lm="finstyre"><i>finstyr</i><par n="mal/e__vblex"/></e>
+<e lm="finte"><i>fint</i><par n="mal/e__vblex"/></e>
+<e lm="firdele"><i>firdel</i><par n="mal/e__vblex"/></e>
+<e lm="firdoble"><i>firdobl</i><par n="mal/e__vblex"/></e>
+<e lm="fire"><i>fir</i><par n="mal/e__vblex"/></e>
+<e lm="firedele"><i>firedel</i><par n="mal/e__vblex"/></e>
+<e lm="firedoble"><i>firedobl</i><par n="mal/e__vblex"/></e>
+<e lm="fise"><i>f</i><par n="f/ise__vblex"/></e>
+<e lm="fissionere"><i>fissioner</i><par n="mal/e__vblex"/></e>
+<e lm="fedte"><i>fedt</i><par n="mal/e__vblex"/></e>
+<e lm="fjamse"><i>fjams</i><par n="mal/e__vblex"/></e>
+<e lm="fjase"><i>fjas</i><par n="mal/e__vblex"/></e>
+<e lm="fjernadoptere"><i>fjernadopter</i><par n="mal/e__vblex"/></e>
+<e lm="fjernaflæse"><i>fjernaflæs</i><par n="tal/e__vblex"/></e>
+<e lm="fjernstyre"><i>fjernstyr</i><par n="mal/e__vblex"/></e>
+
+
 <!-- /end of NOB transformed verbs
 
-dyppe kysse skubbe skaffe stemme lægge brække bytte tørre dannee
+dyppe kysse skubbe skaffe stemme lægge brække bytte tørre dannes
 
 
  -->
