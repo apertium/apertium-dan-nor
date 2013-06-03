@@ -9121,8 +9121,79 @@
 <e lm="forgabe"><i>forgab</i><par n="tal/e__vblex"/></e>
 <e lm="forgasse"><i>forgas</i><par n="kys/se__vblex"/></e>
 <e lm="opsluge"><i>opslug</i><par n="tal/e__vblex"/></e>
-<e lm="forglemme"><i>forglemm</i><par n="stem/me__vblex"/></e>
+<e lm="forglemme"><i>forglem</i><par n="stem/me__vblex"/></e>
 
+
+<e lm="forgrene"><i>forgren</i><par n="mal/e__vblex"/></e>
+<e lm="forgribe"><i>forgr</i><par n="gr/ibe__vblex"/></e>
+<e lm="forsimple"><i>forsimpl</i><par n="mal/e__vblex"/></e>
+<e lm="forgøre"><i>forgør</i><par n="g/øre__vblex"/></e>
+<e lm="forhekse"><i>forheks</i><par n="mal/e__vblex"/></e>
+<e lm="forhærde"><i>forhærd</i><par n="mal/e__vblex"/></e>
+<e lm="forholde"><i>forhold</i><par n="hold/e__vblex"/></e>
+<e lm="forhyre"><i>forhyr</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndsdømme"><i>forhåndsdøm</i><par n="stem/me__vblex"/></e>
+<e lm="forhåndsinformere"><i>forhåndsinformer</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndskalkulere"><i>forhåndskalkuler</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndsklarere"><i>forhåndsklarer</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndskumulere"><i>forhåndskumuler</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndsorientere"><i>forhåndsorienter</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndsprogrammere"><i>forhåndsprogrammer</i><par n="mal/e__vblex"/></e>
+<e lm="forhåndsstemme"><i>forhåndsstem</i><par n="stem/me__vblex"/></e>
+<e lm="forhåndsvurdere"><i>forhåndsvurder</i><par n="mal/e__vblex"/></e>
+<e lm="forhøje"><i>forhøj</i><par n="mal/e__vblex"/></e>
+<e lm="forhøre"><i>forhør</i><par n="tal/e__vblex"/></e>
+<e lm="forkalke"><i>forkalk</i><par n="mal/e__vblex"/></e>
+<e lm="forkætre"><i>forkætr</i><par n="mal/e__vblex"/></e>
+<e lm="forklæde"><i>forklæd</i><par n="tal/e__vblex"/></e>
+<e lm="forkomme"><i>forkom</i><par n="kom/me__vblex"/></e>
+<e lm="forkrome"><i>forkrom</i><par n="mal/e__vblex"/></e>
+<e lm="forkvakle"><i>forkvakl</i><par n="mal/e__vblex"/></e>
+<e lm="forkæle"><i>forkæl</i><par n="mal/e__vblex"/></e>
+<e lm="forkøbe"><i>forkøb</i><par n="mal/e__vblex"/></e>
+<e lm="forkøle"><i>forkøl</i><par n="mal/e__vblex"/></e>
+<e lm="forlænge"><i>forlæng</i><par n="mal/e__vblex"/></e>
+<e lm="forlæse"><i>forlæs</i><par n="mal/e__vblex"/></e>
+<e lm="forlibe"><i>forlib</i><par n="tal/e__vblex"/></e>
+<e lm="forlige"><i>forlig</i><par n="mal/e__vblex"/></e>
+<e lm="forlise"><i>forlis</i><par n="tal/e__vblex"/></e>
+<e lm="lokke"><i>lok</i><par n="bræk/ke__vblex"/></e>
+<e lm="forlyde"><i>forl</i><par n="l/yde__vblex"/></e>
+<e lm="forlyste"><i>forlyst</i><par n="mal/e__vblex"/></e>
+<e lm="forlægge"><i>forl</i><par n="l/ægge__vblex"/></e>
+<e lm="forløfte"><i>forløft</i><par n="mal/e__vblex"/></e>
+<e lm="forløse"><i>forløs</i><par n="tal/e__vblex"/></e>
+<e lm="formale"><i>formal</i><par n="mal/e__vblex"/></e>
+<e lm="formane"><i>forman</i><par n="mal/e__vblex"/></e>
+<e lm="formatere"><i>formater</i><par n="mal/e__vblex"/></e>
+<e lm="formene"><i>formen</i><par n="mal/e__vblex"/></e>
+<e lm="formindske"><i>formindsk</i><par n="mal/e__vblex"/></e>
+<e lm="formulde"><i>formuld</i><par n="mal/e__vblex"/></e>
+<e lm="fornikle"><i>fornikl</i><par n="mal/e__vblex"/></e>
+<e lm="fornorske"><i>fornorsk</i><par n="mal/e__vblex"/></e>
+<e lm="fornægte"><i>fornægt</i><par n="mal/e__vblex"/></e>
+<e lm="forpagte"><i>forpagt</i><par n="mal/e__vblex"/></e>
+<e lm="forpleje"><i>forplej</i><par n="mal/e__vblex"/></e>
+<e lm="forpligte"><i>forpligt</i><par n="mal/e__vblex"/></e>
+<e lm="forprojektere"><i>forprojekter</i><par n="mal/e__vblex"/></e>
+<e lm="forregne"><i>forregn</i><par n="mal/e__vblex"/></e>
+<e lm="forråde"><i>forråde</i><par n="mal/e__vblex"/></e>
+<e lm="forrette"><i>forrett</i><par n="mal/e__vblex"/></e>
+<e lm="forsage"><i>forsag</i><par n="mal/e__vblex"/></e>
+<e lm="forse"><i>fors</i><par n="s/e__vblex"/></e>
+<e lm="forsænke"><i>forsænk</i><par n="mal/e__vblex"/></e>
+<e lm="forcere"><i>forser</i><par n="mal/e__vblex"/></e>
+<e lm="forsire"><i>forsir</i><par n="mal/e__vblex"/></e>
+<e lm="forskalle"><i>forskal</i><par n="rul/le__vblex"/></e>
+<e lm="forudbetale"><i>forudbetal</i><par n="tal/e__vblex"/></e>
+<e lm="overanstrenge"><i>overanstreng</i><par n="tal/e__vblex"/></e>
+<e lm="øde"><i>ød</i><par n="tal/e__vblex"/></e>
+<e lm="forskyde"><i>forsk</i><par n="l/yde__vblex"/></e>
+<e lm="forskylde"><i>forskyld</i><par n="tal/e__vblex"/></e>
+<e lm="forsluge"><i>forslug</i><par n="tal/e__vblex"/></e>
+<e lm="forslumme"><i>forslum</i><par n="svøm/me__vblex"/></e>
+<e lm="forslå"><i>forslå</i><par n="sl/å__vblex"/></e>
+<e lm="forsmå"><i>forsmå</i><par n="nå__vblex"/></e>
 
 
 
@@ -10078,7 +10149,6 @@ dyppe kysse skubbe skaffe stemme lægge brække bytte tørre dannes rulle
 <e lm="forkludre">       <i>forkludr</i><par n="mal/e__vblex"/></e>
 <e lm="forklæde">        <i>forklæd</i><par n="tal/e__vblex"/></e>
 <e lm="forkorte">        <i>forkort</i><par n="mal/e__vblex"/></e>
-<e lm="forkrome">        <i>forkro</i><par n="kom/me__vblex"/></e>
 <e lm="forkrome">        <i>forkrom</i><par n="mal/e__vblex"/></e>
 <e lm="forkue">          <i>forku</i><par n="mal/e__vblex"/></e>
 <e lm="forkynde">        <i>forkynd</i><par n="tal/e__vblex"/></e>
