@@ -9197,10 +9197,63 @@
 
 
 
+<e lm="forsnakke"><i>forsnak</i><par n="bræk/ke__vblex"/></e>
+<e lm="forsnævre"><i>forsnævr</i><par n="mal/e__vblex"/></e>
+<e lm="forsove"><i>forsov</i><par n="sov/e__vblex"/></e>
+<e lm="forspilde"><i>forspild</i><par n="tal/e__vblex"/></e>
+<e lm="forspise"><i>forspis</i><par n="mal/e__vblex"/></e>
+<e lm="forstege"><i>forsteg</i><par n="tal/e__vblex"/></e>
+<e lm="forstrække"><i>forstr</i><par n="tr/ække__vblex"/></e>
+<e lm="forstuve"><i>forstuv</i><par n="mal/e__vblex"/></e>
+<e lm="forstøde"><i>forstød</i><par n="tal/e__vblex"/></e>
+<e lm="forsumpe"><i>forsump</i><par n="mal/e__vblex"/></e>
+<e lm="forsure"><i>forsur</i><par n="mal/e__vblex"/></e>
+<e lm="forsvenske"><i>forsvensk</i><par n="mal/e__vblex"/></e>
+<e lm="forsværge"><i>forsværg</i><par n="mal/e__vblex"/></e>
+<!--<e lm="forsætte"><i>fors</i><par n="s/ætte__vblex"/></e>-->
+<e lm="forsølve"><i>forsølv</i><par n="mal/e__vblex"/></e>
+<e lm="forurene"><i>foruren</i><par n="mal/e__vblex"/></e>
+<e lm="fortage"><i>fort</i><par n="t/age__vblex"/></e>
+<e lm="fortabe"><i>fortab</i><par n="tal/e__vblex"/></e>
+<e lm="skynde"><i>skynd</i><par n="tal/e__vblex"/></e>
+<e lm="fortinne"><i>fortin</i><par n="dan/ne__vblex"/></e>
+<e lm="vinde"><i>v</i><par n="f/inde__vblex"/></e>
+<e lm="fortørve"><i>fortørv</i><par n="mal/e__vblex"/></e>
+<e lm="fortrenge"><i>fortræng</i><par n="tal/e__vblex"/></e>
+<e lm="fortrylle"><i>fortryl</i><par n="rul/le__vblex"/></e>
+<e lm="fortryde"><i>fortr</i><par n="br/yde__vblex"/></e>
+<e lm="fortvivle"><i>fortvivl</i><par n="mal/e__vblex"/></e>
+<e lm="fortynde"><i>fortynd</i><par n="mal/e__vblex"/></e>
+<e lm="fortænke"><i>fortænk</i><par n="mal/e__vblex"/></e>
+<e lm="fortætte"><i>fortæt</i><par n="byt/te__vblex"/></e>
+<e lm="fortøje"><i>fortøj</i><par n="mal/e__vblex"/></e>
+<e lm="forunde"><i>forund</i><par n="tal/e__vblex"/></e>
+<e lm="forurette"><i>forurætt</i><par n="mal/e__vblex"/></e>
+<e lm="forudbestemme"><i>forudbestem</i><par n="stem/me__vblex"/></e>
+<e lm="forudsætte"><i>foruds</i><par n="s/ætte__vblex"/></e>
+<e lm="forvare"><i>forvar</i><par n="mal/e__vblex"/></e>
+<!--<e lm="forvede"><i>forved</i><par n="mal/e__vblex"/></e>-->
+<e lm="koge"><i>kog</i><par n="tal/e__vblex"/></e>
+<e lm="forvænne"><i>forvæn</i><par n="dan/ne__vblex"/></e>
+<e lm="forværre"><i>forvær</i><par n="tør/re__vblex"/></e>
+<e lm="forvilde"><i>forvild</i><par n="mal/e__vblex"/></e>
+<e lm="forvitre"><i>forvitr</i><par n="mal/e__vblex"/></e>
+<e lm="forvride"><i>forvr</i><par n="l/ide__vblex"/></e>
+<e lm="forvrøvle"><i>forvrøvl</i><par n="mal/e__vblex"/></e>
+<e lm="fosforescere"><i>fosforescer</i><par n="mal/e__vblex"/></e>
+<e lm="fosforisere"><i>fosforiser</i><par n="mal/e__vblex"/></e>
+<e lm="fosse"><i>fos</i><par n="kys/se__vblex"/></e>
+<e lm="spilkoge"><i>spilkog</i><par n="mal/e__vblex"/></e>
+<e lm="øsregne"><i>øsregn</i><par n="mal/e__vblex"/></e>
+<e lm="ro"><i>ro</i><par n="nå__vblex"/></e>
+<e lm="finde fodfæste"><i>finde<b/>fodfæste</i><par n="f/inde__vblex"/></e>
+<e lm="fotokopiere"><i>fotokopier</i><par n="mal/e__vblex"/></e>
+<e lm="fotostatkopiere"><i>fotostatkopier</i><par n="mal/e__vblex"/></e>
+<e lm="fradragsføre"><i>fradragsfør</i><par n="tal/e__vblex"/></e>
 
 <!-- /end of NOB transformed verbs
 
-dyppe kysse skubbe skaffe stemme lægge brække bytte tørre dannes rulle
+dyppe kysse skubbe skaffe stemme lægge brække bytte tørre danne rulle
 
 
  -->
@@ -13281,7 +13334,6 @@ dyppe kysse skubbe skaffe stemme lægge brække bytte tørre dannes rulle
 <e lm="vinge">           <i>ving</i><par n="mal/e__vblex"/></e>
 
 <e lm="rynke" a="PT">    <i>rynk</i><par n="mal/e__vblex"/></e>
-<e lm="række" a="PT">    <i>ræk</i><par n="bræk/ke__vblex"/></e>
 
     <!-- PT: Gold washing from apertium-sv-da.da.dix-mergeleftover BEGIN -->
 
