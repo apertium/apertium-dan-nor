@@ -4328,6 +4328,61 @@
 <e><p><l>fjernadoptere<s n="vblex"/></l> <r>fjernadoptere</r></p><par n="generic__vblex"/></e>
 <e><p><l>fjernaflæse<s n="vblex"/></l> <r>fjernavlese</r></p><par n="generic__vblex"/></e>
 <e><p><l>fjernstyre<s n="vblex"/></l> <r>fjernstyre</r></p><par n="generic__vblex"/></e>
+
+
+<e><p><l>fise<s n="vblex"/></l> <r>fjerte</r></p><par n="generic__vblex"/></e>
+<e><p><l>smiske<s n="vblex"/></l> <r>fjeske</r></p><par n="generic__vblex"/></e>
+<e><p><l>lamslå<s n="vblex"/></l> <r>fjetre</r></p><par n="generic__vblex"/></e>
+<!--<e><p><l>fjonge<s n="vblex"/></l> <r>fjonge</r></p><par n="generic__vblex"/></e>-->
+<e><p><l>fuske<s n="vblex"/></l> <r>fjuske</r></p><par n="generic__vblex"/></e>
+<e><p><l>ebbe<s n="vblex"/></l> <r>fjære</r></p><par n="generic__vblex"/></e>
+<e><p><l>ebbe<s n="vblex"/></l> <r>fjøre</r></p><par n="generic__vblex"/></e>
+<e><p><l>flage<s n="vblex"/></l> <r>flagge</r></p><par n="generic__vblex"/></e>
+<e><p><l>flage<s n="vblex"/></l> <r>flake</r></p><par n="generic__vblex"/></e>
+<e><p><l>flække<s n="vblex"/></l> <r>flakne</r></p><par n="generic__vblex"/></e>
+<e><p><l>flakse<s n="vblex"/></l> <r>flakse</r></p><par n="generic__vblex"/></e>
+<e><p><l>flanere<s n="vblex"/></l> <r>flanere</r></p><par n="generic__vblex"/></e>
+<e><p><l>flankere<s n="vblex"/></l> <r>flankere</r></p><par n="generic__vblex"/></e>
+<e><p><l>opblusse<s n="vblex"/></l> <r>flare</r></p><par n="generic__vblex"/></e>
+<e><p><l>flaske<s n="vblex"/></l> <r>flaske</r></p><par n="generic__vblex"/></e>
+<e><p><l>skalle<s n="vblex"/></l> <r>flasse</r></p><par n="generic__vblex"/></e>
+<e><p><l>udflade<s n="vblex"/></l> <r>flate</r></p><par n="generic__vblex"/></e>
+<e><p><l>udflade<s n="vblex"/></l> <r>flatne</r></p><par n="generic__vblex"/></e>
+<e><p><l>flattere<s n="vblex"/></l> <r>flattere</r></p><par n="generic__vblex"/></e>
+<e><p><l>aftage<s n="vblex"/></l> <r>flaue</r></p><par n="generic__vblex"/></e>
+<e><p><l>spøge<s n="vblex"/></l> <r>fleipe</r></p><par n="generic__vblex"/></e>
+<e><p><l>plette<s n="vblex"/></l> <r>flekke</r></p><par n="generic__vblex"/></e>
+<e><p><l>flænge<s n="vblex"/></l> <r>flenge</r></p><par n="generic__vblex"/></e>
+<e><p><l>flænse<s n="vblex"/></l> <r>flense</r></p><par n="generic__vblex"/></e>
+<e><p><l>flerdele<s n="vblex"/></l> <r>flerdele</r></p><par n="generic__vblex"/></e>
+<e><p><l>flænge<s n="vblex"/></l> <r>flerre</r></p><par n="generic__vblex"/></e>
+<e><p><l>flette<s n="vblex"/></l> <r>flette</r></p><par n="generic__vblex"/></e>
+<e><p><l>ordne<s n="vblex"/></l> <r>fli</r></p><par n="generic__vblex"/></e>
+<e><p><l>smile<s n="vblex"/></l> <r>flire</r></p><par n="generic__vblex"/></e>
+<e><p><l>flise<s n="vblex"/></l> <r>flise</r></p><par n="generic__vblex"/></e>
+<e><p><l>fliselægge<s n="vblex"/></l> <r>fliselægge</r></p><par n="generic__vblex"/></e>
+<e><p><l>fliselægge<s n="vblex"/></l> <r>flislægge</r></p><par n="generic__vblex"/></e>
+<e><p><l>øse<s n="vblex"/></l> <r>floe</r></p><par n="generic__vblex"/></e>
+<e><p><l>filtre<s n="vblex"/></l> <r>floke</r></p><par n="generic__vblex"/></e>
+<e><p><l>flokke<s n="vblex"/></l> <r>flokke</r></p><par n="generic__vblex"/></e>
+<e><p><l>flirte<s n="vblex"/></l> <r>flokse</r></p><par n="generic__vblex"/></e>
+<e><p><l>fremvælde<s n="vblex"/></l> <r>flomme</r></p><par n="generic__vblex"/></e>
+<e><p><l>floppe<s n="vblex"/></l> <r>floppe</r></p><par n="generic__vblex"/></e>
+<e><p><l>floragrafere<s n="vblex"/></l> <r>floragrafere</r></p><par n="generic__vblex"/></e>
+<e><p><l>florere<s n="vblex"/></l> <r>florere</r></p><par n="generic__vblex"/></e>
+<e><p><l>flotte<s n="vblex"/></l> <r>flotte</r></p><par n="generic__vblex"/></e>
+<e><p><l>fluefisk<s n="vblex"/></l> <r>flu</r></p><par n="generic__vblex"/></e>
+<e><p><l>flugte<s n="vblex"/></l> <r>flukte</r></p><par n="generic__vblex"/></e>
+<e><p><l>fluktuere<s n="vblex"/></l> <r>fluktuere</r></p><par n="generic__vblex"/></e>
+<e><p><l>fluorescere<s n="vblex"/></l> <r>fluorescere</r></p><par n="generic__vblex"/></e>
+<e><p><l>fluoridere<s n="vblex"/></l> <r>fluoridere</r></p><par n="generic__vblex"/></e>
+<e><p><l>fluorisere<s n="vblex"/></l> <r>fluorisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>flyde<s n="vblex"/></l> <r>flyte</r></p><par n="generic__vblex"/></e>
+<e><p><l>flå<s n="vblex"/></l> <r>flå</r></p><par n="generic__vblex"/></e>
+<e><p><l>tulle<s n="vblex"/></l> <r>flåse</r></p><par n="generic__vblex"/></e>
+<!--<e><p><l>flæ<s n="vblex"/></l> <r>flæ</r></p><par n="generic__vblex"/></e>-->
+
+
 <!-- /end of NOB transformed verbs -->
 
 <e><p><l>stole<s n="vblex"/></l> <r>stole</r></p><par n="generic__vblex"/></e>
