@@ -9617,29 +9617,96 @@
 <e lm="hellelægge"><i>hellelægg</i><par n="l/ægge__vblex"/></e>
 <e lm="hellige"><i>hellig</i><par n="mal/e__vblex"/></e>
 <e lm="helligholde"><i>hellighold</i><par n="hold/e__vblex"/></e>
-<e lm="hilse"><i>hils</i><par n="mal/e__vblex"/></e>
-<e lm="skamslå"><i>skamslå</i><par n="sl/å__vblex"/></e>
-<e lm="helstege"><i>helsteg</i><par n="mal/e__vblex"/></e>
-<e lm="helstøbe"><i>helstøb</i><par n="mal/e__vblex"/></e>
+<e lm="hilse"><i>hils</i><par n="tal/e__vblex"/></e>
+<e lm="skamslå"><i>skamsl</i><par n="sl/å__vblex"/></e>
+<e lm="helstege"><i>helsteg</i><par n="tal/e__vblex"/></e>
+<e lm="helstøbe"><i>helstøb</i><par n="tal/e__vblex"/></e>
 <e lm="helsynkronisere"><i>helsynkroniser</i><par n="mal/e__vblex"/></e>
 <e lm="hæmme"><i>hæm</i><par n="svøm/me__vblex"/></e>
 <e lm="hængsle"><i>hengsl</i><par n="mal/e__vblex"/></e>
-<e lm="henhøre"><i>henhør</i><par n="mal/e__vblex"/></e>
+<e lm="henhøre"><i>henhør</i><par n="tal/e__vblex"/></e>
 <e lm="henlægge"><i>henl</i><par n="l/ægge__vblex"/></e>
-<e lm="henslæbe"><i>henslæb</i><par n="mal/e__vblex"/></e>
-<e lm="hensætte"><i>hensæt</i><par n="s/ætte__vblex"/></e>
-<e lm="henvise"><i>henvis</i><par n="mal/e__vblex"/></e>
+<e lm="henslæbe"><i>henslæb</i><par n="tal/e__vblex"/></e>
+<e lm="hensætte"><i>hens</i><par n="s/ætte__vblex"/></e>
+<e lm="henvise"><i>henvis</i><par n="tal/e__vblex"/></e>
 <e lm="heppe"><i>hep</i><par n="dyp/pe__vblex"/></e>
 <e lm="herbergere"><i>herberger</i><par n="mal/e__vblex"/></e>
 <e lm="hærde"><i>hærd</i><par n="mal/e__vblex"/></e>
 <!--<e lm="herke"><i>herk</i><par n="mal/e__vblex"/></e>-->
-<e lm="herliggøre"><i>herliggør</i><par n="g/øre__vblex"/></e>
+<e lm="herliggøre"><i>herligg</i><par n="g/øre__vblex"/></e>
 <e lm="hermetisere"><i>hermetiser</i><par n="mal/e__vblex"/></e>
 <e lm="heroisere"><i>heroiser</i><par n="mal/e__vblex"/></e>
 
 
 <!--
 <e lm="tørre hø "><i>tør<par n="tør/re__vblex"/></i><p><l><b/>hø</l><r><g><b/>hø</g></r></p></e>-->
+
+<e lm="haspe"><i>hasp</i><par n="mal/e__vblex"/></e>
+<e lm="hetze"><i>hetz</i><par n="mal/e__vblex"/></e>
+<e lm="hævne"><i>hævn</i><par n="mal/e__vblex"/></e>
+<e lm="længes"><i>læng</i><par n="syn/es__vblex"/></e>
+<e lm="hie"><i>hi</i><par n="mal/e__vblex"/></e>
+<e lm="hige"><i>hig</i><par n="mal/e__vblex"/></e>
+<e lm="hikste"><i>hikst</i><par n="mal/e__vblex"/></e>
+<!--<e lm="hikstele"><i>hikstel</i><par n="l/e__vblex"/></e>-->
+<!--<e lm="hildre"><i>hildr</i><par n="mal/e__vblex"/></e>-->
+<e lm="himle"><i>himl</i><par n="mal/e__vblex"/></e>
+<e lm="hidse"><i>hids</i><par n="mal/e__vblex"/></e>
+<e lm="historisere"><i>historiser</i><par n="mal/e__vblex"/></e>
+<e lm="hive"><i>h</i><par n="bl/ive__vblex"/></e>
+<e lm="målsøge"><i>målsøg</i><par n="tal/e__vblex"/></e>
+<e lm="hjemfalde"><i>hjemfald</i><par n="fald/e__vblex"/></e>
+<e lm="hjemføre"><i>hjemfør</i><par n="mal/e__vblex"/></e>
+<e lm="hjemføre"><i>hjemfør</i><par n="mal/e__vblex"/></e>
+<e lm="hjemle"><i>hjeml</i><par n="mal/e__vblex"/></e>
+<e lm="hjemsende"><i>hjemsend</i><par n="mal/e__vblex"/></e>
+<e lm="hjemsøge"><i>hjemsøg</i><par n="mal/e__vblex"/></e>
+<e lm="hjule"><i>hjul</i><par n="mal/e__vblex"/></e>
+<e lm="huje"><i>huj</i><par n="mal/e__vblex"/></e>
+<e lm="hule"><i>hul</i><par n="mal/e__vblex"/></e>
+<!--<e lm="holke"><i>holk</i><par n="mal/e__vblex"/></e>-->
+<e lm="hulne"><i>huln</i><par n="mal/e__vblex"/></e>
+
+
+<!--<e lm="homme"><i>homm</i><par n="svøm/me__vblex"/></e>-->
+<e lm="homogenisere"><i>homogeniser</i><par n="mal/e__vblex"/></e>
+<!--<e lm="horve"><i>horv</i><par n="mal/e__vblex"/></e>-->
+<e lm="hospitalisere"><i>hospitaliser</i><par n="mal/e__vblex"/></e>
+<e lm="hospitere"><i>hospiter</i><par n="mal/e__vblex"/></e>
+<e lm="hovere"><i>hover</i><par n="mal/e__vblex"/></e>
+<e lm="hovmesterere"><i>hovmesterer</i><par n="mal/e__vblex"/></e>
+<e lm="hovne"><i>hovn</i><par n="mal/e__vblex"/></e>
+<e lm="hudflette"><i>hudflet</i><par n="byt/te__vblex"/></e>
+<!--<e lm="hudstryge"><i>hudstryg</i><par n="f/yge__vblex"/></e>-->
+<e lm="hue"><i>hu</i><par n="mal/e__vblex"/></e>
+<e lm="lindre"><i>lindr</i><par n="mal/e__vblex"/></e>
+<e lm="humanisere"><i>humaniser</i><par n="mal/e__vblex"/></e>
+<e lm="summe"><i>sum</i><par n="stem/me__vblex"/></e>
+<e lm="klukle"><i>klukl</i><par n="mal/e__vblex"/></e>
+<e lm="jage"><i>jag</i><par n="mal/e__vblex"/></e>
+<e lm="hundse"><i>hunds</i><par n="mal/e__vblex"/></e>
+<e lm="hungre"><i>hungr</i><par n="mal/e__vblex"/></e>
+<!--<e lm="hurpe"><i>hurp</i><par n="mal/e__vblex"/></e>-->
+<e lm="hvirvle"><i>hvirvl</i><par n="mal/e__vblex"/></e>
+<e lm="husbankfinansiere"><i>husbankfinansier</i><par n="mal/e__vblex"/></e>
+<e lm="husholde"><i>hushold</i><par n="hold/e__vblex"/></e>
+<e lm="hutle"><i>hutl</i><par n="mal/e__vblex"/></e>
+<e lm="hvæse"><i>hvæs</i><par n="tal/e__vblex"/></e>
+<e lm="hviske"><i>hvisk</i><par n="mal/e__vblex"/></e>
+<e lm="hysse"><i>hys</i><par n="kys/se__vblex"/></e>
+<e lm="hyle"><i>hyl</i><par n="mal/e__vblex"/></e>
+<e lm="hype"><i>hyp</i><par n="mal/e__vblex"/></e>
+<e lm="hyperventilere"><i>hyperventiler</i><par n="mal/e__vblex"/></e>
+<e lm="hypnotisere"><i>hypnotiser</i><par n="mal/e__vblex"/></e>
+<e lm="hypostasere"><i>hypostaser</i><par n="mal/e__vblex"/></e>
+<e lm="hytte"><i>hytt</i><par n="mal/e__vblex"/></e>
+<e lm="håndblæse"><i>håndblæs</i><par n="tal/e__vblex"/></e>
+<e lm="håndgive"><i>håndg</i><par n="g/ive__vblex"/></e>
+<e lm="håndtrykke"><i>håndtryk</i><par n="bræk/ke__vblex"/></e>
+<e lm="håndknytte"><i>håndknyt</i><par n="byt/te__vblex"/></e>
+<e lm="håndfarve"><i>håndfarv</i><par n="mal/e__vblex"/></e>
+<e lm="håndmalke"><i>håndmalk</i><par n="mal/e__vblex"/></e>
+<e lm="håndplukke"><i>håndpluk</i><par n="bræk/ke__vblex"/></e>
 
 
 
@@ -9733,7 +9800,7 @@ tygge
 <e lm="afhandle">        <i>afhandl</i><par n="mal/e__vblex"/></e>
 <e lm="afhaspe">         <i>afhasp</i><par n="mal/e__vblex"/></e>
 <e lm="afhente">         <i>afhent</i><par n="mal/e__vblex"/></e>
-<e lm="afholde">         <i>afhold</i><par n="tal/e__vblex"/></e>
+<e lm="afholde">         <i>afhold</i><par n="hold/e__vblex"/></e>
 <e lm="afhorne">         <i>afhorn</i><par n="mal/e__vblex"/></e>
 <e lm="afhude">          <i>afhud</i><par n="mal/e__vblex"/></e>
 <e lm="afhugge">         <i>afhug</i><par n="tyg/ge__vblex"/></e>
@@ -9899,7 +9966,7 @@ tygge
 <e lm="anfægte">         <i>anfægt</i><par n="mal/e__vblex"/></e>
 <e lm="anføre">          <i>anfør</i><par n="tal/e__vblex"/></e>
 <e lm="angive">          <i>angiv</i><par n="mal/e__vblex"/></e>
-<e lm="anholde">         <i>anhold</i><par n="tal/e__vblex"/></e>
+<e lm="anholde">         <i>anhold</i><par n="hold/e__vblex"/></e>
 <e lm="animere">         <i>animer</i><par n="mal/e__vblex"/></e>
 <e lm="anke">            <i>ank</i><par n="mal/e__vblex"/></e>
 <e lm="anklage">         <i>anklag</i><par n="mal/e__vblex"/></e>
@@ -10023,7 +10090,7 @@ tygge
 <e lm="behage">          <i>behag</i><par n="mal/e__vblex"/></e>
 <e lm="behandle">        <i>behandl</i><par n="mal/e__vblex"/></e>
 <e lm="beherske">        <i>behersk</i><par n="mal/e__vblex"/></e>
-<e lm="beholde">         <i>behold</i><par n="tal/e__vblex"/></e>
+<e lm="beholde">         <i>behold</i><par n="hold/e__vblex"/></e>
 <e lm="behæfte">         <i>behæft</i><par n="mal/e__vblex"/></e>
 <e lm="behænge">         <i>behæng</i><par n="tal/e__vblex"/></e>
 <e lm="behøve">          <i>behøv</i><par n="mal/e__vblex"/></e>
@@ -10146,7 +10213,7 @@ tygge
 <e lm="bevæbne">         <i>bevæbn</i><par n="mal/e__vblex"/></e>
 <e lm="bevæge">          <i>bevæg</i><par n="mal/e__vblex"/></e>
 <e lm="beære">           <i>beær</i><par n="mal/e__vblex"/></e>
-<e lm="bibeholde">       <i>bibehold</i><par n="tal/e__vblex"/></e>
+<e lm="bibeholde">       <i>bibehold</i><par n="hold/e__vblex"/></e>
 <e lm="bidrage">         <i>bidr</i><par n="t/age__vblex"/></e>
 <e lm="bidrage">         <i>bidrag</i><par n="mal/e__vblex"/></e>
 <e lm="bikse">           <i>biks</i><par n="mal/e__vblex"/></e>
@@ -10472,7 +10539,7 @@ tygge
 <e lm="farve">           <i>farv</i><par n="mal/e__vblex"/></e>
 <e lm="fase">            <i>fas</i><par n="tal/e__vblex"/></e>
 <e lm="fascinere">       <i>fasciner</i><par n="mal/e__vblex"/></e>
-<e lm="fastholde">       <i>fasthold</i><par n="tal/e__vblex"/></e>
+<e lm="fastholde">       <i>fasthold</i><par n="hold/e__vblex"/></e>
 <e lm="fastlåse">        <i>fastlås</i><par n="tal/e__vblex"/></e>
 <e lm="fatte">           <i>fat</i><par n="byt/te__vblex"/></e>
 <e lm="favorisere">      <i>favoriser</i><par n="mal/e__vblex"/></e>
@@ -10869,7 +10936,7 @@ tygge
 <e lm="hejse">           <i>hejs</i><par n="tal/e__vblex"/></e>
 <e lm="hekse">           <i>heks</i><par n="mal/e__vblex"/></e>
 <e lm="heltidsbeskæftige"><i>heltidsbeskæftig</i><par n="mal/e__vblex"/></e>
-<e lm="hemmeligholde">   <i>hemmelighold</i><par n="tal/e__vblex"/></e>
+<e lm="hemmeligholde">   <i>hemmelighold</i><par n="hold/e__vblex"/></e>
 <e lm="hemmeligstemple"> <i>hemmeligstempl</i><par n="mal/e__vblex"/></e>
 <e lm="henføre">         <i>henfør</i><par n="tal/e__vblex"/></e>
 <e lm="henhøre">         <i>henhør</i><par n="tal/e__vblex"/></e>
@@ -10894,7 +10961,6 @@ tygge
 <e lm="hinke">           <i>hink</i><par n="mal/e__vblex"/></e>
 <e lm="hjemle">          <i>hjeml</i><par n="mal/e__vblex"/></e>
 <e lm="hjemsende">       <i>hjemsend</i><par n="tal/e__vblex"/></e>
-<e lm="hjemsøge">        <i>hjemsøg</i><par n="tal/e__vblex"/></e>
 <e lm="hjerneskade">     <i>hjerneskad</i><par n="mal/e__vblex"/></e>
 <e lm="hjernevaske">     <i>hjernevask</i><par n="mal/e__vblex"/></e>
 <e lm="holde">           <i>hold</i><par n="hold/e__vblex"/></e>
@@ -14584,7 +14650,6 @@ tygge
 <e lm="hærværk">         <i>hærværk</i><par n="år__n"/></e>
 <e lm="hætte">           <i>hætte</i><par n="abe__n"/></e>
 <e lm="hævn">            <i>hævn</i><par n="ateist__n"/></e>
-<e lm="hævne">           <i>hævne</i><par n="abe__n"/></e>
 <e lm="hø">              <i>hø</i><par n="blod__n"/></e>
 <e lm="høj">             <i>høj</i><par n="bold__n"/></e>
 <e lm="højde">           <i>højde</i><par n="abe__n"/></e>
