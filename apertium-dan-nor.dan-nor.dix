@@ -5284,9 +5284,52 @@
 <e><p><l>invalidisere<s n="vblex"/></l> <r>invalidisere</r></p><par n="generic__vblex"/></e>
 <e><p><l>inventere<s n="vblex"/></l> <r>inventere</r></p><par n="generic__vblex"/></e>
 <e><p><l>invertere<s n="vblex"/></l> <r>invertere</r></p><par n="generic__vblex"/></e>
-<e><p><l>ire<s n="vblex"/></l> <r>ire</r></p><par n="generic__vblex"/></e>
+
+
+
+<e><p><l>angre<s n="vblex"/></l> <r>ire</r></p><par n="generic__vblex"/></e>
 <e><p><l>irettesætte<s n="vblex"/></l> <r>irettesette</r></p><par n="generic__vblex"/></e>
 <e><p><l>irisere<s n="vblex"/></l> <r>irisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>irre<s n="vblex"/></l> <r>irre</r></p><par n="generic__vblex"/></e>
+<e><p><l>irrigere<s n="vblex"/></l> <r>irrigere</r></p><par n="generic__vblex"/></e>
+<e><p><l>iscenesætte<s n="vblex"/></l> <r>iscenesette</r></p><par n="generic__vblex"/></e>
+<e><p><l>ise<s n="vblex"/></l> <r>ise</r></p><par n="generic__vblex"/></e>
+<e><p><l>islamisere<s n="vblex"/></l> <r>islamisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>islægge<s n="vblex"/></l> <r>islægge</r></p><par n="generic__vblex"/></e>
+<e><p><l>isne<s n="vblex"/></l> <r>isne</r></p><par n="generic__vblex"/></e>
+<e><p><l>istandsætte<s n="vblex"/></l> <r>istandsette</r></p><par n="generic__vblex"/></e>
+<e><p><l>istemme<s n="vblex"/></l> <r>istemme</r></p><par n="generic__vblex"/></e>
+<e><p><l>iterere<s n="vblex"/></l> <r>iterere</r></p><par n="generic__vblex"/></e>
+<e><p><l>iverksætte<s n="vblex"/></l> <r>iverksette</r></p><par n="generic__vblex"/></e>
+<e><p><l>ivre<s n="vblex"/></l> <r>ivre</r></p><par n="generic__vblex"/></e>
+<e><p><l>pjatte<s n="vblex"/></l> <r>jabbe</r></p><par n="generic__vblex"/></e>
+<e><p><l>sluge<s n="vblex"/></l> <r>jafse</r></p><par n="generic__vblex"/></e>
+<e><p><l>gjalde<s n="vblex"/></l> <r>jalme</r></p><par n="generic__vblex"/></e>
+<e><p><l>sammenligne<s n="vblex"/></l> <r>jamføre</r></p><par n="generic__vblex"/></e>
+<e><p><l>jævne<s n="vblex"/></l> <r>jamne</r></p><par n="generic__vblex"/></e>
+<e><p><l>ligestille<s n="vblex"/></l> <r>jamstille</r></p><par n="generic__vblex"/></e>
+<!--<e><p><l>jare<s n="vblex"/></l> <r>jare</r></p><par n="generic__vblex"/></e>-->
+<e><p><l>sjuske<s n="vblex"/></l> <r>jaske</r></p><par n="generic__vblex"/></e>
+<e><p><l>jazze<s n="vblex"/></l> <r>jasse</r></p><par n="generic__vblex"/></e>
+<e><p><l>jassificere<s n="vblex"/></l> <r>jassifisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>jatte<s n="vblex"/></l> <r>jatte</r></p><par n="generic__vblex"/></e>
+<e><p><l>jazze<s n="vblex"/></l> <r>jazze</r></p><par n="generic__vblex"/></e>
+<e><p><l>jazzifisere<s n="vblex"/></l> <r>jazzifisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>løfte<s n="vblex"/></l> <r>jekke</r></p><par n="generic__vblex"/></e>
+<e><p><l>kastrere<s n="vblex"/></l> <r>jelke</r></p><par n="generic__vblex"/></e>
+<e><p><l>tilpasse<s n="vblex"/></l> <r>jenke</r></p><par n="generic__vblex"/></e>
+<e><p><l>jibbe<s n="vblex"/></l> <r>jibbe</r></p><par n="generic__vblex"/></e>
+<e><p><l>jodere<s n="vblex"/></l> <r>jodere</r></p><par n="generic__vblex"/></e>
+<e><p><l>jodisere<s n="vblex"/></l> <r>jodisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>jodle<s n="vblex"/></l> <r>jodle</r></p><par n="generic__vblex"/></e>
+<e><p><l>joike<s n="vblex"/></l> <r>joike</r></p><par n="generic__vblex"/></e>
+<e><p><l>jorde<s n="vblex"/></l> <r>jorde</r></p><par n="generic__vblex"/></e>
+<e><p><l>jordfæste<s n="vblex"/></l> <r>jordfeste</r></p><par n="generic__vblex"/></e>
+<e><p><l>jordslå<s n="vblex"/></l> <r>jordslå</r></p><par n="generic__vblex"/></e>
+<e><p><l>drøvtygge<s n="vblex"/></l> <r>jorte</r></p><par n="generic__vblex"/></e>
+<e><p><l>journalføre<s n="vblex"/></l> <r>journalføre</r></p><par n="generic__vblex"/></e>
+<e><p><l>journalisere<s n="vblex"/></l> <r>journalisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>jubilere<s n="vblex"/></l> <r>jubilere</r></p><par n="generic__vblex"/></e>
 
 
 <!-- /end of NOB transformed verbs -->

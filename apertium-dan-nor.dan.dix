@@ -8907,7 +8907,7 @@
 <e lm="ægvende"><i>ægvend</i><par n="tal/e__vblex"/></e>
 <e lm="opildne"><i>opildn</i><par n="mal/e__vblex"/></e>
 <e lm="emme"><i>em</i><par n="stem/me__vblex"/></e>
-<e lm="irre"><i>irre</i><par n="mal/e__vblex"/></e>
+<e lm="irre"><i>irre</i><par n="tør/re__vblex"/></e>
 <e lm="ejakulere"><i>ejakuler</i><par n="mal/e__vblex"/></e>
 <e lm="eksaltere"><i>eksalter</i><par n="mal/e__vblex"/></e>
 <e lm="ekse"><i>eks</i><par n="mal/e__vblex"/></e>
@@ -8955,7 +8955,7 @@
 <e lm="ærgre"><i>ergr</i><par n="mal/e__vblex"/></e>
 <e lm="erigere"><i>eriger</i><par n="mal/e__vblex"/></e>
 <e lm="erotisere"><i>erotiser</i><par n="mal/e__vblex"/></e>
-<e lm="tirre"><i>tir</i><par n="mal/e__vblex"/></e>
+<e lm="tirre"><i>tir</i><par n="tør/re__vblex"/></e>
 <e lm="svulme"><i>svulm</i><par n="mal/e__vblex"/></e>
 <e lm="borttrylle"><i>borttryl</i><par n="rul/le__vblex"/></e>
 <e lm="eskapere"><i>eskaper</i><par n="mal/e__vblex"/></e>
@@ -9859,6 +9859,42 @@
 <e lm="invalidere"><i>invalidere</i><par n="mal/e__vblex"/></e>
 <e lm="inventere"><i>inventer</i><par n="mal/e__vblex"/></e>
 <e lm="invertere"><i>inverter</i><par n="mal/e__vblex"/></e>
+
+
+<e lm="irisere"><i>iriser</i><par n="mal/e__vblex"/></e>
+<e lm="irrigere"><i>irriger</i><par n="mal/e__vblex"/></e>
+<e lm="irettesætte"><i>irettes</i><par n="s/ætte__vblex"/></e>
+<e lm="iscenesætte"><i>iscenes</i><par n="s/ætte__vblex"/></e>
+<e lm="ise"><i>is</i><par n="mal/e__vblex"/></e>
+<e lm="islamisere"><i>islamiser</i><par n="mal/e__vblex"/></e>
+<e lm="islægge"><i>islægg</i><par n="l/ægge__vblex"/></e>
+<e lm="isne"><i>isn</i><par n="mal/e__vblex"/></e>
+<e lm="istandsætte"><i>istandsætt</i><par n="s/ætte__vblex"/></e>
+<e lm="istemme"><i>istemm</i><par n="stem/me__vblex"/></e>
+<e lm="iterere"><i>iterer</i><par n="mal/e__vblex"/></e>
+<e lm="iværksætte"><i>iværks</i><par n="s/ætte__vblex"/></e>
+<e lm="ivre"><i>ivr</i><par n="mal/e__vblex"/></e>
+<e lm="pjatte"><i>pjat</i><par n="byt/te__vblex"/></e>
+<e lm="gjalde"><i>gjald</i><par n="mal/e__vblex"/></e>
+<!--<e lm="jare"><i>jar</i><par n="mal/e__vblex"/></e>-->
+<e lm="sjuske"><i>sjusk</i><par n="mal/e__vblex"/></e>
+<e lm="jazzificere"><i>jazzificer</i><par n="mal/e__vblex"/></e>
+<!--<e lm="jatte"><i>jatt</i><par n="mal/e__vblex"/></e>-->
+<e lm="jazze"><i>jazz</i><par n="mal/e__vblex"/></e>
+<e lm="jazzifisere"><i>jazzifiser</i><par n="mal/e__vblex"/></e>
+<e lm="jibbe"><i>jib</i><par n="skub/be__vblex"/></e>
+<e lm="jodere"><i>joder</i><par n="mal/e__vblex"/></e>
+<e lm="jodisere"><i>jodiser</i><par n="mal/e__vblex"/></e>
+<e lm="jodle"><i>jodl</i><par n="mal/e__vblex"/></e>
+<e lm="joike"><i>joik</i><par n="mal/e__vblex"/></e>
+<e lm="jorde"><i>jord</i><par n="mal/e__vblex"/></e>
+<e lm="jordfæste"><i>jordfæst</i><par n="mal/e__vblex"/></e>
+<e lm="jordslå"><i>jordslå</i><par n="sl/å__vblex"/></e>
+<e lm="drøvtygge"><i>drøvtyg</i><par n="tyg/ge__vblex"/></e>
+<e lm="journalføre"><i>journalfør</i><par n="mal/e__vblex"/></e>
+<e lm="journalisere"><i>journaliser</i><par n="mal/e__vblex"/></e>
+<e lm="jubilere"><i>jubiler</i><par n="mal/e__vblex"/></e>
+
 
 
 <!-- /end of NOB transformed verbs
