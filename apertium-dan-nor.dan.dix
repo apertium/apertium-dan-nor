@@ -2143,6 +2143,17 @@
   <e>       <p><l>sende</l>     <r>se<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
+
+<pardef n="g/ide__vblex">
+  <e>       <p><l>id</l>          <r>ide<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ide</l>        <r>ide<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>ider</l>       <r>ide<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ides</l>       <r>ide<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>ad</l>      <r>ide<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>idet</l>       <r>ide<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>idende</l>     <r>ide<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
 <pardef n="f/ise__vblex">
   <e>       <p><l>is</l>          <r>ise<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ise</l>        <r>ise<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -9422,10 +9433,146 @@
 <e lm="genudnævne"><i>genudnævn</i><par n="tal/e__vblex"/></e>
 
 
+
+<!--<e lm="gjepe"><i>gep</i><par n="mal/e__vblex"/></e>-->
+<e lm="gærde"><i>gærd</i><par n="mal/e__vblex"/></e>
+<e lm="germanisere"><i>germaniser</i><par n="mal/e__vblex"/></e>
+<e lm="gispe"><i>gisp</i><par n="mal/e__vblex"/></e>
+<e lm="gæste"><i>gæst</i><par n="mal/e__vblex"/></e>
+<e lm="gestikulere"><i>gestikuler</i><par n="mal/e__vblex"/></e>
+<e lm="vogte"><i>vogt</i><par n="mal/e__vblex"/></e>
+<e lm="gide"><i>g</i><par n="g/ide__vblex"/></e>
+<e lm="gigge"><i>gig</i><par n="tyg/ge__vblex"/></e>
+<e lm="stable"><i>stabl</i><par n="mal/e__vblex"/></e>
+<e lm="guillotinere"><i>guillotiner</i><par n="mal/e__vblex"/></e>
+<e lm="gimpe"><i>gimp</i><par n="mal/e__vblex"/></e>
+<!--<e lm="gine"><i>gin</i><par n="g/ivene__vblex"/></e>-->
+<e lm="gipse"><i>gips</i><par n="mal/e__vblex"/></e>
+<e lm="geare"><i>gear</i><par n="mal/e__vblex"/></e>
+<e lm="gisne"><i>gisn</i><par n="mal/e__vblex"/></e>
+<e lm="gå ned"><i>gå<b/>ned</i><par n="nå__vblex"/></e>
+<e lm="plapre"><i>plapr</i><par n="mal/e__vblex"/></e>
+<e lm="glamourisere"><i>glamouriser</i><par n="mal/e__vblex"/></e>
+<e lm="glane"><i>glan</i><par n="mal/e__vblex"/></e>
+<e lm="glinse"><i>glans</i><par n="mal/e__vblex"/></e>
+<e lm="glacere"><i>glacer</i><par n="mal/e__vblex"/></e>
+<e lm="glatbarbere"><i>glatbarber</i><par n="mal/e__vblex"/></e>
+<e lm="glatte"><i>glat</i><par n="byt/te__vblex"/></e>
+<e lm="glatkæmme"><i>glatkæm</i><par n="stem/me__vblex"/></e>
+<e lm="glæde"><i>glæd</i><par n="mal/e__vblex"/></e>
+<e lm="snappe"><i>snap</i><par n="dyp/pe__vblex"/></e>
+<e lm="glemme"><i>glemm</i><par n="stem/me__vblex"/></e>
+<e lm="glippe"><i>glip</i><par n="dyp/pe__vblex"/></e>
+<!--
+<e lm="stå på klem"><i>st<par n="st/å__vblex"/><p><l><b/>på<b/>klem</l><r><g><b/>på<b/>klem</g></r></p></e>
+
+<e lm="åbne på klem"><i>åbn<par n="mal/e__vblex"/><p><l><b/>på<b/>klem</l><r><g><b/>på<b/>klem</g></r></p></e>
+-->
+<e lm="glide"><i>gl</i><par n="l/ide__vblex"/></e>
+<e lm="glimre"><i>glimr</i><par n="mal/e__vblex"/></e>
+<e lm="glimte"><i>glimt</i><par n="mal/e__vblex"/></e>
+<e lm="glinse"><i>glins</i><par n="mal/e__vblex"/></e>
+<e lm="blinke"><i>blink</i><par n="mal/e__vblex"/></e>
+<e lm="glorificere"><i>glorificer</i><par n="mal/e__vblex"/></e>
+<e lm="gløde"><i>glød</i><par n="mal/e__vblex"/></e>
+<e lm="gnave"><i>gnav</i><par n="mal/e__vblex"/></e>
+<e lm="gnidre"><i>gnidr</i><par n="mal/e__vblex"/></e>
+<e lm="knirke"><i>knirk</i><par n="mal/e__vblex"/></e>
+<e lm="gnistre"><i>gnistr</i><par n="mal/e__vblex"/></e>
+<e lm="gnubbe"><i>gnub</i><par n="skub/be__vblex"/></e>
+<e lm="tigge"><i>tig</i><par n="tyg/ge__vblex"/></e>
+<e lm="godtgøre"><i>godtg</i><par n="g/øre__vblex"/></e>
+<e lm="tilskrive"><i>tilskr</i><par n="bl/ive__vblex"/></e>
+<e lm="smigre"><i>smigre</i><par n="mal/e__vblex"/></e>
+<e lm="godtage"><i>godt</i><par n="t/age__vblex"/></e>
+<e lm="godte"><i>godt</i><par n="mal/e__vblex"/></e>
+<e lm="godtgøre"><i>godtg</i><par n="g/øre__vblex"/></e>
+<e lm="gulvlægge"><i>gulvlæ</i><par n="l/ægge__vblex"/></e>
+<e lm="gumle"><i>guml</i><par n="mal/e__vblex"/></e>
+<e lm="gradbøje"><i>gradbøj</i><par n="mal/e__vblex"/></e>
+<e lm="grade"><i>grad</i><par n="mal/e__vblex"/></e>
+<e lm="gradere"><i>grader</i><par n="mal/e__vblex"/></e>
+<e lm="grafere"><i>grafer</i><par n="mal/e__vblex"/></e>
+<e lm="gravfæste"><i>gravfæst</i><par n="mal/e__vblex"/></e>
+<e lm="gravitere"><i>graviter</i><par n="mal/e__vblex"/></e>
+<e lm="begrave"><i>begrav</i><par n="mal/e__vblex"/></e>
+<e lm="gramse"><i>grams</i><par n="mal/e__vblex"/></e>
+<e lm="granulere"><i>granuler</i><par n="mal/e__vblex"/></e>
+<e lm="luge"><i>lug</i><par n="mal/e__vblex"/></e>
+<e lm="rasere"><i>raser</i><par n="mal/e__vblex"/></e>
+<e lm="afgrene"><i>afgren</i><par n="mal/e__vblex"/></e>
+<e lm="greje"><i>grej</i><par n="mal/e__vblex"/></e>
+<e lm="græmme"><i>græm</i><par n="stem/me__vblex"/></e>
+<e lm="grænse"><i>græns</i><par n="mal/e__vblex"/></e>
+<e lm="grillere"><i>griller</i><par n="mal/e__vblex"/></e>
+<e lm="grillstege"><i>grillsteg</i><par n="tal/e__vblex"/></e>
+<e lm="grimassere"><i>grimasser</i><par n="mal/e__vblex"/></e>
+<e lm="grime"><i>grim</i><par n="mal/e__vblex"/></e>
+<e lm="grise"><i>gris</i><par n="mal/e__vblex"/></e>
+<e lm="grisekøre"><i>grisekør</i><par n="tal/e__vblex"/></e>
+<!--<e lm="grisle"><i>grisl</i><par n="mal/e__vblex"/></e>-->
+<e lm="sprede"><i>spred</i><par n="tal/e__vblex"/></e>
+<e lm="gro"><i>gro</i><par n="nå__vblex"/></e>
+<e lm="fordybe"><i>fordyb</i><par n="mal/e__vblex"/></e>
+<e lm="grovhakke"><i>grovhak</i><par n="bræk/ke__vblex"/></e>
+<e lm="grovhugge"><i>grovhugg</i><par n="tyg/ge__vblex"/></e>
+<e lm="grovknuse"><i>grovknus</i><par n="tal/e__vblex"/></e>
+<e lm="grovmale"><i>grovmal</i><par n="mal/e__vblex"/></e>
+<e lm="grovpreparere"><i>grovpreparer</i><par n="mal/e__vblex"/></e>
+<e lm="grovsigte"><i>grovsigt</i><par n="mal/e__vblex"/></e>
+<e lm="grue"><i>gru</i><par n="mal/e__vblex"/></e>
+<e lm="grumse"><i>grums</i><par n="mal/e__vblex"/></e>
+<e lm="grunde"><i>grund</i><par n="mal/e__vblex"/></e>
+<e lm="grundfæste"><i>grundfæst</i><par n="mal/e__vblex"/></e>
+<e lm="grundgive"><i>grundg</i><par n="g/ive__vblex"/></e>
+<e lm="grundlægge"><i>grundl</i><par n="l/ægge__vblex"/></e>
+<e lm="grundstøde"><i>grundstød</i><par n="tal/e__vblex"/></e>
+<e lm="grundsætte"><i>grunds</i><par n="s/ætte__vblex"/></e>
+<e lm="gruse"><i>grus</i><par n="mal/e__vblex"/></e>
+<e lm="gruslægge"><i>grusl</i><par n="l/ægge__vblex"/></e>
+<e lm="gry"><i>gry</i><par n="nå__vblex"/></e>
+<e lm="gryne"><i>gryn</i><par n="mal/e__vblex"/></e>
+<e lm="rage"><i>rag</i><par n="mal/e__vblex"/></e>
+<e lm="gråmale"><i>gråmal</i><par n="mal/e__vblex"/></e>
+<e lm="grøde"><i>grød</i><par n="mal/e__vblex"/></e>
+<e lm="grøfte"><i>grøft</i><par n="mal/e__vblex"/></e>
+<e lm="grønne"><i>grøn</i><par n="dan/ne__vblex"/></e>
+<e lm="grønmale"><i>grønmal</i><par n="mal/e__vblex"/></e>
+<e lm="bjæffe"><i>bjæf</i><par n="skaf/fe__vblex"/></e>
+<e lm="terpe"><i>terp</i><par n="mal/e__vblex"/></e>
+<e lm="guide"><i>guid</i><par n="mal/e__vblex"/></e>
+<e lm="småblæse"><i>småblæs</i><par n="tal/e__vblex"/></e>
+<e lm="gulmale"><i>gulmal</i><par n="mal/e__vblex"/></e>
+<e lm="gulne"><i>guln</i><par n="mal/e__vblex"/></e>
+<e lm="gylpe"><i>gylp</i><par n="mal/e__vblex"/></e>
+<e lm="gulvlægge"><i>gulvlægg</i><par n="l/ægge__vblex"/></e>
+<e lm="gummiere"><i>gummier</i><par n="mal/e__vblex"/></e>
+<e lm="gurgle"><i>gurgl</i><par n="mal/e__vblex"/></e>
+<e lm="bøvse"><i>bøvs</i><par n="mal/e__vblex"/></e>
+<e lm="værdsætte"><i>værds</i><par n="s/ætte__vblex"/></e>
+<e lm="gyde"><i>gyd</i><par n="mal/e__vblex"/></e>
+<e lm="guldfarve"><i>guldfarv</i><par n="mal/e__vblex"/></e>
+<e lm="gymnasticere"><i>gymnasticer</i><par n="mal/e__vblex"/></e>
+<!--<e lm="gysje"><i>gysj</i><par n="mal/e__vblex"/></e>-->
+<e lm="fyge"><i>fyg</i><par n="mal/e__vblex"/></e>
+<e lm="stribe"><i>strib</i><par n="mal/e__vblex"/></e>
+<e lm="gøgle"><i>gøgl</i><par n="mal/e__vblex"/></e>
+<e lm="habilitere"><i>habiliter</i><par n="mal/e__vblex"/></e>
+<e lm="havarere"><i>havarer</i><par n="mal/e__vblex"/></e>
+<e lm="havne"><i>havn</i><par n="mal/e__vblex"/></e>
+<e lm="hagle"><i>hagl</i><par n="mal/e__vblex"/></e>
+<e lm="hike"><i>hik</i><par n="mal/e__vblex"/></e>
+<e lm="hage"><i>hag</i><par n="mal/e__vblex"/></e>
+<e lm="hale"><i>hal</i><par n="mal/e__vblex"/></e>
+<e lm="skråne"><i>skrån</i><par n="mal/e__vblex"/></e>
+<e lm="hallucinere"><i>halluciner</i><par n="mal/e__vblex"/></e>
+<e lm="halse"><i>hals</i><par n="mal/e__vblex"/></e>
+<e lm="halshugge"><i>halshug</i><par n="tyg/ge__vblex"/></e>
+
 <!-- /end of NOB transformed verbs
 
 dyppe kysse skubbe skaffe stemme lægge brække bytte tørre danne rulle
-
+tygge
 
  -->
 
@@ -10625,7 +10772,6 @@ dyppe kysse skubbe skaffe stemme lægge brække bytte tørre danne rulle
 <e lm="gumle">           <i>guml</i><par n="mal/e__vblex"/></e>
 <e lm="gynge">           <i>gyng</i><par n="mal/e__vblex"/></e>
 <e lm="gære">            <i>gær</i><par n="mal/e__vblex"/></e>
-<e lm="gætte">           <i>gæt</i><par n="støt/te__vblex"/></e>
 <e lm="gætte">           <i>gæt</i><par n="byt/te__vblex"/></e>
 <e lm="gø">              <i>gø</i><par n="nå__vblex"/></e>
 <e lm="gøde">            <i>gød</i><par n="mal/e__vblex"/></e>
