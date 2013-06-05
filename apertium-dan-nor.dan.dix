@@ -8937,7 +8937,7 @@
 <e lm="elevere"><i>elever</i><par n="mal/e__vblex"/></e>
 <e lm="udvælge"><i>udv</i><par n="v/ælge__vblex"/></e>
 <e lm="eloxere"><i>eloxer</i><par n="mal/e__vblex"/></e>
-<e lm="ælte"><i>elt</i><par n="mal/e__vblex"/></e>
+<e lm="ælte"><i>ælt</i><par n="mal/e__vblex"/></e>
 <e lm="undvige"><i>undv</i><par n="v/ige__vblex"/></e>
 <e lm="elektere"><i>elekter</i><par n="mal/e__vblex"/></e>
 <e lm="emaljere"><i>emaljer</i><par n="mal/e__vblex"/></e>
@@ -9515,7 +9515,7 @@
 <e lm="gro"><i>gro</i><par n="nå__vblex"/></e>
 <e lm="fordybe"><i>fordyb</i><par n="mal/e__vblex"/></e>
 <e lm="grovhakke"><i>grovhak</i><par n="bræk/ke__vblex"/></e>
-<e lm="grovhugge"><i>grovhugg</i><par n="tyg/ge__vblex"/></e>
+<e lm="grovhugge"><i>grovhug</i><par n="tyg/ge__vblex"/></e>
 <e lm="grovknuse"><i>grovknus</i><par n="tal/e__vblex"/></e>
 <e lm="grovmale"><i>grovmal</i><par n="mal/e__vblex"/></e>
 <e lm="grovpreparere"><i>grovpreparer</i><par n="mal/e__vblex"/></e>
@@ -9895,7 +9895,55 @@
 <e lm="journalisere"><i>journaliser</i><par n="mal/e__vblex"/></e>
 <e lm="jubilere"><i>jubiler</i><par n="mal/e__vblex"/></e>
 
-
+<e lm="stadse"><i>stads</i><par n="mal/e__vblex"/></e>
+<e lm="juryere"><i>juryer</i><par n="mal/e__vblex"/></e>
+<!--<e lm="jåle"><i>jål</i><par n="mal/e__vblex"/></e> skabe sig-->
+<e lm="kappe">         <i>kap</i><par n="dyp/pe__vblex"/></e>
+<e lm="kadmiere"><i>kadmier</i><par n="mal/e__vblex"/></e>
+<e lm="kadmiumpleftere"><i>kadmiumplefter</i><par n="mal/e__vblex"/></e>
+<!--<e lm="kadreje"><i>kadrej</i><par n="mei/e__vblex"/></e>-->
+<e lm="bakse"><i>baks</i><par n="mal/e__vblex"/></e>
+<!--<e lm="kafle"><i>kafl</i><par n="mal/e__vblex"/></e>-->
+<!--<e lm="kake"><i>kak</i><par n="mal/e__vblex"/></e>-->
+<e lm="kagle"><i>kagl</i><par n="mal/e__vblex"/></e>
+<e lm="kakuminalisere"><i>kakuminaliser</i><par n="mal/e__vblex"/></e>
+<e lm="udvalse"><i>udvals</i><par n="mal/e__vblex"/></e>
+<e lm="koldrøge"><i>koldrøg</i><par n="mal/e__vblex"/></e>
+<e lm="koldsmede"><i>koldsmed</i><par n="tal/e__vblex"/></e>
+<e lm="kalfatre"><i>kalfatr</i><par n="mal/e__vblex"/></e>
+<e lm="kalibrere"><i>kalibrer</i><par n="mal/e__vblex"/></e>
+<e lm="kalligrafere"><i>kalligrafer</i><par n="mal/e__vblex"/></e>
+<e lm="calcinere"><i>calciner</i><par n="mal/e__vblex"/></e>
+<e lm="kælve"><i>kælv</i><par n="mal/e__vblex"/></e>
+<e lm="campere"><i>camper</i><par n="mal/e__vblex"/></e>
+<e lm="kandisere"><i>kandiser</i><par n="mal/e__vblex"/></e>
+<e lm="kannelere"><i>kanneler</i><par n="mal/e__vblex"/></e>
+<e lm="kante"><i>kant</i><par n="mal/e__vblex"/></e>
+<e lm="kantfræse"><i>kantfræs</i><par n="mal/e__vblex"/></e>
+<e lm="kapacitetsmåle"><i>kapacitetsmål</i><par n="mal/e__vblex"/></e>
+<e lm="kapitalisere"><i>kapitaliser</i><par n="mal/e__vblex"/></e>
+<e lm="kapdrikke"><i>kapdr</i><par n="dr/ikke__vblex"/></e>
+<e lm="kappe"><i>kap</i><par n="dyp/pe__vblex"/></e>
+<e lm="kapkøre"><i>kappkør</i><par n="mal/e__vblex"/></e>
+<e lm="kapsvømme"><i>kapsvøm</i><par n="stem/me__vblex"/></e>
+<e lm="kæntre"><i>kæntr</i><par n="mal/e__vblex"/></e>
+<e lm="kapsle"><i>kapsl</i><par n="mal/e__vblex"/></e>
+<e lm="karbonisere"><i>karboniser</i><par n="mal/e__vblex"/></e>
+<e lm="karte"><i>kart</i><par n="mal/e__vblex"/></e>
+<e lm="skrabe"><i>skrab</i><par n="mal/e__vblex"/></e>
+<e lm="kanøfle"><i>kanøfl</i><par n="mal/e__vblex"/></e>
+<!--<e lm="karte"><i>kart</i><par n="mal/e__vblex"/></e>-->
+<e lm="kartellisere"><i>kartelliser</i><par n="mal/e__vblex"/></e>
+<e lm="kortlægge"><i>kartl</i><par n="l/ægge__vblex"/></e>
+<e lm="kartonere"><i>kartoner</i><par n="mal/e__vblex"/></e>
+<e lm="kartotekføre"><i>kartotekfør</i><par n="tal/e__vblex"/></e>
+<e lm="ase"><i>as</i><par n="tal/e__vblex"/></e>
+<e lm="katalogisere"><i>katalogiser</i><par n="mal/e__vblex"/></e>
+<e lm="katalysere"><i>katalyser</i><par n="mal/e__vblex"/></e>
+<e lm="katekisere"><i>katekiser</i><par n="mal/e__vblex"/></e>
+<e lm="katolisere"><i>katoliser</i><par n="mal/e__vblex"/></e>
+<e lm="kautionere"><i>kautioner</i><par n="mal/e__vblex"/></e>
+<e lm="kæderyge"><i>kæder</i><par n="r/yge__vblex"/></e>
 
 <!-- /end of NOB transformed verbs
 
