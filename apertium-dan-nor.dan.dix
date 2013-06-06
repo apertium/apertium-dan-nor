@@ -9265,7 +9265,7 @@
 <e lm="fortinne"><i>fortin</i><par n="dan/ne__vblex"/></e>
 <e lm="vinde"><i>v</i><par n="f/inde__vblex"/></e>
 <e lm="fortørve"><i>fortørv</i><par n="mal/e__vblex"/></e>
-<e lm="fortrenge"><i>fortræng</i><par n="tal/e__vblex"/></e>
+<e lm="fortrænge"><i>fortræng</i><par n="tal/e__vblex"/></e>
 <e lm="fortrylle"><i>fortryl</i><par n="rul/le__vblex"/></e>
 <e lm="fortryde"><i>fortr</i><par n="br/yde__vblex"/></e>
 <e lm="fortvivle"><i>fortvivl</i><par n="mal/e__vblex"/></e>
@@ -10007,6 +10007,45 @@
 <e lm="kløve"><i>kløjv</i><par n="mal/e__vblex"/></e>
 <e lm="stjæle"><i>stj</i><par n="stj/æle__vblex"/></e>
 <e lm="knurre"><i>knur</i><par n="tør/re__vblex"/></e>
+
+
+
+<e lm="klukle"><i>klukl</i><par n="l/e__vblex"/></e>
+<e lm="klumpe"><i>klump</i><par n="mal/e__vblex"/></e>
+<e lm="rable"><i>rabl</i><par n="mal/e__vblex"/></e>
+<e lm="kløfte"><i>kløft</i><par n="mal/e__vblex"/></e>
+<e lm="kløve"><i>kløjv</i><par n="mal/e__vblex"/></e>
+<e lm="stjæle"><i>stj</i><par n="stj/æle__vblex"/></e>
+<e lm="knurre"><i>knur</i><par n="tør/re__vblex"/></e>
+<e lm="knase"><i>knas</i><par n="tal/e__vblex"/></e>
+<e lm="knitre"><i>knitr</i><par n="mal/e__vblex"/></e>
+<e lm="knejse"><i>knejs</i><par n="mal/e__vblex"/></e>
+<e lm="smælde"><i>smæld</i><par n="mal/e__vblex"/></e>
+<e lm="neje"><i>nej</i><par n="mal/e__vblex"/></e>
+<e lm="knipse"><i>knips</i><par n="mal/e__vblex"/></e>
+<e lm="knistre"><i>knistr</i><par n="mal/e__vblex"/></e>
+<e lm="knitre"><i>knitr</i><par n="mal/e__vblex"/></e>
+<e lm="knivstikke"><i>knivst</i><par n="dr/ikke__vblex"/></e>
+<e lm="slide"><i>sl</i><par n="l/ide__vblex"/></e>
+<e lm="knoppe"><i>knop</i><par n="dyp/pe__vblex"/></e>
+<e lm="puffe"><i>puf</i><par n="skaf/fe__vblex"/></e>
+<e lm="kneppe"><i>knep</i><par n="dyp/pe__vblex"/></e>
+<e lm="knuselske"><i>knuselsk</i><par n="mal/e__vblex"/></e>
+<e lm="kny"><i>kny</i><par n="nå__vblex"/></e>
+<e lm="knægte"><i>knægt</i><par n="mal/e__vblex"/></e>
+<e lm="kodificere"><i>kodificer</i><par n="mal/e__vblex"/></e>
+<e lm="kokkerere"><i>kokkerer</i><par n="mal/e__vblex"/></e>
+<e lm="kulle"><i>kul</i><par n="rul/le__vblex"/></e>
+<e lm="kollaborere"><i>kollaborer</i><par n="mal/e__vblex"/></e>
+<e lm="kollationere"><i>kollationer</i><par n="mal/e__vblex"/></e>
+<e lm="kollektivisere"><i>kollektiviser</i><par n="mal/e__vblex"/></e>
+<e lm="kollokviere"><i>kollokvier</i><par n="mal/e__vblex"/></e>
+<e lm="kuldsejle"><i>kuldsejl</i><par n="mal/e__vblex"/></e>
+<e lm="kolonialisere"><i>kolonialiser</i><par n="mal/e__vblex"/></e>
+<e lm="kolorere"><i>kolorer</i><par n="mal/e__vblex"/></e>
+<e lm="kommunalisere"><i>kommunaliser</i><par n="mal/e__vblex"/></e>
+<e lm="kommutere"><i>kommuter</i><par n="mal/e__vblex"/></e>
+
 
 <!-- /end of NOB transformed verbs
 
