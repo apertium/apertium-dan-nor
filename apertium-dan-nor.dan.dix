@@ -2624,6 +2624,19 @@
 </pardef>
 
 
+<pardef n="stj/æle__vblex">
+  <e>       <p><l>æle</l>       <r>æle<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>æle</l>      <r>æle<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>æler</l>     <r>æle<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>æles</l>     <r>æle<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>al</l>      <r>æle<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+
+  <e>       <p><l>ålet</l>      <r>æle<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ælende</l>   <r>æle<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
+
+
 <pardef n="g/ælde__vblex">
   <e>       <p><l>æld</l>       <r>ælde<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ælde</l>      <r>ælde<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -9987,6 +10000,13 @@
 <e lm="klorere"><i>klorer</i><par n="mal/e__vblex"/></e>
 <e lm="kloroformere"><i>kloroformer</i><par n="mal/e__vblex"/></e>
 
+<e lm="klukle"><i>klukl</i><par n="l/e__vblex"/></e>
+<e lm="klumpe"><i>klump</i><par n="mal/e__vblex"/></e>
+<e lm="rable"><i>rabl</i><par n="mal/e__vblex"/></e>
+<e lm="kløfte"><i>kløft</i><par n="mal/e__vblex"/></e>
+<e lm="kløve"><i>kløjv</i><par n="mal/e__vblex"/></e>
+<e lm="stjæle"><i>stj</i><par n="stj/æle__vblex"/></e>
+<e lm="knurre"><i>knur</i><par n="tør/re__vblex"/></e>
 
 <!-- /end of NOB transformed verbs
 
