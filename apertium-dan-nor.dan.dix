@@ -10134,6 +10134,53 @@
 <e lm="livsforsikre"><i>livsforsikr</i><par n="mal/e__vblex"/></e>
 <e lm="dødskræmme"><i>dødskræm</i><par n="stem/me__vblex"/></e>
 
+
+<e lm="lobbe"><i>lob</i><par n="skub/be__vblex"/></e>
+<e lm="lobotomere"><i>lobotomer</i><par n="mal/e__vblex"/></e>
+<e lm="fælde"><i>fæld</i><par n="mal/e__vblex"/></e>
+<e lm="logføre"><i>logfør</i><par n="mal/e__vblex"/></e>
+<e lm="logre"><i>logr</i><par n="mal/e__vblex"/></e>
+<e lm="lokalbedøve"><i>lokalbedøv</i><par n="mal/e__vblex"/></e>
+<e lm="lombardere"><i>lombarder</i><par n="mal/e__vblex"/></e>
+<e lm="longere"><i>longer</i><par n="mal/e__vblex"/></e>
+<e lm="loope"><i>loop</i><par n="mal/e__vblex"/></e>
+<e lm="loppe"><i>lop</i><par n="mal/e__vblex"/></e>
+<e lm="lorgnettere"><i>lorgnetter</i><par n="mal/e__vblex"/></e>
+<e lm="lose"><i>los</i><par n="mal/e__vblex"/></e>
+<e lm="logere"><i>loger</i><par n="mal/e__vblex"/></e>
+<e lm="losse"><i>loss</i><par n="mal/e__vblex"/></e>
+<e lm="lottere"><i>lotter</i><par n="mal/e__vblex"/></e>
+<e lm="lovbestemme"><i>lovbestem</i><par n="stem/me__vblex"/></e>
+<e lm="lovfæste"><i>lovfæst</i><par n="mal/e__vblex"/></e>
+<e lm="lovregulere"><i>lovreguler</i><par n="mal/e__vblex"/></e>
+<e lm="lovsynge"><i>lovs/</i><par n="s/ynge__vblex"/></e>
+<e lm="lufttørke"><i>lufttørr</i><par n="rul/le__vblex"/></e>
+<e lm="lukrere"><i>lukrer</i><par n="mal/e__vblex"/></e>
+<e lm="lulle"><i>lull</i><par n="rul/le__vblex"/></e>
+<e lm="lurve"><i>lurv</i><par n="mal/e__vblex"/></e>
+<e lm="luse"><i>lus</i><par n="mal/e__vblex"/></e>
+<e lm="afluse"><i>aflus</i><par n="mal/e__vblex"/></e>
+<e lm="lude"><i>lud</i><par n="mal/e__vblex"/></e>
+<e lm="lydisolere"><i>lydisoler</i><par n="mal/e__vblex"/></e>
+<e lm="lyssætte"><i>lys</i><par n="s/ætte__vblex"/></e>
+<e lm="lyste"><i>lyst</i><par n="mal/e__vblex"/></e>
+<e lm="lystre"><i>lystr</i><par n="mal/e__vblex"/></e>
+<e lm="lånefinansiere"><i>lånefinansier</i><par n="mal/e__vblex"/></e>
+<e lm="låntage"><i>lånt</i><par n="t/age__vblex"/></e>
+<e lm="låse"><i>lås</i><par n="mal/e__vblex"/></e>
+<e lm="løje"><i>løj</i><par n="mal/e__vblex"/></e>
+<e lm="løsne"><i>løsn</i><par n="mal/e__vblex"/></e>
+<e lm="løskøbe"><i>løskøb</i><par n="mal/e__vblex"/></e>
+<e lm="løsne"><i>løsn</i><par n="mal/e__vblex"/></e>
+<e lm="løsrive"><i>løsr</i><par n="bl/ive__vblex"/></e>
+<e lm="magasinere"><i>magasiner</i><par n="mal/e__vblex"/></e>
+<e lm="magnetisere"><i>magnetiser</i><par n="mal/e__vblex"/></e>
+<e lm="magre"><i>magr</i><par n="mal/e__vblex"/></e>
+<e lm="magte"><i>magt</i><par n="mal/e__vblex"/></e>
+<e lm="maje"><i>maj</i><par n="mal/e__vblex"/></e>
+<e lm="makadamisere"><i>makadamiser</i><par n="mal/e__vblex"/></e>
+
+
 <!-- /end of NOB transformed verbs
 
 dyppe kysse skubbe skaffe stemme lægge brække bytte tørre danne rulle
@@ -11001,7 +11048,6 @@ tygge
 <e lm="flikke">          <i>flik</i><par n="bræk/ke__vblex"/></e>
 <e lm="flippe">          <i>flip</i><par n="dyp/pe__vblex"/></e>
 <e lm="flygte">          <i>flygt</i><par n="mal/e__vblex"/></e>
-<e lm="flytte">          <i>flyt</i><par n="støt/te__vblex"/></e>
 <e lm="flytte">          <i>flyt</i><par n="byt/te__vblex"/></e>
 <e lm="flække">          <i>flæk</i><par n="bræk/ke__vblex"/></e>
 <e lm="flænge">          <i>flæng</i><par n="mal/e__vblex"/></e>
@@ -11799,7 +11845,6 @@ tygge
 <e lm="lyne">            <i>lyn</i><par n="mal/e__vblex"/></e>
 <e lm="lynche">          <i>lynch</i><par n="mal/e__vblex"/></e>
 <e lm="lysne">           <i>lysn</i><par n="mal/e__vblex"/></e>
-<e lm="lytte">           <i>lyt</i><par n="støt/te__vblex"/></e>
 <e lm="lytte">           <i>lyt</i><par n="byt/te__vblex"/></e>
 <e lm="lække">           <i>læk</i><par n="bræk/ke__vblex"/></e>
 <e lm="læne">            <i>læn</i><par n="mal/e__vblex"/></e>
@@ -11811,7 +11856,7 @@ tygge
 <e lm="løfte">           <i>løft</i><par n="mal/e__vblex"/></e>
 <e lm="lønne">           <i>løn</i><par n="dan/ne__vblex"/></e>
 <e lm="løse">            <i>løs</i><par n="tal/e__vblex"/></e>
-<e lm="løslade">         <i>løslad</i><par n="tal/e__vblex"/></e>
+<e lm="løslade">         <i>løsl</i><par n="l/ade__vblex"/></e>
 <e lm="magte">           <i>magt</i><par n="mal/e__vblex"/></e>
 <e lm="male">            <i>mal</i><par n="mal/e__vblex"/></e>
 <e lm="orke">            <i>ork</i><par n="mal/e__vblex"/></e>
@@ -12363,7 +12408,6 @@ tygge
 <e lm="slinge">          <i>sling</i><par n="mal/e__vblex"/></e>
 <e lm="sluge">           <i>slug</i><par n="tal/e__vblex"/></e>
 <e lm="slukke">          <i>sluk</i><par n="bræk/ke__vblex"/></e>
-<e lm="slutte">          <i>slut</i><par n="støt/te__vblex"/></e>
 <e lm="slutte">          <i>slut</i><par n="byt/te__vblex"/></e>
 <e lm="slynge">          <i>slyng</i><par n="mal/e__vblex"/></e>
 <e lm="slæbe">           <i>slæb</i><par n="tal/e__vblex"/></e>
