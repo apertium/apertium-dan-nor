@@ -2636,6 +2636,17 @@
 </pardef>
 
 
+<pardef n="r/ække__vblex">
+  <e>       <p><l>æk</l>        <r>ække<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ække</l>      <r>ække<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>ækker</l>     <r>ække<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ækkes</l>     <r>ække<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>akte</l>        <r>ække<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>rakt</l>     <r>ække<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ækkende</l>   <r>ække<s n="vblex"/><s n="pprs"/></r></p></e>
+</pardef>
+
+
 <pardef n="f/ælde__vblex">
   <e>       <p><l>æld</l>       <r>ælde<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ælde</l>      <r>ælde<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -10323,6 +10334,142 @@
 <e lm="obducere"><i>obducer</i><par n="mal/e__vblex"/></e>
 <e lm="objektivere"><i>objektiver</i><par n="mal/e__vblex"/></e>
 
+<e lm="odle"><i>odl</i><par n="mal/e__vblex"/></e>
+<e lm="okkultere"><i>okkulter</i><par n="mal/e__vblex"/></e>
+<e lm="okulere"><i>okuler</i><par n="mal/e__vblex"/></e>
+<e lm="oliere"><i>olier</i><par n="mal/e__vblex"/></e>
+<e lm="omadressere"><i>omadresser</i><par n="mal/e__vblex"/></e>
+<e lm="omarbejde"><i>omarbejd</i><par n="mal/e__vblex"/></e>
+<e lm="omarrangere"><i>omarranger</i><par n="mal/e__vblex"/></e>
+<e lm="ombestemme"><i>ombestemm</i><par n="stem/me__vblex"/></e>
+<e lm="omdisponere"><i>omdisponer</i><par n="mal/e__vblex"/></e>
+<e lm="omdøbe"><i>omdøb</i><par n="tal/e__vblex"/></e>
+<e lm="omfavne"><i>omfavn</i><par n="mal/e__vblex"/></e>
+<e lm="omfordele"><i>omfordel</i><par n="mal/e__vblex"/></e>
+<e lm="omformatere"><i>omformater</i><par n="mal/e__vblex"/></e>
+<e lm="omgive"><i>omg</i><par n="g/ive__vblex"/></e>
+<e lm="omgruppere"><i>omgrupper</i><par n="mal/e__vblex"/></e>
+<e lm="omgå"><i>omg</i><par n="f/å__vblex"/></e>
+<e lm="omjustere"><i>omjuster</i><par n="mal/e__vblex"/></e>
+<e lm="omlægge"><i>omlægg</i><par n="l/ægge__vblex"/></e>
+<e lm="ommøblere"><i>ommøbler</i><par n="mal/e__vblex"/></e>
+<e lm="omplanere"><i>omplaner</i><par n="mal/e__vblex"/></e>
+<e lm="omplacere"><i>omplacer</i><par n="mal/e__vblex"/></e>
+<e lm="omprioritere"><i>omprioriter</i><par n="mal/e__vblex"/></e>
+<e lm="omprogrammere"><i>omprogrammer</i><par n="mal/e__vblex"/></e>
+<e lm="omredigere"><i>omrediger</i><par n="mal/e__vblex"/></e>
+<e lm="omregistrere"><i>omregistrer</i><par n="mal/e__vblex"/></e>
+<e lm="omregulere"><i>omreguler</i><par n="mal/e__vblex"/></e>
+<e lm="omsende"><i>omsend</i><par n="tal/e__vblex"/></e>
+<e lm="omskabe"><i>omskab</i><par n="tal/e__vblex"/></e>
+<e lm="omskole"><i>omskol</i><par n="mal/e__vblex"/></e>
+<e lm="omstøbe"><i>omstøb</i><par n="tal/e__vblex"/></e>
+<e lm="omstøde"><i>omstød</i><par n="tal/e__vblex"/></e>
+<e lm="omsætte"><i>oms</i><par n="s/ætte__vblex"/></e>
+<e lm="omtaksere"><i>omtakser</i><par n="mal/e__vblex"/></e>
+<e lm="omvurdere"><i>omvurder</i><par n="mal/e__vblex"/></e>
+<e lm="restaurere"><i>restaurere</i><par n="mal/e__vblex"/></e>
+<e lm="ondulere"><i>onduler</i><par n="mal/e__vblex"/></e>
+<e lm="sæsonarbejde"><i>sæsonarbejd</i><par n="mal/e__vblex"/></e>
+<e lm="opalescere"><i>opalescer</i><par n="mal/e__vblex"/></e>
+<e lm="opalisere"><i>opaliser</i><par n="mal/e__vblex"/></e>
+<e lm="operationalisere"><i>operationaliser</i><par n="mal/e__vblex"/></e>
+<e lm="op-prioritere"><i>op-prioriter</i><par n="mal/e__vblex"/></e>
+<e lm="oparbejde"><i>oparbejd</i><par n="mal/e__vblex"/></e>
+<e lm="opbevare"><i>opbevar</i><par n="mal/e__vblex"/></e>
+<e lm="opdele"><i>opdel</i><par n="tal/e__vblex"/></e>
+<e lm="opdrage"><i>opdrag</i><par n="t/age__vblex"/></e>
+<e lm="opdrive"><i>opdr</i><par n="bl/ive__vblex"/></e>
+<e lm="opfordre"><i>opfordr</i><par n="mal/e__vblex"/></e>
+<e lm="opfylde"><i>opfyld</i><par n="tal/e__vblex"/></e>
+<e lm="opføre"><i>opfør</i><par n="tal/e__vblex"/></e>
+<e lm="opholde"><i>ophold</i><par n="hold/e__vblex"/></e>
+<e lm="opjustere"><i>opjuster</i><par n="mal/e__vblex"/></e>
+<e lm="opklare"><i>opklar</i><par n="mal/e__vblex"/></e>
+<e lm="opkonstruere"><i>opkonstruer</i><par n="mal/e__vblex"/></e>
+<e lm="opkvikke"><i>opkvik</i><par n="bræk/ke__vblex"/></e>
+<e lm="opkøbe"><i>opkøb</i><par n="tal/e__vblex"/></e>
+<e lm="opkøre"><i>opkør</i><par n="tal/e__vblex"/></e>
+<e lm="oplæse"><i>oplæs</i><par n="tal/e__vblex"/></e>
+<e lm="oplære"><i>oplær</i><par n="tal/e__vblex"/></e>
+<e lm="opløse"><i>opløs</i><par n="tal/e__vblex"/></e>
+<e lm="opmagasinere"><i>opmagasiner</i><par n="mal/e__vblex"/></e>
+<e lm="opmuntre"><i>opmuntr</i><par n="mal/e__vblex"/></e>
+<e lm="udnævne"><i>udnævn</i><par n="tal/e__vblex"/></e>
+<e lm="oprejse"><i>oprejs</i><par n="tal/e__vblex"/></e>
+<e lm="opreklamere"><i>opreklamer</i><par n="mal/e__vblex"/></e>
+<e lm="oprette"><i>opret</i><par n="byt/te__vblex"/></e>
+<e lm="oprøre"><i>oprør</i><par n="mal/e__vblex"/></e>
+<e lm="opsluge"><i>opslug</i><par n="tal/e__vblex"/></e>
+<e lm="opspore"><i>opspor</i><par n="mal/e__vblex"/></e>
+<e lm="opsummere"><i>opsummer</i><par n="mal/e__vblex"/></e>
+<e lm="opsætte"><i>opsætt</i><par n="s/ætte__vblex"/></e>
+<e lm="optjene"><i>optjen</i><par n="mal/e__vblex"/></e>
+<e lm="optræde"><i>optr</i><par n="tr/æde__vblex"/></e>
+<e lm="opvarte"><i>opvart</i><par n="mal/e__vblex"/></e>
+<e lm="ophidse"><i>ophids</i><par n="mal/e__vblex"/></e>
+<e lm="opvise"><i>opvis</i><par n="tal/e__vblex"/></e>
+<e lm="opvokse"><i>opvoks</i><par n="mal/e__vblex"/></e>
+<e lm="opvurdere"><i>opvurder</i><par n="mal/e__vblex"/></e>
+<e lm="optere"><i>opter</i><par n="mal/e__vblex"/></e>
+<e lm="ordbogsføre"><i>ordbogsfør</i><par n="tal/e__vblex"/></e>
+<e lm="orkestrere"><i>orkestrer</i><par n="mal/e__vblex"/></e>
+<e lm="orme"><i>orm</i><par n="mal/e__vblex"/></e>
+<e lm="ornamentere"><i>ornamenter</i><par n="mal/e__vblex"/></e>
+<e lm="oscillere"><i>osciller</i><par n="mal/e__vblex"/></e>
+<e lm="ose"><i>os</i><par n="tal/e__vblex"/></e>
+<e lm="oste"><i>ost</i><par n="mal/e__vblex"/></e>
+<e lm="outrere"><i>outrer</i><par n="mal/e__vblex"/></e>
+<e lm="overanstrenge"><i>overanstreng</i><par n="tal/e__vblex"/></e>
+<e lm="overbrodere"><i>overbroder</i><par n="mal/e__vblex"/></e>
+<e lm="overdimensionere"><i>overdimensioner</i><par n="mal/e__vblex"/></e>
+<e lm="overdrage"><i>overdrag</i><par n="mal/e__vblex"/></e>
+<e lm="overdramatisere"><i>overdramatiser</i><par n="mal/e__vblex"/></e>
+<e lm="overdrive"><i>overdriv</i><par n="bl/ive__vblex"/></e>
+<e lm="overeksponere"><i>overeksponer</i><par n="mal/e__vblex"/></e>
+<e lm="overensstemme"><i>overensstem</i><par n="stem/me__vblex"/></e>
+<e lm="overfalde"><i>overfald</i><par n="fald/e__vblex"/></e>
+<e lm="overstrømme"><i>overstrøm</i><par n="stem/me__vblex"/></e>
+<e lm="overfokusere"><i>overfokuser</i><par n="mal/e__vblex"/></e>
+<e lm="overfuse"><i>overfus</i><par n="mal/e__vblex"/></e>
+<e lm="overgive"><i>overg</i><par n="g/ive__vblex"/></e>
+<e lm="overgå"><i>overg</i><par n="f/å__vblex"/></e>
+<e lm="overhænge"><i>overh</i><par n="h/ænge__vblex"/></e>
+<e lm="overholde"><i>overhold</i><par n="hold/e__vblex"/></e>
+<e lm="overinvestere"><i>overinvester</i><par n="mal/e__vblex"/></e>
+<e lm="overkomme"><i>overkomm</i><par n="kom/me__vblex"/></e>
+<e lm="overkompensere"><i>overkompenser</i><par n="mal/e__vblex"/></e>
+<e lm="overkøre"><i>overkør</i><par n="mal/e__vblex"/></e>
+<e lm="overlaste"><i>overlast</i><par n="mal/e__vblex"/></e>
+<e lm="overlade"><i>overd</i><par n="l/ade__vblex"/></e>
+<e lm="overliste"><i>overlist</i><par n="mal/e__vblex"/></e>
+<e lm="overlægge"><i>overl</i><par n="l/ægge__vblex"/></e>
+<e lm="overlæsse"><i>overl</i><par n="kys/se__vblex"/></e>
+<e lm="overmale"><i>overmal</i><par n="mal/e__vblex"/></e>
+<e lm="overmande"><i>overmand</i><par n="mal/e__vblex"/></e>
+<e lm="overmøblere"><i>overmøbler</i><par n="mal/e__vblex"/></e>
+<e lm="overnatte"><i>overnat</i><par n="byt/te__vblex"/></e>
+<e lm="overophede"><i>overophed</i><par n="tal/e__vblex"/></e>
+<e lm="overproducere"><i>overproducer</i><par n="mal/e__vblex"/></e>
+<e lm="overprøve"><i>overprøv</i><par n="mal/e__vblex"/></e>
+<e lm="overrække"><i>overr</i><par n="r/ække__vblex"/></e>
+<e lm="overse"><i>overs</i><par n="s/e__vblex"/></e>
+<e lm="oversende"><i>oversend</i><par n="mal/e__vblex"/></e>
+<e lm="overskride"><i>overskr</i><par n="r/ide__vblex"/></e>
+<e lm="overstemme"><i>overstem</i><par n="stem/me__vblex"/></e>
+<e lm="overstige"><i>overstig</i><par n="st/ige__vblex"/></e>
+<e lm="overstyre"><i>overstyr</i><par n="mal/e__vblex"/></e>
+<e lm="oversubsidiere"><i>oversubsidier</i><par n="mal/e__vblex"/></e>
+<e lm="overtage"><i>overt</i><par n="t/age__vblex"/></e>
+<e lm="overtaksere"><i>overtakser</i><par n="mal/e__vblex"/></e>
+<e lm="overtræde"><i>overtr</i><par n="tr/æde__vblex"/></e>
+<e lm="overtrække"><i>overtr</i><par n="tr/ække__vblex"/></e>
+<e lm="overtyde"><i>overtyd</i><par n="mal/e__vblex"/></e>
+<e lm="overveje"><i>overvej</i><par n="mal/e__vblex"/></e>
+<e lm="overvinde"><i>overv</i><par n="f/inde__vblex"/></e>
+<e lm="overvintre"><i>overvintr</i><par n="mal/e__vblex"/></e>
+<e lm="overøse"><i>overøs</i><par n="tal/e__vblex"/></e>
+
 
 <!-- /end of NOB transformed verbs
 
@@ -12163,7 +12310,6 @@ tygge
 <e lm="opdyrke">         <i>opdyrk</i><par n="mal/e__vblex"/></e>
 <e lm="operere">         <i>operer</i><par n="mal/e__vblex"/></e>
 <e lm="opfange">         <i>opfang</i><par n="mal/e__vblex"/></e>
-<e lm="opfatte">         <i>opfat</i><par n="støt/te__vblex"/></e>
 <e lm="opfatte">         <i>opfat</i><par n="byt/te__vblex"/></e>
 <e lm="opflaske">        <i>opflask</i><par n="mal/e__vblex"/></e>
 <e lm="opfordre">        <i>opfordr</i><par n="mal/e__vblex"/></e>
