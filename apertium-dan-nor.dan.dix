@@ -9946,7 +9946,6 @@
 <e lm="pusle"><i>pusl</i><par n="mal/e__vblex"/></e>
 <e lm="pynte"><i>pynte</i><par n="mal/e__vblex"/></e>
 <e lm="rable"><i>rabl</i><par n="mal/e__vblex"/></e>
-<e lm="rable"><i>rabl</i><par n="mal/e__vblex"/></e>
 <e lm="raffinere"><i>raffiner</i><par n="mal/e__vblex"/></e>
 <e lm="rage"><i>rag</i><par n="mal/e__vblex"/></e>
 <e lm="rasere"><i>raser</i><par n="mal/e__vblex"/></e>
@@ -10697,6 +10696,117 @@
 <e lm="påtænke"><i>påtænk</i><par n="tal/e__vblex"/></e>
 <e lm="pønse"><i>pøns</i><par n="mal/e__vblex"/></e>
 <e lm="pøse"><i>pøs</i><par n="mal/e__vblex"/></e>
+
+
+<e lm="rabattere"><i>rabatter</i><par n="mal/e__vblex"/></e>
+<e lm="radere"><i>rader</i><par n="mal/e__vblex"/></e>
+<e lm="stråle"><i>strål</i><par n="mal/e__vblex"/></e>
+<e lm="rave"><i>rav</i><par n="mal/e__vblex"/></e>
+<e lm="raffinere"><i>raffiner</i><par n="mal/e__vblex"/></e>
+<e lm="rafte"><i>raft</i><par n="mal/e__vblex"/></e>
+<e lm="vakle"><i>vakl</i><par n="mal/e__vblex"/></e>
+<e lm="trævle"><i>trævl</i><par n="mal/e__vblex"/></e>
+<e lm="ralle"><i>ral</i><par n="rul/le__vblex"/></e>
+<e lm="ramle"><i>raml</i><par n="mal/e__vblex"/></e>
+<e lm="ramponere"><i>ramponer</i><par n="mal/e__vblex"/></e>
+<e lm="ramsalte"><i>ramsalt</i><par n="mal/e__vblex"/></e>
+<e lm="remse"><i>rems</i><par n="mal/e__vblex"/></e>
+<e lm="rende"><i>rend</i><par n="tal/e__vblex"/></e>
+<e lm="randomisere"><i>randomiser</i><par n="mal/e__vblex"/></e>
+<e lm="randsy"><i>randsy</i><par n="nå__vblex"/></e>
+<e lm="ransage"><i>ransag</i><par n="mal/e__vblex"/></e>
+<e lm="ræbe"><i>ræb</i><par n="mal/e__vblex"/></e>
+<e lm="rapse"><i>raps</i><par n="mal/e__vblex"/></e>
+<e lm="rappelle"><i>rappel</i><par n="rul/le__vblex"/></e>
+<e lm="rapse"><i>raps</i><par n="mal/e__vblex"/></e>
+<e lm="rasere"><i>raser</i><par n="mal/e__vblex"/></e>
+<e lm="rationere"><i>rationer</i><par n="mal/e__vblex"/></e>
+<e lm="raspe"><i>rasp</i><par n="mal/e__vblex"/></e>
+<e lm="rationalisere"><i>rationaliser</i><par n="mal/e__vblex"/></e>
+<e lm="rase"><i>ras</i><par n="mal/e__vblex"/></e>
+<e lm="reaktivere"><i>reaktiver</i><par n="mal/e__vblex"/></e>
+<e lm="realitetsbehandle"><i>realitetsbehandl</i><par n="mal/e__vblex"/></e>
+<e lm="reassurere"><i>reassurer</i><par n="mal/e__vblex"/></e>
+<e lm="rebellere"><i>rebeller</i><par n="mal/e__vblex"/></e>
+<e lm="redoble"><i>redobl</i><par n="mal/e__vblex"/></e>
+<e lm="reduplicere"><i>reduplicer</i><par n="mal/e__vblex"/></e>
+<e lm="reengagere"><i>reengager</i><par n="mal/e__vblex"/></e>
+<e lm="reetablere"><i>reetabler</i><par n="mal/e__vblex"/></e>
+<e lm="refinansiere"><i>refinansier</i><par n="mal/e__vblex"/></e>
+<e lm="reformulere"><i>reformuler</i><par n="mal/e__vblex"/></e>
+<e lm="revse"><i>revs</i><par n="mal/e__vblex"/></e>
+<e lm="refundere"><i>refunder</i><par n="mal/e__vblex"/></e>
+<e lm="traktere"><i>traktere</i><par n="mal/e__vblex"/></e>
+<e lm="reglementere"><i>reglementer</i><par n="mal/e__vblex"/></e>
+<e lm="regularisere"><i>regulariser</i><par n="mal/e__vblex"/></e>
+<e lm="regummiere"><i>regummier</i><par n="mal/e__vblex"/></e>
+<e lm="rehabilitere"><i>rehabiliter</i><par n="mal/e__vblex"/></e>
+<e lm="rebe"><i>reb</i><par n="mal/e__vblex"/></e>
+<e lm="rendyrke"><i>rendyrk</i><par n="mal/e__vblex"/></e>
+<e lm="rengøre"><i>reng</i><par n="g/øre__vblex"/></e>
+<e lm="reinkarnere"><i>reinkarner</i><par n="mal/e__vblex"/></e>
+<e lm="renskrive"><i>renskr</i><par n="bl/ive__vblex"/></e>
+<e lm="renvaske"><i>renvask</i><par n="mal/e__vblex"/></e>
+<e lm="reinvestere"><i>reinvester</i><par n="mal/e__vblex"/></e>
+<e lm="svøbe"><i>svøb</i><par n="tal/e__vblex"/></e>
+<e lm="rede"><i>red</i><par n="tal/e__vblex"/></e>
+<e lm="rejustere"><i>rejuster</i><par n="mal/e__vblex"/></e>
+<e lm="rekapitulere"><i>rekapituler</i><par n="mal/e__vblex"/></e>
+<e lm="reklassificere"><i>reklassificer</i><par n="mal/e__vblex"/></e>
+<e lm="rekognoscere"><i>rekognoscer</i><par n="mal/e__vblex"/></e>
+<e lm="rekommandere"><i>rekommander</i><par n="mal/e__vblex"/></e>
+<e lm="rekonstruere"><i>rekonstruer</i><par n="mal/e__vblex"/></e>
+<e lm="rekreere"><i>rekreer</i><par n="mal/e__vblex"/></e>
+<e lm="rekrystallisere"><i>rekrystalliser</i><par n="mal/e__vblex"/></e>
+<e lm="rektificere"><i>rektificer</i><par n="mal/e__vblex"/></e>
+<e lm="rekylere"><i>rekyler</i><par n="mal/e__vblex"/></e>
+<e lm="relancere"><i>relancer</i><par n="mal/e__vblex"/></e>
+<e lm="relativisere"><i>relativiser</i><par n="mal/e__vblex"/></e>
+<e lm="reminiscere"><i>reminiscer</i><par n="mal/e__vblex"/></e>
+<e lm="remittere"><i>remitter</i><par n="mal/e__vblex"/></e>
+<e lm="vræle"><i>vræl</i><par n="mal/e__vblex"/></e>
+<e lm="remontere"><i>remonter</i><par n="mal/e__vblex"/></e>
+<e lm="renationalisere"><i>renationaliser</i><par n="mal/e__vblex"/></e>
+<e lm="renominere"><i>renominer</i><par n="mal/e__vblex"/></e>
+<e lm="renoncere"><i>renoncer</i><par n="mal/e__vblex"/></e>
+<e lm="rense"><i>rens</i><par n="mal/e__vblex"/></e>
+<e lm="repatriere"><i>repatrier</i><par n="mal/e__vblex"/></e>
+<e lm="repetere"><i>repeter</i><par n="mal/e__vblex"/></e>
+<e lm="replacere"><i>replacer</i><par n="mal/e__vblex"/></e>
+<e lm="replicere"><i>replicer</i><par n="mal/e__vblex"/></e>
+<e lm="repolitisere"><i>repolitiser</i><par n="mal/e__vblex"/></e>
+<e lm="resedimentere"><i>resedimenter</i><par n="mal/e__vblex"/></e>
+<e lm="residere"><i>resider</i><par n="mal/e__vblex"/></e>
+<e lm="recidivere"><i>recidiver</i><par n="mal/e__vblex"/></e>
+<e lm="recitere"><i>resiter</i><par n="mal/e__vblex"/></e>
+<e lm="resolvere"><i>resolver</i><par n="mal/e__vblex"/></e>
+<e lm="resonere"><i>resoner</i><par n="mal/e__vblex"/></e>
+<e lm="ræsonnere"><i>ræsonner</i><par n="mal/e__vblex"/></e>
+<e lm="resorbere"><i>resorber</i><par n="mal/e__vblex"/></e>
+<e lm="resocialisere"><i>resocialiser</i><par n="mal/e__vblex"/></e>
+<e lm="respirere"><i>respirer</i><par n="mal/e__vblex"/></e>
+<e lm="respondere"><i>responder</i><par n="mal/e__vblex"/></e>
+<e lm="restaurere"><i>restaurer</i><par n="mal/e__vblex"/></e>
+<e lm="restituere"><i>restituer</i><par n="mal/e__vblex"/></e>
+<e lm="restrukturere"><i>restrukturer</i><par n="mal/e__vblex"/></e>
+<e lm="resumere"><i>resumer</i><par n="mal/e__vblex"/></e>
+<e lm="retardere"><i>retarder</i><par n="mal/e__vblex"/></e>
+<e lm="retinere"><i>retiner</i><par n="mal/e__vblex"/></e>
+<e lm="retirere"><i>retirer</i><par n="mal/e__vblex"/></e>
+<e lm="retkende"><i>retkend</i><par n="tal/e__vblex"/></e>
+<e lm="retouchere"><i>retoucher</i><par n="mal/e__vblex"/></e>
+<e lm="revaluere"><i>revaluer</i><par n="mal/e__vblex"/></e>
+<e lm="revanchere"><i>revancher</i><par n="mal/e__vblex"/></e>
+<e lm="reve"><i>rev</i><par n="mal/e__vblex"/></e>
+<e lm="reversere"><i>reverser</i><par n="mal/e__vblex"/></e>
+<e lm="revitalisere"><i>revitaliser</i><par n="mal/e__vblex"/></e>
+<e lm="revne"><i>revn</i><par n="mal/e__vblex"/></e>
+<e lm="revoltere"><i>revolter</i><par n="mal/e__vblex"/></e>
+<e lm="revolutionere"><i>revolutioner</i><par n="mal/e__vblex"/></e>
+<e lm="ribbe"><i>rib</i><par n="skub/be__vblex"/></e>
+<e lm="ribosylere"><i>ribosyler</i><par n="mal/e__vblex"/></e>
+<e lm="rille"><i>rill</i><par n="rul/le__vblex"/></e>
+
 <!-- /end of NOB transformed verbs
 
 dyppe kysse skubbe skaffe stemme lægge brække bytte tørre danne rulle
@@ -11153,7 +11263,6 @@ tygge
 <e lm="bespare">         <i>bespar</i><par n="mal/e__vblex"/></e>
 <e lm="bespise">         <i>bespis</i><par n="tal/e__vblex"/></e>
 <e lm="bespotte">        <i>bespot</i><par n="støt/te__vblex"/></e>
-<e lm="bespotte">        <i>bespot</i><par n="byt/te__vblex"/></e>
 <e lm="bestå">           <i>best</i><par n="st/å__vblex"/></e>
 <e lm="bestemme">        <i>bestem</i><par n="stem/me__vblex"/></e>
 <e lm="bestorme">        <i>bestor</i><par n="kom/me__vblex"/></e>
