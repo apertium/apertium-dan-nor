@@ -11036,7 +11036,7 @@
 <e lm="skægte"><i>skægt</i><par n="mal/e__vblex"/></e>
 <e lm="skærpe"><i>skærp</i><par n="mal/e__vblex"/></e>
 <e lm="skønne"><i>skøn</i><par n="dan/ne__vblex"/></e>
-<e lm="skønnmale"><i>skønnmal</i><par n="mal/e__vblex"/></e>
+<e lm="skønmale"><i>skønmal</i><par n="mal/e__vblex"/></e>
 <e lm="skønsvurdere"><i>skønsvurder</i><par n="mal/e__vblex"/></e>
 <e lm="varetage"><i>varet</i><par n="t/age__vblex"/></e>
 <e lm="søle"><i>søl</i><par n="mal/e__vblex"/></e>
@@ -11047,7 +11047,22 @@
 <e lm="trælle"><i>træl</i><par n="rul/le__vblex"/></e>
 <e lm="slavebinde"><i>slaveb</i><par n="f/inde__vblex"/></e>
 
-
+<e lm="slime"><i>slim</i><par n="mal/e__vblex"/></e>
+<e lm="slingre"><i>slingr</i><par n="mal/e__vblex"/></e>
+<e lm="slidse"><i>slids</i><par n="mal/e__vblex"/></e>
+<e lm="slubre"><i>slubr</i><par n="mal/e__vblex"/></e>
+<e lm="slutføre"><i>slutfør</i><par n="tal/e__vblex"/></e>
+<e lm="slumre"><i>slumr</i><par n="mal/e__vblex"/></e>
+<e lm="slurke"><i>slurk</i><par n="mal/e__vblex"/></e>
+<e lm="slurpe"><i>slurp</i><par n="mal/e__vblex"/></e>
+<e lm="sluse"><i>slus</i><par n="mal/e__vblex"/></e>
+<e lm="slægte"><i>slægt</i><par n="mal/e__vblex"/></e>
+<e lm="sløje"><i>sløj</i><par n="mal/e__vblex"/></e>
+<e lm="sløjfe"><i>sløjf</i><par n="mal/e__vblex"/></e>
+<e lm="sløkke"><i>sløkk</i><par n="bræk/ke__vblex"/></e>
+<e lm="sløve"><i>sløv</i><par n="mal/e__vblex"/></e>
+<e lm="sløvne"><i>sløvn</i><par n="mal/e__vblex"/></e>
+<e lm="smagsætte"><i>smags</i><par n="s/ætte__vblex"/></e>
 <!-- /end of NOB transformed verbs
 
 dyppe kysse skubbe skaffe stemme lægge brække bytte tørre danne rulle
