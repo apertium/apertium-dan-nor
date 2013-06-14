@@ -1,5 +1,4 @@
-TMPDIR=/tmp
-
+TMPDIR=/var/folders/0G/0GZnbqjxFwmOuN6ymZlmPk+++TI/-Tmp-/
 DIR=$1
 
 if [[ $DIR == "dan-nob" ]]; then
