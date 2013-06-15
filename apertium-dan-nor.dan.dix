@@ -3595,9 +3595,9 @@
 <e lm="allestedshen"> <i>allestedshen</i><par n="på__pr"/></e>
 <e lm="angående">     <i>angående</i><par n="på__pr"/></e>
 <e lm="andetsteds">   <i>andetsteds</i><par n="på__pr"/></e>
-<e lm="andetstedsfra"><i>andetstedsfra</i><par n="på__pr"/></e>
-<e lm="andetstedshen"><i>andetstedshen</i><par n="på__pr"/></e>
-<e lm="andetstedsfra"><i>andetstedsfra</i><par n="på__pr"/></e>
+<e lm="andetstedsfra"><i>andetsteds<b/>fra</i><par n="på__pr"/></e>
+<e lm="andetstedshen"><i>andetsteds<b/>hen</i><par n="på__pr"/></e>
+<e lm="andetstedsfra"><i>andetsteds<b/>fra</i><par n="på__pr"/></e>
 <e lm="anno">         <i>anno</i><par n="på__pr"/></e>
 <e lm="bag">          <i>att</i><par n="på__pr"/></e>
 <e lm="bagom">        <i>bagom</i><par n="på__pr"/></e>
@@ -3759,6 +3759,99 @@
 <e lm="ved">             <i>ved</i><par n="på__pr"/></e>
 <e lm="via">             <i>via</i><par n="på__pr"/></e>
 
+
+<e lm="fra gård til gård">   <i>fra<b/>gård<b/>til<b/>gård</i><par n="på__pr"/></e>
+<e lm="gardimellem"> <i>gardimellem</i><par n="på__pr"/></e>
+<e lm="langs gaden">   <i>langs<b/>gaden</i><par n="på__pr"/></e>
+<e lm="gennem">     <i>gennem</i><par n="på__pr"/></e>
+<e lm="grundet">     <i>grundet</i><par n="på__pr"/></e>
+<e lm="hjem">        <i>hjem</i><par n="på__pr"/></e>
+<e lm="hjemme">       <i>hjemme</i><par n="på__pr"/></e>
+<e lm="hjemmefra">    <i>hjemmefra</i><par n="på__pr"/></e>
+<e lm="hjemover">    <i>hjemover</i><par n="på__pr"/></e>
+<e lm="hen">         <i>hen</i><par n="på__pr"/></e>
+<e lm="henad">       <i>henad</i><par n="på__pr"/></e>
+<e lm="henimod">     <i>henimod</i><par n="på__pr"/></e>
+<e lm="henne">       <i>henne</i><par n="på__pr"/></e>
+<e lm="henover">     <i>henover</i><par n="på__pr"/></e>
+<e lm="henved">      <i>henved</i><par n="på__pr"/></e>
+<e lm="her">         <i>her</i><par n="på__pr"/></e>
+<e lm="heraf">       <i>heraf</i><par n="på__pr"/></e>
+<e lm="herefter">    <i>herefter</i><par n="på__pr"/></e>
+<e lm="herfra">      <i>herfra</i><par n="på__pr"/></e>
+<e lm="heri">        <i>heri</i><par n="på__pr"/></e>
+<e lm="heriblandt">   <i>heriblandt</i><par n="på__pr"/></e>
+<e lm="herifra">     <i>herifra</i><par n="på__pr"/></e>
+<e lm="herigennem"> <i>herigennem</i><par n="på__pr"/></e>
+<e lm="herimod">     <i>herimod</i><par n="på__pr"/></e>
+<e lm="hermed">      <i>hermed</i><par n="på__pr"/></e>
+<e lm="herom">       <i>herom</i><par n="på__pr"/></e>
+<e lm="herover">     <i>herover</i><par n="på__pr"/></e>
+<e lm="hertil">      <i>hertil</i><par n="på__pr"/></e>
+<e lm="herunder">    <i>herunder</i><par n="på__pr"/></e>
+<e lm="herved">      <i>herved</i><par n="på__pr"/></e>
+<e lm="hinsides">    <i>hinsides</i><par n="på__pr"/></e>
+<e lm="hist">        <i>hist</i><par n="på__pr"/></e>
+<e lm="her til">     <i>her<b/>til</i><par n="på__pr"/></e>
+<e lm="her">         <i>her</i><par n="på__pr"/></e>
+<e lm="herefter">    <i>herefter</i><par n="på__pr"/></e>
+<e lm="herom">       <i>herom</i><par n="på__pr"/></e>
+<e lm="herover">     <i>herover</i><par n="på__pr"/></e>
+<e lm="hertil">      <i>hertil</i><par n="på__pr"/></e>
+<e lm="hjem">        <i>hjem</i><par n="på__pr"/></e>
+<e lm="hjemefter">     <i>hjemefter</i><par n="på__pr"/></e>
+<e lm="hjemme">        <i>hjemme</i><par n="på__pr"/></e>
+<e lm="hjemmefra">     <i>hjemmefra</i><par n="på__pr"/></e>
+<e lm="hjemom">        <i>hjemom</i><par n="på__pr"/></e>
+<e lm="hjemover">      <i>hjemover</i><par n="på__pr"/></e>
+<e lm="hos">           <i>hos</i><par n="på__pr"/></e>
+<e lm="hvor hen">      <i>hvor<b/>hen</i><par n="på__pr"/></e>
+<e lm="hvoriblandt">  <i>hvoriblandt</i><par n="på__pr"/></e>
+<e lm="               i færd med">      <i>i<b/>færd<b/>med</i><par n="på__pr"/></e>
+<e lm="               i følge">         <i>i<b/>følge</i><par n="på__pr"/></e>
+<e lm="               i hele">          <i>i<b/>hele</i><par n="på__pr"/></e>
+<e lm="               i overensstemmelse med"> <i>i<b/>overensstemmelse<b/>med</i><par n="på__pr"/></e>
+<e lm="blandt">       <i>blandt</i><par n="på__pr"/></e>
+<e lm="ifølge">       <i>ifølge</i><par n="på__pr"/></e>
+<e lm="igennem">      <i>igennem</i><par n="på__pr"/></e>
+<e lm="omkring">      <i>omkring</i><par n="på__pr"/></e>
+<e lm="imellem">      <i>imellem</i><par n="på__pr"/></e>
+<e lm="imod">         <i>imod</i><par n="på__pr"/></e>
+<e lm="inde           i">        <i>inde<b/>i</i><par n="på__pr"/></e>
+<e lm="ingensteds">   <i>ingensteds</i><par n="på__pr"/></e>
+<e lm="inklusiv">     <i>inklusiv</i><par n="på__pr"/></e>
+<e lm="inklusive">    <i>inklusive</i><par n="på__pr"/></e>
+<e lm="ind            i">           <i>ind<b/>i</i><par n="på__pr"/></e>
+<e lm="ind til">      <i>ind<b/>til</i><par n="på__pr"/></e>
+<e lm="ind">          <i>ind</i><par n="på__pr"/></e>
+<e lm="inden">        <i>indend</i><par n="på__pr"/></e>
+<e lm="indendørs">    <i>indendørs</i><par n="på__pr"/></e>
+<e lm="indefra">      <i>indefra</i><par n="på__pr"/></e>
+<e lm="indenlands">   <i>indenlands</i><par n="på__pr"/></e>
+<e lm="indenskjærs">  <i>indenskærs</i><par n="på__pr"/></e>
+<e lm="indad">        <i>indad</i><par n="på__pr"/></e>
+<e lm="inde">         <i>inde</i><par n="på__pr"/></e>
+<e lm="indefra">      <i>indefra</i><par n="på__pr"/></e>
+<e lm="inden">        <i>inden</i><par n="på__pr"/></e>
+<e lm="indendørs">    <i>indendørs</i><par n="på__pr"/></e>
+<e lm="indenfor">     <i>ind</i><par n="på__pr"/></e>
+<e lm="indenlands">   <i>indenlands</i><par n="på__pr"/></e>
+<e lm="indenskærs">   <i>indenskærs</i><par n="på__pr"/></e>
+<e lm="indensunds">   <i>indensunds</i><par n="på__pr"/></e>
+<e lm="indefter">     <i>indefter</i><par n="på__pr"/></e>
+<e lm="indfor">       <i>ind<b/>for</i><par n="på__pr"/></e>
+<e lm="indi">         <i>ind<b/>i</i><par n="på__pr"/></e>
+<e lm="inde blandt">  <i>inde<b/>blandt</i><par n="på__pr"/></e>
+<e lm="indigennem">   <i>indigennem</i><par n="på__pr"/></e>
+<e lm="indimellem">   <i>indimellem</i><par n="på__pr"/></e>
+<e lm="indover">      <i>indover</i><par n="på__pr"/></e>
+<e lm="ind på">       <i>ind<b/>på</i><par n="på__pr"/></e>
+<e lm="indtil">       <i>indtil</i><par n="på__pr"/></e>
+<e lm="ind under">    <i>ind<b/>under</i><par n="på__pr"/></e>
+<e lm="ind ved">      <i>ind<b/>ved</i><par n="på__pr"/></e>
+<e lm="               i stedet for">    <i>i<b/>stedet<b/>for</i><par n="på__pr"/></e>
+<e lm="side om side">  <i>side<b/>om<b/>side</i><par n="på__pr"/></e>
+<e lm="kontra">       <i>kontra</i><par n="på__pr"/></e>
 
     <!-- Interjections -->
 
