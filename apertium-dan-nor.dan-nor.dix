@@ -3837,16 +3837,24 @@
 
 <!-- Adverbs -->
 
+
+<!-- Adverbs sentence adverbs -->
+<e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
+<e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
+<e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
+<e><p><l>godt<s n="adv"/></l>            <r>godt<s n="adv"/></r></p></e>
+<e><p><l>aldrig<s n="adv"/></l>            <r>aldri<s n="adv"/></r></p></e>
+
+
+<!-- Infinitive participle -->
+<e><p><l>at<s n="part"/></l>            <r>å<s n="part"/></r></p></e>
+
 <e><p><l>endnu<s n="adv"/></l><r>enda<s n="adv"/></r></p></e>
 <e><p><l>med<s n="adv"/></l><r>med<s n="adv"/></r></p></e>
 <e><p><l>tidligere<s n="adv"/></l><r>tidligere<s n="adv"/></r></p></e>
-
 <e><p><l>lige<b/>så<s n="adv"/></l><r>like<s n="adv"/></r></p></e>
-
 <e><p><l>til<b/>trods<b/>for<s n="adv"/></l><r>til<b/>tross<b/>for<s n="adv"/></r></p></e>
 <e><p><l>helt<s n="adv"/></l><r>fullt<b/>ut<s n="adv"/></r></p></e>
-
-
 <e><p><l>mindst<s n="adv"/></l><r>minst<s n="adv"/></r></p></e>
 <e><p><l>alligevel<s n="adv"/></l><r>allikevel<s n="adv"/></r></p></e>
 <e><p><l>alligevel<s n="adv"/></l><r>likevel<s n="adv"/></r></p></e>
@@ -3943,20 +3951,6 @@
 <e><p><l>af<b/>hænde<s n="adv"/></l>        <r>af<b/>hende<s n="adv"/></r></p></e>
 <e><p><l>fra<s n="adv"/></l>            <r>fra<s n="adv"/></r></p></e>
 <e><p><l>nærmere<s n="adv"/></l>            <r>nærmere<s n="adv"/></r></p></e>
-
-<!-- Adverbs sentence adverbs -->
-<e><p><l>ikke<s n="adv"/></l>            <r>ikke<s n="adv"/></r></p></e>
-<e><p><l>altid<s n="adv"/></l>           <r>alltid<s n="adv"/></r></p></e>
-<e><p><l>også<s n="adv"/></l>            <r>også<s n="adv"/></r></p></e>
-<e><p><l>godt<s n="adv"/></l>            <r>godt<s n="adv"/></r></p></e>
-<e><p><l>aldrig<s n="adv"/></l>            <r>aldri<s n="adv"/></r></p></e>
-
-
-<!-- Infinitive participle -->
-<e><p><l>at<s n="part"/></l>            <r>å<s n="part"/></r></p></e>
-
-
-
 <e><p><l>meget<s n="adv"/></l>            <r>veldig<s n="adv"/></r></p></e>
 <e><p><l>a<b/>cappella<s n="adv"/></l><r>a<b/>cappella<s n="adv"/></r></p></e>
 <e><p><l>a<b/>conto<s n="adv"/></l><r>a<b/>conto<s n="adv"/></r></p></e>
@@ -3983,9 +3977,6 @@
 <e><p><l>alene<s n="adv"/></l><r>aleine<s n="adv"/></r></p></e>
 <e><p><l>alene<s n="adv"/></l><r>alene<s n="adv"/></r></p></e>
 <e><p><l>alenvis<s n="adv"/></l><r>alenvis<s n="adv"/></r></p></e>
-<e><p><l>alias<pr></l><r>alias<pr></r></p></e>
-<e><p><l>all<det><qnt><nt><sg></l><r>al<det><qnt><nt><sg></r></p></e>
-<e><p><l>allegretto<n><nt><sg><ind></l><r>allegretto<n><nt><sg><ind></r></p></e>
 <e><p><l>allegretto<s n="adv"/></l><r>allegretto<s n="adv"/></r></p></e>
 <e><p><l>allegro<s n="adv"/></l><r>allegro<s n="adv"/></r></p></e>
 <e><p><l>aller<s n="adv"/></l><r>aller<s n="adv"/></r></p></e>
@@ -4001,9 +3992,7 @@
 <e><p><l>fod<b/>mod<b/>fod<s n="adv"/></l><r>andføttes<s n="adv"/></r></p></e>
 <e><p><l>anderledes<s n="adv"/></l><r>annerledes<s n="adv"/></r></p></e>
 <e><p><l>andetsteds<s n="adv"/></l><r>annetsteds<s n="adv"/></r></p></e>
-<e><p><l>andetsteds<b/>fra<pr></l><r>andetsteds<b/>fra<pr></r></p></e>
 <e><p><l>andetsteds<b/>hen<s n="adv"/></l><r>annetstedshen<s n="adv"/></r></p></e>
-<e><p><l>anno<pr></l><r>anno<pr></r></p></e>
 <e><p><l>ca.<s n="adv"/></l><r>anslagsvis<s n="adv"/></r></p></e>
 <e><p><l>anstændigvis<s n="adv"/></l><r>anstendigvis<s n="adv"/></r></p></e>
 <e><p><l>anstigende<s n="adv"/></l><r>anstigende<s n="adv"/></r></p></e>
@@ -4023,9 +4012,7 @@
 <e><p><l>bagvendt<s n="adv"/></l><r>avhends<s n="adv"/></r></p></e>
 <e><p><l>afsatsvis<s n="adv"/></l><r>avsatsvis<s n="adv"/></r></p></e>
 <e><p><l>afslutningsvis<s n="adv"/></l><r>avslutningsvis<s n="adv"/></r></p></e>
-<e><p><l>bagi<pr></l><r>bagi<pr></r></p></e>
 <e><p><l>bag<s n="adv"/></l><r>bakk<s n="adv"/></r></p></e>
-<e><p><l>baglæs<pr></l><r>baglægs<pr></r></p></e>
 <e><p><l>bagvendt<s n="adv"/></l><r>bakvendt<s n="adv"/></r></p></e>
 <e><p><l>barfodet<s n="adv"/></l><r>barføtt<s n="adv"/></r></p></e>
 <e><p><l>bataljonsvis<s n="adv"/></l><r>bataljonsvis<s n="adv"/></r></p></e>
