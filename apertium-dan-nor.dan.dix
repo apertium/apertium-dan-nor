@@ -8732,6 +8732,85 @@
 <e lm="fluks">            <i>fluks</i><par n="ikke__adv"/></e>
 <e lm="flunkende">        <i>flunkende</i><par n="ikke__adv"/></e>
 
+
+
+<e lm="rigeligt">            <i>rigeligt</i><par n="ikke__adv"/></e>
+<e lm="fløjten">          <i>fløjten</i><par n="ikke__adv"/></e>
+<e lm="fob">              <i>fob</i><par n="ikke__adv"/></e>
+<e lm="for eksempel">     <i>for<b/>eksempel</i><par n="ikke__adv"/></e>
+<e lm="til rådighed">         <i>til<b/>rådighed</i><par n="ikke__adv"/></e>
+<e lm="for længst">       <i>for<b/>længst</i><par n="ikke__adv"/></e>
+<e lm="for resten">       <i>for<b/>resten</i><par n="ikke__adv"/></e>
+<e lm="for så vidt">      <i>for<b/>så<b/>vidt</i><par n="ikke__adv"/></e>
+<e lm="for visst">        <i>med<b/>vished</i><par n="ikke__adv"/></e>
+<e lm="for øvrigt">        <i>for<b/>øvrigt</i><par n="ikke__adv"/></e>
+<!--<e lm="fordevind">        <i>fordevind</i><par n="ikke__adv"/></e>-->
+<e lm="fordum">           <i>fordum</i><par n="ikke__adv"/></e>
+<e lm="fordømte">       <i>fordømte</i><par n="ikke__adv"/></e>
+<e lm="for">             <i>for</i><par n="ikke__adv"/></e>
+<e lm="for eksempel">      <i>for<b/>eksempel</i><par n="ikke__adv"/></e>
+<e lm="foreløbig">        <i>foreløbigt</i><par n="ikke__adv"/></e>
+<e lm="fandens">      <i>fandens</i><par n="ikke__adv"/></e>
+<e lm="forholdsvis">      <i>forholdsvis</i><par n="ikke__adv"/></e>
+<e lm="forhåbentlig">     <i>forhåbentlig</i><par n="ikke__adv"/></e>
+<e lm="forhåbentligvis">  <i>forhåbentligvis</i><par n="ikke__adv"/></e>
+<e lm="forleden">         <i>forleden</i><par n="ikke__adv"/></e>
+<e lm="forlæns">         <i>forlæns</i><par n="ikke__adv"/></e>
+<e lm="forlængst">        <i>forlænst</i><par n="ikke__adv"/></e>
+<e lm="formelig">         <i>formelig</i><par n="ikke__adv"/></e>
+<e lm="fornemmelig">      <i>fornemmelig</i><par n="ikke__adv"/></e>
+<e lm="fornuftigvis">     <i>fornuftigvis</i><par n="ikke__adv"/></e>
+<e lm="forresten">        <i>forresten</i><par n="ikke__adv"/></e>
+<e lm="forsigtigvis">     <i>forsigtigvis</i><par n="ikke__adv"/></e>
+<e lm="forskudsvis">     <i>forskudsvis</i><par n="ikke__adv"/></e>
+<e lm="forsåvidt">        <i>forsåvidt</i><par n="ikke__adv"/></e>
+<e lm="forsøgsvis">       <i>forsøgsvis</i><par n="ikke__adv"/></e>
+<e lm="stadig">      <i>stadig</i><par n="ikke__adv"/></e>
+<e lm="fortissimo">       <i>fortissimo</i><par n="ikke__adv"/></e>
+<e lm="fortløbende">      <i>fortløbende</i><par n="ikke__adv"/></e>
+<e lm="fortrinsvis">     <i>fortrinsvis</i><par n="ikke__adv"/></e>
+<e lm="fortsat">         <i>fortsat</i><par n="ikke__adv"/></e>
+<e lm="foruden">          <i>foruden</i><par n="ikke__adv"/></e>
+<e lm="forudsætningsvis"> <i>forudsætningsvis</i><par n="ikke__adv"/></e>
+<e lm="forøvrig">         <i>forøvrig</i><par n="ikke__adv"/></e>
+<e lm="fremdeles">         <i>fremdeles</i><par n="ikke__adv"/></e>
+<e lm="forlæns">        <i>forlæns</i><par n="ikke__adv"/></e>
+<e lm="fremad">        <i>fremad</i><par n="ikke__adv"/></e>
+<e lm="foroverbøjet">       <i>foroverbøjet</i><par n="ikke__adv"/></e>
+<e lm="fremt">            <i>fremt</i><par n="ikke__adv"/></e>
+<e lm="franko">           <i>franko</i><par n="ikke__adv"/></e>
+<e lm="free on board">    <i>free<b/>on<b/>board</i><par n="ikke__adv"/></e>
+<e lm="free on rail">     <i>free<b/>on<b/>rail</i><par n="ikke__adv"/></e>
+<e lm="fremlæns">        <i>fremlæns</i><par n="ikke__adv"/></e>
+<e lm="fremt">            <i>fremt</i><par n="ikke__adv"/></e>
+<e lm="fuldstændig">      <i>fuldstændig</i><par n="ikke__adv"/></e>
+<e lm="fuldt">            <i>fuldt</i><par n="ikke__adv"/></e>
+<e lm="furioso">          <i>furioso</i><par n="ikke__adv"/></e>
+<e lm="kommunevis">        <i>kommunevis</i><par n="ikke__adv"/></e>
+<e lm="fælt">             <i>fælt</i><par n="ikke__adv"/></e>
+<e lm="følgelig">         <i>følgelig</i><par n="ikke__adv"/></e>
+<e lm="før eller siden">        <i>før<b/>eller<b/>siden</i><par n="ikke__adv"/></e>
+<e lm="ganske enkelt">    <i>ganske<b/>enkelt</i><par n="ikke__adv"/></e>
+<e lm="givetvis">         <i>givetvis</i><par n="ikke__adv"/></e>
+<e lm="gerne">           <i>gerne</i><par n="ikke__adv"/></e>
+<e lm="gladelig">         <i>gladeligt</i><par n="ikke__adv"/></e>
+<e lm="glimtvis">         <i>glimtvis</i><par n="ikke__adv"/></e>
+<e lm="glissando">        <i>glissando</i><par n="ikke__adv"/></e>
+<e lm="glødende">         <i>glødende</i><par n="ikke__adv"/></e>
+<e lm="larmende">       <i>larmende</i><par n="ikke__adv"/></e>
+<e lm="sødt">     <i>sødt</i><par n="ikke__adv"/></e>
+<e lm="gradvis">          <i>gradvis</i><par n="ikke__adv"/></e>
+<e lm="grandioso">        <i>grandioso</i><par n="ikke__adv"/></e>
+<e lm="grangivelig">     <i>grangivelig</i><par n="ikke__adv"/></e>
+<e lm="grassat">          <i>grassat</i><par n="ikke__adv"/></e>
+<e lm="gruppevis">        <i>gruppevis</i><par n="ikke__adv"/></e>
+<e lm="gudskelov">       <i>gudskelov</i><par n="ikke__adv"/></e>
+<e lm="skinnende">         <i>skinnende</i><par n="ikke__adv"/></e>
+<e lm="hak">             <i>hak</i><par n="ikke__adv"/></e>
+<e lm="halvt">            <i>halvt</i><par n="ikke__adv"/></e>
+<e lm="halvvejs">         <i>halvvejs</i><par n="ikke__adv"/></e>
+<e lm="hårdt">            <i>hårdt</i><par n="ikke__adv"/></e>
+
  <!--/adverbs -->
 
     <!-- ******************************
