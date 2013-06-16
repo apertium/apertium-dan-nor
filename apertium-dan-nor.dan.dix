@@ -8592,6 +8592,145 @@
 <e lm="bedriftsvis">      <i>bedriftsvis</i><par n="ikke__adv"/></e>
 <e lm="beklageligvis">    <i>beklageligvis</i><par n="ikke__adv"/></e>
 
+<e lm="skiftevis">    <i>skiftevis</i><par n="ikke__adv"/></e>
+
+
+<e lm="bælg">              <i>bælg</i><par n="ikke__adv"/></e>
+<e lm="direkte">         <i>direkte</i><par n="ikke__adv"/></e>
+<e lm="tids nok">       <i>tids<b/>nok</i><par n="ikke__adv"/></e>
+<e lm="tids">           <i>tids</i><par n="ikke__adv"/></e>
+<e lm="bi">               <i>bi</i><par n="ikke__adv"/></e>
+<!--<e lm="bidevind">         <i>bidevind</i><par n="ikke__adv"/></e>-->
+<e lm="bis">              <i>bis</i><par n="ikke__adv"/></e>
+<e lm="bidende">        <i>bidende</i><par n="ikke__adv"/></e>
+<e lm="stykis">          <i>bitevis</i><par n="ikke__adv"/></e>
+<e lm="bitte">            <i>bitte</i><par n="ikke__adv"/></e>
+<e lm="bitterligt">        <i>bitterligt</i><par n="ikke__adv"/></e>
+<!--<e lm="bjørnaktig">       <i>bjørnaktig</i><par n="ikke__adv"/></e>-->
+<e lm="blanko">           <i>blanko</i><par n="ikke__adv"/></e>
+<e lm="blidt">         <i>blidt</i><par n="ikke__adv"/></e>
+<!--<e lm="blodende">         <i>blodende</i><par n="ikke__adv"/></e>-->
+<e lm="blottende">        <i>blottende</i><par n="ikke__adv"/></e>
+<e lm="bona fide">        <i>bona<b/>fide</i><par n="ikke__adv"/></e>
+<!--<e lm="bortlænst">       <i>bortlænst</i><par n="ikke__adv"/></e>-->
+<!--<e lm="breddende">        <i>breddende</i><par n="ikke__adv"/></e>-->
+<e lm="hurtigt">        <i>hurtigt</i><par n="ikke__adv"/></e>
+<e lm="brudto">           <i>brudto</i><par n="ikke__adv"/></e>
+<e lm="hundredevis">         <i>hundredevis</i><par n="ikke__adv"/></e>
+<e lm="brad">            <i>brat</i><par n="ikke__adv"/></e>
+<e lm="bunkevis">         <i>bunkevis</i><par n="ikke__adv"/></e>
+<e lm="bundtevis">          <i>bundtevis</i><par n="ikke__adv"/></e>
+<e lm="spandevis">         <i>spandevis</i><par n="ikke__adv"/></e>
+<e lm="cantabile">        <i>cantabile</i><par n="ikke__adv"/></e>
+<e lm="cf">               <i>cf</i><par n="ikke__adv"/></e>
+<e lm="ca.">               <i>ca.</i><par n="ikke__adv"/></e>
+<e lm="cif">              <i>cif</i><par n="ikke__adv"/></e>
+<e lm="comme il faud">    <i>comme<b/>il<b/>faud</i><par n="ikke__adv"/></e>
+<e lm="roligt">           <i>roligt</i><par n="ikke__adv"/></e>
+<e lm="crescendo">        <i>crescendo</i><par n="ikke__adv"/></e>
+<e lm="da capo">          <i>da<b/>capo</i><par n="ikke__adv"/></e>
+<e lm="dagevis">          <i>dagevis</i><par n="ikke__adv"/></e>
+<e lm="dagligt">         <i>dagligt</i><par n="ikke__adv"/></e>
+<e lm="nu og da">     <i>nu<b/>og<b/>da</i><par n="ikke__adv"/></e>
+<e lm="nu">             <i>nu</i><par n="ikke__adv"/></e>
+<e lm="de facto">         <i>de<b/>facto</i><par n="ikke__adv"/></e>
+<e lm="de jure">          <i>de<b/>jure</i><par n="ikke__adv"/></e>
+<e lm="decrescendo">      <i>decrescendo</i><par n="ikke__adv"/></e>
+<e lm="delkredere">       <i>delkredere</i><par n="ikke__adv"/></e>
+<e lm="dels">             <i>dels</i><par n="ikke__adv"/></e>
+<e lm="den gang">       <i>den<b/>gang</i><par n="ikke__adv"/></e>
+<e lm="dengang">          <i>dengang</i><par n="ikke__adv"/></e>
+<e lm="der ovre">        <i>der<b/>ovre</i><par n="ikke__adv"/></e>
+<e lm="der inde">         <i>der<b/>inde</i><par n="ikke__adv"/></e>
+<e lm="der nede">         <i>der<b/>nede</i><par n="ikke__adv"/></e>
+<e lm="der omkring">      <i>der<b/>omkring</i><par n="ikke__adv"/></e>
+<e lm="der oppe">         <i>der<b/>oppe</i><par n="ikke__adv"/></e>
+<e lm="der ude">          <i>der<b/>ude</i><par n="ikke__adv"/></e>
+<e lm="derovre">         <i>derovre</i><par n="ikke__adv"/></e>
+<e lm="derefter">         <i>derefter</i><par n="ikke__adv"/></e>
+<e lm="derigennem">      <i>derigennem</i><par n="ikke__adv"/></e>
+<e lm="derimod">          <i>derimod</i><par n="ikke__adv"/></e>
+<e lm="derinde">          <i>derinde</i><par n="ikke__adv"/></e>
+<e lm="dernede">          <i>dernede</i><par n="ikke__adv"/></e>
+<e lm="dernæst">          <i>dernæst</i><par n="ikke__adv"/></e>
+<e lm="deromkring">       <i>deromkring</i><par n="ikke__adv"/></e>
+<e lm="derover">          <i>derover</i><par n="ikke__adv"/></e>
+<e lm="derpå">            <i>derpå</i><par n="ikke__adv"/></e>
+<e lm="des mere">         <i>des<b/>mere</i><par n="ikke__adv"/></e>
+<e lm="des">             <i>des</i><par n="ikke__adv"/></e>
+<e lm="desmere">          <i>desmere</i><par n="ikke__adv"/></e>
+<e lm="desuagtet">       <i>desuagtet</i><par n="ikke__adv"/></e>
+<e lm="desuden">         <i>desuden</i><par n="ikke__adv"/></e>
+<e lm="desværre">        <i>desværre</i><par n="ikke__adv"/></e>
+<e lm="desto">            <i>desto</i><par n="ikke__adv"/></e>
+<e lm="diminuendo">       <i>diminuendo</i><par n="ikke__adv"/></e>
+<e lm="dis">              <i>dis</i><par n="ikke__adv"/></e>
+<e lm="distriktsvis">     <i>distriktsvis</i><par n="ikke__adv"/></e>
+<e lm="ditto">            <i>ditto</i><par n="ikke__adv"/></e>
+<e lm="dog">              <i>dog</i><par n="ikke__adv"/></e>
+<e lm="dolce">            <i>dolce</i><par n="ikke__adv"/></e>
+<e lm="doloroso">         <i>doloroso</i><par n="ikke__adv"/></e>
+<e lm="meget">            <i>meget</i><par n="ikke__adv"/></e>
+<e lm="drivende">         <i>drivende</i><par n="ikke__adv"/></e>
+<e lm="dryppende">        <i>dryppende</i><par n="ikke__adv"/></e>
+<e lm="dråbevis">         <i>dråbevis</i><par n="ikke__adv"/></e>
+<e lm="massevis">        <i>massevis</i><par n="ikke__adv"/></e>
+<e lm="dus">              <i>dus</i><par n="ikke__adv"/></e>
+<e lm="dusinvis">         <i>dusinvis</i><par n="ikke__adv"/></e>
+<e lm="dyngende">         <i>dyngende</i><par n="ikke__adv"/></e>
+<e lm="døgnvis">          <i>døgnvis</i><par n="ikke__adv"/></e>
+<e lm="dørg">             <i>dørg</i><par n="ikke__adv"/></e>
+<e lm="dørgende">         <i>dørgende</i><par n="ikke__adv"/></e>
+<e lm="efterhånden">       <i>efterhånden</i><par n="ikke__adv"/></e>
+<e lm="bagefter">          <i>bagefter</i><par n="ikke__adv"/></e>
+<e lm="specielt">           <i>specielt</i><par n="ikke__adv"/></e>
+<e lm="eks">              <i>eks</i><par n="ikke__adv"/></e>
+<e lm="ekspres">         <i>ekspres</i><par n="ikke__adv"/></e>
+<e lm="ekstempore">       <i>ekstempore</i><par n="ikke__adv"/></e>
+<e lm="ældende">          <i>ældende</i><par n="ikke__adv"/></e>
+<e lm="en bloc">          <i>en<b/>bloc</i><par n="ikke__adv"/></e>
+<e lm="en detail">        <i>en<b/>detail</i><par n="ikke__adv"/></e>
+<e lm="en face">          <i>en<b/>face</i><par n="ikke__adv"/></e>
+<e lm="en gros">          <i>en<b/>gros</i><par n="ikke__adv"/></e>
+<e lm="en masse">         <i>en<b/>masse</i><par n="ikke__adv"/></e>
+<e lm="en passant">       <i>en<b/>passant</i><par n="ikke__adv"/></e>
+<e lm="en profil">        <i>en<b/>profil</i><par n="ikke__adv"/></e>
+<e lm="en suite">         <i>en<b/>suite</i><par n="ikke__adv"/></e>
+<e lm="til og med">          <i>til<b/>og<b/>med</i><par n="ikke__adv"/></e>
+<e lm="af og til">    <i>af<b/>og<b/>til</i><par n="ikke__adv"/></e>
+<e lm="atter">            <i>ender</i><par n="ikke__adv"/></e>
+<e lm="endog">            <i>endog</i><par n="ikke__adv"/></e>
+<e lm="eneste">           <i>eneste</i><par n="ikke__adv"/></e>
+<e lm="engang">           <i>engang</i><par n="ikke__adv"/></e>
+<e lm="enkeltvis">        <i>enkeltvis</i><par n="ikke__adv"/></e>
+<e lm="enkom">            <i>enkom</i><par n="ikke__adv"/></e>
+<e lm="end">              <i>end</i><par n="ikke__adv"/></e>
+<e lm="endnu">             <i>ennu</i><par n="ikke__adv"/></e>
+<e lm="eo ipso">          <i>eo<b/>ipso</i><par n="ikke__adv"/></e>
+<e lm="erfaringsvis">     <i>erfaringsvis</i><par n="ikke__adv"/></e>
+<e lm="ergo">             <i>ergo</i><par n="ikke__adv"/></e>
+<e lm="et cetera">        <i>et<b/>cetera</i><par n="ikke__adv"/></e>
+<e lm="etapevis">        <i>etapevis</i><par n="ikke__adv"/></e>
+<e lm="efterhånden">      <i>efterhånden</i><par n="ikke__adv"/></e>
+<e lm="efterskudsvis">   <i>efterskottsvis</i><par n="ikke__adv"/></e>
+<e lm="ex animo">         <i>ex<b/>animo</i><par n="ikke__adv"/></e>
+<e lm="ex auditorio">     <i>ex<b/>auditorio</i><par n="ikke__adv"/></e>
+<e lm="ex cathedra">      <i>ex<b/>cathedra</i><par n="ikke__adv"/></e>
+<e lm="ex officio">       <i>ex<b/>officio</i><par n="ikke__adv"/></e>
+<e lm="exit">             <i>exit</i><par n="ikke__adv"/></e>
+<e lm="f.eks.">           <i>f.eks.</i><par n="ikke__adv"/></e>
+<e lm="falskt">        <i>falskt</i><par n="ikke__adv"/></e>
+<e lm="fas">              <i>fas</i><par n="ikke__adv"/></e>
+<e lm="fast">             <i>fast</i><par n="ikke__adv"/></e>
+<e lm="fat">             <i>fat</i><par n="ikke__adv"/></e>
+<e lm="fifty-fifty">      <i>fifty-fifty</i><par n="ikke__adv"/></e>
+<e lm="klippefast">       <i>klippefast</i><par n="ikke__adv"/></e>
+<e lm="fjernt">           <i>fjernt</i><par n="ikke__adv"/></e>
+<e lm="pletvis">        <i>pletvis</i><par n="ikke__adv"/></e>
+<e lm="flervejs">         <i>flervejs</i><par n="ikke__adv"/></e>
+<e lm="flokkevis">        <i>flokkevis</i><par n="ikke__adv"/></e>
+<e lm="fluks">            <i>fluks</i><par n="ikke__adv"/></e>
+<e lm="flunkende">        <i>flunkende</i><par n="ikke__adv"/></e>
 
  <!--/adverbs -->
 
