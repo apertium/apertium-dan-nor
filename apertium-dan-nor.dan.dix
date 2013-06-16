@@ -8615,7 +8615,7 @@
 <!--<e lm="bortlænst">       <i>bortlænst</i><par n="ikke__adv"/></e>-->
 <!--<e lm="breddende">        <i>breddende</i><par n="ikke__adv"/></e>-->
 <e lm="hurtigt">        <i>hurtigt</i><par n="ikke__adv"/></e>
-<e lm="brudto">           <i>brudto</i><par n="ikke__adv"/></e>
+<e lm="brutto">           <i>brutto</i><par n="ikke__adv"/></e>
 <e lm="hundredevis">         <i>hundredevis</i><par n="ikke__adv"/></e>
 <e lm="brad">            <i>brat</i><par n="ikke__adv"/></e>
 <e lm="bunkevis">         <i>bunkevis</i><par n="ikke__adv"/></e>
@@ -8972,9 +8972,43 @@
 <e lm="ligeledes">        <i>ligeledes</i><par n="ikke__adv"/></e>
 <e lm="ligeså">           <i>ligeså</i><par n="ikke__adv"/></e>
 <e lm="ligesom">           <i>ligesom</i><par n="ikke__adv"/></e>
-<e lm="likt">             <i>likt</i><par n="ikke__adv"/></e>
+<e lm="ligeligt">             <i>ligeligt</i><par n="ikke__adv"/></e>
 <e lm="ligesom">           <i>ligesom</i><par n="ikke__adv"/></e>
 
+
+<!--<e lm="listelig">         <i>listelig</i><par n="ikke__adv"/></e>-->
+<e lm="litervis">         <i>litervis</i><par n="ikke__adv"/></e>
+<e lm="livende">          <i>livende</i><par n="ikke__adv"/></e>
+<e lm="longo">            <i>longo</i><par n="ikke__adv"/></e>
+<e lm="lovformelig">      <i>lovformelig</i><par n="ikke__adv"/></e>
+<e lm="lovlig">           <i>lovligt</i><par n="ikke__adv"/></e>
+<e lm="lukt">             <i>lukt</i><par n="ikke__adv"/></e>
+<!--<e lm="lusende">          <i>lusende</i><par n="ikke__adv"/></e>-->
+<e lm="lykkeligvis">      <i>lykkeligvis</i><par n="ikke__adv"/></e>
+<e lm="lynende">          <i>lynende</i><par n="ikke__adv"/></e>
+<e lm="lynhurtigt">          <i>lynhurtigt</i><par n="ikke__adv"/></e>
+<e lm="lys">              <i>lys</i><par n="ikke__adv"/></e>
+<e lm="overfladisk">          <i>overfladisk</i><par n="ikke__adv"/></e>
+<e lm="maestoso">         <i>maestoso</i><par n="ikke__adv"/></e>
+<e lm="mala fide">        <i>mala<b/>fide</i><par n="ikke__adv"/></e>
+<e lm="malapropos">       <i>malapropos</i><par n="ikke__adv"/></e>
+<e lm="mange steder">     <i>mange<b/>steder</i><par n="ikke__adv"/></e>
+<e lm="massevis">         <i>massevis</i><par n="ikke__adv"/></e>
+<e lm="med rette">        <i>med<b/>rette</i><par n="ikke__adv"/></e>
+<e lm="middel">           <i>middel</i><par n="ikke__adv"/></e>
+<e lm="medio">            <i>medio</i><par n="ikke__adv"/></e>
+<e lm="medium">           <i>medium</i><par n="ikke__adv"/></e>
+<e lm="medstrøms">        <i>medstrøms</i><par n="ikke__adv"/></e>
+<e lm="mængdevis">        <i>mængdevis</i><par n="ikke__adv"/></e>
+<e lm="metervis">         <i>metervis</i><par n="ikke__adv"/></e>
+<e lm="mezzoforte">       <i>mezzoforte</i><par n="ikke__adv"/></e>
+<e lm="midsommers">       <i>midsommers</i><par n="ikke__adv"/></e>
+<e lm="midsommers">       <i>midsommers</i><par n="ikke__adv"/></e>
+<e lm="midt">             <i>midt</i><par n="ikke__adv"/></e>
+<e lm="midtsommers">      <i>midtsommers</i><par n="ikke__adv"/></e>
+<e lm="midtsommers">      <i>midtsommers</i><par n="ikke__adv"/></e>
+<e lm="midtvinters">      <i>midtvinters</i><par n="ikke__adv"/></e>
+<e lm="midvinters">       <i>midvinters</i><par n="ikke__adv"/></e>
 
  <!--/adverbs -->
 
