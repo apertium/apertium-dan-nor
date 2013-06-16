@@ -90,7 +90,7 @@
 
 
 
-<e>       <p><l></l><r></r></p></e>->
+<!--<e>       <p><l></l><r></r></p></e>-->
 <e>       <p><l><s n="past"/><s n="pasv"/></l><r><s n="vblex"/><s n="pret"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pres"/><s n="pass"/></r></p></e>
 <e>       <p><l><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
@@ -98,7 +98,7 @@
 <e>       <p><l><s n="pres"/><s n="actv"/></l><r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="inf"/><s n="actv"/></l><r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
-<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>
+<!--<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>-->
 <e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
 
 
