@@ -142,7 +142,7 @@
 
 
 <pardef n="bund/et__adj">
-  <e>       <p><l>et</l>        <r>et<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>et</l>        <r>et<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>et</l>        <r>et<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ne</l>        <r>et<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>nere</l>      <r>et<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
@@ -152,7 +152,7 @@
 </pardef>
 
 <pardef n="første__adj">
-  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
@@ -295,6 +295,17 @@
   <e>       <p><l>teste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
+
+<pardef n="druk/ken__adj">
+  <e>       <p><l>nere</l>      <r>ken<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l>ken</l>       <r>ken<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>kent</l>      <r>ken<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ne</l>        <r>ken<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ne</l>        <r>ken<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>neste</l>     <r>ken<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>nest</l>      <r>ken<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+</pardef>
+
 <pardef n="smuk__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -304,6 +315,18 @@
   <e>       <p><l>kest</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l>keste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
+
+
+<pardef n="tryg__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ge</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ge</l>        <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>gere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l>gest</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+  <e>       <p><l>geste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+</pardef>
+
 
 <pardef n="dum__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -8585,6 +8608,138 @@
 <e lm="drivende">                  <i>drivende</i><par n="OK__adj"/></e>
 <e lm="drypfri">                   <i>drypfri</i><par n="rund__adj"/></e>
 <e lm="drøj">                      <i>drøj</i><par n="rund__adj"/></e>
+
+
+<e lm="dygtig">                    <i>dygtig</i><par n="lykkelig__adj"/></e>
+<e lm="duknakket">                 <i>duknakke</i><par n="øve/t__adj"/></e>
+<e lm="dum">                       <i>dum</i><par n="ensom__adj"/></e>
+<e lm="dygtig">                    <i>dygtig</i><par n="lykkelig__adj"/></e>
+<e lm="dyb">                       <i>dyb</i><par n="rund__adj"/></e>
+<e lm="dybtgående">                <i>dybtgående</i><par n="OK__adj"/></e>
+<e lm="dyr">                       <i>dyr</i><par n="rund__adj"/></e>
+<e lm="dyrebar">                   <i>dyrebar</i><par n="rund__adj"/></e>
+<e lm="dyregod">                   <i>dyre</i><par n="/god__adj"/></e>
+<e lm="dyrekær">                   <i>dyrekær</i><par n="rund__adj"/></e>
+<e lm="dyrkbar">                   <i>dyrkbar</i><par n="rund__adj"/></e>
+<e lm="dyster">                    <i>dyster</i><par n="munt/er__adj"/></e>
+<e lm="dårlig">                    <i>dårlig</i><par n="lykkelig__adj"/></e>
+
+<e lm="død">                       <i>død</i><par n="rund__adj"/></e>
+<e lm="døddrukken">                <i>døddruk</i><par n="druk/ken__adj"/></e>
+<e lm="dødelig">                   <i>dødelig</i><par n="lykkelig__adj"/></e>
+<e lm="døv">                       <i>døv</i><par n="rund__adj"/></e>
+<e lm="effektiv">                  <i>effektiv</i><par n="rund__adj"/></e>
+<e lm="egen">                      <i>eg</i><par n="erfar/en__adj"/></e>
+<e lm="selvkomponeret">             <i>selvkomponeret</i><par n="lykkelig__adj"/></e>
+<e lm="egentlig">                  <i>egentlig</i><par n="lykkelig__adj"/></e>
+<e lm="egnet">                     <i>egne</i><par n="øve/t__adj"/></e>
+<e lm="egyptisk">                  <i>egyptisk</i><par n="glad__adj"/></e>
+<e lm="ejegod">                    <i>eje</i><par n="/god__adj"/></e>
+<e lm="eksakt">                    <i>eksakt</i><par n="stolt__adj"/></e>
+<e lm="eksamensfri">               <i>eksamensfri</i><par n="rund__adj"/></e>
+<e lm="eksklusiv">                 <i>eksklusiv</i><par n="rund__adj"/></e>
+<e lm="eksosfri">                  <i>eksosfri</i><par n="rund__adj"/></e>
+<e lm="eksotisk">                  <i>eksotisk</i><par n="glad__adj"/></e>
+<e lm="ekspansiv">                 <i>ekspansiv</i><par n="rund__adj"/></e>
+<e lm="eksplosiv">                 <i>eksplosiv</i><par n="rund__adj"/></e>
+
+<e lm="eksplosionsfarlig">         <i>eksplosionsfarlig</i><par n="lykkelig__adj"/></e>
+<e lm="ekstern">                   <i>ekstern</i><par n="rund__adj"/></e>
+<e lm="ekstra">                    <i>ekstra</i><par n="OK__adj"/></e>
+<e lm="ekstraordinær">             <i>ekstraordinær</i><par n="rund__adj"/></e>
+<e lm="ekstrem">                   <i>ekstrem</i><par n="rund__adj"/></e>
+<e lm="ægte">                      <i>ægte</i><par n="stille__adj"/></e>
+<e lm="elastisk">                  <i>elastisk</i><par n="glad__adj"/></e>
+<e lm="ældgammel">                 <i>ældgammel</i><par n="/gammel__adj"/></e>
+<e lm="elegant">                   <i>elegant</i><par n="glad__adj"/></e>
+<e lm="elektrisk">                 <i>elektrisk</i><par n="glad__adj"/></e>
+<e lm="elektronisk">               <i>elektronisk</i><par n="glad__adj"/></e>
+<e lm="elendig">                   <i>elendig</i><par n="lykkelig__adj"/></e>
+<e lm="ellevte">                   <i>ellevte</i><par n="første__adj"/></e>
+<e lm="elskværdig">                <i>elskverdig</i><par n="lykkelig__adj"/></e>
+<e lm="enarmet">                   <i>enarme</i><par n="øve/t__adj"/></e>
+<e lm="endelig">                   <i>endelig</i><par n="lykkelig__adj"/></e>
+<e lm="endeløs">                   <i>endeløs</i><par n="rund__adj"/></e>
+<e lm="eneansvarlig">              <i>eneansvarlig</i><par n="lykkelig__adj"/></e>
+<e lm="energisk">                  <i>energisk</i><par n="glad__adj"/></e>
+<e lm="enestående">                <i>enestående</i><par n="OK__adj"/></e>
+<e lm="snæver">                     <i>snæv</i><par n="munt/er__adj"/></e>
+<e lm="engelsk">                   <i>engelsk</i><par n="glad__adj"/></e>
+<e lm="engelsksproglig">           <i>engelsksproglig</i><par n="lykkelig__adj"/></e>
+<e lm="ængstelig">                 <i>ængstelig</i><par n="lykkelig__adj"/></e>
+<e lm="enig">                      <i>enig</i><par n="lykkelig__adj"/></e>
+<e lm="enkel">                     <i>enkel</i><par n="æd/el__adj"/></e>
+<e lm="enkelt">                    <i>enkelt</i><par n="glad__adj"/></e>
+<e lm="enkeltløbet">               <i>enkeltløbe</i><par n="øve/t__adj"/></e>
+<e lm="enkeltstående">             <i>enkeltstående</i><par n="OK__adj"/></e>
+<e lm="enorm">                     <i>enorm</i><par n="rund__adj"/></e>
+<e lm="ensidig">                   <i>ensidig</i><par n="lykkelig__adj"/></e>
+<e lm="ensom">                     <i>ensom</i><par n="grusom__adj"/></e>
+<e lm="enstemmig">                 <i>enstemmig</i><par n="lykkelig__adj"/></e>
+<e lm="entusiastisk">              <i>entusiastisk</i><par n="glad__adj"/></e>
+<e lm="entydig">                   <i>entydig</i><par n="lykkelig__adj"/></e>
+<e lm="erfaren">                   <i>erfar</i><par n="erfar/en__adj"/></e>
+
+
+
+
+
+<e lm="erotisk">                   <i>erotisk</i><par n="glad__adj"/></e>
+<e lm="erhvervsmæssig">            <i>ervhervsmæssig</i><par n="lykkelig__adj"/></e>
+<e lm="æstetisk">                  <i>æstetisk</i><par n="glad__adj"/></e>
+<e lm="etableret">                 <i>etableret</i><par n="glad__adj"/></e>
+<e lm="æterisk">                   <i>æterisk</i><par n="glad__adj"/></e>
+<e lm="eftertænksom">              <i>eftertænksom</i><par n="grusom__adj"/></e>
+<e lm="eftertragtet">              <i>eftertragte</i><par n="øve/t__adj"/></e>
+<e lm="eftertrykkelig">            <i>eftertrykkelig</i><par n="lykkelig__adj"/></e>
+<e lm="europæisk">                 <i>europæisk</i><par n="glad__adj"/></e>
+<e lm="eventuel">                  <i>eventuel</i><par n="finansiel__adj"/></e>
+<e lm="evig">                      <i>evig</i><par n="lykkelig__adj"/></e>
+<e lm="eviglang">                  <i>evigl</i><par n="l/ang__adj"/></e>
+<e lm="evigung">                   <i>evigung</i><par n="/ung__adj"/></e>
+<e lm="evindelig">                 <i>evindelig</i><par n="lykkelig__adj"/></e>
+<e lm="fabriskny">                 <i>fabriksny</i><par n="rund__adj"/></e>
+<e lm="faglig">                    <i>faglig</i><par n="lykkelig__adj"/></e>
+<e lm="fair">                      <i>fair</i><par n="OK__adj"/></e>
+<e lm="faktisk">                   <i>faktisk</i><par n="glad__adj"/></e>
+<e lm="falsk">                     <i>falsk</i><par n="rund__adj"/></e>
+<e lm="familiær">                  <i>familiær</i><par n="rund__adj"/></e>
+<e lm="famlende">                  <i>famlende</i><par n="OK__adj"/></e>
+<e lm="fandenivoldsk">             <i>fandenivoldsk</i><par n="glad__adj"/></e>
+<e lm="fantasiløs">                <i>fantasiløs</i><par n="rund__adj"/></e>
+<e lm="fantastisk">                <i>fantastisk</i><par n="glad__adj"/></e>
+
+
+
+
+<e lm="tryg">                      <i>tryg</i><par n="tryg__adj"/></e>
+<e lm="farveløs">                  <i>farveløs</i><par n="rund__adj"/></e>
+<e lm="farverig">                  <i>farverig</i><par n="rund__adj"/></e>
+<e lm="farvestrålende">            <i>farvestrålende</i><par n="OK__adj"/></e>
+<e lm="farlig">                    <i>farlig</i><par n="lykkelig__adj"/></e>
+<e lm="facadefri">                 <i>facadefri</i><par n="rund__adj"/></e>
+<e lm="fast">                      <i>fast</i><par n="glad__adj"/></e>
+<e lm="fastklemt">                 <i>fastklemt</i><par n="stolt__adj"/></e>
+<e lm="fastmonteret">              <i>fastmontere</i><par n="øve/t__adj"/></e>
+<e lm="fastslåt">                  <i>fastslået</i><par n="glad__adj"/></e>
+<e lm="fastspigret">               <i>fastspigre</i><par n="øve/t__adj"/></e>
+<e lm="fatal">                     <i>fatal</i><par n="rund__adj"/></e>
+<e lm="fattet">                    <i>fatte</i><par n="øve/t__adj"/></e>
+<e lm="fattig">                    <i>fattig</i><par n="lykkelig__adj"/></e>
+<e lm="feberfri">                  <i>feberfri</i><par n="rund__adj"/></e>
+<e lm="fej">                       <i>fej</i><par n="rund__adj"/></e>
+<e lm="forkert">                   <i>forkert</i><par n="stolt__adj"/></e>
+<e lm="fejlfri">                   <i>fejlfri</i><par n="rund__adj"/></e>
+<e lm="fejlslået">                 <i>fejlslåe</i><par n="glad__adj"/></e>
+<e lm="fed">                       <i>fed</i><par n="glad__adj"/></e>
+<e lm="fllles">                    <i>fælles</i><par n="OK__adj"/></e>
+<e lm="fælleskirkelig">            <i>fælleskirkelig</i><par n="lykkelig__adj"/></e>
+<e lm="femte">                     <i>femte</i><par n="første__adj"/></e>
+<e lm="femtende">                  <i>femtende</i><par n="første__adj"/></e>
+<e lm="femtenårig">                <i>femtenårig</i><par n="lykkelig__adj"/></e>
+<e lm="halvtredsindstyvende">      <i>halvtredsindstyvende</i><par n="første__adj"/></e>
+<e lm="femårig">                   <i>femårig</i><par n="lykkelig__adj"/></e>
+
 
      <!-- /adjectives -->
 
