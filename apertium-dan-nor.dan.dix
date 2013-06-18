@@ -141,6 +141,14 @@
     <!-- Adjectives -->
 
 
+<pardef n="første__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+</pardef>
+
+
 <pardef n="æd/el__adj">
   <e>       <p><l>lere</l>      <r>el<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>el</l>        <r>el<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -182,7 +190,6 @@
   <e>       <p><l>neste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>nest</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
-
 
 
 
@@ -319,13 +326,13 @@
 </pardef>
 
 <pardef n="sidst__adj">
-            <e><p><l></l>           <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
-            <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-            <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-            <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
-            <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-            <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-            <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+  <e><p><l></l>           <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
 
 
@@ -493,6 +500,26 @@
 <pardef n="bange__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+</pardef>
+
+
+<pardef n="OK__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+</pardef>
+
+
+
+<pardef n="øve/t__adj">
+  <e>       <p><l>tere</l>       <r>t<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l>t</l>         <r>t<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>         <r>t<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>de</l>        <r>t<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>de</l>        <r>t<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>teste</l>     <r>t<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>test</l>      <r>t<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
 
 <pardef n="besked/en__adj">
@@ -8361,6 +8388,154 @@
 <e lm="mange">           <i></i><par n="/mange__adj"/></e>
 
 
+
+<e lm="absolut">                   <i>absolut</i><par n="træt__adj"/></e>
+<e lm="adelig">                    <i>adelig</i><par n="lykkelig__adj"/></e>
+<e lm="administrativ">             <i>administrativ</i><par n="rund__adj"/></e>
+<e lm="adskillig">                 <i>adskillig</i><par n="lykkelig__adj"/></e>
+<e lm="afghansk">                  <i>afghansk</i><par n="glad__adj"/></e>
+<e lm="afrikansk">                 <i>afrikansk</i><par n="glad__adj"/></e>
+<e lm="aggressiv">                 <i>aggressiv</i><par n="rund__adj"/></e>
+<e lm="acceptabel">                <i>acceptab</i><par n="æd/el__adj"/></e>
+<e lm="aktiv">                     <i>aktiv</i><par n="rund__adj"/></e>
+<e lm="aktuel">                    <i>aktuel</i><par n="finansiel__adj"/></e>
+<e lm="akustisk">                  <i>akustisk</i><par n="glad__adj"/></e>
+<e lm="akut">                      <i>akut</i><par n="træt__adj"/></e>
+<e lm="albuelang">                 <i>albuelang</i><par n="l/ang__adj"/></e>
+<e lm="alkoholfri">                <i>alkoholfri</i><par n="rund__adj"/></e>
+<e lm="allehånde">                 <i>allehånde</i><par n="OK__adj"/></e>
+<e lm="alliancefri">               <i>alliancefri</i><par n="rund__adj"/></e>
+<e lm="almen">                     <i>almen</i><par n="rund__adj"/></e>
+<e lm="alsidig">                   <i>alsidig</i><par n="lykkelig__adj"/></e>
+<e lm="almindelig">                <i>almindelig</i><par n="lykkelig__adj"/></e>
+<e lm="alternativ">                <i>alternativ</i><par n="rund__adj"/></e>
+<e lm="alvorlig">                  <i>alvorlig</i><par n="lykkelig__adj"/></e>
+<e lm="ambitiøs">                  <i>ambitiøs</i><par n="rund__adj"/></e>
+<e lm="amerikansk">                <i>amerikansk</i><par n="glad__adj"/></e>
+<e lm="hidsig">                     <i>hidsig</i><par n="munt/er__adj"/></e>
+<e lm="analog">                    <i>analog</i><par n="rund__adj"/></e>
+<e lm="andre">                     <i>andre</i><par n="første__adj"/></e>
+<e lm="angerfri">                  <i>angerfri</i><par n="rund__adj"/></e>
+<e lm="angivelig">                 <i>angivelig</i><par n="lykkelig__adj"/></e>
+<e lm="angrebsvillig">             <i>angrebsvillig</i><par n="lykkelig__adj"/></e>
+<e lm="ankellang">                 <i>ankell</i><par n="l/ang__adj"/></e>
+<e lm="anderledes">                <i>anderledes</i><par n="OK__adj"/></e>
+<e lm="anonym">                    <i>anonym</i><par n="rund__adj"/></e>
+<e lm="anselig">                   <i>anselig</i><par n="lykkelig__adj"/></e>
+<e lm="anstændig">                 <i>anstændig</i><par n="lykkelig__adj"/></e>
+<e lm="ansvarlig">                 <i>ansvarlig</i><par n="lykkelig__adj"/></e>
+<e lm="ansvarsfri">                <i>ansvarsfri</i><par n="rund__adj"/></e>
+<e lm="ansvarshavende">            <i>ansvarshavende</i><par n="OK__adj"/></e>
+<e lm="antagelig">                 <i>antagelig</i><par n="lykkelig__adj"/></e>
+<e lm="antarktisk">                <i>antarktisk</i><par n="glad__adj"/></e>
+<e lm="anti">                      <i>anti</i><par n="OK__adj"/></e>
+<e lm="anvendt">                   <i>anvendt</i><par n="sidst__adj"/></e>
+<e lm="arbejdsfri">                <i>arbejdsfri</i><par n="rund__adj"/></e>
+<e lm="arbejdskrævende">           <i>arbejdskrævende</i><par n="OK__adj"/></e>
+<e lm="arbejdsvillig">             <i>arbejdsvillig</i><par n="lykkelig__adj"/></e>
+<e lm="arkæologisk">               <i>arkæologisk</i><par n="glad__adj"/></e>
+<e lm="arktisk">                   <i>arktisk</i><par n="glad__adj"/></e>
+<e lm="arm">                       <i>arm</i><par n="rund__adj"/></e>
+<e lm="artig">                     <i>artig</i><par n="lykkelig__adj"/></e>
+<e lm="artistisk">                 <i>artistisk</i><par n="glad__adj"/></e>
+<e lm="arvelig">                   <i>arvelig</i><par n="lykkelig__adj"/></e>
+<e lm="asbestfri">                 <i>asbestfri</i><par n="rund__adj"/></e>
+<e lm="asiatisk">                  <i>asiatisk</i><par n="glad__adj"/></e>
+<e lm="assurancefri">              <i>assurancefri</i><par n="rund__adj"/></e>
+<e lm="atletisk">                  <i>atletisk</i><par n="glad__adj"/></e>
+<e lm="atomfri">                   <i>atomfri</i><par n="rund__adj"/></e>
+<e lm="atomvåbenfri">              <i>atomvåpenfri</i><par n="rund__adj"/></e>
+<e lm="attende">                   <i>attende</i><par n="første__adj"/></e>
+<e lm="attraktiv">                 <i>attraktiv</i><par n="rund__adj"/></e>
+<e lm="østnorsk">                 <i>østnorsk</i><par n="glad__adj"/></e>
+<e lm="australsk">                 <i>australsk</i><par n="glad__adj"/></e>
+<e lm="autentisk">                 <i>autentisk</i><par n="glad__adj"/></e>
+<e lm="automatisk">                <i>automatisk</i><par n="glad__adj"/></e>
+<e lm="afdanket">                  <i>afdanke</i><par n="øve/t__adj"/></e>
+<e lm="afdragsfri">                <i>afdragsfri</i><par n="rund__adj"/></e>
+<e lm="afdød">                     <i>afdød</i><par n="rund__adj"/></e>
+<e lm="afgiftsfri">                <i>afgiftsfri</i><par n="rund__adj"/></e>
+<e lm="afgiftspligtig">            <i>afgiftspligtig</i><par n="lykkelig__adj"/></e>
+<e lm="afhængig">                  <i>afhængig</i><par n="lykkelig__adj"/></e>
+<e lm="afkørselsfri">             <i>afkørselsfri</i><par n="rund__adj"/></e>
+<e lm="aflang">                    <i>afl</i><par n="l/ang__adj"/></e>
+<e lm="afsavet">                    <i>afsave</i><par n="øve/t__adj"/></e>
+<e lm="afsides">                   <i>afsides</i><par n="OK__adj"/></e>
+<e lm="afslået">                   <i>afslåe</i><par n="øve/t__adj"/></e>
+<!--<e lm="bagre">                     <i>bagre</i><par n="bag/re__adj"/></e>-->
+<e lm="bakteriefri">               <i>bakteriefri</i><par n="rund__adj"/></e>
+<e lm="banal">                     <i>banal</i><par n="rund__adj"/></e>
+<e lm="bar">                       <i>bar</i><par n="rund__adj"/></e>
+<e lm="barbarisk">                 <i>barbarisk</i><par n="lykkelig__adj"/></e>
+<e lm="barnerig">                  <i>barnerig</i><par n="rund__adj"/></e>
+<e lm="barsk">                     <i>barsk</i><par n="rund__adj"/></e>
+<e lm="befærdet">                  <i>befærde</i><par n="øve/t__adj"/></e>
+<e lm="begivenhedsrig">            <i>begivenhedsrig</i><par n="rund__adj"/></e>
+<e lm="begribelig">                <i>begribelig</i><par n="lykkelig__adj"/></e>
+<e lm="behagelig">                 <i>behagelig</i><par n="lykkelig__adj"/></e>
+<e lm="behørig">                   <i>behørig</i><par n="lykkelig__adj"/></e>
+<e lm="lige">                      <i>lige</i><par n="stille__adj"/></e>
+<e lm="benfri">                   <i>benfri</i><par n="rund__adj"/></e>
+<e lm="benhård">                  <i>benhård</i><par n="rund__adj"/></e>
+<e lm="beklagelig">                <i>beklagelig</i><par n="lykkelig__adj"/></e>
+<e lm="bekvem">                    <i>bekvem</i><par n="ensom__adj"/></e>
+<e lm="bekymringsfri">             <i>bekymringsfri</i><par n="rund__adj"/></e>
+<e lm="belgisk">                   <i>belgisk</i><par n="glad__adj"/></e>
+<e lm="ben">                       <i>ben</i><par n="rund__adj"/></e>
+<e lm="benfri">                    <i>benfri</i><par n="rund__adj"/></e>
+<e lm="beredvillig">               <i>beredvillig</i><par n="lykkelig__adj"/></e>
+<e lm="bergensk">                  <i>bergensk</i><par n="glad__adj"/></e>
+<e lm="beruset">                   <i>beruse</i><par n="øve/t__adj"/></e>
+<e lm="berømt">                    <i>berømt</i><par n="glad__adj"/></e>
+<e lm="beskeden">                 <i>besked</i><par n="erfar/en__adj"/></e>
+<e lm="beslægtet">                 <i>beslægte</i><par n="øve/t__adj"/></e>
+<e lm="bestandig">                 <i>bestandig</i><par n="lykkelig__adj"/></e>
+<e lm="bestemt">                   <i>bestemt</i><par n="glad__adj"/></e>
+<e lm="passende">                 <i>passende</i><par n="OK__adj"/></e>
+<e lm="betragtelig">               <i>betragtelig</i><par n="lykkelig__adj"/></e>
+<e lm="betroet">                   <i>betroe</i><par n="øve/t__adj"/></e>
+<e lm="betydelig">                 <i>betydelig</i><par n="lykkelig__adj"/></e>
+<e lm="betydningsfuld">            <i>betydningsfuld</i><par n="rund__adj"/></e>
+<e lm="bevegelig">                 <i>bevegelig</i><par n="lykkelig__adj"/></e>
+<e lm="bevidstløs">                <i>bevidstløs</i><par n="rund__adj"/></e>
+<e lm="bibelsk">                   <i>bibelsk</i><par n="glad__adj"/></e>
+<e lm="bilfri">                    <i>bilfri</i><par n="rund__adj"/></e>
+<e lm="billig">                    <i>billig</i><par n="lykkelig__adj"/></e>
+<e lm="biologisk">                 <i>biologisk</i><par n="glad__adj"/></e>
+<e lm="bister">                    <i>bister</i><par n="munt/er__adj"/></e>
+<e lm="bitter">                    <i>bitter</i><par n="bit/ter__adj"/></e>
+<e lm="blakket">                   <i>blakke</i><par n="øve/t__adj"/></e>
+<e lm="blank">                     <i>blank</i><par n="rund__adj"/></e>
+<e lm="blek">                      <i>blek</i><par n="rund__adj"/></e>
+<e lm="blændfri">                  <i>blændfri</i><par n="rund__adj"/></e>
+<e lm="blid">                      <i>blid</i><par n="rund__adj"/></e>
+<e lm="blind">                     <i>blind</i><par n="rund__adj"/></e>
+<e lm="blokeringsfri">            <i>blokeringsfri</i><par n="rund__adj"/></e>
+<e lm="blond">                     <i>blond</i><par n="rund__adj"/></e>
+<e lm="blyfri">                    <i>blyfri</i><par n="rund__adj"/></e>
+<e lm="blå">                       <i>blå</i><par n="rå__adj"/></e>
+<e lm="blåhvid">                   <i>blåhvid</i><par n="rund__adj"/></e>
+<e lm="bosnisk">                   <i>bosnisk</i><par n="rund__adj"/></e>
+<e lm="bogstavelig">               <i>bogstavelig</i><par n="lykkelig__adj"/></e>
+<e lm="bomfri">                    <i>bomfri</i><par n="rund__adj"/></e>
+<e lm="borgerlig">                 <i>borgerlig</i><par n="lykkelig__adj"/></e>
+<e lm="bortrejst">                 <i>bortrejst</i><par n="glad__adj"/></e>
+<e lm="forkælet">                  <i>forkæl</i><par n="øve/t__adj"/></e>
+<e lm="bosnisk">                   <i>bosnisk</i><par n="glad__adj"/></e>
+<e lm="bramfri">                   <i>bramfri</i><par n="rund__adj"/></e>
+<e lm="brandfarlig">               <i>brandfarlig</i><par n="lykkelig__adj"/></e>
+<e lm="brasiliansk">               <i>brasiliansk</i><par n="glad__adj"/></e>
+<e lm="brat">                      <i>brat</i><par n="træt__adj"/></e>
+<e lm="bred">                      <i>bred</i><par n="rund__adj"/></e>
+<e lm="brændbar">                  <i>brændbar</i><par n="rund__adj"/></e>
+<e lm="britisk">                   <i>britisk</i><par n="glad__adj"/></e>
+<e lm="broderlig">                 <i>broderlig</i><par n="lykkelig__adj"/></e>
+<e lm="brugbar">                   <i>brugbar</i><par n="rund__adj"/></e>
+<e lm="brugervenlig">             <i>brugervenlig</i><par n="lykkelig__adj"/></e>
+
+
+     <!-- /adjectives -->
+
     <!-- Adverbs -->
 
     <!-- ******************************
@@ -9369,7 +9544,7 @@
 <e lm="vintertid">       <i>vintertid</i><par n="ikke__adv"/></e>
 <e lm="vis-à-vis">        <i>vis-à-vis</i><par n="ikke__adv"/></e>
 <e lm="klogt">          <i>klogt</i><par n="ikke__adv"/></e>
-<e lm="uden tvl">         <i>uden<b/>tvivl</i><par n="ikke__adv"/></e>
+<e lm="uden tvivl">         <i>uden<b/>tvivl</i><par n="ikke__adv"/></e>
 <e lm="vist nok">        <i>vist<b/>nok</i><par n="ikke__adv"/></e>
 <e lm="vist">            <i>vist</i><par n="ikke__adv"/></e>
 <e lm="vistnok">         <i>vistnok</i><par n="ikke__adv"/></e>
@@ -9718,17 +9893,7 @@
     <!-- Verbs  *V-->
 
 <e lm="være">            <i></i><par n="/være__vblex"/></e> <!-- sv: vara<vblex><inf><actv> -->
-<e lm="være ligeglad">   <i></i><par n="/være__vblex"/><p><l> ligeglad</l><r><g> ligeglad</g></r></p></e>
-
-
-<!-- Start of NOB transformed verbs -->
-
-<!--<e lm="stå på klem"><i>st<par n="st/å__vblex"/><p><l> på klem</l><r><g> på klem</g></r></p></e>-->
-<!--<e lm="åbne på klem"><i>åbn<par n="mal/e__vblex"/><p><l> på klem</l><r><g> på klem</g></r></p></e>-->
-
-
-
-
+<e lm="være ligeglad">   <i></i><par n="/være__vblex"/><p><l>ligeglad</l><r><g> ligeglad</g></r></p></e>
 <e lm="abandonnere">        <i>abandonner</i><par n="mal/e__vblex"/></e>
 <e lm="abbreviere">         <i>abbrevier</i><par n="mal/e__vblex"/></e>
 <e lm="abdicere">           <i>abdicer</i><par n="mal/e__vblex"/></e>
@@ -10071,8 +10236,8 @@
 <e lm="anerkende">          <i>anerkend</i><par n="tal/e__vblex"/></e>
 <e lm="anfægte">            <i>anfægt</i><par n="mal/e__vblex"/></e>
 <e lm="anføre">             <i>anfør</i><par n="tal/e__vblex"/></e>
-<e lm="angive">             <i>angiv</i><par n="mal/e__vblex"/></e>
 <e lm="angive">             <i>ang</i><par n="g/ive__vblex"/></e>
+<e lm="angive">             <i>angiv</i><par n="mal/e__vblex"/></e>
 <e lm="angle">              <i>angl</i><par n="mal/e__vblex"/></e>
 <e lm="anglicere">          <i>anglicer</i><par n="mal/e__vblex"/></e>
 <e lm="anglificere">        <i>anglificer</i><par n="mal/e__vblex"/></e>
@@ -10114,8 +10279,8 @@
 <e lm="ansvarsforsikre">    <i>ansvarsforsikr</i><par n="mal/e__vblex"/></e>
 <e lm="ansætte">            <i>ans</i><par n="s/ætte__vblex"/></e>
 <e lm="ansætte">            <i>ans</i><par n="s/ætte__vblex"/></e>
-<e lm="ansøge">             <i>ansøg</i><par n="tal/e__vblex"/></e>
 <e lm="ansøge">             <i>ansøg</i><par n="mal/e__vblex"/></e>
+<e lm="ansøge">             <i>ansøg</i><par n="tal/e__vblex"/></e>
 <e lm="antage">             <i>ant</i><par n="t/age__vblex"/></e>
 <e lm="antage">             <i>antag</i><par n="t/age__vblex"/></e>
 <e lm="antaste">            <i>antast</i><par n="mal/e__vblex"/></e>
@@ -10236,8 +10401,8 @@
 <e lm="bebygge">            <i>bebyg</i><par n="tyg/ge__vblex"/></e>
 <e lm="bebyrde">            <i>bebyrd</i><par n="mal/e__vblex"/></e>
 <e lm="bede">               <i>b</i><par n="b/ede__vblex"/></e>
-<e lm="bedrage">            <i>bedrag</i><par n="mal/e__vblex"/></e>
 <e lm="bedrage">            <i>bedr</i><par n="t/age__vblex"/></e>
+<e lm="bedrage">            <i>bedrag</i><par n="mal/e__vblex"/></e>
 <e lm="bedrøve">            <i>bedrøv</i><par n="mal/e__vblex"/></e>
 <e lm="bedyre">             <i>bedyr</i><par n="mal/e__vblex"/></e>
 <e lm="bedække">            <i>bedæk</i><par n="bræk/ke__vblex"/></e>
@@ -10356,8 +10521,8 @@
 <e lm="besjæle">            <i>besjæl</i><par n="mal/e__vblex"/></e>
 <e lm="besjæle">            <i>besjæl</i><par n="mal/e__vblex"/></e>
 <e lm="beskadige">          <i>beskadig</i><par n="mal/e__vblex"/></e>
-<e lm="beskatte">           <i>beskat</i><par n="støt/te__vblex"/></e>
 <e lm="beskatte">           <i>beskat</i><par n="byt/te__vblex"/></e>
+<e lm="beskatte">           <i>beskat</i><par n="støt/te__vblex"/></e>
 <e lm="beskikke">           <i>beskik</i><par n="bræk/ke__vblex"/></e>
 <e lm="beskinne">           <i>beskin</i><par n="dan/ne__vblex"/></e>
 <e lm="beskrive">           <i>beskr</i><par n="bl/ive__vblex"/></e>
@@ -10420,8 +10585,8 @@
 <e lm="betvivle">           <i>betvivl</i><par n="mal/e__vblex"/></e>
 <e lm="betvivle">           <i>betvivl</i><par n="mal/e__vblex"/></e>
 <e lm="betyde">             <i>bet</i><par n="bet/yde__vblex"/></e>
-<e lm="betænke">            <i>betænk</i><par n="tal/e__vblex"/></e>
 <e lm="betænke">            <i>betænk</i><par n="mal/e__vblex"/></e>
+<e lm="betænke">            <i>betænk</i><par n="tal/e__vblex"/></e>
 <e lm="beundre">            <i>beundr</i><par n="mal/e__vblex"/></e>
 <e lm="bevare">             <i>bevar</i><par n="mal/e__vblex"/></e>
 <e lm="bevidne">            <i>bevidn</i><par n="mal/e__vblex"/></e>
@@ -10512,8 +10677,8 @@
 <e lm="blødgøre">           <i>blødg</i><par n="g/øre__vblex"/></e>
 <e lm="blødkoge">           <i>blødkog</i><par n="tal/e__vblex"/></e>
 <e lm="blødlægge">          <i>blødl</i><par n="l/ægge__vblex"/></e>
-<e lm="bo">                 <i>bo</i><par n="nå__vblex"/></e>
 <e lm="bo">                 <i>bo</i><par n="mal/e__vblex"/></e>
+<e lm="bo">                 <i>bo</i><par n="nå__vblex"/></e>
 <e lm="bogføre">            <i>bogfør</i><par n="tal/e__vblex"/></e>
 <e lm="bogstavere">         <i>bogstaver</i><par n="mal/e__vblex"/></e>
 <e lm="bokse">              <i>boks</i><par n="mal/e__vblex"/></e>
@@ -10569,8 +10734,8 @@
 <e lm="briefe">             <i>brief</i><par n="mal/e__vblex"/></e>
 <e lm="briefe">             <i>brief</i><par n="mal/e__vblex"/></e>
 <e lm="brikettere">         <i>briketter</i><par n="mal/e__vblex"/></e>
-<e lm="brillere">           <i>briller</i><par n="mal/e__vblex"/></e>
 <e lm="brillere">           <i>brilleer</i><par n="mal/e__vblex"/></e>
+<e lm="brillere">           <i>briller</i><par n="mal/e__vblex"/></e>
 <e lm="bringe">             <i>br</i><par n="br/inge__vblex"/></e>
 <e lm="brise">              <i>bris</i><par n="tal/e__vblex"/></e>
 <e lm="briste">             <i>brist</i><par n="mal/e__vblex"/></e>
@@ -10603,7 +10768,6 @@
 <e lm="brændemærke">        <i>brændemærk</i><par n="mal/e__vblex"/></e>
 <e lm="brætsejle">          <i>brætsejl</i><par n="mal/e__vblex"/></e>
 <e lm="brødføde">           <i>brødfød</i><par n="tal/e__vblex"/></e>
-<e lm="genfødes">           <i>genfød</i><par n="syn/es__vblex"/></e>
 <e lm="brøle">              <i>brøl</i><par n="mal/e__vblex"/></e>
 <e lm="brøle">              <i>brøl</i><par n="mal/e__vblex"/></e>
 <e lm="bude">               <i>bud</i><par n="mal/e__vblex"/></e>
@@ -11016,13 +11180,13 @@
 <e lm="efterleve">          <i>efterlev</i><par n="mal/e__vblex"/></e>
 <e lm="efterligne">         <i>efterlign</i><par n="mal/e__vblex"/></e>
 <e lm="efterligne">         <i>efterlign</i><par n="mal/e__vblex"/></e>
-<e lm="efterlyse">          <i>efterlys</i><par n="tal/e__vblex"/></e>
 <e lm="efterlyse">          <i>efterlys</i><par n="mal/e__vblex"/></e>
+<e lm="efterlyse">          <i>efterlys</i><par n="tal/e__vblex"/></e>
 <e lm="efterprøve">         <i>efterprøv</i><par n="mal/e__vblex"/></e>
 <e lm="efterprøve">         <i>efterprøv</i><par n="mal/e__vblex"/></e>
 <e lm="efterse">            <i>efters</i><par n="s/e__vblex"/></e>
-<e lm="eftersende">         <i>eftersend</i><par n="tal/e__vblex"/></e>
 <e lm="eftersende">         <i>eftersend</i><par n="mal/e__vblex"/></e>
+<e lm="eftersende">         <i>eftersend</i><par n="tal/e__vblex"/></e>
 <e lm="efterskrive">        <i>efterskr</i><par n="bl/ive__vblex"/></e>
 <e lm="efterslukke">        <i>eftersluk</i><par n="bræk/ke__vblex"/></e>
 <e lm="efterspænde">        <i>efterspænd</i><par n="tal/e__vblex"/></e>
@@ -11030,8 +11194,8 @@
 <e lm="efterstege">         <i>eftersteg</i><par n="tal/e__vblex"/></e>
 <e lm="efterstræbe">        <i>efterstræb</i><par n="tal/e__vblex"/></e>
 <e lm="eftersynkronisere">  <i>eftersynkroniser</i><par n="mal/e__vblex"/></e>
-<e lm="eftersøge">          <i>eftersøg</i><par n="tal/e__vblex"/></e>
 <e lm="eftersøge">          <i>eftersøg</i><par n="mal/e__vblex"/></e>
+<e lm="eftersøge">          <i>eftersøg</i><par n="tal/e__vblex"/></e>
 <e lm="eftertragte">        <i>eftertragt</i><par n="mal/e__vblex"/></e>
 <e lm="efteruddanne">       <i>efteruddan</i><par n="dan/ne__vblex"/></e>
 <e lm="eftervise">          <i>eftervis</i><par n="tal/e__vblex"/></e>
@@ -11677,8 +11841,8 @@
 <e lm="frembryde">          <i>frembryd</i><par n="br/yde__vblex"/></e>
 <e lm="fremdatere">         <i>fremdater</i><par n="mal/e__vblex"/></e>
 <e lm="fremelske">          <i>fremelsk</i><par n="mal/e__vblex"/></e>
-<e lm="fremføre">           <i>fremfør</i><par n="tal/e__vblex"/></e>
 <e lm="fremføre">           <i>fremfør</i><par n="mal/e__vblex"/></e>
+<e lm="fremføre">           <i>fremfør</i><par n="tal/e__vblex"/></e>
 <e lm="fremgå">             <i>fremg</i><par n="f/å__vblex"/></e>
 <e lm="fremholde">          <i>fremhold</i><par n="hold/e__vblex"/></e>
 <e lm="fremhæve">           <i>fremhæv</i><par n="mal/e__vblex"/></e>
@@ -11827,6 +11991,7 @@
 <e lm="genetablere">        <i>genetabler</i><par n="mal/e__vblex"/></e>
 <e lm="genforene">          <i>genforen</i><par n="mal/e__vblex"/></e>
 <e lm="genforhandle">       <i>genforhandl</i><par n="mal/e__vblex"/></e>
+<e lm="genfødes">           <i>genfød</i><par n="syn/es__vblex"/></e>
 <e lm="gengive">            <i>geng</i><par n="g/ive__vblex"/></e>
 <e lm="gengælde">           <i>gengæld</i><par n="tal/e__vblex"/></e>
 <e lm="gengælde">           <i>gengæld</i><par n="tal/e__vblex"/></e>
@@ -12074,8 +12239,8 @@
 <e lm="hedde">              <i>hed</i><par n="hed/de__vblex"/></e>
 <e lm="hegne">              <i>hegn</i><par n="mal/e__vblex"/></e>
 <e lm="heile">              <i>heil</i><par n="mal/e__vblex"/></e>
-<e lm="hejse">              <i>hejs</i><par n="tal/e__vblex"/></e>
 <e lm="hejse">              <i>hejs</i><par n="mal/e__vblex"/></e>
+<e lm="hejse">              <i>hejs</i><par n="tal/e__vblex"/></e>
 <e lm="hekse">              <i>heks</i><par n="mal/e__vblex"/></e>
 <e lm="hektografere">       <i>hektografer</i><par n="mal/e__vblex"/></e>
 <e lm="helbrede">           <i>helbred</i><par n="mal/e__vblex"/></e>
@@ -12299,8 +12464,8 @@
 <e lm="indbefatte">       <i>indbefat</i><par n="byt/te__vblex"/></e>
 <e lm="indberette">       <i>indberet</i><par n="byt/te__vblex"/></e>
 <e lm="indberette">       <i>indberet</i><par n="støt/te__vblex"/></e>
-<e lm="indbetale">        <i>indbetal</i><par n="tal/e__vblex"/></e>
 <e lm="indbetale">        <i>indbetal</i><par n="mal/e__vblex"/></e>
+<e lm="indbetale">        <i>indbetal</i><par n="tal/e__vblex"/></e>
 <e lm="indbilde">         <i>indbild</i><par n="tal/e__vblex"/></e>
 <e lm="indbilde">         <i>indbild</i><par n="tal/e__vblex"/></e>
 <e lm="indblande">        <i>indbland</i><par n="mal/e__vblex"/></e>
@@ -12309,8 +12474,8 @@
 <e lm="indbygge">         <i>indbyg</i><par n="tyg/ge__vblex"/></e>
 <e lm="inddele">          <i>inddel</i><par n="tal/e__vblex"/></e>
 <e lm="inddele">          <i>inddel</i><par n="tal/e__vblex"/></e>
-<e lm="inddrage">         <i>inddrag</i><par n="mal/e__vblex"/></e>
 <e lm="inddrage">         <i>inddr</i><par n="t/age__vblex"/></e>
+<e lm="inddrage">         <i>inddrag</i><par n="mal/e__vblex"/></e>
 <e lm="inddæmme">         <i>inddæm</i><par n="svøm/me__vblex"/></e>
 <e lm="indebære">         <i>indeb</i><par n="b/ære__vblex"/></e>
 <e lm="indehave">         <i>indehave</i><par n="ha/ve__vbhaver"/></e>
@@ -12363,10 +12528,10 @@
 <e lm="indlogere">        <i>indloger</i><par n="mal/e__vblex"/></e>
 <e lm="indlåne">          <i>indlån</i><par n="tal/e__vblex"/></e>
 <e lm="indlægge">         <i>indl</i><par n="l/ægge__vblex"/></e>
-<e lm="indlære">          <i>indlær</i><par n="tal/e__vblex"/></e>
 <e lm="indlære">          <i>indlær</i><par n="mal/e__vblex"/></e>
-<e lm="indlæse">          <i>indlæs</i><par n="tal/e__vblex"/></e>
+<e lm="indlære">          <i>indlær</i><par n="tal/e__vblex"/></e>
 <e lm="indlæse">          <i>indlæs</i><par n="mal/e__vblex"/></e>
+<e lm="indlæse">          <i>indlæs</i><par n="tal/e__vblex"/></e>
 <e lm="indløse">          <i>indløs</i><par n="mal/e__vblex"/></e>
 <e lm="indmelde">         <i>indmeld</i><par n="mal/e__vblex"/></e>
 <e lm="indmontere">       <i>indmonter</i><par n="mal/e__vblex"/></e>
@@ -12389,8 +12554,8 @@
 <e lm="indregulere">      <i>indreguler</i><par n="mal/e__vblex"/></e>
 <e lm="indrejse">         <i>indrejs</i><par n="tal/e__vblex"/></e>
 <e lm="indrette">         <i>indret</i><par n="byt/te__vblex"/></e>
-<e lm="indrette">         <i>indret</i><par n="støt/te__vblex"/></e>
 <e lm="indrette">         <i>indret</i><par n="byt/te__vblex"/></e>
+<e lm="indrette">         <i>indret</i><par n="støt/te__vblex"/></e>
 <e lm="indridse">         <i>indrids</i><par n="mal/e__vblex"/></e>
 <e lm="indrullere">       <i>indruller</i><par n="mal/e__vblex"/></e>
 <e lm="indrømme">         <i>indrøm</i><par n="kom/me__vblex"/></e>
@@ -12398,8 +12563,8 @@
 <e lm="indsamle">         <i>indsaml</i><par n="mal/e__vblex"/></e>
 <e lm="indse">            <i>inds</i><par n="s/e__vblex"/></e>
 <e lm="indsejle">         <i>indsejl</i><par n="mal/e__vblex"/></e>
-<e lm="indsende">         <i>indsend</i><par n="tal/e__vblex"/></e>
 <e lm="indsende">         <i>indsend</i><par n="mal/e__vblex"/></e>
+<e lm="indsende">         <i>indsend</i><par n="tal/e__vblex"/></e>
 <e lm="indskibe">         <i>indskib</i><par n="mal/e__vblex"/></e>
 <e lm="indskrive">        <i>indskriv</i><par n="bl/ive__vblex"/></e>
 <e lm="indskrænke">       <i>indskrænk</i><par n="mal/e__vblex"/></e>
@@ -12426,8 +12591,8 @@
 <e lm="indtale">          <i>indtal</i><par n="tal/e__vblex"/></e>
 <e lm="indtaste">         <i>indtast</i><par n="mal/e__vblex"/></e>
 <e lm="indtegne">         <i>indtegn</i><par n="mal/e__vblex"/></e>
-<e lm="indtjene">         <i>indtjen</i><par n="tal/e__vblex"/></e>
 <e lm="indtjene">         <i>indtjen</i><par n="mal/e__vblex"/></e>
+<e lm="indtjene">         <i>indtjen</i><par n="tal/e__vblex"/></e>
 <e lm="indtægtsføre">     <i>indtægtsfør</i><par n="tal/e__vblex"/></e>
 <e lm="indtægtsgradere">  <i>indtægtsgrader</i><par n="mal/e__vblex"/></e>
 <e lm="inducere">         <i>inducer</i><par n="mal/e__vblex"/></e>
@@ -12461,8 +12626,8 @@
 <e lm="injicere">   <i>injicer</i><par n="mal/e__vblex"/></e>
 <e lm="injuriere">  <i>injurier</i><par n="mal/e__vblex"/></e>
 <e lm="inkarnere">  <i>inkarner</i><par n="mal/e__vblex"/></e>
-<e lm="inkassere">  <i>inkasser</i><par n="mal/e__vblex"/></e>
 <e lm="inkassere">  <i>indkasser</i><par n="mal/e__vblex"/></e>
+<e lm="inkassere">  <i>inkasser</i><par n="mal/e__vblex"/></e>
 <e lm="inklinere">  <i>inkliner</i><par n="mal/e__vblex"/></e>
 <e lm="inkludere">  <i>inkluder</i><par n="mal/e__vblex"/></e>
 <e lm="inkorporere"><i>inkorporer</i><par n="mal/e__vblex"/></e>
@@ -13069,8 +13234,8 @@
 <e lm="lude">               <i>lud</i><par n="mal/e__vblex"/></e>
 <e lm="lufte">              <i>luft</i><par n="mal/e__vblex"/></e>
 <e lm="lufttørre">          <i>lufttør</i><par n="tør/re__vblex"/></e>
-<e lm="luge">               <i>lug</i><par n="tal/e__vblex"/></e>
 <e lm="luge">               <i>lug</i><par n="mal/e__vblex"/></e>
+<e lm="luge">               <i>lug</i><par n="tal/e__vblex"/></e>
 <e lm="lugte">              <i>lugt</i><par n="mal/e__vblex"/></e>
 <e lm="lukke">              <i>luk</i><par n="bræk/ke__vblex"/></e>
 <e lm="lukrere">            <i>lukrer</i><par n="mal/e__vblex"/></e>
@@ -13217,8 +13382,8 @@
 <e lm="miljømærke">         <i>miljømærk</i><par n="mal/e__vblex"/></e>
 <e lm="mime">               <i>mim</i><par n="mal/e__vblex"/></e>
 <e lm="mimre">              <i>mimr</i><par n="mal/e__vblex"/></e>
-<e lm="minde">              <i>mind</i><par n="mal/e__vblex"/></e>
 <e lm="minde">              <i>mind</i><par n="dan/ne__vblex"/></e>
+<e lm="minde">              <i>mind</i><par n="mal/e__vblex"/></e>
 <e lm="mindske">            <i>mindsk</i><par n="mal/e__vblex"/></e>
 <e lm="mindske">            <i>mindske</i><par n="mal/e__vblex"/></e>
 <e lm="minelægge">          <i>minel</i><par n="l/ægge__vblex"/></e>
@@ -13424,8 +13589,8 @@
 <e lm="nægte">              <i>nægt</i><par n="mal/e__vblex"/></e>
 <e lm="nænne">              <i>næn</i><par n="dan/ne__vblex"/></e>
 <e lm="nære">               <i>nær</i><par n="mal/e__vblex"/></e>
-<e lm="nærlæse">            <i>nærlæs</i><par n="tal/e__vblex"/></e>
 <e lm="nærlæse">            <i>nærlæs</i><par n="mal/e__vblex"/></e>
+<e lm="nærlæse">            <i>nærlæs</i><par n="tal/e__vblex"/></e>
 <e lm="nærme">              <i>nærm</i><par n="mal/e__vblex"/></e>
 <e lm="næse">               <i>næs</i><par n="tal/e__vblex"/></e>
 <e lm="nævne">              <i>nævn</i><par n="nævn/e__vblex"/></e>
@@ -13589,8 +13754,8 @@
 <e lm="opremse">            <i>oprems</i><par n="mal/e__vblex"/></e>
 <e lm="opretholde">         <i>oprethold</i><par n="tal/e__vblex"/></e>
 <e lm="oprette">            <i>opret</i><par n="byt/te__vblex"/></e>
-<e lm="oprette">            <i>opret</i><par n="støt/te__vblex"/></e>
 <e lm="oprette">            <i>opret</i><par n="byt/te__vblex"/></e>
+<e lm="oprette">            <i>opret</i><par n="støt/te__vblex"/></e>
 <e lm="opridse">            <i>oprids</i><par n="mal/e__vblex"/></e>
 <e lm="opruste">            <i>oprust</i><par n="mal/e__vblex"/></e>
 <e lm="oprømme">            <i>oprøm</i><par n="stem/me__vblex"/></e>
@@ -13616,8 +13781,8 @@
 <e lm="optanke">            <i>optank</i><par n="mal/e__vblex"/></e>
 <e lm="optere">             <i>opter</i><par n="mal/e__vblex"/></e>
 <e lm="optimere">           <i>optimer</i><par n="mal/e__vblex"/></e>
-<e lm="optjene">            <i>optjen</i><par n="tal/e__vblex"/></e>
 <e lm="optjene">            <i>optjen</i><par n="mal/e__vblex"/></e>
+<e lm="optjene">            <i>optjen</i><par n="tal/e__vblex"/></e>
 <e lm="optrappe">           <i>optrap</i><par n="dyp/pe__vblex"/></e>
 <e lm="optræde">            <i>optr</i><par n="tr/æde__vblex"/></e>
 <e lm="optrævle">           <i>optrævl</i><par n="mal/e__vblex"/></e>
@@ -13678,16 +13843,16 @@
 <e lm="overkomme">          <i>overkomm</i><par n="kom/me__vblex"/></e>
 <e lm="overkompensere">     <i>overkompenser</i><par n="mal/e__vblex"/></e>
 <e lm="overkøre">           <i>overkør</i><par n="mal/e__vblex"/></e>
-<e lm="overlade">           <i>overlad</i><par n="tal/e__vblex"/></e>
 <e lm="overlade">           <i>overd</i><par n="l/ade__vblex"/></e>
+<e lm="overlade">           <i>overlad</i><par n="tal/e__vblex"/></e>
 <e lm="overlappe">          <i>overlap</i><par n="dyp/pe__vblex"/></e>
 <e lm="overlaste">          <i>overlast</i><par n="mal/e__vblex"/></e>
 <e lm="overleve">           <i>overlev</i><par n="mal/e__vblex"/></e>
 <e lm="overlevere">         <i>overlever</i><par n="mal/e__vblex"/></e>
 <e lm="overliste">          <i>overlist</i><par n="mal/e__vblex"/></e>
 <e lm="overlægge">          <i>overl</i><par n="l/ægge__vblex"/></e>
-<e lm="overlæsse">          <i>overlæs</i><par n="kys/se__vblex"/></e>
 <e lm="overlæsse">          <i>overl</i><par n="kys/se__vblex"/></e>
+<e lm="overlæsse">          <i>overlæs</i><par n="kys/se__vblex"/></e>
 <e lm="overmale">           <i>overmal</i><par n="mal/e__vblex"/></e>
 <e lm="overmande">          <i>overmand</i><par n="mal/e__vblex"/></e>
 <e lm="overmøblere">        <i>overmøbler</i><par n="mal/e__vblex"/></e>
@@ -13817,8 +13982,8 @@
 <e lm="pigmentere">         <i>pigmenter</i><par n="mal/e__vblex"/></e>
 <e lm="pikke">              <i>pik</i><par n="bræk/ke__vblex"/></e>
 <e lm="pilke">              <i>pilk</i><par n="mal/e__vblex"/></e>
-<e lm="pille">              <i>pil</i><par n="rul/le__vblex"/></e>
 <e lm="pille">              <i>pell</i><par n="rul/le__vblex"/></e>
+<e lm="pille">              <i>pil</i><par n="rul/le__vblex"/></e>
 <e lm="pilotere">           <i>piloter</i><par n="mal/e__vblex"/></e>
 <e lm="pimpe">              <i>pimp</i><par n="mal/e__vblex"/></e>
 <e lm="pine">               <i>pin</i><par n="tal/e__vblex"/></e>
@@ -13850,8 +14015,8 @@
 <e lm="pleje">              <i>plej</i><par n="mal/e__vblex"/></e>
 <e lm="pleje">              <i>plej</i><par n="mal/e__vblex"/></e>
 <e lm="plette">             <i>plet</i><par n="byt/te__vblex"/></e>
-<e lm="plette">             <i>plet</i><par n="støt/te__vblex"/></e>
 <e lm="plette">             <i>plet</i><par n="byt/te__vblex"/></e>
+<e lm="plette">             <i>plet</i><par n="støt/te__vblex"/></e>
 <e lm="plettere">           <i>pletter</i><par n="mal/e__vblex"/></e>
 <e lm="plinge">             <i>pling</i><par n="mal/e__vblex"/></e>
 <e lm="plissere">           <i>plisser</i><par n="mal/e__vblex"/></e>
@@ -13887,8 +14052,8 @@
 <e lm="poppe">              <i>pop</i><par n="dyp/pe__vblex"/></e>
 <e lm="popularisere">       <i>populariser</i><par n="mal/e__vblex"/></e>
 <e lm="portrættere">        <i>portrætter</i><par n="mal/e__vblex"/></e>
-<e lm="pose">               <i>pos</i><par n="tal/e__vblex"/></e>
 <e lm="pose">               <i>pos</i><par n="mal/e__vblex"/></e>
+<e lm="pose">               <i>pos</i><par n="tal/e__vblex"/></e>
 <e lm="posere">             <i>poser</i><par n="mal/e__vblex"/></e>
 <e lm="positionere">        <i>positioner</i><par n="mal/e__vblex"/></e>
 <e lm="postdatere">         <i>postdater</i><par n="mal/e__vblex"/></e>
@@ -14199,8 +14364,8 @@
 <e lm="retkende">           <i>retkend</i><par n="tal/e__vblex"/></e>
 <e lm="retouchere">         <i>retoucher</i><par n="mal/e__vblex"/></e>
 <e lm="rette">              <i>ret</i><par n="byt/te__vblex"/></e>
-<e lm="rette">              <i>ret</i><par n="støt/te__vblex"/></e>
 <e lm="rette">              <i>ret</i><par n="byt/te__vblex"/></e>
+<e lm="rette">              <i>ret</i><par n="støt/te__vblex"/></e>
 <e lm="returnere">          <i>returner</i><par n="mal/e__vblex"/></e>
 <e lm="revaluere">          <i>revaluer</i><par n="mal/e__vblex"/></e>
 <e lm="revanchere">         <i>revancher</i><par n="mal/e__vblex"/></e>
@@ -14413,8 +14578,8 @@
 <e lm="sidde">              <i>s</i><par n="s/idde__vblex"/></e>
 <e lm="sidejustere">        <i>sidejuster</i><par n="mal/e__vblex"/></e>
 <e lm="sideordne">          <i>sideordn</i><par n="mal/e__vblex"/></e>
-<e lm="sidestille">         <i>sidestil</i><par n="rul/le__vblex"/></e>
 <e lm="sidestille">         <i>sidestil</i><par n="bestil/le__vblex"/></e>
+<e lm="sidestille">         <i>sidestil</i><par n="rul/le__vblex"/></e>
 <e lm="sidse">              <i>sids</i><par n="tal/e__vblex"/></e>
 <e lm="sige">               <i>s</i><par n="s/ige__vblex"/></e>
 <e lm="signalere">          <i>signaler</i><par n="mal/e__vblex"/></e>
@@ -14484,8 +14649,8 @@
 <e lm="skitsere">           <i>skitser</i><par n="mal/e__vblex"/></e>
 <e lm="skive">              <i>skiv</i><par n="mal/e__vblex"/></e>
 <e lm="skjolde">            <i>skkold</i><par n="mal/e__vblex"/></e>
-<e lm="skjule">             <i>skjul</i><par n="tal/e__vblex"/></e>
 <e lm="skjule">             <i>skjul</i><par n="mal/e__vblex"/></e>
+<e lm="skjule">             <i>skjul</i><par n="tal/e__vblex"/></e>
 <e lm="sko">                <i>sko</i><par n="nå__vblex"/></e>
 <e lm="skoggerle">          <i>skoggerl</i><par n="l/e__vblex"/></e>
 <e lm="skolde">             <i>skold</i><par n="mal/e__vblex"/></e>
@@ -14829,8 +14994,8 @@
 <e lm="stemme">             <i>stem</i><par n="stem/me__vblex"/></e>
 <e lm="stemple">            <i>stempl</i><par n="mal/e__vblex"/></e>
 <e lm="stencilere">         <i>stenciler</i><par n="mal/e__vblex"/></e>
-<e lm="stene">              <i>sten</i><par n="mal/e__vblex"/></e>
 <e lm="stene">              <i>stein</i><par n="mal/e__vblex"/></e>
+<e lm="stene">              <i>sten</i><par n="mal/e__vblex"/></e>
 <e lm="stenlægge">          <i>stenl</i><par n="l/ægge__vblex"/></e>
 <e lm="stenografere">       <i>stenografer</i><par n="mal/e__vblex"/></e>
 <e lm="stensætte">          <i>stens</i><par n="s/ætte__vblex"/></e>
@@ -15092,13 +15257,13 @@
 <e lm="tigge">              <i>tig</i><par n="tyg/ge__vblex"/></e>
 <e lm="tigge">              <i>tig</i><par n="tyg/ge__vblex"/></e>
 <e lm="tikke">              <i>tik</i><par n="bræk/ke__vblex"/></e>
-<e lm="tilbagebetale">      <i>tilbagebetal</i><par n="tal/e__vblex"/></e>
 <e lm="tilbagebetale">      <i>tilbagebetal</i><par n="mal/e__vblex"/></e>
+<e lm="tilbagebetale">      <i>tilbagebetal</i><par n="tal/e__vblex"/></e>
 <e lm="tilbageføre">        <i>tilbagefør</i><par n="tal/e__vblex"/></e>
 <e lm="tilbageføre">        <i>tilbagefør</i><par n="tal/e__vblex"/></e>
 <e lm="tilbageføre">        <i>tilbagefør</i><par n="tal/e__vblex"/></e>
-<e lm="tilbageholde">       <i>tilbagehold</i><par n="tal/e__vblex"/></e>
 <e lm="tilbageholde">       <i>tilbageho</i><par n="hold/e__vblex"/></e>
+<e lm="tilbageholde">       <i>tilbagehold</i><par n="tal/e__vblex"/></e>
 <e lm="tilbagekalde">       <i>tilbagekald</i><par n="tal/e__vblex"/></e>
 <e lm="tilbagelevere">      <i>tilbagelever</i><par n="mal/e__vblex"/></e>
 <e lm="tilbagelevere">      <i>tilbagelever</i><par n="mal/e__vblex"/></e>
@@ -15133,8 +15298,8 @@
 <e lm="tilkomme">           <i>tilkom</i><par n="kom/me__vblex"/></e>
 <e lm="tilkæmpe">           <i>tilkæmp</i><par n="mal/e__vblex"/></e>
 <e lm="tilkøre">            <i>tilkør</i><par n="mal/e__vblex"/></e>
-<e lm="tillade">            <i>till</i><par n="till/ade__vblex"/></e>
 <e lm="tillade">            <i>till</i><par n="l/ade__vblex"/></e>
+<e lm="tillade">            <i>till</i><par n="till/ade__vblex"/></e>
 <e lm="tille">              <i>till</i><par n="mal/e__vblex"/></e>
 <e lm="tillempe">           <i>tillemp</i><par n="mal/e__vblex"/></e>
 <e lm="tillyse">            <i>tillys</i><par n="mal/e__vblex"/></e>
@@ -15376,8 +15541,8 @@
 <e lm="udbasunere">         <i>udbasuner</i><par n="mal/e__vblex"/></e>
 <e lm="udbede">             <i>udb</i><par n="b/ede__vblex"/></e>
 <e lm="udbedre">            <i>udbedr</i><par n="mal/e__vblex"/></e>
-<e lm="udbetale">           <i>udbetal</i><par n="tal/e__vblex"/></e>
 <e lm="udbetale">           <i>udbetal</i><par n="mal/e__vblex"/></e>
+<e lm="udbetale">           <i>udbetal</i><par n="tal/e__vblex"/></e>
 <e lm="udbombe">            <i>udbomb</i><par n="mal/e__vblex"/></e>
 <e lm="udbrede">            <i>udbred</i><par n="tal/e__vblex"/></e>
 <e lm="udbrede">            <i>udbred</i><par n="tal/e__vblex"/></e>
@@ -15399,8 +15564,8 @@
 <e lm="udeglemme">          <i>udeglem</i><par n="stem/me__vblex"/></e>
 <e lm="udeksaminere">       <i>udeksaminer</i><par n="mal/e__vblex"/></e>
 <e lm="udeksperimentere">   <i>udeksperimenter</i><par n="mal/e__vblex"/></e>
-<e lm="udelade">            <i>udelad</i><par n="tal/e__vblex"/></e>
 <e lm="udelade">            <i>udel</i><par n="l/ade__vblex"/></e>
+<e lm="udelade">            <i>udelad</i><par n="tal/e__vblex"/></e>
 <e lm="udelukke">           <i>udeluk</i><par n="bræk/ke__vblex"/></e>
 <e lm="udfase">             <i>udfas</i><par n="mal/e__vblex"/></e>
 <e lm="udfissionere">       <i>udfissioner</i><par n="mal/e__vblex"/></e>
@@ -15486,8 +15651,8 @@
 <e lm="udråbe">             <i>udråb</i><par n="tal/e__vblex"/></e>
 <e lm="udråbe">             <i>udråb</i><par n="tal/e__vblex"/></e>
 <e lm="udse">               <i>uds</i><par n="s/e__vblex"/></e>
-<e lm="udsende">            <i>udsend</i><par n="tal/e__vblex"/></e>
 <e lm="udsende">            <i>udsend</i><par n="mal/e__vblex"/></e>
+<e lm="udsende">            <i>udsend</i><par n="tal/e__vblex"/></e>
 <e lm="udsige">             <i>udsig</i><par n="tal/e__vblex"/></e>
 <e lm="udskifte">           <i>udskift</i><par n="mal/e__vblex"/></e>
 <e lm="udskrive">           <i>udskr</i><par n="bl/ive__vblex"/></e>
