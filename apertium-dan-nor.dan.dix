@@ -88,133 +88,89 @@
 
   <pardefs>
 
-
-         <!-- Compounding pardefs. -->
+        <!-- Compounding pardefs. -->
 <!-- The cmp tag may be added by transfer to sg.ind forms. Even nouns
      that can't be analysed in compounds, can be generated in
      compounds, and need to be able to make the sg.ind.cmp form.
      Ø-ep... outputs no epenthetic if used as compound-L -->
-
 <pardef n="no-cp\Ø\S__case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r></r></p></e>
+  <e>       <p><l>s</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="no-cp\Ø\'s__case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>'s</l>        <r><s n="gen"/></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r></r></p></e>
+  <e>       <p><l>'s</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="no-cp\Ø\'__case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r></r></p></e>
+  <e>       <p><l>'</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="no-cp\s\S__case">
-  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+  <e r="RL"><p><l>s</l>      <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r></r></p></e>
+  <e>       <p><l>s</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 
 <!-- These compound pardefs are for nouns that can also be analysed as
      parts of compounds (if using lt-proc -e option). The
-     cp-(only-)L... and cp-both... ones are used for sg.ind forms, and
-     thus need to be able to generate the sg.ind.cmp form too -->
-
-<pardef n="cp-R" c="cp-R, for forms that can end compounds or be words on their own">
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-</pardef>
-
-<pardef n="cp-L" c="cp-L, for forms that can only form parts of compounds">
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-</pardef>
-
-
-<pardef n="cp-L\Ø\S__case" c="cp-L, for forms that can start compounds or be words on their own">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+     cp-both... ones are used for sg.ind forms, and thus need to be
+     able to generate the sg.ind.cmp form too -->
+<pardef n="cp-R" c="cp-R, for forms that can only end compounds">
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
+   <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 
 <pardef n="cp-both\Ø_LR_s\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+   <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="cp-both\Ø_LR_s\'__case" c="As above, but with ' in the genitive case.">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+   <e r="RL"><p><l></l>         <r><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
+   <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
-
-<pardef n="cp-both\e\S__case" c="cp-L and cp-R. Analyse only -e- in compounds, generate -e- if cp-L">
-  <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>e-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+<pardef n="cp-both\s_LR_Ø\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -s- if cp-L">
+   <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
-<pardef n="cp-both\s\S__case" c="cp-L and cp-R. Analyse only -s- in compounds, generate -s- if cp-L">
-  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\s\'__case" c="As above, but with ' in the genitive case">
-  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\Ø\S__case" c="cp-L and cp-R. Analyse only -Ø- in compounds, generate -Ø- if cp-L">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\Ø\'__case" c="As above, but with ' in the genitive case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+<pardef n="cp-both\s_LR_Ø\'__case" c="As above, but with ' in the genitive case">
+   <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
+   <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
-
+<pardef n="cp-both\e_LR_Ø\S__case" c="cp-L and cp-R. Analyse -Ø- and -e- in compounds, generate -e- if cp-L">
+   <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
+   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
 
 
     <!-- Punctuation -->
@@ -1368,6 +1324,8 @@
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
 </pardef>
+
+
 
 
  <!-- /ported and changed NOB pardefs-->
@@ -3633,19 +3591,7 @@
   <e a="PT" c="mina"><p><l></l> <r><s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></r></p></e>
 </pardef>
 
-    <!-- Proper nouns -->
 
-<pardef n="S__case___mergeTODO"> <!-- Case endings for nouns not ending on s (mand / mands) -->
-  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p><par n="cp-L"/></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="apos__case___mergeTODO"> <!-- Case endings for nouns ending on s (hus / hus' ) -->
-  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p><par n="cp-L"/></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-</pardef>
 
     <!-- Abbreviations -->
 
@@ -4458,6 +4404,9 @@
 
 
     <!-- *Nouns -->
+
+
+<e lm="aberration">        <i>aberration</i><par n="ep_\s__n"/></e>
 <e lm="bedste">            <i>bedste</i><par n="alibi__n"/></e>
 <e lm="fred">            <i>fred</i><par n="bold__n"/></e>
 <e lm="kæft">            <i>kæft</i><par n="bold__n"/></e>
@@ -8127,6 +8076,12 @@
 <e lm="ørn">             <i>ørn</i><par n="bold__n"/></e>
 <e lm="ørred">           <i>ørred</i><par n="ateist__n"/></e>
 <e lm="øvelse">          <i>øvelse</i><par n="abe__n"/></e>
+
+
+ <!-- /nouns -->
+
+
+
     <!-- ******************************
           group cnjcoo
       ****************************** -->
