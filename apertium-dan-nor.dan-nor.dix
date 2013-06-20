@@ -5485,7 +5485,7 @@
 <e><p><l>dårlig<s n="adj"/></l>                      <r>vond<s n="adj"/></r></p></e>
 <e><p><l>vrangvillig<s n="adj"/></l>               <r>vrangvillig<s n="adj"/></r></p></e>
 <e><p><l>vunden<s n="adj"/></l>                    <r>vunnen<s n="adj"/></r></p></e>
-<e><p><l>våt<s n="adj"/></l>                       <r>våt<s n="adj"/></r></p></e>
+<e><p><l>våd<s n="adj"/></l>                       <r>våt<s n="adj"/></r></p></e>
 <e><p><l>vrøvlet<s n="adj"/></l>                       <r>våset<s n="adj"/></r></p></e>
 <e><p><l>vejrbidt<s n="adj"/></l>                   <r>værhard<s n="adj"/></r></p></e>
 <e><p><l>forskellig<s n="adj"/></l>         <r>ymse<s n="adj"/></r></p></e>
@@ -14074,7 +14074,6 @@ s<e><p><l>skide<s n="vblex"/></l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>regere<s n="vblex"/></l>       <r>styre</r></p><par n="generic__vblex"/></e>
 <e><p><l>regionalisere<s n="vblex"/></l><r>regionalise</r></p><par n="generic__vblex"/></e>
 <e><p><l>registrere<s n="vblex"/></l>   <r>registrere</r></p><par n="generic__vblex"/></e>
-<e><p><l>regulere<s n="vblex"/></l>     <r>regulere</r></p><par n="generic__vblex"/></e>
 <e><p><l>rejse<s n="vblex"/></l>        <r>reise</r></p><par n="generic__vblex"/></e>
 <e><p><l>reklamere<s n="vblex"/></l>    <r>annonsere</r></p><par n="generic__vblex"/></e>
 <e><p><l>rekruttere<s n="vblex"/></l>   <r>rekruttere</r></p><par n="generic__vblex"/></e>

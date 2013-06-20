@@ -88,6 +88,135 @@
 
   <pardefs>
 
+
+         <!-- Compounding pardefs. -->
+<!-- The cmp tag may be added by transfer to sg.ind forms. Even nouns
+     that can't be analysed in compounds, can be generated in
+     compounds, and need to be able to make the sg.ind.cmp form.
+     Ø-ep... outputs no epenthetic if used as compound-L -->
+
+<pardef n="no-cp\Ø\S__case">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="no-cp\Ø\'s__case">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>'s</l>        <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="no-cp\Ø\'__case">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+
+<pardef n="no-cp\s\S__case">
+  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+
+<!-- These compound pardefs are for nouns that can also be analysed as
+     parts of compounds (if using lt-proc -e option). The
+     cp-(only-)L... and cp-both... ones are used for sg.ind forms, and
+     thus need to be able to generate the sg.ind.cmp form too -->
+
+<pardef n="cp-R" c="cp-R, for forms that can end compounds or be words on their own">
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+</pardef>
+
+<pardef n="cp-L" c="cp-L, for forms that can only form parts of compounds">
+  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+</pardef>
+
+
+<pardef n="cp-L\Ø\S__case" c="cp-L, for forms that can start compounds or be words on their own">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+</pardef>
+
+<pardef n="cp-both\Ø_LR_s\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="cp-both\Ø_LR_s\'__case" c="As above, but with ' in the genitive case.">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+
+
+<pardef n="cp-both\e\S__case" c="cp-L and cp-R. Analyse only -e- in compounds, generate -e- if cp-L">
+  <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>e-</l>        <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="cp-both\s\S__case" c="cp-L and cp-R. Analyse only -s- in compounds, generate -s- if cp-L">
+  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="cp-both\s\'__case" c="As above, but with ' in the genitive case">
+  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="cp-both\Ø\S__case" c="cp-L and cp-R. Analyse only -Ø- in compounds, generate -Ø- if cp-L">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="cp-both\Ø\'__case" c="As above, but with ' in the genitive case">
+  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
+  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+
+
+
+
     <!-- Punctuation -->
 
 <pardef n="numeros">
@@ -1228,6 +1357,21 @@
 
 
     <!-- Nouns -->
+
+
+ <!-- ported and changed NOB pardefs-->
+
+
+<pardef n="ep_\s__n">
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
+</pardef>
+
+
+ <!-- /ported and changed NOB pardefs-->
+
 
 
 <pardef n="år__n" c="autoconcord:nt,sp"> <!-- Neuter; ~ / ~et / ~ / ~ene -->
@@ -3394,132 +3538,7 @@
   <e>       <p><l>ttet</l>      <r>tte<s n="vaux"/><s n="pp"/></r></p></e>
 </pardef>
 
-          <!-- Compounding pardefs. -->
-<!-- The cmp tag may be added by transfer to sg.ind forms. Even nouns
-     that can't be analysed in compounds, can be generated in
-     compounds, and need to be able to make the sg.ind.cmp form.
-     Ø-ep... outputs no epenthetic if used as compound-L -->
 
-
-<!-- ====== HERE AND BELOW ARE ADDITIONS FROM SECOND FILE====== -->
-
-<pardef n="no-cp\Ø\S__case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="no-cp\Ø\'s__case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>'s</l>        <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="no-cp\Ø\'__case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-
-<pardef n="no-cp\s\S__case">
-  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-
-<!-- These compound pardefs are for nouns that can also be analysed as
-     parts of compounds (if using lt-proc -e option). The
-     cp-(only-)L... and cp-both... ones are used for sg.ind forms, and
-     thus need to be able to generate the sg.ind.cmp form too -->
-<pardef n="cp-R" c="cp-R, for forms that can end compounds or be words on their own">
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-</pardef>
-
-<pardef n="cp-L" c="cp-L, for forms that can only form parts of compounds">
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-</pardef>
-
-
-<pardef n="cp-L\Ø\S__case" c="cp-L, for forms that can start compounds or be words on their own">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-  <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-</pardef>
-
-<pardef n="cp-both\Ø_LR_s\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\Ø_LR_s\'__case" c="As above, but with ' in the genitive case.">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-
-
-<pardef n="cp-both\e\S__case" c="cp-L and cp-R. Analyse only -e- in compounds, generate -e- if cp-L">
-  <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>e-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\s\S__case" c="cp-L and cp-R. Analyse only -s- in compounds, generate -s- if cp-L">
-  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\s\'__case" c="As above, but with ' in the genitive case">
-  <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\Ø\S__case" c="cp-L and cp-R. Analyse only -Ø- in compounds, generate -Ø- if cp-L">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-</pardef>
-<pardef n="cp-both\Ø\'__case" c="As above, but with ' in the genitive case">
-  <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-  <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-  <e>       <p><l></l>          <r></r></p></e>
-  <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
-  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-</pardef>
 
     <!-- Punctuation -->
 
@@ -3797,8 +3816,8 @@
       ****************************** -->
 
 <e lm="a">            <i>a</i><par n="på__pr"/></e>
-<e lm="agterfor">     <i>agtetfor</i><par n="på__pr"/></e>
-<e lm="agterfra">     <i>agtetfra</i><par n="på__pr"/></e>
+<e lm="agterfor">     <i>agterfor</i><par n="på__pr"/></e>
+<e lm="agterfra">     <i>agterfra</i><par n="på__pr"/></e>
 <e lm="agterom">      <i>agterom</i><par n="på__pr"/></e>
 <e lm="agter">        <i>agter</i><par n="på__pr"/></e>
 <e lm="agterind">     <i>agterind</i><par n="på__pr"/></e>
@@ -3810,24 +3829,24 @@
 <e lm="allestedshen"> <i>allestedshen</i><par n="på__pr"/></e>
 <e lm="angående">     <i>angående</i><par n="på__pr"/></e>
 <e lm="andetsteds">   <i>andetsteds</i><par n="på__pr"/></e>
-<e lm="andetstedsfra"><i>andetsteds fra</i><par n="på__pr"/></e>
-<e lm="andetstedshen"><i>andetsteds hen</i><par n="på__pr"/></e>
-<e lm="andetstedsfra"><i>andetsteds fra</i><par n="på__pr"/></e>
+<e lm="andetstedsfra"><i>andetsteds<b/>fra</i><par n="på__pr"/></e>
+<e lm="andetstedshen"><i>andetsteds<b/>hen</i><par n="på__pr"/></e>
+<e lm="andetstedsfra"><i>andetsteds<b/>fra</i><par n="på__pr"/></e>
 <e lm="anno">         <i>anno</i><par n="på__pr"/></e>
-<e lm="bag">          <i>att</i><par n="på__pr"/></e>
+<e lm="bag">          <i>bag</i><par n="på__pr"/></e>
 <e lm="bagom">        <i>bagom</i><par n="på__pr"/></e>
 <e lm="bagpå">        <i>bagpå</i><par n="på__pr"/></e>
 <e lm="tillige">        <i>tillige</i><par n="på__pr"/></e>
 <e lm="øst">         <i>øst</i><par n="på__pr"/></e>
-<e lm="fra øst">      <i>fra øst</i><par n="på__pr"/></e>
-<e lm="øst for fjeldet">  <i>øst for fjeldet</i><par n="på__pr"/></e>
-<e lm="øst for">    <i>øst for</i><par n="på__pr"/></e>
+<e lm="fra øst">      <i>fra<b/>øst</i><par n="på__pr"/></e>
+<e lm="øst for fjeldet">  <i>øst<b/>for<b/>fjeldet</i><par n="på__pr"/></e>
+<e lm="øst for">    <i>øst<b/>for</i><par n="på__pr"/></e>
 <e lm="østom">     <i>østom</i><par n="på__pr"/></e>
 <e lm="østover">     <i>østover</i><par n="på__pr"/></e>
 <e lm="østpå">       <i>østpå</i><par n="på__pr"/></e>
-<e lm="af dette">     <i>af dette</i><par n="på__pr"/></e>
+<e lm="af dette">     <i>af<b/>dette</i><par n="på__pr"/></e>
 <e lm="af">           <i>af</i><par n="på__pr"/></e>
-<e lm="af sted">      <i>af sted</i><par n="på__pr"/></e>
+<e lm="af sted">      <i>af<b/>sted</i><par n="på__pr"/></e>
 <e lm="afsted">       <i>afsted</i><par n="på__pr"/></e>
 <e lm="bagbord">       <i>bagbord</i><par n="på__pr"/></e>
 <e lm="bag">          <i>bag</i><par n="på__pr"/></e>
@@ -3844,40 +3863,40 @@
 <e lm="bagover">      <i>bagover</i><par n="på__pr"/></e>
 <e lm="bagpå">        <i>bagpå</i><par n="på__pr"/></e>
 <e lm="bagud">        <i>bagud</i><par n="på__pr"/></e>
-<e lm="lige frem">   <i>lige frem</i><par n="på__pr"/></e>
-<e lm="lige frem">    <i>lige frem</i><par n="på__pr"/></e>
+<e lm="lige frem">   <i>lige<b/>frem</i><par n="på__pr"/></e>
+<e lm="lige frem">    <i>lige<b/>frem</i><par n="på__pr"/></e>
 <e lm="bl">           <i>bl</i><par n="på__pr"/></e>
 <e lm="blandt">        <i>blandt</i><par n="på__pr"/></e>
-<e lm="bort imod">    <i>bort imod</i><par n="på__pr"/></e>
-<e lm="bort mod">     <i>bort mod</i><par n="på__pr"/></e>
+<e lm="bort imod">    <i>bort<b/>imod</i><par n="på__pr"/></e>
+<e lm="bort mod">     <i>bort<b/>mod</i><par n="på__pr"/></e>
 <e lm="bort">         <i>bort</i><par n="på__pr"/></e>
 <e lm="borte">        <i>borte</i><par n="på__pr"/></e>
-<e lm="bortefra">     <i>bort efra</i><par n="på__pr"/></e>
-<e lm="bortset fra"> <i>bortset fra</i><par n="på__pr"/></e>
+<e lm="bortefra">     <i>bort<b/>efra</i><par n="på__pr"/></e>
+<e lm="bortset fra"> <i>bortset<b/>fra</i><par n="på__pr"/></e>
 <e lm="kontra">       <i>kontra</i><par n="på__pr"/></e>
-<e lm="der henne">    <i>der borte</i><par n="på__pr"/></e>
-<e lm="der hen">      <i>der hen</i><par n="på__pr"/></e>
-<e lm="der inne">     <i>der inde</i><par n="på__pr"/></e>
-<e lm="der nede">     <i>der nede</i><par n="på__pr"/></e>
-<e lm="der oppe">     <i>der oppe</i><par n="på__pr"/></e>
-<e lm="der ude">      <i>der ude</i><par n="på__pr"/></e>
+<e lm="der henne">    <i>der<b/>borte</i><par n="på__pr"/></e>
+<e lm="der hen">      <i>der<b/>hen</i><par n="på__pr"/></e>
+<e lm="der inne">     <i>der<b/>inde</i><par n="på__pr"/></e>
+<e lm="der nede">     <i>der<b/>nede</i><par n="på__pr"/></e>
+<e lm="der oppe">     <i>der<b/>oppe</i><par n="på__pr"/></e>
+<e lm="der ude">      <i>der<b/>ude</i><par n="på__pr"/></e>
 <e lm="derfra">       <i>derfra</i><par n="på__pr"/></e>
 <e lm="deri">         <i>deri</i><par n="på__pr"/></e>
-<e lm="der i blandt">    <i>der i blandt</i><par n="på__pr"/></e>
-<e lm="der i fra">      <i>der i fra</i><par n="på__pr"/></e>
+<e lm="der i blandt">    <i>der<b/>i<b/>blandt</i><par n="på__pr"/></e>
+<e lm="der i fra">      <i>der<b/>i<b/>fra</i><par n="på__pr"/></e>
 <e lm="derimellem">   <i>derimellem</i><par n="på__pr"/></e>
 <e lm="derom">        <i>derom</i><par n="på__pr"/></e>
 <e lm="dertil">       <i>dertil</i><par n="på__pr"/></e>
 <e lm="derved">       <i>derved</i><par n="på__pr"/></e>
-<e lm="fra hus til hus">   <i>fra hus til hus</i><par n="på__pr"/></e>
-<e lm="fra elv til elv">   <i>fra elv til elv</i><par n="på__pr"/></e>
+<e lm="fra hus til hus">   <i>fra<b/>hus<b/>til<b/>hus</i><par n="på__pr"/></e>
+<e lm="fra elv til elv">   <i>fra<b/>elv<b/>til<b/>elv</i><par n="på__pr"/></e>
 <e lm="efter">        <i>efter</i><par n="på__pr"/></e>
 <e lm="eksklusiv">    <i>eksklusiv</i><par n="på__pr"/></e>
 <e lm="eksklusive">  <i>eksklusive</i><par n="på__pr"/></e>
-<e lm="helt frem">   <i>helt frem</i><par n="på__pr"/></e>
-<e lm="fra ende til anden">   <i>fra ende til anden</i><par n="på__pr"/></e>
-<e lm="fra by til by">   <i>fra by til by</i><par n="på__pr"/></e>
-<e lm="fra bjerg til bjerg">   <i>fra bjerg til bjerg</i><par n="på__pr"/></e>
+<e lm="helt frem">   <i>helt<b/>frem</i><par n="på__pr"/></e>
+<e lm="fra ende til anden">   <i>fra<b/>ende<b/>til<b/>anden</i><par n="på__pr"/></e>
+<e lm="fra by til by">   <i>fra<b/>by<b/>til<b/>by</i><par n="på__pr"/></e>
+<e lm="fra bjerg til bjerg">   <i>fra<b/>bjerg<b/>til<b/>bjerg</i><par n="på__pr"/></e>
 
 
 <e lm="end">         <i>end</i><par n="på__pr"/></e>
@@ -3900,7 +3919,7 @@
 <e lm="fremom">      <i>fremom</i><par n="på__pr"/></e>
 <e lm="fremover">    <i>fremover</i><par n="på__pr"/></e>
 <e lm="frempå">      <i>frempå</i><par n="på__pr"/></e>
-<e lm="frem          i"><i>frem i</i><par n="på__pr"/></e>
+<e lm="frem          i"><i>frem<b/>i</i><par n="på__pr"/></e>
 <e lm="frem">        <i>frem</i><par n="på__pr"/></e>
 <e lm="fremad">      <i>fremad</i><par n="på__pr"/></e>
 <e lm="langs">   <i>langs</i><par n="på__pr"/></e>
@@ -3914,7 +3933,7 @@
 <e lm="herhen">           <i>herhen</i><par n="på__pr"/></e>
 <e lm="derop">           <i>derop</i><par n="på__pr"/></e>
 <e lm="rundt">           <i>rundt</i><par n="på__pr"/></e>
-<e lm="sammen med">      <i>sammen med</i><par n="på__pr"/></e>
+<e lm="sammen med">      <i>sammen<b/>med</i><par n="på__pr"/></e>
 <e lm="ad">              <i>ad</i><par n="på__pr"/></e>
 <e lm="af">              <i>af</i><par n="på__pr"/></e>
 <e lm="angående">        <i>angående</i><par n="på__pr"/></e>
@@ -3925,7 +3944,7 @@
 <e lm="foran">           <i>foran</i><par n="på__pr"/></e>
 <e lm="forbi">           <i>forbi</i><par n="på__pr"/></e>
 <e lm="fra">             <i>fra</i><par n="på__pr"/></e>
-<e lm="frem for">        <i>frem for</i><par n="på__pr"/></e>
+<e lm="frem for">        <i>frem<b/>for</i><par n="på__pr"/></e>
 <e lm="før">             <i>før</i><par n="på__pr"/></e>
 <e lm="gennem">          <i>gennem</i><par n="på__pr"/></e>
 <e lm="hos">             <i>hos</i><par n="på__pr"/></e>
@@ -3936,10 +3955,10 @@
 <e lm="imod">            <i>imod</i><par n="på__pr"/></e>
 <e lm="ind">            <i>ind</i><par n="på__pr"/></e>
 
-<e lm="inde i">          <i>inde i</i><par n="på__pr"/></e>
-<e lm="inde fra">        <i>inde fra</i><par n="på__pr"/></e>
+<e lm="inde i">          <i>inde<b/>i</i><par n="på__pr"/></e>
+<e lm="inde fra">        <i>inde<b/>fra</i><par n="på__pr"/></e>
 <e lm="inden">           <i>inden</i><par n="på__pr"/></e>
-<e lm="inden for">       <i>inden for</i><par n="på__pr"/></e>
+<e lm="inden for">       <i>inden<b/>for</i><par n="på__pr"/></e>
 <e lm="indtil">          <i>indtil</i><par n="på__pr"/></e>
 <e lm="kring">           <i>kring</i><par n="på__pr"/></e>
 <e lm="langs">           <i>langs</i><par n="på__pr"/></e>
@@ -3955,24 +3974,24 @@
 <e lm="overfor">         <i>overfor</i><par n="på__pr"/></e>
 <e lm="per">             <i>per</i><par n="på__pr"/></e>
 <e lm="på">              <i>på</i><par n="på__pr"/></e>
-<e lm="på trods af">     <i>på trods af</i><par n="på__pr"/></e>
+<e lm="på trods af">     <i>på<b/>trods<b/>af</i><par n="på__pr"/></e>
 <e lm="siden">           <i>siden</i><par n="på__pr"/></e>
 <e lm="til">             <i>til</i><par n="på__pr"/></e>
 <e lm="ud">              <i>ud</i><par n="på__pr"/></e>
-<e lm="ud af">           <i>ud af</i><par n="på__pr"/></e>
+<e lm="ud af">           <i>ud<b/>af</i><par n="på__pr"/></e>
 <e lm="ude">             <i>ude</i><par n="på__pr"/></e>
 <e lm="uden">            <i>uden</i><par n="på__pr"/></e>
 <e lm="udenfor">         <i>udenfor</i><par n="på__pr"/></e>
 <e lm="under">           <i>under</i><par n="på__pr"/></e>
 <e lm="selvom">          <i>selvom</i><par n="på__pr"/></e>
-<e lm="op til">          <i>op til</i><par n="på__pr"/></e>
+<e lm="op til">          <i>op<b/>til</i><par n="på__pr"/></e>
 <e lm="undtagen">        <i>undtagen</i><par n="på__pr"/></e>
 <e lm="ved">             <i>ved</i><par n="på__pr"/></e>
 <e lm="via">             <i>via</i><par n="på__pr"/></e>
 
 
-<e lm="fra gård til gård">   <i>fra gård til gård</i><par n="på__pr"/></e>
-<e lm="langs gaden">   <i>langs gaden</i><par n="på__pr"/></e>
+<e lm="fra gård til gård">   <i>fra<b/>gård<b/>til<b/>gård</i><par n="på__pr"/></e>
+<e lm="langs gaden">   <i>langs<b/>gaden</i><par n="på__pr"/></e>
 <e lm="gennem">     <i>gennem</i><par n="på__pr"/></e>
 <e lm="grundet">     <i>grundet</i><par n="på__pr"/></e>
 <e lm="hjem">        <i>hjem</i><par n="på__pr"/></e>
@@ -4002,7 +4021,7 @@
 <e lm="herved">      <i>herved</i><par n="på__pr"/></e>
 <e lm="hinsides">    <i>hinsides</i><par n="på__pr"/></e>
 <e lm="hist">        <i>hist</i><par n="på__pr"/></e>
-<e lm="her til">     <i>her til</i><par n="på__pr"/></e>
+<e lm="her til">     <i>her<b/>til</i><par n="på__pr"/></e>
 <e lm="her">         <i>her</i><par n="på__pr"/></e>
 <e lm="herefter">    <i>herefter</i><par n="på__pr"/></e>
 <e lm="herom">       <i>herom</i><par n="på__pr"/></e>
@@ -4015,24 +4034,24 @@
 <e lm="hjemom">        <i>hjemom</i><par n="på__pr"/></e>
 <e lm="hjemover">      <i>hjemover</i><par n="på__pr"/></e>
 <e lm="hos">           <i>hos</i><par n="på__pr"/></e>
-<e lm="hvor hen">      <i>hvor hen</i><par n="på__pr"/></e>
+<e lm="hvor hen">      <i>hvor<b/>hen</i><par n="på__pr"/></e>
 <e lm="hvoriblandt">  <i>hvoriblandt</i><par n="på__pr"/></e>
-<e lm="               i færd med">      <i>i færd med</i><par n="på__pr"/></e>
-<e lm="               i følge">         <i>i følge</i><par n="på__pr"/></e>
-<e lm="               i hele">          <i>i hele</i><par n="på__pr"/></e>
-<e lm="               i overensstemmelse med"> <i>i overensstemmelse med</i><par n="på__pr"/></e>
+<e lm="               i færd med">      <i>i<b/>færd<b/>med</i><par n="på__pr"/></e>
+<e lm="               i følge">         <i>i<b/>følge</i><par n="på__pr"/></e>
+<e lm="               i hele">          <i>i<b/>hele</i><par n="på__pr"/></e>
+<e lm="               i overensstemmelse med"> <i>i<b/>overensstemmelse<b/>med</i><par n="på__pr"/></e>
 <e lm="blandt">       <i>blandt</i><par n="på__pr"/></e>
 <e lm="ifølge">       <i>ifølge</i><par n="på__pr"/></e>
 <e lm="igennem">      <i>igennem</i><par n="på__pr"/></e>
 <e lm="omkring">      <i>omkring</i><par n="på__pr"/></e>
 <e lm="imellem">      <i>imellem</i><par n="på__pr"/></e>
 <e lm="imod">         <i>imod</i><par n="på__pr"/></e>
-<e lm="inde           i">        <i>inde i</i><par n="på__pr"/></e>
+<e lm="inde           i">        <i>inde<b/>i</i><par n="på__pr"/></e>
 <e lm="ingensteds">   <i>ingensteds</i><par n="på__pr"/></e>
 <e lm="inklusiv">     <i>inklusiv</i><par n="på__pr"/></e>
 <e lm="inklusive">    <i>inklusive</i><par n="på__pr"/></e>
-<e lm="ind            i">           <i>ind i</i><par n="på__pr"/></e>
-<e lm="ind til">      <i>ind til</i><par n="på__pr"/></e>
+<e lm="ind            i">           <i>ind<b/>i</i><par n="på__pr"/></e>
+<e lm="ind til">      <i>ind<b/>til</i><par n="på__pr"/></e>
 <e lm="ind">          <i>ind</i><par n="på__pr"/></e>
 <e lm="inden">        <i>indend</i><par n="på__pr"/></e>
 <e lm="indendørs">    <i>indendørs</i><par n="på__pr"/></e>
@@ -4049,42 +4068,42 @@
 <e lm="indenskærs">   <i>indenskærs</i><par n="på__pr"/></e>
 <e lm="indensunds">   <i>indensunds</i><par n="på__pr"/></e>
 <e lm="indefter">     <i>indefter</i><par n="på__pr"/></e>
-<e lm="indfor">       <i>ind for</i><par n="på__pr"/></e>
-<e lm="indi">         <i>ind i</i><par n="på__pr"/></e>
-<e lm="inde blandt">  <i>inde blandt</i><par n="på__pr"/></e>
+<e lm="indfor">       <i>ind<b/>for</i><par n="på__pr"/></e>
+<e lm="indi">         <i>ind<b/>i</i><par n="på__pr"/></e>
+<e lm="inde blandt">  <i>inde<b/>blandt</i><par n="på__pr"/></e>
 <e lm="indigennem">   <i>indigennem</i><par n="på__pr"/></e>
 <e lm="indimellem">   <i>indimellem</i><par n="på__pr"/></e>
 <e lm="indover">      <i>indover</i><par n="på__pr"/></e>
-<e lm="ind på">       <i>ind på</i><par n="på__pr"/></e>
+<e lm="ind på">       <i>ind<b/>på</i><par n="på__pr"/></e>
 <e lm="indtil">       <i>indtil</i><par n="på__pr"/></e>
-<e lm="ind under">    <i>ind under</i><par n="på__pr"/></e>
-<e lm="ind ved">      <i>ind ved</i><par n="på__pr"/></e>
-<e lm="               i stedet for">    <i>i stedet for</i><par n="på__pr"/></e>
-<e lm="side om side">  <i>side om side</i><par n="på__pr"/></e>
+<e lm="ind under">    <i>ind<b/>under</i><par n="på__pr"/></e>
+<e lm="ind ved">      <i>ind<b/>ved</i><par n="på__pr"/></e>
+<e lm="               i stedet for">    <i>i<b/>stedet<b/>for</i><par n="på__pr"/></e>
+<e lm="side om side">  <i>side<b/>om<b/>side</i><par n="på__pr"/></e>
 <e lm="kontra">       <i>kontra</i><par n="på__pr"/></e>
 
 
-<e lm="fra land til land">   <i>fra land til land</i><par n="på__pr"/></e>
-<e lm="fra mand til mand">   <i>fra mand til mand</i><par n="på__pr"/></e>
-<e lm="over land">     <i>over land</i><par n="på__pr"/></e>
+<e lm="fra land til land">   <i>fra<b/>land<b/>til<b/>land</i><par n="på__pr"/></e>
+<e lm="fra mand til mand">   <i>fra<b/>mand<b/>til<b/>mand</i><par n="på__pr"/></e>
+<e lm="over land">     <i>over<b/>land</i><par n="på__pr"/></e>
 <e lm="langs">         <i>langs</i><par n="på__pr"/></e>
-<e lm="langs med">      <i>langs med</i><par n="på__pr"/></e>
+<e lm="langs med">      <i>langs<b/>med</i><par n="på__pr"/></e>
 <e lm="langtfra">      <i>langtfra</i><par n="på__pr"/></e>
 <e lm="langvejs">     <i>langvejs</i><par n="på__pr"/></e>
-<e lm="langvejsfra">  <i>langvejs fra</i><par n="på__pr"/></e>
-<e lm="med hensyn til"><i>med hensyn til</i><par n="på__pr"/></e>
+<e lm="langvejsfra">  <i>langvejs<b/>fra</i><par n="på__pr"/></e>
+<e lm="med hensyn til"><i>med<b/>hensyn<b/>til</i><par n="på__pr"/></e>
 <e lm="med">           <i>med</i><par n="på__pr"/></e>
 <e lm="medsols">       <i>medsols</i><par n="på__pr"/></e>
 <e lm="mellem">        <i>mellem</i><par n="på__pr"/></e>
-<e lm="midt i">          <i>midt i</i><par n="på__pr"/></e>
-<e lm="midt på">       <i>midt på</i><par n="på__pr"/></e>
+<e lm="midt i">          <i>midt<b/>i</i><par n="på__pr"/></e>
+<e lm="midt på">       <i>midt<b/>på</i><par n="på__pr"/></e>
 <e lm="midtfjords">    <i>midtfjords</i><par n="på__pr"/></e>
 <e lm="midtskibs">     <i>midtskibs</i><par n="på__pr"/></e>
 <e lm="midtvejs">      <i>midtvejs</i><par n="på__pr"/></e>
 <e lm="mod">           <i>mod</i><par n="på__pr"/></e>
 <e lm="modsols">       <i>modsols</i><par n="på__pr"/></e>
 <e lm="modstrøms">     <i>modstrøms</i><par n="på__pr"/></e>
-<e lm="ned             i">           <i>ned i</i><par n="på__pr"/></e>
+<e lm="ned             i">           <i>ned<b/>i</i><par n="på__pr"/></e>
 <e lm="ned">           <i>ned</i><par n="på__pr"/></e>
 <e lm="nedad">         <i>nedad</i><par n="på__pr"/></e>
 <e lm="nedefra">       <i>nedefra</i><par n="på__pr"/></e>
@@ -4106,20 +4125,20 @@
 <e lm="nedover">         <i>nedover</i><par n="på__pr"/></e>
 <e lm="nedpå">           <i>nedpå</i><par n="på__pr"/></e>
 <e lm="nedstrøms">       <i>nedstrøms</i><par n="på__pr"/></e>
-<e lm="nedtil">          <i>ned til</i><par n="på__pr"/></e>
+<e lm="nedtil">          <i>ned<b/>til</i><par n="på__pr"/></e>
 <e lm="nedunder">        <i>nedunder</i><par n="på__pr"/></e>
 <e lm="nedved">          <i>nedved</i><par n="på__pr"/></e>
-<e lm="nord om">         <i>nord om</i><par n="på__pr"/></e>
+<e lm="nord om">         <i>nord<b/>om</i><par n="på__pr"/></e>
 <e lm="nord">            <i>nord</i><par n="på__pr"/></e>
 <e lm="nordfjelds">     <i>nordfjelds</i><par n="på__pr"/></e>
 <e lm="nordfra">        <i>nordfra</i><par n="på__pr"/></e>
 <e lm="nordtil">        <i>nordtil</i><par n="på__pr"/></e>
 <e lm="nordøst">        <i>nordøst</i><par n="på__pr"/></e>
 <e lm="nordenfjelds">    <i>nordenfjelds</i><par n="på__pr"/></e>
-<e lm="nordenfor">       <i>nord for</i><par n="på__pr"/></e>
-<e lm="nord fra">       <i>nord fra</i><par n="på__pr"/></e>
-<e lm="nord om">        <i>nord om</i><par n="på__pr"/></e>
-<e lm="nord til">       <i>nord til</i><par n="på__pr"/></e>
+<e lm="nordenfor">       <i>nord<b/>for</i><par n="på__pr"/></e>
+<e lm="nord fra">       <i>nord<b/>fra</i><par n="på__pr"/></e>
+<e lm="nord om">        <i>nord<b/>om</i><par n="på__pr"/></e>
+<e lm="nord til">       <i>nord<b/>til</i><par n="på__pr"/></e>
 <e lm="nordefter">       <i>nordefter</i><par n="på__pr"/></e>
 <e lm="nordfra">         <i>nordfra</i><par n="på__pr"/></e>
 <e lm="nordi">           <i>nordi</i><par n="på__pr"/></e>
@@ -4127,7 +4146,7 @@
 <e lm="nordmed">         <i>nordmed</i><par n="på__pr"/></e>
 <e lm="nordnordvest">    <i>nordnordvest</i><par n="på__pr"/></e>
 <e lm="nordnordøst">     <i>nordnordøst</i><par n="på__pr"/></e>
-<e lm="ved om">          <i>ved nord</i><par n="på__pr"/></e>
+<e lm="ved om">          <i>ved<b/>nord</i><par n="på__pr"/></e>
 <e lm="nordøst">         <i>nordøst</i><par n="på__pr"/></e>
 <e lm="nordover">        <i>nordover</i><par n="på__pr"/></e>
 <e lm="nordpå">          <i>nordpå</i><par n="på__pr"/></e>
@@ -4142,33 +4161,33 @@
 
 <e lm="omkring">         <i>omkring</i><par n="på__pr"/></e>
 <e lm="indimellem">      <i>indimellem</i><par n="på__pr"/></e>
-<e lm="op imod">        <i>op imod</i><par n="på__pr"/></e>
-<e lm="op mod">         <i>op mod</i><par n="på__pr"/></e>
-<e lm="op på">          <i>op på</i><par n="på__pr"/></e>
-<e lm="op til">         <i>op til</i><par n="på__pr"/></e>
+<e lm="op imod">        <i>op<b/>imod</i><par n="på__pr"/></e>
+<e lm="op mod">         <i>op<b/>mod</i><par n="på__pr"/></e>
+<e lm="op på">          <i>op<b/>på</i><par n="på__pr"/></e>
+<e lm="op til">         <i>op<b/>til</i><par n="på__pr"/></e>
 <e lm="op">             <i>op</i><par n="på__pr"/></e>
-<e lm="oppe på">         <i>oppe på</i><par n="på__pr"/></e>
+<e lm="oppe på">         <i>oppe<b/>på</i><par n="på__pr"/></e>
 <e lm="oppe">            <i>oppe</i><par n="på__pr"/></e>
-<e lm="opefter">        <i>op efter</i><par n="på__pr"/></e>
-<e lm="op gennem">      <i>op gennem</i><par n="på__pr"/></e>
-<e lm="op i">            <i>op i</i><par n="på__pr"/></e>
-<e lm="op igennem">      <i>op igennem</i><par n="på__pr"/></e>
-<e lm="op imod">         <i>op imod</i><par n="på__pr"/></e>
-<e lm="op med">          <i>op med</i><par n="på__pr"/></e>
-<e lm="op om">           <i>op  om</i><par n="på__pr"/></e>
+<e lm="opefter">        <i>op<b/>efter</i><par n="på__pr"/></e>
+<e lm="op gennem">      <i>op<b/>gennem</i><par n="på__pr"/></e>
+<e lm="op i">            <i>op<b/>i</i><par n="på__pr"/></e>
+<e lm="op igennem">      <i>op<b/>igennem</i><par n="på__pr"/></e>
+<e lm="op imod">         <i>op<b/>imod</i><par n="på__pr"/></e>
+<e lm="op med">          <i>op<b/>med</i><par n="på__pr"/></e>
+<e lm="op om">           <i>op<b/><b/>om</i><par n="på__pr"/></e>
 <e lm="op over">         <i>opover</i><par n="på__pr"/></e>
 <e lm="opstrøms">       <i>opstrøms</i><par n="på__pr"/></e>
-<e lm="op til">          <i>op til</i><par n="på__pr"/></e>
-<e lm="op under">        <i>op under</i><par n="på__pr"/></e>
-<e lm="op ved">          <i>op ved</i><par n="på__pr"/></e>
-<e lm="op på">            <i>op på</i><par n="på__pr"/></e>
+<e lm="op til">          <i>op<b/>til</i><par n="på__pr"/></e>
+<e lm="op under">        <i>op<b/>under</i><par n="på__pr"/></e>
+<e lm="op ved">          <i>op<b/>ved</i><par n="på__pr"/></e>
+<e lm="op på">            <i>op<b/>på</i><par n="på__pr"/></e>
 <e lm="øst">             <i>øst</i><par n="på__pr"/></e>
 <e lm="overbords">        <i>ovenbords</i><par n="på__pr"/></e>
 <e lm="ovenfra">          <i>ovenfra</i><par n="på__pr"/></e>
 <e lm="ovenpå">           <i>ovenpå</i><par n="på__pr"/></e>
 <e lm="oventil">          <i>oventil</i><par n="på__pr"/></e>
 <e lm="oven">            <i>oven</i><par n="på__pr"/></e>
-<e lm="ovennaf">          <i>oven af</i><par n="på__pr"/></e>
+<e lm="ovennaf">          <i>oven<b/>af</i><par n="på__pr"/></e>
 <e lm="ovenfor">         <i>ovenfor</i><par n="på__pr"/></e>
 <e lm="ovenom">          <i>ovenom</i><par n="på__pr"/></e>
 <e lm="ovenpå">          <i>ovenpå</i><par n="på__pr"/></e>
@@ -4179,23 +4198,23 @@
 <e lm="per">             <i>per</i><par n="på__pr"/></e>
 <e lm="pist">            <i>pist</i><par n="på__pr"/></e>
 <e lm="post">            <i>post</i><par n="på__pr"/></e>
-<e lm="poste restante">  <i>poste restante</i><par n="på__pr"/></e>
+<e lm="poste restante">  <i>poste<b/>restante</i><par n="på__pr"/></e>
 <e lm="prep.">           <i>prep.</i><par n="på__pr"/></e>
-<e lm="pro et contra">   <i>pro et contra</i><par n="på__pr"/></e>
+<e lm="pro et contra">   <i>pro<b/>et<b/>contra</i><par n="på__pr"/></e>
 <e lm="medsols">       <i>medsols</i><par n="på__pr"/></e>
 
 <e lm="pro">             <i>pro</i><par n="på__pr"/></e>
-<e lm="på vegne af">     <i>på vegne af</i><par n="på__pr"/></e>
+<e lm="på vegne af">     <i>på<b/>vegne<b/>af</i><par n="på__pr"/></e>
 <e lm="på">              <i>på</i><par n="på__pr"/></e>
 <e lm="rundt">           <i>rundt</i><par n="på__pr"/></e>
-<e lm="sammen med">      <i>sammen med</i><par n="på__pr"/></e>
-<e lm="sammenlignet med"><i>sammenlignet med</i><par n="på__pr"/></e>
+<e lm="sammen med">      <i>sammen<b/>med</i><par n="på__pr"/></e>
+<e lm="sammenlignet med"><i>sammenlignet<b/>med</i><par n="på__pr"/></e>
 <e lm="sammesteds">      <i>sammesteds</i><par n="på__pr"/></e>
-<e lm="sammesteds fra">  <i>sammesteds fra</i><par n="på__pr"/></e>
+<e lm="sammesteds fra">  <i>sammesteds<b/>fra</i><par n="på__pr"/></e>
 <e lm="sidelæns">        <i>sidelæns</i><par n="på__pr"/></e>
 <e lm="til vands">          <i>til<b/>vands</i><par n="på__pr"/></e>
 <e lm="gennem skoven">        <i>gennem<b/>skoven</i><par n="på__pr"/></e>
-<e lm="somme steder">    <i>somme steder</i><par n="på__pr"/></e>
+<e lm="somme steder">    <i>somme<b/>steder</i><par n="på__pr"/></e>
 <e lm="styrbord">        <i>styrbord</i><par n="på__pr"/></e>
 <e lm="sønden">          <i>sønden</i><par n="på__pr"/></e>
 <e lm="søndenfra">       <i>søndenfra</i><par n="på__pr"/></e>
@@ -4219,11 +4238,11 @@
 <e lm="sydøst">          <i>sydøst</i><par n="på__pr"/></e>
 <e lm="til">             <i>til</i><par n="på__pr"/></e>
 <e lm="tilbage">         <i>tilbage</i><par n="på__pr"/></e>
-<e lm="tillige med">     <i>tillige med</i><par n="på__pr"/></e>
+<e lm="tillige med">     <i>tillige<b/>med</i><par n="på__pr"/></e>
 <e lm="tilstede">        <i>tilstede</i><par n="på__pr"/></e>
 <e lm="uden">            <i>uden</i><par n="på__pr"/></e>
 
-<e lm="til trods for">   <i>til trods for</i><par n="på__pr"/></e>
+<e lm="til trods for">   <i>til<b/>trods<b/>for</i><par n="på__pr"/></e>
 <e lm="trods">           <i>trods</i><par n="på__pr"/></e>
 <e lm="uanset">          <i>uanset</i><par n="på__pr"/></e>
 <e lm="ultimo">          <i>ultimo</i><par n="på__pr"/></e>
@@ -4231,14 +4250,14 @@
 <e lm="undervejs">       <i>undervejs</i><par n="på__pr"/></e>
 <e lm="fra">             <i>fra</i><par n="på__pr"/></e>
 <e lm="undtagen">        <i>undtagen</i><par n="på__pr"/></e>
-<e lm="ud af">           <i>ud af</i><par n="på__pr"/></e>
-<e lm="ud                i">            <i>ud i</i><par n="på__pr"/></e>
-<e lm="ud over">         <i>ud over</i><par n="på__pr"/></e>
+<e lm="ud af">           <i>ud<b/>af</i><par n="på__pr"/></e>
+<e lm="ud                i">            <i>ud<b/>i</i><par n="på__pr"/></e>
+<e lm="ud over">         <i>ud<b/>over</i><par n="på__pr"/></e>
 <e lm="ud">              <i>ud</i><par n="på__pr"/></e>
 <e lm="udad">            <i>udad</i><par n="på__pr"/></e>
 <e lm="udenlands">       <i>udenlands</i><par n="på__pr"/></e>
 <e lm="udenpå">          <i>udenpå</i><par n="på__pr"/></e>
-<e lm="ud af">           <i>ud af</i><par n="på__pr"/></e>
+<e lm="ud af">           <i>ud<b/>af</i><par n="på__pr"/></e>
 <e lm="ude">             <i>ude</i><par n="på__pr"/></e>
 <e lm="udefra">          <i>udefra</i><par n="på__pr"/></e>
 <e lm="uden">            <i>uden</i><par n="på__pr"/></e>
@@ -4249,24 +4268,24 @@
 <e lm="udenlands">       <i>udenlands</i><par n="på__pr"/></e>
 <e lm="udenom">          <i>udenom</i><par n="på__pr"/></e>
 <e lm="udenpå">          <i>udenpå</i><par n="på__pr"/></e>
-<e lm="ud efter">        <i>ud efter</i><par n="på__pr"/></e>
-<e lm="ud for">          <i>ud for</i><par n="på__pr"/></e>
-<e lm="ud fra">          <i>ud fra</i><par n="på__pr"/></e>
-<e lm="udeved">       <i>ude ved</i><par n="på__pr"/></e>
+<e lm="ud efter">        <i>ud<b/>efter</i><par n="på__pr"/></e>
+<e lm="ud for">          <i>ud<b/>for</i><par n="på__pr"/></e>
+<e lm="ud fra">          <i>ud<b/>fra</i><par n="på__pr"/></e>
+<e lm="udeved">       <i>ude<b/>ved</i><par n="på__pr"/></e>
 <e lm="udenfor">         <i>udenfor</i><par n="på__pr"/></e>
 <e lm="udover">          <i>udover</i><par n="på__pr"/></e>
-<e lm="ud på">           <i>ud på</i><par n="på__pr"/></e>
-<e lm="ud til">          <i>ud til</i><par n="på__pr"/></e>
-<e lm="ud ved">          <i>ud ved</i><par n="på__pr"/></e>
+<e lm="ud på">           <i>ud<b/>på</i><par n="på__pr"/></e>
+<e lm="ud til">          <i>ud<b/>til</i><par n="på__pr"/></e>
+<e lm="ud ved">          <i>ud<b/>ved</i><par n="på__pr"/></e>
 <e lm="van">             <i>van</i><par n="på__pr"/></e>
-<e lm="ved siden af">    <i>ved siden af</i><par n="på__pr"/></e>
+<e lm="ved siden af">    <i>ved<b/>siden<b/>af</i><par n="på__pr"/></e>
 <e lm="ved">             <i>ved</i><par n="på__pr"/></e>
 <e lm="vedrørende">      <i>vedrørende</i><par n="på__pr"/></e>
-<e lm="fra væg til væg"><i>fra væg til væg</i><par n="på__pr"/></e>
+<e lm="fra væg til væg"><i>fra<b/>væg<b/>til<b/>væg</i><par n="på__pr"/></e>
 <e lm="væk">             <i>væk</i><par n="på__pr"/></e>
 <e lm="versus">          <i>versus</i><par n="på__pr"/></e>
 <e lm="vest">            <i>vest</i><par n="på__pr"/></e>
-<e lm="fra vest ">       <i>fra vest</i><par n="på__pr"/></e>
+<e lm="fra vest ">       <i>fra<b/>vest</i><par n="på__pr"/></e>
 <e lm="vestfra">         <i>vestfra</i><par n="på__pr"/></e>
 <e lm="vestenfjelds">    <i>vestenfjelds</i><par n="på__pr"/></e>
 <e lm="vestenfor">       <i>vest</i><par n="på__pr"/></e>
@@ -4285,13 +4304,13 @@
 <e lm="vis-a-vis">       <i>vis-a-vis</i><par n="på__pr"/></e>
 <e lm="vis-à-vis">       <i>vis-à-vis</i><par n="på__pr"/></e>
 <e lm="von">             <i>von</i><par n="på__pr"/></e>
-<e lm="à la">            <i>à la</i><par n="på__pr"/></e>
+<e lm="à la">            <i>à<b/>la</i><par n="på__pr"/></e>
 <e lm="à">               <i>à</i><par n="på__pr"/></e>
 <e lm="á">               <i>á</i><par n="på__pr"/></e>
 
-<e lm="øst for">         <i>øst for</i><par n="på__pr"/></e>
+<e lm="øst for">         <i>øst<b/>for</i><par n="på__pr"/></e>
 <e lm="øst">             <i>øst</i><par n="på__pr"/></e>
-<e lm="fra øst">         <i>fra øst</i><par n="på__pr"/></e>
+<e lm="fra øst">         <i>fra<b/>øst</i><par n="på__pr"/></e>
 <e lm="østenfjelds">     <i>østenfjelds</i><par n="på__pr"/></e>
 <e lm="østfra">          <i>østfra</i><par n="på__pr"/></e>
 <e lm="østenfjelds">     <i>østenfjelds</i><par n="på__pr"/></e>
@@ -4302,7 +4321,7 @@
 <e lm="østfra">          <i>østfra</i><par n="på__pr"/></e>
 <e lm="østgennem">       <i>østgennem</i><par n="på__pr"/></e>
 <e lm="østigennem">      <i>østigennem</i><par n="på__pr"/></e>
-<e lm="ved øst">      <i>ved øst</i><par n="på__pr"/></e>
+<e lm="ved øst">      <i>ved<b/>øst</i><par n="på__pr"/></e>
 <e lm="østnordøst">      <i>østnordøst</i><par n="på__pr"/></e>
 <e lm="østover">         <i>østover</i><par n="på__pr"/></e>
 <e lm="østpå">           <i>østpå</i><par n="på__pr"/></e>
