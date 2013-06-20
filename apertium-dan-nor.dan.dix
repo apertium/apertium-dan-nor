@@ -94,24 +94,24 @@
      compounds, and need to be able to make the sg.ind.cmp form.
      Ø-ep... outputs no epenthetic if used as compound-L -->
 <pardef n="no-cp\Ø\S__case">
-  <e r="RL"><p><l></l>      <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>      <r></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="nom"/><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="nom"/></r></p></e>
   <e>       <p><l>s</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="no-cp\Ø\'s__case">
-  <e r="RL"><p><l></l>      <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>      <r></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="nom"/><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="nom"/></r></p></e>
   <e>       <p><l>'s</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="no-cp\Ø\'__case">
-  <e r="RL"><p><l></l>      <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>      <r></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="nom"/><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="nom"/></r></p></e>
   <e>       <p><l>'</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="no-cp\s\S__case">
-  <e r="RL"><p><l>s</l>      <r><s n="cmp"/></r></p></e>
-  <e>       <p><l></l>      <r></r></p></e>
+  <e r="RL"><p><l>s</l>      <r><s n="nom"/><s n="cmp"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="nom"/></r></p></e>
   <e>       <p><l>s</l>     <r><s n="gen"/></r></p></e>
 </pardef>
 
@@ -120,55 +120,55 @@
      cp-both... ones are used for sg.ind forms, and thus need to be
      able to generate the sg.ind.cmp form too -->
 <pardef n="cp-R" c="cp-R, for forms that can only end compounds">
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
    <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 
 <pardef n="cp-both\Ø_LR_s\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
-   <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r></r></p></e>
+   <e r="RL"><p><l></l>          <r><s n="nom"/><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
    <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
    <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="cp-both\Ø_LR_s\'__case" c="As above, but with ' in the genitive case.">
-   <e r="RL"><p><l></l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r></r></p></e>
+   <e r="RL"><p><l></l>         <r><s n="nom"/><s n="nom"/><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
    <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
    <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="cp-both\s_LR_Ø\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -s- if cp-L">
-   <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r></r></p></e>
+   <e r="RL"><p><l>s</l>         <r><s n="nom"/><s n="nom"/><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
    <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
    <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="cp-both\s_LR_Ø\'__case" c="As above, but with ' in the genitive case">
-   <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r></r></p></e>
+   <e r="RL"><p><l>s</l>         <r><s n="nom"/><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>         <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
    <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
    <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="cp-both\e_LR_Ø\S__case" c="cp-L and cp-R. Analyse -Ø- and -e- in compounds, generate -e- if cp-L">
-   <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r></r></p></e>
+   <e r="RL"><p><l>e</l>         <r><s n="nom"/><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>e</l>         <r><s n="nom"/><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
    <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 
@@ -1251,6 +1251,13 @@
   <e>       <p><l>isse</l>      <r>enne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
+<pardef n="peer__n">
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
 
 <pardef n="mang/e__prn">
   <e>       <p><l>e</l>         <r>e<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
@@ -1317,7 +1324,7 @@
 
  <!-- ported and changed NOB pardefs-->
 
-<pardef n="ød/e__n">
+<pardef n="mød/e__n">
   <e>       <p><l>erne</l>       <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>et</l>        <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1325,7 +1332,7 @@
   <e r="LR"><p><l>erne</l>         <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
 
-<pardef n="ul_no-cp__n">
+<pardef n="slag_no-cp__n">
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
@@ -1350,7 +1357,7 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
 </pardef>
 
-<pardef n="os_no-cp__n">
+<pardef n="boss_no-cp__n">
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
@@ -1390,7 +1397,7 @@
   <e>       <p><l>del</l>       <r>del<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 
-<pardef n="iv/er__n">
+<pardef n="minist/er__n">
   <e r="LR"><p><l>erne</l>      <r>er<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>rene</l>      <r>er<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e r="LR"><p><l>erer</l>      <r>er<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1414,7 +1421,7 @@
   <e>       <p><l>and</l>       <r>and<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
 </pardef>
 
-<pardef n="uer__n">
+<pardef n="buffer__n">
   <e>       <p><l>ne</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1429,14 +1436,14 @@
   <e>       <p><l>is</l>        <r>is<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
 </pardef>
 
-<pardef n="re_\s__n">
+<pardef n="hygiejne_\s__n">
   <e>       <p><l>ne</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>r</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>n</l>         <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
 </pardef>
 
-<pardef n="re__n">
+<pardef n="hygiejne__n" c="was re__n">
   <e>       <p><l>ne</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>r</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>n</l>         <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1481,7 +1488,7 @@
   <e r="LR"><p><l>erne</l>         <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
 
-<pardef n="ød/e_no-cp__n">
+<pardef n="mød/e_no-cp__n">
   <e>       <p><l>erne</l>       <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>er</l>        <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>et</l>        <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
@@ -1512,7 +1519,7 @@
   <e r="LR"><p><l>et</l>        <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
 
-<pardef n="to__n">
+<pardef n="skab__n">
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1531,8 +1538,8 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
 </pardef>
 
-<pardef n="to_no-cp__n">
-  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+<pardef n="skab_no-cp__n">
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
@@ -1543,7 +1550,7 @@
   <e r="LR"><p><l>erne</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="ep_no-cp__n">
+<pardef n="aften_no-cp__n">
   <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
@@ -1570,7 +1577,7 @@
 </pardef>
 
 
-<pardef n="ja__n">
+<pardef n="firma__n" c="was ja__n">
   <e>       <p><l>erne</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1578,16 +1585,16 @@
   <e r="LR"><p><l>erne</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e r="LR"><p><l>er</l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
-<pardef n="ja_\s__n">
+<pardef n="firma_\s__n">
   <e>       <p><l>erne</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
-  <e r="LR"><p><l>ene</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>erne</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e r="LR"><p><l>er</l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
 
-<pardef n="ul__n">
+<pardef n="slag__n" c="was ul_n">
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1595,42 +1602,59 @@
   <e r="LR"><p><l>ene</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
 
+<pardef n="firma_no-cp__n">
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>er</l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e r="LR"><p><l>erne</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e r="LR"><p><l>er</l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+</pardef>
 
-<pardef n="då__n">
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>e</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+<pardef n="art__n" c="was då__n">
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>         <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 
-<pardef n="då_\s__n">
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>e</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+<pardef n="art_\s__n">
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>         <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\s_LR_Ø\S__case"/></e>
 </pardef>
 
-<pardef n="då_\e__n">
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>e</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+<pardef n="art_\e__n">
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>         <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\e_LR_Ø\S__case"/></e>
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>e</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\e_LR_Ø\S__case"/></e>
 </pardef>
 
-
-<pardef n="ep_\s__n">
+<pardef n="art_no-cp__n">
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>en</l>         <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+</pardef>
+<pardef n="aften_\s__n" c="was ep__n">
   <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1638,7 +1662,7 @@
 </pardef>
 
 
-<pardef n="ep__n">
+<pardef n="aften__n" c="was ep__n">
   <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1712,7 +1736,13 @@
   <e>       <p><l>let</l>       <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>lene</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
-
+<pardef n="trin__n" c="autoconcord:nt,sp"> <!-- Neuter; ~ / ~let / ~ / ~lene -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sp"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>net</l>       <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>nene</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
 
 <pardef n="nød__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~den / ~der / ~derne -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
@@ -2141,6 +2171,13 @@
   <e>       <p><l>aerne</l>     <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
+<pardef n="alb/um__n" c="autoconcord:nt,sgpl">
+  <e>       <p><l>um</l>        <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ummet</l>     <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>um</l>         <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>enne</l>     <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
 <pardef n="øj/e__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~e / ~et / ~ne / ~nene -->
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>et</l>        <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
@@ -2382,7 +2419,7 @@
   <e>       <p><l>fene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="røre__n"> <!-- Neuter; ~ / ~t / # / #; uncountable -->
+<pardef n="røhygiejne__n"> <!-- Neuter; ~ / ~t / # / #; uncountable -->
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>t</l>         <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
@@ -4733,7 +4770,7 @@
     <!-- *Nouns -->
 
 
-<e lm="aberration">        <i>aberration</i><par n="ep_\s__n"/></e>
+<e lm="aberration">        <i>aberration</i><par n="aften_\s__n"/></e>
 <e lm="bedste">            <i>bedste</i><par n="alibi__n"/></e>
 <e lm="fred">            <i>fred</i><par n="bold__n"/></e>
 <e lm="kæft">            <i>kæft</i><par n="bold__n"/></e>
@@ -8405,44 +8442,91 @@
 <e lm="øvelse">          <i>øvelse</i><par n="abe__n"/></e>
 
 
-<e lm="abonnent">                  <i>abonnent</i><par n="ep__n"/></e>
-<e lm="absorbtion">                <i>absorbtion</i><par n="ep_\s__n"/></e>
-<e lm="adam">                      <i>adam</i><par n="ep__n"/></e>
-<e lm="adfærd">                    <i>adfærd</i><par n="då__n"/></e>
-<e lm="adgang">                    <i>adgang</i><par n="ep__n"/></e>
-<e lm="adjø">                      <i>adjø</i><par n="ul__n"/></e>
-<e lm="adkomst">                   <i>adkomst</i><par n="ep__n"/></e>
-<e lm="administration">            <i>administration</i><par n="ep_\s__n"/></e>
-<e lm="administrationsdepartement"><i>administrationsdepartement</i><par n="ja__n"/></e>
+<e lm="abonnent">                  <i>abonnent</i><par n="aften__n"/></e>
+<e lm="absorbtion">                <i>absorbtion</i><par n="aften_\s__n"/></e>
+<e lm="adam">                      <i>adam</i><par n="aften__n"/></e>
+<e lm="adfærd">                    <i>adfærd</i><par n="art__n"/></e>
+<e lm="adgang">                    <i>adgang</i><par n="aften__n"/></e>
+<e lm="adjø">                      <i>adjø</i><par n="slag__n"/></e>
+<e lm="adkomst">                   <i>adkomst</i><par n="aften__n"/></e>
+<e lm="administration">            <i>administration</i><par n="aften_\s__n"/></e>
+<e lm="administrationsdepartement"><i>administrationsdepartement</i><par n="firma__n"/></e>
 <e lm="adresse">                   <i>adresse</i><par n="enk/e__n"/></e>
 <e lm="advokatfirma">              <i>advokatfirma</i><par n="vita__n"/></e>
-<e lm="aerobic">                   <i>aerobic</i><par n="ep__n"/></e>
-<e lm="aften">                     <i>aften</i><par n="ep__n"/></e>
-<e lm="agent">                     <i>agent</i><par n="ep__n"/></e>
-<e lm="aggression">                 <i>aggression</i><par n="ep_\s__n"/></e>
-<e lm="aggressivitet">             <i>aggressivitet</i><par n="ep_\s__n"/></e>
-<e lm="agitation">                 <i>agitation</i><par n="ep_\s__n"/></e>
-<e lm="air">                       <i>air</i><par n="ep_no-cp__n"/></e>
+<e lm="aerobic">                   <i>aerobic</i><par n="aften__n"/></e>
+<e lm="aften">                     <i>aften</i><par n="aften__n"/></e>
+<e lm="agent">                     <i>agent</i><par n="aften__n"/></e>
+<e lm="aggression">                 <i>aggression</i><par n="aften_\s__n"/></e>
+<e lm="aggressivitet">             <i>aggressivitet</i><par n="aften_\s__n"/></e>
+<e lm="agitation">                 <i>agitation</i><par n="aften_\s__n"/></e>
+<e lm="air">                       <i>air</i><par n="aften_no-cp__n"/></e>
 <!--<e lm="aker">                      <i>aker</i><par n="åg/er__n"/></e>-->
 <e lm="akvavit">                   <i>akvavit</i><par n="kat__n"/></e>
-<e lm="akrobatikk">                <i>akrobatikk</i><par n="ep__n"/></e>
-<e lm="akryl">                     <i>akryl</i><par n="to__n"/></e>
-<e lm="aks">                       <i>aks</i><par n="ul_no-cp__n"/></e>
+<e lm="akrobatik">                <i>akrobatik</i><par n="aften__n"/></e>
+<e lm="akryl">                     <i>akryl</i><par n="skab__n"/></e>
+<e lm="aks">                       <i>aks</i><par n="slag_no-cp__n"/></e>
 <e lm="aksel">                     <i>aksel</i><par n="aks/el__n"/></e>
-<e lm="aktieudbytte">              <i>aktieudbytte</i><par n="ød/e__n"/></e>
-<e lm="aktion">                    <i>aktion</i><par n="ep_\s__n"/></e>
-<e lm="aktiv">                     <i>aktiv</i><par n="ep__n"/></e>
-<e lm="aktivist">                  <i>aktivist</i><par n="ep__n"/></e>
-<e lm="aktivitetsniveau">            <i>aktivitetsniveau</i><par n="ja__n"/></e>
+<e lm="aktieudbytte">              <i>aktieudbytte</i><par n="mød/e__n"/></e>
+<e lm="aktion">                    <i>aktion</i><par n="aften_\s__n"/></e>
+<e lm="aktiv">                     <i>aktiv</i><par n="aften__n"/></e>
+<e lm="aktivist">                  <i>aktivist</i><par n="aften__n"/></e>
+<e lm="aktivitetsniveau">            <i>aktivitetsniveau</i><par n="firma__n"/></e>
 <e lm="aktivum">                   <i>aktivum</i><par n="aktiv/um__n"/></e>
-<e lm="aktor">                     <i>aktor</i><par n="ep__n"/></e>
-<e lm="aktorat">                   <i>aktorat</i><par n="ja__n"/></e>
-<e lm="agtsomhed">                 <i>agtsomhed</i><par n="då__n"/></e>
-<e lm="aktualitet">                <i>aktualitet</i><par n="ep_\s__n"/></e>
-<e lm="akupunktur">                <i>akupunktur</i><par n="ep__n"/></e>
-<e lm="akut">                     <i>akut</i><par n="ep__n"/></e>
-<e lm="akvakultur">                <i>akvakultur</i><par n="ep__n"/></e>
+<e lm="aktor">                     <i>aktor</i><par n="aften__n"/></e>
+<e lm="aktorat">                   <i>aktorat</i><par n="firma__n"/></e>
+<e lm="agtsomhed">                 <i>agtsomhed</i><par n="art__n"/></e>
+<e lm="aktualitet">                <i>aktualitet</i><par n="aften_\s__n"/></e>
+<e lm="akupunktur">                <i>akupunktur</i><par n="aften__n"/></e>
+<e lm="akut">                     <i>akut</i><par n="aften__n"/></e>
+<e lm="akvakultur">                <i>akvakultur</i><par n="aften__n"/></e>
 <e lm="akvarium">                  <i>akvarium</i><par n="podi/um__n"/></e>
+
+<e lm="avl">                       <i>avl</i><par n="vals__n"/></e>
+<e lm="alarm">                     <i>alarm</i><par n="aften__n"/></e>
+<e lm="alba">                      <i>alba</i><par n="aften__n"/></e>
+<e lm="album">                     <i>alb</i><par n="alb/um__n"/></e>
+<e lm="alderdom">                  <i>alderdom</i><par n="bom_\s__n"/></e>
+<e lm="alderspension">             <i>alderspension</i><par n="aften_\s__n"/></e>
+<e lm="alderstrin">                <i>alderstrin</i><par n="trin__n"/></e>
+<e lm="alfa">                      <i>alfa</i><par n="aften__n"/></e>
+<e lm="alge">                      <i>alge</i><par n="hygiejne__n"/></e>
+<e lm="alibi">                     <i>alibi</i><par n="firma__n"/></e>
+<e lm="alkoholbrug">               <i>alkoholbrug</i><par n="skab__n"/></e>
+<e lm="alkoholforbrug">            <i>alkoholforbrug</i><par n="slag__n"/></e>
+<e lm="alkoholmisbrug">            <i>alkoholmisbrug</i><par n="slag__n"/></e>
+<e lm="alfarvej">                  <i>alfarvej</i><par n="vals__n"/></e>
+<e lm="alliance">                  <i>alliance</i><par n="hygiejne__n"/></e>
+<e lm="almenfag">                  <i>almenfag</i><par n="slag__n"/></e>
+<e lm="alminding">                 <i>alminding</i><par n="aften__n"/></e>
+<e lm="almenmedicin">              <i>almenmedicin</i><par n="aften__n"/></e>
+<e lm="almentilstand">             <i>almentilstand</i><par n="aften__n"/></e>
+<e lm="almøde">                    <i>almøde</i><par n="mød/e__n"/></e>
+<e lm="allé">                      <i>allé</i><par n="aften__n"/></e>
+
+<e lm="elm">                       <i>elm</i><par n="vals__n"/></e>
+<e lm="aloe">                      <i>aloe</i><par n="hygiejne__n"/></e>
+<e lm="alpakka">                   <i>alpakka</i><par n="aften__n"/></e>
+<e lm="alt">                       <i>alt</i><par n="alibi__n"/></e>
+<e lm="alt">                       <i>alt</i><par n="ateist__n"/></e>
+<e lm="aluminium">                 <i>aluminium</i><par n="skab__n"/></e>
+<e lm="elver">                       <i>elver</i><par n="aften__n"/></e>
+<e lm="alvor">                     <i>alvor</i><par n="vals__n"/></e>
+<e lm="amanuensis">                <i>amanuensis</i><par n="amanuens/is__n"/></e>
+<e lm="amatør"><i>amatør</i><par n="aften__n"/></e>
+<e lm="ambassadør"><i>ambassadør</i><par n="aften__n"/></e>
+<e lm="amen">                      <i>amen</i><par n="firma__n"/></e>
+<e lm="amfetamin">                 <i>amfetamin</i><par n="firma__n"/></e>
+<e lm="amfi">                      <i>amfi</i><par n="firma__n"/></e>
+<e lm="amin">                      <i>amin</i><par n="firma__n"/></e>
+<e lm="amnesti">                   <i>amnesti</i><par n="firma__n"/></e>
+<e lm="amt">                       <i>amt</i><par n="firma_no-cp__n"/></e>
+<e lm="analfabet">                 <i>analfabet</i><par n="aften__n"/></e>
+<e lm="ananas">                    <i>ananas</i><par n="aften__n"/></e>
+<e lm="and">                       <i></i><par n="/and_no-cp__n"/></e>
+<e lm="andagt">                    <i>andagt</i><par n="art__n"/></e>
+<e lm="ånde">                      <i>ånde</i><par n="hygiejne__n"/></e>
+<e lm="andethold">                  <i>andethold</i><par n="år__n"/></e>
+<e lm="andenplads">                <i>andenplads</i><par n="aften__n"/></e>
 
 
  <!-- /nouns -->
@@ -21047,7 +21131,7 @@
 <e lm="ræsonnement">     <i>ræsonnement</i><par n="alibi__n"/></e>
 <e lm="ræv">             <i>ræv</i><par n="bold__n"/></e>
 <e lm="rør">             <i>rør</i><par n="år__n"/></e>
-<e lm="røre">            <i>røre</i><par n="røre__n"/></e>
+<e lm="røre">            <i>røre</i><par n="røhygiejne__n"/></e>
 <e lm="røst">            <i>røst</i><par n="ateist__n"/></e>
 <e lm="røv">             <i>røv</i><par n="bold__n"/></e>
 <e lm="sadel">           <i>sad</i><par n="cirk/el__n"/></e>
