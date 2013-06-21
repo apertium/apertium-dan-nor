@@ -31,7 +31,6 @@
 <sdef n="pos"     c="Possessive"/>
 <sdef n="itg"     c="Question word / interrogative"/>
 <sdef n="qnt"     c="Quantifier"/>
-
 <sdef n="ord"      c="Ordinal"/>
 <sdef n="def"      c="Definite"/>
 <sdef n="ind"      c="Indefinite"/>
@@ -1269,8 +1268,7 @@
 <e><p><l>årsdag<s n="n"/><s n="ut"/></l><r>årsdag<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>arsenik<s n="n"/><s n="ut"/></l><r>arsenikk<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ar<s n="n"/><s n="nt"/></l><r>arr<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>år<s n="n"/><s n="nt"/><s n="sp"/>    </l>         <r>år<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-<e><p><l>år<s n="n"/><s n="nt"/><s n="sp"/>  </l>         <r>år<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+<e><p><l>år<s n="n"/><s n="nt"/>    </l>         <r>år<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>artikel<s n="n"/><s n="ut"/></l><r>artikkel<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>artilleri<s n="n"/><s n="nt"/></l><r>artilleri<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>årti<s n="n"/><s n="nt"/></l><r>tiår<s n="n"/><s n="nt"/></r></p></e>
@@ -3561,6 +3559,81 @@
 <e><p><l>ånde<s n="n"/><s n="ut"/></l><r>ande<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>andethold<s n="n"/><s n="nt"/></l><r>andrelag<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>andenplads<s n="n"/><s n="ut"/></l><r>andreplass<s n="n"/><s n="m"/></r></p></e>
+
+
+<e><p><l>ane<s n="n"/><s n="ut"/></l><r>ane<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anerkendelse<s n="n"/><s n="ut"/></l><r>anerkjennelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anæstesi<s n="n"/><s n="ut"/></l><r>anestesi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anfald<s n="n"/><s n="nt"/></l><r>anfall<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>duft<s n="n"/><s n="ut"/></l><r>ange<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anger<s n="n"/><s n="ut"/></l><r>anger<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>angina<s n="n"/><s n="ut"/></l><r>angina<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>angriber<s n="n"/><s n="ut"/></l><r>angriper<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>animation<s n="n"/><s n="ut"/></l><r>animasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>suk<s n="n"/><s n="ut"/></l><r>ank<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anke<s n="n"/><s n="ut"/></l><r>anke<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ankepunkt<s n="n"/><s n="nt"/></l><r>ankepunkt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>anklage<s n="n"/><s n="ut"/></l><r>anklage<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anlægsmiddel<s n="n"/><s n="nt"/></l><r>anleggsmiddel<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>anmarch<s n="n"/><s n="ut"/></l><r>anmarsj<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>annoncør<s n="n"/><s n="ut"/></l><r>annonsør<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anonym<s n="n"/><s n="nt"/></l><r>anonym<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>anoreksi<s n="n"/><s n="ut"/></l><r>anoreksi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opmærksomhed<s n="n"/><s n="ut"/></l><r>ans<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opmærksomhed<s n="n"/><s n="ut"/></l><r>ans<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anseelse<s n="n"/><s n="ut"/></l><r>anseelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anciennitet<s n="n"/><s n="ut"/></l><r>ansiennitet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anslag<s n="n"/><s n="nt"/></l><r>anslag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ansvarsforhold<s n="n"/><s n="nt"/></l><r>ansvarsforhold<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>antenne<s n="n"/><s n="ut"/></l><r>antenne<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antibiotikum<s n="n"/><s n="nt"/></l><r>antibiotikum<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>antik<s n="n"/><s n="ut"/></l><r>antikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antikrist<s n="n"/><s n="ut"/></l><r>antikrist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antisemitisme<s n="n"/><s n="ut"/></l><r>antisemittisme<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antræk<s n="n"/><s n="nt"/></l><r>antrekk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>antropolog<s n="n"/><s n="ut"/></l><r>antropolog<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>antropologi<s n="n"/><s n="ut"/></l><r>antropologi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>anus<s n="n"/><s n="ut"/></l><r>anus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>dril<s n="n"/><s n="nt"/></l><r>ap<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>drillepind<s n="n"/><s n="ut"/></l><r>ap<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>apartheid<s n="n"/><s n="ut"/></l><r>apartheid<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>abekat<s n="n"/><s n="ut"/></l><r>apekatt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>apollo<s n="n"/><s n="ut"/></l><r>apollo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>appel<s n="n"/><s n="ut"/></l><r>appell<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>appetit<s n="n"/><s n="ut"/></l><r>appetitt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>applaus<s n="n"/><s n="ut"/></l><r>applaus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>applikation<s n="n"/><s n="ut"/></l><r>applikasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>aprilsnar<s n="n"/><s n="ut"/></l><r>aprilspøk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>apropos<s n="n"/><s n="nt"/></l><r>apropos<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ar<s n="n"/><s n="nt"/></l><r>ar<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arabisk<s n="n"/><s n="nt"/></l><r>arabisk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejderparti<s n="n"/><s n="nt"/></l><r>arbeiderparti<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsfelt<s n="n"/><s n="nt"/></l><r>arbeidsfelt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsfolk<s n="n"/><s n="nt"/></l><r>arbeidsfolk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsforhold<s n="n"/><s n="nt"/></l><r>arbeidsforhold<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsinnsats<s n="n"/><s n="ut"/></l><r>arbeidsinnsats<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdskraft<s n="n"/><s n="ut"/></l><r>arbeidskraft<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsliv<s n="n"/><s n="nt"/></l><r>arbeidsliv<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsløshet<s n="n"/><s n="ut"/></l><r>arbeidsløshet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsmetode<s n="n"/><s n="ut"/></l><r>arbeidsmetode<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsmiljø<s n="n"/><s n="nt"/></l><r>arbeidsmiljø<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsmåde<s n="n"/><s n="ut"/></l><r>arbeidsmåte<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsplan<s n="n"/><s n="ut"/></l><r>arbeidsplan<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsplads<s n="n"/><s n="ut"/></l><r>arbeidsplass<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdspres<s n="n"/><s n="nt"/></l><r>arbeidspress<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsprogram<s n="n"/><s n="nt"/></l><r>arbeidsprogram<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdsret<s n="n"/><s n="ut"/></l><r>arbeidsrett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdssituation<s n="n"/><s n="ut"/></l><r>arbeidssituasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdstab<s n="n"/><s n="ut"/></l><r>arbeidsstokk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsstyrke<s n="n"/><s n="ut"/></l><r>arbeidsstyrke<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdstid<s n="n"/><s n="ut"/></l><r>arbeidstid<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdstilsyn<s n="n"/><s n="nt"/></l><r>arbeidstilsyn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arbejdstime<s n="n"/><s n="ut"/></l><r>arbeidstime<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arbejdsvilkår<s n="n"/><s n="nt"/></l><r>arbeidsvilkår<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arealbrug<s n="n"/><s n="nt"/></l><r>arealbruk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>arkæolog<s n="n"/><s n="ut"/></l><r>arkeolog<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arkæologi<s n="n"/><s n="ut"/></l><r>arkeologi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>arkitektkonkurrence<s n="n"/><s n="ut"/></l><r>arkitektkonkurranse<s n="n"/><s n="m"/></r></p></e>
 
 <!--/nouns-->
 

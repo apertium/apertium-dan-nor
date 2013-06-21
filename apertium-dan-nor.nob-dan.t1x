@@ -28,7 +28,9 @@
       <cat-item tags="adj.pp.*"/>
     </def-cat>
 
-
+<def-cat n="det-pos">
+      <cat-item tags="det.pos.*"/>
+    </def-cat>
 
    <def-cat n="adj">
       <cat-item tags="adj.*"/>
@@ -231,8 +233,6 @@
 
 
 
-
-
  <def-macro n="determiner" npar="1">
         <choose>
           <when>
@@ -249,8 +249,18 @@
           <otherwise>
                       <let><var n="køn"/><clip pos="1" side="tl" part="gen"/></let>
           </otherwise>
+
+
+
+
+
             </choose>
+
+
+
  </def-macro>
+
+
 
 
 
@@ -387,12 +397,11 @@
       <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor) ">
           <pattern>
            <pattern-item n="nom"/>
-           <pattern-item n="det"/>
+           <pattern-item n="det-pos"/>
           </pattern>
           <action>
-         <!-- <call-macro n="determiner">
-          <with-param pos="1"/>
-           </call-macro>-->
+
+
 
           <choose>
           <when><test><and>
@@ -413,7 +422,15 @@
                 <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
                </choose>
 
-          <!--if the det is m or f give it gender un-->
+
+  <call-macro n="determiner">
+          <with-param pos="2"/>
+           </call-macro>
+
+
+
+
+          <!--if the det is m or f give it gender un
           <choose>
           <when>
             <test>
@@ -430,7 +447,7 @@
                       <let><var n="køn"/><clip pos="2" side="tl" part="gen"/></let>
           </otherwise>
             </choose>
-
+-->
 
 
           <out>
@@ -475,18 +492,6 @@
                 <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
         </choose>
 
-        <!--if source language adj has no gender tag , tag it 'un' (common and neuter)
-        <choose>
-          <when><test><equal>
-                <clip pos="1" side="sl" part="gen"/><lit v=""/></equal></test>
-                <let><var n="køn"/><lit-tag v="un"/></let></when>
-                    <otherwise>
-                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
-                    </otherwise>
-            </choose>-->
-
-        <!-- if source language adj has tag mf tag it 'ut' (utrum)-->
-
          <choose>
           <when><test><equal>
                 <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
@@ -503,40 +508,6 @@
 
             <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
 
-
-
-          <!--TODO if source language adj <sg> <def> tag it <sp> <def>  RULE not working yet? Should only for for asynthetic adjectives or will also catch  eg. 'lille'
-
-             <choose>
-            <when><test>
-              <and>
-              <equal>
-                <clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-                <equal>
-                <clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
-                </and>
-                </test>
-
-                <let><var n="tal"/><lit-tag v="sp"/></let></when>
-                    <otherwise>
-                      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
-                    </otherwise>
-
-              </choose>
-
--->
-
-
-        <!-- if source language adj has no defnes tag, tag ind
-                <choose>
-          <when><test><equal>
-                <clip pos="1" side="sl" part="defnes"/><lit v=""/></equal></test>
-                <let><var n="bestemthed"/><lit-tag v="ind"/></let></when>
-                    <otherwise>
-                      <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
-                    </otherwise>
-            </choose>
--->
 
 
         <out>
@@ -618,42 +589,6 @@
       </rule>
 
 
-
-   <!-- if the pronoun has no tag for case, give it the case 'nom'-->
-<!--
-
-
-  <rule comment="PRN-> PRN">
-         <pattern>
-           <pattern-item n="prn"/>
-         </pattern>
-         <action>
-          <choose>
-          <when><test><equal>
-
-                <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
-                <let><var n="kasus"/><lit-tag v="nom"/></let></when>
-          <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
-        </choose>
-
-          <out>
-             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_prn"/>
-               <clip pos="1" side="tl" part="pers"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="nbr"/>
-                <var n="kasus"/>
-               <clip pos="1" side="tl" part="lemq"/>
-
-             </lu>
-           </out>
-           <let><var n="kasus"/><lit v=""/></let>
-         </action>
-     </rule>
-
--->
-
       <rule comment="PR-> PR">
          <pattern>
            <pattern-item n="pr"/>
@@ -725,41 +660,6 @@ ADJECTIVES
 
 
 
-DETERMINER PROBLEMS
-en
-
-nb:  en<det><qnt><m><sg>/
-     en<det><qnt><m><sg><ind>
-da:  en<det><ind><ut><sg>$
-
-
-den
-nb : den
-    /den<det><dem><m><sg>
-    /den<det><dem><f><sg>
-
-da : den/den<det><def><ut><sg>
-
-det
-nb: det/den<det><dem><nt><sg>
-da: det/den<det><def><nt><sg>
-
-''
-
-
-nb   de<prn><p3><mf><pl><nom>
-da   de<prn><p3><un><pl><nom>
-
-
-PRONOUNS
-
-dig
-
-nb
-^deg/du<prn><p2><mf><sg><acc>/seg<prn><ref><p2><sg>
-
- dig/du<prn><p2><un><sg><acc>
-
 
 AMBIGUITY
 
@@ -772,16 +672,6 @@ determiners ? make the bidix entry have <det><def>:<det><dem>
 
 
 'da' in the end of sentence > så + INVERSION
-
-
-
-
-
-<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
-spectie
-<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
-spectie
-<e r="LR"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="ND"/></r></p></e>
 
 
 -->
