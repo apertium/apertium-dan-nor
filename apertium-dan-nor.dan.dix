@@ -1326,6 +1326,12 @@
 
  <!-- ported and changed NOB pardefs-->
 
+<pardef n="bom_no-cp__n">
+  <e>       <p><l>mene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>mer</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>men</l>       <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+</pardef>
 
 <pardef n="km_no-cp__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/></r></p></e>
@@ -8991,6 +8997,84 @@
 <e lm="blåt">                     <i>blåt</i><par n="år__n"/></e>
 <e lm="bluf">                     <i>bluf</i><par n="aften__n"/></e>
 <e lm="bo">                        <i>bo</i><par n="alibi__n"/></e>
+
+
+<e lm="bod">                       <i>bod</i><par n="aften_no-cp__n"/></e>
+<e lm="body">                      <i>body</i><par n="aften__n"/></e>
+<e lm="bov">                       <i>bov</i><par n="aften_no-cp__n"/></e>
+<e lm="boheme">                     <i>boheme</i><par n="hygiejne__n"/></e>
+<e lm="boykot">                   <i>boikyt</i><par n="kat__n"/></e>
+<e lm="bogklubb">                  <i>bogklub</i><par n="klub__n"/></e>
+<e lm="bogmærke">                  <i>bogmærke</i><par n="mød/e__n"/></e>
+<e lm="bogmål">                    <i>bogmål</i><par n="slag__n"/></e>
+<e lm="boliglån">                  <i>boliglån</i><par n="slag__n"/></e>
+<e lm="bolle">                     <i>bolle</i><par n="hygiejne__n"/></e>
+<e lm="bolsjevik">                 <i>bolsjevik</i><par n="paryk__n"/></e>
+<e lm="bom">                       <i>bom</i><par n="bom_no-cp__n"/></e>
+<e lm="bombefly">                  <i>bombefly</i><par n="slag__n"/></e>
+<e lm="bomuld">                    <i>bomuld</i><par n="art__n"/></e>
+<e lm="bondelag">                  <i>bondelag</i><par n="slag__n"/></e>
+<e lm="bookmaker">                 <i>bookmaker</i><par n="buffer__n"/></e>
+<e lm="boom">                      <i>boom</i><par n="alibi__n"/></e>
+<e lm="boots">                     <i>boots</i><par n="lux__n"/></e>
+<e lm="borat">                     <i>borat</i><par n="firma__n"/></e>
+<e lm="bordeaux">                  <i>bordeaux</i><par n="aften__n"/></e>
+<e lm="bordtennis">                <i>bordtennis</i><par n="aften__n"/></e>
+<e lm="borger">                    <i>borger</i><par n="buffer__n"/></e>
+<e lm="borgmester">              <i>borgmest</i><par n="minist/er__n"/></e>
+<e lm="udekamp">                 <i>udekamp</i><par n="vals__n"/></e>
+<e lm="bortfald">                  <i>bortfald</i><par n="slag__n"/></e>
+<e lm="bortgang">                  <i>bortgang</i><par n="aften__n"/></e>
+<e lm="bosættelse">                 <i>bosættelse</i><par n="hygiejne__n"/></e>
+<e lm="boss">                      <i>boss</i><par n="aften__n"/></e>
+<e lm="bosted">                    <i>bosted</i><par n="sted__n"/></e>
+<e lm="boston">                    <i>boston</i><par n="aften__n"/></e>
+<e lm="bowl">                      <i>bowl</i><par n="aften__n"/></e>
+<e lm="brak">                     <i>brak</i><par n="aften__n"/></e>
+<e lm="brand">                    <i>brand</i><par n="alibi__n"/></e>
+<e lm="brandy">                    <i>brandy</i><par n="aften__n"/></e>
+<e lm="brandmand">                 <i>brandm</i><par n="m/and__n"/></e>
+<e lm="brandmur">                  <i>brandmur</i><par n="aften__n"/></e>
+<e lm="brandchef">                 <i>brandchef</i><par n="aften__n"/></e>
+<e lm="brandskade">                <i>brandskade</i><par n="hygiejne__n"/></e>
+<e lm="brandværn">                 <i>brandværn</i><par n="slag__n"/></e>
+<e lm="bratte">                    <i>bratte</i><par n="enk/e__n"/></e>
+<e lm="bravo">                     <i>bravo</i><par n="firma__n"/></e>
+<e lm="bræ">                       <i>bræ</i><par n="aften_no-cp__n"/></e>
+<e lm="breddegrad">                <i>breddegrad</i><par n="aften__n"/></e>
+<e lm="bræk">                     <i>bræk</i><par n="slag__n"/></e>
+<!--<e lm="brekke">                    <i>brekke</i><par n="enk/e__n"/></e>-->
+<e lm="brændevin">                 <i>brændevin</i><par n="sted__n"/></e>
+<e lm="brændpunkt">                <i>brændpunkt</i><par n="firma__n"/></e>
+<e lm="brændstof">                <i>brændstof</i><par n="firma__n"/></e>
+<e lm="breche">                    <i>breche</i><par n="hygiejne__n"/></e>
+<e lm="bridge">                    <i>bridge</i><par n="hygiejne__n"/></e>
+<e lm="brie">                      <i>brie</i><par n="hygiejne__n"/></e>
+<e lm="brilliant">                  <i>brilliant</i><par n="aften__n"/></e>
+<e lm="bringe">                    <i>bringe</i><par n="enk/e__n"/></e>
+<e lm="brite">                     <i>brite</i><par n="hygiejne__n"/></e>
+<e lm="brod">                     <i>brod</i><par n="brud__n"/></e>
+<e lm="brok">                     <i>brok</i><par n="stik__n"/></e>
+<e lm="broccoli">                  <i>broccoli</i><par n="aften__n"/></e>
+<e lm="brum">                      <i>brum</i><par n="lam__n"/></e>
+<e lm="bronkitis">                  <i>bronkitis</i><par n="aften__n"/></e>
+<e lm="broderpart">                  <i>broderpart</i><par n="aften__n"/></e>
+<e lm="broderskab">                  <i>broderskab</i><par n="skab__n"/></e>
+<e lm="brudekjole">                <i>brudekjole</i><par n="hygiejne__n"/></e>
+<e lm="brudepar">                  <i>brudepar</i><par n="slag__n"/></e>
+<e lm="brudgom">                   <i>brudgom</i><par n="bom__n"/></e>
+<e lm="brugsområde">               <i>brugsområde</i><par n="mød/e__n"/></e>
+<e lm="brugsret">                 <i>brugsret</i><par n="aften__n"/></e>
+<e lm="brugtbil">                  <i>brugtbil</i><par n="aften__n"/></e>
+<e lm="brunost">                   <i>brunost</i><par n="aften__n"/></e>
+<e lm="brus">                      <i>brus</i><par n="hus__n"/></e>
+<e lm="brutalitet">                <i>brutalitet</i><par n="aften_\s__n"/></e>
+<e lm="bryg">                     <i>bryg</i><par n="slag__n"/></e>
+<e lm="bryn">                      <i>bryn</i><par n="slag__n"/></e>
+<e lm="brystkasse">                <i>brystkass</i><par n="enk/e__n"/></e>
+<e lm="brystkræft">                <i>brystkræft</i><par n="aften__n"/></e>
+<e lm="bryder">                    <i>bryder</i><par n="buffer__n"/></e>
+
  <!-- /nouns -->
 
 
@@ -13365,7 +13449,6 @@
 <e lm="briste">             <i>brist</i><par n="mal/e__vblex"/></e>
 <e lm="briste">             <i>brist</i><par n="mal/e__vblex"/></e>
 <e lm="brodde">             <i>brod</i><par n="væd/de__vblex"/></e>
-<e lm="brodere">            <i>broder</i><par n="mal/e__vblex"/></e>
 <e lm="brodere">            <i>broder</i><par n="mal/e__vblex"/></e>
 <e lm="brokke">             <i>brok</i><par n="bræk/ke__vblex"/></e>
 <e lm="brolægge">           <i>brol</i><par n="l/ægge__vblex"/></e>
