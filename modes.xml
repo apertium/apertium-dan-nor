@@ -71,7 +71,7 @@
       <program name="lt-proc -b">
         <file name="dan-nob.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
         <file name="dan-nob.t1x.bin"/>
       </program>
@@ -175,7 +175,7 @@
       <program name="lt-proc -b">
         <file name="nob-dan.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nob-dan.t1x"/>
         <file name="nob-dan.t1x.bin"/>
       </program>
