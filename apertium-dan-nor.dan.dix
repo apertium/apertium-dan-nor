@@ -1325,6 +1325,18 @@
 
 
  <!-- ported and changed NOB pardefs-->
+
+<pardef n="cent/er__n">
+  <e>       <p><l>rene</l>      <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>re</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>ret</l>       <r>er<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="LR"><p><l>rene</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>eret</l>      <r>er<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+</pardef>
+
+
 <pardef n="lux_no-cp__n">
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="apos__case"/></e>
@@ -2303,6 +2315,14 @@
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>get</l>       <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>gene</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
+<pardef n="ut_æg__n" c="autoconcord:nt,sp"> <!-- Neuter; ~ / ~get / ~ / ~gene -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>gen</l>       <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>gene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="vals__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / ~e / ~ene; Only for nouns ending in 's' -->
@@ -9476,6 +9496,168 @@
 <e lm="dømmekraft">                <i>dømmekr</i><par n="kr/aft__n"/></e>
 
 
+<e lm="drøn">                      <i>drøn</i><par n="slag__n"/></e>
+<e lm="dørk">                      <i>dørk</i><par n="aften__n"/></e>
+<e lm="eddike">                     <i>eddike</i><par n="aften__n"/></e>
+<e lm="efor">                      <i>efor</i><par n="aften__n"/></e>
+<e lm="æg">                       <i>æg</i><par n="ut_æg__n"/></e>
+<e lm="æggestok">                  <i>æggestok</i><par n="drik__n"/></e>
+<e lm="egn">                       <i>egn</i><par n="vals__n"/></e>
+<e lm="ego">                       <i>ego</i><par n="ateist__n"/></e>
+<e lm="egoist">                    <i>egoist</i><par n="aften__n"/></e>
+<e lm="landstribe">                <i>landstribe</i><par n="hygiejne__n"/></e>
+<e lm="eje">                       <i>ej</i><par n="mød/e_no-cp__n"/></e>
+<e lm="ejerforhold">               <i>ejerforhold</i><par n="slag__n"/></e>
+<!--<e lm="einer">                     <i>einer</i><par n="buffer__n"/></e>-->
+<e lm="ir">                       <i>ir</i><par n="jordbær__n"/></e>
+<e lm="ekko">                      <i>ekko</i><par n="firma__n"/></e>
+<e lm="ekkolod">                  <i>ekkolod</i><par n="brud__n"/></e>
+<e lm="eksamen">                   <i>eksamen</i><par n="aften__n"/></e>
+<e lm="eksem">                     <i>eksem</i><par n="sekund__n"/></e>
+<e lm="eksemplar">                 <i>eksemplar</i><par n="firma__n"/></e>
+<e lm="eksil">                     <i>eksil</i><par n="firma__n"/></e>
+<e lm="ekskursion">                <i>ekskursion</i><par n="aften_\s__n"/></e>
+<e lm="eksos">                     <i>eksos</i><par n="aften__n"/></e>
+<e lm="ekspansion">                <i>ekspansion</i><par n="aften_\s__n"/></e>
+<e lm="ekspedition">               <i>ekspedition</i><par n="aften_\s__n"/></e>
+<e lm="ekspeditionschef">          <i>ekspeditionschef</i><par n="aften__n"/></e>
+<e lm="ekspertise">                <i>ekspertise</i><par n="hygiejne__n"/></e>
+<e lm="eksplosiv">                 <i>eksplosiv</i><par n="firma__n"/></e>
+<e lm="eksportør"> <i>eksportør</i><par n="aften__n"/></e>
+<e lm="ekspropriation">            <i>ekspropriation</i><par n="aften_\s__n"/></e>
+<e lm="ekstase">                   <i>ekstase</i><par n="hygiejne__n"/></e>
+<e lm="eksteriør">          <i>eksteriør</i><par n="firma__n"/></e>
+<e lm="ekstrakt">                  <i>ekstrakt</i><par n="sekund__n"/></e>
+<e lm="ekstraomgang">              <i>ekstraomgang</i><par n="aften__n"/></e>
+<e lm="ekstrem">                   <i>ekstrem</i><par n="firma__n"/></e>
+<e lm="ekstremisme">               <i>ekstremisme</i><par n="hygiejne__n"/></e>
+<e lm="ekstremist">                <i>ekstremist</i><par n="aften__n"/></e>
+<e lm="ægte">                      <i>ægte</i><par n="MC__n"/></e>
+<e lm="ægtemand">                  <i>ægtem</i><par n="m/and__n"/></e>
+<e lm="ægtepar">                   <i>ægtepar</i><par n="jordbær__n"/></e>
+<e lm="ækvator">                   <i>ækvator</i><par n="aften__n"/></e>
+<e lm="el">                        <i>el</i><par n="slag_no-cp__n"/></e>
+<e lm="elbil">                     <i>elbil</i><par n="aften__n"/></e>
+<e lm="eld">                       <i>eld</i><par n="aften_no-cp__n"/></e>
+<e lm="eldorado">                  <i>eldorado</i><par n="firma__n"/></e>
+<e lm="ældrecenter">               <i>ældrecenter</i><par n="cent/er__n"/></e>
+<e lm="ældstemand">                <i>ældstemand</i><par n="aften__n"/></e>
+<e lm="elegance">                  <i>elegance</i><par n="hygiejne__n"/></e>
+<e lm="elektronik">               <i>elektronik</i><par n="paryk__n"/></e>
+<e lm="element">                   <i>element</i><par n="firma__n"/></e>
+<e lm="elevråd">                   <i>elevråd</i><par n="slag__n"/></e>
+<e lm="elite">                     <i>elite</i><par n="hygiejne__n"/></e>
+<e lm="eliteklasse">               <i>eliteklasse</i><par n="enk/e__n"/></e>
+<e lm="eliteserie">                <i>eliteserie</i><par n="hygiejne__n"/></e>
+<e lm="elsk">                      <i>elsk</i><par n="aften__n"/></e>
+<e lm="elsker">                    <i>elsker</i><par n="buffer__n"/></e>
+<e lm="elv">                       <i>elv</i><par n="art_no-cp__n"/></e>
+<!--<e lm="elveblest">                 <i>elveblest</i><par n="aften__n"/></e>-->
+<e lm="embede">                    <i>embede</i><par n="mød/e__n"/></e>
+<e lm="embedsmand">                <i>embedsm</i><par n="m/and__n"/></e>
+<e lm="emirat">                    <i>emirat</i><par n="firma__n"/></e>
+<e lm="emission">                   <i>emission</i><par n="aften_\s__n"/></e>
+<e lm="emne">                      <i>emne</i><par n="mød/e__n"/></e>
+<e lm="empire">                    <i>empire</i><par n="hygiejne__n"/></e>
+<e lm="empiri">                    <i>empiri</i><par n="aften__n"/></e>
+<e lm="ende">                      <i>ende</i><par n="hygiejne__n"/></e>
+<e lm="endetarm">                  <i>endetarm</i><par n="vals__n"/></e>
+<e lm="ændring">                   <i>ændring</i><par n="art_\s__n"/></e>
+<e lm="ener">                      <i>ener</i><par n="buffer__n"/></e>
+<e lm="eneret">                   <i>eneret</i><par n="kat__n"/></e>
+<e lm="energibehov">               <i>energibehov</i><par n="slag__n"/></e>
+<e lm="energiforbrug">             <i>energiforbrug</i><par n="slag__n"/></e>
+<e lm="engelsk">                   <i>engelsk</i><par n="afghansk__n"/></e>
+<e lm="englænder">               <i>englænder</i><par n="m/and__n"/></e>
+<e lm="england">                   <i>england</i><par n="slag__n"/></e>
+<e lm="enhed">                     <i>enhed</i><par n="aften__n"/></e>
+<e lm="enighed">                   <i>enighed</i><par n="art__n"/></e>
+<e lm="enke">                      <i>enke</i><par n="enk/e__n"/></e>
+<e lm="enkeltindivid">             <i>enkeltindivid</i><par n="firma__n"/></e>
+<e lm="enkeltmenneske">            <i>enkeltmenneske</i><par n="mød/e__n"/></e>
+<e lm="enkeltperson">              <i>enkeltperson</i><par n="aften__n"/></e>
+<e lm="enkeltrum">                 <i>enkeltrum</i><par n="lam__n"/></e>
+<e lm="enkemand">                  <i>enkem</i><par n="m/and__n"/></e>
+<e lm="ensemble">                  <i>ensemble</i><par n="mød/e__n"/></e>
+<e lm="entreprenør">                <i>entreprenør</i><par n="aften__n"/></e>
+<e lm="entré">                     <i>entr</i><par n="id/é__n"/></e>
+<e lm="entusiasme">                <i>entusiasme</i><par n="hygiejne__n"/></e>
+<e lm="entusiast">                 <i>entusiast</i><par n="aften__n"/></e>
+<e lm="epilepsi">                  <i>epilepsi</i><par n="aften__n"/></e>
+<e lm="episode">                   <i>episode</i><par n="hygiejne__n"/></e>
+<e lm="erektion">                  <i>erektion</i><par n="aften_\s__n"/></e>
+<e lm="erfaring">                  <i>erfaring</i><par n="art_\s__n"/></e>
+<e lm="ergonomi">                  <i>ergonomi</i><par n="aften__n"/></e>
+<e lm="ergoterapeut">              <i>ergoterapeut</i><par n="aften__n"/></e>
+<e lm="ergoterapi">                <i>ergoterapi</i><par n="aften__n"/></e>
+<e lm="erklæring">                 <i>erklæring</i><par n="art_\s__n"/></e>
+<e lm="erme">                      <i>erme</i><par n="mød/e__n"/></e>
+<e lm="ernæring">                  <i>ernæring</i><par n="art_\s__n"/></e>
+<e lm="erobring">                  <i>erobring</i><par n="art_\s__n"/></e>
+<e lm="eros">                      <i>eros</i><par n="aften__n"/></e>
+<e lm="erosion">                   <i>erosion</i><par n="aften_\s__n"/></e>
+<e lm="amorin">                      <i>amorin</i><par n="aften__n"/></e>
+<e lm="erstatning">                <i>erstatning</i><par n="aften__n"/></e>
+<e lm="erstatningsansvar">         <i>erstatningsansvar</i><par n="slag__n"/></e>
+<e lm="erstatningskrav">           <i>erstatningskrav</i><par n="slag__n"/></e>
+<e lm="erts">                      <i>erts</i><par n="aften__n"/></e>
+<e lm="æske">                      <i>æske</i><par n="enk/e__n"/></e>
+<e lm="eskimo">                    <i>eskimo</i><par n="aften__n"/></e>
+<e lm="esperanto">                 <i>esperanto</i><par n="afghansk__n"/></e>
+<e lm="espresso">                  <i>espresso</i><par n="aften__n"/></e>
+<e lm="essens">                    <i>essens</i><par n="aften__n"/></e>
+<e lm="establishment">             <i>establishment</i><par n="slag__n"/></e>
+<e lm="ester">                     <i>ester</i><par n="buffer__n"/></e>
+<e lm="æstetik">                  <i>æstetik</i><par n="paryk__n"/></e>
+<e lm="etablering">                <i>etablering</i><par n="art_\s__n"/></e>
+<e lm="etanol">                    <i>etanol</i><par n="aften__n"/></e>
+<e lm="etape">                    <i>etape</i><par n="hygiejne__n"/></e>
+<e lm="etat">                      <i>etat</i><par n="aften__n"/></e>
+<e lm="etær">                      <i>æter</i><par n="buffer__n"/></e>
+<e lm="etiket">                   <i>etiket</i><par n="salut__n"/></e>
+<e lm="efterarbejde">               <i>efterarbejde</i><par n="firma_\s__n"/></e>
+<e lm="efterfølger">               <i>efterfølger</i><par n="buffer__n"/></e>
+<e lm="eftertid">                 <i>eftertid</i><par n="aften__n"/></e>
+<!--<e lm="efterskud">                <i>efterskud</i><par n="slag__n"/></e>-->
+<e lm="efterslæb">                 <i>efterslæb</i><par n="slag__n"/></e>
+<e lm="eftersmag">                 <i>eftersmag</i><par n="vals__n"/></e>
+<e lm="efterspørgsel">              <i>efterspørgs</i><par n="cirk/el__n"/></e>
+<e lm="eftertanke">                <i>eftertanke</i><par n="hygiejne__n"/></e>
+<e lm="eftertid">                  <i>eftertid</i><par n="art__n"/></e>
+<e lm="eftertryk">                <i>eftertryk</i><par n="stik__n"/></e>
+<e lm="euro">                      <i>euro</i><par n="aften__n"/></e>
+<e lm="europacup">                 <i>europacup</i><par n="kop__n"/></e>
+<e lm="europaråd">                 <i>europaråd</i><par n="slag__n"/></e>
+<e lm="eva">                       <i>eva</i><par n="aften_no-cp__n"/></e>
+<e lm="evangelium">                <i>evangeli</i><par n="podi/um__n"/></e>
+<e lm="event">                 <i>event</i><par n="ateist__n"/></e>
+<e lm="eventyr">                   <i>eventyr</i><par n="slag__n"/></e>
+<e lm="evighed">                   <i>evighed</i><par n="art__n"/></e>
+<e lm="evne">                      <i>evne</i><par n="enk/e__n"/></e>
+<e lm="evolution">                 <i>evolution</i><par n="aften_\s__n"/></e>
+<e lm="evolutionsteori">           <i>evolutionsteori</i><par n="aften__n"/></e>
+<e lm="fa">                        <i>fa</i><par n="aften_no-cp__n"/></e>
+<e lm="fabel">                     <i>fab</i><par n="cirk/el__n"/></e>
+<e lm="fadder">                    <i>fadder</i><par n="buffer__n"/></e>
+<e lm="fadæse">                    <i>fadæse</i><par n="hygiejne__n"/></e>
+<e lm="fag">                       <i>fag</i><par n="slag_no-cp__n"/></e>
+<e lm="fagblad">                   <i>fagblad</i><par n="firma__n"/></e>
+<e lm="fagbrev">                   <i>fagbrev</i><par n="firma__n"/></e>
+<e lm="fagfelt">                   <i>fagfelt</i><par n="firma__n"/></e>
+<e lm="fagfolk">                   <i>fagfolk</i><par n="slag__n"/></e>
+<e lm="fagforbund">                <i>fagforbund</i><par n="slag__n"/></e>
+<e lm="fagforening">               <i>fagforening</i><par n="art_\s__n"/></e>
+<e lm="fagkundskab">               <i>fagkundskab</i><par n="aften__n"/></e>
+<e lm="faglitteratur">             <i>faglitteratur</i><par n="aften__n"/></e>
+<e lm="fagmand">                   <i>fagm</i><par n="m/and__n"/></e>
+<e lm="fagområde">                 <i>fagområde</i><par n="mød/e__n"/></e>
+<e lm="fagoplæring">              <i>fagoplæring</i><par n="art_\s__n"/></e>
+<e lm="fagskole">                  <i>fagskole</i><par n="hygiejne__n"/></e>
+<e lm="fakkeltog">                 <i>fakkeltog</i><par n="slag__n"/></e>
+<e lm="fax">                      <i>fax</i><par n="aften__n"/></e>
+<e lm="faksimile">                 <i>faksimil</i><par n="hygiejne__n"/></e>
+<e lm="falk">                      <i>falk</i><par n="vals__n"/></e>
+<e lm="fallit">                   <i>fallit</i><par n="aften__n"/></e>
  <!-- /nouns -->
 
 
@@ -10155,7 +10337,6 @@
 <e lm="energisk">                  <i>energisk</i><par n="glad__adj"/></e>
 <e lm="enestående">                <i>enestående</i><par n="OK__adj"/></e>
 <e lm="snæver">                     <i>snæv</i><par n="munt/er__adj"/></e>
-<e lm="engelsk">                   <i>engelsk</i><par n="glad__adj"/></e>
 <e lm="engelsksproglig">           <i>engelsksproglig</i><par n="lykkelig__adj"/></e>
 <e lm="ængstelig">                 <i>ængstelig</i><par n="lykkelig__adj"/></e>
 <e lm="enig">                      <i>enig</i><par n="lykkelig__adj"/></e>
