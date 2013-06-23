@@ -3687,9 +3687,8 @@
 <e><p><l>autoritet<s n="n"/><s n="ut"/></l><r>autoritet<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>avancement<s n="n"/><s n="nt"/></l><r>avansement<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>avantgarde<s n="n"/><s n="ut"/></l><r>avantgarde<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>avbrekk<s n="n"/><s n="nt"/></l><r>avbrekk<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>avdeling<s n="n"/><s n="ut"/></l><r>avdeling<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>avdelingssjef<s n="n"/><s n="ut"/></l><r>avdelingssjef<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>afbræk<s n="n"/><s n="nt"/></l><r>avbrekk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>afdelingschef<s n="n"/><s n="ut"/></l><r>avdelingssjef<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>affald<s n="n"/><s n="nt"/></l><r>avfall<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>afgift<s n="n"/><s n="ut"/></l><r>avgift<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>afgørelse<s n="n"/><s n="ut"/></l><r>avgjørelse<s n="n"/><s n="m"/></r></p></e>
@@ -14393,7 +14392,6 @@ s<e><p><l>skide<s n="vblex"/></l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>bøge<s n="vblex"/></l>                   <r>i<b/>bøk</r></p><par n="generic__vblex"/></e>
 <e><p><l>bøje<s n="vblex"/></l>                   <r>bøyes</r></p><par n="generic__vblex"/></e>
 <e><p><l>bølle<s n="vblex"/></l>                  <r>mobbing</r></p><par n="generic__vblex"/></e>
-<e><p><l>bølge<s n="vblex"/></l>                  <r>bølgen</r></p><par n="generic__vblex"/></e>
 <e><p><l>bønhøre<s n="vblex"/></l>                <r>gi<b/>noens<b/>påstand</r></p><par n="generic__vblex"/></e>
 <e><p><l>censurere<s n="vblex"/></l>              <r>sensurere</r></p><par n="generic__vblex"/></e>
 <e><p><l>centrere<s n="vblex"/></l>               <r>fokusere</r></p><par n="generic__vblex"/></e>
