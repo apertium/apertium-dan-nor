@@ -121,8 +121,8 @@
      cp-both... ones are used for sg.ind forms, and thus need to be
      able to generate the sg.ind.cmp form too -->
 <pardef n="cp-R" c="cp-R, for forms that can only end compounds">
-   <e r="LR"><p><l></l>          <r><s n="nom"/><s n="compound-R"/></r></p></e>
-   <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
+   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>          <r></r></p></e>
    <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 
@@ -8726,7 +8726,6 @@
 <e lm="adresse">                   <i>adresse</i><par n="enk/e__n"/></e>
 <e lm="advokatfirma">              <i>advokatfirma</i><par n="vita__n"/></e>
 <e lm="aerobic">                   <i>aerobic</i><par n="aften__n"/></e>
-<e lm="aften">                     <i>aften</i><par n="aften__n"/></e>
 <e lm="agent">                     <i>agent</i><par n="aften__n"/></e>
 <e lm="aggression">                 <i>aggression</i><par n="aften_\s__n"/></e>
 <e lm="aggressivitet">             <i>aggressivitet</i><par n="aften_\s__n"/></e>
@@ -9022,7 +9021,6 @@
 <e lm="befolkningsvækst">          <i>befolkningsvækst</i><par n="aften__n"/></e>
 <e lm="bæger">                     <i>bæg</i><par n="ank/er__n"/></e>
 <e lm="begravelse">                <i>begravelse</i><par n="hygiejne_\s__n"/></e>
-<e lm="begreb">                    <i>begreb</i><par n="firma__n"/></e>
 <e lm="begrundelse">               <i>begrundelse</i><par n="hygiejne_\s__n"/></e>
 <e lm="behag">                     <i>behag</i><par n="slag__n"/></e>
 <e lm="behandler">                 <i>behandler</i><par n="buffer__n"/></e>
@@ -9143,7 +9141,6 @@
 <e lm="borat">                     <i>borat</i><par n="firma__n"/></e>
 <e lm="bordeaux">                  <i>bordeaux</i><par n="aften__n"/></e>
 <e lm="bordtennis">                <i>bordtennis</i><par n="aften__n"/></e>
-<e lm="borger">                    <i>borger</i><par n="buffer__n"/></e>
 <e lm="borgmester">              <i>borgmest</i><par n="minist/er__n"/></e>
 <e lm="udekamp">                 <i>udekamp</i><par n="vals__n"/></e>
 <e lm="bortfald">                  <i>bortfald</i><par n="slag__n"/></e>
@@ -9256,7 +9253,6 @@
 <e lm="bærer">                     <i>bærer</i><par n="buffer__n"/></e>
 <e lm="bøh">                        <i>bøh</i><par n="skab_no-cp__n"/></e>
 <e lm="bøg">                       <i>bøg</i><par n="vals__n"/></e>
-<e lm="bølge">                     <i>bølg</i><par n="enk/e__n"/></e>
 <e lm="bøn">                      <i>bøn</i><par n="pen__n"/></e>
 <e lm="bøtte">                     <i>bøtt2</i><par n="enk/e__n"/></e>
 <e lm="bøje">                      <i>bøje</i><par n="enk/e__n"/></e>
@@ -9514,7 +9510,6 @@
 <e lm="ekkolod">                  <i>ekkolod</i><par n="brud__n"/></e>
 <e lm="eksamen">                   <i>eksamen</i><par n="aften__n"/></e>
 <e lm="eksem">                     <i>eksem</i><par n="sekund__n"/></e>
-<e lm="eksemplar">                 <i>eksemplar</i><par n="firma__n"/></e>
 <e lm="eksil">                     <i>eksil</i><par n="firma__n"/></e>
 <e lm="ekskursion">                <i>ekskursion</i><par n="aften_\s__n"/></e>
 <e lm="eksos">                     <i>eksos</i><par n="aften__n"/></e>
@@ -9658,14 +9653,11 @@
 <e lm="faksimile">                 <i>faksimil</i><par n="hygiejne__n"/></e>
 <e lm="falk">                      <i>falk</i><par n="vals__n"/></e>
 <e lm="fallit">                   <i>fallit</i><par n="aften__n"/></e>
-
-
 <e lm="falsk">                     <i>falsk</i><par n="aften__n"/></e>
 <e lm="familiefar">                <i>familief</i><par n="f/ar__n"/></e>
 <e lm="familieliv">                <i>familieliv</i><par n="slag__n"/></e>
 <e lm="fanatisme">                 <i>fanatisme</i><par n="hygiejne__n"/></e>
 <e lm="fang">                      <i>fang</i><par n="slag__n"/></e>
-<e lm="fange">                     <i>fang</i><par n="enk/e__n"/></e>
 <e lm="fangelejr">                 <i>fangelejr</i><par n="aften__n"/></e>
 <e lm="fangeskab">                <i>fangeskab</i><par n="slag__n"/></e>
 <e lm="fangst">                    <i>fangst</i><par n="aften__n"/></e>
@@ -9681,7 +9673,6 @@
 <e lm="farce">                     <i>farce</i><par n="hygiejne__n"/></e>
 <e lm="farskab">                   <i>farskab</i><par n="skab__n"/></e>
 <e lm="farvand">                   <i>farvand</i><par n="slag__n"/></e>
-<e lm="farve">                     <i>farve</i><par n="hygiejne__n"/></e>
 <e lm="farvel">                    <i>farvel</i><par n="slag__n"/></e>
 <!--<e lm="fas">                       <i>fas</i><par n="aften_no-cp__n"/></e>-->
 <e lm="facade">                    <i>facade</i><par n="hygiejne__n"/></e>
@@ -9692,7 +9683,6 @@
 <e lm="facitsvar">                 <i>facitsvar</i><par n="slag__n"/></e>
 <e lm="fason">                    <i>fason</i><par n="aften__n"/></e>
 <e lm="faste">                     <i>faste</i><par n="enk/e__n"/></e>
-<e lm="fastland">                  <i>fastland</i><par n="slag__n"/></e>
 <e lm="fad">                       <i>fad</i><par n="firma_no-cp__n"/></e>
 <e lm="fauna">                     <i>fauna</i><par n="aften__n"/></e>
 <e lm="favorithold">               <i>favorithold</i><par n="slag__n"/></e>
@@ -9765,9 +9755,8 @@
 <e lm="fisketur">                  <i>fisketur</i><par n="aften__n"/></e>
 <e lm="fiskevand">                 <i>fiskevand</i><par n="slag__n"/></e>
 <e lm="fjas">                      <i>fjas</i><par n="slag__n"/></e>
-<e lm="fjeld">                     <i>fjeld</i><par n="slag__n"/></e>
 <e lm="fjelddal">                  <i>fjelddal</i><par n="aften__n"/></e>
-<e lm="fjeldheim">                 <i>fjeldheim</i><par n="aften__n"/></e>
+<e lm="fjeldslette">                 <i>fjeldslette</i><par n="aften__n"/></e>
 <e lm="fjeldområde">               <i>fjeldområde</i><par n="mød/e__n"/></e>
 <e lm="fjeldrev">                  <i>fjeldrev</i><par n="aften__n"/></e>
 <e lm="fjerdedel">                 <i>fjerdedel</i><par n="aften__n"/></e>
@@ -9855,7 +9844,6 @@
 <e lm="forhandling">               <i>forhandling</i><par n="art_\s__n"/></e>
 <e lm="forhandlingsbord">          <i>forhandlingsbord</i><par n="firma__n"/></e>
 <e lm="forhånd">                   <i>forhånd</i><par n="MC__n"/></e>
-<e lm="forhør"><i>forhør</i><par n="slag__n"/></e>
 <e lm="forlig">                    <i>forlig</i><par n="slag__n"/></e>
 <e lm="forligsråd">                <i>forligsråd</i><par n="slag__n"/></e>
 <e lm="forlis">                    <i>forlis</i><par n="slag__n"/></e>
@@ -9874,7 +9862,6 @@
 <e lm="formålsparagraf">           <i>formålsparagraf</i><par n="paragraf__n"/></e>
 <e lm="fornemmelse">               <i>fornemmelse</i><par n="hygiejne_\s__n"/></e>
 <e lm="fornuft">                   <i>fornuft</i><par n="aften__n"/></e>
-<e lm="forpligtelse">              <i>forpligtelse</i><par n="hygiejne_\s__n"/></e>
 <e lm="forprojekt">               <i>forprojekt</i><par n="firma__n"/></e>
 <e lm="forrang">                   <i>forrang</i><par n="aften__n"/></e>
 <e lm="forretningsfolk">           <i>forretningsfolk</i><par n="slag__n"/></e>
@@ -14356,7 +14343,6 @@
 <e lm="bøje">               <i>bøj</i><par n="mal/e__vblex"/></e>
 <e lm="bøje">               <i>bøj</i><par n="mal/e__vblex"/></e>
 <e lm="bølge">              <i>bølg</i><par n="mal/e__vblex"/></e>
-<e lm="bølge">              <i>bølg</i><par n="mal/e__vblex"/></e>
 <e lm="bølle">              <i>bøl</i><par n="rul/le__vblex"/></e>
 <e lm="bønhøre">            <i>bønhør</i><par n="tal/e__vblex"/></e>
 <e lm="bønhøre">            <i>bønhør</i><par n="tal/e__vblex"/></e>
@@ -14843,7 +14829,6 @@
 <e lm="fare">               <i>far</i><par n="f/are__vblex"/></e>
 <e lm="farsere">            <i>farser</i><par n="mal/e__vblex"/></e>
 <e lm="farte">              <i>fart</i><par n="mal/e__vblex"/></e>
-<e lm="farve">              <i>farv</i><par n="mal/e__vblex"/></e>
 <e lm="farve">              <i>farv</i><par n="mal/e__vblex"/></e>
 <e lm="farvelægge">         <i>farvel</i><par n="l/ægge__vblex"/></e>
 <e lm="fascinere">          <i>fasciner</i><par n="mal/e__vblex"/></e>
