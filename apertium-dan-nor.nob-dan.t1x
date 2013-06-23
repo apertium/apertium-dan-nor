@@ -425,24 +425,23 @@
           <with-param pos="1"/>
            </call-macro>
 
-
           <out>
              <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_det"/>
                <var n="køn"/>
-               <clip pos="2" side="tl" part="nbr"/>
-               <clip pos="2" side="tl" part="lemq"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="lemq"/>
               </lu>
               <b pos="1"/>
             <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="defnes"/>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+            <clip pos="2" side="tl" part="defnes"/>
             <var n="kasus"/>
-            <clip pos="1" side="tl" part="lemq"/>
+            <clip pos="2" side="tl" part="lemq"/>
           </lu>
         </out>
         <let><var n="køn"/><lit v=""/></let>
