@@ -101,7 +101,9 @@
 <e>       <p><l><s n="imp"/></l><r><s n="vblex"/><s n="imp"/></r></p></e>
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
 <!--<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>-->
-<e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="past"/></l><r><s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+
+
 <e>       <p><l><s n="pp"/></l><r><s n="vblex"/><s n="pp"/></r></p></e>
 
 

@@ -258,6 +258,45 @@
             </choose>
  </def-macro>
 
+
+ <def-macro n="adjective" npar="1">
+    <choose>
+      <when>
+        <test>
+          <equal>
+            <!--if the tag is 'posi' change it to 'pst'-->
+            <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/>
+          </equal>
+        </test>
+
+       <let>
+          <clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/>
+        </let>
+      </when>
+
+    </choose>
+
+    <choose>
+      <when>
+        <test>
+          <equal>
+            <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+
+              </test>
+
+                <let><var n="køn"/><lit-tag v="ut"/></let></when>
+                    <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+                    </otherwise>
+            </choose>
+
+            <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
+
+            <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
+
+ </def-macro>
+
+
 </section-def-macros>
 
 
@@ -294,7 +333,7 @@
 
 
 
-
+<!--
 
           <rule comment="CONVERT NOB SIDE ADJ PP'S TO VERB">
           <pattern>
@@ -331,7 +370,7 @@
               </rule>
 
 
-
+-->
       <rule comment="VERB → VERB">
          <pattern>
             <pattern-item n="verb"/>
@@ -447,14 +486,7 @@
               </lu>
               <b pos="1"/>
               <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="a_adj"/>
-               <clip pos="2" side="tl" part="grad"/>
-               <var n="køn2"/>
-               <var n="tal"/>
-               <var n="bestemthed"/>
-               <clip pos="2" side="tl" part="lemq"/>
-
+              <clip pos="2" side="tl" part="whole"/>
              </lu>
              <b pos="1"/>
             <lu>
