@@ -370,6 +370,8 @@
               </rule>
 
 
+
+
       <rule comment="VERB → VERB">
          <pattern>
             <pattern-item n="verb"/>
@@ -387,8 +389,6 @@
                   <otherwise> <!--otherwise let variable be the same as the source language-->
                   <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
               </choose>
-
-
 
 
             <choose>

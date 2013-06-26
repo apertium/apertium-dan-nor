@@ -102,7 +102,7 @@
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
 <!--<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>-->
 <e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
-<e>       <p><l><s n="pp"/></l><r><s n="vblex"/><s n="pp"/>sg</r></p></e>
+<e>       <p><l><s n="pp"/></l><r><s n="vblex"/><s n="pp"/></r></p></e>
 
 
 
@@ -327,7 +327,7 @@
     <e><p><l>med<s n="pr"/></l>                         <r>med<s n="pr"/></r></p></e>
     <e><p><l>mellem<s n="pr"/></l>                      <r>mellom<s n="pr"/></r></p></e>
     <e><p><l>ned<s n="pr"/></l>                         <r>ned<s n="pr"/></r></p></e>
-    <e><p><l>næ                                         r<s n="pr"/></l><r>nær<s n="pr"/></r></p></e>
+    <e><p><l>nær<s n="pr"/></l><r>nær<s n="pr"/></r></p></e>
     <e><p><l>om<s n="pr"/></l>                          <r>om<s n="pr"/></r></p></e>
     <e><p><l>omkring<s n="pr"/></l>                     <r>omkring<s n="pr"/></r></p></e>
     <e><p><l>omkring<s n="pr"/></l>                     <r>kring<s n="pr"/></r></p></e>
@@ -5953,7 +5953,7 @@
 <e><p><l>hovedtillidsvalgt<s n="adj"/></l>         <r>hovedtillitsvalgt<s n="adj"/></r></p></e>
 <e><p><l>hoven<s n="adj"/></l>                     <r>hoven<s n="adj"/></r></p></e>
 <e><p><l>human<s n="adj"/></l>                     <r>human<s n="adj"/></r></p></e>
-<e><p><l>humanitæ                                  r<s n="adj"/></l><r>humanitær<s n="adj"/></r></p></e>
+<e><p><l>humanitær<s n="adj"/></l><r>humanitær<s n="adj"/></r></p></e>
 <e><p><l>hurtig<s n="adj"/></l>                    <r>hurtig<s n="adj"/></r></p></e>
 <e><p><l>kuldskær<s n="adj"/></l>                   <r>hustrig<s n="adj"/></r></p></e>
 <e><p><l>hvid<s n="adj"/></l>                      <r>hvit<s n="adj"/></r></p></e>
@@ -6586,7 +6586,7 @@
 <e><p><l>sikkerhedsmæssig<s n="adj"/></l>           <r>sikkerhetsmæssig<s n="adj"/></r></p></e>
 <e><p><l>besindig<s n="adj"/></l>                    <r>sindig<s n="adj"/></r></p></e>
 <e><p><l>sur<s n="adj"/></l>                      <r>sint<s n="adj"/></r></p></e>
-<e><p><l>sidstnevnt<s n="adj"/></l>                 <r>sistnevnt<s n="adj"/></r></p></e>
+<e><p><l>sidstnævnt<s n="adj"/></l>                 <r>sistnevnt<s n="adj"/></r></p></e>
 <e><p><l>civil<s n="adj"/></l>                     <r>sivil<s n="adj"/></r></p></e>
 <e><p><l>genremæssig<s n="adj"/></l>             <r>sjangermæssig<s n="adj"/></r></p></e>
 <e><p><l>chanceløs<s n="adj"/></l>                 <r>sjanseløs<s n="adj"/></r></p></e>
@@ -16255,7 +16255,6 @@ s<e><p><l>skide<s n="vblex"/></l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>forudsige<s n="vblex"/></l>             <r>forutsi</r></p><par n="generic__vblex"/></e>
 <e><p><l>fryse<s n="vblex"/></l>                 <r>fryse</r></p><par n="generic__vblex"/></e>
 <e><p><l>frigive<s n="vblex"/></l>               <r>frigi</r></p><par n="generic__vblex"/></e>
-<e><p><l>gøre<s n="vblex"/></l>                  <r>gjøre</r></p><par n="generic__vblex"/></e>
 <e><p><l>gøre<b/>rent<s n="vblex"/></l>          <r>gjøre<b/>rent</r></p><par n="generic__vblex"/></e>
 <e><p><l>gælde<s n="vblex"/></l>                 <r>gjelde</r></p><par n="generic__vblex"/></e>
 <e><p><l>give<s n="vblex"/></l>                  <r>gi</r></p><par n="generic__vblex"/></e>
