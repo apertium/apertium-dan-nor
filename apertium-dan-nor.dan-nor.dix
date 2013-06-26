@@ -102,7 +102,7 @@
 <e>       <p><l><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
 <!--<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>-->
 <e>       <p><l><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
-<e>       <p><l><s n="pp"/></l><r><s n="vblex"/><s n="pp"/></r></p></e>
+<e>       <p><l><s n="pp"/></l><r><s n="vblex"/><s n="pp"/>sg</r></p></e>
 
 
 
@@ -5267,6 +5267,7 @@
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
 <!-- *Adjectives -->
+<e><p><l>alternativ<s n="adj"/></l><r>alternativ<s n="adj"/></r></p></e>
 <e><p><l>længe<s n="adj"/></l><r>lenge<s n="adj"/></r></p></e>
 <e><p><l>rød<s n="adj"/></l><r>rød<s n="adj"/></r></p></e>
 <e><p><l>sød<s n="adj"/></l><r>sød<s n="adj"/></r></p></e>
@@ -7816,7 +7817,7 @@
 <e><p><l>næst<s n="adv"/></l><r>nest<s n="adv"/></r></p></e>
 <e><p><l>næsten<s n="adv"/></l><r>nesten<s n="adv"/></r></p></e>
 <e><p><l>netto<s n="adv"/></l><r>netto<s n="adv"/></r></p></e>
-<e><p><l>netopp<s n="adv"/></l><r>nettopp<s n="adv"/></r></p></e>
+<e><p><l>netop<s n="adv"/></l><r>nettopp<s n="adv"/></r></p></e>
 <e><p><l>så<b/>godt<b/>som<s n="adv"/></l><r>noe<b/>så<b/>nær<s n="adv"/></r></p></e>
 <e><p><l>nogensinde<s n="adv"/></l><r>noen<b/>gang<s n="adv"/></r></p></e>
 <e><p><l>nogenlunde<s n="adv"/></l><r>noenlunde<s n="adv"/></r></p></e>
