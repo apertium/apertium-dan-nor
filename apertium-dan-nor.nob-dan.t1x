@@ -333,7 +333,7 @@
 
 
 
-<!--
+
 
           <rule comment="CONVERT NOB SIDE ADJ PP'S TO VERB">
           <pattern>
@@ -370,7 +370,6 @@
               </rule>
 
 
--->
       <rule comment="VERB → VERB">
          <pattern>
             <pattern-item n="verb"/>
@@ -486,7 +485,14 @@
               </lu>
               <b pos="1"/>
               <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_adj"/>
+               <clip pos="2" side="tl" part="grad"/>
+               <var n="køn2"/>
+               <var n="tal"/>
+               <var n="bestemthed"/>
+               <clip pos="2" side="tl" part="lemq"/>
+
              </lu>
              <b pos="1"/>
             <lu>
