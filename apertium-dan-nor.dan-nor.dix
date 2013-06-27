@@ -106,6 +106,9 @@
 
 
 
+
+
+
 </pardef>
 </pardefs>
 <section id="main" type="standard">
@@ -321,9 +324,7 @@
     <e><p><l>ifølge<s n="pr"/></l>                      <r>ifølge<s n="pr"/></r></p></e>
     <e><p><l>inde<b/>i<s n="pr"/></l>        <r>inne<b/>i<s n="pr"/></r></p></e>
     <e><p><l>inde<s n="adv"/></l>                       <r>inne<s n="adv"/></r></p></e>
-    <e><p><l>kring<s n="pr"/></l>                       <r>kring<s n="pr"/></r></p></e>
     <e><p><l>langs<s n="pr"/></l>                       <r>langs<s n="pr"/></r></p></e>
-    <e><p><l>med<s n="pr"/></l>                         <r>med<s n="pr"/></r></p></e>
     <e><p><l>med<s n="pr"/></l>                         <r>med<s n="pr"/></r></p></e>
     <e><p><l>mellem<s n="pr"/></l>                      <r>mellom<s n="pr"/></r></p></e>
     <e><p><l>ned<s n="pr"/></l>                         <r>ned<s n="pr"/></r></p></e>
@@ -336,16 +337,13 @@
     <e><p><l>overfor<s n="pr"/></l>                     <r>overfor<s n="pr"/></r></p></e>
     <e><p><l>per<s n="pr"/></l>                         <r>per<s n="pr"/></r></p></e>
     <e><p><l>på<s n="pr"/></l>                          <r>på<s n="pr"/></r></p></e>
-    <e><p><l>på<s n="pr"/></l>                          <r>på<s n="pr"/></r></p></e>
     <e><p><l>rundt<s n="pr"/></l>                       <r>rundt<s n="pr"/></r></p></e>
     <e><p><l>sammen<b/>med<s n="pr"/></l>               <r>sammen<b/>med<s n="pr"/></r></p></e>
-    <e><p><l>til<s n="pr"/></l>                         <r>til<s n="pr"/></r></p></e>
     <e><p><l>til<s n="pr"/></l>                         <r>til<s n="pr"/></r></p></e>
     <e><p><l>ud<s n="pr"/></l>                          <r>ut<s n="pr"/></r></p></e>
     <e><p><l>ude<s n="pr"/></l>                         <r>ute<s n="pr"/></r></p></e>
     <e><p><l>udenfor<s n="pr"/></l>                     <r>utenfor<s n="pr"/></r></p></e>
     <e><p><l>udenfor<s n="pr"/></l>                     <r>utenfor<s n="pr"/></r></p></e>
-    <e><p><l>under<s n="pr"/></l>                       <r>under<s n="pr"/></r></p></e>
     <e><p><l>under<s n="pr"/></l>                       <r>under<s n="pr"/></r></p></e>
     <e><p><l>ved<s n="pr"/></l>                         <r>nær<s n="pr"/></r></p></e>
     <e><p><l>ved<s n="pr"/></l>                         <r>ved<s n="pr"/></r></p></e>
