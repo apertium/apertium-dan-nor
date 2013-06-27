@@ -184,7 +184,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pret"/>
       <attr-item tags="pp"/>
-      <attr-item tags="pprs"/>
+      <!--<attr-item tags="pprs"/>-->
     </def-attr>
 
     <def-attr n="pers">
