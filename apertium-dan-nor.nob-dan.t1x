@@ -334,7 +334,7 @@
 
 
 
-
+<!--
           <rule comment="CONVERT NOB SIDE ADJ PP'S TO VERB">
           <pattern>
           <pattern-item n="vb-pp"/>
@@ -369,7 +369,7 @@
                  </action>
               </rule>
 
-
+-->
 
 
       <rule comment="VERB → VERB">
