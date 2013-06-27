@@ -472,9 +472,6 @@
     <call-macro n="determiner">
     <with-param pos="1"/>
     </call-macro>
-
-
-
           <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -487,6 +484,7 @@
               <lu>
               <clip pos="2" side="tl" part="lemh"/>
                <clip pos="2" side="tl" part="a_adj"/>
+               <clip pos="2" side="tl" part="tense"/>
                <clip pos="2" side="tl" part="grad"/>
                <var n="køn2"/>
                <var n="tal"/>
@@ -662,12 +660,11 @@
 
             <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
 
-
-
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_adj"/>
+               <clip pos="1" side="tl" part="tense"/>
                <clip pos="1" side="tl" part="grad"/>
                <var n="køn"/>
                <var n="tal"/>
