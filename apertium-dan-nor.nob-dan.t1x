@@ -752,23 +752,10 @@
            <pattern-item n="det-emph"/>
          </pattern>
          <action>
-            <!-- gender: a let m and f go to ut-->
-        <choose>
-          <when>
-            <test>
-               <and><or><equal>
-                <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
-                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
-                <not><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="un"/></equal></not>
-               </and>
-            </test>
-            <let><var n="køn"/><lit-tag v="ut"/></let>
-          </when>
 
-          <otherwise>
-                      <let><var n="køn"/><clip pos="1" side="tl" part="gen"/></let>
-          </otherwise>
-            </choose>
+           <call-macro n="determiner">
+          <with-param pos="1"/>
+           </call-macro>
 
         <out>
              <lu>
