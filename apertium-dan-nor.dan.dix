@@ -4996,6 +4996,8 @@
       ****************************** -->
 
 <e lm="a">            <i>a</i><par n="på__pr"/></e>
+<e lm="væk gennem">            <i>væk<b/>gennem</i><par n="på__pr"/></e>
+<e lm="væk igennem">           <i>væk<b/>igennem</i><par n="på__pr"/></e>
 <e lm="agterfor">     <i>agterfor</i><par n="på__pr"/></e>
 <e lm="agterfra">     <i>agterfra</i><par n="på__pr"/></e>
 <e lm="agterom">      <i>agterom</i><par n="på__pr"/></e>
@@ -5066,6 +5068,8 @@
 <e lm="der i fra">      <i>der<b/>i<b/>fra</i><par n="på__pr"/></e>
 <e lm="derimellem">   <i>derimellem</i><par n="på__pr"/></e>
 <e lm="derom">        <i>derom</i><par n="på__pr"/></e>
+<e lm="eksklusiv">        <i>eksklusiv</i><par n="på__pr"/></e>
+<e lm="eksklusive">        <i>eksklusive</i><par n="på__pr"/></e>
 <e lm="dertil">       <i>dertil</i><par n="på__pr"/></e>
 <e lm="derved">       <i>derved</i><par n="på__pr"/></e>
 <e lm="fra hus til hus">   <i>fra<b/>hus<b/>til<b/>hus</i><par n="på__pr"/></e>
@@ -5080,6 +5084,7 @@
 
 
 <e lm="end">         <i>end</i><par n="på__pr"/></e>
+<e lm="en">         <i>en</i><par n="på__pr"/></e>
 <e lm="nogetsteds">     <i>nogetsteds</i><par n="på__pr"/></e>
 <e lm="efter">       <i>efter</i><par n="på__pr"/></e>
 <e lm="ex">          <i>ex</i><par n="på__pr"/></e>
@@ -5095,19 +5100,28 @@
 <e lm="frem">        <i>frem</i><par n="på__pr"/></e>
 <e lm="fremad">   <i>fremad</i><par n="på__pr"/></e>
 <e lm="fremfor">     <i>fremfor</i><par n="på__pr"/></e>
+<e lm="indover">     <i>indover</i><par n="på__pr"/></e>
 <e lm="fremme">      <i>fremme</i><par n="på__pr"/></e>
 <e lm="fremom">      <i>fremom</i><par n="på__pr"/></e>
+<e lm="midtvejs">      <i>midtvejs</i><par n="på__pr"/></e>
 <e lm="fremover">    <i>fremover</i><par n="på__pr"/></e>
 <e lm="frempå">      <i>frempå</i><par n="på__pr"/></e>
+<e lm="henne">      <i>henne</i><par n="på__pr"/></e>
 <e lm="frem          i"><i>frem<b/>i</i><par n="på__pr"/></e>
 <e lm="frem">        <i>frem</i><par n="på__pr"/></e>
 <e lm="fremad">      <i>fremad</i><par n="på__pr"/></e>
 <e lm="langs">   <i>langs</i><par n="på__pr"/></e>
+<e lm="langs med">   <i>langs<b/>med</i><par n="på__pr"/></e>
+<e lm="langs gennem">   <i>langs<b/>gennem</i><par n="på__pr"/></e>
+<e lm="langs åsen">   <i>langs<b/>åsen</i><par n="på__pr"/></e>
+<e lm="på mange måder">   <i>på<b/>mange<b/>måder</i><par n="på__pr"/></e>
+<e lm="på isen">   <i>på<b/>isen</i><par n="på__pr"/></e>
 <e lm="fremfor">     <i>fremfor</i><par n="på__pr"/></e>
 <e lm="fremimod">    <i>fremimod</i><par n="på__pr"/></e>
 <e lm="fremme">      <i>fremme</i><par n="på__pr"/></e>
 <e lm="før">             <i>før</i><par n="på__pr"/></e>
 <e lm="gennem">     <i>gennem</i><par n="på__pr"/></e>
+<e lm="fremme">     <i>fremme</i><par n="på__pr"/></e>
 <e lm="igennem">     <i>igennem</i><par n="på__pr"/></e>
 <e lm="herhen">           <i>herhen</i><par n="på__pr"/></e>
 <e lm="derop">           <i>derop</i><par n="på__pr"/></e>
@@ -5201,7 +5215,6 @@
 <e lm="hinsides">    <i>hinsides</i><par n="på__pr"/></e>
 <e lm="hist">        <i>hist</i><par n="på__pr"/></e>
 <e lm="her til">     <i>her<b/>til</i><par n="på__pr"/></e>
-<e lm="her">         <i>her</i><par n="på__pr"/></e>
 <e lm="herefter">    <i>herefter</i><par n="på__pr"/></e>
 <e lm="herom">       <i>herom</i><par n="på__pr"/></e>
 <e lm="herover">     <i>herover</i><par n="på__pr"/></e>
@@ -5335,12 +5348,14 @@
 <e lm="nordøstover">     <i>nordøstover</i><par n="på__pr"/></e>
 <e lm="nær">           <i>nær</i><par n="på__pr"/></e>
 <e lm="om">              <i>om</i><par n="på__pr"/></e>
+<e lm="post">              <i>post</i><par n="på__pr"/></e>
 <e lm="ombord">          <i>ombord</i><par n="på__pr"/></e>
 
 
 <e lm="omkring">         <i>omkring</i><par n="på__pr"/></e>
 <e lm="indimellem">      <i>indimellem</i><par n="på__pr"/></e>
 <e lm="op imod">        <i>op<b/>imod</i><par n="på__pr"/></e>
+<e lm="til stede">        <i>til<b/>stede</i><par n="på__pr"/></e>
 <e lm="op mod">         <i>op<b/>mod</i><par n="på__pr"/></e>
 <e lm="op på">          <i>op<b/>på</i><par n="på__pr"/></e>
 <e lm="op til">         <i>op<b/>til</i><par n="på__pr"/></e>
@@ -5422,6 +5437,7 @@
 <e lm="uden">            <i>uden</i><par n="på__pr"/></e>
 
 <e lm="til trods for">   <i>til<b/>trods<b/>for</i><par n="på__pr"/></e>
+<e lm="på grund af">   <i>på<b/>grund<b/>af</i><par n="på__pr"/></e>
 <e lm="trods">           <i>trods</i><par n="på__pr"/></e>
 <e lm="uanset">          <i>uanset</i><par n="på__pr"/></e>
 <e lm="ultimo">          <i>ultimo</i><par n="på__pr"/></e>
@@ -5430,7 +5446,11 @@
 <e lm="fra">             <i>fra</i><par n="på__pr"/></e>
 <e lm="undtagen">        <i>undtagen</i><par n="på__pr"/></e>
 <e lm="ud af">           <i>ud<b/>af</i><par n="på__pr"/></e>
-<e lm="ud                i">            <i>ud<b/>i</i><par n="på__pr"/></e>
+<e lm="længere ud">           <i>længere<b/>ud</i><par n="på__pr"/></e>
+<e lm="langt ude">           <i>langt<b/>ude</i><par n="på__pr"/></e>
+<e lm="ud i">            <i>ud<b/>i</i><par n="på__pr"/></e>
+<e lm="ud gennem">            <i>ud<b/>gennem</i><par n="på__pr"/></e>
+<e lm="ude i">            <i>ude<b/>af<b/>syne</i><par n="på__pr"/></e>
 <e lm="ud over">         <i>ud<b/>over</i><par n="på__pr"/></e>
 <e lm="ud">              <i>ud</i><par n="på__pr"/></e>
 <e lm="udad">            <i>udad</i><par n="på__pr"/></e>
@@ -5440,8 +5460,10 @@
 <e lm="ude">             <i>ude</i><par n="på__pr"/></e>
 <e lm="udefra">          <i>udefra</i><par n="på__pr"/></e>
 <e lm="uden">            <i>uden</i><par n="på__pr"/></e>
+<e lm="mangesteds">            <i>mangesteds</i><par n="på__pr"/></e>
 
 <e lm="udendørs">        <i>udendørs</i><par n="på__pr"/></e>
+<e lm="overhovedet">        <i>overhovedet</i><par n="på__pr"/></e>
 <e lm="udenfor">         <i>ud</i><par n="på__pr"/></e>
 <e lm="udenfra">         <i>udenfra</i><par n="på__pr"/></e>
 <e lm="udenlands">       <i>udenlands</i><par n="på__pr"/></e>
@@ -5450,7 +5472,7 @@
 <e lm="ud efter">        <i>ud<b/>efter</i><par n="på__pr"/></e>
 <e lm="ud for">          <i>ud<b/>for</i><par n="på__pr"/></e>
 <e lm="ud fra">          <i>ud<b/>fra</i><par n="på__pr"/></e>
-<e lm="udeved">       <i>ude<b/>ved</i><par n="på__pr"/></e>
+<e lm="ude ved">       <i>ude<b/>ved</i><par n="på__pr"/></e>
 <e lm="udenfor">         <i>udenfor</i><par n="på__pr"/></e>
 <e lm="udover">          <i>udover</i><par n="på__pr"/></e>
 <e lm="ud på">           <i>ud<b/>på</i><par n="på__pr"/></e>
@@ -12284,6 +12306,8 @@
 <e lm="sol">             <i>sol</i><par n="bold__n"/></e>
 <e lm="sommer">          <i>som</i><par n="som/mer__n"/></e>
 <e lm="forkammer">       <i>forkam</i><par n="kam/mer__n"/></e>
+<e lm="kammer">       <i>kam</i><par n="kam/mer__n"/></e>
+
 <e lm="nummer">          <i>num</i><par n="kam/mer__n"/></e>
 <e lm="personnummer">    <i>personnum</i><par n="kam/mer__n"/></e>
 <e lm="sort">            <i>sort</i><par n="ateist__n"/></e>
@@ -13181,7 +13205,26 @@
 <e lm="hjertefejl">                <i>hjertefejl</i><par n="fejl__n"/></e>
 <e lm="hjerteinfarkt">             <i>hjerteinfarkt</i><par n="firma__n"/></e>
 
-<e lm="hip hop">             <i>hip><b/>hop</i><par n="lux__n"/></e>
+<e lm="hip hop">             <i>hip><b/>hop</i><par n="krop__n"/></e>
+
+
+<e lm="hjerter">                   <i>hjerter</i><par n="spiller__n"/></e>
+<e lm="hjertesuk">                <i>hjertesuk</i><par n="stik__n"/></e>
+<e lm="hjertesygdom">              <i>hjertesygdom</i><par n="bom_\s__n"/></e>
+<e lm="hjørnespark">               <i>hjørnespark</i><par n="slag__n"/></e>
+<e lm="hockey">                    <i>hockey</i><par n="aften__n"/></e>
+<e lm="hof">                      <i>hof</i><par n="stof__n"/></e>
+<e lm="hugst">                <i>hugst</i><par n="ateist__n"/></e>
+<e lm="holder">                    <i>holder</i><par n="buffer__n"/></e>
+<e lm="holdt">                     <i>holdt</i><par n="syd__n"/></e>
+<e lm="holmgang">                  <i>holmgang</i><par n="vals__n"/></e>
+<e lm="holt">                      <i>holt</i><par n="sekund__n"/></e>
+<e lm="holt">                      <i>holt</i><par n="vals__n"/></e>
+<e lm="bøsse">                     <i>bøsse</i><par n="hygiejne__n"/></e>
+<e lm="honnør">                     <i>honnør</i><par n="aften__n"/></e>
+<e lm="hook">                      <i>hook</i><par n="aften__n"/></e>
+<e lm="hobe">                       <i>hob</i><par n="enk/e__n"/></e>
+
 
  <!-- /nouns -->
 
