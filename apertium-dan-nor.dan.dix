@@ -1326,6 +1326,14 @@
 
  <!-- ported and changed NOB pardefs-->
 
+
+<pardef n="id/é_no-cp__n">
+  <e>       <p><l>eerne</l>      <r>é<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>eer</l>       <r>é<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>een</l>       <r>é<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>é</l>         <r>é<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+</pardef>
+
 <pardef n="hel/e__n">
   <e>       <p><l>ene</l>       <r>e<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>e</l>        <r>e<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -13225,6 +13233,204 @@
 <e lm="hook">                      <i>hook</i><par n="aften__n"/></e>
 <e lm="hobe">                       <i>hob</i><par n="enk/e__n"/></e>
 
+<e lm="hor">                       <i>hor</i><par n="slag_no-cp__n"/></e>
+<e lm="horde">                     <i>horde</i><par n="hygiejne__n"/></e>
+<e lm="horisontal">                <i>horisontal</i><par n="aften__n"/></e>
+<e lm="horst">                     <i>horst</i><par n="aften__n"/></e>
+<e lm="hotelværelse">                 <i>hotelværelse</i><par n="æble__n"/></e>
+<e lm="bjergtop">             <i>bjergtop</i><par n="krop__n"/></e>
+<e lm="hovedsæde">                 <i>hovedsæd</i><par n="mød/e__n"/></e>
+<e lm="hornugle">                     <i>hornugle</i><par n="aften__n"/></e>
+<e lm="hudkræft">                  <i>hudkræft</i><par n="aften__n"/></e>
+<e lm="hudlæge">                   <i>hudlæge</i><par n="hygiejne__n"/></e>
+<e lm="hulder">                    <i>huld</i><par n="ag/er__n"/></e>
+<e lm="hule">                      <i>hule</i><par n="enk/e__n"/></e>
+<e lm="hulk">                      <i>hulk</i><par n="hus__n"/></e>
+<e lm="humanisme">                 <i>humanisme</i><par n="hygiejne__n"/></e>
+<e lm="humanist">                  <i>humanist</i><par n="aften__n"/></e>
+<e lm="humor">                     <i>humor</i><par n="aften__n"/></e>
+<e lm="hundemad">                  <i>hundemad</i><par n="aften__n"/></e>
+<e lm="hunderace">                 <i>hunderace</i><par n="hygiejne__n"/></e>
+<e lm="hundrede">                    <i>hundrede</i><par n="hygiejne__n"/></e>
+<e lm="hundredlap">                <i>hundredlap</i><par n="krop__n"/></e>
+<e lm="hundredetusind">               <i>hundredetusind</i><par n="firma__n"/></e>
+<e lm="hundredevis">                 <i>hundredevis</i><par n="MC__n"/></e>
+<e lm="hurra">                     <i>hurra</i><par n="hus__n"/></e>
+<e lm="hurtighed">                 <i>hurtighed</i><par n="art__n"/></e>
+<e lm="husarbejde">                 <i>husarbejde</i><par n="slag__n"/></e>
+<e lm="husarrest">                 <i>husarrest</i><par n="aften__n"/></e>
+<e lm="husly">                     <i>husly</i><par n="slag__n"/></e>
+<e lm="husmand">                   <i>husm</i><par n="m/and__n"/></e>
+<e lm="husstand">                  <i>husstand</i><par n="aften__n"/></e>
+<e lm="hval">                      <i>hval</i><par n="aften__n"/></e>
+<e lm="hvalfangst">                <i>hvalfangst</i><par n="aften__n"/></e>
+<e lm="hverdag">                   <i>hverdag</i><par n="aften__n"/></e>
+<e lm="hvedemel">                  <i>hvedemel</i><par n="slag__n"/></e>
+<e lm="hvile">                     <i>hvile</i><par n="abe__n"/></e>
+<e lm="hvide">                     <i>hvide</i><par n="hygiejne__n"/></e>
+<e lm="hvid">                      <i>hvid</i><par n="syd__n"/></e>
+<e lm="hybel">                     <i>hybel</i><par n="cirk/el__n"/></e>
+<e lm="hydrokarbon">               <i>hydrokarbon</i><par n="firma__n"/></e>
+<e lm="hygiejne">                   <i>hygiejne</i><par n="hygiejne__n"/></e>
+<e lm="hykleri">                   <i>hykleri</i><par n="firma__n"/></e>
+<e lm="hyl">                       <i>hyl</i><par n="slag_no-cp__n"/></e>
+<e lm="hylekor">                   <i>hylekor</i><par n="slag__n"/></e>
+<e lm="hypnose">                   <i>hypnose</i><par n="hygiejne__n"/></e>
+<e lm="hysteri">                   <i>hysteri</i><par n="firma__n"/></e>
+<e lm="hytte">                     <i>hytt</i><par n="enk/e__n"/></e>
+<e lm="hyttetur">                  <i>hyttetur</i><par n="aften__n"/></e>
+<!--<e lm="hå">                        <i>hå</i><par n="art_no-cp__n"/></e-->
+<e lm="håndarbejde">                <i>håndarbejde</i><par n="firma_\s__n"/></e>
+<e lm="håndbagage">               <i>håndbagage</i><par n="hygiejne__n"/></e>
+<e lm="håndbold">                  <i>håndbold</i><par n="aften__n"/></e>
+<e lm="håndfuld">                  <i>håndfuld</i><par n="aften__n"/></e>
+<e lm="håndjern">                  <i>håndjern</i><par n="slag__n"/></e>
+<e lm="håndled">                  <i>håndled</i><par n="brud__n"/></e>
+<e lm="håndtag">                   <i>håndtag</i><par n="slag__n"/></e>
+<e lm="håndværker">                <i>håndværker</i><par n="buffer__n"/></e>
+<e lm="håndvåben">                 <i>håndvåb</i><par n="våb/en__n"/></e>
+<e lm="hårtab">                 <i>hårtab</i><par n="slag__n"/></e>
+<e lm="hårvekst">                  <i>hårvekst</i><par n="aften__n"/></e>
+<!--<e lm="håv">                       <i>håv</i><par n="aften_no-cp__n"/></e>-->
+<e lm="hønsefalk">                 <i>hønsefalk</i><par n="hus__n"/></e>
+<e lm="høring">                    <i>høring</i><par n="art_\s__n"/></e>
+<e lm="hørelse">                    <i>hørelse</i><par n="hygiejne__n"/></e>
+<e lm="højesteret">               <i>højesteret</i><par n="sæt__n"/></e>
+<e lm="højfjeld">                  <i>højfjeld</i><par n="hus__n"/></e>
+<e lm="højgear">                    <i>højgear</i><par n="slag__n"/></e>
+<e lm="højkant">                   <i>højkant</i><par n="aften__n"/></e>
+<e lm="højkommissær"><i>højkommissær</i><par n="aften__n"/></e>
+<e lm="højland">                   <i>højland</i><par n="slag__n"/></e>
+<e lm="højre">                     <i>højre</i><par n="afghansk__n"/></e>
+<e lm="højre">                     <i>højre</i><par n="æble__n"/></e>
+<e lm="højrefod">                  <i>højref</i><par n="f/od__n"/></e>
+<e lm="højsæson">                 <i>højsæson</i><par n="aften__n"/></e>
+<e lm="højsæde">                   <i>højsæde</i><par n="mød/e__n"/></e>
+<e lm="højtryk">                  <i>højtryk</i><par n="stik__n"/></e>
+<e lm="i-land"><i>i-land</i><par n="hus__n"/></e>
+<e lm="id">                        <i>id</i><par n="art_no-cp__n"/></e>
+<e lm="idealisme">                 <i>idealisme</i><par n="hygiejne__n"/></e>
+<e lm="idioti">                    <i>idioti</i><par n="aften__n"/></e>
+<e lm="idrætsanlæg">             <i>idrætsanlæg</i><par n="slag__n"/></e>
+<e lm="idrætshøjskole">           <i>idrætshøjskole</i><par n="hygiejne__n"/></e>
+<e lm="idrætshold">                <i>idrætshold</i><par n="slag__n"/></e>
+<e lm="idyl">                     <i>idyl</i><par n="duel__n"/></e>
+<e lm="idé">                       <i>idé</i><par n="id/é_no-cp__n"/></e>
+<e lm="ignorant">                  <i>ignorant</i><par n="aften__n"/></e>
+<!--<e lm="il">                        <i>il</i><par n="art_no-cp__n"/></e-->
+<!--<e lm="il">                        <i>il</i><par n="art_no-cp__n"/></e-->
+<e lm="illustratør">                <i>illustratør</i><par n="aften__n"/></e>
+<e lm="image">                     <i>image</i><par n="æble__n"/></e>
+<e lm="imam">                      <i>imam</i><par n="aften__n"/></e>
+<e lm="imitation">                 <i>imitation</i><par n="aften_\s__n"/></e>
+<e lm="immunsystem">               <i>immunsystem</i><par n="firma__n"/></e>
+<e lm="imperial">                  <i>imperial</i><par n="aften__n"/></e>
+<e lm="imperialisme">              <i>imperialisme</i><par n="hygiejne__n"/></e>
+<e lm="imperium">                  <i>imperi</i><par n="podi/um__n"/></e>
+<e lm="implikation">               <i>implikation</i><par n="aften_\s__n"/></e>
+<e lm="importør"><i>importør</i><par n="aften__n"/></e>
+<e lm="impotens">                  <i>impotens</i><par n="aften__n"/></e>
+<e lm="improvisation">             <i>improvisation</i><par n="aften_\s__n"/></e>
+<e lm="incest">                    <i>incest</i><par n="aften__n"/></e>
+<e lm="indeks">                    <i>indeks</i><par n="aften__n"/></e>
+<e lm="independent">               <i>independent</i><par n="aften__n"/></e>
+<e lm="indikation">                <i>indikation</i><par n="aften_\s__n"/></e>
+<e lm="individualisme">            <i>individualisme</i><par n="hygiejne__n"/></e>
+<e lm="individualitet">            <i>individualitet</i><par n="aften_\s__n"/></e>
+<e lm="indre">                     <i>indre</i><par n="syd__n"/></e>
+<e lm="indremedicin">              <i>indremedicin</i><par n="aften__n"/></e>
+<e lm="industriland">              <i>industriland</i><par n="hus__n"/></e>
+<e lm="industriområde">            <i>industriområd</i><par n="mød/e__n"/></e>
+<e lm="industriproduktion">        <i>industriproduktion</i><par n="aften_\s__n"/></e>
+<e lm="infektion">                 <i>infektion</i><par n="aften_\s__n"/></e>
+<e lm="inferno">                   <i>inferno</i><par n="firma__n"/></e>
+<e lm="inflammation">              <i>inflammation</i><par n="aften_\s__n"/></e>
+<e lm="influenzavaccine">          <i>influenzavaccine</i><par n="hygiejne__n"/></e>
+<e lm="info">                      <i>info</i><par n="aften__n"/></e>
+<e lm="informant">                 <i>informant</i><par n="aften__n"/></e>
+<e lm="informationsmateriale">     <i>informationsmateriale</i><par n="slag__n"/></e>
+<e lm="informationschef">          <i>informationschef</i><par n="aften__n"/></e>
+<e lm="informationsteknologi">     <i>informationsteknologi</i><par n="aften__n"/></e>
+<e lm="informatik">               <i>informatik</i><par n="paryk__n"/></e>
+<e lm="infrastruktur">             <i>infrastruktur</i><par n="aften__n"/></e>
+<e lm="infusion">                  <i>infusion</i><par n="aften_\s__n"/></e>
+<e lm="ingefær">                   <i>ingefær</i><par n="aften__n"/></e>
+<e lm="ingenmandsland">            <i>ingenmandsland</i><par n="slag__n"/></e>
+<e lm="ingenting">                 <i>ingenting</i><par n="syd__n"/></e>
+<e lm="ingrediens">                <i>ingrediens</i><par n="aften__n"/></e>
+<e lm="ingress">                   <i>ingress</i><par n="aften__n"/></e>
+<e lm="inhalation">                <i>inhalation</i><par n="aften_\s__n"/></e>
+<e lm="initial">                   <i>initial</i><par n="aften__n"/></e>
+<e lm="injektion">                 <i>injektion</i><par n="aften_\s__n"/></e>
+<e lm="inkasso">                   <i>inkasso</i><par n="aften__n"/></e>
+<e lm="inkompetanse">              <i>inkompetanse</i><par n="hygiejne__n"/></e>
+<e lm="indavl">                    <i>indavl</i><par n="aften__n"/></e>
+<e lm="indblanding">               <i>indblanding</i><par n="art_\s__n"/></e>
+<e lm="indbo">                     <i>indbo</i><par n="firma__n"/></e>
+<e lm="indbyggertald">             <i>indbyggertald</i><par n="slag__n"/></e>
+<e lm="inddeling">                 <i>inddeling</i><par n="art_\s__n"/></e>
+<e lm="indehaver">                 <i>indehaver</i><par n="buffer__n"/></e>
+<e lm="inderst">                   <i>inderst</i><par n="aften__n"/></e>
+<e lm="inderste">                  <i>inderste</i><par n="syd__n"/></e>
+<e lm="indfaldsvinkel">            <i>indfaldsvinkel</i><par n="cirk/el__n"/></e>
+<e lm="indflytelse">               <i>indflytelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="indføring">                 <i>indføring</i><par n="art_\s__n"/></e>
+<e lm="indgåelse">                 <i>indgåelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="indkast">                   <i>indkast</i><par n="slag__n"/></e>
+<e lm="indkøb">                   <i>indkøb</i><par n="slag__n"/></e>
+<e lm="indland">                   <i>indland</i><par n="slag__n"/></e>
+<e lm="indmat">                    <i>indmat</i><par n="aften__n"/></e>
+<e lm="indpass">                   <i>indpass</i><par n="slag__n"/></e>
+<e lm="indrykk">                   <i>indrykk</i><par n="hus__n"/></e>
+<e lm="indsamlingsaktion">         <i>indsamlingsaktion</i><par n="aften_\s__n"/></e>
+<e lm="indsatsvilje">              <i>indsatsvilje</i><par n="hygiejne__n"/></e>
+<e lm="indsiderhandel">             <i>indsiderhandel</i><par n="cirk/el__n"/></e>
+<e lm="indsjø">                    <i>indsjø</i><par n="aften__n"/></e>
+<e lm="indspurt">                  <i>indspurt</i><par n="aften__n"/></e>
+<e lm="indsynsret">               <i>indsynsret</i><par n="sæt__n"/></e>
+<e lm="indtægtsskat">             <i>indtægtsskat</i><par n="aften__n"/></e>
+<e lm="indvirkning">               <i>indvirkning</i><par n="aften__n"/></e>
+<e lm="input">                     <i>input</i><par n="aften__n"/></e>
+<e lm="inspirator">                <i>inspirator</i><par n="aften__n"/></e>
+<e lm="instans">                   <i>instans</i><par n="aften__n"/></e>
+<e lm="instinkt">                  <i>instinkt</i><par n="firma__n"/></e>
+<e lm="instruks">                  <i>instruks</i><par n="aften__n"/></e>
+<e lm="insulin">                   <i>insulin</i><par n="slag__n"/></e>
+<e lm="integritet">                <i>integritet</i><par n="aften_\s__n"/></e>
+<e lm="intention">                 <i>intention</i><par n="aften_\s__n"/></e>
+<e lm="interessekonflikt">         <i>interessekonflikt</i><par n="aften__n"/></e>
+<e lm="interessent">               <i>interessent</i><par n="aften__n"/></e>
+<e lm="interesseorganisation">     <i>interesseorganisation</i><par n="aften_\s__n"/></e>
+<e lm="interiør"><i>interiør</i><par n="firma__n"/></e>
+<e lm="internationale">            <i>internationale</i><par n="hygiejne__n"/></e>
+<e lm="internet">                 <i>internet</i><par n="sæt__n"/></e>
+<e lm="interpellation">            <i>interpellation</i><par n="aften_\s__n"/></e>
+<e lm="intervention">              <i>intervention</i><par n="aften_\s__n"/></e>
+<e lm="intifada">                  <i>intifada</i><par n="aften__n"/></e>
+<e lm="intimitet">                 <i>intimitet</i><par n="aften_\s__n"/></e>
+<e lm="intolerance">               <i>intolerance</i><par n="hygiejne__n"/></e>
+<e lm="intrige">                   <i>intrige</i><par n="hygiejne__n"/></e>
+<e lm="investeringsselskab">       <i>investeringsselskab</i><par n="firma_\s__n"/></e>
+<e lm="irritationsmoment">         <i>irritationsmoment</i><par n="firma__n"/></e>
+<e lm="isterning">                     <i>isterning</i><par n="aften__n"/></e>
+<e lm="ishockey">                  <i>ishockey</i><par n="aften__n"/></e>
+<e lm="ising">                     <i>ising</i><par n="art_\s__n"/></e>
+<e lm="islam">                     <i>islam</i><par n="MC__n"/></e>
+<e lm="islandshest">               <i>islandshest</i><par n="aften__n"/></e>
+<e lm="islænding">                 <i>islænding</i><par n="aften__n"/></e>
+<e lm="isme">                      <i>isme</i><par n="hygiejne__n"/></e>
+<e lm="it">                        <i>it</i><par n="MC_no-cp__n"/></e>
+<e lm="iver">                      <i>iver</i><par n="minist/er__n"/></e>
+<e lm="ja">                        <i>ja</i><par n="firma_no-cp__n"/></e>
+<e lm="jacket">                    <i>jacket</i><par n="peer__n"/></e>
+<e lm="jade">                      <i>jade</i><par n="hygiejne__n"/></e>
+<e lm="luns">                      <i>luns</i><par n="vals__n"/></e>
+<e lm="jaguar">                    <i>jaguar</i><par n="aften__n"/></e>
+<e lm="jagtstart">                 <i>jagtstart</i><par n="aften__n"/></e>
+<e lm="jam">                       <i>jam</i><par n="bom_no-cp__n"/></e>
+<e lm="jan">                       <i>jan</i><par n="aften_no-cp__n"/></e>
+
+
 
  <!-- /nouns -->
 
@@ -14227,7 +14433,6 @@
 <e lm="hoven">                     <i>hov</i><par n="erfar/en__adj"/></e>
 <e lm="human">                     <i>human</i><par n="rund__adj"/></e>
 <e lm="humanitær">                  <i>humanitær</i><par n="rund__adj"/></e>
-<e lm="humoristisk">               <i>humoristisk</i><par n="glad__adj"/></e>
 <e lm="hurtig">                    <i>hurtig</i><par n="lykkelig__adj"/></e>
 <e lm="kuldskær">                   <i>kuldskær</i><par n="rund__adj"/></e>
 <e lm="hvid">                      <i>hvid</i><par n="rund__adj"/></e>
@@ -14261,7 +14466,7 @@
 <e lm="indisk">                    <i>indisk</i><par n="glad__adj"/></e>
 <e lm="individuel">               <i>individuel</i><par n="finansiel__adj"/></e>
 <e lm="indonesisk">                <i>indonesisk</i><par n="glad__adj"/></e>
-<e lm="indre">                     <i>indre</i><par n="in/dre__adj"/></e>
+<e lm="indre">                     <i>in</i><par n="in/dre__adj"/></e>
 <e lm="industriel">               <i>industriel</i><par n="finansiel__adj"/></e>
 <e lm="informativ">                <i>informativ</i><par n="rund__adj"/></e>
 <e lm="initiativrig">              <i>initiativrig</i><par n="rund__adj"/></e>
