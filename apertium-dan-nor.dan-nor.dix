@@ -902,19 +902,57 @@
 
 
 
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>forrige<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>forrige<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="pl"/></l><r>forrige<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+<e><p><l>hin<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>hin<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hin<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>hin<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>hin<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>hin<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>hin<s n="det"/><s n="dem"/><s n="pl"/></l><r>hin<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+
+    <!-- Emphatic  -->
+
+<e><p><l>egen<s n="det"/><s n="emph"/><s n="sg"/><s n="def"/></l><r>egen<s n="det"/><s n="emph"/><s n="sg"/><s n="def"/></r></p></e>
+<e><p><l>egen<s n="det"/><s n="emph"/><s n="pl"/></l><r>egen<s n="det"/><s n="emph"/><s n="pl"/></r></p></e>
+<e><p><l>egen<s n="det"/><s n="emph"/><s n="ut"/><s n="sg"/></l><r>egen<s n="det"/><s n="emph"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>egen<s n="det"/><s n="emph"/><s n="ut"/><s n="sg"/></l><r>egen<s n="det"/><s n="emph"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>egen<s n="det"/><s n="emph"/><s n="nt"/><s n="sg"/></l><r>egen<s n="det"/><s n="emph"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
+<e><p><l>selv<s n="det"/><s n="emph"/><s n="def"/></l><r>selv<s n="det"/><s n="emph"/><s n="def"/></r></p></e>
+
+<e><p><l>selv<s n="det"/><s n="emph"/></l><r>selv<s n="det"/><s n="emph"/></r></p></e>
+
+
+
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>slik<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>sånn<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 
@@ -941,6 +979,11 @@
 
 
 
+<e><p><l>begge<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l><r>begge<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>samtlige<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l><r>samtlige<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+
+
+
 
 
 
@@ -954,9 +997,17 @@
 
 <e><p><l>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></l>    <r>én<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
+<e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></l>    <r>én<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></l>    <r>én<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+
+
+
 
 <e><p><l>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></l> <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
 <e><p><l>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></l> <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+
 
 
 <e><p><l>hver<s n="det"/><s n="ind"/></l><r>hver<s n="det"/><s n="qnt"/></r></p></e>
@@ -1116,6 +1167,7 @@
 
 
 <e><p><l>anden<s n="det"/><s n="ut"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
+<e><p><l>anden<s n="det"/><s n="ut"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="ind"/></r></p></e>
 <e><p><l>anden<s n="det"/><s n="ut"/><s n="sg"/></l>   <r>annen<s n="det"/><s n="dem"/><s n="sg"/><s n="def"/></r></p></e> <!-- will this work for nb: det andre> det andet/ den anden, probably not?-->
 
 <!--andet-->
@@ -12492,6 +12544,7 @@ s<e><p><l>skide</l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>slikke</l> <r>sleike</r></p><par n="generic__vblex"/></e>
 <e><p><l>slæbe</l> <r>slepe</r></p><par n="generic__vblex"/></e>
 <e><p><l>slippe</l> <r>sleppe</r></p><par n="generic__vblex"/></e>
+<e><p><l>udgive</l> <r>sleppe</r></p><par n="generic__vblex"/></e>
 <e><p><l>smiske</l> <r>sleske</r></p><par n="generic__vblex"/></e>
 
 

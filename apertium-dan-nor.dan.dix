@@ -23,6 +23,7 @@
     <sdef n="top"   c="Toponym"/>
     <sdef n="ant"   c="Anthroponym"/>
     <sdef n="cog"   c="Cognomen"/>
+    <sdef n="emph"   c="emphatic"/>
     <sdef n="al"  c=""/>
     <sdef n="sp"  c="Singular and plural"/>
     <sdef n="sg"  c="Singular"/>
@@ -955,13 +956,21 @@
     <!-- Determiners -->
 
 
+    <!-- hin; hi -->
+<pardef n="hi/n__det">
+  <e>       <p><l></l>          <r>n<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>nt</l>        <r>n<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ne</l>        <r>n<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+</pardef>
+
+
 <!-- næste; næste -->
 
 
 
 <pardef n="næste__det">
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></r></p></e>
 </pardef>
 
 
@@ -1109,6 +1118,25 @@
   <e>       <p><l>t</l>         <r>n<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
 
+
+
+    <!-- Emphatic  -->
+<pardef n="eg/en__det">
+
+  <e>       <p><l>ne</l>        <r>en<s n="det"/><s n="emph"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>ne</l>        <r>en<s n="det"/><s n="emph"/><s n="pl"/></r></p></e>
+  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="emph"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="emph"/><s n="nt"/><s n="sg"/></r></p></e>
+</pardef>
+
+
+
+
+
+<pardef n="s/elv__det">
+  <e>    <p><l>elve</l>      <r>elv<s n="det"/><s n="emph"/><s n="def"/></r></p></e>
+  <e>       <p><l>elv</l>      <r>elv<s n="det"/><s n="emph"/></r></p></e>
+</pardef>
 
 
 
@@ -5018,8 +5046,13 @@
 
 
     <!-- Determiners -->
+    <e lm="samtlige">             <i>samtlige</i><par n="begge__det"/></e>
+
+    <e lm="selv">            <i>s</i><par n="s/elv__det"/></e>
+<e lm="egen">            <i>eg</i><par n="eg/en__det"/></e>
 <e lm="samme">           <i>samme</i><par n="næste__det"/></e>
 <e lm="næste">           <i>næste</i><par n="næste__det"/></e>
+<e lm="forrige">           <i>forrige</i><par n="næste__det"/></e>
 <e lm="al">              <i>al</i><par n="al/__det"/></e>
 <e lm="en">              <i>e</i><par n="e/n__det"/></e>
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
@@ -5130,7 +5163,6 @@
 <e lm="af sted">      <i>af<b/>sted</i><par n="på__pr"/></e>
 <e lm="afsted">       <i>afsted</i><par n="på__pr"/></e>
 <e lm="bagbord">       <i>bagbord</i><par n="på__pr"/></e>
-<e lm="bag">          <i>bag</i><par n="på__pr"/></e>
 <e lm="bagfor">     <i>bag</i><par n="på__pr"/></e>
 <e lm="bagfra">     <i>bagfra</i><par n="på__pr"/></e>
 <e lm="bagifra">    <i>bagifra</i><par n="på__pr"/></e>
@@ -13571,8 +13603,8 @@
     <!-- ******************************
           group cnjadv
       ****************************** -->
-<e lm="alt imens">       <i>alt imens</i><par n="alt_imens__cnjadv"/></e>
-<e lm="for eksempel">    <i>for eksempel</i><par n="alt_imens__cnjadv"/></e>
+<e lm="alt imens">       <i>alt<b/>imens</i><par n="alt_imens__cnjadv"/></e>
+<e lm="for eksempel">    <i>for<b/>eksempel</i><par n="alt_imens__cnjadv"/></e>
 <e lm="altimens">        <i>altimens</i><par n="alt_imens__cnjadv"/></e>
 <!--<e lm="at">              <i>at</i><par n="alt_imens__cnjadv"/></e>-->
 <e lm="da">              <i>da</i><par n="alt_imens__cnjadv"/></e>
@@ -13734,7 +13766,6 @@
 <e lm="fri">             <i>fri</i><par n="rund__adj"/></e>
 <e lm="frugtbar">        <i>frugtbar</i><par n="amerikansk__adj"/></e>
 <e lm="fuld">            <i>fuld</i><par n="rund__adj"/></e>
-<e lm="generel">         <i>generel</i><par n="rund__adj"/></e>
 <e lm="gift">            <i>gift</i><par n="amerikansk__adj"/></e>
 <e lm="ugift">           <i>ugift</i><par n="amerikansk__adj"/></e>
 <e lm="giftig">          <i>giftig</i><par n="aktiv__adj"/></e>
@@ -15929,7 +15960,6 @@
 <e lm="afsatsvis">        <i>afsatsvis</i><par n="ikke__adv"/></e>
 <e lm="afslutningsvis">   <i>afslutningsvis</i><par n="ikke__adv"/></e>
 <e lm="bagi">             <i>bagi</i><par n="ikke__adv"/></e>
-<e lm="bag">             <i>bag</i><par n="ikke__adv"/></e>
 <e lm="baglæns">         <i>baglæns</i><par n="ikke__adv"/></e>
 <e lm="bagvendt">         <i>bagvendt</i><par n="ikke__adv"/></e>
 <e lm="barfodet">          <i>barføtt</i><par n="ikke__adv"/></e>

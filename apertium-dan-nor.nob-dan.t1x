@@ -122,6 +122,8 @@
       <attr-item tags="det.dem"/>
       <attr-item tags="det.ord"/>
       <attr-item tags="det.qnt"/>
+      <attr-item tags="det.itg"/>
+
     </def-attr>
 
   <def-attr n="a_prn">
