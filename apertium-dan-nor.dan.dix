@@ -28,6 +28,7 @@
     <sdef n="sp"  c="Singular and plural"/>
     <sdef n="sg"  c="Singular"/>
     <sdef n="pl"  c="Plural"/>
+    <sdef n="neg"  c="negation"/>
     <sdef n="unc"   c="Uncountable"/>
     <sdef n="def"   c="Definite"/>
     <sdef n="ind"   c="Indefinite"/>
@@ -89,6 +90,20 @@
   </sdefs>
 
   <pardefs>
+
+
+
+
+<pardef n="S__case"> <!-- Case endings for nouns not ending on s (mand / mands) -->
+  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+
+<pardef n="apos__case"> <!-- Case endings for nouns ending on s (hus / hus' ) -->
+  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
+  <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
+</pardef>
+
 
         <!-- Compounding pardefs. -->
 <!-- The cmp tag may be added by transfer to sg.ind forms. Even nouns
@@ -956,6 +971,22 @@
     <!-- Determiners -->
 
 
+<pardef n="e/nhver__det">
+  <e>       <p><l>thvert</l>         <r>nhver<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>nhver</l>          <r>nhver<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="e/n_eller_anden__det">
+  <e>       <p><l>t<b/>eller<b/>andet</l>         <r>n<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>n<b/>eller<b/>anden</l>          <r>n<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="de_fleste__det">
+  <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+
     <!-- hin; hi -->
 <pardef n="hi/n__det">
   <e>       <p><l></l>          <r>n<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
@@ -969,8 +1000,8 @@
 
 
 <pardef n="næste__det">
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 
@@ -994,8 +1025,8 @@
   <e>       <p><l>en</l>        <r>en<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>et</l>        <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ens</l>         <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ets</l>         <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ens</l>         <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ets</l>         <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>eres</l>         <r>en<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -1100,9 +1131,12 @@
 </pardef>
 
 <pardef n="nog/en__det">
-  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>le</l>        <r>en<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
+
+<e>       <p><l>en</l>        <r>en<s n="det"/><s n="qnt"/><s n="neg"/><s n="pl"/></r></p><par n="S__case"/></e>
+
+  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>le</l>        <r>en<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="in/gen__det">
@@ -5047,6 +5081,9 @@
 
 
     <!-- Determiners -->
+<e lm="enhver">            <i>e</i><par n="e/nhver__det"/></e>
+    <e lm="de fleste">       <i>de<b/>fleste</i><par n="de_fleste__det"/></e>
+    <e lm="så mange">        <i>så<b/>mang</i><par n="mang/e__det"/></e>
     <e lm="samtlige">             <i>samtlige</i><par n="begge__det"/></e>
     <e lm="selv">         <i>s</i><par n="s/elv__det"/></e>
 <e lm="egen">            <i>eg</i><par n="eg/en__det"/></e>
@@ -5077,8 +5114,7 @@
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
 
-<e lm="så mange">        <i>så mang</i><par n="mang/e__det"/></e>
-<e lm="hvor mange">      <i>hvor mang</i><par n="mang/e__det"/></e>
+<e lm="hvor mange">      <i>hvor<b/>mang</i><par n="mang/e__det"/></e>
     <!--<e lm="selv"><i>selv</i><par n="selv__det"/></e>-->
 
 <e lm="første">          <i>første</i><par n="første__det"/></e>
@@ -6089,7 +6125,7 @@
 <e lm="ayatollah">       <i>ayatollah</i><par n="ateist__n"/></e>
 <e lm="barn">            <i>b</i><par n="b/arn__n"/></e>
 <e lm="vidunderbarn">    <i>vidunderb</i><par n="b/arn__n"/></e>
-
+<e lm="pigebarn">    <i>pigeb</i><par n="b/arn__n"/></e>
 <e lm="småbarn">         <i>småb</i><par n="b/arn__n"/></e>
 <e lm="bog">             <i>b</i><par n="b/og__n"/></e>
 <e lm="baby">            <i>baby</i><par n="ateist__n"/></e>
@@ -13517,7 +13553,7 @@
 <e lm="indland">                   <i>indland</i><par n="slag__n"/></e>
 <e lm="indmad">                    <i>indmad</i><par n="aften__n"/></e>
 <e lm="indpass">                   <i>indpas</i><par n="slag__n"/></e>
-<e lm="indryk">                   <i>indryk</i><par n="hus__n"/></e>
+<e lm="indryk">                   <i>indryk</i><par n="stik__n"/></e>
 <e lm="indsamlingsaktion">         <i>indsamlingsaktion</i><par n="aften_\s__n"/></e>
 <e lm="indsatsvilje">              <i>indsatsvilje</i><par n="hygiejne__n"/></e>
 <e lm="indsiderhandel">             <i>indsiderhandel</i><par n="cirk/el__n"/></e>

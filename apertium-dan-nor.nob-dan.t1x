@@ -65,6 +65,8 @@
 
  <def-cat n="det-emph">
       <cat-item tags="det.emph.*"/>
+      <cat-item tags="det.dem.*"/>
+      <cat-item tags="det.qnt.*"/>
     </def-cat>
 
 
@@ -94,6 +96,10 @@
     <def-attr n="cas">
       <attr-item tags="nom"/>
       <attr-item tags="gen"/>
+    </def-attr>
+
+  <def-attr n="negation">
+      <attr-item tags="neg"/>
     </def-attr>
 
     <def-attr n="nbr">
@@ -724,9 +730,11 @@
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_det"/>
+               <clip pos="1" side="tl" part="negation"/>
                <var n="køn"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="defnes"/>
+               <clip pos="1" side="tl" part="cas"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>
