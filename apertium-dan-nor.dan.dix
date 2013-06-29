@@ -5071,7 +5071,7 @@
 <e lm="min">             <i>mi</i><par n="mi/n__det"/></e>
 <e lm="sin">             <i>si</i><par n="si/n__det"/></e>
 <e lm="vores">           <i>vores</i><par n="vores__det"/></e>
-<e lm="hin">           <i>hin</i><par n="hi/n__det"/></e>
+<e lm="hin">           <i>hi</i><par n="hi/n__det"/></e>
 <e lm="hver">            <i>hver</i><par n="hver__det"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__det"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
@@ -5416,6 +5416,7 @@
 <e lm="fra mand til mand">   <i>fra<b/>mand<b/>til<b/>mand</i><par n="på__pr"/></e>
 <e lm="over land">     <i>over<b/>land</i><par n="på__pr"/></e>
 <e lm="langs">         <i>langs</i><par n="på__pr"/></e>
+<e lm="hjemad">         <i>hjemad</i><par n="på__pr"/></e>
 <e lm="langs med">      <i>langs<b/>med</i><par n="på__pr"/></e>
 <e lm="langtfra">      <i>langtfra</i><par n="på__pr"/></e>
 <e lm="langvejs">     <i>langvejs</i><par n="på__pr"/></e>
@@ -5456,7 +5457,7 @@
 <e lm="nedstrøms">       <i>nedstrøms</i><par n="på__pr"/></e>
 <e lm="nedtil">          <i>ned<b/>til</i><par n="på__pr"/></e>
 <e lm="nedunder">        <i>nedunder</i><par n="på__pr"/></e>
-<e lm="nedved">          <i>nedved</i><par n="på__pr"/></e>
+<e lm="nede ved">          <i>nede<b/>ved</i><par n="på__pr"/></e>
 <e lm="nord om">         <i>nord<b/>om</i><par n="på__pr"/></e>
 <e lm="nord">            <i>nord</i><par n="på__pr"/></e>
 <e lm="nordfjelds">     <i>nordfjelds</i><par n="på__pr"/></e>
@@ -5474,6 +5475,7 @@
 <e lm="nordi">           <i>nordi</i><par n="på__pr"/></e>
 <e lm="nordigennem">    <i>nordigennem</i><par n="på__pr"/></e>
 <e lm="nordmed">         <i>nordmed</i><par n="på__pr"/></e>
+<e lm="nordenom">         <i>nordenom</i><par n="på__pr"/></e>
 <e lm="nordnordvest">    <i>nordnordvest</i><par n="på__pr"/></e>
 <e lm="nordnordøst">     <i>nordnordøst</i><par n="på__pr"/></e>
 <e lm="ved om">          <i>ved<b/>nord</i><par n="på__pr"/></e>
@@ -13513,9 +13515,9 @@
 <e lm="indkast">                   <i>indkast</i><par n="slag__n"/></e>
 <e lm="indkøb">                   <i>indkøb</i><par n="slag__n"/></e>
 <e lm="indland">                   <i>indland</i><par n="slag__n"/></e>
-<e lm="indmat">                    <i>indmat</i><par n="aften__n"/></e>
-<e lm="indpass">                   <i>indpass</i><par n="slag__n"/></e>
-<e lm="indrykk">                   <i>indrykk</i><par n="hus__n"/></e>
+<e lm="indmad">                    <i>indmad</i><par n="aften__n"/></e>
+<e lm="indpass">                   <i>indpas</i><par n="slag__n"/></e>
+<e lm="indryk">                   <i>indryk</i><par n="hus__n"/></e>
 <e lm="indsamlingsaktion">         <i>indsamlingsaktion</i><par n="aften_\s__n"/></e>
 <e lm="indsatsvilje">              <i>indsatsvilje</i><par n="hygiejne__n"/></e>
 <e lm="indsiderhandel">             <i>indsiderhandel</i><par n="cirk/el__n"/></e>
@@ -16549,7 +16551,6 @@
 <e lm="rubato">           <i>rubato</i><par n="ikke__adv"/></e>
 <e lm="ruskende">         <i>ruskende</i><par n="ikke__adv"/></e>
 <e lm="rykvis">         <i>rykvis</i><par n="ikke__adv"/></e>
-<e lm="sabla">            <i>sabla</i><par n="ikke__adv"/></e>
 <e lm="langsomt">         <i>langsomt</i><par n="ikke__adv"/></e>
 <e lm="sagtens">          <i>sagtens</i><par n="ikke__adv"/></e>
 <e lm="samstundes">       <i>samstundes</i><par n="ikke__adv"/></e>

@@ -254,7 +254,7 @@
     <e><p><l>derfra<s n="pr"/></l>                      <r>derfra<s n="pr"/></r></p></e>
     <e><p><l>deri<s n="pr"/></l>                        <r>deri<s n="pr"/></r></p></e>
     <e><p><l>der<b/>i<b/>blandt<s n="pr"/></l>          <r>deriblant<s n="pr"/></r></p></e>
-    <e><p><l>der<b/>ifr<b/>a<s n="pr"/></l>             <r>derifra<s n="pr"/></r></p></e>
+    <e><p><l>der<b/>i<b/>fra<s n="pr"/></l>             <r>derifra<s n="pr"/></r></p></e>
     <e><p><l>derimellem<s n="pr"/></l>                  <r>derimellom<s n="pr"/></r></p></e>
     <e><p><l>derom<s n="pr"/></l>                       <r>derom<s n="pr"/></r></p></e>
     <e><p><l>dertil<s n="pr"/></l>                      <r>dertil<s n="pr"/></r></p></e>
@@ -280,7 +280,7 @@
     <e><p><l>foruden<s n="pr"/></l>                     <r>foruten<s n="pr"/></r></p></e>
     <e><p><l>frem<s n="pr"/></l>                        <r>fram<s n="pr"/></r></p></e>
     <e><p><l>fremme<s n="pr"/></l>                        <r>fremme<s n="pr"/></r></p></e>
-    <e><p><l>fremefter<s n="pr"/></l>                   <r>frametter<s n="pr"/></r></p></e>
+    <e><p><l>langs<s n="pr"/></l>                   <r>frametter<s n="pr"/></r></p></e>
     <e><p><l>fremfor<s n="pr"/></l>                     <r>framfor<s n="pr"/></r></p></e>
     <e><p><l>fremme<s n="pr"/></l>                      <r>framme<s n="pr"/></r></p></e>
     <e><p><l>foran<s n="pr"/></l>                       <r>frammenfor<s n="pr"/></r></p></e>
@@ -437,7 +437,7 @@
     <e><p><l>igennem<s n="pr"/></l>                     <r>igjennem<s n="pr"/></r></p></e>
     <e><p><l>igennem<s n="pr"/></l>                     <r>igjennom<s n="pr"/></r></p></e>
     <e><p><l>omkring<s n="pr"/></l>                     <r>ikring<s n="pr"/></r></p></e>
-    <e><p><l>imellom<s n="pr"/></l>                     <r>imellom<s n="pr"/></r></p></e>
+    <e><p><l>imellem<s n="pr"/></l>                     <r>imellom<s n="pr"/></r></p></e>
     <e><p><l>imod<s n="pr"/></l>                        <r>imot<s n="pr"/></r></p></e>
     <e><p><l>ingensteds<s n="pr"/></l>                  <r>ingensteds<s n="pr"/></r></p></e>
     <e><p><l>inklusiv<s n="pr"/></l>                    <r>inklusiv<s n="pr"/></r></p></e>
@@ -626,7 +626,7 @@
     <e><p><l>somme<b/>steder<s n="pr"/></l>             <r>sommesteds<s n="pr"/></r></p></e>
     <e><p><l>styrbord<s n="pr"/></l>                    <r>styrbord<s n="pr"/></r></p></e>
     <e><p><l>sønden<s n="pr"/></l>                      <r>sønna<s n="pr"/></r></p></e>
-    <e><p><l>søndenfjedls<s n="pr"/></l>                <r>sønnafjells<s n="pr"/></r></p></e>
+    <e><p><l>søndenfjelds<s n="pr"/></l>                <r>sønnafjells<s n="pr"/></r></p></e>
     <e><p><l>søndenfra<s n="pr"/></l>                   <r>sønnafra<s n="pr"/></r></p></e>
     <e><p><l>søndenefter<s n="pr"/></l>                 <r>sønnenetter<s n="pr"/></r></p></e>
     <e><p><l>søndenfjelds<s n="pr"/></l>                <r>sønnenfjells<s n="pr"/></r></p></e>
@@ -1056,21 +1056,21 @@
 
 
 <!--hans-->
-<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>han<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
-<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 
-<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
-<e><p><l>han<s n="det"/><s n="pos"/><s n="un"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-<e><p><l>han<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>han<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 
 
 
