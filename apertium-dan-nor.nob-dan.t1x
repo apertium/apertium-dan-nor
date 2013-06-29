@@ -123,6 +123,7 @@
       <attr-item tags="det.ord"/>
       <attr-item tags="det.qnt"/>
       <attr-item tags="det.itg"/>
+      <attr-item tags="det.emph"/>
 
     </def-attr>
 

@@ -28,7 +28,7 @@
 <sdef n="acr"     c="acronym"/>
 <sdef n="emph"   c="Emphatic"/>
 <sdef n="ref"   c="Reflexive"/>
-        <sdef n="res"   c="Reciprocal pronoun"/>
+<sdef n="res"   c="Reciprocal pronoun"/>
 <sdef n="pos"     c="Possessive"/>
 <sdef n="itg"     c="Question word / interrogative"/>
 <sdef n="qnt"     c="Quantifier"/>
@@ -906,7 +906,7 @@
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 
-<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>sådan<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 <e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>forrige<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
@@ -957,10 +957,12 @@
 
 
 <e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 
 <e><p><l>hvilken<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
 <e><p><l>hvilken<s n="det"/><s n="itg"/><s n="pl"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
 
 
@@ -1116,7 +1118,6 @@
 <e><p><l>vores<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>vi<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <e><p><l>vores<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>vi<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
 
 
 

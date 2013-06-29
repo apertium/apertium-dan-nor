@@ -5047,8 +5047,7 @@
 
     <!-- Determiners -->
     <e lm="samtlige">             <i>samtlige</i><par n="begge__det"/></e>
-
-    <e lm="selv">            <i>s</i><par n="s/elv__det"/></e>
+    <e lm="selv">         <i>s</i><par n="s/elv__det"/></e>
 <e lm="egen">            <i>eg</i><par n="eg/en__det"/></e>
 <e lm="samme">           <i>samme</i><par n="næste__det"/></e>
 <e lm="næste">           <i>næste</i><par n="næste__det"/></e>
@@ -5062,7 +5061,7 @@
 <e lm="begge">           <i>begge</i><par n="begge__det"/></e>
 <e lm="jeres">           <i>jeres</i><par n="vores__det"/></e>
 <e lm="deres">           <i>deres</i><par n="vores__det"/></e>
-<e lm="sådan">           <i>deres</i><par n="sådan__det"/></e>
+<e lm="sådan">           <i>sådan</i><par n="sådan__det"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__det"/></e>
 <e lm="meget">           <i>meget</i><par n="meget__det"/></e>
 <e lm="flere">           <i>flere</i><par n="flere__det"/></e>
@@ -5071,6 +5070,7 @@
 <e lm="min">             <i>mi</i><par n="mi/n__det"/></e>
 <e lm="sin">             <i>si</i><par n="si/n__det"/></e>
 <e lm="vores">           <i>vores</i><par n="vores__det"/></e>
+<e lm="hin">           <i>hin</i><par n="hi/n__det"/></e>
 <e lm="hver">            <i>hver</i><par n="hver__det"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__det"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
