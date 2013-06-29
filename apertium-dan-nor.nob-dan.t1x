@@ -65,8 +65,6 @@
 
  <def-cat n="det-emph">
       <cat-item tags="det.emph.*"/>
-      <cat-item tags="det.dem.*"/>
-      <cat-item tags="det.qnt.*"/>
     </def-cat>
 
 
@@ -133,6 +131,7 @@
       <attr-item tags="det.dem"/>
       <attr-item tags="det.ord"/>
       <attr-item tags="det.qnt"/>
+      <attr-item tags="det.qnt.neg"/>
       <attr-item tags="det.itg"/>
       <attr-item tags="det.emph"/>
 
@@ -730,7 +729,6 @@
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_det"/>
-               <clip pos="1" side="tl" part="negation"/>
                <var n="køn"/>
                <clip pos="1" side="tl" part="nbr"/>
                <clip pos="1" side="tl" part="defnes"/>
@@ -743,7 +741,34 @@
          </action>
       </rule>
 
+<!--
+  <rule comment="THIRD FORM (def) DET -> DET">
+         <pattern>
+           <pattern-item n="det-dem"/>
+         </pattern>
+         <action>
 
+           <call-macro n="determiner">
+          <with-param pos="1"/>
+           </call-macro>
+
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_det"/>
+               <var n="køn"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="defnes"/>
+               <clip pos="1" side="tl" part="cas"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+            <let><var n="køn"/><lit v=""/></let>
+         </action>
+      </rule>
+
+-->
 
 
   <rule comment="DET -> DET">
@@ -761,6 +786,7 @@
                <clip pos="1" side="tl" part="a_det"/>
                <var n="køn"/>
                <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="cas"/>
                <clip pos="1" side="tl" part="lemq"/>
 
              </lu>

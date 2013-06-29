@@ -910,10 +910,12 @@
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>sådan<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sp"/><s n="def"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="m"/><s n="sp"/><s n="def"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><s n="def"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
 
 <e><p><l>forrige<s n="det"/><s n="dem"/><s n="pl"/></l><r>forrige<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
@@ -996,11 +998,11 @@
 <e><p><l>enhver<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>                          <r>enhver<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
 
-<e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>                 <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>       <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>                  <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
 
-<e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>              <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>       <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
 
 
 
@@ -1217,6 +1219,7 @@
 
 <e><p><l>ingen<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>ingen<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e><p><l>ingen<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>   <r>ingen<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>ingen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>   <r>ingen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <!--TODO look at comp and sup forms of mange
 
