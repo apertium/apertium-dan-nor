@@ -63,6 +63,11 @@
       <cat-item tags="det.*"/>
     </def-cat>
 
+ <def-cat n="det-emph">
+      <cat-item tags="det.emph.*"/>
+    </def-cat>
+
+
    <def-cat n="verb">
     <cat-item tags="vblex.*"/>
     <cat-item tags="vbser.*"/>
@@ -741,6 +746,46 @@
             <let><var n="køn"/><lit v=""/></let>
          </action>
       </rule>
+
+  <rule comment="SECOND FORM (def) DET -> DET">
+         <pattern>
+           <pattern-item n="det-emph"/>
+         </pattern>
+         <action>
+            <!-- gender: a let m and f go to ut-->
+        <choose>
+          <when>
+            <test>
+               <and><or><equal>
+                <clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
+                <not><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="un"/></equal></not>
+               </and>
+            </test>
+            <let><var n="køn"/><lit-tag v="ut"/></let>
+          </when>
+
+          <otherwise>
+                      <let><var n="køn"/><clip pos="1" side="tl" part="gen"/></let>
+          </otherwise>
+            </choose>
+
+        <out>
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_det"/>
+               <var n="køn"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="defnes"/>
+               <clip pos="1" side="tl" part="lemq"/>
+
+             </lu>
+           </out>
+            <let><var n="køn"/><lit v=""/></let>
+         </action>
+      </rule>
+
+
 
 
       <rule comment="PR-> PR">

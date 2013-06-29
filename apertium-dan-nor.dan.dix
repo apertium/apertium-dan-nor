@@ -1068,7 +1068,8 @@
 </pardef>
 
 <pardef n="hver__det">
-  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="sp"/></r></p></e>
 </pardef>
 
 

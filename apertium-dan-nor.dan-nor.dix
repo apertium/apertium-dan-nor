@@ -905,7 +905,6 @@
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sådan<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>sådan<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 <e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
@@ -944,6 +943,7 @@
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></l><r>slik<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>slik<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
@@ -951,6 +951,7 @@
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></l><r>sånn<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/></l><r>sånn<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
@@ -1012,7 +1013,9 @@
 
 
 
-<e><p><l>hver<s n="det"/><s n="ind"/></l><r>hver<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>hver<s n="det"/><s n="ind"/><s n="un"/><s n="sp"/></l><r>hver<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>hver<s n="det"/><s n="ind"/><s n="un"/><s n="sp"/></l><r>hver<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hver<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></l><r>hver<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
 
 
