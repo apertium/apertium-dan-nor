@@ -954,6 +954,28 @@
 
     <!-- Determiners -->
 
+
+<!-- næste; næste -->
+
+
+
+<pardef n="næste__det">
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
+</pardef>
+
+
+<pardef n="e/n__num">
+  <e>       <p><l>n</l>          <r>n<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>          <r>n<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="to__num">
+  <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+
 <pardef n="e/n__det">
   <e>       <p><l>n</l>         <r>n<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>n<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -963,7 +985,21 @@
   <e>       <p><l>en</l>        <r>en<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>et</l>        <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ens</l>         <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ets</l>         <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>eres</l>         <r>en<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
+
+
+
+<pardef n="Deres__det">
+
+  <e>       <p><l>Deres</l>          <r><s n="det"/><s n="pos"/><s n="p2"/><s n="un"/><s n="sp"/></r></p></e>
+</pardef>
+
+
+
+
 
 <pardef n="and/en__det">
   <e>       <p><l>en</l>        <r>en<s n="det"/><s n="ut"/><s n="sg"/></r></p></e>
@@ -1064,6 +1100,28 @@
   <e>       <p><l>tet</l>       <r>gen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>gen</l>       <r>gen<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
+
+  <!-- hvilken; hvilke  -->
+
+<pardef n="hvilke/n__det">
+  <e>       <p><l></l>          <r>n<s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
+  <e>       <p><l>n</l>         <r>n<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>n<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+</pardef>
+
+
+
+
+
+  <!-- sådan; sådan -->
+<pardef n="sådan__det">
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ne</l>        <r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+</pardef>
+
+
+
 
     <!-- Is this a determiner?! Yes it is, but it has other forms as well
     <pardef n="selv__det">
@@ -1271,7 +1329,7 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="def"/><s n="un"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="yngenting__prn"> <!-- TODO: CHECK THIS -->
+<pardef n="ingenting__prn"> <!-- TODO: CHECK THIS -->
   <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
@@ -4151,7 +4209,7 @@
   <e>       <p><l>ynges</l>     <r>ynge<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>agte</l>      <r>ynge<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>agt</l>       <r>ynge<s n="vblex"/><s n="pp"/></r></p></e>
-  <e>       <p><l>yngende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>ingende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
     <e>       <p><l>agt</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>agt</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>agte</l>        <r>ynge<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
@@ -4352,7 +4410,7 @@
   <e>       <p><l>ynges</l>     <r>ynge<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ang</l>       <r>ynge<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>unget</l>     <r>ynge<s n="vblex"/><s n="pp"/></r></p></e>
-  <e>       <p><l>yngende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>ingende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
     <e>       <p><l>ungen</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unget</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ungne</l>        <r>ynge<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
@@ -4370,7 +4428,7 @@
   <e>       <p><l>ang</l>       <r>ynge<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>ungtes</l>    <r>ynge<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>
   <e>       <p><l>unget</l>     <r>ynge<s n="vblex"/><s n="pp"/></r></p></e>
-  <e>       <p><l>yngende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>ingende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
       <e>       <p><l>ungen</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unget</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ungne</l>        <r>ynge<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
@@ -4960,7 +5018,8 @@
 
 
     <!-- Determiners -->
-
+<e lm="samme">           <i>samme</i><par n="næste__det"/></e>
+<e lm="næste">           <i>næste</i><par n="næste__det"/></e>
 <e lm="al">              <i>al</i><par n="al/__det"/></e>
 <e lm="en">              <i>e</i><par n="e/n__det"/></e>
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
@@ -4970,16 +5029,18 @@
 <e lm="begge">           <i>begge</i><par n="begge__det"/></e>
 <e lm="jeres">           <i>jeres</i><par n="vores__det"/></e>
 <e lm="deres">           <i>deres</i><par n="vores__det"/></e>
+<e lm="sådan">           <i>deres</i><par n="sådan__det"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__det"/></e>
 <e lm="meget">           <i>meget</i><par n="meget__det"/></e>
 <e lm="flere">           <i>flere</i><par n="flere__det"/></e>
 <e lm="flest">           <i>flest</i><par n="flere__det"/></e>
+<e lm="hvilken">           <i>hvilke</i><par n="hvilke/n__det"/></e>
 <e lm="min">             <i>mi</i><par n="mi/n__det"/></e>
 <e lm="sin">             <i>si</i><par n="si/n__det"/></e>
 <e lm="vores">           <i>vores</i><par n="vores__det"/></e>
 <e lm="hver">            <i>hver</i><par n="hver__det"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__det"/></e>
-<e lm="yngen">           <i>in</i><par n="in/gen__det"/></e>
+<e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
 
 <e lm="så mange">        <i>så mang</i><par n="mang/e__det"/></e>
@@ -4997,6 +5058,36 @@
 <e lm="niende">          <i>niende</i><par n="første__det"/></e>
 
 
+    <!-- Numbers -->
+<e lm="nul">              <i>nul</i><par n="to__num"/></e>
+<e lm="en">              <i>e</i><par n="e/n__num"/></e>
+<e lm="to">              <i>to</i><par n="to__num"/></e>
+<e lm="tre">             <i>tre</i><par n="to__num"/></e>
+<e lm="fire">            <i>fire</i><par n="to__num"/></e>
+<e lm="fem">             <i>fem</i><par n="to__num"/></e>
+<e lm="seks">            <i>seks</i><par n="to__num"/></e>
+<e lm="syv">             <i>syv</i><par n="to__num"/></e>
+<e lm="otte">            <i>otte</i><par n="to__num"/></e>
+<e lm="ni">              <i>ni</i><par n="to__num"/></e>
+<e lm="ti">              <i>ti</i><par n="to__num"/></e>
+<e lm="elleve">          <i>elleve</i><par n="to__num"/></e>
+<e lm="tolv">            <i>tolv</i><par n="to__num"/></e>
+<e lm="tretten">         <i>tretten</i><par n="to__num"/></e>
+<e lm="fjorten">         <i>fjorten</i><par n="to__num"/></e>
+<e lm="femten">          <i>femten</i><par n="to__num"/></e>
+<e lm="seksten">         <i>seksten</i><par n="to__num"/></e>
+<e lm="sytten">          <i>sytten</i><par n="to__num"/></e>
+<e lm="atten">           <i>atten</i><par n="to__num"/></e>
+<e lm="nitten">          <i>nitten</i><par n="to__num"/></e>
+<e lm="tyve">            <i>tyve</i><par n="to__num"/></e>
+<e lm="tredive">          <i>tredive</i><par n="to__num"/></e>
+<e lm="fyrre">           <i>fyrre</i><par n="to__num"/></e>
+<e lm="halvtreds">           <i>halvtreds</i><par n="to__num"/></e>
+<e lm="tres">          <i>tres</i><par n="to__num"/></e>
+<e lm="halvfjerds">           <i>halvfjerds</i><par n="to__num"/></e>
+<e lm="firs">            <i>firs</i><par n="to__num"/></e>
+<e lm="halvfems">           <i>halvfems</i><par n="to__num"/></e>
+<e lm="hundrede">          <i>hundrede</i><par n="to__num"/></e>
     <!-- Prepositions -->
 
     <!-- ******************************
@@ -5053,7 +5144,6 @@
 <e lm="bagover">      <i>bagover</i><par n="på__pr"/></e>
 <e lm="bagpå">        <i>bagpå</i><par n="på__pr"/></e>
 <e lm="bagud">        <i>bagud</i><par n="på__pr"/></e>
-<e lm="lige frem">   <i>lige<b/>frem</i><par n="på__pr"/></e>
 <e lm="lige frem">    <i>lige<b/>frem</i><par n="på__pr"/></e>
 <e lm="bl">           <i>bl</i><par n="på__pr"/></e>
 <e lm="blandt">        <i>blandt</i><par n="på__pr"/></e>
@@ -5236,10 +5326,10 @@
 <e lm="hos">           <i>hos</i><par n="på__pr"/></e>
 <e lm="hvor hen">      <i>hvor<b/>hen</i><par n="på__pr"/></e>
 <e lm="hvoriblandt">  <i>hvoriblandt</i><par n="på__pr"/></e>
-<e lm="               i færd med">      <i>i<b/>færd<b/>med</i><par n="på__pr"/></e>
-<e lm="               i følge">         <i>i<b/>følge</i><par n="på__pr"/></e>
-<e lm="               i hele">          <i>i<b/>hele</i><par n="på__pr"/></e>
-<e lm="               i overensstemmelse med"> <i>i<b/>overensstemmelse<b/>med</i><par n="på__pr"/></e>
+<e lm="i færd med">      <i>i<b/>færd<b/>med</i><par n="på__pr"/></e>
+<e lm="i følge">         <i>i<b/>følge</i><par n="på__pr"/></e>
+<e lm=" i hele">          <i>i<b/>hele</i><par n="på__pr"/></e>
+<e lm=" i overensstemmelse med"> <i>i<b/>overensstemmelse<b/>med</i><par n="på__pr"/></e>
 <e lm="blandt">       <i>blandt</i><par n="på__pr"/></e>
 <e lm="ifølge">       <i>ifølge</i><par n="på__pr"/></e>
 <e lm="igennem">      <i>igennem</i><par n="på__pr"/></e>
@@ -5247,7 +5337,7 @@
 <e lm="imellem">      <i>imellem</i><par n="på__pr"/></e>
 <e lm="imod">         <i>imod</i><par n="på__pr"/></e>
 <e lm="inde           i">        <i>inde<b/>i</i><par n="på__pr"/></e>
-<e lm="yngensteds">   <i>yngensteds</i><par n="på__pr"/></e>
+<e lm="ingensteds">   <i>ingensteds</i><par n="på__pr"/></e>
 <e lm="inklusiv">     <i>inklusiv</i><par n="på__pr"/></e>
 <e lm="inklusive">    <i>inklusive</i><par n="på__pr"/></e>
 <e lm="ind            i">           <i>ind<b/>i</i><par n="på__pr"/></e>
@@ -5389,7 +5479,7 @@
 <e lm="ovenpå">           <i>ovenpå</i><par n="på__pr"/></e>
 <e lm="oventil">          <i>oventil</i><par n="på__pr"/></e>
 <e lm="oven">            <i>oven</i><par n="på__pr"/></e>
-<e lm="ovennaf">          <i>oven<b/>af</i><par n="på__pr"/></e>
+<e lm="oven af">          <i>oven<b/>af</i><par n="på__pr"/></e>
 <e lm="ovenfor">         <i>ovenfor</i><par n="på__pr"/></e>
 <e lm="ovenom">          <i>ovenom</i><par n="på__pr"/></e>
 <e lm="ovenpå">          <i>ovenpå</i><par n="på__pr"/></e>
@@ -5599,8 +5689,8 @@
 <e lm="hver eneste">     <i>hver</i><par n="hver/eneste__prn"/></e>
 <e lm="hver anden">      <i>hver</i><par n="hver/anden__prn"/></e>
 <e lm="hvilken">         <i>hvilke</i><par n="hvilke/n__prn"/></e>
-<e lm="yngen">           <i>in</i><par n="in/gen__prn"/></e>
-<e lm="yngenting">       <i>yngenting</i><par n="yngenting__prn"/></e>
+<e lm="ingen">           <i>in</i><par n="in/gen__prn"/></e>
+<e lm="ingenting">       <i>ingenting</i><par n="ingenting__prn"/></e>
 <e lm="man">             <i>m</i><par n="m/an__prn"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__prn"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__prn"/></e>
@@ -5608,7 +5698,7 @@
 <e lm="selv">            <i>selv</i><par n="selv__prn"/></e>
 <e lm="sig">             <i>sig</i><par n="sig__prn"/></e>
 <e lm="som">             <i></i><par n="/som__prn"/></e>
-<e lm="sådan">           <i>sådan</i><par n="yngenting__prn"/></e>
+<e lm="sådan">           <i>sådan</i><par n="ingenting__prn"/></e>
 <e lm="egen">            <i>eg</i><par n="eg/en__prn"/></e>
 
 
@@ -6257,8 +6347,8 @@
 <e lm="citat">           <i>citat</i><par n="alibi__n"/></e>
 <e lm="citationstegn">   <i>citationstegn</i><par n="år__n"/></e>
 <e lm="citron">          <i>citron</i><par n="ateist__n"/></e>
-<e lm="civil-yngeniør">  <i>civil-yngeniør</i><par n="ateist__n"/></e>
-<e lm="civilyngeniør">   <i>civilyngeniør</i><par n="ateist__n"/></e>
+<e lm="civil-ingeniør">  <i>civil-ingeniør</i><par n="ateist__n"/></e>
+<e lm="civilingeniør">   <i>civilingeniør</i><par n="ateist__n"/></e>
 <e lm="civilisation">    <i>civilisation</i><par n="ateist__n"/></e>
 <e lm="cognac">          <i>cognac</i><par n="ateist__n"/></e>
 <e lm="cola">            <i>cola</i><par n="ateist__n"/></e>
@@ -7200,7 +7290,7 @@
 <e lm="influenza">       <i>influenza</i><par n="ateist__n"/></e>
 <e lm="information">     <i>information</i><par n="ateist__n"/></e>
 <e lm="infrastruktur">   <i>infrastruktur</i><par n="ateist__n"/></e>
-<e lm="yngeniør">        <i>yngeniør</i><par n="ateist__n"/></e>
+<e lm="ingeniør">        <i>ingeniør</i><par n="ateist__n"/></e>
 <e lm="initiativ">       <i>initiativ</i><par n="alibi__n"/></e>
 <e lm="inkarnation">     <i>inkarnation</i><par n="ateist__n"/></e>
 <e lm="innovation">      <i>innovation</i><par n="ateist__n"/></e>
@@ -7439,7 +7529,7 @@
 <e lm="konsulent">       <i>konsulent</i><par n="ateist__n"/></e>
 <e lm="kontekst">        <i>kontekst</i><par n="ateist__n"/></e>
 <e lm="kontinent">       <i>kontinent</i><par n="alibi__n"/></e>
-<e lm="kontyngent">      <i>kontyngent</i><par n="alibi__n"/></e>
+<e lm="kontingent">      <i>kontingent</i><par n="alibi__n"/></e>
 <e lm="kontor">          <i>kontor</i><par n="alibi__n"/></e>
 <e lm="kontorassistent"> <i>kontorassistent</i><par n="ateist__n"/></e>
 <e lm="kontorchef">      <i>kontorchef</i><par n="ateist__n"/></e>
@@ -15931,7 +16021,7 @@
 <e lm="massevis">        <i>massevis</i><par n="ikke__adv"/></e>
 <e lm="dus">              <i>dus</i><par n="ikke__adv"/></e>
 <e lm="dusinvis">         <i>dusinvis</i><par n="ikke__adv"/></e>
-<e lm="dyngende">         <i>dyngende</i><par n="ikke__adv"/></e>
+<e lm="dingende">         <i>dingende</i><par n="ikke__adv"/></e>
 <e lm="døgnvis">          <i>døgnvis</i><par n="ikke__adv"/></e>
 <e lm="dørg">             <i>dørg</i><par n="ikke__adv"/></e>
 <e lm="dørgende">         <i>dørgende</i><par n="ikke__adv"/></e>
@@ -16161,8 +16251,8 @@
 <e lm="in vitro">         <i>in<b/>vitro</i><par n="ikke__adv"/></e>
 <e lm="in vivo">          <i>in<b/>vivo</i><par n="ikke__adv"/></e>
 <e lm="i nat">            <i>i<b/>nat</i><par n="ikke__adv"/></e>
-<e lm="yngenlunde">       <i>yngenlunde</i><par n="ikke__adv"/></e>
-<e lm="yngensteds">       <i>yngensteds</i><par n="ikke__adv"/></e>
+<e lm="ingenlunde">       <i>ingenlunde</i><par n="ikke__adv"/></e>
+<e lm="ingensteds">       <i>ingensteds</i><par n="ikke__adv"/></e>
 <e lm="inkognito">        <i>inkognito</i><par n="ikke__adv"/></e>
 <e lm="ind igen">        <i>ind<b/>igen</i><par n="ikke__adv"/></e>
 <e lm="indadtil">          <i>indadtil</i><par n="ikke__adv"/></e>
@@ -16483,7 +16573,7 @@
 <e lm="stok">            <i>stok</i><par n="ikke__adv"/></e>
 <e lm="storartet">          <i>storartet</i><par n="ikke__adv"/></e>
 <e lm="stort">            <i>stort</i><par n="ikke__adv"/></e>
-<e lm="stryngendo">       <i>stryngendo</i><par n="ikke__adv"/></e>
+<e lm="stringendo">       <i>stringendo</i><par n="ikke__adv"/></e>
 <e lm="svimlende">         <i>svimlende</i><par n="ikke__adv"/></e>
 <e lm="skrækkelig">        <i>skrækkelig</i><par n="ikke__adv"/></e>
 <!--<e lm="styggfort">        <i>styggfort</i><par n="ikke__adv"/></e>-->
@@ -19686,7 +19776,7 @@
 <e lm="kontakte">          <i>kontakt</i><par n="mal/e__vblex"/></e>
 <e lm="kontaminere">       <i>kontaminer</i><par n="mal/e__vblex"/></e>
 <e lm="kontere">           <i>konter</i><par n="mal/e__vblex"/></e>
-<e lm="kontyngentere">     <i>kontyngenter</i><par n="mal/e__vblex"/></e>
+<e lm="kontingentere">     <i>kontingenter</i><par n="mal/e__vblex"/></e>
 <e lm="kontinuere">        <i>kontinuer</i><par n="mal/e__vblex"/></e>
 <e lm="kontorisere">       <i>kontoriser</i><par n="mal/e__vblex"/></e>
 <e lm="kontrahere">        <i>kontraher</i><par n="mal/e__vblex"/></e>
@@ -22904,7 +22994,7 @@
 <e lm="jeg elsker dig" a="PT"><i>jeg elsker dig</i><par n="ak__ij"/></e>
 <e lm="jeg er uskyldig" a="PT"><i>jeg er uskyldig</i><par n="ak__ij"/></e>
 <e lm="jeg har ikke begrep om det" a="PT"><i>jeg har ikke begrep om det</i><par n="ak__ij"/></e>
-<e lm="jeg kommer yngen vegne" a="PT"><i>jeg kommer yngen vegne</i><par n="ak__ij"/></e>
+<e lm="jeg kommer ingen vegne" a="PT"><i>jeg kommer ingen vegne</i><par n="ak__ij"/></e>
 <e lm="jeg ved ikke" a="PT"><i>jeg ved ikke</i><par n="ak__ij"/></e>
 <e lm="jøsses" a="PT">   <i>jøsses</i><par n="ak__ij"/></e>
 <e lm="kan det gå an" a="PT"><i>kan det gå an</i><par n="ak__ij"/></e>
@@ -23411,7 +23501,7 @@
 <e lm="læbestift" a="PT"><i>læbestift</i><par n="skib__n"/></e>
 <e lm="lænestol" a="PT"> <i>lænestol</i><par n="bold__n"/></e>
 <e lm="medium" a="PT">   <i>medium</i><par n="skib__n"/></e>
-<e lm="medlemskontyngent" a="PT" c="domain:arbete"><i>medlemskontyngent</i><par n="ateist__n"/></e>
+<e lm="medlemskontingent" a="PT" c="domain:arbete"><i>medlemskontingent</i><par n="ateist__n"/></e>
 <e lm="midje" a="PT" c="domain:kroppen"><i>midje</i><par n="abe__n"/></e>
 <e lm="modlys" a="PT">   <i>modlys</i><par n="residens__n"/></e>
 <e lm="nabobord" a="PT"> <i>nabobord</i><par n="skib__n"/></e>
@@ -23771,7 +23861,7 @@
 <e lm="bygget" a="PT">   <i>bygget</i><par n="amerikansk__adj"/></e>
 <e lm="morsom">          <i>morsom</i><par n="ensom__adj"/></e>
 <e lm="snigende" a="PT"> <i>snigende</i><par n="amerikansk__adj"/></e>
-<e lm="spryngende" a="PT"><i>spryngende</i><par n="amerikansk__adj"/></e>
+<e lm="springende" a="PT"><i>springende</i><par n="amerikansk__adj"/></e>
 <e lm="dødtræt">         <i>dødtræt</i><par n="træt__adj"/></e>
 
 <e lm="levende" a="DAINF"><i>levende</i><par n="absolut__adj"/></e>

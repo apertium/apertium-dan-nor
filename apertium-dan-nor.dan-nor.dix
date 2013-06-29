@@ -876,7 +876,75 @@
 <!-- Determiners -->
 
 
+<e><p><l>nul<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>null<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>elleve<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>elleve<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>en<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>en<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tolv<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>tolv<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tretten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>tretten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>fjorten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>fjorten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>femten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>femten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>seksten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>seksten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>sytten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>sytten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>atten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>atten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>nitten<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>nitten<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tyve<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>tyve<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tyve<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>tjue<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tredive<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>tretti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tredive<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>tredve<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>fyrre<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>førti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>halvtreds<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>femti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>tres<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>seksti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>halvfjerds<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>sytti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>firs<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>åtti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>halvfems<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>nitti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e><p><l>hundrede<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>hundre<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
+
+
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/><s n="nom"/></l><r>sådan<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>sådan<s n="det"/><s n="dem"/><s n="pl"/><s n="nom"/></l><r>slik<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+
+
+
+<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="ut"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+
+<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>hvilken<s n="det"/><s n="itg"/><s n="pl"/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
+
+
+
+
+
+<e><p><l>samme<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>samme<s n="det"/><s n="dem"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>samme<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>samme<s n="det"/><s n="dem"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>samme<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></l><r>samme<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></r></p></e>
+
+
+
+<e><p><l>næste<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>neste<s n="det"/><s n="dem"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>næste<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>neste<s n="det"/><s n="dem"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>næste<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></l><r>neste<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></r></p></e>
+
+
+
+
+
+
+<e><p><l>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>                          <r>en<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
 
 
 
@@ -892,11 +960,39 @@
 
 
 <e><p><l>hver<s n="det"/><s n="ind"/></l><r>hver<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/></l> <r>den<s n="det"/><s n="dem"/></r></p></e>
+
+
+
+<!--den det de-->
+<e><p><l>den<s n="det"/><s n="def"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="def"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="def"/><s n="def"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
+<!--dens dets deres-->
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
+
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>det<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+
+
+<!--Deres -->
+
+
+<e><p><l>Deres<s n="det"/><s n="pos"/><s n="p2"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Deres<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>de<s n="det"/><s n="pos"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Deres<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>de<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>Deres<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>de<s n="det"/><s n="pos"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>Deres<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>de<s n="det"/><s n="pos"/><s n="p2"/><s n="pl"/></r></p></e>
 
 
 
@@ -927,6 +1023,7 @@
 <e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
 <e><p><l>hun<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>hun<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>hun<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>hun<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>hun<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 
@@ -942,6 +1039,8 @@
 
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>jeg<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>jeg<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
 
 <e r="RL"><p><l>din<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>du<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -973,10 +1072,16 @@
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>de<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>deres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l> <r>de<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <e><p><l>de<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>  <r>de<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
+
+<e><p><l>jeres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>dere<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>jeres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>dere<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>jeres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>dere<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>jeres<s n="det"/><s n="pos"/><s n="un"/><s n="sp"/></l>  <r>dere<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 
 
 
@@ -1003,6 +1108,9 @@
 
 <e><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+
+<e r="RL"><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+
 <e><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
 
 
@@ -1034,10 +1142,6 @@
 
 
 <e><p><l>al<s n="det"/><s n="qnt"/><s n="pl"/></l>   <r>all<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-
-
-
-
 
 
 
