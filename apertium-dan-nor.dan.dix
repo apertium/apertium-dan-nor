@@ -1022,14 +1022,14 @@
 </pardef>
 
 <pardef n="d/en__det">
-  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ens</l>         <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ets</l>         <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>eres</l>         <r>en<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
-</pardef>
+  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ens</l>       <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ets</l>       <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eres</l>      <r>en<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
 
+</pardef>
 
 
 <pardef n="Deres__det">
@@ -1128,8 +1128,13 @@
 
 <pardef n="d/enne__det">
   <e>       <p><l>enne</l>      <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ennes</l>      <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>ette</l>      <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ettes</l>      <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>isse</l>      <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>isses</l>      <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
+
+
 
 </pardef>
 
@@ -5102,6 +5107,8 @@
 
 
     <!-- Determiners -->
+
+    <e lm="en eller anden">            <i>e</i><par n="e/n_eller_anden__det"/></e>
 <e lm="enhver">            <i>e</i><par n="e/nhver__det"/></e>
     <e lm="de fleste">       <i>de<b/>fleste</i><par n="de_fleste__det"/></e>
     <e lm="så mange">        <i>så<b/>mang</i><par n="mang/e__det"/></e>

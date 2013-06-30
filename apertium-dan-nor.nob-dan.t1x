@@ -740,7 +740,7 @@
             <let><var n="køn"/><lit v=""/></let>
          </action>
       </rule>
-
+<!--
 
   <rule comment="THIRD FORM (def) DET -> DET">
          <pattern>
@@ -766,7 +766,7 @@
             <let><var n="køn"/><lit v=""/></let>
          </action>
       </rule>
-
+-->
 
 
 

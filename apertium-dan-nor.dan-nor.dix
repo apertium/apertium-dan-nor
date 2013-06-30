@@ -1038,10 +1038,10 @@
 
 
 <!--den det de-->
-<e><p><l>den<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>  <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></l>  <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 <!--dens dets deres-->
@@ -1052,11 +1052,26 @@
 <e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>  <r>den<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
 
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>  <r>den<s n="det"/><s n="dem"/><s n="pl"/><s n="gen"/></r></p></e>
+
+
 <e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>det<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+
+
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>det<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>  <r>det<s n="det"/><s n="dem"/><s n="pl"/><s n="gen"/></r></p></e>
+
 
 
 <!--Deres -->
