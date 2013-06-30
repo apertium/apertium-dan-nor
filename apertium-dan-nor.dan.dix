@@ -26,6 +26,7 @@
     <sdef n="emph"   c="emphatic"/>
     <sdef n="al"  c=""/>
     <sdef n="sp"  c="Singular and plural"/>
+    <sdef n="du"  c="dual"/>
     <sdef n="sg"  c="Singular"/>
     <sdef n="pl"  c="Plural"/>
     <sdef n="neg"  c="negation"/>
@@ -1000,8 +1001,8 @@
 
 
 <pardef n="næste__det">
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></r></p></e>
 </pardef>
 
 
@@ -1327,9 +1328,37 @@
 
 
 
-<pardef n="m/an__prn">
-  <e>       <p><l>an</l>        <r>an<s n="prn"/><s n="p3"/><s n="un"/><s n="sg"/><s n="nom"/></r></p></e>
+<pardef n="/man__prn">
+  <e>       <p><l>man</l>        <r>man<s n="prn"/><s n="p3"/><s n="un"/><s n="sg"/></r></p></e>
+
+<e>       <p><l>ens</l>        <r>man<s n="prn"/><s n="p3"/><s n="un"/><s n="sg"/><s n="gen"/></r></p></e>
 </pardef>
+
+<!--
+
+<pardef n="/sig__prn">
+  <e>       <p><l>mig</l>   <r>sig<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>dig</l>   <r>sig<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sig</l>   <r>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+
+  <e>       <p><l>os</l>   <r>sig<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>jer</l>  <r>sig<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>      <p><l>sig</l>   <r>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+
+</pardef>-->
+
+
+<pardef n="/sig_selv__prn">
+  <e>       <p><l>mig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>dig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>os<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>jer<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+
 
 <pardef n="sig__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></r></p></e>
@@ -1392,13 +1421,6 @@
   <e>       <p><l>isse</l>      <r>enne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="peer__n">
-  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-</pardef>
 
 <pardef n="mang/e__prn">
   <e>       <p><l>e</l>         <r>e<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
@@ -1411,12 +1433,14 @@
 </pardef>
 
 <pardef n="ingenting__prn"> <!-- TODO: CHECK THIS -->
-  <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="begge__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="def"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
+
 
 <pardef n="in/gen__prn">
   <e>       <p><l>gen</l>       <r>gen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
@@ -1464,6 +1488,16 @@
 
 
  <!-- ported and changed NOB pardefs-->
+
+
+
+<pardef n="peer__n">
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
 
 
 <pardef n="karbon__n">
@@ -5784,7 +5818,9 @@
           group prn
       ****************************** -->
 
+<e lm="sig selv">             <i></i><par n="/sig_selv__prn"/></e>
 <e lm="hvad">            <i>hvad</i><par n="hvad__prn"/></e>
+<e lm="hvem">            <i>hvem</i><par n="hvad__prn"/></e>
 <e lm="jeg">             <i></i><par n="/jeg__prn"/></e>
 <e lm="vi">              <i></i><par n="/vi__prn"/></e>
 <e lm="I">               <i></i><par n="/I__prn"/></e>
@@ -5810,7 +5846,7 @@
 <e lm="hvilken">         <i>hvilke</i><par n="hvilke/n__prn"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__prn"/></e>
 <e lm="ingenting">       <i>ingenting</i><par n="ingenting__prn"/></e>
-<e lm="man">             <i>m</i><par n="m/an__prn"/></e>
+<e lm="man">             <i></i><par n="/man__prn"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__prn"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__prn"/></e>
 <e lm="samme">           <i>samme</i><par n="samme__prn"/></e>

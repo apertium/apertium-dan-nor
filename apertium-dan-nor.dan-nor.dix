@@ -780,10 +780,11 @@
 
 
 <e><p><l>hvad<s n="prn"/><s n="itg"/></l>        <r>hva<s n="prn"/><s n="itg"/></r></p></e>
-
+<e><p><l>hvem<s n="prn"/><s n="itg"/></l>        <r>hvem<s n="prn"/><s n="itg"/></r></p></e>
 
 <e><p><l>jeg<s n="prn"/><s n="p1"/><s n="un"/><s n="sg"/><s n="nom"/></l>   <r>jeg<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
 <e><p><l>jeg<s n="prn"/><s n="p1"/><s n="un"/><s n="sg"/><s n="acc"/></l>   <r>jeg<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+
 <e><p><l>jeg<s n="prn"/><s n="p1"/><s n="un"/><s n="sg"/><s n="acc"/></l>   <r>seg<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
 
 
@@ -797,6 +798,15 @@
 
 <e><p><l>han<s n="prn"/><s n="p3"/><s n="m"/></l><r>han<s n="prn"/><s n="p3"/><s n="m"/></r></p></e>
 <e><p><l>hun<s n="prn"/><s n="p3"/><s n="f"/></l><r>hun<s n="prn"/><s n="p3"/><s n="f"/></r></p></e>
+
+<e><p><l>man<s n="prn"/><s n="p3"/><s n="un"/><s n="sg"/></l><r>en<s n="prn"/><s n="sg"/></r></p></e>
+
+<e><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<e><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+
 
 <!--denne TODO gen not working because of nom tag , needs rule-->
 
@@ -839,11 +849,14 @@
 <e><p><l>den<s n="prn"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></l> <r>den<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
 
 
-<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="ND"/></r></p></e>
+<!--<e><p><l>sig<s n="prn"/><s n="ref"/></l><r>seg<s n="prn"/><s n="ref"/></r></p></e>-->
 
 
+<e><p><l>sig<b/>selv<s n="prn"/><s n="ref"/></l><r>seg<b/>selv<s n="prn"/><s n="ref"/></r></p></e>
+
+
+<!--ingenting-->
+<e><p><l>ingenting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
 
 <e><p><l>vi<s n="prn"/></l>            <r>vi<s n="prn"/></r></p></e>
 <e><p><l>I<s n="prn"/></l>            <r>dere<s n="prn"/></r></p></e>
@@ -857,14 +870,28 @@
 
 <e><p><l>De<s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></l>  <r>De<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 
-
 <e><p><l>De<s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></l><r>De<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+
+<e><p><l>De<s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></l>  <r>De<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+
+
+<e><p><l>De<s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></l>  <r>De<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+
+
 
 <!--noget-->
 
-<e><p><l>nogen<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="nom"/></l>  <r>noe<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>nogen<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></l>  <r>noe<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
 <!--nogen-->
+<e><p><l>nogen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></l>  <r>noe<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>nogen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></l>  <r>noe<s n="prn"/><s n="neg"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>nogen<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></l>  <r>noe<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+
+
+
 
 
 <e><p><l>ingen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/><s n="nom"/></l>  <r>ingen<s n="prn"/><s n="pl"/></r></p></e>
@@ -872,10 +899,16 @@
 <e><p><l>ingen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/><s n="nom"/></l>  <r>ingen<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>ingen<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/><s n="nom"/></l>  <r>ingen<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
 
+<e><p><l>ingen<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="nom"/></l>  <r>ingen<s n="prn"/><s n="nt"/><s n="sg"/></r></p></e>
 
 
+<!--
 
-<!-- Determiners -->
+
+ Determiners
+
+
+  -->
 
 
 <e><p><l>nul<s n="det"/><s n="qnt"/><s n="pl"/></l>  <r>null<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
@@ -912,10 +945,10 @@
 
 
 
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sp"/><s n="def"/></r></p></e>
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="m"/><s n="sp"/><s n="def"/></r></p></e>
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><s n="def"/></r></p></e>
-<e><p><l>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></l><r>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>forrige<s n="det"/><s n="dem"/><s n="f"/><s n="sp"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>forrige<s n="det"/><s n="dem"/><s n="m"/><s n="sp"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="ut"/><s n="sp"/></l><r>forrige<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></l><r>forrige<s n="det"/><s n="dem"/><s n="nt"/><s n="sp"/></r></p></e>
 
 <e><p><l>forrige<s n="det"/><s n="dem"/><s n="pl"/></l><r>forrige<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 

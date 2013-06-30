@@ -52,6 +52,7 @@
       <cat-item tags="prn.def.*"/>
       <cat-item tags="prn.ind.*"/>
       <cat-item tags="prn.dem.*"/>
+      <cat-item tags="prn.ref.*"/>
     </def-cat>
 
 
@@ -141,6 +142,7 @@
   <def-attr n="a_prn">
       <attr-item tags="prn.def"/>
       <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.ref"/>
     </def-attr>
 
     <def-attr n="a_verb">
