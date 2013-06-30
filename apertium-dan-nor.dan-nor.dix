@@ -1000,7 +1000,7 @@
 
 <e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></l>       <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
 
-<e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>                  <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>       <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
 
 <e><p><l>en<b/>eller<b/>anden<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></l>       <r>en<b/>eller<b/>annen<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
 
@@ -1038,10 +1038,10 @@
 
 
 <!--den det de-->
-<e><p><l>den<s n="det"/><s n="def"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="def"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="def"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="def"/><s n="un"/><s n="pl"/></l>  <r>den<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
 
 <!--dens dets deres-->
@@ -1049,7 +1049,7 @@
 <e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></l> <r>den<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>   <r>den<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+<e><p><l>den<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l>  <r>den<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
 
 <e><p><l>den<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l> <r>det<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1106,10 +1106,12 @@
 
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="un"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>jeg<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>jeg<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>jeg<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+
+
 
 <e r="RL"><p><l>din<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>du<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>din<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></l><r>du<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>

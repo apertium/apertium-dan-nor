@@ -1054,8 +1054,11 @@
 
 <pardef n="al/__det">
   <e>       <p><l></l>         <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>t</l>         <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>le</l>        <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+   <e>       <p><l>s</l>       <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>t</l>        <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ts</l>       <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>le</l>       <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les</l>      <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 
@@ -2783,6 +2786,14 @@
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
+
+<pardef n="job__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / ~e / ~ene -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>bet</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>bene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="cover__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / ~e / ~ne -->

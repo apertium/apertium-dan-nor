@@ -65,6 +65,7 @@
 
  <def-cat n="det-emph">
       <cat-item tags="det.emph.*"/>
+      <cat-item tags="det.dem.*"/>
     </def-cat>
 
 
@@ -724,7 +725,6 @@
            <call-macro n="determiner">
           <with-param pos="1"/>
            </call-macro>
-
         <out>
              <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -741,13 +741,12 @@
          </action>
       </rule>
 
-<!--
+
   <rule comment="THIRD FORM (def) DET -> DET">
          <pattern>
            <pattern-item n="det-dem"/>
          </pattern>
          <action>
-
            <call-macro n="determiner">
           <with-param pos="1"/>
            </call-macro>
@@ -768,7 +767,7 @@
          </action>
       </rule>
 
--->
+
 
 
   <rule comment="DET -> DET">
