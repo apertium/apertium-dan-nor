@@ -145,6 +145,7 @@
 <e><p><l>og<b/>at<s n="cnjsub"/></l>            <r>og<b/>at<s n="cnjcoo"/></r></p></e>
 <e><p><l>for<b/>at<s n="cnjsub"/></l>            <r>for<b/>å<s n="cnjsub"/></r></p></e>
 <e><p><l>sådan<b/>at<s n="cnjsub"/></l>            <r>sådan<b/>å<s n="cnjsub"/></r></p></e>
+<e><p><l>sådan<b/>at<s n="cnjsub"/></l>            <r>slik<b/>at<s n="cnjsub"/></r></p></e>
 <e><p><l>men<s n="cnjcoo"/></l>            <r>men<s n="cnjcoo"/></r></p></e>
 
 <e><p><l>når<s n="cnjsub"/></l>            <r>når<s n="cnjsub"/></r></p></e>
@@ -176,6 +177,7 @@
     <e><p><l>a<s n="pr"/></l>                           <r>a<s n="pr"/></r></p></e>
     <e><p><l>agterfor<s n="pr"/></l>                    <r>aktenfor<s n="pr"/></r></p></e>
     <e><p><l>til<b/>stede<s n="pr"/></l>                    <r>tilstede<s n="pr"/></r></p></e>
+    <e><p><l>ens<b/>med<s n="pr"/></l>                    <r>ens<b/>med<s n="pr"/></r></p></e>
     <e><p><l>agterfra<s n="pr"/></l>                    <r>aktenfra<s n="pr"/></r></p></e>
     <e><p><l>agter<s n="pr"/></l>                    <r>akter<s n="pr"/></r></p></e>
     <e><p><l>agterom<s n="pr"/></l>                     <r>aktenom<s n="pr"/></r></p></e>
@@ -515,7 +517,7 @@
     <e><p><l>med<b/>hensyn<b/>til<s n="pr"/></l>        <r>med hensyn til<s n="pr"/></r></p></e>
     <e><p><l>medsols<s n="pr"/></l>                     <r>medsols<s n="pr"/></r></p></e>
     <e><p><l>mellem<s n="pr"/></l>                      <r>mellem<s n="pr"/></r></p></e>
-    <e><p><l>midt<b/>i<s n="pr"/></l><r>midt<b/>i<s n="pr"/></r></p></e>
+    <e><p><l>midt<b/>i<s n="pr"/></l>                      <r>midt<b/>i<s n="pr"/></r></p></e>
     <e><p><l>midt<b/>på<s n="pr"/></l>                  <r>midt på<s n="pr"/></r></p></e>
     <e><p><l>midtfjords<s n="pr"/></l>                  <r>midtfjords<s n="pr"/></r></p></e>
     <e><p><l>midtskibs<s n="pr"/></l>                   <r>midtskips<s n="pr"/></r></p></e>
@@ -524,7 +526,7 @@
     <e><p><l>midtvejs<s n="pr"/></l>                    <r>midtveis<s n="pr"/></r></p></e>
     <e><p><l>modsols<s n="pr"/></l>                     <r>motsols<s n="pr"/></r></p></e>
     <e><p><l>modstrøms<s n="pr"/></l>                   <r>motstrøms<s n="pr"/></r></p></e>
-    <e><p><l>ned<b/>i<s n="pr"/></l><r>ned i<s n="pr"/></r></p></e>
+    <e><p><l>ned<b/>i<s n="pr"/></l>                        <r>ned i<s n="pr"/></r></p></e>
     <e><p><l>nedad<s n="pr"/></l>                       <r>nedad<s n="pr"/></r></p></e>
     <e><p><l>nedefra<s n="pr"/></l>                     <r>nedafra<s n="pr"/></r></p></e>
     <e><p><l>nederst<s n="pr"/></l>                     <r>nedatil<s n="pr"/></r></p></e>
@@ -544,7 +546,7 @@
     <e><p><l>nedigennem<s n="pr"/></l>                  <r>nedigjennem<s n="pr"/></r></p></e>
     <e><p><l>nedigennem<s n="pr"/></l>                  <r>nedigjennom<s n="pr"/></r></p></e>
     <e><p><l>nedimod<s n="pr"/></l>                     <r>nedimot<s n="pr"/></r></p></e>
-    <e><p><l>nede<b/>ved<s n="pr"/></l>                 <r>nedmed<s n="pr"/></r></p></e>
+    <e><p><l>nede<b/>ved<s n="pr"/></l>                 <r>nedved<s n="pr"/></r></p></e>
     <e><p><l>nedom<s n="pr"/></l>                       <r>nedom<s n="pr"/></r></p></e>
     <e><p><l>nedover<s n="pr"/></l>                     <r>nedover<s n="pr"/></r></p></e>
     <e><p><l>nedpå<s n="pr"/></l>                       <r>nedpå<s n="pr"/></r></p></e>
@@ -1346,12 +1348,6 @@
 
 <e><p><l>meget<s n="det"/><s n="qnt"/><s n="pl"/><s n="unc"/></l><r>mange<s n="det"/><s n="qnt"/><s n="pl"/><s n="unc"/></r></p></e>
 
-
-
-<e><p><l>første<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>første<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
-<e><p><l>tredje<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>tredje<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
-<e><p><l>femte<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>femte<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>s
-<e><p><l>sjette<s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></l><r>sjette<s n="adj"/><s n="ord"/><s n="posi"/></r></p></e>
 
 
   <!-- Numerals -->
@@ -5916,7 +5912,7 @@
 <e><p><l>jet<s n="n"/><s n="ut"/></l><r>jet<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>jf.<s n="n"/><s n="acr"/></l><r>jf.<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>jf<s n="n"/><s n="acr"/></l><r>jf<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>job<s n="n"/><s n="ut"/></l><r>jobb<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>job<s n="n"/><s n="nt"/></l><r>jobb<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>jod<s n="n"/><s n="nt"/></l><r>jod<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>jogging<s n="n"/><s n="ut"/></l><r>jogg<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>kondisko<s n="n"/><s n="ut"/></l><r>joggesko<s n="n"/><s n="m"/></r></p></e>
@@ -7870,6 +7866,12 @@
 <e><p><l>syntaktisk<s n="adj"/></l>                <r>syntaktisk<s n="adj"/></r></p></e>
 <e><p><l>syttende<s n="adj"/></l>                <r>syttende<s n="adj"/></r></p></e>
 <e><p><l>syvende<s n="adj"/></l>                <r>syvende<s n="adj"/></r></p></e>
+<e><p><l>første<s n="adj"/></l>                <r>første<s n="adj"/></r></p></e>
+<e><p><l>anden<s n="adj"/></l>                <r>anden<s n="adj"/></r></p></e>
+<e><p><l>tredje<s n="adj"/></l>                <r>tredje<s n="adj"/></r></p></e>
+<e><p><l>fjerde<s n="adj"/></l>                <r>fjerde<s n="adj"/></r></p></e>
+<e><p><l>femte<s n="adj"/></l>                <r>femte<s n="adj"/></r></p></e>
+<e><p><l>sjette<s n="adj"/></l>                <r>sjette<s n="adj"/></r></p></e>
 <e><p><l>halvfjerdsindstyvende<s n="adj"/></l>                <r>syttiende<s n="adj"/></r></p></e>
 <e><p><l>systematisk<s n="adj"/></l>               <r>systematisk<s n="adj"/></r></p></e>
 <e><p><l>såkaldt<s n="adj"/></l>                    <r>såkalt<s n="adj"/></r></p></e>
@@ -11104,6 +11106,7 @@
 <!--<e><p><l>indentifisere</l> <r>indentifisere</r></p><par n="generic__vblex"/></e>-->
 <e><p><l>indfatte</l> <r>innfatte</r></p><par n="generic__vblex"/></e>
 <e><p><l>indfinde</l> <r>innfinne</r></p><par n="generic__vblex"/></e>
+<e><p><l>befinde</l> <r>befinne</r></p><par n="generic__vblex"/></e>
 <e><p><l>indgærde</l> <r>inngjerde</r></p><par n="generic__vblex"/></e>
 <e><p><l>indgravere</l> <r>inngravere</r></p><par n="generic__vblex"/></e>
 <e><p><l>indhente</l> <r>innhente</r></p><par n="generic__vblex"/></e>
@@ -16571,11 +16574,11 @@ s<e><p><l>skide</l> <r>skite</r></p><par n="generic__vblex"/></e>
 
 <e><p><l>målrette</l>        <r>målgruppe</r></p><par n="generic__vblex"/></e>
 <e><p><l>mægle</l>           <r>megle</r></p><par n="generic__vblex"/></e>
-<e><p><l>mæ                                rke</l><r>merke</r></p><par n="generic__vblex"/></e>
+<e><p><l>mærke</l><r>merke</r></p><par n="generic__vblex"/></e>
 <e><p><l>mætte</l>           <r>mette</r></p><par n="generic__vblex"/></e>
 <e><p><l>mætte</l>           <r>mette</r></p><par n="generic__vblex"/></e>
 <e><p><l>møde</l>            <r>møtet</r></p><par n="generic__vblex"/></e>
-<e><p><l>mø                                rbanke</l><r>mørbanke</r></p><par n="generic__vblex"/></e>
+<e><p><l>mørbanke</l><r>mørbanke</r></p><par n="generic__vblex"/></e>
 <e><p><l>nagle</l>           <r>pigge</r></p><par n="generic__vblex"/></e>
 <e><p><l>narre</l>           <r>lure</r></p><par n="generic__vblex"/></e>
 <e><p><l>nationalisere</l>   <r>nasjonalisere</r></p><par n="generic__vblex"/></e>
@@ -16594,7 +16597,7 @@ s<e><p><l>skide</l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>nedsvælge</l>       <r>svelge</r></p><par n="generic__vblex"/></e>
 <e><p><l>nedtone</l>         <r>spille<b/>av</r></p><par n="generic__vblex"/></e>
 <e><p><l>nedvurdere</l>      <r>nedvurdere</r></p><par n="generic__vblex"/></e>
-<e><p><l>nedvæ                             rdige</l><r>debasere</r></p><par n="generic__vblex"/></e>
+<e><p><l>nedværdige</l><r>debasere</r></p><par n="generic__vblex"/></e>
 <e><p><l>negligere</l>       <r>forsømme</r></p><par n="generic__vblex"/></e>
 <e><p><l>neje</l>            <r>curtsy</r></p><par n="generic__vblex"/></e>
 <e><p><l>neutralisere</l>    <r>nøytralisere</r></p><par n="generic__vblex"/></e>
@@ -16608,8 +16611,8 @@ s<e><p><l>skide</l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>nytte</l>           <r>nytte</r></p><par n="generic__vblex"/></e>
 <e><p><l>nå</l>              <r>oppnå</r></p><par n="generic__vblex"/></e>
 <e><p><l>nægte</l>           <r>nekte</r></p><par n="generic__vblex"/></e>
-<e><p><l>næ                                rlæse</l><r>inspisere</r></p><par n="generic__vblex"/></e>
-<e><p><l>næ                                rme</l><r>nærmer<b/>seg</r></p><par n="generic__vblex"/></e>
+<e><p><l>nærlæse</l><r>inspisere</r></p><par n="generic__vblex"/></e>
+<e><p><l>nærme</l><r>nærmer<b/>seg</r></p><par n="generic__vblex"/></e>
 <e><p><l>næse</l>            <r>nesen</r></p><par n="generic__vblex"/></e>
 <e><p><l>observere</l>       <r>observere</r></p><par n="generic__vblex"/></e>
 <e><p><l>obstruere</l>       <r>hindringer</r></p><par n="generic__vblex"/></e>
@@ -17471,7 +17474,7 @@ s<e><p><l>skide</l> <r>skite</r></p><par n="generic__vblex"/></e>
 <e><p><l>synke</l>                 <r>synke</r></p><par n="generic__vblex"/></e>
 <e><p><l>så</l>                    <r>så</r></p><par n="generic__vblex"/></e>
 <e><p><l>turde</l>                 <r>våge</r></p><par n="generic__vblex"/></e>
-<e><p><l>tagge</l>                 <r>merke</r></p><par n="generic__vblex"/></e>
+<e r="LR"><p><l>tagge</l>                 <r>merke</r></p><par n="generic__vblex"/></e>
 <e><p><l>tapetsere</l>             <r>tapetsere</r></p><par n="generic__vblex"/></e>
 <e><p><l>telefonere</l>            <r>ringe</r></p><par n="generic__vblex"/></e>
 <e><p><l>testkøre</l>              <r>testkjøre</r></p><par n="generic__vblex"/></e>

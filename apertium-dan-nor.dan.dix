@@ -5287,6 +5287,7 @@
 <e lm="tillige">        <i>tillige</i><par n="på__pr"/></e>
 <e lm="øst">         <i>øst</i><par n="på__pr"/></e>
 <e lm="fra øst">      <i>fra<b/>øst</i><par n="på__pr"/></e>
+<e lm="ens med">      <i>ens<b/>med</i><par n="på__pr"/></e>
 <e lm="øst for fjeldet">  <i>øst<b/>for<b/>fjeldet</i><par n="på__pr"/></e>
 <e lm="øst for">    <i>øst<b/>for</i><par n="på__pr"/></e>
 <e lm="østom">     <i>østom</i><par n="på__pr"/></e>
@@ -19470,6 +19471,7 @@
 <e lm="finde fodfæste">     <i>finde fodfæste</i><par n="f/inde__vblex"/></e>
 <e lm="finde på">           <i>f</i><par n="f/inde__vblex"/><p><l> på</l><r><g> på</g></r></p></e>
 <e lm="finde">              <i>f</i><par n="f/inde__vblex"/></e>
+<e lm="befinde">              <i>bef</i><par n="f/inde__vblex"/></e>
 <e lm="findele">            <i>findel</i><par n="mal/e__vblex"/></e>
 <e lm="finere">             <i>finer</i><par n="mal/e__vblex"/></e>
 <e lm="finfordele">         <i>finfordel</i><par n="mal/e__vblex"/></e>
