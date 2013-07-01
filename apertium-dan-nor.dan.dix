@@ -1510,11 +1510,26 @@
 
  <!-- ported and changed NOB pardefs-->
 
+<pardef n="UH__n">
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="LR"><p><l>a</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+</pardef>
+
+<pardef n="meter__n">
+  <e>       <p><l>ne</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
+
 
 <pardef n="papyr/us__n">
-  <e>       <p><l>usene</l>     <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>user</l>      <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>usen</l>      <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>ussene</l>     <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>usser</l>      <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>ussen</l>      <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>us</l>        <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
   <e r="LR"><p><l>ene</l>       <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e r="LR"><p><l>er</l>        <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -1585,6 +1600,16 @@
   <e>       <p><l>usen</l>      <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>us</l>        <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
 </pardef>
+
+
+
+<pardef n="kurs/us__n">
+  <e>       <p><l>erne</l>       <r>us<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r>us<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>et</l>      <r>us<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>us</l>        <r>us<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
+</pardef>
+
 
 <pardef n="cent/er__n">
   <e>       <p><l>rene</l>      <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -11013,7 +11038,6 @@
 <e lm="kupforsøg">       <i>kupforsøg</i><par n="år__n"/></e>
 <e lm="kur">             <i>kur</i><par n="bold__n"/></e>
 <e lm="kurer">           <i>kurer</i><par n="ateist__n"/></e>
-<e lm="kurere">          <i>kurere</i><par n="abe__n"/></e>
 <e lm="kuriositet">      <i>kuriositet</i><par n="ateist__n"/></e>
 <e lm="kurs">            <i>kurs</i><par n="residens__n"/></e>
 <e lm="kursiv">          <i>kursiv</i><par n="ateist__n"/></e>
@@ -14756,6 +14780,58 @@
 <e lm="kristenfolk">               <i>kristenfolk</i><par n="slag__n"/></e>
 <e lm="kriterium">                 <i>kriteri</i><par n="podi/um__n"/></e>
 <e lm="kritiker">                  <i>kritiker</i><par n="buffer__n"/></e>
+
+<e lm="krokat">                    <i>krokat</i><par n="aften__n"/></e>
+<e lm="kronekurs">                 <i>kronekurs</i><par n="aften__n"/></e>
+<e lm="kronik">                   <i>kronik</i><par n="paryk__n"/></e>
+<e lm="krumspring">                <i>krumspring</i><par n="slag__n"/></e>
+<e lm="kryb">                      <i>kryb</i><par n="hus__n"/></e>
+<e lm="krage">                     <i>krag</i><par n="enk/e__n"/></e>
+<e lm="krøl">                     <i>krøl</i><par n="duel__n"/></e>
+<e lm="kubik">                    <i>kubik</i><par n="lux__n"/></e>
+<e lm="kul">                       <i>kul</i><par n="aften_no-cp__n"/></e>
+<e lm="kulde">                     <i>kulde</i><par n="enk/e__n"/></e>
+<e lm="kuling">                    <i>kuling</i><par n="aften__n"/></e>
+<e lm="kulturarv">                 <i>kulturarv</i><par n="aften__n"/></e>
+<e lm="kulturdepartement">         <i>kulturdepartement</i><par n="firma__n"/></e>
+<e lm="kulturhus">                 <i>kulturhus</i><par n="slag__n"/></e>
+<e lm="kulturlandskab">            <i>kulturlandskab</i><par n="firma_\s__n"/></e>
+<e lm="kulturliv">                 <i>kulturliv</i><par n="slag__n"/></e>
+<e lm="kulturmiljø">               <i>kulturmiljø</i><par n="firma__n"/></e>
+<e lm="kulturminde">               <i>kulturminde</i><par n="mød/e__n"/></e>
+<e lm="kulturpris">                <i>kulturpris</i><par n="aften__n"/></e>
+<e lm="kulturrevolution">          <i>kulturrevolution</i><par n="aften_\s__n"/></e>
+<e lm="kulturcenter">              <i>kulturcenter</i><par n="ank/er__n"/></e>
+<e lm="kundeservice">              <i>kundeservice</i><par n="hygiejne__n"/></e>
+<e lm="kunstakademi">              <i>kunstakademi</i><par n="firma__n"/></e>
+<e lm="kunsthåndværk">             <i>kunsthåndværk</i><par n="slag__n"/></e>
+<e lm="kunstmuseum">               <i>kunstmuseum</i><par n="podi/um__n"/></e>
+<e lm="kunstner">                  <i>kunstner</i><par n="buffer__n"/></e>
+<e lm="kunstcenter">               <i>kunstcenter</i><par n="ank/er__n"/></e>
+<e lm="kunststykke">               <i>kunststykk</i><par n="mød/e__n"/></e>
+<e lm="kup">                      <i>kup</i><par n="princip__n"/></e>
+<e lm="kur">                       <i>kur</i><par n="aften_no-cp__n"/></e>
+<e lm="kurant">                    <i>kurant</i><par n="aften__n"/></e>
+<e lm="kurator">                   <i>kurator</i><par n="aften__n"/></e>
+<e lm="kursfald">                  <i>kursfald</i><par n="slag__n"/></e>
+<e lm="kursiv">                    <i>kursiv</i><par n="aften__n"/></e>
+<e lm="kusk">                      <i>kusk</i><par n="aften__n"/></e>
+<e lm="kursus">                      <i>kurs</i><par n="kurs/us__n"/></e>
+<e lm="kvadratkilometer">          <i>kvadratkilometer</i><par n="meter__n"/></e>
+<e lm="kvalitetskontrol">         <i>kvalitetskontrol</i><par n="duel__n"/></e>
+<e lm="kvalitetskrav">             <i>kvalitetskrav</i><par n="slag__n"/></e>
+<e lm="kvalme">                    <i>kvalme</i><par n="hygiejne__n"/></e>
+<e lm="kvant">                     <i>kvant</i><par n="UH__n"/></e>
+<e lm="kvantum">                   <i>kvant</i><par n="vel/um__n"/></e>
+<e lm="kvartet">                  <i>kvartet</i><par n="aften__n"/></e>
+<e lm="kvas">                      <i>kvas</i><par n="slag__n"/></e>
+<e lm="aftensmad">                 <i>aftensmad</i><par n="sko__n"/></e>
+<e lm="hellefisk">                 <i>hellefisk</i><par n="sko__n"/></e>
+<e lm="kven">                      <i>kven</i><par n="aften__n"/></e>
+<e lm="kværulant">                 <i>kværulant</i><par n="aften__n"/></e>
+<e lm="kvindedag">                 <i>kvindedag</i><par n="vals__n"/></e>
+<e lm="kvindekamp">                <i>kvindekamp</i><par n="vals__n"/></e>
+<e lm="kvindfolk">                 <i>kvindfolk</i><par n="slag__n"/></e>
 
 
 
