@@ -8568,12 +8568,9 @@
 <e lm="flad">            <i>flad</i><par n="ateist__n"/></e>
 <e lm="flad">            <i>flad</i><par n="bold__n"/></e>
 <e lm="fladbrød" a="DAINF"><i>fladbrød</i><par n="år__n"/></e>
-<e lm="fladbrød">                  <i>fladbrød</i><par n="slag__n"/></e>
 <e lm="flade">                     <i>flade</i><par n="enk/e__n"/></e>
 <e lm="flade">           <i>flade</i><par n="abe__n"/></e>
 <e lm="fladland">                  <i>fladland</i><par n="slag__n"/></e>
-<e lm="flag">            <i>flag</i><par n="alibi__n"/></e>
-<e lm="flag">            <i>flag</i><par n="ateist__n"/></e>
 <e lm="flag">            <i>flag</i><par n="år__n"/></e>
 <e lm="flagdug">         <i>flagdug</i><par n="bold__n"/></e>
 <e lm="flage">           <i>flage</i><par n="abe__n"/></e>
@@ -11923,6 +11920,7 @@
 <e lm="opland">          <i>opland</i><par n="skib__n"/></e>
 <e lm="oplevelse">       <i>oplevelse</i><par n="abe__n"/></e>
 <e lm="oplysning">       <i>oplysning</i><par n="ateist__n"/></e>
+<e lm="lysning">       <i>lysning</i><par n="ateist__n"/></e>
 <e lm="oplæring">        <i>oplæring</i><par n="ateist__n"/></e>
 <e lm="oplæsning">       <i>oplæsning</i><par n="ateist__n"/></e>
 <e lm="opløb">           <i>opløb</i><par n="år__n"/></e>
@@ -14534,7 +14532,64 @@
 <e lm="ørred">           <i>ørred</i><par n="ateist__n"/></e>
 <e lm="østersøsild">     <i>østersøsild</i><par n="sko__n"/></e>
 <e lm="øvelse">          <i>øvelse</i><par n="abe__n"/></e>
-<e r="LR" lm="arbejd" a="DAINF"><i>arbejd</i><par n="alibi__n"/></e>
+
+
+<e lm="kg">                        <i>kg</i><par n="km_no-cp__n"/></e>
+<e lm="khan">                      <i>khan</i><par n="aften__n"/></e>
+<e lm="kik">                      <i>kik</i><par n="stik__n"/></e>
+<e lm="kildekode">                 <i>kildekode</i><par n="hygiejne__n"/></e>
+<e lm="kile">                      <i>kile</i><par n="hygiejne__n"/></e>
+<e lm="kim">                       <i>kim</i><par n="sko__n"/></e>
+<e lm="kiropraktor">               <i>kiropraktor</i><par n="aften__n"/></e>
+<e lm="kirurgi">                   <i>kirurgi</i><par n="aften__n"/></e>
+<e lm="kis">                       <i>kis</i><par n="aften_no-cp__n"/></e>
+<e lm="kit">                      <i>kit</i><par n="portræt__n"/></e>
+<e lm="kiwi">                      <i>kiwi</i><par n="aften__n"/></e>
+<e lm="kid">                       <i>kid</i><par n="brud__n"/></e>
+<e lm="kedel">                     <i>ked</i><par n="cirk/el__n"/></e>
+<e lm="kælder">                   <i>kæld</i><par n="minist/er__n"/></e>
+<e lm="kæltring">                 <i>kæltring</i><par n="aften__n"/></e>
+<e lm="kendis">                   <i>kendis</i><par n="mis__n"/></e>
+<e lm="kende">                    <i>kende</i><par n="aften__n"/></e>
+<e lm="kending">                  <i>kending</i><par n="art_\s__n"/></e>
+<e lm="lokalkendt">                 <i>lokalkendt</i><par n="vals__n"/></e>
+<e lm="kerne">                    <i>kern</i><par n="enk/e__n"/></e>
+<e lm="kernefamilie">             <i>kernefamilie</i><par n="hygiejne__n"/></e>
+<e lm="kernekraftværk">           <i>kernekraftværk</i><par n="firma__n"/></e>
+<e lm="kærre">                    <i>kærr</i><par n="enk/e__n"/></e>
+<e lm="køkkenbænk">               <i>køkkenbænk</i><par n="vals__n"/></e>
+<e lm="køkkenudstyr">             <i>køkkenudstyr</i><par n="slag__n"/></e>
+<e lm="køl">                      <i>køl</i><par n="aften__n"/></e>
+<e lm="kølvand">                  <i>kølvand</i><par n="slag__n"/></e>
+<e lm="kønssygdom">              <i>kønssygdom</i><par n="bom_\s__n"/></e>
+<e lm="købecenter">               <i>købecenter</i><par n="ank/er__n"/></e>
+<e lm="købesum">                  <i>købesum</i><par n="bom__n"/></e>
+<e lm="købmand">                  <i>købm</i><par n="m/and__n"/></e>
+<e lm="køretur">                  <i>køretur</i><par n="aften__n"/></e>
+<e lm="køring">                   <i>køring</i><par n="art_\s__n"/></e>
+<e lm="køddej">                 <i>køddej</i><par n="vals__n"/></e>
+<!--<e lm="klabb">                     <i>klabb</i><par n="aften__n"/></e>-->
+<e lm="klap">                     <i>klap</i><par n="kop__n"/></e>
+<e lm="klarhed">                   <i>klarhed</i><par n="art__n"/></e>
+<e lm="klarsignal">                <i>klarsignal</i><par n="firma__n"/></e>
+<e lm="klartekst">                 <i>klartekst</i><par n="art__n"/></e>
+<e lm="klase">                     <i>klase</i><par n="hygiejne__n"/></e>
+<e lm="klasseværelse">                 <i>klasseværelse</i><par n="vindue__n"/></e>
+<e lm="klassetrin">               <i>klassetrin</i><par n="trin__n"/></e>
+<!--<e lm="klave">                     <i>klave</i><par n="hygiejne__n"/></e>-->
+
+<e lm="klimt">                     <i>klimt</i><par n="slag__n"/></e>
+<e lm="klædeskab">                  <i>klædeskab</i><par n="vals__n"/></e>
+<e lm="klimaanlæg">               <i>klimaanlæg</i><par n="æg__n"/></e>
+<e lm="klimaks">                   <i>klimaks</i><par n="sekund__n"/></e>
+<e lm="snask">                      <i>snask</i><par n="slag__n"/></e>
+<e lm="kling">                     <i>kling</i><par n="aften__n"/></e>
+<e lm="klinik">                   <i>klinik</i><par n="paryk__n"/></e>
+<e lm="klink">                     <i>klink</i><par n="aften__n"/></e>
+<e lm="klippekort">                <i>klippekort</i><par n="slag__n"/></e>
+<e lm="klipfisk">                 <i>klipfisk</i><par n="sko__n"/></e>
+<e lm="kliché">                    <i>kliché</i><par n="id/é__n"/></e>
+
 
  <!-- /nouns -->
 
