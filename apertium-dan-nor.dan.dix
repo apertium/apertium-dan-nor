@@ -1511,6 +1511,16 @@
  <!-- ported and changed NOB pardefs-->
 
 
+<pardef n="papyr/us__n">
+  <e>       <p><l>usene</l>     <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>user</l>      <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>usen</l>      <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>us</l>        <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
+  <e r="LR"><p><l>ene</l>       <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>er</l>        <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>en</l>        <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+</pardef>
+
 
 <pardef n="peer__n">
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -8736,7 +8746,6 @@
 <e lm="forbillede">                  <i>forbillede</i><par n="mød/e__n"/></e>
 <e lm="forbindelse">     <i>forbindelse</i><par n="abe__n"/></e>
 <e lm="forbinding">      <i>forbinding</i><par n="ateist__n"/></e>
-<e lm="forbrug">                   <i>forbrug</i><par n="slag__n"/></e>
 <e lm="forbrug">         <i>forbrug</i><par n="år__n"/></e>
 <e lm="forbruger">       <i>forbruger</i><par n="spiller__n"/></e>
 <e lm="forbrydelse">     <i>forbrydelse</i><par n="abe__n"/></e>
@@ -14622,6 +14631,72 @@
 <e lm="knaphed">                  <i>knaphed</i><par n="art__n"/></e>
 <e lm="bank">                     <i>bank</i><par n="slag__n"/></e>
 <e lm="knæk">                      <i>knæk</i><par n="stik__n"/></e>
+
+
+
+<e lm="knæskade">                  <i>knæskade</i><par n="hygiejne__n"/></e>
+<e lm="knockout">                  <i>knockout</i><par n="aften__n"/></e>
+<!--<e lm="knot">                     <i>knot</i><par n="gon__n"/></e>-->
+<e lm="knur">                     <i>knur</i><par n="jordbær__n"/></e>
+<e lm="bylt">                    <i>bylt</i><par n="aften__n"/></e>
+<e lm="koalition">                 <i>koalition</i><par n="aften_\s__n"/></e>
+<e lm="kobra">                     <i>kobra</i><par n="aften__n"/></e>
+<e lm="koffein">                   <i>koffein</i><par n="skab__n"/></e>
+<e lm="kok">                       <i>kok</i><par n="paryk__n"/></e>
+<e lm="kog">                       <i>kog</i><par n="år__n"/></e>
+<e lm="kokain">                    <i>kokain</i><par n="skab__n"/></e>
+<e lm="kokk">                      <i>kokk</i><par n="aften__n"/></e>
+<e lm="kokos">                     <i>kokos</i><par n="aften__n"/></e>
+<e lm="kolesterol">                <i>kolesterol</i><par n="skab__n"/></e>
+<e lm="kolik">                    <i>kolik</i><par n="paryk__n"/></e>
+<e lm="kollaps">                   <i>kollaps</i><par n="aften__n"/></e>
+<e lm="kollegium">                 <i>kollegium</i><par n="podi/um__n"/></e>
+<e lm="kollektiv trafik">          <i>kollektiv<b/>trafik</i><par n="paryk__n"/></e>
+<e lm="kollektiv transport">        <i>kollektiv<b/>transport</i><par n="aften__n"/></e>
+<e lm="kollisionskurs">            <i>kollisionskurs</i><par n="aften__n"/></e>
+<e lm="kombineret">                 <i>kombineret</i><par n="MC__n"/></e>
+<e lm="komfort">                   <i>komfort</i><par n="aften__n"/></e>
+<e lm="komite">                    <i>komit</i><par n="aften__n"/></e>
+<e lm="komité">                    <i>komit</i><par n="id/é__n"/></e>
+<e lm="kommunaldepartement">       <i>kommunaldepartement</i><par n="firma__n"/></e>
+<e lm="kommunalminister">          <i>kommunalminister</i><par n="minist/er__n"/></e>
+<e lm="kommunehus">                <i>kommunehus</i><par n="slag__n"/></e>
+<e lm="kommunestyre">              <i>kommunestyr</i><par n="mød/e__n"/></e>
+<e lm="kommunisme">                <i>kommunisme</i><par n="hygiejne__n"/></e>
+<e lm="komp">                      <i>komp</i><par n="skab__n"/></e>
+<e lm="komparativ">                <i>komparativ</i><par n="aften__n"/></e>
+<e lm="kompatibilitet">            <i>kompatibilitet</i><par n="aften_\s__n"/></e>
+<e lm="kompendium">                <i>kompendi</i><par n="podi/um__n"/></e>
+<e lm="kompis">                    <i>kompis</i><par n="aften__n"/></e>
+<e lm="komplikation">              <i>komplikation</i><par n="aften_\s__n"/></e>
+<e lm="kompliment">                <i>kompliment</i><par n="aften__n"/></e>
+<e lm="kompost">                   <i>kompost</i><par n="aften__n"/></e>
+<e lm="kompressor">                <i>kompressor</i><par n="aften__n"/></e>
+<e lm="kondens">                   <i>kondens</i><par n="aften__n"/></e>
+<e lm="kondi">                    <i>kondi</i><par n="aften__n"/></e>
+<e lm="kondition">                 <i>kondition</i><par n="aften_\s__n"/></e>
+<e lm="kondom">                    <i>kondom</i><par n="firma__n"/></e>
+<e lm="konferencier">              <i>konferencier</i><par n="aften__n"/></e>
+<e lm="konfiguration">             <i>konfiguration</i><par n="aften_\s__n"/></e>
+<e lm="konfirmant">                <i>konfirmant</i><par n="aften__n"/></e>
+<e lm="kongedømme">                <i>kongedømme</i><par n="mød/e__n"/></e>
+<e lm="kongefamilie">              <i>kongefamilie</i><par n="hygiejne__n"/></e>
+<e lm="kongepar">                  <i>kongepar</i><par n="slag__n"/></e>
+<e lm="kongerige">                 <i>kongerig</i><par n="mød/e__n"/></e>
+<e lm="kongeørn">                  <i>kongeørn</i><par n="art__n"/></e>
+<e lm="konkret">                   <i>konkret</i><par n="sekund__n"/></e>
+<e lm="konsensus">                 <i>konsens</i><par n="papyr/us__n"/></e>
+<e lm="koncernledelse">            <i>koncernledelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="koncerthus">                <i>koncerthus</i><par n="slag__n"/></e>
+<e lm="konservatisme">             <i>konservatisme</i><par n="hygiejne__n"/></e>
+<e lm="konserves">                  <i>konserves</i><par n="hygiejne__n"/></e>
+<e lm="konsistens">                <i>konsistens</i><par n="aften__n"/></e>
+<e lm="konsol">                   <i>konsol</i><par n="duel__n"/></e>
+<e lm="konsultation">              <i>konsultation</i><par n="aften_\s__n"/></e>
+<e lm="forbrugsprisindeks">          <i>forbrugsprisindeks</i><par n="alibi__n"/></e>
+
+
+
  <!-- /nouns -->
 
 

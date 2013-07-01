@@ -547,13 +547,13 @@
     <e><p><l>nedigennem<s n="pr"/></l>                  <r>nedigjennom<s n="pr"/></r></p></e>
     <e><p><l>nedimod<s n="pr"/></l>                     <r>nedimot<s n="pr"/></r></p></e>
     <e><p><l>nede<b/>ved<s n="pr"/></l>                 <r>nedved<s n="pr"/></r></p></e>
+    <e><p><l>nede<b/>ved<s n="pr"/></l>                 <r>nedmed<s n="pr"/></r></p></e>
     <e><p><l>nedom<s n="pr"/></l>                       <r>nedom<s n="pr"/></r></p></e>
     <e><p><l>nedover<s n="pr"/></l>                     <r>nedover<s n="pr"/></r></p></e>
     <e><p><l>nedpå<s n="pr"/></l>                       <r>nedpå<s n="pr"/></r></p></e>
     <e><p><l>nedstrøms<s n="pr"/></l>                   <r>nedstrøms<s n="pr"/></r></p></e>
     <e><p><l>ned<b/>til<s n="pr"/></l>                  <r>nedtil<s n="pr"/></r></p></e>
     <e><p><l>nedunder<s n="pr"/></l>                    <r>nedunder<s n="pr"/></r></p></e>
-    <e><p><l>nedved<s n="pr"/></l>                      <r>nedved<s n="pr"/></r></p></e>
     <e><p><l>ned<s n="pr"/></l>                         <r>ner<s n="pr"/></r></p></e>
     <e><p><l>nede<s n="pr"/></l>                        <r>nere<s n="pr"/></r></p></e>
     <e><p><l>nedimod<s n="pr"/></l>                     <r>nerimot<s n="pr"/></r></p></e>
@@ -6188,6 +6188,118 @@
 <e><p><l>knæk<s n="n"/><s n="ut"/></l><r>knekk<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>knækbrød<s n="n"/><s n="nt"/></l><r>knekkebrød<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>kneb<s n="n"/><s n="nt"/></l><r>knep<s n="n"/><s n="nt"/></r></p></e>
+
+<e><p><l>slurk<s n="n"/><s n="ut"/></l><r>knert<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>knæskade<s n="n"/><s n="ut"/></l><r>kneskade<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>knockout<s n="n"/><s n="ut"/></l><r>knockout<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>knop<s n="n"/><s n="ut"/></l><r>knop<s n="n"/><s n="m"/></r></p></e>
+<!--<e><p><l>knot<s n="n"/><s n="ut"/></l><r>knott<s n="n"/><s n="m"/></r></p></e>-->
+<e><p><l>knald<s n="n"/><s n="nt"/></l><r>knull<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>knur<s n="n"/><s n="nt"/></l><r>knurr<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>knude<s n="n"/><s n="ut"/></l><r>knut<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>knudepunkt<s n="n"/><s n="nt"/></l><r>knutepunkt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>bylt<s n="n"/><s n="ut"/></l><r>knytte<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>koalition<s n="n"/><s n="ut"/></l><r>koalisjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sæl<s n="n"/><s n="ut"/></l><r>kobbe<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kobra<s n="n"/><s n="ut"/></l><r>kobra<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kode<s n="n"/><s n="ut"/></l><r>kode<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kodeord<s n="n"/><s n="nt"/></l><r>kodeord<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>koffein<s n="n"/><s n="nt"/></l><r>koffein<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kog<s n="n"/><s n="nt"/></l><r>kok<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kog<s n="n"/><s n="nt"/></l><r>kok<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kokain<s n="n"/><s n="nt"/></l><r>kokain<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kok<s n="n"/><s n="ut"/></l><r>kokk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kokos<s n="n"/><s n="ut"/></l><r>kokos<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kul<s n="n"/><s n="nt"/></l><r>kol<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kolesterol<s n="n"/><s n="nt"/></l><r>kolesterol<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kolik<s n="n"/><s n="ut"/></l><r>kolikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hpved<s n="n"/><s n="ut"/></l><r>koll<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kollaps<s n="n"/><s n="ut"/></l><r>kollaps<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kollegium<s n="n"/><s n="nt"/></l><r>kollegium<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kollektion<s n="n"/><s n="ut"/></l><r>kolleksjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kollektiv<b/>trafik<s n="n"/><s n="ut"/></l><r>kollektivtrafikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kollektiv<b/>transport<s n="n"/><s n="ut"/></l><r>kollektivtransport<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kollision<s n="n"/><s n="ut"/></l><r>kollisjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kollitionskurs<s n="n"/><s n="ut"/></l><r>kollisjonskurs<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>koma<s n="n"/><s n="ut"/></l><r>koma<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kombineret<s n="n"/><s n="ut"/></l><r>kombinert<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>komedie<s n="n"/><s n="ut"/></l><r>komedie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komfort<s n="n"/><s n="ut"/></l><r>komfort<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komite<s n="n"/><s n="ut"/></l><r>komite<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komité<s n="n"/><s n="ut"/></l><r>komité<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommando<s n="n"/><s n="ut"/></l><r>kommando<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommandør<s n="n"/><s n="ut"/></l><r>kommandør<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommentator<s n="n"/><s n="ut"/></l><r>kommentator<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommission<s n="n"/><s n="ut"/></l><r>kommisjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommunaldepartement<s n="n"/><s n="nt"/></l><r>kommunaldepartement<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kommunalminister<s n="n"/><s n="ut"/></l><r>kommunalminister<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommunehus<s n="n"/><s n="nt"/></l><r>kommunehus<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kommunestyre<s n="n"/><s n="nt"/></l><r>kommunestyre<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kommunikation<s n="n"/><s n="ut"/></l><r>kommunikasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommunisme<s n="n"/><s n="ut"/></l><r>kommunisme<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommunist<s n="n"/><s n="ut"/></l><r>kommunist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kommunistparti<s n="n"/><s n="nt"/></l><r>kommunistparti<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>komp<s n="n"/><s n="nt"/></l><r>komp<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kompagni<s n="n"/><s n="nt"/></l><r>kompani<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>komparativ<s n="n"/><s n="ut"/></l><r>komparativ<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompas<s n="n"/><s n="nt"/></l><r>kompas<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kompas<s n="n"/><s n="nt"/></l><r>kompass<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kompatibilitet<s n="n"/><s n="ut"/></l><r>kompatibilitet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompendium<s n="n"/><s n="nt"/></l><r>kompendium<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kompensation<s n="n"/><s n="ut"/></l><r>kompensasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompetence<s n="n"/><s n="ut"/></l><r>kompetanse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ven<s n="n"/><s n="ut"/></l><r>kompis<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompleksitet<s n="n"/><s n="ut"/></l><r>kompleksitet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komplikation<s n="n"/><s n="ut"/></l><r>komplikasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompliment<s n="n"/><s n="ut"/></l><r>kompliment<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komponent<s n="n"/><s n="ut"/></l><r>komponent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komponist<s n="n"/><s n="ut"/></l><r>komponist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>komposition<s n="n"/><s n="ut"/></l><r>komposisjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompost<s n="n"/><s n="ut"/></l><r>kompost<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kompressor<s n="n"/><s n="ut"/></l><r>kompressor<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kondens<s n="n"/><s n="ut"/></l><r>kondens<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kondi<s n="n"/><s n="ut"/></l><r>kondis<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kondition<s n="n"/><s n="ut"/></l><r>kondisjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kondom<s n="n"/><s n="nt"/></l><r>kondom<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kone<s n="n"/><s n="ut"/></l><r>kone<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>kone<s n="n"/><s n="ut"/></l><r>kone<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konference<s n="n"/><s n="ut"/></l><r>konferanse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konferencier<s n="n"/><s n="ut"/></l><r>konferansier<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konfiguration<s n="n"/><s n="ut"/></l><r>konfigurasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konfirmand<s n="n"/><s n="ut"/></l><r>konfirmant<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konfirmation<s n="n"/><s n="ut"/></l><r>konfirmasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konfrontation<s n="n"/><s n="ut"/></l><r>konfrontasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kongedømme<s n="n"/><s n="nt"/></l><r>kongedømme<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kongefamilie<s n="n"/><s n="ut"/></l><r>kongefamilie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kongepar<s n="n"/><s n="nt"/></l><r>kongepar<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kongerige<s n="n"/><s n="nt"/></l><r>kongerike<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kongeørn<s n="n"/><s n="ut"/></l><r>kongeørn<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cement<s n="n"/><s n="nt"/></l><r>konkret<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>konkurrent<s n="n"/><s n="ut"/></l><r>konkurrent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konsekvens<s n="n"/><s n="ut"/></l><r>konsekvens<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konsensus<s n="n"/><s n="ut"/></l><r>konsensus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>koncentration<s n="n"/><s n="ut"/></l><r>konsentrasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>koncentrationslejr<s n="n"/><s n="ut"/></l><r>konsentrasjonsleir<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>koncept<s n="n"/><s n="nt"/></l><r>konsept<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>koncern<s n="n"/><s n="nt"/></l><r>konsern<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>koncernledelse<s n="n"/><s n="ut"/></l><r>konsernledelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>koncerthus<s n="n"/><s n="nt"/></l><r>konserthus<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>konservatisme<s n="n"/><s n="ut"/></l><r>konservatisme<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konserves<s n="n"/><s n="ut"/></l><r>konserve<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>koncession<s n="n"/><s n="ut"/></l><r>konsesjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konsistens<s n="n"/><s n="ut"/></l><r>konsistens<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konsol<s n="n"/><s n="ut"/></l><r>konsoll<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konspiration<s n="n"/><s n="ut"/></l><r>konspirasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konstant<s n="n"/><s n="ut"/></l><r>konstant<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konstellation<s n="n"/><s n="ut"/></l><r>konstellasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konstitution<s n="n"/><s n="ut"/></l><r>konstitusjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konsulent<s n="n"/><s n="ut"/></l><r>konsulent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>konsultation<s n="n"/><s n="ut"/></l><r>konsultasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>forbrug<s n="n"/><s n="nt"/></l><r>konsum<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>forbruger<s n="n"/><s n="ut"/></l><r>konsument<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>forbrugsprisindeks<s n="n"/><s n="nt"/></l><r>konsumprisindeks<s n="n"/><s n="m"/></r></p></e>
+
+
 
 
 
