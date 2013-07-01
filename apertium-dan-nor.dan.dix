@@ -10740,7 +10740,7 @@
 <e lm="kløft">           <i>kløft</i><par n="ateist__n"/></e>
 <e lm="kløver">          <i>kløver</i><par n="spiller__n"/></e>
 <e lm="knallert">        <i>knallert</i><par n="ateist__n"/></e>
-<e lm="knap">            <p><l>knapper</l>   <r>knap</r></p><par n="alibi__n"/></e>
+
 <e lm="knappe">          <i>knappe</i><par n="abe__n"/></e>
 <e lm="kneb">            <i>kneb</i><par n="år__n"/></e>
 <e lm="knebel">          <i>kneb</i><par n="cirk/el__n"/></e>
@@ -14593,6 +14593,34 @@
 <e lm="kliché">                    <i>kliché</i><par n="id/é__n"/></e>
 
 
+
+
+<e lm="klimt">                     <i>klimt</i><par n="slag__n"/></e>
+<e lm="klædeskab">                  <i>klædeskab</i><par n="vals__n"/></e>
+<e lm="klimaanlæg">               <i>klimaanlæg</i><par n="æg__n"/></e>
+<e lm="klimaks">                   <i>klimaks</i><par n="sekund__n"/></e>
+<e lm="snask">                      <i>snask</i><par n="slag__n"/></e>
+<e lm="kling">                     <i>kling</i><par n="aften__n"/></e>
+<e lm="klinik">                   <i>klinik</i><par n="paryk__n"/></e>
+<e lm="klink">                     <i>klink</i><par n="aften__n"/></e>
+<e lm="klippekort">                <i>klippekort</i><par n="slag__n"/></e>
+<e lm="klipfisk">                 <i>klipfisk</i><par n="sko__n"/></e>
+<e lm="kliché">                    <i>kliché</i><par n="id/é__n"/></e>
+
+
+<e lm="klister">                   <i>klist</i><par n="ank/er__n"/></e>
+<e lm="klitoris">                  <i>klitoris</i><par n="aften__n"/></e>
+<e lm="kloak">                    <i>kloak</i><par n="paryk__n"/></e>
+<e lm="klogskab">                  <i>klogskab</i><par n="aften__n"/></e>
+<e lm="klat">                     <i>klat</i><par n="salut__n"/></e>
+<e lm="kløe">                      <i>kløe</i><par n="hygiejne__n"/></e>
+<!--<e lm="kløv">                      <i>kløv</i><par n="art__n"/></e>-->
+<e lm="km">                        <i>km</i><par n="km_no-cp__n"/></e>
+<e lm="knald">                     <i>knald</i><par n="slag__n"/></e>
+<e lm="knap">                     <i>knap</i><par n="kop__n"/></e>
+<e lm="knaphed">                  <i>knaphed</i><par n="art__n"/></e>
+<e lm="bank">                     <i>bank</i><par n="slag__n"/></e>
+<e lm="knæk">                      <i>knæk</i><par n="stik__n"/></e>
  <!-- /nouns -->
 
 
