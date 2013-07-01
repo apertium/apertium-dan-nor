@@ -3237,6 +3237,8 @@
 <pardef n="/være__vbser">
   <e>       <p><l>være</l>      <r>være<s n="vbser"/><s n="inf"/><s n="actv"/></r></p></e>
   <e>       <p><l>er</l>        <r>være<s n="vbser"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>væres</l>     <r>være<s n="vbser"/><s n="inf"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>væres</l>     <r>være<s n="vbser"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>var</l>       <r>være<s n="vbser"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>vær</l>       <r>være<s n="vbser"/><s n="imp"/></r></p></e>
   <e>       <p><l>været</l>     <r>være<s n="vbser"/><s n="pp"/></r></p></e>
@@ -4946,6 +4948,8 @@
   <e>       <p><l>tte</l>       <r>tte<s n="vaux"/><s n="inf"/><s n="actv"/></r></p></e>
   <e>       <p><l></l>          <r>tte<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>tte</l>       <r>tte<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ttes</l>      <r>tte<s n="vaux"/><s n="inf"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>ttes</l>      <r>tte<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ttet</l>      <r>tte<s n="vaux"/><s n="pp"/></r></p></e>
 </pardef>
 
@@ -10719,7 +10723,6 @@
 <e lm="klon">            <i>klon</i><par n="ateist__n"/></e>
 <e lm="kloning">         <i>kloning</i><par n="ateist__n"/></e>
 <e lm="klor">            <i>klor</i><par n="blod__n"/></e>
-<e lm="klor">            <i>klor</i><par n="mad__n"/></e>
 <e lm="kloster">         <i>klost</i><par n="ank/er__n"/></e>
 <e lm="klovn">           <i>klovn</i><par n="ateist__n"/></e>
 <e lm="klub">            <i>klub</i><par n="klub__n"/></e>
@@ -10729,7 +10732,6 @@
 <e lm="klumme">          <i>klumme</i><par n="abe__n"/></e>
 <e lm="klump">           <i>klump</i><par n="ateist__n"/></e>
 <e lm="klusil">          <i>klusil</i><par n="ateist__n"/></e>
-<e lm="klynge">          <i>klynge</i><par n="abe__n"/></e>
 <e lm="klynge">          <i>klynge</i><par n="abe__n"/></e>
 <e lm="klæde" a="PT">    <i>klæde</i><par n="tilfælde__n"/></e>
 <e lm="klædedragt">      <i>klædedragt</i><par n="ateist__n"/></e>
@@ -14608,6 +14610,7 @@
 <e lm="men">             <i>men</i><par n="og__cnjcoo"/></e>
 <e lm="og">              <i>og</i><par n="og__cnjcoo"/></e>
 <e lm="samt">            <i>samt</i><par n="og__cnjcoo"/></e>
+<e lm="hverken">            <i>hverken</i><par n="og__cnjcoo"/></e>
 <e lm="så som">          <i>så som</i><par n="og__cnjcoo"/></e>
 <e lm="såvel som">       <i>såvel som</i><par n="og__cnjcoo"/></e>
 <e lm="uden">            <i>uden</i><par n="og__cnjcoo"/></e>
@@ -14627,15 +14630,24 @@
 <e lm="at">              <i>at</i><par n="at__cnjsub"/></e>
 <e lm="da">              <i>da</i><par n="at__cnjsub"/></e>
 <e lm="eftersom">        <i>eftersom</i><par n="at__cnjsub"/></e>
+<e lm="dersom">        <i>dersom</i><par n="at__cnjsub"/></e>
 <e lm="for">             <i>for</i><par n="at__cnjsub"/></e>
+<e lm="til">             <i>til</i><par n="at__cnjsub"/></e>
+<e lm="hvordan">             <i>hvordan</i><par n="at__cnjsub"/></e>
+<e lm="før">             <i>før</i><par n="at__cnjsub"/></e>
 <e lm="fordi">           <i>fordi</i><par n="at__cnjsub"/></e>
 <e lm="hvis">            <i>hvis</i><par n="at__cnjsub"/></e>
 <e lm="hvor">            <i>hvor</i><par n="at__cnjsub"/></e>
 <e lm="når">             <i>når</i><par n="at__cnjsub"/></e>
 <e lm="om">              <i>om</i><par n="at__cnjsub"/></e>
+<e lm="siden">              <i>siden</i><par n="at__cnjsub"/></e>
 <e lm="som">             <i>som</i><par n="at__cnjsub"/></e>
 <e lm="så">              <i>så</i><par n="at__cnjsub"/></e>
-<e lm="for at">          <i>for at</i><par n="at__cnjsub"/></e>
+<e lm="for at">          <i>for<b/>at</i><par n="at__cnjsub"/></e>
+<e lm="sådan at">          <i>sådan<b/>at</i><par n="at__cnjsub"/></e>
+<e lm="i gang med at">          <i>i<b/>gang<b/>med<b/>at</i><par n="at__cnjsub"/></e>
+<e lm="som om">          <i>som<b/>om</i><par n="at__cnjsub"/></e>
+<e lm="og at">          <i>og<b/>at</i><par n="at__cnjsub"/></e>
 
     <!-- ******************************
           group cnjadv
@@ -14666,13 +14678,13 @@
 <e lm="netop">           <i>netop</i><par n="alt_imens__cnjadv"/></e>
 <e lm="når">             <i>når</i><par n="alt_imens__cnjadv"/></e>
 <e lm="om">              <i>om</i><par n="alt_imens__cnjadv"/></e>
-<e lm="om end">          <i>om end</i><par n="alt_imens__cnjadv"/></e>
+<e lm="om end">          <i>om<b/>end</i><par n="alt_imens__cnjadv"/></e>
 <e lm="omend">           <i>omend</i><par n="alt_imens__cnjadv"/></e>
-<e lm="selv om">         <i>selv om</i><par n="alt_imens__cnjadv"/></e>
+<e lm="selv om">         <i>selv<b/>om</i><par n="alt_imens__cnjadv"/></e>
 <e lm="selvom">          <i>selvom</i><par n="alt_imens__cnjadv"/></e>
 <e lm="siden">           <i>siden</i><par n="alt_imens__cnjadv"/></e>
 <e lm="skønt">           <i>skønt</i><par n="alt_imens__cnjadv"/></e>
-<e lm="som om">          <i>som om</i><par n="alt_imens__cnjadv"/></e>
+<e lm="som om">          <i>som<b/>om</i><par n="alt_imens__cnjadv"/></e>
 <e lm="straks">          <i>straks</i><par n="alt_imens__cnjadv"/></e>
 <e lm="såfremt">         <i>såfremt</i><par n="alt_imens__cnjadv"/></e>
 <e lm="såsom">           <i>såsom</i><par n="alt_imens__cnjadv"/></e>
