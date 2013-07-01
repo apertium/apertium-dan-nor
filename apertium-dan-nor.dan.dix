@@ -11126,7 +11126,6 @@
 <e lm="ladegård">        <i>ladegård</i><par n="bold__n"/></e>
 <e lm="ladning">         <i>ladning</i><par n="ateist__n"/></e>
 <e lm="ladvogn" a="PT" c="domain:lantliv"><i>ladvogn</i><par n="bold__n"/></e>
-<e lm="lag">             <i>lag</i><par n="alibi__n"/></e>
 <e lm="lag">             <i>lag</i><par n="ateist__n"/></e>
 <e lm="lag">             <i>lag</i><par n="år__n"/></e>
 <e lm="lage" a="DAINF">  <i>lage</i><par n="abe__n"/></e>
@@ -12565,7 +12564,7 @@
 <e lm="restaurant">      <i>restaurant</i><par n="ateist__n"/></e>
 <e lm="restaurering">    <i>restaurering</i><par n="ateist__n"/></e>
 <e lm="resultat">        <i>resultat</i><par n="alibi__n"/></e>
-<e lm="ret" a="PT" c="domain:juridik"><i>ret</i><par n="sæt__n"/></e>
+<e lm="ret" a="PT" c="domain:juridik"><i>ret</i><par n="kat__n"/></e>
 <e lm="retning">         <i>retning</i><par n="ateist__n"/></e>
 <e lm="retningslinje">   <i>retningslinje</i><par n="abe__n"/></e>
 <e lm="retræte">         <i>retræte</i><par n="abe__n"/></e>
@@ -14833,7 +14832,53 @@
 <e lm="kvindekamp">                <i>kvindekamp</i><par n="vals__n"/></e>
 <e lm="kvindfolk">                 <i>kvindfolk</i><par n="slag__n"/></e>
 
-
+<e lm="bums">                     <i>bums</i><par n="aften__n"/></e>
+<e lm="kvidder">                   <i>kvidder</i><par n="år__n"/></e>
+<e lm="kynisme">                   <i>kynisme</i><par n="hygiejne__n"/></e>
+<e lm="kystlinje">                 <i>kystlinje</i><par n="enk/e__n"/></e>
+<e lm="kål">                       <i>kål</i><par n="sko__n"/></e>
+<e lm="kår">                        <i>kår</i><par n="slag_no-cp__n"/></e>
+<e lm="kåseri">                    <i>kåseri</i><par n="firma__n"/></e>
+<e lm="lab">                       <i>lab</i><par n="klub__n"/></e>
+<e lm="laban">                     <i>laban</i><par n="aften__n"/></e>
+<e lm="labrador">                  <i>labrador</i><par n="spiller__n"/></e>
+<e lm="lady">                      <i>lady</i><par n="aften__n"/></e>
+<e lm="lægmandsret">              <i>lægmandsret</i><par n="kat__n"/></e>
+<e lm="laksefisk">                 <i>laksefisk</i><par n="sko__n"/></e>
+<e lm="laksefiskeri">                <i>laksefiskeri</i><par n="alibi__n"/></e>
+<e lm="laminat">                   <i>laminat</i><par n="firma__n"/></e>
+<e lm="landbrugsdepartement">      <i>landbrugsdepartement</i><par n="firma__n"/></e>
+<e lm="landbrugsminister">         <i>landbrugsminist</i><par n="minist/er__n"/></e>
+<e lm="landbrugsprodukt">          <i>landbrugsprodukt</i><par n="firma__n"/></e>
+<e lm="landegrænse">               <i>landegrænse</i><par n="enk/e__n"/></e>
+<e lm="landevej">                  <i>landevej</i><par n="aften__n"/></e>
+<e lm="landing">                   <i>landing</i><par n="art_\s__n"/></e>
+<e lm="landområde">                <i>landområd</i><par n="mød/e__n"/></e>
+<e lm="landsbasis">                <i>landsbasis</i><par n="aften__n"/></e>
+<e lm="landsdel">                  <i>landsdel</i><par n="aften__n"/></e>
+<e lm="landsgennemsnit">         <i>landsgennemsnit</i><par n="sæt__n"/></e>
+<e lm="landskabsarkitekt">         <i>landskabsarkitekt</i><par n="aften__n"/></e>
+<e lm="landsmand">                 <i>landsm</i><par n="m/and__n"/></e>
+<e lm="landsmød">                 <i>landsmød</i><par n="mød/e__n"/></e>
+<e lm="landsstyre">                <i>landsstyr</i><par n="mød/e__n"/></e>
+<e lm="langdistance">              <i>langdistance</i><par n="hygiejne__n"/></e>
+<e lm="lange">                     <i>lang</i><par n="enk/e__n"/></e>
+<e lm="langfredag">                <i>langfredag</i><par n="vals__n"/></e>
+<e lm="langrend">                  <i>langrend</i><par n="slag__n"/></e>
+<e lm="langside">                  <i>langsid</i><par n="enk/e__n"/></e>
+<e lm="langtur">                   <i>langtur</i><par n="vals__n"/></e>
+<e lm="lanse">                     <i>lanse</i><par n="enk/e__n"/></e>
+<e lm="lap">                      <i>lap</i><par n="kop__n"/></e>
+<e lm="labskovs">                  <i>labskovs</i><par n="aften__n"/></e>
+<e lm="usling">                      <i>usling</i><par n="aften__n"/></e>
+<e lm="laser">                     <i>laser</i><par n="buffer__n"/></e>
+<e lm="læs">                      <i>læs</i><par n="glas__n"/></e>
+<e lm="last">                      <i>last</i><par n="art__n"/></e>
+<!--<e lm="lasting">                   <i>lasting</i><par n="art_\s__n"/></e>-->
+<e lm="dovenskab">                   <i>dovenskab</i><par n="aften__n"/></e>
+<e lm="latter">                    <i>latter</i><par n="spiller__n"/></e>
+<e lm="lav">                       <i>lav</i><par n="hus__n"/></e>
+<e lm="layout">                    <i>layout</i><par n="aften__n"/></e>
 
 
  <!-- /nouns -->
