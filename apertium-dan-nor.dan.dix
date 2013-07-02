@@ -11489,7 +11489,6 @@
 <e lm="medicin">         <i>medicin</i><par n="ateist__n"/></e>
 <e lm="medicinering">    <i>medicinering</i><par n="ateist__n"/></e>
 <e lm="meditation">      <i>meditation</i><par n="ateist__n"/></e>
-<e lm="medium" a="PT">   <i>medium</i><par n="skib__n"/></e>
 <e lm="medlem">          <i>medlem</i><par n="program__n"/></e>
 <e lm="medlemskab">      <i>medlemskab</i><par n="alibi__n"/></e>
 <e lm="medlemskontingent" a="PT" c="domain:arbete"><i>medlemskontingent</i><par n="ateist__n"/></e>
@@ -15097,6 +15096,72 @@
 
 
 
+<e lm="medium">                    <i>medi</i><par n="podi/um__n"/></e>
+<e lm="medlemsblad">               <i>medlemsblad</i><par n="firma__n"/></e>
+<e lm="medlemskontingent">         <i>medlemskontingent</i><par n="aften__n"/></e>
+<e lm="medlemskort">               <i>medlemskort</i><par n="slag__n"/></e>
+<e lm="medlemsland">               <i>medlemsland</i><par n="slag__n"/></e>
+<e lm="medlemsstat">               <i>medlemsstat</i><par n="aften__n"/></e>
+<e lm="medmenneske">               <i>medmenneske</i><par n="mød/e__n"/></e>
+<e lm="medvirkning">               <i>medvirkning</i><par n="aften__n"/></e>
+<e lm="megafon">                   <i>megafon</i><par n="aften__n"/></e>
+<e lm="mægler">                    <i>mægler</i><par n="buffer__n"/></e>
+<e lm="meieri">                    <i>meieri</i><par n="firma__n"/></e>
+<e lm="men">                      <i>men</i><par n="slag__n"/></e>
+<e lm="mejse">                      <i>mejse</i><par n="abe__n"/></e>
+<e lm="mekaniker">                 <i>mekaniker</i><par n="buffer__n"/></e>
+<e lm="mekanik">                  <i>mekanik</i><par n="paryk__n"/></e>
+<e lm="melis">                     <i>melis</i><par n="aften__n"/></e>
+<e lm="mælkeproduktion">           <i>mælkeproduktion</i><par n="aften_\s__n"/></e>
+<e lm="mælkeprodukt">              <i>mælkeprodukt</i><par n="firma__n"/></e>
+<e lm="mælkevej">                  <i>mælkevej</i><par n="aften__n"/></e>
+<e lm="mellemfag">                 <i>mellemfag</i><par n="slag__n"/></e>
+<e lm="mellemled">                <i>mellemled</i><par n="brud__n"/></e>
+<e lm="mellemlægspapir">          <i>mellemlægspapir</i><par n="firma__n"/></e>
+<e lm="memo">                      <i>memo</i><par n="firma__n"/></e>
+<e lm="memorial">                  <i>memorial</i><par n="aften__n"/></e>
+<e lm="mening">                    <i>mening</i><par n="art_\s__n"/></e>
+<e lm="meningsfælle">              <i>meningsfælle</i><par n="hygiejne__n"/></e>
+<e lm="menneskehed">               <i>menneskehed</i><par n="art__n"/></e>
+<e lm="menneskekrop">             <i>menneskekrop</i><par n="kop__n"/></e>
+<e lm="menneskeliv">               <i>menneskeliv</i><par n="slag__n"/></e>
+<e lm="menneskeret">              <i>menneskeret</i><par n="kat__n"/></e>
+<e lm="menneskerettighed">         <i>menneskerettighed</i><par n="art__n"/></e>
+<e lm="menneskeværd">              <i>menneskeværd</i><par n="slag__n"/></e>
+<e lm="mente">                     <i>mente</i><par n="hygiejne__n"/></e>
+<e lm="menu">                      <i>menu</i><par n="aften__n"/></e>
+<e lm="merit">                    <i>merit</i><par n="aften__n"/></e>
+<e lm="mærkedag">                  <i>mærkedag</i><par n="vals__n"/></e>
+<e lm="mærkat">                 <i>mærkat</i><par n="aften__n"/></e>
+<e lm="metabolisme">               <i>metabolisme</i><par n="hygiejne__n"/></e>
+<e lm="metafysik">                <i>metafysik</i><par n="paryk__n"/></e>
+<e lm="meteorolog">                <i>meteorolog</i><par n="aften__n"/></e>
+<e lm="meteorologi">               <i>meteorologi</i><par n="aften__n"/></e>
+<e lm="metodik">                  <i>metodik</i><par n="paryk__n"/></e>
+<e lm="mi">                        <i>mi</i><par n="aften_no-cp__n"/></e>
+<e lm="middagsbord">               <i>middagsbord</i><par n="firma__n"/></e>
+<e lm="migration">                 <i>migration</i><par n="aften_\s__n"/></e>
+<e lm="migrene">                   <i>migrene</i><par n="hygiejne__n"/></e>
+<e lm="mikkel">                    <i>mik</i><par n="nik/kel__n"/></e>
+<e lm="mikrobiologi">              <i>mikrobiologi</i><par n="aften__n"/></e>
+<e lm="mikrofon">                  <i>mikrofon</i><par n="aften__n"/></e>
+<e lm="mikroorganisme">            <i>mikroorganisme</i><par n="hygiejne__n"/></e>
+<e lm="miks">                      <i>miks</i><par n="slag__n"/></e>
+<e lm="mikstur">                   <i>mikstur</i><par n="aften__n"/></e>
+<e lm="mil">                       <i>mil</i><par n="vals__n"/></e>
+<e lm="militær"><i>militær</i><par n="alibi__n"/></e>
+<e lm="militærjunta">              <i>militærjunta</i><par n="aften__n"/></e>
+<e lm="miljøfaktor">               <i>miljøfaktor</i><par n="aften__n"/></e>
+<e lm="miljøbeskyttelse">                 <i>miljøbeskyttelse</i><par n="slag__n"/></e>
+<e lm="miljøbeskyttelsesdepartement">      <i>miljøbeskyttelsesdepartement</i><par n="firma__n"/></e>
+<e lm="miljøbeskyttelsesminister">         <i>miljøbeskyttelsesminist</i><par n="minist/er__n"/></e>
+<e lm="mille">                     <i>mille</i><par n="hygiejne__n"/></e>
+<e lm="milliard">                  <i>milliard</i><par n="aften__n"/></e>
+<e lm="milliardær"><i>milliardær</i><par n="aften__n"/></e>
+<e lm="million">                   <i>million</i><par n="aften__n"/></e>
+<e lm="mindretal">                <i>mindretal</i><par n="spil__n"/></e>
+<e lm="minefelt">                  <i>minefelt</i><par n="firma__n"/></e>
+<e lm="mineralvand">               <i>mineralvand</i><par n="slag__n"/></e>
 
  <!-- /nouns -->
 
