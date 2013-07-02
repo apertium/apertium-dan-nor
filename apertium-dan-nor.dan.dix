@@ -4602,18 +4602,18 @@
 
 </pardef>
 
-<pardef n="tv/ynge__vblex">
-  <e>       <p><l>ing</l>       <r>ynge<s n="vblex"/><s n="imp"/></r></p></e>
-  <e>       <p><l>ynge</l>      <r>ynge<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>ynger</l>     <r>ynge<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ynges</l>     <r>ynge<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>ang</l>       <r>ynge<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>unget</l>     <r>ynge<s n="vblex"/><s n="pp"/></r></p></e>
-  <e>       <p><l>ingende</l>   <r>ynge<s n="adj"/><s n="pprs"/></r></p></e>
-    <e>       <p><l>ungen</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>unget</l>         <r>ynge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>ungne</l>        <r>ynge<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ungne</l>        <r>ynge<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+<pardef n="tv/inge__vblex">
+  <e>       <p><l>ing</l>       <r>inge<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>inge</l>      <r>inge<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>inger</l>     <r>inge<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>inges</l>     <r>inge<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>ang</l>       <r>inge<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>unget</l>     <r>inge<s n="vblex"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ingende</l>   <r>inge<s n="adj"/><s n="pprs"/></r></p></e>
+    <e>       <p><l>ungen</l>         <r>inge<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unget</l>         <r>inge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ungne</l>        <r>inge<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ungne</l>        <r>inge<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
 
 
 
@@ -9812,6 +9812,7 @@
 <e lm="hestehave" a="PT" c="domain:lantliv"><i>hestehave</i><par n="abe__n"/></e>
 <e lm="hestehov" a="PT" c="domain:djur"><i>hestehov</i><par n="ateist__n"/></e>
 <e lm="hestemanke" a="PT" c="domain:djur"><i>hestemanke</i><par n="abe__n"/></e>
+<e lm="manke" a="PT" c="domain:djur"><i>manke</i><par n="abe__n"/></e>
 <e lm="hestepasser" a="PT" c="domain:lantliv"><i>hestepasser</i><par n="spiller__n"/></e>
 <e lm="hesteryg">                 <i>hesteryg</i><par n="ryg__n"/></e>
 <e lm="hestevogn">       <i>hestevogn</i><par n="bold__n"/></e>
@@ -15014,6 +15015,89 @@
 <e lm="løshed">                    <i>løshed</i><par n="art__n"/></e>
 <e lm="løjpe">                     <i>løjp</i><par n="enk/e__n"/></e>
 
+<e lm="madeira">                   <i>madeira</i><par n="aften__n"/></e>
+<e lm="madras">                   <i>madras</i><par n="mis__n"/></e>
+<e lm="mafia">                     <i>mafia</i><par n="aften__n"/></e>
+<e lm="magasin">                   <i>magasin</i><par n="firma__n"/></e>
+<e lm="mavesæk">                  <i>mavesæk</i><par n="paryk__n"/></e>
+<e lm="magi">                      <i>magi</i><par n="aften__n"/></e>
+<e lm="magma">                     <i>magma</i><par n="skab__n"/></e>
+<e lm="majestæt">                  <i>majestæt</i><par n="aften__n"/></e>
+<e lm="major">                     <i>major</i><par n="aften__n"/></e>
+<e lm="make-up">                   <i>make-up</i><par n="kop__n"/></e>
+<e lm="orm">                      <i>orm</i><par n="vals__n"/></e>
+<e lm="makro">                     <i>makro</i><par n="aften__n"/></e>
+<e lm="maksimum">                  <i>maksim</i><par n="vis/um__n"/></e>
+<e lm="magtbrug">                  <i>magtbrug</i><par n="skab__n"/></e>
+<e lm="magtelite">                 <i>magtelite</i><par n="hygiejne__n"/></e>
+<e lm="magtfaktor">                <i>magtfaktor</i><par n="aften__n"/></e>
+<e lm="magtforhold">               <i>magtforhold</i><par n="slag__n"/></e>
+<e lm="magtkamp">                  <i>magtkamp</i><par n="vals__n"/></e>
+<e lm="magtmisbrug">               <i>magtmisbrug</i><par n="skab__n"/></e>
+<e lm="malaga">                    <i>malaga</i><par n="aften__n"/></e>
+<e lm="malaria">                   <i>malaria</i><par n="aften__n"/></e>
+<e lm="maler">                     <i>maler</i><par n="buffer__n"/></e>
+<e lm="malt">                      <i>malt</i><par n="slag__n"/></e>
+<e lm="mamma">                     <i>mamma</i><par n="aften__n"/></e>
+<e lm="mammut">                    <i>mammut</i><par n="aften__n"/></e>
+<e lm="management">                <i>management</i><par n="slag__n"/></e>
+<e lm="manager">                   <i>manager</i><par n="buffer__n"/></e>
+<e lm="mandag">                    <i>mandag</i><par n="vals__n"/></e>
+<e lm="mandel">                    <i>mand</i><par n="cirk/el__n"/></e>
+<e lm="mangfoldighed">                  <i>mangfoldighed</i><par n="alibi__n"/></e>
+<e lm="mango">                     <i>mango</i><par n="aften__n"/></e>
+<e lm="mani">                      <i>mani</i><par n="aften__n"/></e>
+<e lm="mandfolk">                  <i>mandfolk</i><par n="slag__n"/></e>
+<e lm="mandsalder">                <i>mandsalder</i><par n="minist/er__n"/></e>
+<e lm="mandskor">                  <i>mandskor</i><par n="slag__n"/></e>
+<e lm="mantra">                    <i>mantra</i><par n="vita__n"/></e>
+<e lm="manøvre">                   <i>manøvre</i><par n="hygiejne__n"/></e>
+<e lm="maoist">                    <i>maoist</i><par n="aften__n"/></e>
+<e lm="marathon">                   <i>marathon</i><par n="år__n"/></e>
+<e lm="marv">                      <i>marv</i><par n="bold__n"/></e>
+<e lm="margarine">                  <i>margarine</i><par n="hygiejne__n"/></e>
+<e lm="marihuana">                 <i>marihuana</i><par n="aften__n"/></e>
+<e lm="marine">                    <i>marine</i><par n="hygiejne__n"/></e>
+<e lm="mark">                      <i>mark</i><par n="ateist__n"/></e>
+<e lm="markedspris">               <i>markedspris</i><par n="aften__n"/></e>
+<e lm="markedsværdi">              <i>markedsværdi</i><par n="aften__n"/></e>
+<e lm="markedsøkonomi">            <i>markedsøkonomi</i><par n="aften__n"/></e>
+<e lm="markør">                     <i>markør</i><par n="aften__n"/></e>
+<e lm="marcipan">                  <i>marcipan</i><par n="aften__n"/></e>
+<e lm="march">                     <i>march</i><par n="aften__n"/></e>
+<e lm="marxisme">                  <i>marxisme</i><par n="hygiejne__n"/></e>
+<e lm="marxist">                   <i>marxist</i><par n="aften__n"/></e>
+<e lm="mas">                       <i>mas</i><par n="slag_no-cp__n"/></e>
+<e lm="mascara">                   <i>mascara</i><par n="aften__n"/></e>
+<e lm="maske">                     <i>maske</i><par n="enk/e__n"/></e>
+<e lm="maskulinitet">              <i>maskulinitet</i><par n="aften_\s__n"/></e>
+<e lm="massakre">                  <i>massakre</i><par n="hygiejne__n"/></e>
+<e lm="massage">                  <i>massage</i><par n="hygiejne__n"/></e>
+<e lm="massemedium">               <i>massemedi</i><par n="podi/um__n"/></e>
+<e lm="massiv">                    <i>massiv</i><par n="firma__n"/></e>
+<e lm="master">                    <i>master</i><par n="buffer__n"/></e>
+<e lm="bid mad">                    <i>bid<b/>mad</i><par n="mad__n"/></e>
+<e lm="match">                     <i>match</i><par n="aften__n"/></e>
+<e lm="materialisme">              <i>materialisme</i><par n="hygiejne__n"/></e>
+<e lm="materie">                   <i>materie</i><par n="hygiejne__n"/></e>
+<e lm="madfat">                    <i>madfat</i><par n="firma__n"/></e>
+<e lm="madlavning">                 <i>madlavning</i><par n="art_\s__n"/></e>
+<e lm="madmangel">                 <i>madmang</i><par n="cirk/el__n"/></e>
+<e lm="madret">                   <i>madret</i><par n="kat__n"/></e>
+<e lm="matros">                    <i>matros</i><par n="aften__n"/></e>
+<e lm="maur">                      <i>maur</i><par n="lux__n"/></e>
+<e lm="maya">                      <i>maya</i><par n="aften__n"/></e>
+<e lm="medansvar">                 <i>medansvar</i><par n="slag__n"/></e>
+<e lm="medbragt">                  <i>medbragt</i><par n="syd__n"/></e>
+<e lm="medfart">                   <i>medfart</i><par n="aften__n"/></e>
+<e lm="medgang">                   <i>medgang</i><par n="aften__n"/></e>
+<e lm="median">                    <i>median</i><par n="aften__n"/></e>
+<e lm="medikament">                <i>medikament</i><par n="firma__n"/></e>
+
+
+
+
+
  <!-- /nouns -->
 
 
@@ -16731,7 +16815,6 @@
 <e lm="solid">                     <i>solid</i><par n="glad__adj"/></e>
 <e lm="sorgløs">                   <i>sorgløs</i><par n="rund__adj"/></e>
 <e lm="sort">                      <i>sort</i><par n="glad__adj"/></e>
-<e lm="social">                    <i>social</i><par n="rund__adj"/></e>
 <e lm="socialistisk">              <i>socialistisk</i><par n="glad__adj"/></e>
 <e lm="sosciologisk">               <i>sociologisk</i><par n="glad__adj"/></e>
 <e lm="spansk">                    <i>spansk</i><par n="glad__adj"/></e>
@@ -23052,7 +23135,7 @@
 <e lm="spraye">             <i>spray</i><par n="mal/e__vblex"/></e>
 <e lm="spraymale">          <i>spraymal</i><par n="mal/e__vblex"/></e>
 <e lm="sprede">             <i>spred</i><par n="tal/e__vblex"/></e>
-<e lm="sprynge">            <i>spr</i><par n="tv/ynge__vblex"/></e>
+<e lm="springe">            <i>spr</i><par n="tv/inge__vblex"/></e>
 <e lm="sprinte">            <i>sprint</i><par n="mal/e__vblex"/></e>
 <e lm="spritte">            <i>sprit</i><par n="byt/te__vblex"/></e>
 <e lm="sprudle">            <i>sprudl</i><par n="mal/e__vblex"/></e>
@@ -23560,7 +23643,7 @@
 <e lm="tvangssende">        <i>tvangssend</i><par n="tal/e__vblex"/></e>
 <e lm="tvedele">            <i>tvedel</i><par n="tal/e__vblex"/></e>
 <e lm="tvinde">             <i>tvind</i><par n="f/inde__vblex"/></e>
-<e lm="tvynge">             <i>tv</i><par n="tv/ynge__vblex"/></e>
+<e lm="tvinge">             <i>tv</i><par n="tv/inge__vblex"/></e>
 <e lm="tviste">             <i>tvist</i><par n="mal/e__vblex"/></e>
 <e lm="tvivle">             <i>tvivl</i><par n="mal/e__vblex"/></e>
 <e lm="tvære">              <i>tvær</i><par n="mal/e__vblex"/></e>
@@ -23803,7 +23886,7 @@
 <e lm="undersøge">          <i>undersøg</i><par n="tal/e__vblex"/></e>
 <e lm="undertegne">         <i>undertegn</i><par n="mal/e__vblex"/></e>
 <e lm="undertrykke">        <i>undertryk</i><par n="bræk/ke__vblex"/></e>
-<e lm="undertvynge">        <i>undertving</i><par n="tv/ynge__vblex"/></e>
+<e lm="undertvinge">        <i>undertving</i><par n="tv/inge__vblex"/></e>
 <e lm="undervise">          <i>undervis</i><par n="tal/e__vblex"/></e>
 <e lm="undervurdere">       <i>undervurder</i><par n="mal/e__vblex"/></e>
 <e lm="undfange">           <i>undfang</i><par n="mal/e__vblex"/></e>
