@@ -12073,9 +12073,7 @@
 <e lm="ornament">        <i>ornament</i><par n="alibi__n"/></e>
 <e lm="ornitolog">       <i>ornitolog</i><par n="ateist__n"/></e>
 <e lm="oscillator">      <i>oscillator</i><par n="ateist__n"/></e>
-<e lm="ost">             <i>ost</i><par n="ateist__n"/></e>
 <e lm="ost">             <i>ost</i><par n="bold__n"/></e>
-<e lm="ost">             <i>ost</i><par n="skib__n"/></e>
 <e lm="otter">           <i>otter</i><par n="bold__n"/></e>
 <e lm="overbevisning">   <i>overbevisning</i><par n="ateist__n"/></e>
 <e lm="overblik">        <i>overblik</i><par n="stik__n"/></e>
@@ -15415,6 +15413,84 @@
 <e lm="operationsleder">           <i>operationsleder</i><par n="buffer__n"/></e>
 
 
+<e lm="opbygning">                <i>opbygning</i><par n="aften__n"/></e>
+<e lm="opdigt">                   <i>opdigt</i><par n="slag__n"/></e>
+<e lm="opdragelse">               <i>opdragelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="opdret">                  <i>opdret</i><par n="slag__n"/></e>
+<e lm="opførsel">                 <i>opførs</i><par n="cirk/el__n"/></e>
+<e lm="ophavsmand">               <i>ophavsm</i><par n="m/and__n"/></e>
+<e lm="ophavsret">               <i>ophavsret</i><par n="aften__n"/></e>
+<e lm="ophør">                 <i>ophør</i><par n="slag__n"/></e>
+<e lm="opkast">                   <i>opkast</i><par n="slag__n"/></e>
+<e lm="opkøb">                   <i>opkøb</i><par n="slag__n"/></e>
+<e lm="oplæg">                   <i>oplæg</i><par n="æg__n"/></e>
+<e lm="opmøde">                   <i>opmød</i><par n="mød/e__n"/></e>
+<e lm="opponent">                  <i>opponent</i><par n="aften__n"/></e>
+<e lm="oprettelse">               <i>oprettelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="opryk">                   <i>opryk</i><par n="stik__n"/></e>
+<e lm="oprører">                  <i>oprører</i><par n="buffer__n"/></e>
+<e lm="opsigt">                   <i>opsigt</i><par n="aften__n"/></e>
+<e lm="opslutning">               <i>opslutning</i><par n="aften__n"/></e>
+<e lm="opspind">                  <i>opspind</i><par n="slag__n"/></e>
+<e lm="opstart">                  <i>opstart</i><par n="aften__n"/></e>
+<e lm="opstyr">                   <i>opstyr</i><par n="slag__n"/></e>
+<e lm="opsving">                  <i>opsving</i><par n="slag__n"/></e>
+<e lm="optakt">                   <i>optakt</i><par n="aften__n"/></e>
+<e lm="optræden">                 <i>optræden</i><par n="aften__n"/></e>
+<e lm="optur">                    <i>optur</i><par n="aften__n"/></e>
+<e lm="opvej">                    <i>opvej</i><par n="aften__n"/></e>
+<e lm="opvækstvilkår"><i>opvækstvilkår</i><par n="slag__n"/></e>
+<e lm="option">                    <i>option</i><par n="aften_\s__n"/></e>
+<e lm="optimisme">                 <i>optimisme</i><par n="hygiejne__n"/></e>
+<e lm="optimist">                  <i>optimist</i><par n="aften__n"/></e>
+<e lm="orakel">                    <i>orak</i><par n="fængs/el__n"/></e>
+<e lm="ordførerkandidat">          <i>ordførerkandidat</i><par n="aften__n"/></e>
+<e lm="ordlyd">                    <i>ordlyd</i><par n="aften__n"/></e>
+<e lm="ordning">                   <i>ordning</i><par n="art_\s__n"/></e>
+<e lm="ordreindgang">              <i>ordreindgang</i><par n="aften__n"/></e>
+<e lm="ordskifte">                 <i>ordskifte</i><par n="mød/e__n"/></e>
+<e lm="oregano">                   <i>oregano</i><par n="aften__n"/></e>
+<e lm="organisator">               <i>organisator</i><par n="aften__n"/></e>
+<e lm="organisering">              <i>organisering</i><par n="art_\s__n"/></e>
+<e lm="originalitet">              <i>originalitet</i><par n="aften_\s__n"/></e>
+<e lm="origo">                     <i>origo</i><par n="aften__n"/></e>
+<e lm="orlean">                    <i>orlean</i><par n="aften__n"/></e>
+<e lm="ort">                       <i>ort</i><par n="vals__n"/></e>
+<e lm="os">                        <i>os</i><par n="boss_no-cp__n"/></e>
+<e lm="osman">                     <i>osman</i><par n="aften__n"/></e>
+<e lm="odder">                      <i>odder</i><par n="spiller__n"/></e>
+<e lm="output">                    <i>output</i><par n="aften__n"/></e>
+<e lm="outsider">                  <i>outsider</i><par n="buffer__n"/></e>
+<e lm="overall">                   <i>overall</i><par n="mail__n"/></e>
+<e lm="overblik">                 <i>overblik</i><par n="stik__n"/></e>
+<e lm="overbygning">                  <i>overbygning</i><par n="aften__n"/></e>
+<e lm="overdosis">                  <i>overdosis</i><par n="mis__n"/></e>
+<e lm="overforbrug">               <i>overforbrug</i><par n="slag__n"/></e>
+<e lm="overføring">                <i>overføring</i><par n="art_\s__n"/></e>
+<e lm="overgangsalder">            <i>overgangsalder</i><par n="minist/er__n"/></e>
+<e lm="overgangsperiode">          <i>overgangsperiode</i><par n="hygiejne__n"/></e>
+<e lm="overhode">                  <i>overhode</i><par n="mød/e__n"/></e>
+<e lm="overkant">                  <i>overkant</i><par n="aften__n"/></e>
+<e lm="overkropp">                 <i>overkropp</i><par n="aften__n"/></e>
+<e lm="overlæge">                  <i>overlæge</i><par n="hygiejne__n"/></e>
+<e lm="overlæg">                  <i>overlæg</i><par n="slag__n"/></e>
+<e lm="overmål">                   <i>overmål</i><par n="slag__n"/></e>
+<e lm="overproduktion">            <i>overproduktion</i><par n="aften_\s__n"/></e>
+<e lm="overraskelse">              <i>overraskelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="overslag">                  <i>overslag</i><par n="slag__n"/></e>
+<e lm="ozon">                      <i>ozon</i><par n="slag__n"/></e>
+<e lm="ozonlag">                   <i>ozonlag</i><par n="slag__n"/></e>
+<e lm="pair">                      <i>pair</i><par n="aften__n"/></e>
+<e lm="pakistaner">                <i>pakistaner</i><par n="aften__n"/></e>
+<e lm="pak">                      <i>pak</i><par n="stik__n"/></e>
+<e lm="palle">                      <i>palle</i><par n="abe__n"/></e>
+<e lm="panama">                    <i>panama</i><par n="aften__n"/></e>
+<e lm="panda">                     <i>panda</i><par n="aften__n"/></e>
+<e lm="pandemi">                   <i>pandemi</i><par n="aften__n"/></e>
+
+
+
+
  <!-- /nouns -->
 
 
@@ -17731,7 +17807,7 @@
 <e lm="opad">            <i>opad</i><par n="ikke__adv"/></e>
 <e lm="oppe">            <i>oppe</i><par n="ikke__adv"/></e>
 <e lm="oprindeligt">     <i>oprindeligt</i><par n="ikke__adv"/></e>
-<e lm="ost">             <i>ost</i><par n="ikke__adv"/></e>
+<e lm="øst">             <i>øst</i><par n="ikke__adv"/></e>
 <e lm="oven">            <i>oven</i><par n="ikke__adv"/></e>
 <e lm="overalt">         <i>overalt</i><par n="ikke__adv"/></e>
 <e lm="overhovedet">     <i>overhovedet</i><par n="ikke__adv"/></e>

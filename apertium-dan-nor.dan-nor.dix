@@ -7013,7 +7013,7 @@
 
 
 <e><p><l>nordside<s n="n"/><s n="ut"/></l><r>nordside<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>nordsøolje<s n="n"/><s n="ut"/></l><r>nordsjøolje<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nordsøolie<s n="n"/><s n="ut"/></l><r>nordsjøolje<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>norm<s n="n"/><s n="ut"/></l><r>norm<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>normal<s n="n"/><s n="ut"/></l><r>normal<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>normalitet<s n="n"/><s n="ut"/></l><r>normalitet<s n="n"/><s n="m"/></r></p></e>
@@ -7109,6 +7109,116 @@
 <e><p><l>operationsleder<s n="n"/><s n="ut"/></l><r>operasjonsleder<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>operatør<s n="n"/><s n="ut"/></l><r>operatør<s n="n"/><s n="m"/></r></p></e>
 
+
+<e><p><l>opinion<s n="n"/><s n="ut"/></l><r>opinion<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opbygning<s n="n"/><s n="ut"/></l><r>oppbygning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opdigt<s n="n"/><s n="nt"/></l><r>oppdikt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opgave<s n="n"/><s n="nt"/></l><r>oppdrag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opdragelse<s n="n"/><s n="ut"/></l><r>oppdragelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opdræt<s n="n"/><s n="nt"/></l><r>oppdrett<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opfordring<s n="n"/><s n="ut"/></l><r>oppfordring<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opførsel<s n="n"/><s n="ut"/></l><r>oppførsel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opgave<s n="n"/><s n="ut"/></l><r>oppgave<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opgør<s n="n"/><s n="nt"/></l><r>oppgjør<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ophavsmand<s n="n"/><s n="ut"/></l><r>opphavsmann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ophavsret<s n="n"/><s n="ut"/></l><r>opphavsrett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ophør<s n="n"/><s n="nt"/></l><r>opphør<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opkast<s n="n"/><s n="nt"/></l><r>oppkast<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opkøb<s n="n"/><s n="nt"/></l><r>oppkjøp<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opland<s n="n"/><s n="nt"/></l><r>oppland<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>oplæg<s n="n"/><s n="nt"/></l><r>opplegg<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>oplevelse<s n="n"/><s n="ut"/></l><r>opplevelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>oplæring<s n="n"/><s n="ut"/></l><r>opplæring<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>oplæring<s n="n"/><s n="ut"/></l><r>opplæring<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opløsning<s n="n"/><s n="ut"/></l><r>oppløsning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opmærksomhed<s n="n"/><s n="ut"/></l><r>oppmerksomhet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opmøde<s n="n"/><s n="nt"/></l><r>oppmøte<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opponent<s n="n"/><s n="ut"/></l><r>opponent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>oppositionsparti<s n="n"/><s n="nt"/></l><r>opposisjonsparti<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>oprettelse<s n="n"/><s n="ut"/></l><r>opprettelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opryk<s n="n"/><s n="nt"/></l><r>opprykk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opryk<s n="n"/><s n="nt"/></l><r>opprykk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>oprør<s n="n"/><s n="nt"/></l><r>opprør<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>oprører<s n="n"/><s n="ut"/></l><r>opprører<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opsigt<s n="n"/><s n="ut"/></l><r>oppsikt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opslutning<s n="n"/><s n="ut"/></l><r>oppslutning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opspind<s n="n"/><s n="nt"/></l><r>oppspinn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opstart<s n="n"/><s n="ut"/></l><r>oppstart<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opstyr<s n="n"/><s n="nt"/></l><r>oppstyr<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>opsving<s n="n"/><s n="nt"/></l><r>oppsving<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>optakt<s n="n"/><s n="ut"/></l><r>opptakt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>optræden<s n="n"/><s n="ut"/></l><r>opptreden<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>optur<s n="n"/><s n="ut"/></l><r>opptur<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opvarmning<s n="n"/><s n="ut"/></l><r>oppvarming<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opvaskmaskine<s n="n"/><s n="ut"/></l><r>oppvaskmaskin<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opvej<s n="n"/><s n="ut"/></l><r>oppvei<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opvækst<s n="n"/><s n="ut"/></l><r>oppvekst<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>opvækstvilkår<s n="n"/><s n="nt"/></l><r>oppvekstvilkår<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>option<s n="n"/><s n="ut"/></l><r>opsjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>optimisme<s n="n"/><s n="ut"/></l><r>optimisme<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>optimist<s n="n"/><s n="ut"/></l><r>optimist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>orakel<s n="n"/><s n="nt"/></l><r>orakel<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>orange<s n="n"/><s n="ut"/></l><r>oransje<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ordbog<s n="n"/><s n="ut"/></l><r>ordbok<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>vending<s n="n"/><s n="ut"/></l><r>ordelag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ordfører<s n="n"/><s n="ut"/></l><r>ordfører<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ordførerkandidat<s n="n"/><s n="ut"/></l><r>ordførerkandidat<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ordlyd<s n="n"/><s n="ut"/></l><r>ordlyd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ordning<s n="n"/><s n="ut"/></l><r>ordning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ordreindgang<s n="n"/><s n="ut"/></l><r>ordreinngang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ordskifte<s n="n"/><s n="nt"/></l><r>ordskifte<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ordsprog<s n="n"/><s n="nt"/></l><r>ordtak<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>oregano<s n="n"/><s n="ut"/></l><r>oregano<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>organisator<s n="n"/><s n="ut"/></l><r>organisator<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>organisering<s n="n"/><s n="ut"/></l><r>organisering<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>organist<s n="n"/><s n="ut"/></l><r>organist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>orientering<s n="n"/><s n="ut"/></l><r>orientering<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>originalitet<s n="n"/><s n="ut"/></l><r>originalitet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>origo<s n="n"/><s n="ut"/></l><r>origo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>orlean<s n="n"/><s n="ut"/></l><r>orlean<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>orm<s n="n"/><s n="ut"/></l><r>orm<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ort<s n="n"/><s n="ut"/></l><r>ort<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>os<s n="n"/><s n="ut"/></l><r>os<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>osman<s n="n"/><s n="ut"/></l><r>osman<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ost<s n="n"/><s n="ut"/></l><r>ost<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>osv.<s n="n"/><s n="acr"/></l><r>osv.<s n="n"/><s n="acr"/></r></p></e>
+<e><p><l>osv<s n="n"/><s n="acr"/></l><r>osv<s n="n"/><s n="acr"/></r></p></e>
+<e><p><l>odder<s n="n"/><s n="ut"/></l><r>oter<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>output<s n="n"/><s n="ut"/></l><r>output<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>outsider<s n="n"/><s n="ut"/></l><r>outsider<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overall<s n="n"/><s n="ut"/></l><r>overall<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overblik<s n="n"/><s n="nt"/></l><r>overblikk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>overbygning<s n="n"/><s n="nt"/></l><r>overbygg<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>overdosis<s n="n"/><s n="ut"/></l><r>overdose<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overfart<s n="n"/><s n="ut"/></l><r>overfart<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overflade<s n="n"/><s n="ut"/></l><r>overflate<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overforbrug<s n="n"/><s n="nt"/></l><r>overforbruk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>overføring<s n="n"/><s n="ut"/></l><r>overføring<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overgangsalder<s n="n"/><s n="ut"/></l><r>overgangsalder<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overgangsperiode<s n="n"/><s n="ut"/></l><r>overgangsperiode<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overhode<s n="n"/><s n="nt"/></l><r>overhode<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>overkant<s n="n"/><s n="ut"/></l><r>overkant<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overklasse<s n="n"/><s n="ut"/></l><r>overklasse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overkropp<s n="n"/><s n="ut"/></l><r>overkropp<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overlege<s n="n"/><s n="ut"/></l><r>overlege<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overlegg<s n="n"/><s n="nt"/></l><r>overlegg<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>overmål<s n="n"/><s n="nt"/></l><r>overmål<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>overproduktion<s n="n"/><s n="ut"/></l><r>overproduksjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overraskelse<s n="n"/><s n="ut"/></l><r>overraskelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>oversikt<s n="n"/><s n="ut"/></l><r>oversikt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>overslag<s n="n"/><s n="nt"/></l><r>overslag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ozon<s n="n"/><s n="nt"/></l><r>ozon<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ozonlag<s n="n"/><s n="nt"/></l><r>ozonlag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>pair<s n="n"/><s n="ut"/></l><r>pair<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pakistaner<s n="n"/><s n="ut"/></l><r>pakistaner<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pak<s n="n"/><s n="nt"/></l><r>pakk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>pakke<s n="n"/><s n="ut"/></l><r>pakke<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pagt<s n="n"/><s n="ut"/></l><r>pakt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>palle<s n="n"/><s n="ut"/></l><r>pall<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>palme<s n="n"/><s n="ut"/></l><r>palme<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>panama<s n="n"/><s n="ut"/></l><r>panama<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>panda<s n="n"/><s n="ut"/></l><r>panda<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>pandemi<s n="n"/><s n="ut"/></l><r>pandemi<s n="n"/><s n="m"/></r></p></e>
 
 <!--/nouns-->
 
@@ -8456,7 +8566,7 @@
 <e><p><l>paradoksal<s n="adj"/></l>                <r>paradoksal<s n="adj"/></r></p></e>
 <e><p><l>pari<s n="adj"/></l>                      <r>pari<s n="adj"/></r></p></e>
 <e><p><l>parlamentarisk<s n="adj"/></l>            <r>parlamentarisk<s n="adj"/></r></p></e>
-<e><p><l>passende<s n="adj"/></l>                  <r>passe<s n="adj"/></r></p></e>
+<e><p><l>passende<s n="adj"/></l>                  <r>passende<s n="adj"/></r></p></e>
 <e><p><l>pædagogisk<s n="adj"/></l>                <r>pedagogisk<s n="adj"/></r></p></e>
 <e><p><l>pædofil<s n="adj"/></l>                   <r>pedofil<s n="adj"/></r></p></e>
 <e><p><l>pæn<s n="adj"/></l>                       <r>pen<s n="adj"/></r></p></e>
