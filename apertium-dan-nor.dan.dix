@@ -1510,6 +1510,13 @@
 
  <!-- ported and changed NOB pardefs-->
 
+<pardef n="mod/us__n">
+  <e>       <p><l>iene</l>      <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>i</l>         <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>usen</l>      <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>us</l>        <r>us<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
+</pardef>
+
 
 <pardef n="love__n">
   <e>       <p><l>ne</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -2620,6 +2627,8 @@
   <e>       <p><l>gene</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
+
+
 <pardef n="ut_æg__n" c="autoconcord:nt,sp"> <!-- Neuter; ~ / ~get / ~ / ~gene -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
@@ -2627,6 +2636,9 @@
   <e>       <p><l>gen</l>       <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>gene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
+
+
+
 
 <pardef n="vals__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / ~e / ~ene; Only for nouns ending in 's' -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="apos__case"/></e>
@@ -3155,6 +3167,14 @@
   <e>       <p><l>le</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>lene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
+
+<pardef n="møl__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~len / ~le / ~lene -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>let</l>       <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>        <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>lene</l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
 
 <pardef n="kriminel__n" c="autoconcord:ut,sgpl"> <!-- Utrum; ~ / ~le / ~le / ~le -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
@@ -11675,7 +11695,6 @@
 <e lm="mursten">         <i>mursten</i><par n="sko__n"/></e>
 <e lm="mus">             <i>mus</i><par n="boks__n"/></e>
 <e lm="mus">             <i>mus</i><par n="laks__n"/></e>
-<e lm="mus">             <i>mus</i><par n="residens__n"/></e>
 <e lm="museum">          <i>muse</i><par n="verb/um__n"/></e>
 <e lm="musik">           <i>musik</i><par n="paryk__n"/></e>
 <e lm="musikalbum">      <i>musikalbum</i><par n="år__n"/></e>
@@ -13529,6 +13548,7 @@
 <e lm="svaghed">         <i>svaghed</i><par n="ateist__n"/></e>
 <e lm="svajligging" a="PT" c="domain:sjöochhav"><i>svajligging</i><par n="ateist__n"/></e>
 <e lm="svamp">           <i>svamp</i><par n="bold__n"/></e>
+<e lm="mugsvamp">           <i>mugsvamp</i><par n="bold__n"/></e>
 <e lm="svane">           <i>svane</i><par n="abe__n"/></e>
 <e lm="svar">            <i>svar</i><par n="år__n"/></e>
 <e lm="sved">            <i>sved</i><par n="ateist__n"/></e>
@@ -15141,7 +15161,7 @@
 <e lm="mi">                        <i>mi</i><par n="aften_no-cp__n"/></e>
 <e lm="middagsbord">               <i>middagsbord</i><par n="firma__n"/></e>
 <e lm="migration">                 <i>migration</i><par n="aften_\s__n"/></e>
-<e lm="migrene">                   <i>migrene</i><par n="hygiejne__n"/></e>
+<e lm="migræne">                   <i>migræne</i><par n="hygiejne__n"/></e>
 <e lm="mikkel">                    <i>mik</i><par n="nik/kel__n"/></e>
 <e lm="mikrobiologi">              <i>mikrobiologi</i><par n="aften__n"/></e>
 <e lm="mikrofon">                  <i>mikrofon</i><par n="aften__n"/></e>
@@ -15162,6 +15182,80 @@
 <e lm="mindretal">                <i>mindretal</i><par n="spil__n"/></e>
 <e lm="minefelt">                  <i>minefelt</i><par n="firma__n"/></e>
 <e lm="mineralvand">               <i>mineralvand</i><par n="slag__n"/></e>
+
+
+<e lm="hæveautomat">                  <i>hæveautomat</i><par n="aften__n"/></e>
+<e lm="minibus">                  <i>minibus</i><par n="mis__n"/></e>
+<e lm="minimumskrav">              <i>minimumskrav</i><par n="slag__n"/></e>
+<e lm="ministerråd">               <i>ministerråd</i><par n="skab__n"/></e>
+<e lm="mindesmærke">               <i>mindesmærke</i><par n="mød/e__n"/></e>
+<e lm="mindstekrav">                <i>mindstekrav</i><par n="slag__n"/></e>
+<e lm="mindstemand">                <i>mindstem</i><par n="m/and__n"/></e>
+<e lm="mindstemål">                 <i>mindstemål</i><par n="slag__n"/></e>
+<e lm="mindstepensionist">          <i>mindstepensionist</i><par n="aften__n"/></e>
+<e lm="mindstepris">                <i>mindstepris</i><par n="aften__n"/></e>
+<e lm="mirakel">                   <i>mirakel</i><par n="fængs/el__n"/></e>
+<e lm="misbrug">                   <i>misbrug</i><par n="skab__n"/></e>
+<e lm="misforhold">                <i>misforhold</i><par n="slag__n"/></e>
+<e lm="misnøje">                   <i>misnøje</i><par n="hygiejne__n"/></e>
+<e lm="mistillid">                 <i>mistillid</i><par n="art__n"/></e>
+<e lm="pøbel">                      <i>pøb</i><par n="cirk/el__n"/></e>
+<e lm="mobil">                     <i>mobil</i><par n="aften__n"/></e>
+<e lm="mobilitet">                 <i>mobilitet</i><par n="aften_\s__n"/></e>
+<e lm="modelfly">                 <i>modelfly</i><par n="slag__n"/></e>
+<e lm="moderation">                <i>moderation</i><par n="aften_\s__n"/></e>
+<e lm="moderator">                 <i>moderator</i><par n="aften__n"/></e>
+<e lm="modernitet">                <i>modernitet</i><par n="aften_\s__n"/></e>
+<e lm="modifikation">              <i>modifikation</i><par n="aften_\s__n"/></e>
+<e lm="modus">                     <i>mod</i><par n="mod/us__n"/></e>
+<e lm="molekyle">                   <i>molekyle</i><par n="firma__n"/></e>
+<e lm="moms">                      <i>moms</i><par n="aften__n"/></e>
+<e lm="momsfritag">                <i>momsfritag</i><par n="slag__n"/></e>
+<e lm="monitor">                   <i>monitor</i><par n="aften__n"/></e>
+<e lm="gavn">                      <i>gavn</i><par n="slag__n"/></e>
+<e lm="mono">                      <i>mono</i><par n="aften__n"/></e>
+<e lm="monolit">                  <i>monolit</i><par n="kat__n"/></e>
+<e lm="monster">                   <i>monster</i><par n="ank/er__n"/></e>
+<e lm="montasje">                  <i>montasje</i><par n="hygiejne__n"/></e>
+<e lm="mord">                      <i>mord</i><par n="slag__n"/></e>
+<e lm="morf">                      <i>morf</i><par n="aften__n"/></e>
+<e lm="morfar">                    <i>morf</i><par n="f/ar__n"/></e>
+<e lm="morfin">                    <i>morfin</i><par n="skab__n"/></e>
+<e lm="moderselskab">                <i>moderselskab</i><par n="firma_\s__n"/></e>
+<e lm="mortalitet">                <i>mortalitet</i><par n="aften_\s__n"/></e>
+<e lm="mos">                       <i>mos</i><par n="aften_no-cp__n"/></e>
+<e lm="mose">                      <i>mose</i><par n="hygiejne__n"/></e>
+<e lm="motion">                    <i>motion</i><par n="aften_\s__n"/></e>
+<e lm="moskus">                    <i>moskus</i><par n="aften__n"/></e>
+<e lm="moské">                     <i>moské</i><par n="id/é__n"/></e>
+<e lm="møl">                       <i>møl</i><par n="møl__n"/></e>
+<e lm="modargument">               <i>modargument</i><par n="firma__n"/></e>
+<e lm="modlys">                    <i>modlys</i><par n="slag__n"/></e>
+<e lm="indvending">                   <i>indvending</i><par n="abe__n"/></e>
+<e lm="motorik">                  <i>motorik</i><par n="paryk__n"/></e>
+<e lm="motorsport">                <i>motorsport</i><par n="aften__n"/></e>
+<e lm="modpart">                   <i>modpart</i><par n="aften__n"/></e>
+<e lm="modstander">                <i>modstander</i><par n="buffer__n"/></e>
+<e lm="modstrid">                  <i>modstrid</i><par n="aften__n"/></e>
+<e lm="modstykke">                 <i>modstykke</i><par n="mød/e__n"/></e>
+<e lm="mod">                      <i>mod</i><par n="aften__n"/></e>
+<e lm="modtiltag">                 <i>modtiltag</i><par n="slag__n"/></e>
+<e lm="motto">                     <i>motto</i><par n="firma__n"/></e>
+<e lm="modvilje">                  <i>modvilje</i><par n="hygiejne__n"/></e>
+<e lm="modvind">                   <i>modvind</i><par n="aften__n"/></e>
+<e lm="muffin">                   <i>muffin</i><par n="mail__n"/></e>
+<e lm="mug">                      <i>mug</i><par n="æg__n"/></e>
+<e lm="muggsopp">                  <i>muggsopp</i><par n="aften__n"/></e>
+<e lm="mullah">                    <i>mullah</i><par n="aften__n"/></e>
+<e lm="musical">                   <i>musical</i><par n="aften__n"/></e>
+<e lm="musikkorps">                <i>musikkorps</i><par n="slag__n"/></e>
+<e lm="muskel">                    <i>musk</i><par n="cirk/el__n"/></e>
+<e lm="muskulatur">                <i>muskulatur</i><par n="aften__n"/></e>
+<e lm="must">                      <i>must</i><par n="slag__n"/></e>
+<e lm="mustang">                   <i>mustang</i><par n="aften__n"/></e>
+<e lm="mvh">                       <i>mvh</i><par n="km_no-cp__n"/></e>
+<e lm="my">                        <i>my</i><par n="aften_no-cp__n"/></e>
+<e lm="myg">                      <i>myg</i><par n="ut_æg__n"/></e>
 
  <!-- /nouns -->
 
