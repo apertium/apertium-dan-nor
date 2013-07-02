@@ -1510,6 +1510,13 @@
 
  <!-- ported and changed NOB pardefs-->
 
+<pardef n="of/fer__n">
+  <e>       <p><l>rene</l>      <r>fer<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>re</l>        <r>fer<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>feret</l>     <r>fer<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>fer</l>       <r>fer<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
+
 <pardef n="mod/us__n">
   <e>       <p><l>iene</l>      <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>i</l>         <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -11886,7 +11893,6 @@
 <e lm="offensiv">        <i>offensiv</i><par n="ateist__n"/></e>
 <e lm="offensive">       <i>offensive</i><par n="abe__n"/></e>
 <e lm="offentliggørelse"><i>offentliggørelse</i><par n="abe__n"/></e>
-<e lm="offer" a="PT">    <i>offer</i><par n="jordbær__n"/></e>
 <e lm="officer">         <i>officer</i><par n="ateist__n"/></e>
 <e lm="ofring">          <i>ofring</i><par n="ateist__n"/></e>
 <e lm="okkupation">      <i>okkupation</i><par n="ateist__n"/></e>
@@ -15339,6 +15345,74 @@
 <e lm="nordlænding">               <i>nordlænding</i><par n="vals__n"/></e>
 <e lm="nordmand">                  <i>nordm</i><par n="m/and__n"/></e>
 <e lm="nordnorsk">                 <i>nordnorsk</i><par n="afghansk__n"/></e>
+
+
+<e lm="nordside">                  <i>nordside</i><par n="enk/e__n"/></e>
+<e lm="nordsøolie">               <i>nordsøoli</i><par n="enk/e__n"/></e>
+<e lm="normalitet">                <i>normalitet</i><par n="aften_\s__n"/></e>
+<e lm="norrønt">                   <i>norrønt</i><par n="syd__n"/></e>
+<e lm="nostalgi">                  <i>nostalgi</i><par n="aften__n"/></e>
+<e lm="nota">                      <i>nota</i><par n="aften__n"/></e>
+<e lm="notar">                     <i>notar</i><par n="aften__n"/></e>
+<e lm="nova">                      <i>nova</i><par n="aften__n"/></e>
+<e lm="nu">                        <i>nu</i><par n="skab_no-cp__n"/></e>
+<e lm="nudel">                     <i>nud</i><par n="cirk/el__n"/></e>
+<e lm="nul">                      <i>nul</i><par n="metal__n"/></e>
+<e lm="ny">                        <i>ny</i><par n="firma_no-cp__n"/></e>
+<e lm="nybyggeri">                    <i>nybyggeri</i><par n="slag__n"/></e>
+<e lm="nyland">                    <i>nyland</i><par n="slag__n"/></e>
+<e lm="nylon">                     <i>nylon</i><par n="slag__n"/></e>
+<e lm="nynazist">                  <i>nynazist</i><par n="aften__n"/></e>
+<e lm="nynorsk">                   <i>nynorsk</i><par n="afghansk__n"/></e>
+<e lm="nys">                       <i>nys</i><par n="alibi__n"/></e>
+<e lm="nysgerrighed">             <i>nysgerrighed</i><par n="art__n"/></e>
+<e lm="nysgerrigper">             <i>nysgerrigper</i><par n="aften__n"/></e>
+<e lm="nyskabning">                <i>nyskabning</i><par n="aften__n"/></e>
+<e lm="nysn">                     <i>nysn</i><par n="aften__n"/></e>
+<e lm="nytte">                     <i>nytt</i><par n="enk/e__n"/></e>
+<e lm="nytteværdi">                <i>nytteværdi</i><par n="aften__n"/></e>
+<e lm="landvinding">                 <i>landvinding</i><par n="art_\s__n"/></e>
+<e lm="nåde">                      <i>nåde</i><par n="hygiejne__n"/></e>
+<e lm="nærhed">                    <i>nærhed</i><par n="art__n"/></e>
+<e lm="næringsdepartement">        <i>næringsdepartement</i><par n="firma__n"/></e>
+<e lm="næringsmiddel">             <i>næringsmid</i><par n="av-mid/del__n"/></e>
+<e lm="næringspolitik">           <i>næringspolitik</i><par n="paryk__n"/></e>
+<e lm="nærkamp">                   <i>nærkamp</i><par n="vals__n"/></e>
+<e lm="nærkontakt">                <i>nærkontakt</i><par n="aften__n"/></e>
+<e lm="nærmiljø">                  <i>nærmiljø</i><par n="firma__n"/></e>
+<e lm="nærvær"><i>nærvær</i><par n="slag__n"/></e>
+<e lm="øf">                      <i>øf</i><par n="stof__n"/></e>
+<e lm="nøgleord">                 <i>nøgleord</i><par n="slag__n"/></e>
+<e lm="nøgleperson">              <i>nøgleperson</i><par n="aften__n"/></e>
+<e lm="nøgletal">                <i>nøgletal</i><par n="metal__n"/></e>
+<e lm="nøje">                      <i>nøje</i><par n="hygiejne__n"/></e>
+<e lm="neutralitet">               <i>neutralitet</i><par n="aften_\s__n"/></e>
+<e lm="oase">                      <i>oase</i><par n="hygiejne__n"/></e>
+<e lm="oberst">                    <i>oberst</i><par n="aften__n"/></e>
+<e lm="objektivitet">              <i>objektivitet</i><par n="aften_\s__n"/></e>
+<e lm="obligationslån">            <i>obligationslån</i><par n="slag__n"/></e>
+<e lm="od">                       <i>od</i><par n="nød__n"/></e>
+<e lm="odel">                      <i>od</i><par n="cirk/el__n"/></e>
+<e lm="odelsting">                 <i>odelsting</i><par n="slag__n"/></e>
+<e lm="offer">                     <i>of</i><par n="of/fer__n"/></e>
+<e lm="ohm">                       <i>ohm</i><par n="lux_no-cp__n"/></e>
+<e lm="okkupant">                  <i>okkupant</i><par n="aften__n"/></e>
+<e lm="okkupation">                <i>okkupation</i><par n="aften_\s__n"/></e>
+<e lm="oldefar">                   <i>oldef</i><par n="f/ar__n"/></e>
+<e lm="oliven">                    <i>oliven</i><par n="aften__n"/></e>
+<e lm="oliedirektorat">            <i>oliedirektorat</i><par n="firma__n"/></e>
+<e lm="olieselskab">               <i>olieselskab</i><par n="firma_\s__n"/></e>
+<e lm="oliepøl">                   <i>oliepøl</i><par n="vals__n"/></e>
+<e lm="omdømme">                   <i>omdømme</i><par n="mød/e__n"/></e>
+<e lm="omega">                     <i>omega</i><par n="aften__n"/></e>
+<e lm="omelet">                   <i>omelet</i><par n="aften__n"/></e>
+<e lm="omland">                    <i>omland</i><par n="skib__n"/></e>
+<e lm="omsorg">                    <i>omsorg</i><par n="art__n"/></e>
+<e lm="omtale">                    <i>omtale</i><par n="hygiejne__n"/></e>
+<e lm="omtanke">                   <i>omtanke</i><par n="hygiejne__n"/></e>
+<e lm="onani">                     <i>onani</i><par n="aften__n"/></e>
+<e lm="onde">                      <i>ond</i><par n="mød/e__n"/></e>
+<e lm="operationsleder">           <i>operationsleder</i><par n="buffer__n"/></e>
 
 
  <!-- /nouns -->
