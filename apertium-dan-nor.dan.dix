@@ -1510,6 +1510,17 @@
 
  <!-- ported and changed NOB pardefs-->
 
+
+<pardef n="pen/ny__n">
+  <e r="LR"><p><l>cene</l>      <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>nyene</l>     <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>ce</l>        <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>nyer</l>      <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e r="LR"><p><l>ny</l>        <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>nyen</l>      <r>ny<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>ny</l>        <r>ny<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
+
 <pardef n="of/fer__n">
   <e>       <p><l>rene</l>      <r>fer<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>re</l>        <r>fer<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -12192,7 +12203,7 @@
 <e lm="peber">           <i>peber</i><par n="blod__n"/></e>
 <e lm="peberfrugt" a="DAINF"><i>peberfrugt</i><par n="ateist__n"/></e>
 <e lm="pedal">           <i>pedal</i><par n="ateist__n"/></e>
-<e lm="pegefynger" a="PT"><i>pegefing</i><par n="ag/er__n"/></e>
+<e lm="pegefinger" a="PT"><i>pegefing</i><par n="ag/er__n"/></e>
 <e lm="pektin" a="DAINF"><i>pektin</i><par n="alibi__n"/></e>
 <e lm="pels">            <i>pels</i><par n="boks__n"/></e>
 <e lm="pen">             <i>pen</i><par n="pen__n"/></e>
@@ -12202,7 +12213,6 @@
 <e lm="penge" a="PT">    <i>penge</i><par n="abe__n"/></e>
 <e lm="pengeskab">       <i>pengeskab</i><par n="skib__n"/></e>
 <e lm="penicillin">      <i>penicillin</i><par n="alibi__n"/></e>
-<e lm="penicillin">      <i>penicillin</i><par n="ateist__n"/></e>
 <e lm="penis">           <i>penis</i><par n="mis__n"/></e>
 <e lm="pension">         <i>pension</i><par n="ateist__n"/></e>
 <e lm="pensionat">       <i>pensionat</i><par n="alibi__n"/></e>
@@ -15490,6 +15500,84 @@
 
 
 
+<e lm="paneldebat">               <i>paneldebat</i><par n="kat__n"/></e>
+<e lm="pang">                      <i>pang</i><par n="slag__n"/></e>
+<e lm="panorama">                  <i>panorama</i><par n="vita__n"/></e>
+<e lm="pant">                      <i>pant</i><par n="skab__n"/></e>
+<e lm="paperback">                 <i>paperback</i><par n="pint__n"/></e>
+<e lm="pappa">                     <i>pappa</i><par n="aften__n"/></e>
+<e lm="paprika">                   <i>paprika</i><par n="aften__n"/></e>
+<e lm="paradoks">                  <i>paradoks</i><par n="firma__n"/></e>
+<e lm="parafin">                   <i>parafin</i><par n="sekund__n"/></e>
+<e lm="parallel">                 <i>parallel</i><par n="duel__n"/></e>
+<e lm="parameter">                 <i>paramet</i><par n="minist/er__n"/></e>
+<e lm="paranoia">                  <i>paranoia</i><par n="aften__n"/></e>
+<e lm="paraply">                   <i>paraply</i><par n="aften__n"/></e>
+<e lm="park">                      <i>park</i><par n="aften__n"/></e>
+<e lm="parket">                   <i>parket</i><par n="sæt__n"/></e>
+<e lm="parket">                   <i>parket</i><par n="kat__n"/></e>
+<e lm="parlamentarisme">           <i>parlamentarisme</i><par n="hygiejne__n"/></e>
+<e lm="parodi">                    <i>parodi</i><par n="aften__n"/></e>
+<e lm="parole">                    <i>parole</i><par n="hygiejne__n"/></e>
+<e lm="partifælle">                <i>partifælle</i><par n="hygiejne__n"/></e>
+<e lm="partikel">                 <i>partikel</i><par n="cirk/el__n"/></e>
+<e lm="partiledelse">              <i>partiledelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="partileder">                <i>partileder</i><par n="buffer__n"/></e>
+<e lm="partiprogram">              <i>partiprogram</i><par n="program__n"/></e>
+<e lm="partner">                   <i>partner</i><par n="buffer__n"/></e>
+<e lm="partoutkort">               <i>partoutkort</i><par n="slag__n"/></e>
+<e lm="party">                     <i>party</i><par n="firma__n"/></e>
+<e lm="pascal">                    <i>pascal</i><par n="lux__n"/></e>
+<e lm="passagerfly">              <i>passagerfly</i><par n="slag__n"/></e>
+<e lm="passat">                    <i>passat</i><par n="aften__n"/></e>
+<e lm="passer">                    <i>passer</i><par n="buffer__n"/></e>
+<e lm="passivitet">                <i>passivitet</i><par n="aften_\s__n"/></e>
+<e lm="patos">                     <i>patos</i><par n="aften__n"/></e>
+<e lm="patriot">                   <i>patriot</i><par n="aften__n"/></e>
+<e lm="patriotisme">               <i>patriotisme</i><par n="hygiejne__n"/></e>
+<e lm="pavillon">                 <i>pavillon</i><par n="paryk__n"/></e>
+<e lm="pædagogik">                <i>pædagogik</i><par n="aften__n"/></e>
+<e lm="pedal">                     <i>pedal</i><par n="aften__n"/></e>
+<e lm="pædofili">                  <i>pædofili</i><par n="aften__n"/></e>
+<e lm="pegasus">                   <i>pegasus</i><par n="mis__n"/></e>
+<e lm="pejs">                      <i>pejs</i><par n="vals__n"/></e>
+<e lm="peg">                       <i>peg</i><par n="slag_no-cp__n"/></e>
+<e lm="pegepind">                  <i>pegepind</i><par n="vals__n"/></e>
+<e lm="peger">                     <i>peger</i><par n="buffer__n"/></e>
+<e lm="pellet">                    <i>pellet</i><par n="aften__n"/></e>
+<e lm="pelsdyr">                   <i>pelsdyr</i><par n="slag__n"/></e>
+<e lm="pengebrug">                 <i>pengebrug</i><par n="skab__n"/></e>
+<e lm="pengesæk">                 <i>pengesæk</i><par n="paryk__n"/></e>
+<e lm="penny">                     <i>penny</i><par n="pen/ny__n"/></e>
+<e lm="pensel">                    <i>pens</i><par n="cirk/el__n"/></e>
+<e lm="pensionist">                <i>pensionist</i><par n="aften__n"/></e>
+<e lm="pensionsalder">             <i>pensionsald</i><par n="minist/er__n"/></e>
+<e lm="pensionskasse">             <i>pensionskass</i><par n="enk/e__n"/></e>
+<e lm="pensionspoint">             <i>pensionspoint</i><par n="slag__n"/></e>
+<e lm="pensum">                    <i>pens</i><par n="vis/um__n"/></e>
+<e lm="pentagon">                  <i>pentagon</i><par n="aften__n"/></e>
+<e lm="pep">                      <i>pep</i><par n="kop__n"/></e>
+<e lm="perfektion">                <i>perfektion</i><par n="aften_\s__n"/></e>
+<e lm="perkution">                 <i>perkution</i><par n="aften_\s__n"/></e>
+<e lm="permanent">                 <i>permanent</i><par n="aften__n"/></e>
+<e lm="permission">                 <i>permission</i><par n="aften_\s__n"/></e>
+<e lm="pres">                      <i>pres</i><par n="glas__n"/></e>
+<e lm="perception">                <i>perception</i><par n="aften_\s__n"/></e>
+<e lm="persille">                  <i>persille</i><par n="enk/e__n"/></e>
+<e lm="personale">                 <i>personal</i><par n="mød/e__n"/></e>
+<e lm="personel">                 <i>personel</i><par n="metal__n"/></e>
+<e lm="persongalleri">             <i>persongalleri</i><par n="firma__n"/></e>
+<e lm="personlighed">              <i>personlighed</i><par n="art__n"/></e>
+<e lm="personskade">               <i>personskade</i><par n="hygiejne__n"/></e>
+<e lm="personværn">                <i>personværn</i><par n="slag__n"/></e>
+<e lm="støn">                       <i>støn</i><par n="sæt__n"/></e>
+<e lm="pessimisme">                <i>pessimisme</i><par n="hygiejne__n"/></e>
+<e lm="pest">                      <i>pest</i><par n="art__n"/></e>
+<e lm="petit">                     <i>petit</i><par n="aften__n"/></e>
+<e lm="petroleum">                 <i>petroleum</i><par n="aften__n"/></e>
+<e lm="pi">                        <i>pi</i><par n="aften_no-cp__n"/></e>
+<e lm="pickup">                    <i>pickup</i><par n="aften__n"/></e>
+<e lm="pigdæk">                  <i>pigdæk</i><par n="stik__n"/></e>
 
  <!-- /nouns -->
 
