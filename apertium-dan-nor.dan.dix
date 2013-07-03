@@ -15586,7 +15586,7 @@
 <e lm="pindekød">                <i>pindekød</i><par n="slag__n"/></e>
 <e lm="pinse">                     <i>pinse</i><par n="enk/e__n"/></e>
 <e lm="pir">                       <i>pir</i><par n="aften_no-cp__n"/></e>
-<e lm="pis">                      <i>pis</i><par n="glas_n"/></e>
+<e lm="pis">                      <i>pis</i><par n="glas__n"/></e>
 <e lm="placebo">                   <i>placebo</i><par n="slag__n"/></e>
 <e lm="plan">                      <i>plan</i><par n="skab__n"/></e>
 <e lm="plank">                     <i>plank</i><par n="aften__n"/></e>
@@ -15649,6 +15649,83 @@
 <e lm="positivitet">               <i>positivitet</i><par n="aften_\s__n"/></e>
 <e lm="postboks">                  <i>postboks</i><par n="vals__n"/></e>
 <e lm="plakat">                    <i>plakat</i><par n="ateist__n"/></e>
+
+
+
+<e lm="postgiro">                  <i>postgiro</i><par n="aften__n"/></e>
+<e lm="postkasse">                 <i>postkasse</i><par n="enk/e__n"/></e>
+<e lm="postnummer">                <i>postnum</i><par n="kam/mer__n"/></e>
+<e lm="potentiale">                <i>potentiale</i><par n="mød/e__n"/></e>
+<e lm="kartoffelmos">                  <i>kartoffelmos</i><par n="vals__n"/></e>
+<e lm="pot">                      <i>pot</i><par n="kat__n"/></e>
+<e lm="præference">                <i>præference</i><par n="hygiejne__n"/></e>
+<e lm="præcision">                 <i>præcision</i><par n="aften_\s__n"/></e>
+<e lm="pressefolk">                <i>pressefolk</i><par n="slag__n"/></e>
+<e lm="pressekontakt">             <i>pressekontakt</i><par n="aften__n"/></e>
+<e lm="pressetalsmand">            <i>pressetalsm</i><par n="m/and__n"/></e>
+<e lm="præstegæld">               <i>præstegæld</i><par n="sko__n"/></e>
+<e lm="præsteskab">                <i>præsteskab</i><par n="firma_\s__n"/></e>
+<e lm="præstige">                 <i>præstige</i><par n="hygiejne__n"/></e>
+<e lm="primus">                    <i>primus</i><par n="mis__n"/></e>
+<e lm="prior">                     <i>prior</i><par n="aften__n"/></e>
+<e lm="prisafslag">                <i>prisafslag</i><par n="slag__n"/></e>
+<e lm="prisfald">                  <i>prisfald</i><par n="slag__n"/></e>
+<e lm="prisklasse">                <i>prisklass</i><par n="enk/e__n"/></e>
+<e lm="priskrig">                  <i>priskrig</i><par n="vals__n"/></e>
+<e lm="prismærke">                  <i>prismærke</i><par n="vindue__n"/></e>
+<e lm="prisniveau">                  <i>prisniveau</i><par n="firma__n"/></e>
+<e lm="prisopgang">               <i>prisopgang</i><par n="vals__n"/></e>
+<e lm="prisøgning">                <i>prisøgning</i><par n="aften__n"/></e>
+<e lm="privat">                    <i>privat</i><par n="aften__n"/></e>
+<e lm="privatist">                 <i>privatist</i><par n="aften__n"/></e>
+<e lm="privatliv">                 <i>privatliv</i><par n="slag__n"/></e>
+<e lm="privatskole">               <i>privatskole</i><par n="hygiejne__n"/></e>
+<e lm="privilegium">               <i>privilegi</i><par n="podi/um__n"/></e>
+<e lm="producer">                  <i>producer</i><par n="buffer__n"/></e>
+<e lm="produktionskapacitet">      <i>produktionskapacitet</i><par n="aften_\s__n"/></e>
+<e lm="produktionsmiddel">         <i>produktionsmiddel</i><par n="av-mid/del__n"/></e>
+<e lm="produktionsproces">        <i>produktionsproces</i><par n="mis__n"/></e>
+<e lm="produktionsselskab">        <i>produktionsselskab</i><par n="firma_\s__n"/></e>
+<e lm="professionalisme">           <i>professionalisme</i><par n="aften_\s__n"/></e>
+<e lm="prof">                     <i>prof</i><par n="paragraf__n"/></e>
+<e lm="profit">                   <i>profit</i><par n="aften__n"/></e>
+<e lm="prognose">                  <i>prognose</i><par n="hygiejne__n"/></e>
+<e lm="programleder">              <i>programleder</i><par n="buffer__n"/></e>
+<e lm="programvare">               <i>programvare</i><par n="enk/e__n"/></e>
+<e lm="progression">                <i>progression</i><par n="aften_\s__n"/></e>
+<e lm="projektor">                 <i>projektor</i><par n="aften__n"/></e>
+<e lm="proletariat">               <i>proletariat</i><par n="firma__n"/></e>
+<e lm="prolog">                    <i>prolog</i><par n="aften__n"/></e>
+<e lm="poumille">                  <i>promille</i><par n="hygiejne__n"/></e>
+<e lm="propaganda">                <i>propaganda</i><par n="aften__n"/></e>
+<e lm="propel">                   <i>propel</i><par n="duel__n"/></e>
+<e lm="proportion">                <i>proportion</i><par n="aften_\s__n"/></e>
+<e lm="proportional">              <i>proportional</i><par n="aften__n"/></e>
+<e lm="proposition">               <i>proposition</i><par n="aften_\s__n"/></e>
+<e lm="proprietær"><i>proprietær</i><par n="aften__n"/></e>
+<e lm="prorektor">                 <i>prorektor</i><par n="aften__n"/></e>
+<e lm="prosa">                     <i>prosa</i><par n="aften__n"/></e>
+<e lm="procedure">                 <i>procedure</i><par n="hygiejne__n"/></e>
+<e lm="procentpoint">              <i>procentpoint</i><par n="firma__n"/></e>
+<e lm="procesfuldmægtig">         <i>procesfuldmægtig</i><par n="vals__n"/></e>
+<e lm="projektledelse">           <i>projektledelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="prospekt">                  <i>prospekt</i><par n="firma__n"/></e>
+<e lm="prostata">                  <i>prostata</i><par n="aften__n"/></e>
+<e lm="prostatakræft">             <i>prostatakræft</i><par n="aften__n"/></e>
+<e lm="protektionisme">            <i>protektionisme</i><par n="hygiejne__n"/></e>
+<e lm="protestant">                <i>protestant</i><par n="aften__n"/></e>
+<e lm="prototype">                  <i>prototype</i><par n="abe__n"/></e>
+<e lm="provins">                   <i>provins</i><par n="aften__n"/></e>
+<e lm="provision">                 <i>provision</i><par n="aften_\s__n"/></e>
+<e lm="provokation">               <i>provokation</i><par n="aften_\s__n"/></e>
+<e lm="psoriasis">                 <i>psoriasis</i><par n="aften__n"/></e>
+<e lm="psyke">                     <i>psyke</i><par n="hygiejne__n"/></e>
+<e lm="psykopat">                  <i>psykopat</i><par n="aften__n"/></e>
+<e lm="psykoterapi">               <i>psykoterapi</i><par n="aften__n"/></e>
+<e lm="pubertet">                  <i>pubertet</i><par n="aften__n"/></e>
+
+
+
 
  <!-- /nouns -->
 
