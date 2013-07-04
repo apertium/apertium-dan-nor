@@ -15975,6 +15975,71 @@
 <e lm="rødt"><i>rødt</i><par n="syd__n"/></e>
 <e lm="røntgen"><i>røntgen</i><par n="lux__n"/></e>
 
+<e lm="sabbat">                    <i>sabbat</i><par n="kat__n"/></e>
+<e lm="sabel">                     <i>sab</i><par n="cirk/el__n"/></e>
+<e lm="safari">                    <i>safari</i><par n="aften__n"/></e>
+<e lm="safir">                     <i>safir</i><par n="aften__n"/></e>
+<e lm="sake">                      <i>sake</i><par n="aften__n"/></e>
+<e lm="sagprosa">                  <i>sagprosa</i><par n="aften__n"/></e>
+<e lm="sagsbehandler">             <i>sagsbehandler</i><par n="buffer__n"/></e>
+<e lm="sagsbehandling">            <i>sagsbehandling</i><par n="art_\s__n"/></e>
+<e lm="sagsdokument">              <i>sagsdokument</i><par n="firma__n"/></e>
+<e lm="sagsgang">                  <i>sagsgang</i><par n="aften__n"/></e>
+<e lm="sagspapir">                 <i>sagspapir</i><par n="firma__n"/></e>
+<e lm="saldo">                     <i>saldo</i><par n="aften__n"/></e>
+<e lm="salmebog">                  <i>salmeb</i><par n="b/og__n"/></e>
+<e lm="saltfisk">                  <i>saltfisk</i><par n="aften__n"/></e>
+<e lm="samarbejde">                <i>samarbejde</i><par n="mød/e__n"/></e>
+<e lm="samba">                     <i>samba</i><par n="aften__n"/></e>
+<e lm="sambo">                     <i>sambo</i><par n="aften__n"/></e>
+<e lm="same">                      <i>same</i><par n="hygiejne__n"/></e>
+<e lm="sameksistens">              <i>sameksistens</i><par n="aften__n"/></e>
+<e lm="sameting">                  <i>sameting</i><par n="slag__n"/></e>
+<e lm="samfærdselsdepartement">    <i>samfærdselsdepartement</i><par n="firma__n"/></e>
+<e lm="samfærdselsminister">       <i>samfærdselsminister</i><par n="minist/er__n"/></e>
+<e lm="samfundsansvar">            <i>samfundsansvar</i><par n="slag__n"/></e>
+<e lm="samfundsforhold">           <i>samfundsforhold</i><par n="slag__n"/></e>
+<e lm="samfundshus">               <i>samfundshus</i><par n="hus__n"/></e>
+<e lm="samfundskritik">           <i>samfundskritik</i><par n="paryk__n"/></e>
+<e lm="samfundskunskab">          <i>samfundskunskab</i><par n="aften__n"/></e>
+<e lm="samfundsspørgsmål">          <i>samfundsspørgsmål</i><par n="slag__n"/></e>
+<e lm="samhold">                   <i>samhold</i><par n="slag__n"/></e>
+<e lm="samisk">                    <i>samisk</i><par n="afghansk__n"/></e>
+<e lm="samkvem">                   <i>samkvem</i><par n="lam__n"/></e>
+<e lm="samliv">                    <i>samliv</i><par n="slag__n"/></e>
+<e lm="sammenslåelse">              <i>sammenslåelse</i><par n="hygiejne__n"/></e>
+<e lm="samtale">                   <i>samtale</i><par n="hygiejne__n"/></e>
+<e lm="samtykke">                  <i>samtykke</i><par n="mød/e__n"/></e>
+<e lm="samurai">                   <i>samurai</i><par n="aften__n"/></e>
+<e lm="samvær">             <i>samvær</i><par n="slag__n"/></e>
+<e lm="sandal">                    <i>sandal</i><par n="aften__n"/></e>
+<e lm="sandel">                    <i>sand</i><par n="cirk/el__n"/></e>
+<e lm="sanktion">                  <i>sanktion</i><par n="aften_\s__n"/></e>
+<e lm="satan">                     <i>satan</i><par n="aften__n"/></e>
+<e lm="satanisme">                 <i>satanisme</i><par n="hygiejne__n"/></e>
+<e lm="satellit">                 <i>satellit</i><par n="kat__n"/></e>
+<e lm="scenario">                  <i>scenarie</i><par n="hygiejne__n"/></e>
+<e lm="scenarium">                 <i>scenari</i><par n="podi/um__n"/></e>
+<e lm="scenografi">                <i>scenografi</i><par n="aften__n"/></e>
+<e lm="schizofreni">               <i>schizofreni</i><par n="aften__n"/></e>
+<e lm="schæfer">                   <i>schæfer</i><par n="buffer__n"/></e>
+<e lm="science">                   <i>science</i><par n="MC__n"/></e>
+<e lm="scientologi">               <i>scientologi</i><par n="aften__n"/></e>
+<e lm="scooter">                   <i>scooter</i><par n="buffer__n"/></e>
+<e lm="score">                     <i>score</i><par n="hygiejne__n"/></e>
+<e lm="script">                    <i>script</i><par n="aften__n"/></e>
+<e lm="seance">                    <i>seance</i><par n="hygiejne__n"/></e>
+<e lm="sedan">                     <i>sedan</i><par n="aften__n"/></e>
+<e lm="seer">                      <i>seer</i><par n="buffer__n"/></e>
+<e lm="sejd">                      <i>sejd</i><par n="aften__n"/></e>
+<e lm="seismik">                  <i>seismik</i><par n="paryk__n"/></e>
+<e lm="sæk">                      <i>sæk</i><par n="drik__n"/></e>
+<e lm="sekstenmeter">              <i>sekstenmet</i><par n="ag/er__n"/></e>
+<e lm="seksualitet">               <i>seksualitet</i><par n="aften_\s__n"/></e>
+<e lm="sexliv">                <i>sexliv</i><par n="slag__n"/></e>
+<e lm="sekvens">                   <i>sekvens</i><par n="aften__n"/></e>
+
+
 
 
 
