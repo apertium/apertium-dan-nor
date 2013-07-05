@@ -7978,14 +7978,14 @@
 <e><p><l>single<s n="n"/><s n="ut"/></l><r>singel<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>single<s n="n"/><s n="ut"/></l><r>single<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>zink<s n="n"/><s n="nt"/></l><r>sink<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>sidnelag<s n="n"/><s n="nt"/></l><r>sinnelag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sindelag<s n="n"/><s n="nt"/></l><r>sinnelag<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>sinus<s n="n"/><s n="ut"/></l><r>sinus<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sir<s n="n"/><s n="ut"/></l><r>sir<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>cirkulation<s n="n"/><s n="ut"/></l><r>sirkulasjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sidstemand<s n="n"/><s n="ut"/></l><r>sistemann<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sidsteplads<s n="n"/><s n="ut"/></l><r>sisteplass<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sitar<s n="n"/><s n="ut"/></l><r>siter<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>sideplads<s n="n"/><s n="ut"/></l><r>sitteplass<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>siddeplads<s n="n"/><s n="ut"/></l><r>sitteplass<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>siv<s n="n"/><s n="nt"/></l><r>siv<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>civil<s n="n"/><s n="mf"/></l><r>sivil<s n="n"/><s n="mf"/></r></p></e>
 <e><p><l>civilisation<s n="n"/><s n="ut"/></l><r>sivilisasjon<s n="n"/><s n="m"/></r></p></e>
@@ -8005,7 +8005,107 @@
 <e><p><l>chikane<s n="n"/><s n="ut"/></l><r>sjikane<s n="n"/><s n="m"/></r></p></e>
 
 
-
+<e r="RL"><p><l>lag<s n="n"/><s n="nt"/></l><r>sjikt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sygdom<s n="n"/><s n="ut"/></l><r>sjukdom<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sygehus<s n="n"/><s n="nt"/></l><r>sjukehus<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skue<s n="n"/><s n="nt"/></l><r>sjå<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sø<s n="n"/><s n="ut"/></l><r>sjø<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>søfart<s n="n"/><s n="ut"/></l><r>sjøfart<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>søfartsdirektorat<s n="n"/><s n="nt"/></l><r>sjøfartsdirektorat<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søfolk<s n="n"/><s n="nt"/></l><r>sjøfolk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søforsvar<s n="n"/><s n="nt"/></l><r>sjøforsvar<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søfugl<s n="n"/><s n="ut"/></l><r>sjøfugl<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sømand<s n="n"/><s n="ut"/></l><r>sjømann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>søvand<s n="n"/><s n="nt"/></l><r>sjøvann<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søvej<s n="n"/><s n="ut"/></l><r>sjøvei<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skal<s n="n"/><s n="ut"/></l><r>skall<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skalle<s n="n"/><s n="ut"/></l><r>skalle<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skam<s n="n"/><s n="ut"/></l><r>skam<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skandale<s n="n"/><s n="ut"/></l><r>skandale<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skandinaver<s n="n"/><s n="ut"/></l><r>skandinav<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skanse<s n="n"/><s n="ut"/></l><r>skanse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skaber<s n="n"/><s n="ut"/></l><r>skaper<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skabning<s n="n"/><s n="ut"/></l><r>skapning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hak<s n="n"/><s n="nt"/></l><r>skar<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skattefritag<s n="n"/><s n="nt"/></l><r>skattefritak<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skattefund<s n="n"/><s n="nt"/></l><r>skattefunn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skattelettelse<s n="n"/><s n="ut"/></l><r>skattelette<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skatteparadis<s n="n"/><s n="nt"/></l><r>skatteparadis<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skattepolitik<s n="n"/><s n="ut"/></l><r>skattepolitikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hovedtørklæde<s n="n"/><s n="nt"/></l><r>skaut<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ske<s n="n"/><s n="ut"/></l><r>skei<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skepsis<s n="n"/><s n="ut"/></l><r>skepsis<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sketch<s n="n"/><s n="ut"/></l><r>sketsj<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ski<s n="n"/><s n="ut"/></l><r>ski<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skifer<s n="n"/><s n="ut"/></l><r>skifer<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skift<s n="n"/><s n="nt"/></l><r>skift<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skifte<s n="n"/><s n="nt"/></l><r>skifte<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skifteret<s n="n"/><s n="ut"/></l><r>skifterett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skiklub<s n="n"/><s n="ut"/></l><r>skiklubb<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skildring<s n="n"/><s n="ut"/></l><r>skildring<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skille<s n="n"/><s n="nt"/></l><r>skille<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skilsmisse<s n="n"/><s n="ut"/></l><r>skilsmisse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skibsfart<s n="n"/><s n="ut"/></l><r>skipsfart<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skicenter<s n="n"/><s n="nt"/></l><r>skisenter<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skid<s n="n"/><s n="ut"/></l><r>skit<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skitur<s n="n"/><s n="ut"/></l><r>skitur<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ske<s n="n"/><s n="ut"/></l><r>skje<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skæbne<s n="n"/><s n="ut"/></l><r>skjebne<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skede<s n="n"/><s n="ut"/></l><r>skjede<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skel<s n="n"/><s n="nt"/></l><r>skjell<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skæl<s n="n"/><s n="nt"/></l><r>skjell<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skærf<s n="n"/><s n="nt"/></l><r>skjerf<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skærm<s n="n"/><s n="ut"/></l><r>skjerm<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skærmbillede<s n="n"/><s n="nt"/></l><r>skjermbilde<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skærpning<s n="n"/><s n="ut"/></l><r>skjerping<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skjold<s n="n"/><s n="nt"/></l><r>skjold<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skjul<s n="n"/><s n="nt"/></l><r>skjul<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skær<s n="n"/><s n="nt"/></l><r>skjær<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skærtorsdag<s n="n"/><s n="ut"/></l><r>skjærtorsdag<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skøn<s n="n"/><s n="nt"/></l><r>skjønn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skønlitteratur<s n="n"/><s n="ut"/></l><r>skjønnlitteratur<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skørt<s n="n"/><s n="nt"/></l><r>skjørt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>pasning<s n="n"/><s n="ut"/></l><r>skjøtsel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sklerose<s n="n"/><s n="ut"/></l><r>sklerose<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skovbrand<s n="n"/><s n="ut"/></l><r>skogbrann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skovkat<s n="n"/><s n="ut"/></l><r>skogkatt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skovfugl<s n="n"/><s n="ut"/></l><r>skogsfugl<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolealder<s n="n"/><s n="ut"/></l><r>skolealder<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolearbejde<s n="n"/><s n="nt"/></l><r>skolearbeid<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skolebarn<s n="n"/><s n="nt"/></l><r>skolebarn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skolebænk<s n="n"/><s n="ut"/></l><r>skolebenk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolebygning<s n="n"/><s n="nt"/></l><r>skolebygg<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skoledag<s n="n"/><s n="ut"/></l><r>skoledag<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolefag<s n="n"/><s n="nt"/></l><r>skolefag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skolegang<s n="n"/><s n="ut"/></l><r>skolegang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skoleklasse<s n="n"/><s n="ut"/></l><r>skoleklasse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolekorps<s n="n"/><s n="nt"/></l><r>skolekorps<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skoleledelse<s n="n"/><s n="ut"/></l><r>skoleledelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolepolitik<s n="n"/><s n="ut"/></l><r>skolepolitikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolebefordring<s n="n"/><s n="ut"/></l><r>skoleskyss<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolevej<s n="n"/><s n="ut"/></l><r>skolevei<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skolevæsen<s n="n"/><s n="nt"/></l><r>skoleverk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>mangel<s n="n"/><s n="ut"/></l><r>skort<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skotsk<s n="n"/><s n="nt"/></l><r>skotsk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skud<s n="n"/><s n="n"/></l><r>skott<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skranke<s n="n"/><s n="ut"/></l><r>skranke<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skrap<s n="n"/><s n="nt"/></l><r>skrap<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skred<s n="n"/><s n="nt"/></l><r>skred<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skrekkfilm<s n="n"/><s n="ut"/></l><r>skrekkfilm<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skrell<s n="n"/><s n="ut"/></l><r>skrell<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skremselspropaganda<s n="n"/><s n="ut"/></l><r>skremselspropaganda<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skrev<s n="n"/><s n="nt"/></l><r>skrev<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skribent<s n="n"/><s n="ut"/></l><r>skribent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skrift<s n="n"/><s n="nt"/></l><r>skrift<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skrift<s n="n"/><s n="ut"/></l><r>skrift<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skrig<s n="n"/><s n="nt"/></l><r>skrik<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skrivelse<s n="n"/><s n="nt"/></l><r>skriv<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skrivebord<s n="n"/><s n="nt"/></l><r>skrivebord<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skrivefejl<s n="n"/><s n="ut"/></l><r>skrivefeil<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skrivemåte<s n="n"/><s n="ut"/></l><r>skrivemåte<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skriver<s n="n"/><s n="ut"/></l><r>skriver<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skriveri<s n="n"/><s n="nt"/></l><r>skriveri<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skrivevanskelighed<s n="n"/><s n="ut"/></l><r>skrivevanske<s n="n"/><s n="m"/></r></p></e>
 <!--/nouns-->
 
 <!-- Proper nouns -->
@@ -11160,7 +11260,7 @@
 <!-- *Verbs -->
 
 <e><p><l>være<s n="vbser"/></l><r>være</r></p></e>
-<e><p><l>have<s n="vbhaver"/></l><r>ha</r></p></e>
+<e><p><l>have<s n="vbhaver"/></l><r>ha<s n="vbhaver"/></r></p></e>
 
 
 <!-- Modals (need some work): -->
