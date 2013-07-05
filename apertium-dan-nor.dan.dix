@@ -1512,6 +1512,14 @@
  <!-- ported and changed NOB pardefs-->
 
 
+<pardef n="centr/um__n">
+  <e>       <p><l>ene</l>       <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>e</l>         <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>et</l>        <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>um</l>        <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
+
+
 <pardef n="slide__n">
   <e>       <p><l>sene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -3239,6 +3247,13 @@
   <e>       <p><l>kel</l>       <r>kel<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>kelet</l>     <r>kel<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e r="LR"><p><l>let</l>       <r>kel<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
+<pardef n="sok/kel__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~kel / ~kelet | (~let) / # / #; uncountable -->
+  <e>       <p><l>kel</l>       <r>kel<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>klen</l>     <r>kel<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ler</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>lerne</l>       <r>kel<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
 
@@ -15238,7 +15253,7 @@
 <e lm="middagsbord">               <i>middagsbord</i><par n="firma__n"/></e>
 <e lm="migration">                 <i>migration</i><par n="aften_\s__n"/></e>
 <e lm="migræne">                   <i>migræne</i><par n="hygiejne__n"/></e>
-<e lm="mikkel">                    <i>mik</i><par n="nik/kel__n"/></e>
+<e lm="mikkel">                    <i>mik</i><par n="sok/kel__n"/></e>
 <e lm="mikrobiologi">              <i>mikrobiologi</i><par n="aften__n"/></e>
 <e lm="mikrofon">                  <i>mikrofon</i><par n="aften__n"/></e>
 <e lm="mikroorganisme">            <i>mikroorganisme</i><par n="hygiejne__n"/></e>
@@ -16248,6 +16263,66 @@
 <e lm="snacks">                    <i>snacks</i><par n="sko__n"/></e>
 <e lm="snedker">                   <i>snedker</i><par n="buffer__n"/></e>
 <e lm="snert">                     <i>snert</i><par n="ateist__n"/></e>
+<e lm="slik">                      <i>slik</i><par n="stik__n"/></e>
+<e lm="snusk">                     <i>snusk</i><par n="slag__n"/></e>
+<e lm="snefald">                   <i>snefald</i><par n="slag__n"/></e>
+<e lm="snøre">                     <i>snøre</i><par n="abe__n"/></e>
+<e lm="snot">                     <i>snot</i><par n="sæt__n"/></e>
+<e lm="snescooter">                <i>snescooter</i><par n="buffer__n"/></e>
+<e lm="soda">                      <i>soda</i><par n="aften__n"/></e>
+<e lm="sofahjørne">                  <i>sofahjørn</i><par n="mød/e__n"/></e>
+<e lm="sok">                      <i>sok</i><par n="paryk__n"/></e>
+<e lm="sokkel">                    <i>sokk</i><par n="sok/kel__n"/></e>
+<e lm="solarium">                  <i>solarium</i><par n="podi/um__n"/></e>
+<e lm="solbær">  <i>solbær</i><par n="slag__n"/></e>
+<e lm="solenergi">                 <i>solenergi</i><par n="aften__n"/></e>
+<e lm="solfaktor">                 <i>solfaktor</i><par n="aften__n"/></e>
+<e lm="solidaritet">               <i>solidaritet</i><par n="aften_\s__n"/></e>
+<e lm="soliditet">                 <i>soliditet</i><par n="aften_\s__n"/></e>
+<e lm="solskin">                  <i>solskin</i><par n="trin__n"/></e>
+<e lm="solstråle">                 <i>solstråle</i><par n="hygiejne__n"/></e>
+<e lm="solvarme">                  <i>solvarme</i><par n="hygiejne__n"/></e>
+<e lm="sommerhalvår"><i>sommerhalvår</i><par n="slag__n"/></e>
+<e lm="sonde">                     <i>sonde</i><par n="hygiejne__n"/></e>
+<e lm="socialantropologi">         <i>socialantropologi</i><par n="aften__n"/></e>
+<e lm="socialdemokrat">            <i>socialdemokrat</i><par n="aften__n"/></e>
+<e lm="socialdemokrati">           <i>socialdemokrati</i><par n="firma__n"/></e>
+<e lm="socialdepartement">         <i>socialdepartement</i><par n="firma__n"/></e>
+<e lm="socialisme">                <i>socialisme</i><par n="hygiejne__n"/></e>
+<e lm="socialkontor">              <i>socialkontor</i><par n="firma__n"/></e>
+<e lm="socialpolitik">            <i>socialpolitik</i><par n="paryk__n"/></e>
+<e lm="socionom">                  <i>socionom</i><par n="aften__n"/></e>
+<e lm="soul">                      <i>soul</i><par n="aften__n"/></e>
+<e lm="sound">                     <i>sound</i><par n="aften__n"/></e>
+<e lm="sovepose">                  <i>sovepose</i><par n="hygiejne__n"/></e>
+<e lm="soveværelse">                <i>soveværelse</i><par n="vindue__n"/></e>
+<e lm="sovjet">                    <i>sovjet</i><par n="firma__n"/></e>
+<e lm="soya">                      <i>soya</i><par n="aften__n"/></e>
+<e lm="spaghetti">                 <i>spaghetti</i><par n="aften__n"/></e>
+<e lm="spalteplass">               <i>spalteplass</i><par n="aften__n"/></e>
+<e lm="spaltskriver">                  <i>spaltskriver</i><par n="spiller__n"/></e>
+<e lm="spaniel">                   <i>spaniel</i><par n="aften__n"/></e>
+<e lm="spanier">                   <i>spanier</i><par n="spiller__n"/></e>
+<e lm="spansk">                    <i>spansk</i><par n="afghansk__n"/></e>
+<e lm="sparebank">                 <i>sparebank</i><par n="aften__n"/></e>
+<e lm="speaker">                   <i>speaker</i><par n="buffer__n"/></e>
+<e lm="speed">                     <i>speed</i><par n="aften__n"/></e>
+<e lm="spegemad">                  <i>spegemad</i><par n="sko__n"/></e>
+<e lm="spæk">                     <i>spæk</i><par n="stik__n"/></e>
+<e lm="spektrum">                  <i>spektr</i><par n="centr/um__n"/></e>
+<e lm="spekulant">                 <i>spekulant</i><par n="aften__n"/></e>
+<e lm="spillemandpris">            <i>spillemandpris</i><par n="aften__n"/></e>
+<e lm="spændstighed">                    <i>spændstighed</i><par n="aften__n"/></e>
+<e lm="specialfelt">               <i>specialfelt</i><par n="firma__n"/></e>
+<e lm="specialområde">             <i>specialområde</i><par n="mød/e__n"/></e>
+<e lm="spektakel">                 <i>spektak</i><par n="fængs/el__n"/></e>
+<e lm="spilleliste">               <i>spillelist</i><par n="enk/e__n"/></e>
+<e lm="spinat">                    <i>spinat</i><par n="aften__n"/></e>
+<e lm="spind">                     <i>spind</i><par n="slag__n"/></e>
+<e lm="spirit">                    <i>spirit</i><par n="aften__n"/></e>
+<e lm="sammenskudshold">           <i>sammenskudshold</i><par n="slag__n"/></e>
+<e lm="splid">                     <i>splid</i><par n="brud__n"/></e>
+<e lm="split">                     <i>split</i><par n="kat__n"/></e>
 
  <!-- /nouns -->
 
