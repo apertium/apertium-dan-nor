@@ -505,7 +505,7 @@
     <e><p><l>over<b/>land<s n="pr"/></l>                <r>landverts<s n="pr"/></r></p></e>
     <e><p><l>langs<s n="pr"/></l>                       <r>langsetter<s n="pr"/></r></p></e>
     <e><p><l>langs<b/>med<s n="pr"/></l>                <r>langsmed<s n="pr"/></r></p></e>
-    <e><p><l>langtfra<s n="pr"/></l>                    <r>langtfra<s n="pr"/></r></p></e>
+    <e><p><l>langt<b/>fra<s n="pr"/></l>                    <r>langtfra<s n="pr"/></r></p></e>
     <e><p><l>langvejs<s n="pr"/></l>                    <r>langveges<s n="pr"/></r></p></e>
     <e><p><l>langvejs<b/>fra<s n="pr"/></l>             <r>langvegesfra<s n="pr"/></r></p></e>
     <e><p><l>langvejs<s n="pr"/></l>                    <r>langvegs<s n="pr"/></r></p></e>
@@ -10650,7 +10650,11 @@
 <e><p><l>at<s n="part"/></l>            <r>å<s n="part"/></r></p></e>
 <e><p><l>her<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
 
+<e><p><l>sent<s n="adv"/></l><r>sent<s n="adv"/></r></p></e>
+<e><p><l>alias<s n="adv"/></l><r>alias<s n="adv"/></r></p></e>
+<e><p><l>mands<b/>minde<s n="adv"/></l><r>alders<b/>tid<s n="adv"/></r></p></e>
 <e><p><l>videre<s n="adv"/></l><r>videre<s n="adv"/></r></p></e>
+<e><p><l>helt<s n="adv"/></l><r>alt<s n="adv"/></r></p></e>
 <e><p><l>endnu<s n="adv"/></l><r>enda<s n="adv"/></r></p></e>
 <e><p><l>med<s n="adv"/></l><r>med<s n="adv"/></r></p></e>
 <e><p><l>tidligere<s n="adv"/></l><r>tidligere<s n="adv"/></r></p></e>

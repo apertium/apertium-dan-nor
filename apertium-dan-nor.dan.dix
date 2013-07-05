@@ -18711,6 +18711,7 @@
 
 
        <e lm="med">     <i>med</i><par n="ikke__adv"/></e>
+       <e lm="sent">     <i>sent</i><par n="ikke__adv"/></e>
   <e lm="alligevel">     <i>alligevel</i><par n="ikke__adv"/></e>
 <e lm="at">     <i>at</i><par n="ikke__adv"/></e>
 <e lm="sidst">     <i>sidst</i><par n="ikke__adv"/></e>
@@ -18756,14 +18757,15 @@
 <e lm="for">             <i>for</i><par n="ikke__adv"/></e>
 <e lm="senere">          <i>senere</i><par n="ikke__adv"/></e>
 
-<e lm="for tiden">       <i>for tiden</i><par n="ikke__adv"/></e>
-<e lm="til trods for">   <i>til trods for</i><par n="ikke__adv"/></e>
+<e lm="for tiden">       <i>for<b/>tiden</i><par n="ikke__adv"/></e>
+<e lm="mands minde">       <i>mands<b/>minde</i><par n="ikke__adv"/></e>
+<e lm="til trods for">   <i>til<b/>trods<b/>for</i><par n="ikke__adv"/></e>
 <e lm="forbi">           <i>forbi</i><par n="ikke__adv"/></e>
 <e lm="formodentligt">   <i>formodentligt</i><par n="ikke__adv"/></e>
 <e lm="fortsat">         <i>fortsat</i><par n="ikke__adv"/></e>
 <e lm="frem">            <i>frem</i><par n="ikke__adv"/></e>
-<e lm="lige så">          <i>lige så</i><par n="ikke__adv"/></e>
-<e lm="frem for">        <i>frem for</i><par n="ikke__adv"/></e>
+<e lm="lige så">          <i>lige<b/>så</i><par n="ikke__adv"/></e>
+<e lm="frem for">        <i>frem<b/>for</i><par n="ikke__adv"/></e>
 <e lm="få">              <i>f</i><par n="f/å__adv"/></e>
 <e lm="før">             <i>før</i><par n="ikke__adv"/></e>
 <e lm="først">           <i>først</i><par n="ikke__adv"/></e>
@@ -18795,17 +18797,17 @@
 <e lm="hvori">           <i>hvori</i><par n="ikke__adv"/></e>
 <e lm="hvormed">         <i>hvormed</i><par n="ikke__adv"/></e>
 <e lm="højst">           <i>højst</i><par n="ikke__adv"/></e>
-<e lm="i dag">           <i>i dag</i><par n="ikke__adv"/></e>
-<e lm="i går">           <i>i går</i><par n="ikke__adv"/></e>
-<e lm="i hænde">         <i>i hænde</i><par n="ikke__adv"/></e>
-<e lm="af hænde">        <i>af hænde</i><par n="ikke__adv"/></e>
+<e lm="i dag">           <i>i<b/>dag</i><par n="ikke__adv"/></e>
+<e lm="i går">           <i>i<b/>går</i><par n="ikke__adv"/></e>
+<e lm="i hænde">         <i>i<b/>hænde</i><par n="ikke__adv"/></e>
+<e lm="af hænde">        <i>af<b/>hænde</i><par n="ikke__adv"/></e>
 <e lm="igen">            <i>igen</i><par n="ikke__adv"/></e>
 <e lm="igennem">         <i>igennem</i><par n="ikke__adv"/></e>
 <e lm="ikke">            <i>ikke</i><par n="ikke__adv"/></e>
 <e lm="imidlertid">      <i>imidlertid</i><par n="ikke__adv"/></e>
 <e lm="imod">            <i>imod</i><par n="ikke__adv"/></e>
-<e lm="ind i">           <i>ind i</i><par n="ikke__adv"/></e>
-<e lm="i tide">          <i>i tide</i><par n="ikke__adv"/></e>
+<e lm="ind i">           <i>ind<b/>i</i><par n="ikke__adv"/></e>
+<e lm="i tide">          <i>i<b/>tide</i><par n="ikke__adv"/></e>
 <e lm="inde">            <i>inde</i><par n="ikke__adv"/></e>
 <e lm="især">            <i>især</i><par n="ikke__adv"/></e>
 <e lm="indenfor">        <i>indenfor</i><par n="ikke__adv"/></e>
@@ -18858,7 +18860,7 @@
 <e lm="pludseligt">      <i>pludseligt</i><par n="ikke__adv"/></e>
 <e lm="præcis">          <i>præcis</i><par n="ikke__adv"/></e>
 <e lm="på">              <i>på</i><par n="ikke__adv"/></e>
-<e lm="på tide">         <i>på tide</i><par n="ikke__adv"/></e>
+<e lm="på tide">         <i>på<b/>tide</i><par n="ikke__adv"/></e>
 <e lm="ret">             <i>ret</i><par n="ret__adv"/></e>
 <e lm="sammen">          <i>sammen</i><par n="ikke__adv"/></e>
 <e lm="sandsynligvis">   <i>sandsynligvis</i><par n="ikke__adv"/></e>
@@ -18889,27 +18891,27 @@
 <e lm="videre">             <i>videre</i><par n="ikke__adv"/></e>
 
 
-<e lm="a cappella">       <i>a cappella</i><par n="ikke__adv"/></e>
-<e lm="a conto">          <i>a conto</i><par n="ikke__adv"/></e>
-<e lm="a konto">          <i>a konto</i><par n="ikke__adv"/></e>
-<e lm="a posteriori">     <i>a posteriori</i><par n="ikke__adv"/></e>
-<e lm="a prima vista">    <i>a prima vista</i><par n="ikke__adv"/></e>
-<e lm="a priori">         <i>a priori</i><par n="ikke__adv"/></e>
-<e lm="a tempo">          <i>a tempo</i><par n="ikke__adv"/></e>
-<e lm="a verbo">          <i>a verbo</i><par n="ikke__adv"/></e>
-<e lm="a viso">           <i>a viso</i><par n="ikke__adv"/></e>
-<e lm="a vista">          <i>a vista</i><par n="ikke__adv"/></e>
-<e lm="ad absurdum">      <i>ad absurdum</i><par n="ikke__adv"/></e>
-<e lm="ad acta">          <i>ad acta</i><par n="ikke__adv"/></e>
-<e lm="ad hoc">           <i>ad hoc</i><par n="ikke__adv"/></e>
-<e lm="ad infinitum">     <i>ad infinitum</i><par n="ikke__adv"/></e>
-<e lm="ad notam">         <i>ad notam</i><par n="ikke__adv"/></e>
-<e lm="ad undas">         <i>ad undas</i><par n="ikke__adv"/></e>
+<e lm="a cappella">       <i>a<b/><b/>cappella</i><par n="ikke__adv"/></e>
+<e lm="a conto">          <i>a<b/>conto</i><par n="ikke__adv"/></e>
+<e lm="a konto">          <i>a<b/>konto</i><par n="ikke__adv"/></e>
+<e lm="a posteriori">     <i>a<b/>posteriori</i><par n="ikke__adv"/></e>
+<e lm="a prima vista">    <i>a<b/>prima vista</i><par n="ikke__adv"/></e>
+<e lm="a priori">         <i>a<b/>priori</i><par n="ikke__adv"/></e>
+<e lm="a tempo">          <i>a<b/>tempo</i><par n="ikke__adv"/></e>
+<e lm="a verbo">          <i>a<b/>verbo</i><par n="ikke__adv"/></e>
+<e lm="a viso">           <i>a<b/>viso</i><par n="ikke__adv"/></e>
+<e lm="a vista">          <i>a<b/>vista</i><par n="ikke__adv"/></e>
+<e lm="ad absurdum">      <i>ad<b/>absurdum</i><par n="ikke__adv"/></e>
+<e lm="ad acta">          <i>ad<b/>acta</i><par n="ikke__adv"/></e>
+<e lm="ad hoc">           <i>ad<b/>hoc</i><par n="ikke__adv"/></e>
+<e lm="ad infinitum">     <i>ad<b/>infinitum</i><par n="ikke__adv"/></e>
+<e lm="ad notam">         <i>ad<b/>notam</i><par n="ikke__adv"/></e>
+<e lm="ad undas">         <i>ad<b/>undas</i><par n="ikke__adv"/></e>
 <e lm="adagio">           <i>adagio</i><par n="ikke__adv"/></e>
 <e lm="adv.">             <i>adv.</i><par n="ikke__adv"/></e>
 <e lm="agterfra">        <i>agterifra</i><par n="ikke__adv"/></e>
-<e lm="al fresco">        <i>al fresco</i><par n="ikke__adv"/></e>
-<e lm="al secco">         <i>al secco</i><par n="ikke__adv"/></e>
+<e lm="al fresco">        <i>al<b/>fresco</i><par n="ikke__adv"/></e>
+<e lm="al secco">         <i>al<b/>secco</i><par n="ikke__adv"/></e>
 <!--<e lm="alders tid">       <i>alders tid</i><par n="ikke__adv"/></e>-->
 <e lm="alene">            <i>alene</i><par n="ikke__adv"/></e>
 <e lm="alenvis">          <i>alenvis</i><par n="ikke__adv"/></e>
@@ -19236,7 +19238,7 @@
 <e lm="idag">             <i>idag</i><par n="ikke__adv"/></e>
 <e lm="ifjor">            <i>ifjor</i><par n="ikke__adv"/></e>
 <e lm="igang">            <i>igang</i><par n="ikke__adv"/></e>
-<e lm="igå                r">        <i>igår</i><par n="ikke__adv"/></e>
+<e lm="igår">        <i>igår</i><par n="ikke__adv"/></e>
 <e lm="ihjel">            <i>ihjel</i><par n="ikke__adv"/></e>
 <e lm="i aften">           <i>i<b/>aften</i><par n="ikke__adv"/></e>
 <e lm="iland">            <i>iland</i><par n="ikke__adv"/></e>
@@ -19453,8 +19455,8 @@
 <e lm="overmåde">         <i>overmåde</i><par n="ikke__adv"/></e>
 <e lm="pakkende">         <i>pakkende</i><par n="ikke__adv"/></e>
 <e lm="stille">              <i>stille</i><par n="ikke__adv"/></e>
-<e lm="par avion">        <i>par avion</i><par n="ikke__adv"/></e>
-<e lm="par excellence">   <i>par excellence</i><par n="ikke__adv"/></e>
+<e lm="par avion">        <i>paravion</i><par n="ikke__adv"/></e>
+<e lm="par excellence">   <i>par<b/>excellence</i><par n="ikke__adv"/></e>
 <e lm="parlando">         <i>parlando</i><par n="ikke__adv"/></e>
 <e lm="pars pro toto">    <i>pars<b/>pro<b/>toto</i><par n="ikke__adv"/></e>
 <e lm="partout">          <i>partout</i><par n="ikke__adv"/></e>
@@ -19577,8 +19579,7 @@
 <e lm="sommertid">       <i>sommertid</i><par n="ikke__adv"/></e>
 <e lm="binde">           <i>binde</i><par n="ikke__adv"/></e>
 <e lm="specielt">         <i>specielt</i><par n="ikke__adv"/></e>
-<e lm="spildrende">       <i>spildrende</i><par n="ikke__adv"/></e>
-<e lm="spill">            <i>spill</i><par n="ikke__adv"/></e>
+<e lm="spillrende">       <i>spillrende</i><par n="ikke__adv"/></e>
 <!--<e lm="spillende">        <i>spillende</i><par n="ikke__adv"/></e>-->
 <e lm="splitter">         <i>splitter</i><par n="ikke__adv"/></e>
 <e lm="sporenstrengs">     <i>sporenstrengs</i><par n="ikke__adv"/></e>
@@ -19614,13 +19615,13 @@
 
 <e lm="så godt">             <i>så<b/>nær</i><par n="ikke__adv"/></e>
 <e lm="så meget">          <i>så<b/>meget</i><par n="ikke__adv"/></e>
-<e lm="så sant">          <i>så<b/>sant</i><par n="ikke__adv"/></e>
+<e lm="så sant">          <i>så<b/>sandt</i><par n="ikke__adv"/></e>
 <e lm="så snart">         <i>så<b/>snart</i><par n="ikke__adv"/></e>
 <e lm="så vidt">          <i>så<b/>vidt</i><par n="ikke__adv"/></e>
-<e lm="så vist">         <i>så<b/>visst</i><par n="ikke__adv"/></e>
+<e lm="så vist">         <i>så<b/>vist</i><par n="ikke__adv"/></e>
 <e lm="sågar">            <i>sågar</i><par n="ikke__adv"/></e>
 <e lm="således">           <i>således</i><par n="ikke__adv"/></e>
-<e lm="sådan">             <i>sånn</i><par n="ikke__adv"/></e>
+<e lm="sådan">             <i>sådam</i><par n="ikke__adv"/></e>
 <e lm="såvel">            <i>såvel</i><par n="ikke__adv"/></e>
 <e lm="såvidt">           <i>såvidt</i><par n="ikke__adv"/></e>
 <e lm="særdeles">         <i>særdeles</i><par n="ikke__adv"/></e>
@@ -19728,7 +19729,7 @@
 <e lm="årevis">           <i>årevis</i><par n="ikke__adv"/></e>
 <e lm="årligt">        <i>årligt</i><par n="ikke__adv"/></e>
 <e lm="hvordan">            <i>hvordan</i><par n="ikke__adv"/></e>
-<e lm="øjensynlig">       <i>øyensynlig</i><par n="ikke__adv"/></e>
+<e lm="øjensynlig">       <i>øjensynlig</i><par n="ikke__adv"/></e>
  <!--/adverbs -->
 
     <!-- ******************************
