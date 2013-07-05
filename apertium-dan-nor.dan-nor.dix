@@ -8346,7 +8346,7 @@
 <e><p><l>statsobligation<s n="n"/><s n="ut"/></l><r>statsobligasjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>statsråd<s n="n"/><s n="nt"/></l><r>statsråd<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>statssekretær<s n="n"/><s n="ut"/></l><r>statssekretær<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>statsvidenskap<s n="n"/><s n="ut"/></l><r>statsvitenskap<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>statsvidenskab<s n="n"/><s n="ut"/></l><r>statsvitenskap<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stavkirke<s n="n"/><s n="ut"/></l><r>stavkirke<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stedfortræder<s n="n"/><s n="ut"/></l><r>stedfortreder<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stedfar<s n="n"/><s n="ut"/></l><r>stefar<s n="n"/><s n="m"/></r></p></e>
@@ -8358,24 +8358,208 @@
 <e><p><l>stereoanlæg<s n="n"/><s n="nt"/></l><r>stereoanlegg<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>sterling<s n="n"/><s n="ut"/></l><r>sterling<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>steroid<s n="n"/><s n="nt"/></l><r>steroid<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>sti<s n="n"/><s n="nt"/></l><r>sti<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stift<s n="n"/><s n="ut"/></l><r>stift<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>stikk<s n="n"/><s n="nt"/></l><r>stikk<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>stikkord<s n="n"/><s n="nt"/></l><r>stikkord<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>stikkprøve<s n="n"/><s n="ut"/></l><r>stikkprøve<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stik<s n="n"/><s n="nt"/></l><r>stikk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stikord<s n="n"/><s n="nt"/></l><r>stikkord<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stikprøve<s n="n"/><s n="ut"/></l><r>stikkprøve<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stilart<s n="n"/><s n="ut"/></l><r>stilart<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stillbillede<s n="n"/><s n="nt"/></l><r>still<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stillads<s n="n"/><s n="nt"/></l><r>stillas<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stillbillede<s n="n"/><s n="nt"/></l><r>stillbilde<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stillhed<s n="n"/><s n="ut"/></l><r>stillhet<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stilling<s n="n"/><s n="ut"/></l><r>stilling<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>stim<s n="n"/><s n="nt"/></l><r>stim<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stime<s n="n"/><s n="ut"/></l><r>stim<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stimulans<s n="n"/><s n="ut"/></l><r>stimulans<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stimulus<s n="n"/><s n="ut"/></l><r>stimulus<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stipendiat<s n="n"/><s n="nt"/></l><r>stipend<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stipendiat<s n="n"/><s n="ut"/></l><r>stipendiat<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>stirr<s n="n"/><s n="ut"/></l><r>stirr<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stivelse<s n="n"/><s n="ut"/></l><r>stivelse<s n="n"/><s n="m"/></r></p></e>
+
+
+
+<e><p><l>stjerne<s n="n"/><s n="ut"/></l><r>stjerne<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stjernehimmel<s n="n"/><s n="ut"/></l><r>stjernehimmel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stofmisbrug<s n="n"/><s n="nt"/></l><r>stoffmisbruk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stofskifte<s n="n"/><s n="nt"/></l><r>stoffskifte<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stolpe<s n="n"/><s n="ut"/></l><r>stolpe<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stop<s n="n"/><s n="nt"/></l><r>stopp<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stopper<s n="n"/><s n="ut"/></l><r>stopper<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stoppested<s n="n"/><s n="nt"/></l><r>stoppested<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>storebror<s n="n"/><s n="ut"/></l><r>storebror<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>storfæ<s n="n"/><s n="nt"/></l><r>storfe<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stork<s n="n"/><s n="ut"/></l><r>stork<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>storm<s n="n"/><s n="ut"/></l><r>storm<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stormagt<s n="n"/><s n="ut"/></l><r>stormakt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stormester<s n="n"/><s n="ut"/></l><r>stormester<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stormskridt<s n="n"/><s n="nt"/></l><r>stormskritt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>størstedel<s n="n"/><s n="ut"/></l><r>storpart<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>storsamfund<s n="n"/><s n="nt"/></l><r>storsamfunn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>storting<s n="n"/><s n="nt"/></l><r>storting<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stortingskandidat<s n="n"/><s n="ut"/></l><r>stortingskandidat<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stortingsperiode<s n="n"/><s n="ut"/></l><r>stortingsperiode<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stortingspræsident<s n="n"/><s n="ut"/></l><r>stortingspresident<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stortingsrepræsentant<s n="n"/><s n="ut"/></l><r>stortingsrepresentant<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>story<s n="n"/><s n="ut"/></l><r>story<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>straf<s n="n"/><s n="ut"/></l><r>straff<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strafferet<s n="n"/><s n="ut"/></l><r>strafferett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>straight<s n="n"/><s n="ut"/></l><r>straight<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strand<s n="n"/><s n="ut"/></l><r>strand<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strandkant<s n="n"/><s n="ut"/></l><r>strandkant<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strategi<s n="n"/><s n="ut"/></l><r>strategi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stræk<s n="n"/><s n="nt"/></l><r>strekk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>strækning<s n="n"/><s n="ut"/></l><r>strekning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>streng<s n="n"/><s n="ut"/></l><r>streng<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stress<s n="n"/><s n="nt"/></l><r>stress<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stress<s n="n"/><s n="ut"/></l><r>stress<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>slid<s n="n"/><s n="nt"/></l><r>strev<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>strid<s n="n"/><s n="ut"/></l><r>strid<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stridsvogn<s n="n"/><s n="ut"/></l><r>stridsvogn<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stribe<s n="n"/><s n="ut"/></l><r>stripe<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strip<s n="n"/><s n="ut"/></l><r>stripp<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strop<s n="n"/><s n="ut"/></l><r>stropp<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>struktur<s n="n"/><s n="ut"/></l><r>struktur<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stryg<s n="n"/><s n="nt"/></l><r>stryk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stryg<s n="n"/><s n="nt"/></l><r>stryk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stråle<s n="n"/><s n="ut"/></l><r>stråle<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stråleværn<s n="n"/><s n="nt"/></l><r>strålevern<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stråling<s n="n"/><s n="ut"/></l><r>stråling<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>strømforbrug<s n="n"/><s n="nt"/></l><r>strømforbruk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>studenterby<s n="n"/><s n="ut"/></l><r>studentby<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>studenterorganisation<s n="n"/><s n="ut"/></l><r>studentsamskipnad<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>studenterunion<s n="n"/><s n="ut"/></l><r>studentunion<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>studie<s n="n"/><s n="ut"/></l><r>studie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>studielån<s n="n"/><s n="nt"/></l><r>studielån<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>studieplan<s n="n"/><s n="ut"/></l><r>studieplan<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>studio<s n="n"/><s n="nt"/></l><r>studio<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stue<s n="n"/><s n="ut"/></l><r>stue<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>stue<s n="n"/><s n="ut"/></l><r>stue<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stuebord<s n="n"/><s n="nt"/></l><r>stuebord<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stund<s n="n"/><s n="ut"/></l><r>stund<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>studs<s n="n"/><s n="ut"/></l><r>stuss<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>styreformand<s n="n"/><s n="ut"/></l><r>styreformann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>styreleder<s n="n"/><s n="ut"/></l><r>styreleder<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>styremedlem<s n="n"/><s n="nt"/></l><r>styremedlem<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>styremøde<s n="n"/><s n="nt"/></l><r>styremøte<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>styremåde<s n="n"/><s n="nt"/></l><r>styresett<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>styring<s n="n"/><s n="ut"/></l><r>styring<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>styrkeforhold<s n="n"/><s n="nt"/></l><r>styrkeforhold<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>styrkeprøve<s n="n"/><s n="ut"/></l><r>styrkeprøve<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>styrmand<s n="n"/><s n="ut"/></l><r>styrmann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>styrt<s n="n"/><s n="ut"/></l><r>styrt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>stær<s n="n"/><s n="ut"/></l><r>stær<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>chock<s n="n"/><s n="nt"/></l><r>støkk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>understøttelse<s n="n"/><s n="ut"/></l><r>stønad<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>støn<s n="n"/><s n="nt"/></l><r>stønn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>stør<s n="n"/><s n="ut"/></l><r>stør<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>størstedel<s n="n"/><s n="ut"/></l><r>størstedel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>størstedel<s n="n"/><s n="ut"/></l><r>størstepart<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>støttekontakt<s n="n"/><s n="ut"/></l><r>støttekontakt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>støvle<s n="n"/><s n="ut"/></l><r>støvel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sut<s n="n"/><s n="ut"/></l><r>subb<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>subjektivitet<s n="n"/><s n="ut"/></l><r>subjektivitet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>subsidie<s n="n"/><s n="ut"/></l><r>subsidie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>substans<s n="n"/><s n="ut"/></l><r>substans<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sug<s n="n"/><s n="nt"/></l><r>sug<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>suk<s n="n"/><s n="ut"/></l><r>sukk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sul<s n="n"/><s n="nt"/></l><r>sul<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sultan<s n="n"/><s n="ut"/></l><r>sultan<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sum<s n="n"/><s n="nt"/></l><r>sum<s n="n"/><s n="nt"/></r></p></e>
+
+<e><p><l>sump<s n="n"/><s n="ut"/></l><r>sump<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sund<s n="n"/><s n="nt"/></l><r>sund<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>slurk<s n="n"/><s n="ut"/></l><r>sup<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sut<s n="n"/><s n="ut"/></l><r>super<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>superior<s n="n"/><s n="ut"/></l><r>superior<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>supermand<s n="n"/><s n="ut"/></l><r>supermann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>suppe<s n="n"/><s n="ut"/></l><r>suppe<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>suppe<s n="n"/><s n="ut"/></l><r>suppe<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>supplement<s n="n"/><s n="nt"/></l><r>supplement<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>supporter<s n="n"/><s n="ut"/></l><r>supporter<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sus<s n="n"/><s n="ut"/></l><r>sus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>suspension<s n="n"/><s n="ut"/></l><r>suspensjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sutter<s n="n"/><s n="nt"/></l><r>sutter<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>suverænitet<s n="n"/><s n="ut"/></l><r>suverenitet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svada<s n="n"/><s n="ut"/></l><r>svada<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svaghed<s n="n"/><s n="ut"/></l><r>svakhet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svamp<s n="n"/><s n="ut"/></l><r>svamp<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sort<s n="n"/><s n="nt"/></l><r>svart<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svælg<s n="n"/><s n="nt"/></l><r>svelg<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svensk<s n="n"/><s n="nt"/></l><r>svensk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svenske<s n="n"/><s n="ut"/></l><r>svenske<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sværm<s n="n"/><s n="ut"/></l><r>sverm<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svie<s n="n"/><s n="ut"/></l><r>svie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svigerfar<s n="n"/><s n="ut"/></l><r>svigerfar<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svig<s n="n"/><s n="nt"/></l><r>svik<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svin<s n="n"/><s n="nt"/></l><r>svin<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svindel<s n="n"/><s n="ut"/></l><r>svindel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svineinfluenza<s n="n"/><s n="ut"/></l><r>svineinfluensa<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svineinfluenzavaccine<s n="n"/><s n="ut"/></l><r>svineinfluensavaksine<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sving<s n="n"/><s n="ut"/></l><r>sving<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svind<s n="n"/><s n="nt"/></l><r>svinn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svoger<s n="n"/><s n="ut"/></l><r>svoger<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svær<s n="n"/><s n="ut"/></l><r>svor<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svovl<s n="n"/><s n="nt"/></l><r>svovel<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>svulst<s n="n"/><s n="ut"/></l><r>svulst<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>svømning<s n="n"/><s n="ut"/></l><r>svømming<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>swing<s n="n"/><s n="ut"/></l><r>swing<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>syfilis<s n="n"/><s n="ut"/></l><r>syfilis<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>plejehjem<s n="n"/><s n="nt"/></l><r>sykehjem<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sygepleje<s n="n"/><s n="ut"/></l><r>sykepleie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sygeplejer<s n="n"/><s n="ut"/></l><r>sykepleier<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sygeplejerutdannelse<s n="n"/><s n="ut"/></l><r>sykepleierutdanning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cykelvej<s n="n"/><s n="ut"/></l><r>sykkelvei<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cykling<s n="n"/><s n="ut"/></l><r>sykling<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cyklus<s n="n"/><s n="ut"/></l><r>syklus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>symbiose<s n="n"/><s n="ut"/></l><r>symbiose<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>symbol<s n="n"/><s n="nt"/></l><r>symbol<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>symbolik<s n="n"/><s n="ut"/></l><r>symbolikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>symfoniorkester<s n="n"/><s n="nt"/></l><r>symfoniorkester<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sympati<s n="n"/><s n="ut"/></l><r>sympati<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sympatisør<s n="n"/><s n="ut"/></l><r>sympatisør<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>symposium<s n="n"/><s n="nt"/></l><r>symposium<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>synagoge<s n="n"/><s n="ut"/></l><r>synagoge<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>synd<s n="n"/><s n="ut"/></l><r>synd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>syndebuk<s n="n"/><s n="ut"/></l><r>syndebukk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>syndefald<s n="n"/><s n="nt"/></l><r>syndefall<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>synergi<s n="n"/><s n="ut"/></l><r>synergi<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>synsfelt<s n="n"/><s n="nt"/></l><r>synsfelt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>synspunkt<s n="n"/><s n="nt"/></l><r>synspunkt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>syssel<s n="n"/><s n="ut"/></l><r>syssel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sysselmand<s n="n"/><s n="ut"/></l><r>sysselmann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sysselsættelse<s n="n"/><s n="ut"/></l><r>sysselsetting<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>systematik<s n="n"/><s n="ut"/></l><r>systematikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>såkorn<s n="n"/><s n="nt"/></l><r>såkorn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sæd<s n="n"/><s n="ut"/></l><r>sæd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>særklasse<s n="n"/><s n="ut"/></l><r>særklasse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>særpræg<s n="n"/><s n="nt"/></l><r>særpreg<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søgning<s n="n"/><s n="nt"/></l><r>søk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søgelys<s n="n"/><s n="nt"/></l><r>søkelys<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søger<s n="n"/><s n="ut"/></l><r>søker<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ansøgningsfrist<s n="n"/><s n="ut"/></l><r>søknadsfrist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ansøgningsskema<s n="n"/><s n="nt"/></l><r>søknadsskjema<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søgsmål<s n="n"/><s n="nt"/></l><r>søksmål<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søndagsskole<s n="n"/><s n="ut"/></l><r>søndagsskole<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>syd<s n="n"/><s n="nt"/></l><r>sør<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sydpol<s n="n"/><s n="ut"/></l><r>sørpol<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sydside<s n="n"/><s n="ut"/></l><r>sørside<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sydstat<s n="n"/><s n="ut"/></l><r>sørstat<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>søskende<s n="n"/><s n="nt"/></l><r>søsken<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>søskendebarn<s n="n"/><s n="nt"/></l><r>søskenbarn<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>t-shirt<s n="n"/><s n="ut"/></l><r>t-shirt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>t-shirt<s n="n"/><s n="ut"/></l><r>t-skjorte<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>t-shirt<s n="n"/><s n="ut"/></l><r>t-skjorte<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tabbe<s n="n"/><s n="ut"/></l><r>tabbe<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tablet<s n="n"/><s n="ut"/></l><r>tablett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tabu<s n="n"/><s n="nt"/></l><r>tabu<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>tagg<s n="n"/><s n="ut"/></l><r>tagg<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tak<s n="n"/><s n="ut"/></l><r>takk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>takst<s n="n"/><s n="ut"/></l><r>takst<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>takstmand<s n="n"/><s n="ut"/></l><r>takstmann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>takt<s n="n"/><s n="ut"/></l><r>takt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>taktik<s n="n"/><s n="ut"/></l><r>taktikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tal<s n="n"/><s n="nt"/></l><r>tal<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>tal<s n="n"/><s n="nt"/></l><r>tall<s n="n"/><s n="nt"/></r></p></e>
+
 
 <!--/nouns-->
 
@@ -8583,7 +8767,21 @@
 <e><p><l>Magnusson<s n="np"/></l><r>Magnusson</r></p></e>
 <e><p><l>Gustavsson<s n="np"/></l><r>Gustavsson</r></p></e>
 
-<!-- *Adjectives -->
+
+
+
+
+
+
+<!--
+
+
+ /////Adjectives//////
+
+
+  -->
+
+
 <e><p><l>alternativ<s n="adj"/></l><r>alternativ<s n="adj"/></r></p></e>
 <e><p><l>længe<s n="adj"/></l><r>lenge<s n="adj"/></r></p></e>
 <e><p><l>rød<s n="adj"/></l><r>rød<s n="adj"/></r></p></e>
