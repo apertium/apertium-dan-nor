@@ -17,6 +17,9 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
+  <def-cat n="ncmp">
+      <cat-item tags="n.*.*.*.cmp"/>
+    </def-cat>
    <def-cat n="adj-pprs">
       <cat-item tags="adj.pprs"/>
       <cat-item tags="adj.pprs.*"/>
@@ -314,6 +317,20 @@
  </def-macro>
 
 
+    <def-macro n="out_cp_lhs" npar="1">
+      <out>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_nom"/>
+          <clip pos="1" side="tl" part="gen"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="defnes"/>
+          <clip pos="1" side="tl" part="cas"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+      </out>
+    </def-macro>
+
 </section-def-macros>
 
 
@@ -525,6 +542,35 @@
           <let><var n="køn2"/><lit v=""/></let>
          </action>
       </rule>
+
+
+    <rule comment="NCMP NOM: ytelse ytelse => ytingsyting
+                   Remove the space that pretransfer added">
+      <pattern>
+        <pattern-item n="ncmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="out_cp_lhs"><with-param pos="1"/></call-macro>
+        <out><lu><clip pos="2" side="tl" part="whole"/></lu></out>
+      </action>
+    </rule>
+
+
+    <rule comment="NCMP NCMP NOM: ytelses ytelse ytelse => ytingsytingyting
+                   Remove the space that pretransfer added">
+      <pattern>
+        <pattern-item n="ncmp"/>
+        <pattern-item n="ncmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="out_cp_lhs"><with-param pos="1"/></call-macro>
+        <call-macro n="out_cp_lhs"><with-param pos="2"/></call-macro>
+        <out><lu><clip pos="3" side="tl" part="whole"/></lu></out>
+      </action>
+    </rule>
+
 
 
 <rule comment=" DET (DEF) + NOUN (DEF) >  DET (DEF)  NOUN (IND)  den manden > den mand" >
