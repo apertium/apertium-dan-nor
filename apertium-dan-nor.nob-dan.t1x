@@ -664,14 +664,15 @@
          <choose>
           <when><test><equal>
                 <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
-
               </test>
-
                 <let><var n="køn"/><lit-tag v="ut"/></let></when>
                     <otherwise>
                       <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
                     </otherwise>
             </choose>
+
+
+
 
             <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
 
