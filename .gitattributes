@@ -43,3 +43,4 @@ dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /nno-dan.prob -text svneol=unset#unset
 /nob-dan.prob -text
+texts/evaluationtext14072013.txt -text
