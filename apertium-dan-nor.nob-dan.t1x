@@ -14,8 +14,13 @@
 
     <def-cat n="nom">
       <cat-item tags="n.*"/>
-      <cat-item tags="np.*"/>
+
     </def-cat>
+
+     <def-cat n="np">
+      <cat-item tags="np"/>
+      <cat-item tags="np.*"/>
+        </def-cat>
 
   <def-cat n="ncmp">
       <cat-item tags="n.*.*.*.cmp"/>
@@ -126,6 +131,11 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
+    </def-attr>
+
+      <def-attr n="a_np">
+      <attr-item tags="np"/>
+       <attr-item tags="np.top"/>
     </def-attr>
 
  <def-attr n="a_det">
@@ -338,7 +348,7 @@
           <clip pos="1" side="tl" part="lemq"/>
         </lu>
       </out>
- 
+
            <let><var n="kasus"/><lit v=""/></let>
     </def-macro>
 
@@ -374,6 +384,34 @@
            <let><var n="kasus"/><lit v=""/></let>
       </action>
     </rule>
+
+
+    <rule comment="RULE: PROPER NOUNS → PROPER NOUNS ">
+      <pattern>
+        <pattern-item n="np"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><equal>
+                <!--if the noun has no tag for case, give it the case 'nom'-->
+                <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+                <let><var n="kasus"/><lit-tag v="nom"/></let></when>
+          <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+        </choose>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_np"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <var n="kasus"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+           <let><var n="kasus"/><lit v=""/></let>
+      </action>
+    </rule>
+
 
 
 
