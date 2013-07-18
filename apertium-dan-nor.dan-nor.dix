@@ -81,7 +81,15 @@
 </sdefs>
 <pardefs>
 
-<!-- Adjectives -->
+<!-- Nouns with two genders -->
+
+
+
+<pardef n="n_mf">
+<e>        <p><l><s n="ut"/></l><r><s n="m"/></r></p></e>
+<e r="RL"> <p><l><s n="ut"/></l><r><s n="f"/></r></p></e>
+
+</pardef>
 
 
 
@@ -106,6 +114,7 @@
 <!--<e>       <p><l><s n="pp"/></l><r><s n="pp"/></r></p></e>-->
 <e>       <p><l><s n="adj"/><s n="pp"/></l><r><s n="adj"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="pp"/></l><r><s n="vblex"/><s n="pp"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="pp"/><s n="ut"/></l><r><s n="vblex"/><s n="pp"/><s n="mf"/></r></p></e>
 
 
 </pardef>
@@ -128,6 +137,8 @@
 <e>       <p><l><s n="vbhaver"/><s n="pp"/></l><r><s n="vblex"/><s n="pp"/></r></p></e>
 
 </pardef>
+
+
 
 <pardef n="vbser_generic__vblex">
 
@@ -1460,7 +1471,15 @@
 <e><p><l>ni<s n="num"/><s n="un"/><s n="pl"/></l><r>ni<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e><p><l>ti<s n="num"/><s n="un"/><s n="pl"/></l><r>ti<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
+<!-- åring og tal -->
+<e><re>[0-9]+</re><p><l>-årig<s n="n"/><s n="ut"/></l><r>-åring<s n="n"/><s n="m"/></r></p></e>
+
+<e><re>[0-9]+</re><p><l>-tal<s n="n"/><s n="nt"/></l><r>-tall<s n="n"/><s n="nt"/></r></p></e>
+
+
 <!-- *Nouns -->
+
+
 <e><p><l>aberration<s n="n"/><s n="ut"/></l><r>aberrasjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ting<s n="n"/><s n="ut"/></l>         <r>ting<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>tysker<s n="n"/><s n="ut"/></l>         <r>tysker<s n="n"/><s n="m"/></r></p></e>
@@ -1614,6 +1633,7 @@
 <e><p><l>akademi<s n="n"/><s n="nt"/></l><r>akademi<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>løn<s n="n"/><s n="ut"/></l><r>lønn<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ligeløn<s n="n"/><s n="ut"/></l><r>likelønn<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ligeløn<s n="n"/><s n="ut"/></l><r>likelønn<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>løn<s n="n"/><s n="ut"/></l><r>lønn<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>akkompagnement<s n="n"/><s n="nt"/></l><r>akkompagnement<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>akkord<s n="n"/><s n="ut"/></l><r>akkord<s n="n"/><s n="m"/></r></p></e>
@@ -4886,6 +4906,9 @@
 <e><p><l>episode<s n="n"/><s n="ut"/></l><r>episode<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>erektion<s n="n"/><s n="ut"/></l><r>ereksjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>erfaring<s n="n"/><s n="ut"/></l><r>erfaring<s n="n"/><s n="m"/></r></p></e>
+
+<e><p><l>erfaring<s n="n"/></l><r>erfaring<s n="n"/></r></p> <par n="n_mf"/></e>
+
 <e><p><l>ergonomi<s n="n"/><s n="ut"/></l><r>ergonomi<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ergoterapeut<s n="n"/><s n="ut"/></l><r>ergoterapeut<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ergoterapi<s n="n"/><s n="ut"/></l><r>ergoterapi<s n="n"/><s n="m"/></r></p></e>
@@ -5089,7 +5112,7 @@
 <e><p><l>fjernvarme<s n="n"/><s n="ut"/></l><r>fjernvarme<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>fjæs<s n="n"/><s n="nt"/></l><r>fjes<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>fjording<s n="n"/><s n="ut"/></l><r>fjording<s n="n"/><s n="m"/></r></p></e>
-<!--<e><p><l>fjor<s n="n"/><s n="nt"/></l><r>fjorår<s n="n"/><s n="nt"/></r></p></e>-->
+<e><p><l>fjor<s n="n"/><s n="nt"/></l><r>fjorår<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>fjer<s n="n"/><s n="ut"/></l><r>fjær<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stald<s n="n"/><s n="ut"/></l><r>fjøs<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>stald<s n="n"/><s n="ut"/></l><r>fjøs<s n="n"/><s n="m"/></r></p></e>
@@ -5239,6 +5262,7 @@
 <e><p><l>forum<s n="n"/><s n="nt"/></l><r>forum<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>forundring<s n="n"/><s n="ut"/></l><r>forundring<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>forvaltning<s n="n"/><s n="ut"/></l><r>forvaltning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>forvaltning<s n="n"/><s n="ut"/></l><r>forvaltning<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>forvandling<s n="n"/><s n="ut"/></l><r>forvandling<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>forvarsel<s n="n"/><s n="nt"/></l><r>forvarsel<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>forvirring<s n="n"/><s n="ut"/></l><r>forvirring<s n="n"/><s n="m"/></r></p></e>
@@ -7771,6 +7795,7 @@
 <e><p><l>refusion<s n="n"/><s n="ut"/></l><r>refusjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>regatta<s n="n"/><s n="nt"/></l><r>regatta<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>regel<s n="n"/><s n="ut"/></l><r>regel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>regel<s n="n"/><s n="ut"/></l><r>regel<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>regelsæt<s n="n"/><s n="nt"/></l><r>regelverk<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>reggae<s n="n"/><s n="ut"/></l><r>reggae<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>regi<s n="n"/><s n="ut"/></l><r>regi<s n="n"/><s n="m"/></r></p></e>
@@ -8001,6 +8026,7 @@
 <e><p><l>sandel<s n="n"/><s n="ut"/></l><r>sandel<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sanktion<s n="n"/><s n="ut"/></l><r>sanksjon<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sandhed<s n="n"/><s n="ut"/></l><r>sannhet<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sandhed<s n="n"/><s n="ut"/></l><r>sannhet<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>sans<s n="n"/><s n="ut"/></l><r>sans<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sarkasme<s n="n"/><s n="ut"/></l><r>sarkasme<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>satan<s n="n"/><s n="ut"/></l><r>satan<s n="n"/><s n="m"/></r></p></e>
@@ -8096,7 +8122,8 @@
 <e><p><l>sigma<s n="n"/><s n="ut"/></l><r>sigma<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>signatur<s n="n"/><s n="ut"/></l><r>signatur<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sikring<s n="n"/><s n="ut"/></l><r>sikring<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>sigt<s n="n"/><s n="ut"/></l><r>sikt<s n="n"/><s n="m"/></r></p></e>
+<!--<e><p><l>sigt<s n="n"/><s n="ut"/></l><r>sikt<s n="n"/><s n="m"/></r></p></e>-->
+<e><p><l>sigt<s n="n"/></l><r>sikt<s n="n"/></r></p><par n="n_mf"/></e>
 <e><p><l>sigte<s n="n"/><s n="nt"/></l><r>sikte<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>sigtemål<s n="n"/><s n="nt"/></l><r>siktemål<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>silikone<s n="n"/><s n="ut"/></l><r>silikon<s n="n"/><s n="nt"/></r></p></e>
@@ -8299,7 +8326,7 @@
 <e><p><l>smask<s n="n"/><s n="nt"/></l><r>smask<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>smat<s n="n"/><s n="nt"/></l><r>smatt<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>smed<s n="n"/><s n="ut"/></l><r>smed<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>smæld<s n="n"/><s n="nt"/></l><r>smell<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>smæld<s n="n"/><s n="nt"/></l><r>smell<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>smedje<s n="n"/><s n="ut"/></l><r>smie<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>smil<s n="n"/><s n="nt"/></l><r>smil<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>smoking<s n="n"/><s n="ut"/></l><r>smoking<s n="n"/><s n="m"/></r></p></e>
@@ -8312,6 +8339,7 @@
 <e><p><l>smådyr<s n="n"/><s n="nt"/></l><r>smådyr<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>småfejl<s n="n"/><s n="ut"/></l><r>småfeil<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>småskole<s n="n"/><s n="ut"/></l><r>småskole<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sommer<s n="n"/><s n="ut"/></l><r>høst<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>småting<s n="n"/><s n="ut"/></l><r>småting<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>småtteri<s n="n"/><s n="nt"/></l><r>småtteri<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>snacks<s n="n"/><s n="ut"/></l><r>snacks<s n="n"/><s n="m"/></r></p></e>
@@ -8733,6 +8761,7 @@
 <e><p><l>tekniker<s n="n"/><s n="ut"/></l><r>tekniker<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>teknik<s n="n"/><s n="ut"/></l><r>teknikk<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>tekst<s n="n"/><s n="ut"/></l><r>tekst<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tekst<s n="n"/><s n="ut"/></l><r>tekst<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>tekstil<s n="n"/><s n="nt"/></l><r>tekstil<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bund<s n="n"/><s n="ut"/></l><r>tel<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>tele<s n="n"/><s n="ut"/></l><r>tele<s n="n"/><s n="m"/></r></p></e>
@@ -9006,7 +9035,7 @@
 <e><p><l>uafhængighed<s n="n"/><s n="ut"/></l><r>uavhengighet<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ubalance<s n="n"/><s n="ut"/></l><r>ubalanse<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ubåd<s n="n"/><s n="ut"/></l><r>ubåt<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>uddannelse<s n="n"/><s n="ut"/></l><r>uddanning<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>uddannelse<s n="n"/><s n="ut"/></l><r>utdanning<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>uenighed<s n="n"/><s n="ut"/></l><r>uenighet<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>uheld<s n="n"/><s n="ut"/></l><r>uflaks<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ufo<s n="n"/><s n="ut"/></l><r>ufo<s n="n"/><s n="m"/></r></p></e>
@@ -9067,6 +9096,7 @@
 <e><p><l>usæd<s n="n"/><s n="ut"/></l><r>used<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>udbredelse<s n="n"/><s n="ut"/></l><r>utbredelse<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>udbygning<s n="n"/><s n="ut"/></l><r>utbygging<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>udbygning<s n="n"/><s n="ut"/></l><r>utbygging<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>uddannelse<s n="n"/><s n="ut"/></l><r>uddanning<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>udddannelsesnivå<s n="n"/><s n="nt"/></l><r>uddanningsnivå<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>uddannelsessystem<s n="n"/><s n="nt"/></l><r>uddanningssystem<s n="n"/><s n="nt"/></r></p></e>
@@ -9078,6 +9108,7 @@
 <e><p><l>udgangspunkt<s n="n"/><s n="nt"/></l><r>utgangspunkt<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>udgave<s n="n"/><s n="ut"/></l><r>utgave<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>udgift<s n="n"/><s n="ut"/></l><r>utgift<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>udgift<s n="n"/><s n="ut"/></l><r>utgift<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>udkant<s n="n"/><s n="ut"/></l><r>udtant<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>udkig<s n="n"/><s n="ut"/></l><r>utkikk<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>udland<s n="n"/><s n="nt"/></l><r>utland<s n="n"/><s n="nt"/></r></p></e>
@@ -30383,7 +30414,7 @@
 <e><p><l>sandsynlig<s n="adj"/></l><r>sannsynlig<s n="adj"/></r></p></e>
 <e><p><l>sikker<s n="adj"/></l>            <r>antagelig<s n="adj"/></r></p></e>
 <e><p><l>smuk<s n="adj"/></l><r>vakker<s n="adj"/></r></p></e>
-<e><p><l>snavset<s n="adj"/></l><r>skitten<s n="adj"/></r></p></e>
+<e><p><l>beskidt<s n="adj"/></l><r>skitten<s n="adj"/></r></p></e>
 <e><p><l>sort<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>
 <e><p><l>speciel<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>
 <e><p><l>stille<s n="adj"/></l>            <r>sakte<s n="adj"/></r></p></e>
@@ -30587,7 +30618,15 @@
 <e><p><l>dygtig<s n="adj"/></l>                   <r>dugelig<s n="adj"/></r></p></e>
 <e><p><l>dugfri<s n="adj"/></l>                   <r>duggfri<s n="adj"/></r></p></e>
 <e><p><l>duknakket<s n="adj"/></l>                 <r>duknakket<s n="adj"/></r></p></e>
+<e><p><l>fornærmet<s n="adj"/></l>                 <r>fornærmet<s n="adj"/></r></p></e>
+<e><p><l>udendørs<s n="adj"/></l>                 <r>utendørs<s n="adj"/></r></p></e>
+<e><p><l>indendørs<s n="adj"/></l>                 <r>innendørs<s n="adj"/></r></p></e>
 <e><p><l>dum<s n="adj"/></l>                       <r>dum<s n="adj"/></r></p></e>
+<e><p><l>skæv<s n="adj"/></l>                       <r>vind<s n="adj"/></r></p></e>
+<e><p><l>fattet<s n="adj"/></l>                       <r>fattet<s n="adj"/></r></p></e>
+<e><p><l>halv<s n="adj"/></l>                       <r>halv<s n="adj"/></r></p></e>
+<e><p><l>original<s n="adj"/></l>                       <r>original<s n="adj"/></r></p></e>
+<e><p><l>udmærket<s n="adj"/></l>                       <r>utmerket<s n="adj"/></r></p></e>
 <e><p><l>dygtig<s n="adj"/></l>                    <r>dyktig<s n="adj"/></r></p></e>
 <e><p><l>dybtgående<s n="adj"/></l>                <r>dyptgående<s n="adj"/></r></p></e>
 <e><p><l>dyrebar<s n="adj"/></l>                   <r>dyrebar<s n="adj"/></r></p></e>
@@ -30603,6 +30642,7 @@
 <e><p><l>ædel<s n="adj"/></l>                      <r>edel<s n="adj"/></r></p></e>
 <e><p><l>effektiv<s n="adj"/></l>                   <r>effektiv<s n="adj"/></r></p></e>
 <e><p><l>egen<s n="adj"/></l>                      <r>egen<s n="adj"/></r></p></e>
+<e><p><l>købelysten<s n="adj"/></l>                      <r>kjøpelysten<s n="adj"/></r></p></e>
 <e><p><l>selvkomponeret<s n="adj"/></l>             <r>egenkomponert<s n="adj"/></r></p></e>
 <e><p><l>egentlig<s n="adj"/></l>                  <r>egentlig<s n="adj"/></r></p></e>
 <e><p><l>egyptisk<s n="adj"/></l>                  <r>egyptisk<s n="adj"/></r></p></e>
@@ -30642,11 +30682,11 @@
 <e><p><l>entusiastisk<s n="adj"/></l>              <r>entusiastisk<s n="adj"/></r></p></e>
 <e><p><l>entydig<s n="adj"/></l>                   <r>entydig<s n="adj"/></r></p></e>
 <e><p><l>erotisk<s n="adj"/></l>                   <r>erotisk<s n="adj"/></r></p></e>
-<e><p><l>erhvervsmæssig<s n="adj"/></l>             <r>ervervsmæssig<s n="adj"/></r></p></e>
+<e><p><l>erhvervsmæssig<s n="adj"/></l>             <r>ervervsmessig<s n="adj"/></r></p></e>
 <e><p><l>æstetisk<s n="adj"/></l>                  <r>estetisk<s n="adj"/></r></p></e>
 <e><p><l>etableret<s n="adj"/></l>                  <r>etablert<s n="adj"/></r></p></e>
 <e><p><l>æterisk<s n="adj"/></l>                   <r>eterisk<s n="adj"/></r></p></e>
-<e><p><l>eftertænksom<s n="adj"/></l>               <r>ettertænksom<s n="adj"/></r></p></e>
+<e><p><l>eftertænksom<s n="adj"/></l>               <r>ettertenksom<s n="adj"/></r></p></e>
 <e><p><l>eftertragtet<s n="adj"/></l>               <r>ettertraktet<s n="adj"/></r></p></e>
 <e><p><l>eftertrykkelig<s n="adj"/></l>              <r>ettertrykkelig<s n="adj"/></r></p></e>
 <e><p><l>europæisk<s n="adj"/></l>                 <r>europeisk<s n="adj"/></r></p></e>
@@ -30657,7 +30697,9 @@
 <e><p><l>fabriksny<s n="adj"/></l>                  <r>fabrikkny<s n="adj"/></r></p></e>
 <e><p><l>faglig<s n="adj"/></l>                    <r>faglig<s n="adj"/></r></p></e>
 <e><p><l>fair<s n="adj"/></l>                      <r>fair<s n="adj"/></r></p></e>
+<e><p><l>rummelig<s n="adj"/></l>                      <r>rom<s n="adj"/></r></p></e>
 <e><p><l>faktisk<s n="adj"/></l>                   <r>faktisk<s n="adj"/></r></p></e>
+<e><p><l>lam<s n="adj"/></l>                   <r>lam<s n="adj"/></r></p></e>
 <e><p><l>falsk<s n="adj"/></l>                     <r>falsk<s n="adj"/></r></p></e>
 <e><p><l>familiær<s n="adj"/></l><r>familiær<s n="adj"/></r></p></e>
 <e><p><l>famlende<s n="adj"/></l>     <r>famlende<s n="adj"/></r></p></e>
@@ -30684,7 +30726,11 @@
 <e><p><l>fælleskirkelig<s n="adj"/></l>            <r>felleskirkelig<s n="adj"/></r></p></e>
 <e><p><l>femtenårig<s n="adj"/></l>                <r>femtenårig<s n="adj"/></r></p></e>
 <e><p><l>halvtredsindstyvende<s n="adj"/></l>                <r>femtiende<s n="adj"/></r></p></e>
+<e><p><l>tyvende<s n="adj"/></l>                <r>tyvende<s n="adj"/></r></p></e>
 <e><p><l>femårig<s n="adj"/></l>                   <r>femårig<s n="adj"/></r></p></e>
+<e><p><l>syvende<s n="adj"/></l>                   <r>syvende<s n="adj"/></r></p></e>
+<e><p><l>periodevis<s n="adj"/></l>                   <r>periodevis<s n="adj"/></r></p></e>
+<e><p><l>periodevis<s n="adj"/></l>                   <r>periodevis<s n="adj"/></r></p></e>
 
 
 <e><p><l>afgiftsfri<s n="adj"/></l>                  <r>fergefri<s n="adj"/></r></p></e>
@@ -30700,7 +30746,7 @@
 <e><p><l>finkulturel<s n="adj"/></l>              <r>finkulturell<s n="adj"/></r></p></e>
 <e><p><l>firedobbelt<s n="adj"/></l>               <r>firedobbelt<s n="adj"/></r></p></e>
 <e><p><l>firkantet<s n="adj"/></l>                 <r>firkantet<s n="adj"/></r></p></e>
-<e><p><l>fiskæfri<s n="adj"/></l>                  <r>fiskefri<s n="adj"/></r></p></e>
+<e><p><l>fiskefri<s n="adj"/></l>                  <r>fiskefri<s n="adj"/></r></p></e>
 <e><p><l>fjern<s n="adj"/></l>                     <r>fjern<s n="adj"/></r></p></e>
 <e><p><l>fjerntliggende<s n="adj"/></l>            <r>fjerntliggende<s n="adj"/></r></p></e>
 <e><p><l>flatterende<s n="adj"/></l>               <r>flatterende<s n="adj"/></r></p></e>
@@ -30734,7 +30780,7 @@
 <e><p><l>forfærdelig<s n="adj"/></l>               <r>forferdelig<s n="adj"/></r></p></e>
 <e><p><l>fordrukken<s n="adj"/></l>                 <r>forfyllet<s n="adj"/></r></p></e>
 <e><p><l>forgangen<s n="adj"/></l>                 <r>forgangen<s n="adj"/></r></p></e>
-<e><p><l>forholdsmæssig<s n="adj"/></l>            <r>forholdsmæssig<s n="adj"/></r></p></e>
+<e><p><l>forholdsmæssig<s n="adj"/></l>            <r>forholdsmessig<s n="adj"/></r></p></e>
 <e><p><l>formel<s n="adj"/></l>                   <r>formell<s n="adj"/></r></p></e>
 <e><p><l>formidabel<s n="adj"/></l>                <r>formidabel<s n="adj"/></r></p></e>
 <e><p><l>formodentlig<s n="adj"/></l>              <r>formodentlig<s n="adj"/></r></p></e>
@@ -30746,7 +30792,7 @@
 <e><p><l>forsætlig<s n="adj"/></l>                <r>forsettlig<s n="adj"/></r></p></e>
 <e><p><l>forskingsfri<s n="adj"/></l>              <r>forskingsfri<s n="adj"/></r></p></e>
 <e><p><l>forskningsfri<s n="adj"/></l>             <r>forskningsfri<s n="adj"/></r></p></e>
-<e><p><l>forskriftsmæssig<s n="adj"/></l>          <r>forskriftsmæssig<s n="adj"/></r></p></e>
+<e><p><l>forskriftsmæssig<s n="adj"/></l>          <r>forskriftsmessig<s n="adj"/></r></p></e>
 <e><p><l>forslidt<s n="adj"/></l>                   <r>forslitt<s n="adj"/></r></p></e>
 <e><p><l>forslået<s n="adj"/></l>                   <r>forslått<s n="adj"/></r></p></e>
 <e><p><l>forståelig<s n="adj"/></l>                <r>forståelig<s n="adj"/></r></p></e>
@@ -30822,7 +30868,7 @@
 <e><p><l>generel<s n="adj"/></l>                  <r>generell<s n="adj"/></r></p></e>
 <e><p><l>genetisk<s n="adj"/></l>                  <r>genetisk<s n="adj"/></r></p></e>
 <e><p><l>genial<s n="adj"/></l>                    <r>genial<s n="adj"/></r></p></e>
-<e><p><l>genremæssig<s n="adj"/></l>               <r>genremæssig<s n="adj"/></r></p></e>
+<e><p><l>genremæssig<s n="adj"/></l>               <r>genremessig<s n="adj"/></r></p></e>
 <e><p><l>geografisk<s n="adj"/></l>                <r>geografisk<s n="adj"/></r></p></e>
 <e><p><l>giftfri<s n="adj"/></l>                   <r>giftfri<s n="adj"/></r></p></e>
 <e><p><l>gift<s n="adj"/></l>                   <r>gift<s n="adj"/></r></p></e>
@@ -30895,7 +30941,7 @@
 <e><p><l>helskindet<s n="adj"/></l>                <r>helskinnet<s n="adj"/></r></p></e>
 <e><p><l>helårig<s n="adj"/></l>                   <r>helårig<s n="adj"/></r></p></e>
 <e><p><l>helårlig<s n="adj"/></l>                  <r>helårlig<s n="adj"/></r></p></e>
-<e><p><l>hensigtsmæssig<s n="adj"/></l>            <r>hensiktsmæssig<s n="adj"/></r></p></e>
+<e><p><l>hensigtsmæssig<s n="adj"/></l>            <r>hensiktsmessig<s n="adj"/></r></p></e>
 <e><p><l>hensynsløs<s n="adj"/></l>                <r>hensynsløs<s n="adj"/></r></p></e>
 <e><p><l>herlig<s n="adj"/></l>                    <r>herlig<s n="adj"/></r></p></e>
 <e><p><l>hæs<s n="adj"/></l>                       <r>hes<s n="adj"/></r></p></e>
@@ -30924,7 +30970,7 @@
 <e><p><l>horribel<s n="adj"/></l>                  <r>horribel<s n="adj"/></r></p></e>
 <e><p><l>hovedansvarlig<s n="adj"/></l>            <r>hovedansvarlig<s n="adj"/></r></p></e>
 <e><p><l>hovedsagelig<s n="adj"/></l>              <r>hovedsakelig<s n="adj"/></r></p></e>
-<e><p><l>hovedsaglig<s n="adj"/></l>               <r>hovedsaklig<s n="adj"/></r></p></e>
+<e><p><l>hovedsagelig<s n="adj"/></l>               <r>hovedsaklig<s n="adj"/></r></p></e>
 <e><p><l>hovedtillidsvalgt<s n="adj"/></l>         <r>hovedtillitsvalgt<s n="adj"/></r></p></e>
 <e><p><l>hoven<s n="adj"/></l>                     <r>hoven<s n="adj"/></r></p></e>
 <e><p><l>human<s n="adj"/></l>                     <r>human<s n="adj"/></r></p></e>
@@ -30962,17 +31008,23 @@
 <e><p><l>individuel<s n="adj"/></l>               <r>individuell<s n="adj"/></r></p></e>
 <e><p><l>indonesisk<s n="adj"/></l>                <r>indonesisk<s n="adj"/></r></p></e>
 <e><p><l>indre<s n="adj"/></l>                     <r>indre<s n="adj"/></r></p></e>
+<e><p><l>øvre<s n="adj"/></l>                     <r>øvre<s n="adj"/></r></p></e>
+<e><p><l>nedre<s n="adj"/></l>                     <r>nedre<s n="adj"/></r></p></e>
+<e><p><l>værre<s n="adj"/></l>                     <r>verre<s n="adj"/></r></p></e>
 <e><p><l>industriel<s n="adj"/></l>               <r>industriell<s n="adj"/></r></p></e>
 <e><p><l>informativ<s n="adj"/></l>                <r>informativ<s n="adj"/></r></p></e>
 <e><p><l>initiativrig<s n="adj"/></l>              <r>initiativrik<s n="adj"/></r></p></e>
 <e><p><l>indædt<s n="adj"/></l>                    <r>innbitt<s n="adj"/></r></p></e>
 <e><p><l>indbyrdes<s n="adj"/></l>                 <r>innbyrdes<s n="adj"/></r></p></e>
+<e><p><l>påkrævet<s n="adj"/></l>                 <r>påkrævd<s n="adj"/></r></p></e>
 <e><p><l>indbygget<s n="adj"/></l>                  <r>innebygd<s n="adj"/></r></p></e>
 <e><p><l>indenlandsk<s n="adj"/></l>               <r>innenlandsk<s n="adj"/></r></p></e>
+<e><p><l>bagre<s n="adj"/></l>               <r>bakre<s n="adj"/></r></p></e>
 <e><p><l>indelukket<s n="adj"/></l>                <r>innestengt<s n="adj"/></r></p></e>
 <e><p><l>indeværende<s n="adj"/></l>               <r>inneværende<s n="adj"/></r></p></e>
 <e><p><l>indviklet<s n="adj"/></l>                  <r>innfløkt<s n="adj"/></r></p></e>
 <e><p><l>indfødt<s n="adj"/></l>                   <r>innfødt<s n="adj"/></r></p></e>
+<e><p><l>hjemmevævet<s n="adj"/></l>                   <r>hjemmevevd<s n="adj"/></r></p></e>
 <e><p><l>indlagt<s n="adj"/></l>                   <r>innlagt<s n="adj"/></r></p></e>
 <e><p><l>ordentlig<s n="adj"/></l>                   <r>innmari<s n="adj"/></r></p></e>
 <e><p><l>innovativ<s n="adj"/></l>                 <r>innovativ<s n="adj"/></r></p></e>
@@ -31073,7 +31125,7 @@
 <e><p><l>kolossal<s n="adj"/></l>                  <r>kolossal<s n="adj"/></r></p></e>
 <e><p><l>komfortabel<s n="adj"/></l>               <r>komfortabel<s n="adj"/></r></p></e>
 <e><p><l>kommunal<s n="adj"/></l>                  <r>kommunal<s n="adj"/></r></p></e>
-<e><p><l>kommunikationsmæssig<s n="adj"/></l>      <r>kommunikasjonsmæssig<s n="adj"/></r></p></e>
+<e><p><l>kommunikationsmæssig<s n="adj"/></l>      <r>kommunikasjonsmessig<s n="adj"/></r></p></e>
 <e><p><l>kommunistfri<s n="adj"/></l>              <r>kommunistfri<s n="adj"/></r></p></e>
 <e><p><l>kommunistisk<s n="adj"/></l>              <r>kommunistisk<s n="adj"/></r></p></e>
 <e><p><l>kompetent<s n="adj"/></l>                 <r>kompetent<s n="adj"/></r></p></e>
@@ -31116,11 +31168,11 @@
 <e><p><l>morsom<s n="adj"/></l>                       <r>kul<s n="adj"/></r></p></e>
 <e><p><l>kulturel<s n="adj"/></l>                 <r>kulturell<s n="adj"/></r></p></e>
 <e><p><l>kulturhistorisk<s n="adj"/></l>           <r>kulturhistorisk<s n="adj"/></r></p></e>
-<e><p><l>kundskabsmæssig<s n="adj"/></l>           <r>kunnskapsmæssig<s n="adj"/></r></p></e>
+<e><p><l>kundskabsmæssig<s n="adj"/></l>           <r>kunnskapsmessig<s n="adj"/></r></p></e>
 <e><p><l>kunstnerisk<s n="adj"/></l>               <r>kunstnerisk<s n="adj"/></r></p></e>
 <e><p><l>kurdisk<s n="adj"/></l>                   <r>kurdisk<s n="adj"/></r></p></e>
 <e><p><l>kvalitetsbevidst<s n="adj"/></l>           <r>kvalitetsbevisst<s n="adj"/></r></p></e>
-<e><p><l>kvalitetsmæssig<s n="adj"/></l>           <r>kvalitetsmæssig<s n="adj"/></r></p></e>
+<e><p><l>kvalitetsmæssig<s n="adj"/></l>           <r>kvalitetsmessig<s n="adj"/></r></p></e>
 <e><p><l>kvart<s n="adj"/></l>                           <r>kvart<s n="adj"/></r></p></e>
 <e><p><l>kvindelig<s n="adj"/></l>                 <r>kvinnelig<s n="adj"/></r></p></e>
 <e><p><l>kvistfri<s n="adj"/></l>                  <r>kvistfri<s n="adj"/></r></p></e>
@@ -31157,7 +31209,7 @@
 <e><p><l>liturgisk<s n="adj"/></l>                 <r>liturgisk<s n="adj"/></r></p></e>
 <e><p><l>livlig<s n="adj"/></l>                    <r>livlig<s n="adj"/></r></p></e>
 <e><p><l>livløs<s n="adj"/></l>                    <r>livløs<s n="adj"/></r></p></e>
-<e><p><l>livsbejaende<s n="adj"/></l>              <r>livsbejaende<s n="adj"/></r></p></e>
+<e><p><l>livsbekræftende<s n="adj"/></l>              <r>livsbejaende<s n="adj"/></r></p></e>
 <e><p><l>livsfarlig<s n="adj"/></l>                <r>livsfarlig<s n="adj"/></r></p></e>
 <e><p><l>livsglad<s n="adj"/></l>                  <r>livsglad<s n="adj"/></r></p></e>
 <e><p><l>livslang<s n="adj"/></l>                  <r>livslang<s n="adj"/></r></p></e>
@@ -31306,7 +31358,7 @@
 <e><p><l>nyoprykket<s n="adj"/></l>                 <r>nyopprykket<s n="adj"/></r></p></e>
 <e><p><l>nyslået<s n="adj"/></l>                    <r>nyslått<s n="adj"/></r></p></e>
 <e><p><l>nystegt<s n="adj"/></l>                   <r>nystekt<s n="adj"/></r></p></e>
-<e><p><l>nytænkende<s n="adj"/></l>                <r>nytænkende<s n="adj"/></r></p></e>
+<e><p><l>nytænkende<s n="adj"/></l>                <r>nytenkende<s n="adj"/></r></p></e>
 <!--<e><p><l>nytent<s n="adj"/></l>                    <r>nytent<s n="adj"/></r></p></e>-->
 <e><p><l>nyttig<s n="adj"/></l>                    <r>nyttig<s n="adj"/></r></p></e>
 <e><p><l>nulevende<s n="adj"/></l>                 <r>nålevende<s n="adj"/></r></p></e>
@@ -31340,6 +31392,7 @@
 <e><p><l>omsværmet<s n="adj"/></l>                 <r>omsvermet<s n="adj"/></r></p></e>
 <e><p><l>omsvøbsfri<s n="adj"/></l>                <r>omsvøbsfri<s n="adj"/></r></p></e>
 <e><p><l>betænksom<s n="adj"/></l>                 <r>omtænksom<s n="adj"/></r></p></e>
+<e><p><l>betænksom<s n="adj"/></l>                 <r>omtenksom<s n="adj"/></r></p></e>
 <e><p><l>ond<s n="adj"/></l>                       <r>ond<s n="adj"/></r></p></e>
 <e><p><l>ondsindet<s n="adj"/></l>                 <r>ondsinnet<s n="adj"/></r></p></e>
 <e><p><l>operationel<s n="adj"/></l>              <r>operasjonell<s n="adj"/></r></p></e>
@@ -31462,7 +31515,7 @@
 <e><p><l>rede<s n="adj"/></l>                      <r>rede<s n="adj"/></r></p></e>
 <e><p><l>reel<s n="adj"/></l>                     <r>reell<s n="adj"/></r></p></e>
 <e><p><l>reformvillig<s n="adj"/></l>              <r>reformvillig<s n="adj"/></r></p></e>
-<e><p><l>regelmæssig<s n="adj"/></l>               <r>regelmæssig<s n="adj"/></r></p></e>
+<e><p><l>regelmæssig<s n="adj"/></l>               <r>regelmessig<s n="adj"/></r></p></e>
 <e><p><l>regelret<s n="adj"/></l>                  <r>regelrett<s n="adj"/></r></p></e>
 <e><p><l>regional<s n="adj"/></l>                  <r>regional<s n="adj"/></r></p></e>
 <e><p><l>regeringsudnævnt<s n="adj"/></l>          <r>regjeringsoppnevnt<s n="adj"/></r></p></e>
@@ -31483,7 +31536,7 @@
 <e><p><l>restriktiv<s n="adj"/></l>                <r>restriktiv<s n="adj"/></r></p></e>
 <e><p><l>ret<s n="adj"/></l>                       <r>rett<s n="adj"/></r></p></e>
 <e><p><l>retfærdig<s n="adj"/></l>                 <r>rettferdig<s n="adj"/></r></p></e>
-<e><p><l>retmæssig<s n="adj"/></l>                 <r>rettmæssig<s n="adj"/></r></p></e>
+<e><p><l>retmæssig<s n="adj"/></l>                 <r>rettmessig<s n="adj"/></r></p></e>
 <e><p><l>retskraftig<s n="adj"/></l>               <r>rettskraftig<s n="adj"/></r></p></e>
 <e><p><l>retslig<s n="adj"/></l>                   <r>rettslig<s n="adj"/></r></p></e>
 <e><p><l>rigorøs<s n="adj"/></l>                   <r>rigorøs<s n="adj"/></r></p></e>
@@ -31505,7 +31558,7 @@
 <e><p><l>gal<s n="adj"/></l>  <r>rusk<s n="adj"/></r></p></e>
 <e><p><l>rodet<s n="adj"/></l>                    <r>rusket<s n="adj"/></r></p></e>
 <e><p><l>rustfri<s n="adj"/></l>                   <r>rustfri<s n="adj"/></r></p></e>
-<e><p><l>rutinemæssig<s n="adj"/></l>              <r>rutinemæssig<s n="adj"/></r></p></e>
+<e><p><l>rutinemæssig<s n="adj"/></l>              <r>rutinemessig<s n="adj"/></r></p></e>
 <e><p><l>rwandisk<s n="adj"/></l>                  <r>rwandisk<s n="adj"/></r></p></e>
 <e><p><l>ryddelig<s n="adj"/></l>                    <r>ryddig<s n="adj"/></r></p></e>
 <e><p><l>rytmisk<s n="adj"/></l>                   <r>rytmisk<s n="adj"/></r></p></e>
@@ -31526,7 +31579,7 @@
 <e><p><l>samarbejdsvillig<s n="adj"/></l>          <r>samarbeidsvillig<s n="adj"/></r></p></e>
 <e><p><l>enig<s n="adj"/></l>                      <r>samd<s n="adj"/></r></p></e>
 <e><p><l>samfundsbevist<s n="adj"/></l>            <r>samfunnsbevisst<s n="adj"/></r></p></e>
-<e><p><l>samfundsmæssig<s n="adj"/></l>            <r>samfunnsmæssig<s n="adj"/></r></p></e>
+<e><p><l>samfundsmæssig<s n="adj"/></l>            <r>samfunnsmessig<s n="adj"/></r></p></e>
 <e><p><l>samisk<s n="adj"/></l>                         <r>samisk<s n="adj"/></r></p></e>
 <e><p><l>moden<s n="adj"/></l>                         <r>satt<s n="adj"/></r></p></e>
 <e><p><l>sammenhængende<s n="adj"/></l>            <r>sammenhengende<s n="adj"/></r></p></e>
@@ -31558,12 +31611,12 @@
 <e><p><l>seværdig<s n="adj"/></l>                  <r>severdig<s n="adj"/></r></p></e>
 <e><p><l>siamesisk<s n="adj"/></l>                 <r>siamesisk<s n="adj"/></r></p></e>
 <e><p><l>lav<s n="adj"/></l>                       <r>sid<s n="adj"/></r></p></e>
-<e><p><l>sikkerhedsmæssig<s n="adj"/></l>           <r>sikkerhetsmæssig<s n="adj"/></r></p></e>
+<e><p><l>sikkerhedsmæssig<s n="adj"/></l>           <r>sikkerhetsmessig<s n="adj"/></r></p></e>
 <e><p><l>besindig<s n="adj"/></l>                    <r>sindig<s n="adj"/></r></p></e>
 <e><p><l>sur<s n="adj"/></l>                      <r>sint<s n="adj"/></r></p></e>
 <e><p><l>sidstnævnt<s n="adj"/></l>                 <r>sistnevnt<s n="adj"/></r></p></e>
 <e><p><l>civil<s n="adj"/></l>                     <r>sivil<s n="adj"/></r></p></e>
-<e><p><l>genremæssig<s n="adj"/></l>             <r>sjangermæssig<s n="adj"/></r></p></e>
+<e><p><l>genremæssig<s n="adj"/></l>             <r>sjangermessig<s n="adj"/></r></p></e>
 <e><p><l>chanceløs<s n="adj"/></l>                 <r>sjanseløs<s n="adj"/></r></p></e>
 <e><p><l>sjælden<s n="adj"/></l>                   <r>sjelden<s n="adj"/></r></p></e>
 <e><p><l>selvtilfreds<s n="adj"/></l>                   <r>sjølgod<s n="adj"/></r></p></e>
@@ -31646,12 +31699,25 @@
 <e><p><l>spontan<s n="adj"/></l>                   <r>spontan<s n="adj"/></r></p></e>
 <e><p><l>sporadisk<s n="adj"/></l>                 <r>sporadisk<s n="adj"/></r></p></e>
 <e><p><l>sportslig<s n="adj"/></l>                 <r>sportslig<s n="adj"/></r></p></e>
+<e><p><l>net<s n="adj"/></l>                 <r>nett<s n="adj"/></r></p></e>
 <e><p><l>spredt<s n="adj"/></l>                    <r>spredt<s n="adj"/></r></p></e>
+<e><p><l>sydnorsk<s n="adj"/></l>                    <r>sydnorsk<s n="adj"/></r></p></e>
+<e><p><l>forholdsmæssig<s n="adj"/></l>                    <r>forholdsmessig<s n="adj"/></r></p></e>
+<e><p><l>foreløbig<s n="adj"/></l>                    <r>foreløpig<s n="adj"/></r></p></e>
+<e><p><l>sydlandsk<s n="adj"/></l>                    <r>sydlandsk<s n="adj"/></r></p></e>
+<e><p><l>udsendt<s n="adj"/></l>                    <r>utsendt<s n="adj"/></r></p></e>
+<e><p><l>sydkoreansk<s n="adj"/></l>                    <r>sydkoreansk<s n="adj"/></r></p></e>
+<e><p><l>amerikansk<s n="adj"/></l>                    <r>amerikansk<s n="adj"/></r></p></e>
+<e><p><l>omsvøbsfri<s n="adj"/></l>                    <r>omsvøpsfri<s n="adj"/></r></p></e>
 <e><p><l>frisk<s n="adj"/></l>                     <r>sprek<s n="adj"/></r></p></e>
 <e><p><l>spurtstærk<s n="adj"/></l>                <r>spurtsterk<s n="adj"/></r></p></e>
 <e><p><l>stædig<s n="adj"/></l>                     <r>sta<s n="adj"/></r></p></e>
 <e><p><l>stabil<s n="adj"/></l>                    <r>stabil<s n="adj"/></r></p></e>
 <e><p><l>stadig<s n="adj"/></l>                    <r>stadig<s n="adj"/></r></p></e>
+<e><p><l>kvalitetsmæssig<s n="adj"/></l>                    <r>kvalitetsmessig<s n="adj"/></r></p></e>
+<e><p><l>kvalitetsmæssig<s n="adj"/></l>                    <r>kvalitetsmessig<s n="adj"/></r></p></e>
+<e><p><l>erhvervsmæssig<s n="adj"/></l>                    <r>ervervsmessig<s n="adj"/></r></p></e>
+<e><p><l>kundskabsmæssig<s n="adj"/></l>                    <r>kunnskapsmessig<s n="adj"/></r></p></e>
 <e><p><l>stakkels<s n="adj"/></l>                  <r>stakkars<s n="adj"/></r></p></e>
 <e><p><l>startklar<s n="adj"/></l>                 <r>startklar<s n="adj"/></r></p></e>
 <e><p><l>statistisk<s n="adj"/></l>                <r>statistisk<s n="adj"/></r></p></e>
@@ -31709,13 +31775,38 @@
 <e><p><l>synkefri<s n="adj"/></l>                  <r>synkefri<s n="adj"/></r></p></e>
 <e><p><l>syntaktisk<s n="adj"/></l>                <r>syntaktisk<s n="adj"/></r></p></e>
 <e><p><l>syttende<s n="adj"/></l>                <r>syttende<s n="adj"/></r></p></e>
-<e><p><l>syvende<s n="adj"/></l>                <r>syvende<s n="adj"/></r></p></e>
+<e><p><l>slået<s n="adj"/></l>                <r>slått<s n="adj"/></r></p></e>
+<e><p><l>femtende<s n="adj"/></l>                <r>femtende<s n="adj"/></r></p></e>
+<e><p><l>ellevte<s n="adj"/></l>                <r>ellevte<s n="adj"/></r></p></e>
+<e><p><l>grov<s n="adj"/></l>                <r>grov<s n="adj"/></r></p></e>
+<e><p><l>led<s n="adj"/></l>                <r>lei<s n="adj"/></r></p></e>
+<e><p><l>ottende<s n="adj"/></l>                <r>åttende<s n="adj"/></r></p></e>
+<e><p><l>rådden<s n="adj"/></l>                <r>morken<s n="adj"/></r></p></e>
+<e><p><l>firsindstyvende<s n="adj"/></l>                <r>åttiende<s n="adj"/></r></p></e>
+<e><p><l>syvende<s n="adj"/></l>                <r>sjuende<s n="adj"/></r></p></e>
 <e><p><l>første<s n="adj"/></l>                <r>første<s n="adj"/></r></p></e>
 <e><p><l>anden<s n="adj"/></l>                <r>anden<s n="adj"/></r></p></e>
+<e><p><l>ydre<s n="adj"/></l>                <r>ytre<s n="adj"/></r></p></e>
+<e><p><l>slags<s n="adj"/></l>                <r>slags<s n="adj"/></r></p></e>
+<e><p><l>anden<s n="adj"/></l>                <r>andre<s n="adj"/></r></p></e>
 <e><p><l>tredje<s n="adj"/></l>                <r>tredje<s n="adj"/></r></p></e>
 <e><p><l>fjerde<s n="adj"/></l>                <r>fjerde<s n="adj"/></r></p></e>
 <e><p><l>femte<s n="adj"/></l>                <r>femte<s n="adj"/></r></p></e>
 <e><p><l>sjette<s n="adj"/></l>                <r>sjette<s n="adj"/></r></p></e>
+<e><p><l>fjortende<s n="adj"/></l>                <r>fjortende<s n="adj"/></r></p></e>
+<e><p><l>ubetænkelig<s n="adj"/></l>                <r>ubetenkelig<s n="adj"/></r></p></e>
+<e><p><l>trettende<s n="adj"/></l>                <r>trettende<s n="adj"/></r></p></e>
+<e><p><l>fejlfri<s n="adj"/></l>                <r>feilfri<s n="adj"/></r></p></e>
+<e><p><l>fejlfri<s n="adj"/></l>                <r>feilfri<s n="adj"/></r></p></e>
+<e><p><l>genremæssig<s n="adj"/></l>                <r>genremessig<s n="adj"/></r></p></e>
+<e><p><l>genremæssig<s n="adj"/></l>                <r>sjangermessig<s n="adj"/></r></p></e>
+<e><p><l>jobmæssig<s n="adj"/></l>                <r>yrkesmessig<s n="adj"/></r></p></e>
+<e><p><l>passende<s n="adj"/></l>                <r>passe<s n="adj"/></r></p></e>
+<e><p><l>læ<s n="adj"/></l>                <r>le<s n="adj"/></r></p></e>
+
+<e><p><l>attende<s n="adj"/></l>                <r>attende<s n="adj"/></r></p></e>
+<e><p><l>tredivte<s n="adj"/></l>                <r>trettiende<s n="adj"/></r></p></e>
+
 <e><p><l>halvfjerdsindstyvende<s n="adj"/></l>                <r>syttiende<s n="adj"/></r></p></e>
 <e><p><l>systematisk<s n="adj"/></l>               <r>systematisk<s n="adj"/></r></p></e>
 <e><p><l>såkaldt<s n="adj"/></l>                    <r>såkalt<s n="adj"/></r></p></e>
@@ -31732,6 +31823,7 @@
 <e><p><l>sydlig<s n="adj"/></l>                    <r>sørlig<s n="adj"/></r></p></e>
 <e><p><l>sydnorsk<s n="adj"/></l>                  <r>sørnorsk<s n="adj"/></r></p></e>
 <e><p><l>sydøstlig<s n="adj"/></l>                 <r>sørøstlig<s n="adj"/></r></p></e>
+<e><p><l>sydøstlig<s n="adj"/></l>                 <r>sydøstlig<s n="adj"/></r></p></e>
 <e><p><l>sød<s n="adj"/></l>                       <r>søt<s n="adj"/></r></p></e>
 <e><p><l>øm<s n="adj"/></l>                       <r>sår<s n="adj"/></r></p></e>
 <e><p><l>sødlig<s n="adj"/></l>                    <r>søtlig<s n="adj"/></r></p></e>
@@ -31741,7 +31833,7 @@
 <e><p><l>tækkelig<s n="adj"/></l>                   <r>tekkelig<s n="adj"/></r></p></e>
 <e><p><l>teknisk-naturvidenskabelig<s n="adj"/></l><r>teknisk-naturvitenskapelig<s n="adj"/></r></p></e>
 <e><p><l>teleteknisk<s n="adj"/></l>               <r>teleteknisk<s n="adj"/></r></p></e>
-<e><p><l>tænkelig<s n="adj"/></l>                  <r>tænkelig<s n="adj"/></r></p></e>
+<e><p><l>tænkelig<s n="adj"/></l>                  <r>tenkelig<s n="adj"/></r></p></e>
 <e><p><l>teoretisk<s n="adj"/></l>                 <r>teoretisk<s n="adj"/></r></p></e>
 <e><p><l>terminal<s n="adj"/></l>                        <r>terminal<s n="adj"/></r></p></e>
 <e><p><l>termisk<s n="adj"/></l>                   <r>termisk<s n="adj"/></r></p></e>
@@ -31851,7 +31943,7 @@
 <e><p><l>ubeskrivelig<s n="adj"/></l>              <r>ubeskrivelig<s n="adj"/></r></p></e>
 <e><p><l>ubesvaret<s n="adj"/></l>                   <r>ubesvart<s n="adj"/></r></p></e>
 <e><p><l>ubesværet<s n="adj"/></l>                 <r>ubesværet<s n="adj"/></r></p></e>
-<e><p><l>ubetænkelig<s n="adj"/></l>               <r>ubetænkelig<s n="adj"/></r></p></e>
+<e><p><l>ubetænkelig<s n="adj"/></l>               <r>ubetenkelig<s n="adj"/></r></p></e>
 <e><p><l>ubetinget<s n="adj"/></l>                 <r>ubetinget<s n="adj"/></r></p></e>
 <e><p><l>ubrugelig<s n="adj"/></l>                  <r>ubrukbar<s n="adj"/></r></p></e>
 <e><p><l>ubønhørlig<s n="adj"/></l>               <r>ubønnhørlig<s n="adj"/></r></p></e>
@@ -32065,7 +32157,7 @@
 <e><p><l>forskellig<s n="adj"/></l>         <r>ymse<s n="adj"/></r></p></e>
 <e><p><l>ypperlig<s n="adj"/></l>                  <r>ypperlig<s n="adj"/></r></p></e>
 <e><p><l>arbejdsaktiv<s n="adj"/></l>                <r>yrkesaktiv<s n="adj"/></r></p></e>
-<e><p><l>arbejdssmæssig<s n="adj"/></l>               <r>yrkesmæssig<s n="adj"/></r></p></e>
+<e><p><l>arbejdssmæssig<s n="adj"/></l>               <r>yrkesmessig<s n="adj"/></r></p></e>
 <e><p><l>arbejdsrettet<s n="adj"/></l>                <r>yrkesrettet<s n="adj"/></r></p></e>
 <e><p><l>yderst<s n="adj"/></l>                  <r>ytterlig<s n="adj"/></r></p></e>
 <e><p><l>yderliggående<s n="adj"/></l>            <r>ytterliggående<s n="adj"/></r></p></e>
@@ -32559,7 +32651,7 @@
 <e><p><l>fornuftigvis<s n="adv"/></l><r>fornuftigvis<s n="adv"/></r></p></e>
 <e><p><l>forresten<s n="adv"/></l><r>forresten<s n="adv"/></r></p></e>
 <e><p><l>forsigtigvis<s n="adv"/></l><r>forsiktigvis<s n="adv"/></r></p></e>
-<e><p><l>forskudsvis<s n="adv"/></l><r>forskottsvis<s n="adv"/></r></p></e>
+<e r="RL"><p><l>forskudsvis<s n="adv"/></l><r>forskottsvis<s n="adv"/></r></p></e>
 <e><p><l>forskudsvis<s n="adv"/></l><r>forskuddsvis<s n="adv"/></r></p></e>
 <e><p><l>forsåvidt<s n="adv"/></l><r>forsåvidt<s n="adv"/></r></p></e>
 <e><p><l>forsøgsvis<s n="adv"/></l><r>forsøksvis<s n="adv"/></r></p></e>
@@ -32569,19 +32661,20 @@
 <e><p><l>fortrinsvis<s n="adv"/></l><r>fortrinnsvis<s n="adv"/></r></p></e>
 <e><p><l>fortsat<s n="adv"/></l><r>fortsatt<s n="adv"/></r></p></e>
 <e><p><l>foruden<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
+<e><p><l>indendørs<s n="adv"/></l><r>innendørs<s n="adv"/></r></p></e>
 <e><p><l>forudsætningsvis<s n="adv"/></l><r>forutsetningsvis<s n="adv"/></r></p></e>
 <e><p><l>forøvrig<s n="adv"/></l><r>forøvrig<s n="adv"/></r></p></e>
 <e><p><l>fremdeles<s n="adv"/></l><r>framleis<s n="adv"/></r></p></e>
 <e><p><l>fremad<s n="adv"/></l><r>framlengs<s n="adv"/></r></p></e>
-<e><p><l>foroverbøjet<s n="adv"/></l><r>framstupes<s n="adv"/></r></p></e>
+<e r="RL"><p><l>foroverbøjet<s n="adv"/></l><r>framstupes<s n="adv"/></r></p></e>
 <e><p><l>foroverbøjet<s n="adv"/></l><r>framstups<s n="adv"/></r></p></e>
 <e><p><l>fremt<s n="adv"/></l><r>framt<s n="adv"/></r></p></e>
 <e><p><l>franko<s n="adv"/></l><r>franko<s n="adv"/></r></p></e>
 <e><p><l>free<b/>on<b/>board<s n="adv"/></l><r>free<b/>on<b/>board<s n="adv"/></r></p></e>
 <e><p><l>free<b/>on<b/>rail<s n="adv"/></l><r>free<b/>on<b/>rail<s n="adv"/></r></p></e>
 <e><p><l>fremad<s n="adv"/></l><r>fremlengs<s n="adv"/></r></p></e>
-<e><p><l>foroverbøjet<s n="adv"/></l><r>fremstupes<s n="adv"/></r></p></e>
-<e><p><l>foroverbøjet<s n="adv"/></l><r>fremstups<s n="adv"/></r></p></e>
+<e r="RL"><p><l>foroverbøjet<s n="adv"/></l><r>fremstupes<s n="adv"/></r></p></e>
+<e r="RL"><p><l>foroverbøjet<s n="adv"/></l><r>fremstups<s n="adv"/></r></p></e>
 <e><p><l>fremt<s n="adv"/></l><r>fremt<s n="adv"/></r></p></e>
 <e><p><l>fuldstændig<s n="adv"/></l><r>fullstendig<s n="adv"/></r></p></e>
 <e><p><l>fuldt<s n="adv"/></l><r>fullt<s n="adv"/></r></p></e>
@@ -32600,8 +32693,8 @@
 <e><p><l>glødende<s n="adv"/></l><r>glødende<s n="adv"/></r></p></e>
 <e><p><l>larmende<s n="adv"/></l><r>gneldrende<s n="adv"/></r></p></e>
 <e><p><l>sødt<s n="adv"/></l><r>godhetsfullt<s n="adv"/></r></p></e>
-<e><p><l>meget<s n="adv"/></l><r>gorr<s n="adv"/></r></p></e>
-<e><p><l>meget<s n="adv"/></l><r>gorrende<s n="adv"/></r></p></e>
+<e r="RL"><p><l>meget<s n="adv"/></l><r>gorr<s n="adv"/></r></p></e>
+<e r="RL"><p><l>meget<s n="adv"/></l><r>gorrende<s n="adv"/></r></p></e>
 <e><p><l>gradvis<s n="adv"/></l><r>gradvis<s n="adv"/></r></p></e>
 <e><p><l>grandioso<s n="adv"/></l><r>grandioso<s n="adv"/></r></p></e>
 <e><p><l>grangivelig<s n="adv"/></l><r>granngivelig<s n="adv"/></r></p></e>
@@ -32609,8 +32702,8 @@
 <e><p><l>gruppevis<s n="adv"/></l><r>gruppevis<s n="adv"/></r></p></e>
 <e><p><l>gudskelov<s n="adv"/></l><r>gudskjelov<s n="adv"/></r></p></e>
 <e><p><l>skinnende<s n="adv"/></l><r>gullende<s n="adv"/></r></p></e>
-<e><p><l>meget<s n="adv"/></l><r>gørr<s n="adv"/></r></p></e>
-<e><p><l>meget<s n="adv"/></l><r>gørrende<s n="adv"/></r></p></e>
+<e r="RL"><p><l>meget<s n="adv"/></l><r>gørr<s n="adv"/></r></p></e>
+<e r="RL"><p><l>meget<s n="adv"/></l><r>gørrende<s n="adv"/></r></p></e>
 <e><p><l>hak<s n="adv"/></l><r>hakk<s n="adv"/></r></p></e>
 <e><p><l>meget<s n="adv"/></l><r>hakkende<s n="adv"/></r></p></e>
 <e><p><l>halvt<s n="adv"/></l><r>halvt<s n="adv"/></r></p></e>
