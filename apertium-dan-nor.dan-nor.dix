@@ -9550,7 +9550,7 @@
 <e><p><l>sagsbehandling<s n="n"/></l><r>saksbehandling<s n="n"/></r></p> <par n="n_mf"/></e>
 <e><p><l>bycentrum<s n="n"/><s n="nt"/></l><r>bysentrum<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>landsbyfolk<s n="n"/><s n="nt"/></l><r>bygdefolk<s n="n"/><s n="nt"/></r></p></e>
-<e><p><l>Sentralsjukehus<s n="n"/><s n="nt"/></l><r>Sentralsjukehus<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>centralsygehus<s n="n"/><s n="nt"/></l><r>centralsjukehus<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>klartekst<s n="n"/></l><r>klartekst<s n="n"/></r></p> <par n="n_mf"/></e>
 <e><p><l>bygning<s n="n"/></l><r>Bygging<s n="n"/></r></p> <par n="n_mf"/></e>
 <e><p><l>moské<s n="n"/><s n="ut"/></l><r>moské<s n="n"/><s n="m"/></r></p></e>
@@ -9827,6 +9827,147 @@
 <e><p><l>svinekød<s n="n"/><s n="nt"/></l><r>sauekjøtt<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>prisnedgang<s n="n"/><s n="ut"/></l><r>prisnedgang<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>præsidentperiode<s n="n"/><s n="ut"/></l><r>presidentperiode<s n="n"/><s n="m"/></r></p></e>
+
+
+<e><p><l>indspilning<s n="n"/></l><r>innspilling<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>gren<s n="n"/></l><r>gren<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>dyreart<s n="n"/></l><r>dyreart<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>departementsråd<s n="n"/><s n="ut"/></l><r>departementsråd<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>socialistparti<s n="n"/><s n="nt"/></l><r>Sosialistparti<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>vejchef<s n="n"/><s n="ut"/></l><r>vegsjef<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tøj<s n="n"/><s n="nt"/></l><r>tøy<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>trælast<s n="n"/></l><r>trelast<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>toårskontrakt<s n="n"/><s n="ut"/></l><r>toårskontrakt<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>toppår<s n="n"/><s n="nt"/></l><r>toppår<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sus<s n="n"/><s n="nt"/></l><r>sus<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>styring<s n="n"/></l><r>styring<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>skrift<s n="n"/></l><r>skrift<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>respirator<s n="n"/><s n="ut"/></l><r>respirator<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rejsefod<s n="n"/><s n="ut"/></l><r>reisefot<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mole<s n="n"/><s n="ut"/></l><r>molo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mindstekrav<s n="n"/><s n="nt"/></l><r>minstekrav<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kult<s n="n"/><s n="ut"/></l><r>kult<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kandidatur<s n="n"/><s n="ut"/></l><r>kandidatur<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hestehandel<s n="n"/><s n="ut"/></l><r>hestehandel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>forundring<s n="n"/></l><r>forundring<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>bosnisk<s n="n"/><s n="nt"/></l><r>bosnisk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bearbejdning<s n="n"/></l><r>bearbeiding<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>vagtskib<s n="n"/><s n="nt"/></l><r>vaktskip<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>tekstil<s n="n"/><s n="nt"/></l><r>tekstil<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>styringsrett<s n="n"/><s n="ut"/></l><r>styringsrett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>straffesparkskonkurrence<s n="n"/><s n="ut"/></l><r>straffesparkkonkurranse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>rumstation<s n="n"/><s n="ut"/></l><r>romstasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mordbrand<s n="n"/><s n="ut"/></l><r>mordbrann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>lyntog<s n="n"/><s n="nt"/></l><r>lyntog<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kødprodukt<s n="n"/><s n="nt"/></l><r>kjøttprodukt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>adfærd<s n="n"/></l><r>framferd<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>forsvarsbudget<s n="n"/><s n="nt"/></l><r>forsvarsbudsjett<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>forhørsret<s n="n"/><s n="ut"/></l><r>forhørsrett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>folkevilje<s n="n"/><s n="ut"/></l><r>folkevilje<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>flyvevåben<s n="n"/><s n="nt"/></l><r>flyvåpen<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>dyrefoder<s n="n"/><s n="nt"/></l><r>dyrefôr<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>bund<s n="n"/><s n="ut"/></l><r>botn<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>halvmåne<s n="n"/><s n="ut"/></l><r>halvmåne<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tilbageførelse<s n="n"/></l><r>tilbakeføring<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>svømning<s n="n"/></l><r>svømming<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>lukning<s n="n"/><s n="ut"/></l><r>stengsel<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>småbørnsfamilie<s n="n"/><s n="ut"/></l><r>småbarnsfamilie<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skattetryk<s n="n"/><s n="nt"/></l><r>skattetrykk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>redningsvest<s n="n"/><s n="ut"/></l><r>redningsvest<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>penselstrøg<s n="n"/><s n="nt"/></l><r>pennestrøk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>paraplyorganisation<s n="n"/><s n="ut"/></l><r>paraplyorganisasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>obduktion<s n="n"/><s n="ut"/></l><r>obduksjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>lammekød<s n="n"/><s n="nt"/></l><r>lammekjøtt<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>hoppe<s n="n"/></l><r>hoppe<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>fremmarch<s n="n"/><s n="ut"/></l><r>frammarsj<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>vildsvin<s n="n"/><s n="nt"/></l><r>villsvin<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>tillidsforhold<s n="n"/><s n="nt"/></l><r>tillitsforhold<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skattebetaling<s n="n"/><s n="ut"/></l><r>skatteinngang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>propan<s n="n"/><s n="ut"/></l><r>propan<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>næb<s n="n"/><s n="nt"/></l><r>nebb<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>muskulatur<s n="n"/><s n="ut"/></l><r>muskulatur<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>manko<s n="n"/><s n="ut"/></l><r>manko<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>leveregel<s n="n"/><s n="ut"/></l><r>maksime<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kystområde<s n="n"/><s n="nt"/></l><r>kystområde<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>kommuneledelse<s n="n"/><s n="ut"/></l><r>kommuneledelse<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>klang<s n="n"/><s n="ut"/></l><r>klang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kerneområde<s n="n"/><s n="nt"/></l><r>kjerneområde<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>koldt<b/>bad<s n="n"/><s n="nt"/></l><r>kalddusj<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>grossist<s n="n"/><s n="ut"/></l><r>grossist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>grænseovergang<s n="n"/><s n="ut"/></l><r>grenseovergang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>forskning<s n="n"/></l><r>forsking<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>fjernsynsstation<s n="n"/><s n="ut"/></l><r>fjernsynsstasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>feltsygehus<s n="n"/><s n="nt"/></l><r>feltsykehus<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ækvivalent<s n="n"/><s n="ut"/></l><r>ekvivalent<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ayatolla<s n="n"/><s n="ut"/></l><r>ayatolla<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>vigtighed<s n="n"/></l><r>viktighet<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>dårligt<b/>styre<s n="n"/><s n="nt"/></l><r>vanstyre<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>pilgrim<s n="n"/><s n="ut"/></l><r>pilegrim<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nyvinding<s n="n"/></l><r>nyvinning<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>nysgerrighed<s n="n"/></l><r>nysgjerrighet<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>kødindustri<s n="n"/><s n="ut"/></l><r>kjøttindustri<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>image<s n="n"/><s n="nt"/></l><r>image<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hip<b/>hop<s n="n"/><s n="ut"/></l><r>hip<b/>hop<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>folkekrav<s n="n"/><s n="nt"/></l><r>folkekrav<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>byret<s n="n"/><s n="ut"/></l><r>byrett<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>brandbil<s n="n"/><s n="ut"/></l><r>brannbil<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>lufthavn<s n="n"/></l><r>Lufthavn<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>kvindeklinik<s n="n"/><s n="ut"/></l><r>kvinneklinikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tungolie<s n="n"/></l><r>tungolje<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>tænkepause<s n="n"/><s n="ut"/></l><r>tenkepause<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skydække<s n="n"/><s n="nt"/></l><r>skydekke<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skud<s n="n"/><s n="nt"/></l><r>skott<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skoleklasse<s n="n"/></l><r>skoleklasse<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>sykeplege<s n="n"/></l><r>sjukepleie<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>resignering<s n="n"/><s n="ut"/></l><r>resignasjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>næringsgrundlag<s n="n"/><s n="nt"/></l><r>næringsgrunnlag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>modkandidat<s n="n"/><s n="ut"/></l><r>motkandidat<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>motion<s n="n"/><s n="ut"/></l><r>mosjon<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kystby<s n="n"/><s n="ut"/></l><r>kystby<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kvalificeringsrunde<s n="n"/><s n="ut"/></l><r>kvalifiseringsrunde<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>kvalificeringskamp<s n="n"/><s n="ut"/></l><r>kvalifiseringskamp<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>hjemmehold<s n="n"/><s n="nt"/></l><r>heimelag<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>drøftelse<s n="n"/></l><r>drøfting<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>taxachauffør<s n="n"/><s n="ut"/></l><r>drosjesjåfør<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>drone<s n="n"/><s n="ut"/></l><r>drone<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>udvej<s n="n"/><s n="ut"/></l><r>utveg<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ståhej<s n="n"/><s n="ut"/></l><r>ståhei<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>storkapital<s n="n"/><s n="ut"/></l><r>storkapital<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>sagomkostning<s n="n"/><s n="ut"/></l><r>sakskostnad<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>militærbase<s n="n"/><s n="ut"/></l><r>militærbase<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>idealist<s n="n"/><s n="ut"/></l><r>idealist<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>grundfjeld<s n="n"/><s n="nt"/></l><r>grunnfjell<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>flyafgang<s n="n"/><s n="ut"/></l><r>flyavgang<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bunker<s n="n"/><s n="ut"/></l><r>bunker<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bremseklods<s n="n"/><s n="ut"/></l><r>bremsekloss<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bjærgning<s n="n"/></l><r>berging<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>bytteområde<s n="n"/><s n="nt"/></l><r>beiteområde<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>afdelingsingeniør<s n="n"/><s n="ut"/></l><r>avdelingsingeniør<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tørke<s n="n"/><s n="ut"/></l><r>tørke<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tå<s n="n"/></l><r>tå<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>trafikregel<s n="n"/><s n="ut"/></l><r>trafikkregel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tiltalebænk<s n="n"/><s n="ut"/></l><r>tiltalebenk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skoling<s n="n"/></l><r>skolering<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>skovområde<s n="n"/><s n="nt"/></l><r>skogområde<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>skibstrafik<s n="n"/><s n="ut"/></l><r>skipstrafikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>skare<s n="n"/><s n="ut"/></l><r>skare<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>privatbil<s n="n"/><s n="ut"/></l><r>privatbil<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>nytårsdag<s n="n"/><s n="ut"/></l><r>nyttårsdag<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>modtiltag<s n="n"/><s n="nt"/></l><r>mottiltak<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>mægler<s n="n"/><s n="ut"/></l><r>meklingsmann<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>madpakke<s n="n"/></l><r>matpakke<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>kulturkamp<s n="n"/><s n="ut"/></l><r>kulturkamp<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>jordbrugspolitik<s n="n"/><s n="ut"/></l><r>jordbrukspolitikk<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>halvvej<s n="n"/><s n="ut"/></l><r>halvveg<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gæld<s n="n"/></l><r>gjeld<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>frieri<s n="n"/><s n="nt"/></l><r>frieri<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>fremstilling<s n="n"/></l><r>fremstilling<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>flaskehals<s n="n"/><s n="ut"/></l><r>flaskehals<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>belejring<s n="n"/></l><r>beleiring<s n="n"/></r></p> <par n="n_mf"/></e>
+<e><p><l>arbejdskarriere<s n="n"/><s n="ut"/></l><r>yrkeskarriere<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>voldtægtsforsøg<s n="n"/><s n="nt"/></l><r>voldtektsforsøk<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>venskab<s n="n"/><s n="nt"/></l><r>vennskap<s n="n"/><s n="m"/></r></p></e>
+
 
 
 <!--/nouns-->
@@ -25852,11 +25993,11 @@
     <e><p><l>Senger<s n="np"/></l><r>Senger<s n="np"/></r></p></e>
     <e><p><l>Senja<s n="np"/><s n="f"/></l><r>Senja<s n="np"/><s n="f"/></r></p></e>
     <e><p><l>Sennabugt<s n="np"/></l><r>Sennabukt<s n="np"/></r></p></e>
-    <e><p><l>Senterpartiet<s n="np"/><s n="nt"/></l><r>Senterpartiet<s n="np"/><s n="nt"/></r></p></e>
-    <e><p><l>Sentral-Afrika<s n="np"/><s n="top"/></l><r>Sentral-Afrika<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sentral-Amerika<s n="np"/><s n="top"/></l><r>Sentral-Amerika<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sentral-Asia<s n="np"/><s n="top"/></l><r>Sentral-Asia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sentral-Europa<s n="np"/><s n="top"/></l><r>Sentral-Europa<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Centerpartiet<s n="np"/><s n="nt"/></l><r>Senterpartiet<s n="np"/><s n="nt"/></r></p></e>
+    <e><p><l>Central-Afrika<s n="np"/><s n="top"/></l><r>Sentral-Afrika<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Central-Amerika<s n="np"/><s n="top"/></l><r>Sentral-Amerika<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Central-Asia<s n="np"/><s n="top"/></l><r>Sentral-Asia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Central-Europa<s n="np"/><s n="top"/></l><r>Sentral-Europa<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Seoul<s n="np"/><s n="top"/></l><r>Seoul<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sepp<s n="np"/></l><r>Sepp<s n="np"/></r></p></e>
     <e><p><l>Seppi<s n="np"/></l><r>Seppi<s n="np"/></r></p></e>
