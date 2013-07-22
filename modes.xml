@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+
+  <!-- Danish →    Norwegian-->
 <modes>
   <mode name="dan-nob" install="yes">
     <pipeline>
@@ -22,10 +26,10 @@
 
     </pipeline>
   </mode>
-  
+
   <mode name="dan-nob-morph" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="dan-nor.automorf.bin"/>
       </program>
     </pipeline>
@@ -33,7 +37,7 @@
 
   <mode name="dan-nob-tagger" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -45,7 +49,7 @@
 
   <mode name="dan-nob-biltrans" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -61,7 +65,7 @@
 
   <mode name="dan-nob-transfer" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -104,7 +108,7 @@
       </program>
     </pipeline>
   </mode>
-  
+
   <mode name="nob-dan-morph" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
@@ -206,6 +210,6 @@
       </program>
     </pipeline>
   </mode>
-  
+
 
 </modes>
