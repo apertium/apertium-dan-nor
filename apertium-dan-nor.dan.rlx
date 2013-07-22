@@ -806,6 +806,12 @@ CONSTRAINTS
 ;
 #  "I dag ble alt(det) ødelagt"))
 
+  "<alt>"   SELECT:3779   (det) IF
+	(-1C fv)
+	(*-1O setn-gr LINK 1 adv)
+;
+#  "så ble alt(det) ødelagt"))
+
   "<alt>"   SELECT:3780   (adv) IF
 	(1 perf-part)
 	(NOT -1 det-prep)
@@ -873,6 +879,12 @@ CONSTRAINTS
 ;
 #Bislett bad er nyåpnet.
 
+ "<bad>"   SELECT:5032   (n)
+	(-1 subst-prop)
+	(*-1 fv BARRIER setn-gr)
+;
+#De åpnet Bislet bad..
+
   "<bare>"   SELECT:3739   (adv) IF
 	(1 inf)
 ;
@@ -923,6 +935,11 @@ CONSTRAINTS
 # I går var (FV/PRESENT-V) det (pron)
 # (forts) grunn (UB) til ..."))
 
+  "<eksklusive>"   SELECT:3701   (pr) IF
+	(1 nom)
+	(-1 subst)
+;
+
   "<eksklusiv>"   SELECT:3705   (pr) IF
 	(1 nom)
 	(-1 subst)
@@ -972,6 +989,10 @@ CONSTRAINTS
 	(**1CO setn-gr LINK *-1 %siden% LINK NOT 0 subst)
 ;
 #  "For fire dager siden"
+
+  "<for>"   SELECT:5031   (pr) IF
+	 (1 %eksempel%)
+;
 
   "<for>"   SELECT:3636   (pr) IF
 	(1 infmerke)
@@ -1039,12 +1060,24 @@ CONSTRAINTS
 #	(*-1 setn-gr BARRIER fv)
 #	(*1 setn-gr BARRIER fv)
 
+  "<føre>"   SELECT:3599   (n nt sg) IF
+	(-1 adj-nøyt-ub)
+	(*-1O setn-gr LINK *1 m-hj-verb LINK **1C inf)
+;
+
   "<føre>"   SELECT:3600   (n nt sg) IF
 	(-1 adj-nøyt-ub)
 	(*-1 setn-gr BARRIER m-hj-verb)
 ;
 #  "vanskelig føre
 # ikke: kan det lett føre ,,,"
+
+  "<føre>"   SELECT:3597   (vblex inf) IF
+	(1 pron-akk)
+	(*-1 m-hj-verb BARRIER setn-gr)
+	(*-1 m-hj-verb BARRIER inf)
+;
+#  "De måtte føre seg som Brendan."
 
   "<føre>"   SELECT:3598   (vblex inf) IF
 	(1 %til%)
@@ -1146,6 +1179,16 @@ CONSTRAINTS
 #  "Men København kontra Uppsala
 # ikke: I København kontra Uppsala"
 
+  "<kontra>"   SELECT:3497   (pr) IF
+	(1 nom)
+	(-1 nom)
+	(NOT *-2 ikke-adv-adj-det-subst)
+	(*1 subst LINK NOT 0 adverbialsubst)
+	(NOT -1 setn-gr)
+;
+#  "København kontra Uppsala
+# NOT LR0 ADVERBIALSUBST: København kontra mange ganger"
+
   "<lyst>"   SELECT:3453   (n) IF
 	(1 %på/til%)
 ;
@@ -1176,6 +1219,15 @@ CONSTRAINTS
 ;
 #  "kh jan 2004: Det er et stort men ved det hele.
 # NOT 1 nøyt: Han har et grønt men modent eple."
+
+  "<men>"   SELECT:3438   (n pl) IF
+	(NOT 1 adj/subst)
+	(*-1O %få% LINK 0 verb LINK NOT *1 ikke-adv-adj-det)
+	(**1C setn-gr BARRIER fv)
+;
+#  "kh jan 2004: uten å få varige men av det
+# NB: Gjøres om til enkeltordsregel når dette blir mulig.
+# NOT 1 subst: Han har grønne men modne epler"
 
   "<nå>"   SELECT:3392   (vblex inf) IF
 	(NEGATE 1 pron/subst/det LINK NOT 0 <<< LINK NOT 1 punktum/ellipse)
@@ -1225,6 +1277,12 @@ CONSTRAINTS
 ;
 #  "Hun ba om (prep) at ..."))
 
+  "<om>"   SELECT:3368   (cnjsub) IF
+	(-1 %selv%)
+	(NOT 1 setn-gr)
+;
+#  "Selv om det var slik,"
+
   "<om>"   SELECT:3369   (cnjsub) IF
 	(-1 rel-pron)
 ;
@@ -1268,6 +1326,11 @@ CONSTRAINTS
 #  "Han er omvendt/ han har omvendt dem
 # Ikke: det er omvendt (adj-NØYT)"))
 
+  "<pils>"   SELECT:5016   (n sg ind) IF
+	(-1 %halvliter%)
+;
+#en halvliter pils
+
   "<rent>"   SELECT:3346   (vblex pp) IF
 	(NOT 1 %for%)
 	(NOT -1 det-prep-infmerke-adjbe)
@@ -1292,6 +1355,18 @@ CONSTRAINTS
 #  "Bare adj ved et rundt bord
 #101008: Treningskorpuset er ikke tagget slik. Må sjekke ref.gram: og når det brukes som \"anslagsadverb\": det var rundt 500 flyktninger."
 # 	(NOT 1 det-kvant)
+
+  "<selv>"   SELECT:3332   (adv) IF
+	(-1 setn-gr)
+	(1C prep)
+;
+#  "Selv med et variert og riktig kosthold"
+
+  "<selv>"   SELECT:3330   (adv) IF
+	(1 %om%)
+	(*2 fv BARRIER setn-gr)
+;
+#  "selv om freden er skjør ..."
 
   "<selv>"   SELECT:3328   (adv) IF
 	(-1 komma/konj/strek)
@@ -1572,6 +1647,11 @@ CONSTRAINTS
 ;
 #  "som bare karfolka slapp"
 
+  "<bare>"   REMOVE:3735   (cnjsub) IF
+	(-1 periode-beg/konj-clb)
+	(*1 komma LINK NOT 1 fv)
+;
+
   "<bare>"   REMOVE:3736   (cnjsub) IF
 	(-1 periode-beg/konj-clb)
 	(NOT *1 komma)
@@ -1709,6 +1789,12 @@ CONSTRAINTS
 ;
 #  "\"galt\" subst er hanngris som bare godtas hvis
 # det står en galt!"
+
+  "<ganger>"   REMOVE:3590   (vblex pres) IF
+	(*-1O setn-gr LINK *1 tall LINK 0 ikke-tall)
+	(*1 setn-gr BARRIER tall)
+;
+#  "noen ganger (subst) er det slik at"))
 
   "<ganger>"   REMOVE:3591   (vblex pres) IF
 	(NOT 1 tall)
@@ -2114,6 +2200,16 @@ CONSTRAINTS
 #  "disamb adjektiv etter subst gen
 # Hauges religiøse verden"
 
+ SELECT:3087 (adj def sg) IF
+	(NOT 0 ub-ent-nøyt-adj)
+	(NOT 0 farlige-adj)
+	(1 adj)
+	(*-1 nr2-det-nøyt-be BARRIER ikke-adv-adj)
+	(*1 be-ent-nøyt-subst BARRIER ikke-adv-adj)
+	(*1O be-ent-nøyt-subst LINK NOT -1 komma/konj)
+;
+#  "det andre nye gule huset"
+
  SELECT:3088 (adj def sg) IF
 	(NOT 0 farlige-adj)
 	(NOT 1C adj)
@@ -2221,6 +2317,16 @@ CONSTRAINTS
 #  "Han malte dem (litt) rosa"
 #      :group 10
 
+ SELECT:3026 (adj pl) IF
+	(NOT 0 farlige-adj)
+	(*-1O setn-gr LINK NOT 1 prep/adv)
+	(*-1 be-fl-subst BARRIER ikke-adv)
+	(*-1 be-fl-subst LINK **-1C objpred-verb LINK NOT -1 clb)
+	(*-1 objpred-verb BARRIER ikke-adv-adj-det-subst)
+;
+#  "Han malte (de gamle) husene (litt) rosa"
+#      :group 10
+
  SELECT:3027 (adj pl) IF
 	(NOT 0 det)
 	(NOT 0 adv)
@@ -2246,6 +2352,19 @@ CONSTRAINTS
 	(*-1 %som% LINK -1 nom-fl)
 ;
 #  "skøne som var grønne"
+
+ SELECT:3032 (adj pl) IF
+	(NOT 0 adv)
+	(NOT 0 perf-part)
+	(-1 kop)
+	(-1 iv)
+	(NOT 1 subst/adj/adv)
+	(NOT 1 perf-part)
+	(-2 nom-fl)
+	(*-6O setn-gr LINK 1 prep)
+	(**-3CO fv LINK 0 hj-verb LINK NOT *1 ikke-adv-adj-subst-pron-konj-det)
+;
+#  "I dag skulle (ikke) skøne (mine) vært grønne"))
 
  SELECT:3033 (adj pl) IF
 	(NOT 0 adv)
@@ -3009,6 +3128,17 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "Da var (ikke) huset (mitt) grønt"))
 
+ SELECT:2993 (adj nt ind sg) IF
+	(NOT 0 adv)
+	(NOT 0 perf-part)
+	(-1 nom-nøyt-ent)
+	(NOT 1 subst/adj/adv)
+	(NOT 1 perf-part)
+	(*-5O setn-gr LINK 1 prep)
+	(**-2CO fv LINK 0 kop LINK NOT *1 ikke-adv-adj-subst-pron-konj-det)
+;
+#  "I dag var (ikke) huset (mitt) grønt"))
+
  SELECT:2994 (adj nt ind sg) IF
 	(1 ub-ent-nøyt-subst)
 	(-1 konj)
@@ -3303,6 +3433,17 @@ SELECT:2963 (adj nt ind sg) IF
 	(1C adj)
 ;
 #  "en mindre egnet bil"
+
+ SELECT:2868 (adj) IF
+	(NOT 0 sbu)
+	(NOT 0 adv)
+	(NOT 0 pres)
+	(-1 det)
+	(1C adv)
+	(2C pres/pret)
+	(**-2C setn-gr LINK 0 sbu)
+;
+#  "22.6.2001 Selv om de døde ikke kan snakke, er det slik"
 
  SELECT:2870 (adj) IF
 	(1 setn-gr)
@@ -4897,6 +5038,15 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "Wildes bok"
 
+ SELECT:2533 (np gen) IF
+	(0 subst-prop)
+	(NOT 0 %jesu/kristi/pauli%)
+	(1 nr2-det)
+	(2 adj-be)
+	(3 subst)
+;
+#  "Wildes egen lille bok"
+
  SELECT:2534 (np gen) IF
 	(0 subst-prop)
 	(NOT 0 %jesu/kristi/pauli%)
@@ -4924,6 +5074,14 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "Wildes beste bok
 # 29.5.2001: At Monica Hås (ikke gen) leverte våpnene. not 1 pres/pret"))
+
+ SELECT:2492 subst IF
+	(1 %og%)
+	(-1 komma)
+	(-2 subst)
+	(*2 %lignende/liknende%)
+;
+#  "kh jan 2004: avskjær, slo og liknende"
 
  SELECT:2493 subst IF
 	(NOT 0 farlige-adj-subst)
@@ -5061,6 +5219,15 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "9.3.2001: Slik er der for både lærer og elev. "
 
+ SELECT:2510 subst IF
+	(NOT 0 ikke-subst-verb)
+	(1 %og%)
+	(-1 %både%)
+	(2C adj)
+	(3C setn-gr)
+;
+#  "9.3.2001: Slik er det for både lærer og ansatte."
+
  SELECT:2511 subst IF
 	(NOT 0 adj)
 	(-1 adj-be)
@@ -5094,6 +5261,26 @@ SELECT:2963 (adj nt ind sg) IF
 	(**-1C fv CBARRIER setn-gr)
 ;
 #  "9.3.2001: Ny regel som sjekker om det er funnet verb tidligere i setningen."
+
+ SELECT:2516 subst IF
+	(NOT 0 ikke-subst-verb)
+	(1 %og%)
+	(-1 %både%)
+	(2C adj)
+	(3 subst)
+	(4C setn-gr)
+;
+#  "31.5.2001: Slik er det for både lærer og flinke elever."
+
+ SELECT:2519 subst IF
+	(NOT 0 ikke-subst-verb)
+	(1 %og%)
+	(-1 %både%)
+	(2C adj)
+	(*1 fv BARRIER setn-gr)
+	(*1 ikke-adv-adj-subst-pron-konj-det2-prep CBARRIER setn-gr)
+;
+#  "9.3.2001: Både lærer og ansatte ved denne skolen ønsker dette."
 
  SELECT:2522 subst IF
 	(NOT 0 ikke-subst-verb)
@@ -5140,6 +5327,16 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 >>>)
 	(**1CO setn-gr LINK 0 spørsmål-t LINK NOT *-1 fv)
 ;
+
+ SELECT:2441 (vblex pres) IF
+	(NOT 0 pret)
+	(NOT 0 farlige-forledd-verb)
+	(1 infmerke)
+	(-1C adj)
+	(NOT *1 overskrift)
+	(-2C setn-gr)
+;
+#  "22.6.2001: Hvordan mange søker å skape sine egne riter."
 
  SELECT:2442 (vblex pres) IF
 	(NOT 0 pret)
@@ -5881,6 +6078,17 @@ CONSTRAINTS
 ;
 #  "våpeneksport som noe snuskete (ikke be)"))
 
+ REMOVE:2313 (adj def sg) IF
+	(0 ub-ent)
+	(NOT 0 orden)
+	(NOT 0 ikke-adj)
+	(1 subst/adj)
+	(1 ub-ent)
+	(-1 prep)
+	(NOT 1 be)
+;
+#  "med bustete (ikke be) hår"))
+
  REMOVE:2316 (adj def sg) IF
 	(NOT 0 fl)
 	(NOT 0 orden)
@@ -6090,6 +6298,19 @@ CONSTRAINTS
 ;
 #  "kh jan 2004: Antar at adjektivene som er generert av veldig farlige partisipper heller ikke er sannsynlige: eks ett av ete."
 
+ REMOVE:2266 (adj mf sg) IF
+	(NOT 0 bare-adj)
+	(-1C prep)
+	(NOT 1 subst)
+	(NOT 1 adj-fem)
+	(NOT 1 komma/konj)
+	(NOT -1 %som%)
+	(NOT -1 %nærpå%)
+	(NOT -1 %enn%)
+	(*-1 verb LINK NOT 0 kop)
+;
+#  "de har gjort det fra før (ikke adj fem)"))
+
  REMOVE:2261 (adj mf ind sg) IF
 	(NOT 0 imp)
 	(1 subst/adj)
@@ -6118,6 +6339,14 @@ CONSTRAINTS
 ;
 #  "skrev som en rasende"
 #      :group 58
+
+ REMOVE:2232 (adj) IF
+	(0 pres/pret)
+	(NOT 0 adverb)
+	(1 pres/pret)
+	(-1 %som%-sbu)
+;
+#  "3.10.2003: hvem som satte(ikke adj) bygget i brann"))
 
  REMOVE:2233 (adj) IF
 	(0 be-subst)
@@ -6199,6 +6428,16 @@ CONSTRAINTS
 #  "Martin, som Evelyns sønn het (ikke adj)
 # "
 
+ REMOVE:2242 (adj) IF
+	(0 iv)
+	(NOT 0 farlige-inf)
+	(-1 m-hj-verb-fv)
+	(*-2 ikke-adv LINK 0 %som%-sbu)
+;
+#  "som ikke kunne egnet livet til dette
+# 23.3.
+# "
+
  REMOVE:2243 (adj) IF
 	(0 subst)
 	(NOT 0 <adv>)
@@ -6217,6 +6456,15 @@ CONSTRAINTS
 	(0 %huset%)
 	(NOT 1 subst)
 ;
+
+ REMOVE:2247 (adj) IF
+	(0 subst)
+	(0 gen)
+	(0 mest-sanns-subst-istf-adj)
+	(1 subst)
+	(NOT -1 ub-det)
+;
+#  "kh feb 2004: I opprydningen etter farens (ikke adj) begravelse:"))
 
  REMOVE:2225 (adv) IF
 	(NOT 0 sanns-adv)
@@ -6996,6 +7244,12 @@ CONSTRAINTS
 ;
 #  "hver (ikke fl) mann (ikke fl)"))
 
+ REMOVE:2019 fl-subst IF
+	(NOT 0 %gang%)
+	(**-1CO setn-gr LINK 1 adv LINK 1 pres/pret LINK 0 kop LINK *1 ikke-adv-adj-det LINK 0 nom-ent LINK NOT 0 fl LINK NOT 0 %det/dette%-pron LINK NOT 0 %del/andel% LINK NOT *1 ikke-poss-det)
+;
+#  "sånn var han laga (ikke subst fl)"))
+
  REMOVE:2020 fl-subst IF
 	(NOT 0 %gang%)
 	(**-1CO setn-gr LINK *1 ikke-adv-adj-det LINK 0 nom-ent LINK NOT 0 fl LINK NOT 0 %det/dette%-pron LINK NOT 0 %del/andel% LINK *1 ikke-adv-adj-substmgen-pron-detmdem-prep LINK 0 pres/pret LINK 0 kop LINK NOT *1 ikke-adv-adj-det)
@@ -7679,6 +7933,13 @@ REMOVE:gen-subst gen-subst IF
 #  "fjerner foreløpig bare perf-part i np-er
 # Ikke: i det hele tatt (perf-part)"))
 
+ REMOVE:1898 (vblex pp) IF
+	(-1 %til%)
+	(-2 %og%)
+	(NOT -3 %av%)
+;
+#  "De kjørte til låven og til huset (ikke perf-part)"))
+
  REMOVE:1899 (vblex pp) IF
 	(-1 %til%)
 	(NOT -2 %og%)
@@ -7742,6 +8003,18 @@ REMOVE:gen-subst gen-subst IF
 ;
 #  "For som med så (ikke verb) mye annet"))
 
+ REMOVE:1827 (vblex) IF
+	(0 fv)
+	(-1C prep)
+	(NOT -1 %før%)
+	(NOT -1 prep-intrans)
+	(NOT -1 %som%)
+	(NOT -1 @adv)
+	(-2 setn-gr)
+;
+#  "I speilet (ikke verb) hopper fugler
+# 27.2.2003: Før kjøpte Elkem ..."
+
  REMOVE:1828 (vblex) IF
 	(0 fv)
 	(1 setn-gr)
@@ -7778,12 +8051,31 @@ REMOVE:gen-subst gen-subst IF
 	(NOT -2 subst)
 ;
 
+ REMOVE:1833 (vblex) IF
+	(0 fv)
+	(-1C %en/ei/et%)
+;
+#  "et forbløffet (ikke FV) og begeistret
+# London-publikum"
+
  REMOVE:1834 (vblex) IF
 	(0 sbu)
 	(*1O pres/pret LINK *-1 ikke-poss-det LINK NOT *-1 ikke-adv-adj-det)
 ;
 #  "noen få dager før (ikke verb) krigen brøt ut
 # 30.11"
+
+ REMOVE:1835 (vblex) IF
+	(0 fv)
+	(0 adj)
+	(1C subst)
+	(NOT 1 subst-prop)
+	(2C pres/pret)
+	(**-1C setn-gr LINK NOT 0 sbu)
+;
+#  "reduserte (ikke verb) marginer fører til
+# 29.5.2001: At Monica Hås leverte våpnene var klart.
+# (Litt dårligere presisjon med denne regelen)"))
 
 # sec 3
 CONSTRAINTS
@@ -7808,6 +8100,10 @@ CONSTRAINTS
 ;
 #som kvantor: Han fikk disse dagene ekstra, han får tre rynker ekstra,
 #en hundrelapp ekstra, et par skjeer ekstra
+
+ "<ende>"   SELECT:4097   (n) IF
+	 (-1 prep)
+;
 
   "<hele>"   SELECT:3558   (adj pl) IF
 	(1 be-fl-subst/fl-adj)
@@ -7944,6 +8240,30 @@ CONSTRAINTS
 ;
 #  "som ikke tåler"
 
+ SELECT:1745 (cnjsub) IF
+	(1 subst-prop)
+	(2 subst-prop)
+	(NOT *-2 sbu)
+	(3 subst-prop)
+	(4 pres/pret)
+	(NOT 4 farlige-verb)
+	(**-1C fv BARRIER setn-gr)
+;
+#  "da Peter N. Ribe testet positivt"
+
+ SELECT:1747 (cnjsub) IF
+	(1 subst-prop)
+	(2 konj)
+	(NOT 2 clb)
+	(NOT *-2 sbu)
+	(3 subst-prop)
+	(4 pres/pret)
+	(NOT 4 farlige-verb)
+	(**-1C fv BARRIER setn-gr)
+;
+#  "som Dæhlie og Ulvang er
+# frontfigurer for"
+
  SELECT:1748 (cnjsub) IF
 	(1 subst-prop)
 	(2 subst-prop)
@@ -7963,6 +8283,20 @@ CONSTRAINTS
 #  "som (sbu) mannen i går var
 # (reglene ovenfor godtar ikke subst+
 # subst selv om subst er i en pp)"
+
+ SELECT:1751 (cnjsub) IF
+	(1 pron/subst)
+	(2 konj)
+	(3 pron/subst)
+	(4 pres/pret)
+	(NOT 4 farlige-verb)
+	(*-1O sbu LINK **1C fv LINK *1 fv)
+	(*-1 sbu LINK NOT *-1 fv)
+;
+#  "Da vi gikk inn på rommet, nektet hun å si nø
+# da Dæhlie og Ulvang spurte ...
+# sbu fv fv sbu fv"
+#      :group 72
 
  SELECT:1752 (cnjsub) IF
 	(1 pron/subst)
@@ -8318,6 +8652,11 @@ CONSTRAINTS
 #  "(NOT -1 CLB)
 # Forholdet mellom dem, representert (perf-p) ved ...
 # 13.9.2001: not lr0 sbu: Barna, som hadde funnet fram massevis av artige klesdrakter fra diverse loft hos tanter og onkler, besteforeldre og svigerforeldre, sprudlet av entusiasme og danseglede."
+
+ SELECT:24021 (vblex pp) IF
+	(-1 pass_tar_pp LINK 0 perf-part LINK -1 %være/bli% LINK 0 fv)
+;
+# «blir forsøkt lokket» --KBU
 
 #Gjensidige skyter seg inn
 
