@@ -795,6 +795,12 @@ CONSTRAINTS
 #  "alt ligger derfor tilrette
 # alt har vært bra"
 
+  "<alt>"   SELECT:3775   (det) IF
+	(1C pres/pret)
+	(-1C prep)
+;
+#  "mest av alt er det..."
+
   "<alt>"   SELECT:3776   (det) IF
 	(-1 %i%)
 ;
@@ -831,6 +837,12 @@ CONSTRAINTS
 	 (1C setn-gr)
 ;
 #De har gjort det en hel menneskealder alt.
+
+  "<alt>"   SELECT:4004   (adv) IF
+	 (-1C subst)
+	 (1C pres/pret)
+;
+#at ganske mange bønder alt har valgt den dyrere dieselen
 
   "<alt>"   SELECT:3772   (det) IF
 	(NOT 1 perf-part)
@@ -1021,6 +1033,11 @@ CONSTRAINTS
 ;
 #  "dette gjør han for små og store"
 #	(**1C setn-gr BARRIER pron/subst)
+
+  "<for>"   SELECT:3640   (pr) IF
+	(1 %at%)
+;
+#  "for at"
 
   "<for>"   SELECT:3641   (pr) IF
 	(NOT 0 pret)
@@ -1252,6 +1269,14 @@ CONSTRAINTS
 	(**-1C m-hj-verb BARRIER perf-part)
 ;
 #  "2.3.2001 Hun kan aldri nå lenger på statusstigen."
+
+  "<når>"   SELECT:3384   (vblex pres) IF
+	(1 adverb)
+	(2 %fram/inn/opp%)
+	(*-1 setn-gr BARRIER pres/pret)
+	(*1 setn-gr BARRIER pres/pret)
+;
+#  "Det når ikke inn til dem."
 
   "<når>"   SELECT:3385   (vblex pres) IF
 	(1 %fram/inn/opp%)
@@ -2200,6 +2225,17 @@ CONSTRAINTS
 #  "disamb adjektiv etter subst gen
 # Hauges religiøse verden"
 
+ SELECT:3082 (adj def sg) IF
+	(NOT 0 farlige-adj)
+	(NOT 1C adj)
+	(*-1 nr2-det-nøyt-ub BARRIER ikke-adv-adj)
+	(*-1 nr2-det-nøyt-ub LINK -1 poss-det)
+	(*1 ub-ent-nøyt-subst BARRIER ikke-adv-adj)
+	(*1O ub-ent-nøyt-subst LINK NOT -1 komma/konj)
+;
+#  "mitt eget gule hus (Disse NR2-det-ene
+# oppfører seg anderledes etter poss)"
+
  SELECT:3087 (adj def sg) IF
 	(NOT 0 ub-ent-nøyt-adj)
 	(NOT 0 farlige-adj)
@@ -2352,6 +2388,19 @@ CONSTRAINTS
 	(*-1 %som% LINK -1 nom-fl)
 ;
 #  "skøne som var grønne"
+
+ SELECT:3031 (adj pl) IF
+	(NOT 0 adv)
+	(NOT 0 perf-part)
+	(-1 kop)
+	(-1 iv)
+	(NOT 1 subst/adj/adv)
+	(NOT 1 perf-part)
+	(-2 nom-fl)
+	(*-5O setn-gr LINK 1 adv LINK 1 fv LINK 0 hj-verb)
+	(**-3C fv BARRIER ikke-adv-adj-subst-pron-konj-det)
+;
+#  "Da skulle (ikke) skøne (mine) vært grønne"))
 
  SELECT:3032 (adj pl) IF
 	(NOT 0 adv)
@@ -4138,6 +4187,16 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "La deg ikke lure"
 
+ SELECT:2670 (imp) IF
+	(NOT 0 farlige-imp)
+	(NOT 0 pres/pret)
+	(NOT 0 prep)
+	(1 pron-pers)
+	(1C akk)
+	(-1C setn-gr)
+;
+#  "spar meg for detaljene"
+
  SELECT:2671 (imp) IF
 	(NOT 0 farlige-imp)
 	(NOT 0 samset)
@@ -4687,6 +4746,21 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1O setn-gr LINK NOT 1 prep)
 ;
 #  "Per har sett han (akk)"
+#      :group 36
+
+ SELECT:2589 (prn acc) IF
+	(0 nom/akk-pron)
+	(NOT 0 gen)
+	(-1C prep)
+	(NOT -1 prep-intrans)
+;
+#  "(NOT 1 %SOM%)
+# Hun er bedre enn (PREP) han (akk)
+# Ikke: hun er bedre enn (sbu) han (nom) er
+# NOT 1 %SOM%: om han (akk) som har makt ...
+# (NOT 1 %BEGGE/BÅE/SJØLVE/ALLE%:
+# Han ville forhandle med dei (nom) begge
+# (-1 %SOM/ENN%)"
 #      :group 36
 
  SELECT:2580 (prn) IF
@@ -6103,6 +6177,26 @@ CONSTRAINTS
 	(**-1C setn-gr BARRIER det-gen)
 ;
 
+ REMOVE:2317 (adj def sg) IF
+	(0 fl)
+	(NOT 0 orden)
+	(NOT 0 ikke-adj)
+	(1 subst/adj)
+	(1C fl)
+	(NOT 1 subst-prop)
+	(NOT 1 subst-ubøy)
+	(NOT 1 be)
+	(NOT -1 %år%)
+	(NOT -1 subst-prop)
+	(NOT -1 prep)
+	(**-1C setn-gr BARRIER det-gen)
+;
+#  "fjerner sikre overflødige adj:
+# ytterligere (fjerner be) press
+# men ikke: det ytterligere press
+# (bare for fl for å unngå:
+# siste (blir fl når be fjernes) uke (ikke fl))"))
+
  REMOVE:2318 (adj def sg) IF
 	(NOT 0 orden)
 	(NOT 0 ikke-adj)
@@ -6298,6 +6392,18 @@ CONSTRAINTS
 ;
 #  "kh jan 2004: Antar at adjektivene som er generert av veldig farlige partisipper heller ikke er sannsynlige: eks ett av ete."
 
+ REMOVE:2265 (adj mf sg) IF
+	(NOT 0 bare-adj)
+	(1 komma/konj)
+	(-1C prep)
+	(NOT -1 %som%)
+	(NOT -1 %nærpå%)
+	(NOT -1 %enn%)
+	(NOT *-1 verb BARRIER setn-gr)
+	(NOT 2 adj/adv)
+;
+#  "fra før (ikke adj fem), sa han"))
+
  REMOVE:2266 (adj mf sg) IF
 	(NOT 0 bare-adj)
 	(-1C prep)
@@ -6490,6 +6596,15 @@ CONSTRAINTS
 ;
 #  "fjerner og som adv når et ikke er av typen:
 # jeg vil jeg og!"
+
+ REMOVE:2228 (adv) IF
+	(0 fl-subst)
+	(NOT 0 %nå%)
+	(-1 fl)
+	(1C periode-slutt/konj-clb)
+	(-1C det/adj)
+;
+#  "4.3"
 
  REMOVE:2229 (adv) IF
 	(0 subst-nøyt)
@@ -6769,6 +6884,14 @@ CONSTRAINTS
 ;
 #  "Antar at interjeksjoner står i begynnelsen av en
 # periode."
+
+ REMOVE:2099 (vblex pp) IF
+	(0 pres/pret)
+	(-1 konj)
+	(NOT -1 adv)
+	(*-1O p-hj-verb LINK 0 pres/pret LINK NOT *1 perf-part)
+;
+#  "2.12.2002: Jeg var ute og lufta (ikke perf-part)  hunden"))
 
  REMOVE:2078 pron-pers IF
 	(0 det)
@@ -7270,6 +7393,12 @@ CONSTRAINTS
  REMOVE:2011 ent-nøyt-subst IF
 	(0 adj)
 	(**-1C det LINK NOT 0 nøyt LINK NOT 0 fl LINK NOT 0 %selv% LINK NOT 0 %samme/neste/ene/eneste/selve/forrige%)
+	(**-1C det BARRIER ikke-adv-adj)
+;
+
+ REMOVE:2008 ent-fem-subst IF
+	(0 adj)
+	(**-1C det LINK NOT 0 fem LINK NOT 0 fl LINK NOT 0 %selv% LINK NOT 0 %samme/neste/ene/eneste/selve/forrige%)
 	(**-1C det BARRIER ikke-adv-adj)
 ;
 
