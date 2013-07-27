@@ -1,7 +1,7 @@
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ssingular ;
 
-#PARsingularHESES = ("<$(>" "$<)>") ("<$[>" "<$]>") ("<${>" "<$}>") ;
+#PARENTHESES = ("<$(>" "$<)>") ("<$[>" "<$]>") ("<${>" "<$}>") ;
 
 LIST -ende = ".*ende"r  ;
 LIST %al% = "al"  ;
@@ -61,7 +61,7 @@ LIST %forrige/næste/samme/sidste/første% = "næste"  "forrige" "samme" ("sidst
 LIST %frem/ind/op% = ("("frem"  pr) ("ind"  pr) ("op"  pr) ; #OK
 LIST %frem/op/på% = ("på" ) ("frem"  pr) ("frem"  pr) ("op"  pr) ;
 LIST %fuldstændig%  = ("fuldstændig") ;
-LIST %fullt/mange% = "mange"  ("full"  adj nt ind sg) ; #
+LIST %fuldt/mange% = "mange"  ("fuld"  adj nt ind sg) ; #
 LIST %få% = "få"  ;
 LIST %før% = "før"  ;
 LIST %halvliter% = "halvliter"  ;
@@ -130,7 +130,7 @@ LIST %seg% = ("seg"  prn) ;
 LIST %selv% = "sjøl"  "sjæl"  "selv"  ;
 LIST %siden% = "siden"  ;
 LIST %sidste% = ("sidst"  pl) ;
-LIST %sidste%/ordenstal = ("sidst"  def) ("sidst"  pl) ord ;
+LIST %sidste%/ordinal-numberstal = ("sidst"  def) ("sidst"  pl) ord ;
 LIST %skifte/bytte% = ("skifte"  vblex) ("bytte"  vblex) ;
 LIST %slags% = "slags"  ;
 LIST %slå% = ("slå"  vblex) ;
@@ -346,7 +346,7 @@ LIST inf = inf ;
 LIST inf/perf-part = (vblex inf) (vblex pp) ;
 LIST inf/pres = (vblex inf pres) ;
 LIST inf/pres/pret = inf pres pret ;
-LIST infinitive-marker = "å" ;
+LIST infinitive-marker = "at" ;
 LIST int-sentence-border = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$-" "-" cnjsub @sbu ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST interj = ij ;
 LIST iv = (vblex inf) (vblex pp) ;
@@ -404,7 +404,7 @@ LIST neuter-singular-adj = (adj nt sg) (adj def) (adj pprs) ;
 LIST objpred-pron-verb = "ønske"  "spise"  "snakke"  "si"  "se"  "opleve"  "male"  "lage"  "kjenne"  "kalle"  "høre"  "holde"  "gøre"  "føle"  "drikke"  ;
 LIST objpred-verb = "ønske"  "male"  "lage"  "kalle"  "holde"  "gøre"  ;
 LIST ord-%andre%-singular/plural-noun = "halvår"  "forsøk"  "afsnitt"  ;
-LIST orden = ("en"  det qnt) ord ;
+LIST ordinal-number = ("en"  det qnt) ord ;
 LIST overskrift = overskrift ;
 LIST p-auxiliary-verb = "være"  "ha"  "få"  "bli"  ;
 LIST parenthesis = lpar rpar ;
@@ -637,11 +637,11 @@ CONSTRAINTS
   "<andre>"   SELECT:3761   (det pl) IF
 	(NOT 1 adj-adv-noun-konj)
 	(NOT -1 det)
-	(NOT *-1 orden BARRIER sentence-border)
-	(NOT *1 orden BARRIER sentence-border)
+	(NOT *-1 ordinal-number BARRIER sentence-border)
+	(NOT *1 ordinal-number BARRIER sentence-border)
 
-#	(**-1C sentence-border BARRIER orden)
-#	(**1C sentence-border BARRIER orden)
+#	(**-1C sentence-border BARRIER ordinal-number)
+#	(**1C sentence-border BARRIER ordinal-number)
 ;
 #  "... idrætsstjerner eller andre som ... "
 # jofm
@@ -717,18 +717,21 @@ CONSTRAINTS
 	   (1C adj)
 ;
 #Ekstra pæn,sød, god
+# jofm
 
   "<en>"   SELECT:3690   (det) IF
 	(-1 %gange%)
 	(-2 number)
 ;
 #  "en gange en"
+# jofm
 
   "<en>"   SELECT:3692   (det) IF
 	(-1 %og%)
 	(-2 %hver%)
 ;
 #  "Hver og en"
+# jofm
 
   "<et>"   SELECT:3680   (det) IF
 	(*1O %et% LINK -1 adj-neuter LINK NOT *-1 ikke-adv-adj)
@@ -740,59 +743,71 @@ CONSTRAINTS
 	(*-1 %et% BARRIER ikke-adv-adj)
 ;
 #  "et stort et"
+# jofm
 
   "<for>"   SELECT:3652   (adv) IF
 	(NOT 1 ikke-adj)
-	(NOT 1 %fullt/mange%)
+	(NOT 1 %fuldt/mange%)
 	(NOT 1 sentence-border)
 	(NOT 1 komp)
 	(NOT 2 noun/adj/pron/det/konj)
 ;
-#  "det var for lite.
+
+#  "det var for lidt.
 # 6.8.2001: not 1 sentence-border"
-#NOT 1 komp
+# NOT 1 komp
+# jofm
 
   "<for>"   SELECT:3634   (pr) IF
 	(**1CO sentence-border LINK *-1 %siden% LINK NOT 0 noun)
 ;
-#  "For fire dager siden"
+#  "For fire dage siden"
+# jofm
 
   "<for>"   SELECT:5031   (pr) IF
 	 (1 %eksempel%)
 ;
+#  for eksempel
+# jofm
+
 
   "<for>"   SELECT:3636   (pr) IF
 	(1 infinitive-marker)
 ;
-#  "for å hjelpe til"
+#  "for at hjælpe til"
+# jofm
 
   "<for>"   SELECT:3637   (pr) IF
 	(1 %det%)
 	(-1 sentence-border)
-	(2 orden)
+	(2 ordinal-number)
 ;
 #  "for det første"
+# jofm
 
   "<for>"   SELECT:3638   (pr) IF
 	(-1 nom)
 	(NOT *1 pron/noun BARRIER sentence-border)
 	(*-2 ikke-adv-adj-det LINK 0 nom LINK *-1 ikke-adv-adj-det LINK 0 verb LINK NOT 0 copula)
 ;
-#  "dette skylder han dem for mangt og mye"
+#  "dette skylder han dem for mangt og meget"
 #	(**1C sentence-border BARRIER pron/noun)
+# jofm
 
   "<for>"   SELECT:3639   (pr) IF
 	(-1 nom)
 	(NOT *1 pron/noun BARRIER sentence-border)
 	(*-2 ikke-adv-adj-det LINK 0 verb LINK NOT 0 copula)
 ;
-#  "dette gjør han for små og store"
+#  "dette gør han for små og store"
 #	(**1C sentence-border BARRIER pron/noun)
+# jofm
 
   "<for>"   SELECT:3640   (pr) IF
 	(1 %at%)
 ;
 #  "for at"
+# jofm
 
   "<for>"   SELECT:3641   (pr) IF
 	(NOT 0 pret)
@@ -802,35 +817,15 @@ CONSTRAINTS
 	(NOT -1 pres/pret)
 ;
 #  "Prisen for dette er at ..."
+# jofm
 
   "<for>"   SELECT:3642   (pr) IF
 	(-1 noun)
 	(*-2 ikke-adv-adj-det LINK 0 konj LINK -1 comma)
 ;
-#  "..., og behovet for(preposition) singularydig og klar informasjon blir understreket"))
+#  "..., og behovet for(preposition) entydig og klar information blir understreget"))
+# jofm
 
-  "<for>"   SELECT:3632   (vblex) IF
-	(1 noun/adj/pron/det)
-	(-1 %det%-pron)
-	(NOT 1 %at%)
-	(NOT *-1 lexicalverb BARRIER sentence-border)
-	(NOT *1 lexicalverb BARRIER sentence-border)
-;
-#  "Det for en ball bortover veien"
-#	(**-1C sentence-border BARRIER lexicalverb)
-#	(**1C sentence-border BARRIER lexicalverb)
-
-  "<for>"   SELECT:3633   (vblex) IF
-	(-1 pron/noun)
-	(1C preposition)
-	(NOT *-1 lexicalverb BARRIER sentence-border)
-	(NOT *1 lexicalverb BARRIER sentence-border)
-
-;
-#  "Jenny for med sladder
-# I bm er de pluraleste for-verb-eksemplene verb + preposition"
-#	(*-1 sentence-border BARRIER lexicalverb)
-#	(*1 sentence-border BARRIER lexicalverb)
 
   "<føre>"   SELECT:3599   (n nt sg) IF
 	(-1 adj-neuter-indefinite)
@@ -841,15 +836,10 @@ CONSTRAINTS
 	(-1 adj-neuter-indefinite)
 	(*-1 sentence-border BARRIER m-auxiliary-verb)
 ;
-#  "vanskelig føre
-# ikke: kan det lett føre ,,,"
+#  "vanskeligt føre
+# ikke: kan det let føre"
+# jofm
 
-  "<føre>"   SELECT:3597   (vblex inf) IF
-	(1 pron-akk)
-	(*-1 m-auxiliary-verb BARRIER sentence-border)
-	(*-1 m-auxiliary-verb BARRIER inf)
-;
-#  "De måtte føre seg som Brendnun."
 
   "<føre>"   SELECT:3598   (vblex inf) IF
 	(1 %til%)
@@ -857,35 +847,39 @@ CONSTRAINTS
 	(*-1 m-auxiliary-verb BARRIER inf)
 ;
 #  "det kan føre til at ..."
+# jofm
 
   "<gange>"   SELECT:3593   (vblex pres) IF
 	(1 number)
 	(-1 number)
 ;
 #  "en gange en er to!"
+# jofm
 
   "<gode>"   SELECT:3588   (n) IF
 	(-1 %til%)
 	(NOT 1 noun)
 ;
-#  "ha til gode (noun) "))
+#  "have til gode (noun) "))
+# jofm
 
   "<hele>"   SELECT:3563   (adj pl) IF
 	(1 plural-det)
 ;
 #  "hele 500 %"
+# jofm
 
   "<hele>"   SELECT:3562   (n) IF
 	(*-1 %et% BARRIER ikke-adv-adj)
 ;
-#  "hele noun bare ved et hele"
+#  hele(noun), kun ved "et hele"
+# jofm
 
   "<helt>"   SELECT:3546   (adj nt) IF
 	(1C preposition)
 ;
-#  "helt til Blindern
-# (kan selvsagt gå galt: han er helt (noun!)
-# (forts) på jobben - men ikke så vanlig?)"))
+#  "helt til København"
+# jofm
 
   "<helt>"   SELECT:3547   (adj nt) IF
 	(1 nr2-det)
@@ -1249,7 +1243,7 @@ CONSTRAINTS
 	(**2C pres/pret LINK 1 adverb/komp/indefinite-sup/pres-part LINK *1 ikke-adv-komp-indefinite-sup LINK NOT 0 nom)
 ;
 #  "Det var Skipper Worse som (sbu) for fulle segl og i frisk
-# kuling fra nord-vest kom brusende ind Byfjorden
+# kuling fra nord-vest kom brusende ind Byfjordinal-number
 # 25.2"
 
   "<så>"   SELECT:3216   (cnjsub) IF
@@ -2039,7 +2033,7 @@ CONSTRAINTS
 # huset"
 
  SELECT:3062 (adj def) IF
-	(0 orden)
+	(0 ordinal-number)
 	(NOT 0 %andre%)
 	(NOT 1 plural)
 	(NOT 1 pres-part)
@@ -2179,7 +2173,7 @@ CONSTRAINTS
 #      :group 11
 
  SELECT:3036 (adj pl) IF
-	(0 orden)
+	(0 ordinal-number)
 	(NOT 0 %andre%)
 	(NOT -1 indefinite-det)
 	(*1O plural-noun LINK NOT 0 singular LINK NOT *-1 ikke-adv-adj)
@@ -2246,7 +2240,7 @@ CONSTRAINTS
 #Her stod 3044
 
  SELECT:3047 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2264,7 +2258,7 @@ CONSTRAINTS
 # (forts) og gratis varer"))
 
  SELECT:3048 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2282,7 +2276,7 @@ CONSTRAINTS
 ;
 
  SELECT:3049 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2300,7 +2294,7 @@ CONSTRAINTS
 ;
 
  SELECT:3050 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2317,7 +2311,7 @@ CONSTRAINTS
 ;
 
  SELECT:3052 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2335,7 +2329,7 @@ CONSTRAINTS
 #  "store fine biler "
 
  SELECT:3053 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2352,7 +2346,7 @@ CONSTRAINTS
 ;
 
  SELECT:3054 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2373,7 +2367,7 @@ CONSTRAINTS
 # forsvunnet)"
 
  SELECT:3055 (adj pl) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 farlige-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
@@ -2390,7 +2384,7 @@ CONSTRAINTS
 #  "må ta så mange forbehold på 0
 # pga bla via (preposition) noe (det) osv
 # fine biler
-# NOT 0 %sidste%/ordenstal: sidste (singular) hus (singular)
+# NOT 0 %sidste%/ordinal-numberstal: sidste (singular) hus (singular)
 #  NOT VERB for å ikke få med infinitiver:
 # man må åpne lukene, eller verb:
 # men fulgte forelesningene
@@ -2657,7 +2651,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 farlige-adj)
 	(NOT 0 <perf-part>)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 noun)
 	(1C lexicalverb)
 	(-1C noun)
@@ -2669,7 +2663,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2969 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 farlige-adj)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 <perf-part>)
 	(-1C pron-pers)
 	(1C lexicalverb)
@@ -2740,7 +2734,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2974 (adj nt ind sg) IF
 	(NOT 0 ikke-adj)
 	(NOT 0 farlige-adj)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(1C adj)
 	(NOT -1 adj)
 	(NOT -1 comma/konj)
@@ -2751,7 +2745,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2975 (adj nt ind sg) IF
 	(NOT 0 ikke-adj)
 	(NOT 0 farlige-adj)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(1C adj)
 	(NOT *-1 det)
 	(NOT -1 adj)
@@ -2764,7 +2758,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2976 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 noun-gen)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 farlige-adj)
 	(NOT 0 perf-part)
 	(NOT 0 <perf-part>)
@@ -2782,7 +2776,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2979 (adj nt ind sg) IF
 	(NOT 0 <perf-part>)
 	(NOT 0 farlige-adj)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 adv)
 	(1 adj-plural)
 	(-1C plural-det)
@@ -2972,7 +2966,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 18
 
  SELECT:2998 (adj nt ind sg) IF
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 farlige-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
@@ -3076,7 +3070,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "går det ikke bra?"
 
  SELECT:3011 (adj nt ind sg) IF
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 farlige-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
@@ -3094,7 +3088,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 19
 
  SELECT:3012 (adj nt ind sg) IF
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 farlige-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
@@ -3112,7 +3106,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 19
 
  SELECT:3013 (adj nt ind sg) IF
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 farlige-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
@@ -3129,7 +3123,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 19
 
  SELECT:3014 (adj nt ind sg) IF
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 farlige-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
@@ -3248,7 +3242,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 31
 
  SELECT:2872 (adj) IF
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT 0 preposition)
 	(NOT 0 perf-part)
 	(1 indefinite-noun)
@@ -3734,7 +3728,7 @@ SELECT:2963 (adj nt ind sg) IF
 # neuter singular/plural
 # NOT SUP for å unngå er det (ikke det) mest gress
 # NOT lexicalverb for å unngå typen:
-# \"brøt det (pron) løs tordenvær ...\""))
+# \"brøt det (pron) løs tordinal-numbervær ...\""))
 
  SELECT:2734 (det nt) IF
 	(0 definite-det)
@@ -3883,7 +3877,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2678 (det) IF
 	(0 %den/det/de%)
-	(1 orden)
+	(1 ordinal-number)
 	(NOT 2 noun)
 ;
 #  "den første
@@ -5827,7 +5821,7 @@ CONSTRAINTS
 # eller: å være helt (adj singular) alene"))
 
  REMOVE:2319 (adj ind) IF
-	(0 orden)
+	(0 ordinal-number)
 	(NOT 0 %andre%)
 	(NOT -1 indefinite-det)
 	(*1O plural-noun LINK 0 singular LINK NOT *-1 ikke-adv-adj)
@@ -5851,7 +5845,7 @@ CONSTRAINTS
 
  REMOVE:2308 (adj def sg) IF
 	(0 adj-plural)
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT -1 adj-sup-definite)
 	(*1O plural-noun LINK NOT 0 singular-noun LINK NOT *-1 ikke-adv-adj)
 	(*-1CO ikke-adv-adj-det LINK NOT 0 noun-gen LINK NOT *1 dem/poss/gen)
@@ -5859,7 +5853,7 @@ CONSTRAINTS
 
  REMOVE:2309 (adj def sg) IF
 	(0 adj-plural)
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(NOT -1 adj-sup-definite)
 	(*1O plural-noun LINK NOT 0 singular-noun LINK NOT *-1 ikke-adv-adj)
 	(*-1 sentence-border BARRIER dem/poss/gen)
@@ -5868,13 +5862,13 @@ CONSTRAINTS
 
  REMOVE:2310 (adj def sg) IF
 	(0 adj-indefinite-singular)
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(*-1CO ikke-adv-adj-det LINK NOT 0 noun-gen LINK NOT *1 dem/poss/gen)
 ;
 
  REMOVE:2311 (adj def sg) IF
 	(0 adj-indefinite-singular)
-	(NOT 0 %sidste%/ordenstal)
+	(NOT 0 %sidste%/ordinal-numberstal)
 	(*-1 sentence-border BARRIER dem/poss/gen)
 ;
 
@@ -5887,7 +5881,7 @@ CONSTRAINTS
 
  REMOVE:2313 (adj def sg) IF
 	(0 indefinite-singular)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 ikke-adj)
 	(1 noun/adj)
 	(1 indefinite-singular)
@@ -5898,7 +5892,7 @@ CONSTRAINTS
 
  REMOVE:2316 (adj def sg) IF
 	(NOT 0 plural)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 ikke-adj)
 	(1 noun/adj)
 	(NOT 1 noun-prop)
@@ -5912,7 +5906,7 @@ CONSTRAINTS
 
  REMOVE:2317 (adj def sg) IF
 	(0 plural)
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 ikke-adj)
 	(1 noun/adj)
 	(1C plural)
@@ -5931,7 +5925,7 @@ CONSTRAINTS
 # sidste (blir plural når be fjernes) uke (ikke plural))"))
 
  REMOVE:2318 (adj def sg) IF
-	(NOT 0 orden)
+	(NOT 0 ordinal-number)
 	(NOT 0 ikke-adj)
 	(NOT 0 %tiltalte%)
 	(NOT 1 noun/adj)
