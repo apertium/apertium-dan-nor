@@ -10,6 +10,7 @@ LIST %aller% = ("aller"  adv) ;
 LIST %alt% = ("al"  det nt) ;
 LIST %andre% = "andre"  ;
 LIST %anden% = "anden"  ;
+LIST %andet% = "andet"  ;
 LIST %anden%-plural = ("anden"  pl) ;
 LIST %anden%-grunnf = "anden"  ;
 LIST %anden/samme%/quantifier = ("anden" ) ("samme" ) (det qnt) ;
@@ -96,7 +97,7 @@ LIST %ikke% = "ikke"  ;
 LIST %ikke/også% = "også"  "ikke"  ;
 LIST %ja-nej% = "nej"  "ja"  ;
 LIST %jesu/kristi/pauli% = ("jesu"  gen) ("kristi"  gen) ("pauli"  gen) ;
-LIST %klokke/kl% = ("klokke"  n) ("kl." n acr) ;
+LIST %klokken/kl% = ("klokke"  n) ("kl." n acr) ;
 LIST %lade% = "lade"  ;
 LIST %lignende% = "lignende"  ;
 LIST %alt/lidt% = ("alt"  det qnt nt sg) ("lidt"  adj posi nt ind sg) ;
@@ -264,16 +265,16 @@ LIST singular-noun = (n sg) (np sg) ;
 LIST singular-indefinite = (sg ind) ;
 LIST f-sindefinitej = ("det"  prn) ;
 LIST farger = "turkis"  "sort"  "rød"  "rosa"  "orange"  "lilla"  "indigo"  "hvid"  "gul"  "grøn"  "grå"  "violett"  "blå"  ;
-LIST farlige-adj = "brak"  "året"  "være"  "vide"  "vis"  "var"  "tids"  "sige"  "se"  "live"   "lette"  "lave"  "helle"  "før"  "fore"  "eje"  "egen"  "bar"  "anden"  "angående"  "ale"   ;
-LIST farlige-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller"  "gode"  "faren"  (adj comp) ("visse"  n) ("sivil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
-LIST farlige-plural-noun = ("hjælp"  pl ind) ("lede"  m pl ind) ("led"  m pl ind) ("fald"  m pl ind) ("snus"  m pl ind) ("find"  pl ind) ("finde"  pl ind) ("komme"  pl ind) ("under"  pl ind) ("får"  pl) ("ønske"  pl) ("slag"  gen) ("jeg"  pl) ("lo"  pl) ("var"  pl) ("nå"  pl) ("al"  pl def) ("mod"  pl ind) ("men"  pl ind) ;
-LIST farlige-forledd-verb = ("helle"  pres) ("nå"  pres)  ("fare"  pret) ("tro"  adj) ("tiltale"  pret) ("klokke"  pret) ;
-LIST farlige-imp = "live"  "vare"  "så"  "se"  "nå"  "neje"  "mine"  "mene"  "føre"  "fore"  "ene"  "bedre"  "more"  "fare" ;
-LIST farlige-inf = ("felle"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lite"  "like"  "lekre"  "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse"  "dette"  "bedre"  ("slette"  pass) "røde"  ;
-LIST farlige-mask-noun = "ville"  "ved"  "syke"  "skrå"  "like"  "helt"  "heller"  "eldste"  ("ho"  sg ind gen) ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lit"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
-LIST farlige-neuter-noun = "vilt"  "venstre"  "var"  "under"  "tre"  "skrå"  "sett"  "selv"  "nå"  "ny"  "mot"  "lik"  "konkret"  "jeg"  "høyre"  "godt"  "gode"  "folk"  "bak"  ("stikk"  adv) ("alt"  ind) ("fort"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
-LIST farlige-part = "kante"  "vite"  "via"  "vekke"  "svare"  "stole"  "spenne"  "skjønne"  "sale"  "renne"  "re"  "pule"  "prime"  "ose"  "opta"  "omvende"  "nære"  "nyte"  "mige"  "make"  "lyse"  "live"  "lite"  "lete"  "leite"  "kontre"  "klare"  "hete"  "helle"  "hele"  "gråte"  "gale"  "fortsette"  "fore"  "ete"  "desidere"  "brune"  "bre"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
-LIST farlige-verb = ("numbere" vblex pret) ("numbere" vblex imp) ("numbere" pp)  ("ansette"  vblex pret) ("kontre"  pret) ("gange"  pres) ("stede"  pres) ("nå"  pres) ("elle"  pres) ("fø"  pres) ("sige"  pret) ("fare"  pret) ("se"  pret) ("helle"  pres) ("mige"  pret) ("dy"  pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("kope"  vblex pres) ("iblande"  vblex pret) ("forfatte"  vblex pres);
+LIST ambiguous-adj = "brak"  "året"  "være"  "vide"  "vis"  "var"  "tids"  "sige"  "se"  "live"   "lette"  "lave"  "helle"  "før"  "fore"  "eje"  "egen"  "bar"  "anden"  "angående"  "ale"   ;
+LIST ambiguous-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller"  "gode"  "faren"  (adj comp) ("visse"  n) ("sivil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
+LIST ambiguous-plural-noun = ("hjælp"  pl ind) ("lede"  m pl ind) ("led"  m pl ind) ("fald"  m pl ind) ("snus"  m pl ind) ("find"  pl ind) ("finde"  pl ind) ("komme"  pl ind) ("under"  pl ind) ("får"  pl) ("ønske"  pl) ("slag"  gen) ("jeg"  pl) ("lo"  pl) ("var"  pl) ("nå"  pl) ("al"  pl def) ("mod"  pl ind) ("men"  pl ind) ;
+LIST ambiguous-forledd-verb = ("helle"  pres) ("nå"  pres)  ("fare"  pret) ("tro"  adj) ("tiltale"  pret) ("klokke"  pret) ;
+LIST ambiguous-imp = "live"  "vare"  "så"  "se"  "nå"  "neje"  "mine"  "mene"  "føre"  "fore"  "ene"  "bedre"  "more"  "fare" ;
+LIST ambiguous-inf = ("felle"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lite"  "like"  "lekre"  "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse"  "dette"  "bedre"  ("slette"  pass) "røde"  ;
+LIST ambiguous-mask-noun = "ville"  "ved"  "syke"  "skrå"  "like"  "helt"  "heller"  "eldste"  ("ho"  sg ind gen) ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lit"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
+LIST ambiguous-neuter-noun = "vilt"  "venstre"  "var"  "under"  "tre"  "skrå"  "sett"  "selv"  "nå"  "ny"  "mot"  "lik"  "konkret"  "jeg"  "høyre"  "godt"  "gode"  "folk"  "bak"  ("stikk"  adv) ("alt"  ind) ("fort"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
+LIST ambiguous-part = "kante"  "vite"  "via"  "vekke"  "svare"  "stole"  "spenne"  "skjønne"  "sale"  "renne"  "re"  "pule"  "prime"  "ose"  "opta"  "omvende"  "nære"  "nyte"  "mige"  "make"  "lyse"  "live"  "lite"  "lete"  "leite"  "kontre"  "klare"  "hete"  "helle"  "hele"  "gråte"  "gale"  "fortsette"  "fore"  "ete"  "desidere"  "brune"  "bre"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
+LIST ambiguous-verb = ("numbere" vblex pret) ("numbere" vblex imp) ("numbere" pp)  ("ansette"  vblex pret) ("kontre"  pret) ("gange"  pres) ("stede"  pres) ("nå"  pres) ("elle"  pres) ("fø"  pres) ("sige"  pret) ("fare"  pret) ("se"  pret) ("helle"  pres) ("mige"  pret) ("dy"  pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("kope"  vblex pres) ("iblande"  vblex pret) ("forfatte"  vblex pres);
 LIST fem = f mf (adj def) ;
 LIST fem-definite = (f def) ;
 LIST fem-det = (det f) ;
@@ -544,8 +545,8 @@ LIST indefinite-neuter-det = ("en"  det nt) ("noen"  det nt) ("ingen"  det nt) ;
 LIST indefinite-noun = (n ind) (np ind) ;
 LIST utfyll-sbu = "siden"  "når"  "før"  "der"  "da"  ;
 LIST utrop-t = "$!" "!" ;
-LIST veldig-farlige-part = "nære"  "nyde"  "mage"  "lide"  "hele"  "gale"  "fore"  "brune"  "bene"  "bare"   gen ;
-LIST veldig-farlige-verb = ("penne"  pres) ("stede"  pres) ("dy"  pres) ("grade"  pres) ("kurve"  pres) ("iblande"  vblex pret) ("grade"  vblex pres) ;
+LIST veldig-ambiguous-part = "nære"  "nyde"  "mage"  "lide"  "hele"  "gale"  "fore"  "brune"  "bene"  "bare"   gen ;
+LIST veldig-ambiguous-verb = ("penne"  pres) ("stede"  pres) ("dy"  pres) ("grade"  pres) ("kurve"  pres) ("iblande"  vblex pret) ("grade"  vblex pres) ;
 LIST verb = vblex ;
 LIST verb-u-imp = (vblex pres) (vblex pret) (vblex pp) (vblex inf) ;
 
@@ -1261,7 +1262,7 @@ CONSTRAINTS
   "<så>"   SELECT:3216   (cnjsub) IF
 	(-1 comma)
 	(1C nom)
-	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 farlige-verb LINK -1 adverb LINK NOT *-1 pres/pret)
+	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 ambiguous-verb LINK -1 adverb LINK NOT *-1 pres/pret)
 ;
 #  " , så (sbu) de ikke fik lov til at være "))
 # jofm
@@ -1277,7 +1278,7 @@ CONSTRAINTS
   "<så>"   SELECT:3220   (adv) IF
 	(1 pres/pret)
 	(-1 sentence-border)
-	(NOT 1 farlige-verb)
+	(NOT 1 ambiguous-verb)
 ;
 #  "Som regel er "så" adv og ordet etter
 # pres/pret: , så slipper du ..."
@@ -1790,7 +1791,7 @@ CONSTRAINTS
 # 050908 på "længere"  skal adj <adv>-lesningen stå
 
  SELECT:3064 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 pres/pret)
 	(NOT 0 inf)
 	(1 definite-singular-neuter-noun)
@@ -1800,7 +1801,7 @@ CONSTRAINTS
 # group: 6
 
  SELECT:3067 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 det)
 	(NOT 0 noun)
 	(-1C definite-neuter-det)
@@ -1810,7 +1811,7 @@ CONSTRAINTS
 ;
 
  SELECT:3068 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 det)
 	(NOT 0 noun)
 	(NOT 0 lexicalverb)
@@ -1821,7 +1822,7 @@ CONSTRAINTS
 #  "det militære"
 
  SELECT:3073 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 indefinite-singular-neuter-adj)
 	(1 adj)
 	(**-1C noun-gen BARRIER ikke-adv-adj)
@@ -1832,7 +1833,7 @@ CONSTRAINTS
 # verdenss veldige totale fangst"
 
  SELECT:3074 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1C adj)
 	(**-1C noun-gen BARRIER ikke-adv-adj)
 	(*1O indefinite-singular-noun LINK NOT 0 plural-noun LINK NOT *-1 ikke-adv-adj)
@@ -1842,7 +1843,7 @@ CONSTRAINTS
 #  verdens totale fangst"
 
  SELECT:3075 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 indefinite-singular-neuter-adj)
 	(1 adj)
 	(**-1C noun-gen BARRIER ikke-adv-adj)
@@ -1853,7 +1854,7 @@ CONSTRAINTS
 # Hauges nye religiøse verden"
 
  SELECT:3076 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1C adj)
 	(**-1C noun-gen BARRIER ikke-adv-adj)
 	(*1 definite-singular-noun BARRIER ikke-adv-adj)
@@ -1863,7 +1864,7 @@ CONSTRAINTS
 # Hauges religiøse verden"
 
  SELECT:3082 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1C adj)
 	(*-1 nr2-det-neuter-indefinite BARRIER ikke-adv-adj)
 	(*-1 nr2-det-neuter-indefinite LINK -1 poss-det)
@@ -1875,26 +1876,26 @@ CONSTRAINTS
 
  SELECT:3087 (adj def sg) IF
 	(NOT 0 indefinite-singular-neuter-adj)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(1 adj)
 	(*-1 nr2-det-neuter-definite BARRIER ikke-adv-adj)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 	(*1O indefinite-singular-neuter-noun LINK NOT -1 comma/konj)
 ;
-#  "det andre nye gule hus"
+#  "det andet nye gule hus"
 
  SELECT:3088 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1C adj)
 	(*-1 nr2-det-neuter-definite BARRIER ikke-adv-adj)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 	(*1O indefinite-singular-neuter-noun LINK NOT -1 comma/konj)
 ;
-#  "det andre gule hus"
+#  "det andet gule hus"
 
  SELECT:3094 (adj def sg) IF
 	(NOT 0 indefinite-singular-neuter-adj)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(1 adj)
 	(*-1O definite-neuter-det LINK NOT 0 ikke-det LINK NOT 0 plural-det LINK NOT *1 ikke-adv-adj)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
@@ -1903,7 +1904,7 @@ CONSTRAINTS
 #  "det nye gule hus"
 
  SELECT:3095 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1C adj)
 	(*-1O definite-neuter-det LINK NOT 0 ikke-det LINK NOT 0 plural-det LINK NOT *1 ikke-adv-adj)
 	(*1O indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
@@ -1914,7 +1915,7 @@ CONSTRAINTS
 
  SELECT:3101 (adj def sg) IF
 	(NOT 0 adj-sup-definite)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(**-1C definite-neuter-det BARRIER ikke-adv-adj)
 	(*1 noun-prop BARRIER ikke-adv-adj)
 	(*1O noun-prop LINK NOT -1 comma)
@@ -1923,7 +1924,7 @@ CONSTRAINTS
 
  SELECT:3102 (adj def sg) IF
 	(NOT 0 indefinite-singular-neuter-adj)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(1 adj)
 	(*-1 definite-neuter-det BARRIER ikke-adv-adj)
 	(*1 definite-singular-neuter-noun BARRIER ikke-adv-adj)
@@ -1932,7 +1933,7 @@ CONSTRAINTS
 #  "det nye gule hus"
 
  SELECT:3103 (adj def sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1C adj)
 	(*-1 definite-neuter-det BARRIER ikke-adv-adj)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
@@ -1981,7 +1982,7 @@ CONSTRAINTS
 # group: 9
 
  SELECT:3025 (adj pl) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT -1 det)
 	(*-1O sentence-border LINK NOT 1 preposition/adv)
 	(*-1 pron-akk-plural BARRIER ikke-adv)
@@ -1991,7 +1992,7 @@ CONSTRAINTS
 #      :group 10
 
  SELECT:3026 (adj pl) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(*-1O sentence-border LINK NOT 1 preposition/adv)
 	(*-1 indefinite-plural-noun BARRIER ikke-adv)
 	(*-1 indefinite-plural-noun LINK **-1C objpred-verb LINK NOT -1 clb)
@@ -2150,7 +2151,7 @@ CONSTRAINTS
 
  SELECT:3047 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 noun)
@@ -2168,7 +2169,7 @@ CONSTRAINTS
 
  SELECT:3048 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2186,7 +2187,7 @@ CONSTRAINTS
 
  SELECT:3049 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2204,7 +2205,7 @@ CONSTRAINTS
 
  SELECT:3050 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2221,7 +2222,7 @@ CONSTRAINTS
 
  SELECT:3052 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2239,7 +2240,7 @@ CONSTRAINTS
 
  SELECT:3053 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2256,7 +2257,7 @@ CONSTRAINTS
 
  SELECT:3054 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2277,7 +2278,7 @@ CONSTRAINTS
 
  SELECT:3055 (adj pl) IF
 	(NOT 0 %sidste%/ordinal-numberstal)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 verb)
 	(NOT 0 nr2-det)
 	(NOT 0 det)
@@ -2302,7 +2303,7 @@ CONSTRAINTS
 # navn som ... Det juridiske (ikke plural) fakultet"))
 
  SELECT:3056 (adj pl) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 %andre%)
 	(NOT 0 noun-gen)
 	(NOT 0 indefinite-singular-neuter-adj)
@@ -2313,7 +2314,7 @@ CONSTRAINTS
 #  "de vidunderlige vakre sommerfugle"
 
  SELECT:3057 (adj pl) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 %andre%)
 	(NOT 0 noun-gen)
 	(NOT 0 lexicalverb)
@@ -2321,10 +2322,10 @@ CONSTRAINTS
 	(*-1O plural-det LINK NOT 0 neuter-det LINK NOT *1 ikke-adv-adj-comma)
 	(*1 plural-noun BARRIER ikke-adv-adj)
 ;
-#  "de vakre sommerfugle"
+#  "de smukke sommerfugle"
 
  SELECT:3058 (adj pl) IF
-	(0 farlige-adj-noun)
+	(0 ambiguous-adj-noun)
 	(NOT 0 lexicalverb)
 	(NOT 0 inf)
 	(1 indefinite-plural-noun)
@@ -2337,7 +2338,7 @@ CONSTRAINTS
 
 
  SELECT:3059 (adj pl) IF
-	(0 farlige-adj-noun)
+	(0 ambiguous-adj-noun)
 	(0 inf)
 	(1 indefinite-plural-noun)
 	(NOT 1 singular)
@@ -2351,7 +2352,7 @@ CONSTRAINTS
  SELECT:3060 (adj pl) IF
 	(NOT 0 adv)
 	(NOT 0 perf-part)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1 noun/adj/adv)
 	(NOT 1 perf-part)
 	(NOT 1 infinitive-marker)
@@ -2370,7 +2371,7 @@ CONSTRAINTS
  SELECT:3061 (adj pl) IF
 	(NOT 0 adv)
 	(NOT 0 perf-part)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1 noun/adj/adv)
 	(NOT 1 perf-part)
 	(NOT 1 infinitive-marker)
@@ -2512,7 +2513,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 perf-part/inf)
 	(NOT 0 <perf-part>)
 	(NOT 0 adv)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 preposition)
 	(NOT 0 noun)
 	(-1 pron/noun)
@@ -2524,7 +2525,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 perf-part/inf)
 	(NOT 0 <perf-part>)
 	(NOT 0 adv)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 preposition)
 	(NOT 0 noun)
 	(-1 pron/noun)
@@ -2538,7 +2539,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2966 (adj nt ind sg) IF
 	(NOT 0 <perf-part>)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 adv)
 	(-1 pron/noun)
 	(1C perf-part/inf)
@@ -2549,7 +2550,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2967 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 <perf-part>)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 m-auxiliary-verb)
 	(1C perf-part/inf)
 	(-1C lexicalverb)
@@ -2559,7 +2560,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2968 (adj nt ind sg) IF
 	(NOT 0 adv)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 <perf-part>)
 	(NOT 0 ordinal-number)
 	(NOT 0 noun)
@@ -2572,7 +2573,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2969 (adj nt ind sg) IF
 	(NOT 0 adv)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 ordinal-number)
 	(NOT 0 <perf-part>)
 	(-1C pron-pers)
@@ -2639,7 +2640,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2974 (adj nt ind sg) IF
 	(NOT 0 ikke-adj)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 ordinal-number)
 	(1C adj)
 	(NOT -1 adj)
@@ -2650,7 +2651,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2975 (adj nt ind sg) IF
 	(NOT 0 ikke-adj)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 ordinal-number)
 	(1C adj)
 	(NOT *-1 det)
@@ -2665,7 +2666,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 noun-gen)
 	(NOT 0 ordinal-number)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 perf-part)
 	(NOT 0 <perf-part>)
 	(NOT 0 preposition)
@@ -2681,7 +2682,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2979 (adj nt ind sg) IF
 	(NOT 0 <perf-part>)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 ordinal-number)
 	(NOT 0 adv)
 	(1 adj-plural)
@@ -2731,7 +2732,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2984 (adj nt ind sg) IF
 	(NOT 0 perf-part)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1 noun/adj)
 	(NOT -1 det)
 	(*-1O sentence-border LINK NOT 1 preposition/adv)
@@ -2743,7 +2744,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2985 (adj nt ind sg) IF
 	(NOT 0 perf-part)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1 noun/adj)
 	(NOT -1 det)
 	(*-1O sentence-border LINK NOT 1 preposition/adv)
@@ -2855,7 +2856,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 17
 
  SELECT:2997 (adj nt ind sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
 	(NOT 0 pres/pret)
@@ -2872,7 +2873,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2998 (adj nt ind sg) IF
 	(NOT 0 ordinal-number)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
 	(NOT 0 pres/pret)
@@ -2885,7 +2886,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 18
 
  SELECT:2999 (adj nt ind sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 det)
 	(NOT 0 noun)
 	(NOT 0 lexicalverb)
@@ -2896,7 +2897,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "intet mindre"
 
  SELECT:3001 (adj nt ind sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(*-1 nr2-det-neuter-indefinite BARRIER ikke-adv-adj)
 	(*-1 nr2-det-neuter-indefinite LINK -1 indefinite-neuter-det)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
@@ -2906,7 +2907,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "et andet gult hus"
 
  SELECT:3002 (adj nt ind sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(*-1 indefinite-neuter-det BARRIER ikke-adv-adj)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 	(*1O indefinite-singular-neuter-noun LINK NOT -1 comma/konj)
@@ -2972,11 +2973,11 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 comma/konj)
 	(*-1 ikke-adv LINK 0 %det%-pron LINK -1 %gå%)
 ;
-#  "går det ikke bra?"
+#  "går det ikke godt?"
 
  SELECT:3011 (adj nt ind sg) IF
 	(NOT 0 ordinal-number)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
 	(NOT 0 pres/pret)
@@ -2988,13 +2989,13 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 noun-gen)
 	(*-1 sentence-border BARRIER p-auxiliary-verb)
 ;
-#  "psingular hus
-# tar ikke ord som kan være perf-part"
+#  "pænt hus
+# tar ikke ord som kan være perf-part
 #      :group 19
 
  SELECT:3012 (adj nt ind sg) IF
 	(NOT 0 ordinal-number)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
 	(NOT 0 pres/pret)
@@ -3006,13 +3007,13 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1 p-auxiliary-verb BARRIER sentence-border)
 	(*-1 perf-part BARRIER sentence-border)
 ;
-#  "virker bare dersom det er funnet perf-part
-# tidligere i setningen"
+#  "virker kun hvis det er fundet perf-part
+# tidligere i sætningen"
 #      :group 19
 
  SELECT:3013 (adj nt ind sg) IF
 	(NOT 0 ordinal-number)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
 	(NOT 0 pres/pret)
@@ -3024,12 +3025,12 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1 p-auxiliary-verb BARRIER sentence-border)
 	(*-1 perf-part BARRIER sentence-border)
 ;
-#  "disambiguerer når det er to adjektiv etter hverandre"
+#  disambiguerer når der er to adjektiv efter hinanden
 #      :group 19
 
  SELECT:3014 (adj nt ind sg) IF
 	(NOT 0 ordinal-number)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 noun-gen)
 	(NOT 0 plural)
 	(NOT 0 pres/pret)
@@ -3040,14 +3041,14 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -2 neuter-det)
 	(*-1 sentence-border BARRIER p-auxiliary-verb)
 ;
-#  "disambiguerer når det er to adjektiv etter hverandre"
+#  disambiguerer når der er to adjektiv efter hinanden
 #      :group 19
 
  SELECT:3015 (adj nt ind sg) IF
 	(NOT 0 det)
 	(NOT 0 adv)
 	(NOT 0 perf-part)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 1 noun/adj/adv)
 	(NOT 1 comma)
 	(NOT 1 perf-part)
@@ -3058,12 +3059,12 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1O sentence-border LINK *1 noun/pron/%al% LINK 0 nom-neuter-singular)
 	(*-1O sentence-border LINK NOT 1 preposition)
 ;
-#  "sindefinitejektspredikativ
+#  "subjektsprædikativ
 
  SELECT:3016 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 perf-part)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(1 comma)
 	(NOT -1 det/adj/comma/konj)
 	(NOT 2 adj-indefinite-singular)
@@ -3073,20 +3074,20 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1O sentence-border LINK *1 noun/pron/%al% LINK 0 nom-neuter-singular)
 	(*-1O sentence-border LINK NOT 1 preposition)
 ;
-#  "adjektiv kongruerer med nom lengst til
-# venstre: Huset i skogen er grønt
-# Spesialregel for comma:
-# det var solid, et fint hus hadde han ..."
+#  adjektiv kongruerer med nom længst til
+# venstre: "Huset i skoven er grønt"
+# Specialregel for komma:
+# "det var solidt, et fint hus havde han ..."
 
  SELECT:3019 (adj nt ind sg) IF
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 adv)
 	(NOT 0 <perf-part>)
 	(-1 pron/noun)
 	(*1 ikke-adv LINK 0 perf-part/inf LINK NOT 0 noun-mask/fem)
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 ;
-#  "8.9.2003: Det skulle han egentlig ikke gjort."
+#  "8.9.2003: Det skulle han egentlig ikke  havegjort."
 #NOT 0 noun-mask/fem
 
  SELECT:2953 (adj nt) IF
@@ -3101,13 +3102,13 @@ SELECT:2963 (adj nt ind sg) IF
 	(1C noun)
 	(*-1 det BARRIER ikke-adv-adj)
 ;
-#  "noen egentlig ytre trussel"
+#  "nogen egentlig ydre trussel"
 
  SELECT:2874 (adj comp) IF
 	(-1 det)
 	(1C adj)
 ;
-#  "de ytre fysiske rammer"
+#  "de ydre fysiske rammer"
 
  SELECT:2875 (adj comp) IF
 	(0 grads-adv)
@@ -3124,7 +3125,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(2C pres/pret)
 	(**-2C sentence-border LINK 0 sbu)
 ;
-#  "22.6.2001 Selv om de døde ikke kan snakke, er det slik"
+#  "22.6.2001 Selv om de døde ikke kan snakke, er det sådan"
 
  SELECT:2870 (adj) IF
 	(1 sentence-border)
@@ -3133,7 +3134,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 clb)
 	(-2C adj)
 ;
-#  "Bladverket er nytt og lyst (adj)"
+#  "Bladværket er nyt og lyst (adj)"
 #      :group 31
 
  SELECT:2871 (adj) IF
@@ -3143,7 +3144,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(3 sentence-border)
 	(NOT 3 sbu)
 ;
-#  "Bladverket er nytt og lyst (adj)"
+#  "Bladværket er nyt og lyst (adj)"
 #      :group 31
 
  SELECT:2872 (adj) IF
@@ -3155,7 +3156,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 preposition)
 	(**-1CO lexicalverb LINK *1C ikke-adv LINK 0 preposition LINK NOT 0 %som% LINK NOT *1 alt)
 ;
-#  "Velger adjektiv mellom verb + preposition og nounantiv
+#  Vælger adjektiv mellom verb + preposition og substanantiv
 
  SELECT:2845 (adv) IF
 	(0 utfyll-sbu)
@@ -3163,7 +3164,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 comma/konj)
 	(NOT 2 pres/pret)
 ;
-#  "Nåvel, da kommer du"
+#  "Nuvel, da kommer du"
 
  SELECT:2846 (adv) IF
 	(0 utfyll-sbu)
@@ -3172,7 +3173,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-2 sentence-border)
 	(NOT 2 pres/pret)
 ;
-#  "Siden da (adv) har den økt ..."))
+#  "Siden da (adv) har den øget ..."))
 
  SELECT:2848 (adv) IF
 	(0 utfyll-sbu)
@@ -3180,10 +3181,10 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 sentence-border)
 	(NOT 2 pres/pret)
 ;
-#  "Som regel er da adv når ordet etter er
-# pres/pret: Når han styrer båten, da (adv)
-# går det bra
-# NOT 2 PRES/PRET: Da (sbu) skipet (\"pret\")
+#  "Som regel er da adv når ordet edter er
+# pres/pret: Når han styrer båden, så (adv)
+# går det godt
+# NOT 2 PRES/PRET: Da (sbu) skibet (\"pret\")
 # (forts) gled (pret)"))
 
  SELECT:2850 (adv) IF
@@ -3197,11 +3198,11 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 infinitive-marker)
  	(*-1 sentence-border BARRIER copula-lexicalverb)
 ;
-#  "Vi handler utelukkende (adv) med regjeringer
-# 3.4.2003: Not 0 noun: Han spilte piano."
+#  "Vi handler udelukkende (adv) med regeringer
+# 3.4.2003: Not 0 noun: Han spillede piano."
 # KBU (NOT 1 nom) er for strengt, (NOT 1 pron/noun/det) i staden:
-# «at han ikke visste hvor<adv> høy farten var.»
-# NOT 1 infinitive-marker: «de lures til å klikke»
+# «at han ikke vidste hvor<adv> høj farten var.»
+# NOT 1 infinitive-marker: «de lures til at klikke»
 
  SELECT:2851 (adv) IF
 	(NOT 0 %en%)
@@ -3223,7 +3224,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 	(*1 sentence-border BARRIER pres/pret)
 ;
-#  "Hvordan kan jeg da (adv) bli i Norge?"))
+#  "Hvordan kan jeg da (adv) blive i Norge?"))
 
  SELECT:2853 (adv) IF
 	(NOT 0 sbu)
@@ -3235,11 +3236,11 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-4O sentence-border LINK 1 adv)
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 ;
-#  "Da leste jeg ikke
+#  "Da læste jeg ikke
 # NOT 0 preposition: for
-# Ikke: Kanskje tar hun
-# deltidsjobb når (sbu) den eldste
-# begynner på skolen"
+# Ikke: Måske tager hun
+# deltidsjob når (sbu) den ældste
+# begynder i skolen"
 
  SELECT:2854 (adv) IF
 	(NOT 0 %så/og/selv%)
@@ -3250,8 +3251,8 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-4O sentence-border LINK 1 preposition LINK NOT 1 lexicalverb)
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 ;
-#  "I går leste jeg ikke
-# preposition etter sentence-border = pp-er i forfelt
+#  "I går læste jeg ikke
+# prposition etter sentence-border = pp-er i forfelt
 # NOT 0 preposition: for"
 
  SELECT:2855 (adv) IF
@@ -3260,7 +3261,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(1C interj)
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 ;
-#  "Er det vel faen ikke"
+#  "Er det vel fanden ikke"
 
  SELECT:2856 (adv) IF
 	(NOT 0 %så/og/selv%)
@@ -3268,14 +3269,14 @@ SELECT:2963 (adj nt ind sg) IF
 	(1C perf-part/inf)
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 ;
-#  "har jeg ikke lest"
+#  "har jeg ikke læst"
 
  SELECT:2857 (adv) IF
 	(NOT 0 %så/og/selv%)
 	(1C perf-part/inf)
 	(-1C lexicalverb)
 ;
-#  "jeg har ikke lest"
+#  "jeg har ikke læst"
 
  SELECT:2858 (adv) IF
 	(NOT 0 %så/og/selv%)
@@ -3283,14 +3284,14 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1C noun)
 	(NOT -1 noun-gen)
 ;
-#  "hvis gutten nå (adv) går ..."))
+#  "hvis drengen nu (adv) går ..."))
 
  SELECT:2859 (adv) IF
 	(NOT 0 %så/og/selv%)
 	(-1 pron)
 	(1C lexicalverb)
 ;
-#  "hvis det nå (adv) går ..."))
+#  "hvis det nu (adv) går ..."))
 
  SELECT:2860 (adv) IF
 	(NOT 0 %alt%)
@@ -3298,7 +3299,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 sentence-border)
 	(1C lexicalverb)
 ;
-#  "som nå (adv) går ..."))
+#  "som nu (adv) går ..."))
 
  SELECT:2861 (adv) IF
 	(NOT 0 %så/og/selv%)
@@ -3319,7 +3320,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1C adv)
 ;
 #  "heller ikke
-# NOT 0 VERB: nå, så"
+# NOT 0 VERB: så"
 
  SELECT:2863 (adv) IF
 	(NOT 0 %så/og/selv%)
@@ -3333,7 +3334,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**1C lexicalverb BARRIER sentence-border)
 ;
 #  "Han så snart - jeg kom så snart
-# leter etter lexicalverb for ikke å ta feil av \"så\""
+# leder efter lexicalverb for ikke at tage fejl af \"så\""
 
  SELECT:2864 (adv) IF
 	(NOT 0 %så/og/selv%)
@@ -3366,26 +3367,23 @@ SELECT:2963 (adj nt ind sg) IF
 	(1C adj)
 	(-1C det)
 ;
-#  "en heller dårlig film"
-#NOT 0 nr2-det: en slik dårlig film
-# KBU: «en fuldstændig<adj, ikkje adv> syntaktisk trestruktur»
+#  "en meget dårlig film"
+#NOT 0 nr2-det: en sådan dårlig film
+# KBU: «en fuldstændig<adj, ikke adv> syntaktisk træstruktur»
 
-#her stod 2816
-
-#Her stod 2792
 
  SELECT:2772 (det pl) IF
 	(1 adj-sup-indefinite)
 	(2 adj-plural)
 	(NOT 3 noun/adj)
 ;
-#  "de mest ressurssterke"
+#  "de mest ressursestærke"
 
  SELECT:2773 (det pl) IF
 	(1 adj-sup-definite)
 	(NOT 2 noun/adj)
 ;
-#  "De pluraleste er ..."
+#  "De fleste er ..."
 
  SELECT:2775 (det pl) IF
 	(0 nr2-det-plural)
@@ -3406,14 +3404,14 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 2 noun/adj)
 ;
 #  "(NOT 2 comma/KONJ)
-# de gamle
-# NOT 1 lexicalverb: maten de serverte (pret)"))
+# "de gamle"
+# NOT 1 lexicalverb: maden de serverede (pret)"))
 
  SELECT:2778 (det pl) IF
 	(NOT 0 %hundrede/tusind%)
 	(**1CO nr2-det-plural LINK NOT 0 %begge/selve/alle% LINK NOT *-1 ikke-adv-adj-comma)
 ;
-#  "de sidste 12 månedene"
+#  "de sidste 12 måneder"
 
  SELECT:2780 (det pl) IF
 	(NOT 0 %hundrede/tusind%)
@@ -3427,7 +3425,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1O plural-noun LINK NOT 0 ikke-noun LINK NOT *-1 ikke-adv-adj-comma)
 ;
 #  "Ikke: Fremdeles er de (ikke det)
-# (forts) store lønnstapere"))
+# (forts) store lønstabere"))
 
  SELECT:2781 (det pl) IF
 	(NOT 0 %hundrede/tusind%)
@@ -3438,7 +3436,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1O definite-plural-noun LINK NOT 0 ikke-noun LINK NOT *-1 ikke-adv-adj-comma)
 ;
 #  "Sikrere: Fremdeles er de (det) store
-# (forts) bilene slik at .."))
+# (forts) bilerne sådan at .."))
 
  SELECT:2782 (det pl) IF
 	(NOT 0 %hundrede/tusind%)
@@ -3458,11 +3456,11 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 lexicalverb)
 	(*1O plural-noun LINK NOT 0 ikke-noun LINK NOT *-1 ikke-adv-adj-comma-preposition-det-pron-prop)
 ;
-#  "disse (ganske fine) bilene"))
+#  "disse (ganske fine) biler"))
 # KBU: ikke-adv-adj-comma endra til ikke-adv-adj-comma-preposition-det-pron-prop
-# sidan «de» har lesingane <np>/<pr>/<det>/<prn>, og «disse» har
-# lesingane <prn>/<det>
-# «og de grunnleggende friheter»
+# siden «de» har læsningerne <np>/<pr>/<det>/<prn>, og «disse» har
+# læsningerne <prn>/<det>
+# «og de grundlæggende friheder»
 
  SELECT:2784 (det pl) IF
 	(0 nr2-det)
@@ -3478,7 +3476,8 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 plural-det)
 	(**1C plural-noun BARRIER ikke-adv-adj-comma)
 ;
-#  "de andre bilene"
+#  "de andre biler"
+# jofm
 
  SELECT:2786 (det pl) IF
 	(0 nr2-det)
@@ -3489,7 +3488,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1O indefinite-plural-noun LINK NOT 0 %hundrede/tusind% LINK NOT *-1 ikke-adv-adj)
 	(*1 indefinite-plural-noun LINK 0 pres/pret LINK 1 pres/pret)
 ;
-#  "Tre gange hopet han"
+#  "Tre gange håbede han"
 
  SELECT:2787 (det pl) IF
 	(0 nr2-det)
@@ -3502,9 +3501,9 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2788 (det pl) IF
 	(0 %tre%)
-	(-1 %klokke/kl%)
+	(-1 %klokken/kl%)
 ;
-#  "15.9.2003: Klokka tre"
+#  "15.9.2003: Klokken tre"
 
  SELECT:2720 (det nt) IF
 	(0 indefinite-neuter-det)
@@ -3512,14 +3511,14 @@ SELECT:2963 (adj nt ind sg) IF
 	(2 adj-komp)
 	(NOT 3 noun/adj)
 ;
-#  "noe endnu bedre"
+#  "noget endnu bedre"
 
  SELECT:2721 (det nt) IF
 	(0 indefinite-neuter-det)
 	(1 adj-komp)
 	(NOT 2 noun/adj)
 ;
-#  "noe bedre"
+#  "noget bedre"
 
  SELECT:2722 (det nt) IF
 	(0 indefinite-neuter-det)
@@ -3528,7 +3527,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(2 comma/konj)
 	(3 indefinite-singular-neuter-adj)
 ;
-#  "noe trygt og godt"
+#  "noget trygt og godt"
 
  SELECT:2724 (det nt) IF
 	(0 indefinite-neuter-det)
@@ -3540,7 +3539,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 2 noun/adj)
 	(NOT 2 comma/konj)
 ;
-#  "noe helt annet"
+#  "noget helt andet"
 
  SELECT:2725 (det nt) IF
 	(0 definite-neuter-det)
@@ -3555,10 +3554,10 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1O sentence-border LINK NOT 1 adverb/komp/indefinite-sup)
 	(*-1O sentence-border LINK NOT 1 preposition)
 ;
-#  "Det gjelder det paradoksale
-# Ikke: nå smaker det (pron) godt
-# Ikke: I går smakte det (pron) godt
-# Ikke: ,skal det (pron) sannelig bli"))
+#  "Detrgælder det paradoksale
+# Ikke: nu smager det (pron) godt
+# Ikke: I går smagte det (pron) godt
+# Ikke: ,skal det (pron) sandelig bli"))
 
  SELECT:2727 (det nt) IF
 	(0 definite-neuter-det)
@@ -3571,11 +3570,13 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 2 comma/konj)
 ;
 #  "... det grønne
-# NOT -1 VERB: jeg har hatt (verb) det (pron)
-# (forts) spennende
-# NOT 0 plural-DET: De det-er som er like i n og plural
-# er helt pluralertydige: hennes (mf/n/pl)
+# NOT -1 VERB: jeg har haft (verb) det (pron)
+# (forts) spændende
+# NOT 0 plural-DET: De det-er som er ens i n og plural
+# er helt flertydige: hennes (mf/n/pl)
 # fortrolige ( be mf/n/pl)"))
+#jofm
+
 
  SELECT:2728 (det nt) IF
 	(0 nr2-det)
@@ -3590,16 +3591,16 @@ SELECT:2963 (adj nt ind sg) IF
 	(**-1C definite-neuter-det BARRIER ikke-adv)
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 ;
-#  "det andre vakre bilde ..."
+#  "det andre smukke billeder ..."
 
  SELECT:2730 (det nt) IF
 	(0 nr2-det-neuter-definite)
-	(NOT 0 %andre%)
+	(NOT 0 %andet%)
 	(**-1C definite-neuter-det BARRIER ikke-adv)
-	(*1 definite-singular-neuter-noun BARRIER ikke-adv-adj)
+	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 ;
-#  "det andre gule huset
-# idsingularifiserer NR2-det etter en be det"
+#  "det andet gule hus
+# identificerer NR2-det efter en be det"
 
  SELECT:2731 (det nt) IF
 	(0 definite-det)
@@ -3607,76 +3608,75 @@ SELECT:2963 (adj nt ind sg) IF
 	(*2 indefinite-singular-neuter-noun BARRIER ikke-adv-adj-det)
 	(NOT 1 ikke-adv-adj-det)
 ;
-#  "det andre vakre bilde ..."
+#  "det andet smukke billede ..."
 
  SELECT:2732 (det nt) IF
 	(0 definite-det)
 	(*1 nr2-det-neuter-definite BARRIER ikke-adv)
-	(*2 definite-singular-neuter-noun BARRIER ikke-adv-adj-det)
+	(*2 indefinite-singular-neuter-noun BARRIER ikke-adv-adj-det)
 	(NOT 1 ikke-adv-adj-det)
 ;
-#  "det andre gule huset
-# idsingularifiserer det foran nr2-det"
+#  "det andet gule hus
+# identificerer det foran nr2-det"
 
  SELECT:2733 (det nt) IF
 	(0 definite-det)
 	(NOT 1 comma/konj)
 	(NOT 1 adj-sup-indefinite)
-	(NOT -1C lexicalverb)
 	(*1O indefinite-singular-neuter-noun LINK NOT 0 ikke-noun LINK NOT *-1 ikke-adv-adj)
-	(*1 indefinite-singular-neuter-noun LINK NOT 0 farlige-neuter-noun)
+	(*1 indefinite-singular-neuter-noun LINK NOT 0 ambiguous-neuter-noun)
 	(*1O indefinite-singular-neuter-noun LINK NOT -1 comma)
+
 ;
+
 #  "(NOT L-1 ADJ-SUP-indefinite))
-# det vakre bilde ...
-# godtar tvetydige noun når tvetydigheten er
+# det smukke  billede ...
+# godtager tvetydige noun når tvetydigheden er
 # neuter singular/plural
-# NOT SUP for å unngå er det (ikke det) mest gress
-# NOT lexicalverb for å unngå typen:
-# \"brøt det (pron) løs tordinal-numbervær ...\""))
+# NOT SUP "for at undgå er det (ikke det) mest græs"
+
 
  SELECT:2734 (det nt) IF
 	(0 definite-det)
 	(1 definite-singular-neuter-adj)
 	(NOT 1 comma/konj)
-	(*2 definite-singular-neuter-noun BARRIER ikke-adv-adj)
+	(*2 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 ;
-#  "Tar større sjanser dersom det er adj be mellom
-# det og noun. For å få med feks:
-# det gode livet (ikke verb!)"))
+#  "Tager større chancer når der er adj be mellom
+# det og noun. For at få med feks:
+# det gode liv (ikke verb!)"))
 
 #
 
  SELECT:2735 (det nt) IF
 	(0 definite-det)
 	(NOT 1 comma/konj)
-	(*1O definite-singular-neuter-noun LINK NOT 0 ikke-adj-noun LINK NOT *-1 ikke-adv-adj)
+	(*1O indefinite-singular-neuter-noun LINK NOT 0 ikke-adj-noun LINK NOT *-1 ikke-adv-adj)
 
 ;
-#  "Ser foreløpig ut til at det er greit å bare se en til høyre her
-#Mange feil pga skjult som-setning
+#  "Ser foreløbig ud til at det er fint bare  at se en til højre her
 
  SELECT:2736 (det nt) IF
 	(0 indefinite-det)
 	(1 konj)
 	(2 %anden/samme%/quantifier-neuter)
 ;
-#  "et eller annet
-# ett og samme
+#  "et eller andet
+# et og samme
 # (NOT 1 CLB)"))
 
  SELECT:2737 (det nt) IF
 	(0 nr2-det)
-	(NOT 0 %andre%)
+	(NOT 0 %andet%)
 	(**-1C neuter-det BARRIER ikke-adv)
 ;
-#  "et (helt) annet gult hus"))
+#  "et (helt) andet gult hus"))
 
  SELECT:2738 (det nt) IF
 	(0 indefinite-det)
 	(*1 nr2-det-neuter-indefinite BARRIER ikke-adv)
 ;
-#  "et (helt) annet gult hus"))
+#  "et (helt) andet gult hus"))
 
  SELECT:2739 (det nt) IF
 	(0 indefinite-det)
@@ -3684,7 +3684,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
 ;
 #  "et (ganske grønt) hus
-# Ikke: ikke noe (singular/plural) grunnlag (singular/plural)"))
+# Ikke: ikke noget (singular/plural) grundlag (singular/plural)"))
 
  SELECT:2740 (det nt) IF
 	(NOT 0 %noget%)
@@ -3700,21 +3700,21 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 %noget%)
 	(*1O noun-prop LINK 0 neuter LINK NOT *-1 ikke-adv-adj)
 ;
-#  "et Bosnia, et lite Guds barn"
+#  "et Bosnien, et lille Guds barn"
 
  SELECT:2742 (det nt) IF
 	(0 indefinite-det)
 	(NOT 0 %noget%)
 	(1 noun-prop)
 ;
-#  "et Bosnia, et Guds barn"
+#  "et Bosnien, et Guds barn"
 
  SELECT:2696 (det qnt) IF
 	(NOT 0 dato)
 	(1 konj)
 	(2 quantifier)
 ;
-#  "både to (det) og tre bolker
+#  "både to (det) og tre boller
 # 15.3"
 
  SELECT:2697 (det qnt) IF
@@ -3722,31 +3722,20 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 konj)
 	(-2 quantifier)
 ;
-#  "både to og tre (det) bolker"))
+#  "både to og tre (det) boller"))
 
- SELECT:2692 (det pos pl) IF
-	(-1 plural-definite)
-	(-1C noun)
-;
-#  "bilene sine"
 
  SELECT:2693 (det pos pl) IF
 	(1 nr2-det)
 	(**2C plural-noun BARRIER ikke-adv-adj-det)
 ;
-#  "våre egne biler"
+#  "vore egne biler"
 
  SELECT:2694 (det pos pl) IF
 	(**1C indefinite-plural-noun BARRIER ikke-adv-adj)
 ;
-#  "våre (gule) biler"))
+#  "vore (gule) biler"))
 
- SELECT:2685 (det pos nt sg) IF
-	(-1 neuter-definite)
-	(-1 singular)
-	(-1C noun)
-;
-#  "huset sitt"
 
  SELECT:2686 (det pos nt sg) IF
 	(1 nr2-det)
@@ -3778,7 +3767,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(1 adj-sup-definite)
 	(NOT 2 noun/adj)
 ;
-#  "det beste er ..."
+#  "det bedste er ..."
 
  SELECT:2678 (det) IF
 	(0 %den/det/de%)
@@ -3804,33 +3793,33 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2668 (imp) IF
 	(NOT 0 pres/pret)
-	(NOT 0 farlige-imp)
+	(NOT 0 ambiguous-imp)
 	(1 %at%)
 	(-1 replikk)
 ;
-#  "si at jeg kommer"
+#  "sig at jeg kommer"
 
  SELECT:2669 (imp) IF
-	(NOT 0 farlige-imp)
+	(NOT 0 ambiguous-imp)
 	(NOT 0 preposition)
 	(1 pron-pers)
 	(1 akk)
 	(-1 replikk)
 ;
-#  "La deg ikke lure"
+#  "Lad dig ikke lure"
 
  SELECT:2670 (imp) IF
-	(NOT 0 farlige-imp)
+	(NOT 0 ambiguous-imp)
 	(NOT 0 pres/pret)
 	(NOT 0 preposition)
 	(1 pron-pers)
 	(1C akk)
 	(-1C sentence-border)
 ;
-#  "spar meg for detaljene"
+#  "spar mig for detaljene"
 
  SELECT:2671 (imp) IF
-	(NOT 0 farlige-imp)
+	(NOT 0 ambiguous-imp)
 	(NOT 0 samset)
 	(NOT 0 preposition)
 	(-1 replikk)
@@ -3842,19 +3831,19 @@ SELECT:2963 (adj nt ind sg) IF
 #300908 Tatt bort 	(NOT **1C lexicalverb BARRIER sentence-border)
 
  SELECT:2672 (imp) IF
-	(-1 adv)
-	(NOT 0 farlige-imp)
+	(1 adv)
+	(NOT 0 ambiguous-imp)
 	(NOT *1 comma)
 	(NOT *1 sbu)
 	(-2 replikk)
 	(*1 utrop-t)
 ;
-#  "<$.> Ikke bråk!
-# (comma og sbu-definitegrensning - ellers blir det for mange feil)"))
-# 050908 NOT 0 farlige-imp
+#  "<$.> slå ikke!
+# (comma og sbu-begrensning - ellers blir det for mange feil)"))
+# 050908 NOT 0 ambiguous-imp
 
- SELECT:copulaier-til-utklippstavlen-slik-at (imp) IF
-	(NOT 0 farlige-imp)
+ SELECT:kopier-til-utklippstavlen-slik-at (imp) IF
+	(NOT 0 ambiguous-imp)
 	(NOT 0 adv)
 	(NOT 0 adj)
 	(NOT 0 interj)
@@ -3863,13 +3852,15 @@ SELECT:2963 (adj nt ind sg) IF
 	(1 acronym/ukjsingular-ord OR definite-noun OR pron-nom)
 	(NOT *1C pres/pret BARRIER sentence-border)
 ;
-# «copulaier<imp> skjermbildecopulaien til utklippstavlen slik at det kan limes ind senere»
+# «kopier<imp> skjermbildekopien til utklippstavlen slik at det kan limes ind senere»
+
+
 
  SELECT:2662 (ij) IF
 	(0 %ja-nej%)
 	(-1 s-gr/interj)
 ;
-#  "Ja, her var ...    men nei...   slik, ja!"
+#  "Ja, her var ...    men nej...   sådan, ja!"
 
  SELECT:2663 (ij) IF
 	(NOT 0 %ja-nej%)
@@ -3877,7 +3868,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 s-gr/interj)
 	(NOT 1 %så%)
 ;
-#  " Uff, her var ...    men hei...   slik, ja!
+#  " Uff, her var ...    men hej...   sådan, ja!
 # KH 1.11.2002: NOT 1 så: Nå så Kari Per."
 
  SELECT:2659 (vblex pp) IF
@@ -3887,8 +3878,8 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 noun/adj)
 	(*1 sentence-border BARRIER pres/pret)
 ;
-#  "som dokumsingularert (perf-part) i dag
-# som (preposition) dokumsingularert (ikke perf) nytt materiale viser"))
+#  "som dokumenteret (perf-part) i dag
+# som (preposition) dokumenteret (ikke perf) nyt materiale viser"))
 
  SELECT:2639 (pr) IF
 	(0 noun)
@@ -3899,8 +3890,8 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 det)
 	(*1 noun BARRIER ikke-adv-adj-det LINK NOT 0 lexicalverb)
 ;
-#  "Jeg så mot (preposition, ikke noun) vinduet"))
-# KBU: men "De (prn, ikke preposition) høye kvindene"
+#  "Jeg så mod (preposition, ikke noun) vinduet"))
+
 
  SELECT:2640 (pr) IF
 	(0 sbu)
@@ -3924,7 +3915,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 det)
 	(2 noun)
 ;
-#  "mot (preposition) fjernere horisonter"))
+#  "mod (preposition) fjernere horisonter"))
 
  SELECT:2642 (pr) IF
 	(NOT 0 %for%)
@@ -3938,9 +3929,9 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 det)
 	(NOT -1 infinitive-marker)
 ;
-#  "sansynlig med preposition her: ved siden"
-# 040908: NOT -1 infinitive-marker: å fremme (ikke preposition) studsingularutveksling
-# TODO: «Per<np!> sto på stolen, men den knakk.»
+#  "sandsynlig med preposition her: ved siden"
+# 040908: NOT -1 infinitive-marker: at fremme (ikke preposition) studenterudveksling
+# TODO: «Per<np!> stod på stolen, men den knak.»
 
  SELECT:2644 (pr) IF
 	(0 adj)
@@ -3950,7 +3941,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1C verb)
 	(NOT -1 copula)
 ;
-#  "De hopet rundt (preposition) ham "))
+#  "De hoppede ved (preposition) ham "))
 
  SELECT:2643 (pr) IF
 	(0 adj)
@@ -3966,7 +3957,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(2 noun/adj)
 	(NOT *1 lexicalverb CBARRIER sentence-border)
 ;
-#  "som (preposition) lønnet arbeid regnes .."))
+#  "som (preposition) lønnet arbejde regnes .."))
 #	(**1C sentence-border BARRIER lexicalverb)
 
  SELECT:2646 (pr) IF
@@ -3987,7 +3978,8 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1 lexicalverb BARRIER comma/konj)
 ;
 #  "Her kan det vises til (preposition) det (pron) vi (pron)
-# (forts) nå (adv) vet om ....."))
+# (forts) nu (adv) ved om ....."))
+#jofmmarker
 
  SELECT:2648 (pr) IF
 	(0 sbu)
@@ -4106,7 +4098,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "før (ikke sbu) maten midt på dagen kom vi"))
 
  SELECT:2636 (pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1 adv)
 	(-2C pron/noun)
 	(NOT -2 dato)
@@ -4116,7 +4108,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "den dagen vi ikke vinder"
 
  SELECT:2638 (pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1C pron/noun)
 	(NOT -1 pron-r)
 	(NOT -1 dato)
@@ -4330,7 +4322,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(0 nom/akk-pron)
 	(NOT 0 gen)
 	(-1 pres/pret)
-	(NOT -1 farlige-verb)
+	(NOT -1 ambiguous-verb)
 	(-2 sentence-border)
 	(NOT -2 %og%)
 	(NOT -2 %som%)
@@ -4452,7 +4444,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 comma/konj/strek)
 	(NOT 1 sentence-border)
 	(NOT 1 verb)
-	(**1CO sentence-border LINK *-1 pres/pret LINK NOT 0 farlige-verb)
+	(**1CO sentence-border LINK *-1 pres/pret LINK NOT 0 ambiguous-verb)
 	(*1O sentence-border LINK *-1 iv LINK *-1 ikke-adv LINK 0 pres/pret)
 ;
 #  "I tillegg er det en praktisk del, der (sbu) en skal...
@@ -4464,7 +4456,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 comma/konj/strek)
 	(NOT 1 sentence-border)
 	(NOT 1 verb)
-	(**1CO sentence-border LINK *-1 pres/pret LINK NOT 0 farlige-verb)
+	(**1CO sentence-border LINK *-1 pres/pret LINK NOT 0 ambiguous-verb)
 	(*1 sentence-border BARRIER iv)
 ;
 #  "I tillegg er det en praktisk del, der (sbu) en gjør slik"))
@@ -4486,7 +4478,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 %da%)
 	(NOT 1 comma/konj)
 	(NOT 1 preposition)
-	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 farlige-verb)
+	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 ambiguous-verb)
 	(*1O iv LINK *-1 ikke-adv LINK 0 pres/pret)
 ;
 #  " , siden hun har kommet
@@ -4500,7 +4492,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 %da%)
 	(NOT 1 comma/konj)
 	(NOT 1 preposition)
-	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 farlige-verb)
+	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 ambiguous-verb)
 	(*1 sentence-border BARRIER iv)
 ;
 #  " , da hun kom
@@ -4513,7 +4505,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2571 (cnjsub) IF
 	(0 %om/enn/som/hvis%)
 	(1 perf-part)
-	(NOT 1 farlige-part)
+	(NOT 1 ambiguous-part)
 	(NOT 1 definite-singular-neuter-noun)
 	(NOT 1 definite-singular-fem-noun)
 	(NOT 2 noun/adj)
@@ -4593,7 +4585,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2556 plural-noun IF
 	(NOT 0 pres/pret)
-	(NOT 0 farlige-plural-noun)
+	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 comma/konj)
 	(NOT -1 adv)
 	(**-1C sentence-border BARRIER pres/pret)
@@ -4604,7 +4596,7 @@ SELECT:2963 (adj nt ind sg) IF
 # ikke er andre verb i setningen"
 
  SELECT:2557 plural-noun IF
-	(NOT 0 farlige-plural-noun)
+	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
 	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 ikke-adv-adj-comma)
@@ -4615,7 +4607,7 @@ SELECT:2963 (adj nt ind sg) IF
 # i setningen"
 
  SELECT:2558 plural-noun IF
-	(NOT 0 farlige-plural-noun)
+	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
 	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 ikke-adv-adj-comma)
@@ -4635,7 +4627,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2560 plural-noun IF
 	(NOT 0 adj-komp)
-	(NOT 0 farlige-plural-noun)
+	(NOT 0 ambiguous-plural-noun)
 	(-1C adj-plural)
 	(NOT -1 gen)
 	(NOT -1 singular)
@@ -4650,13 +4642,13 @@ SELECT:2963 (adj nt ind sg) IF
 # kh 1.9.2003: Mange liker sjokolade"
 
  SELECT:2561 plural-noun IF
-	(NOT 0 farlige-plural-noun)
+	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
 	(NOT -1 gen)
 	(**-1CO plural-det LINK NOT 0 number LINK NOT *1 ikke-adv-adj-comma)
 	(**-1C plural-det LINK NOT -1 definite-plural-noun)
-	(*1O sentence-border LINK **-1C lexicalverb LINK NOT 0 farlige-verb)
+	(*1O sentence-border LINK **-1C lexicalverb LINK NOT 0 ambiguous-verb)
 ;
 #  "de vidunderlig vakre sommerfuglene
 # Ikke: armene mine vokser (skal være verb, ikke noun plural)
@@ -4665,7 +4657,7 @@ SELECT:2963 (adj nt ind sg) IF
 # (forts) ofte svært gode anmeldelser"))
 
  SELECT:2562 plural-noun IF
-	(NOT 0 farlige-plural-noun)
+	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
 	(NOT -1 gen)
@@ -4679,7 +4671,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2548 indefinite-singular-neuter-noun IF
 	(0 indefinite-singular-neuter-noun)
 	(NOT 0 inf)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(NOT 0 pres/pret)
 	(-1C indefinite-singular-neuter-adj)
 	(NOT -1 adj-plural)
@@ -4690,7 +4682,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2543 singular-neuter-noun IF
 	(0 adj)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(NOT 1 noun-neuter)
 	(NOT -1 comma/konj)
 	(*-1 nr2-det-u-plural BARRIER ikke-adv-adj)
@@ -4700,7 +4692,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2544 singular-neuter-noun IF
 	(0 adj)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(1 noun-neuter)
 	(1 lexicalverb)
 	(NOT -1 comma/konj)
@@ -4712,7 +4704,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2545 singular-neuter-noun IF
 	(0 adj)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(NOT 1 noun-neuter)
 	(NOT -1 comma/konj)
 	(**-1CO neuter-det LINK NOT 0 nr2-det LINK NOT *1 ikke-adv-adj)
@@ -4721,7 +4713,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2546 singular-neuter-noun IF
 	(NOT 0 adj)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(NOT -1 comma/konj)
 	(*-1 nr2-det-u-plural BARRIER ikke-adv-adj)
 	(*-1 nr2-det-u-plural LINK -1C neuter-det)
@@ -4730,7 +4722,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2547 singular-neuter-noun IF
 	(NOT 0 adj)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(NOT -1 comma/konj)
 	(**-1CO neuter-det LINK NOT 0 nr2-det LINK NOT *1 ikke-adv-adj)
 ;
@@ -4790,7 +4782,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "kh jan 2004: avskjær, slo og liknende"
 
  SELECT:2493 noun IF
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 ikke-adj-noun)
 	(1 comma/konj)
 	(-1C preposition)
@@ -4800,8 +4792,8 @@ SELECT:2963 (adj nt ind sg) IF
 # comma ikke del av np"
 
  SELECT:2494 noun IF
-	(NOT 0 farlige-mask-noun)
-	(NOT 0 farlige-neuter-noun)
+	(NOT 0 ambiguous-mask-noun)
+	(NOT 0 ambiguous-neuter-noun)
 	(-1C adj)
 	(-2C preposition)
 ;
@@ -5016,7 +5008,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "1.6.2001: Både lærer Tone Birkeland og de andre elevene trener ivrig."
 
  SELECT:2480 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C noun-prop)
 	(NOT -1 noun-gen)
@@ -5036,7 +5028,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2441 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(1 infinitive-marker)
 	(-1C adj)
 	(NOT *1 overskrift)
@@ -5046,7 +5038,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2442 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1C pron-pers)
 	(**-2C sentence-border BARRIER lexicalverb)
 ;
@@ -5054,7 +5046,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2443 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT -1 adj)
 	(NOT -1 det)
 	(NOT -1 noun-gen)
@@ -5071,7 +5063,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2444 (vblex pres) IF
 	(0 noun)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1 pron)
 	(1C noun)
 	(-2 sbu)
@@ -5080,7 +5072,7 @@ SELECT:2963 (adj nt ind sg) IF
 # Ikke pron + noun + noun"
 
  SELECT:2445 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C adverb)
 	(NOT 1 pres/pret)
@@ -5093,7 +5085,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 41
 
  SELECT:2446 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C adverb)
 	(-2 noun)
@@ -5104,7 +5096,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 41
 
  SELECT:2447 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C adverb)
 	(-2C adverb)
@@ -5116,7 +5108,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 41
 
  SELECT:2448 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C adverb)
 	(-2C adverb)
@@ -5127,7 +5119,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 41
 
  SELECT:2449 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C adverb)
 	(-2C pron)
@@ -5138,7 +5130,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2450 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1C adverb)
 	(-2 %som%)
 	(NOT -2 preposition)
@@ -5147,7 +5139,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2451 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(1 pres/pret)
 	(-1 %som%)
 	(NOT -1 preposition)
@@ -5157,7 +5149,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2452 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1 %som%)
 	(NOT 1 pres/pret)
 	(NOT -1 preposition)
@@ -5166,7 +5158,7 @@ SELECT:2963 (adj nt ind sg) IF
 # Ikke: samtidig som skiftet (ikke verb) måtte (verb pret) skje"))
 
  SELECT:2462 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C noun)
 	(NOT 1 pres/pret)
@@ -5179,7 +5171,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 43
 
  SELECT:2463 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1C poss-det)
 	(NOT 1 pres/pret)
@@ -5190,7 +5182,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 43
 
  SELECT:2465 (vblex pres) IF
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(NOT 0 pret)
 	(-1C noun)
 	(NOT -1 gen)
@@ -5201,7 +5193,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 43
 
  SELECT:2466 (vblex pres) IF
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(NOT 0 pret)
 	(-1C noun)
 	(NOT -1 gen)
@@ -5211,7 +5203,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 43
 
  SELECT:2467 (vblex pres) IF
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 pret)
 	(-1 pron)
 	(-2C sentence-border)
@@ -5221,7 +5213,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 43
 
  SELECT:2468 (vblex pres) IF
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(NOT 0 pret)
 	(-1C pron)
 	(-2C sentence-border)
@@ -5230,7 +5222,7 @@ SELECT:2963 (adj nt ind sg) IF
 #      :group 43
 
  SELECT:2469 (vblex pres) IF
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(NOT 0 pret)
 	(-1C pron/noun)
 	(NOT -1 %noget%)
@@ -5243,7 +5235,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2470 (vblex pres) IF
 	(NOT 0 pret)
 	(NOT 0 noun-gen)
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(-1 pron/noun)
 	(NOT 1 pres/pret)
 	(NOT -1 %noget%)
@@ -5258,7 +5250,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2471 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(-1C preposition-intransitive)
 	(-2C sentence-border)
 ;
@@ -5267,7 +5259,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2472 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-forledd-verb)
+	(NOT 0 ambiguous-forledd-verb)
 	(-1C adverb)
 	(NOT -1 %ikke/også%)
 	(**-2C sentence-border BARRIER ikke-adv)
@@ -5296,7 +5288,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2477 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 1 pres/pret)
 	(**-1C sentence-border BARRIER pres/pret)
 	(*4O sentence-border LINK *-1 pres/pret LINK -1 noun LINK -1C pron/noun LINK NOT 0 gen LINK NOT 0 noun-prop LINK NOT *-1 pres/pret)
@@ -5309,7 +5301,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2478 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 1 pres/pret)
 	(**-1C sentence-border BARRIER pres/pret)
 	(*4O sentence-border LINK *-1 pres/pret LINK -1 pron LINK -1C pron/noun LINK NOT 0 gen LINK NOT 0 noun-prop LINK NOT *-1 pres/pret)
@@ -5384,7 +5376,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2490 (vblex pres) IF
 	(NOT 0 noun-prop)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(-1C pron/noun)
 	(NOT -1 gen)
 	(NOT -1 %slags%)
@@ -5401,7 +5393,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "Hun ble sittende og se (inf)"))
 
  SELECT:2423 (vblex inf) IF
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(-1C comma)
 	(NOT -1 clb)
 	(**-1C inf BARRIER sentence-border)
@@ -5409,7 +5401,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "lugge, le (inf) og smile"))
 
  SELECT:2424 (vblex inf) IF
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(-1C konj)
 	(NOT -1 clb)
 	(**-1C inf BARRIER sentence-border)
@@ -5423,7 +5415,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "du behøver ikke komme (inf)"))
 
  SELECT:2427 (vblex inf) IF
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(NOT -1 det)
 	(*-1 perceptionverb BARRIER sentence-border)
 	(*-2O perceptionverb LINK NOT 0 ikke-verb LINK NOT *1 ikke-noun-adj-det-pron-adv)
@@ -5433,7 +5425,7 @@ SELECT:2963 (adj nt ind sg) IF
 # la/late"
 
  SELECT:2429 (vblex inf) IF
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(NOT -1 ikke-adv-noun-pron-konj LINK NOT 0 det-quantifier)
 	(*-1 m-auxiliary-verb BARRIER sentence-border)
 	(*-1 m-auxiliary-verb BARRIER inf)
@@ -5449,7 +5441,7 @@ SELECT:2963 (adj nt ind sg) IF
 # KBU: det-quantifier-unntak pga. «Av disse skal 50<det><qnt> legges<inf> ned»
 
  SELECT:2430 (vblex inf) IF
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(-1 m-auxiliary-verb)
 ;
 #  "det kan hende"
@@ -5461,13 +5453,13 @@ SELECT:2963 (adj nt ind sg) IF
 # 18.6.2001: *-1c"
 
  SELECT:2432 (vblex inf) IF
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(*-1 %hvorfor% BARRIER ikke-adv)
 ;
 #  "18.6. Hvorfor ikke oprette stillinger som landsdelsjoikere?"
 
  SELECT:2396 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(-1C comma)
 	(NOT -1 clb)
 	(**-1C perf-part BARRIER sentence-border)
@@ -5475,7 +5467,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  "har gledet pindefinitelikum, spilt (perf-part) og sunget"))
 
  SELECT:2397 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(-1C konj)
 	(NOT -1 clb)
 	(**-1C perf-part BARRIER sentence-border)
@@ -5485,13 +5477,13 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2398 (vblex pp) IF
 	(NOT 0 definite-singular-neuter-noun)
 	(NOT 0 definite-singular-fem-noun)
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(-1C perf-part)
 ;
 #  "bilen er forsøkt solgt (perf)"))
 
  SELECT:2400 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(NOT 0 noun)
 	(-1 adj-komp)
 	(-2 comma/strek)
@@ -5499,7 +5491,7 @@ SELECT:2963 (adj nt ind sg) IF
 #  ", nærmere bestemt fossiler ..."
 
  SELECT:2401 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(1C preposition)
 	(-1C noun)
 	(**1C pres/pret BARRIER ikke-adv-adj-noun-pron-konj-det2-preposition)
@@ -5514,7 +5506,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2403 (vblex pp) IF
 	(NOT 0 noun)
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(NOT 0 pres/pret)
 	(1C preposition)
 	(-1C noun)
@@ -5523,7 +5515,7 @@ SELECT:2963 (adj nt ind sg) IF
 # Ikke: plyndret gjerningsmanden huset (noun) i løpet av"))
 
  SELECT:2405 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(NOT -1 det-preposition-infinitive-marker-adjbe)
 	(*-1 p-auxiliary-verb BARRIER lexicalverb)
 	(*-1 p-auxiliary-verb BARRIER perf-part)
@@ -5535,7 +5527,7 @@ SELECT:2963 (adj nt ind sg) IF
 # For å få begrenset (perf-part)"))
 
  SELECT:2406 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(NOT -1 det-preposition-infinitive-marker-adjbe)
 	(*-1 p-auxiliary-verb BARRIER lexicalverb)
 	(*-1 p-auxiliary-verb BARRIER perf-part)
@@ -5547,7 +5539,7 @@ SELECT:2963 (adj nt ind sg) IF
 # perf-part: som har fått ..."
 
  SELECT:2408 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(-1 det-etterstilt)
 	(*-1 p-auxiliary-verb BARRIER lexicalverb)
 	(*-1 p-auxiliary-verb BARRIER perf-part)
@@ -5556,7 +5548,7 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 
  SELECT:2409 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(NOT -1 det-preposition-infinitive-marker-adjbe)
 	(-2 definite-neuter-det LINK NOT 1 definite-singular-neuter-adj)
 	(*-1 p-auxiliary-verb BARRIER lexicalverb)
@@ -5573,7 +5565,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2416 (vblex pp) IF
 	(0 <perf-part>)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT -1 det)
 	(*-1O sentence-border LINK NOT 1 preposition/adv)
 	(*-1 pron-akk-plural BARRIER ikke-adv)
@@ -5584,7 +5576,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2417 (vblex pp) IF
 	(0 <perf-part>)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(*-1O sentence-border LINK NOT 1 preposition/adv)
 	(*-1 definite-plural-noun BARRIER ikke-adv)
 	(*-1 definite-plural-noun LINK **-1C objpred-verb LINK NOT -1 clb)
@@ -5642,7 +5634,7 @@ SELECT:2335 (vblex) IF
 # NOT: SBU: før, preposition: for, PERF/PART: visst"
 
  SELECT:2410 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(NOT -1 det-preposition-infinitive-marker-adjbe)
 	(NOT -2 definite-neuter-det)
 	(*-1 p-auxiliary-verb BARRIER lexicalverb)
@@ -5667,7 +5659,7 @@ SELECT:2335 (vblex) IF
 	(NOT -2 clb-konj)
 	(NOT *-2 sbu BARRIER sentence-border)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 noun-gen LINK NOT 0 farlige-verb LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 noun-gen LINK NOT 0 ambiguous-verb LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
@@ -5676,7 +5668,7 @@ SELECT:2335 (vblex) IF
 #  "at han kom
 # ikke preposition før verbet fordi det viser seg at
 # \"verbet\" oftest er noun i preposition-frase
-# heller og for er for \"farlige\"
+# heller og for er for \"ambiguous\"
 # SBU-kriteriet for å ikke merke \"før\" i:
 # \"etter som (sbu) pluralernumberet like før (ikke sbu) jul avviste ...
 # godtar sbu+sbu: sa at (sbu) hvis (sbu)
@@ -5848,8 +5840,8 @@ CONSTRAINTS
 	(NOT 0 inf)
 	(1 iv)
 	(-1C verb)
-	(NOT 1 farlige-part)
-	(NOT 1 farlige-inf)
+	(NOT 1 ambiguous-part)
+	(NOT 1 ambiguous-inf)
 ;
 #  "Begge var lidt (ikke be) sjokkert
 # "
@@ -5859,8 +5851,8 @@ CONSTRAINTS
 	(NOT 0 lexicalverb)
 	(1 iv)
 	(-1C verb)
-	(NOT 1 farlige-part)
-	(NOT 1 farlige-inf)
+	(NOT 1 ambiguous-part)
+	(NOT 1 ambiguous-inf)
 	(NOT 1 plural-noun)
 ;
 #  "Begge var lidt (ikke plural) sjokkert
@@ -6019,10 +6011,10 @@ CONSTRAINTS
 # 6.3.2001: not 0 tiltalte"
 
  REMOVE:2285 (adj pp) IF
-	(0 veldig-farlige-part)
+	(0 veldig-ambiguous-part)
 	(NOT 0 gen)
 ;
-#  "kh jan 2004: Antar at adjektivene som er generert av veldig farlige partisipper heller ikke er sansynlige: eks ett av ete."
+#  "kh jan 2004: Antar at adjektivene som er generert av veldig ambiguous partisipper heller ikke er sansynlige: eks ett av ete."
 
  REMOVE:2265 (adj mf sg) IF
 	(NOT 0 bare-adj)
@@ -6114,7 +6106,7 @@ CONSTRAINTS
 
  REMOVE:2236 (adj) IF
 	(0 indefinite-plural-noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 ikke-adj-noun)
 	(-1 adj-plural)
 	(NOT -1 ikke-adj)
@@ -6123,7 +6115,7 @@ CONSTRAINTS
 
  REMOVE:2237 (adj) IF
 	(0 indefinite-singular-neuter-noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 ikke-adj-noun)
 	(-1 indefinite-singular-neuter-adj)
 	(NOT -1 ikke-adj)
@@ -6142,7 +6134,7 @@ CONSTRAINTS
 
  REMOVE:2240 (adj) IF
 	(0 noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 <adv>)
 	(NOT 1 comma/konj)
 	(NOT 1 noun/adj)
@@ -6168,7 +6160,7 @@ CONSTRAINTS
 
  REMOVE:2242 (adj) IF
 	(0 iv)
-	(NOT 0 farlige-inf)
+	(NOT 0 ambiguous-inf)
 	(-1 m-auxiliary-verb-lexicalverb)
 	(*-2 ikke-adv LINK 0 %som%-sbu)
 ;
@@ -6179,7 +6171,7 @@ CONSTRAINTS
  REMOVE:2243 (adj) IF
 	(0 noun)
 	(NOT 0 <adv>)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 1 noun)
 	(NOT 1 comma/konj)
 	(NOT -1 comma/konj)
@@ -6272,7 +6264,7 @@ CONSTRAINTS
  REMOVE:2144 (det qnt pl) IF
 	(0 det-singular)
 	(NOT 1 comma)
-	(*1O indefinite-singular-noun LINK NOT 0 farlige-mask-noun LINK NOT 0 farlige-neuter-noun LINK NOT 0 plural LINK NOT 0 infinitive-marker LINK NOT 0 lexicalverb LINK NOT *-1 ikke-adv-adj-det)
+	(*1O indefinite-singular-noun LINK NOT 0 ambiguous-mask-noun LINK NOT 0 ambiguous-neuter-noun LINK NOT 0 plural LINK NOT 0 infinitive-marker LINK NOT 0 lexicalverb LINK NOT *-1 ikke-adv-adj-det)
 ;
 #  "noen (ikke plural) særstilling "))
 
@@ -7138,7 +7130,7 @@ REMOVE:gen-noun gen-noun IF
  REMOVE:1984 noun IF
 	(0 det/adj)
 	(NOT 0 adj-gen)
-	(NOT 0 farlige-adj)
+	(NOT 0 ambiguous-adj)
 	(NOT 0 samset)
 	(-1 preposition)
 	(1C noun)
@@ -7728,9 +7720,9 @@ REMOVE:gen-noun gen-noun IF
 #  "Bsingulares rent (ikke perf-part) primitive glede"))
 
  REMOVE:1903 (vblex pp) IF
-	(0 veldig-farlige-part)
+	(0 veldig-ambiguous-part)
 ;
-#  "Antar at farlige partisipper er adjektiv
+#  "Antar at ambiguous partisipper er adjektiv
 # Dristig!
 # vi vet alt (ikke perf-part)"))
 
@@ -7940,7 +7932,7 @@ CONSTRAINTS
  SELECT:1736 (cnjsub) IF
 	(0 %som%)
 	(NOT -1 >>>)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT *-1 ikke-adv-adj-noun-det-preposition)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT *-1 ikke-adv-adj-noun-det-preposition)
 	(*2 pres/pret LINK *1 comma LINK 1 pres/pret)
 	(**-1C sentence-border BARRIER pres/pret)
 	(*-1C sentence-border LINK 0 >>>)
@@ -7961,7 +7953,7 @@ CONSTRAINTS
 	(2C adverb)
 	(NOT -2 sbu)
 	(3 pres/pret)
-	(NOT 3 farlige-verb)
+	(NOT 3 ambiguous-verb)
 ;
 #  "som næringen nå sliter med
 # Ikke: at (sbu) LO som (preposition) org ikke har"))
@@ -7969,7 +7961,7 @@ CONSTRAINTS
  SELECT:1739 (cnjsub) IF
 	(0 %som%)
 	(1 pres/pret)
-	(NOT 1 farlige-verb)
+	(NOT 1 ambiguous-verb)
 	(NOT 1 noun-gen)
 	(2 pres/pret)
 	(**-1C sentence-border BARRIER pres/pret)
@@ -7981,7 +7973,7 @@ CONSTRAINTS
  SELECT:1740 (cnjsub) IF
 	(0 %som%)
 	(1 pres/pret)
-	(NOT 1 farlige-verb)
+	(NOT 1 ambiguous-verb)
 	(NOT 1 noun-gen)
 	(NOT 2 pres/pret)
 ;
@@ -7996,7 +7988,7 @@ CONSTRAINTS
 	(NOT 1 noun)
 	(NOT -1 >>>)
 	(2 pres/pret)
-	(NOT 2 farlige-verb)
+	(NOT 2 ambiguous-verb)
 	(NOT -2 >>>)
 ;
 #  "som ikke tåler"
@@ -8007,7 +7999,7 @@ CONSTRAINTS
 	(NOT *-2 sbu)
 	(3 noun-prop)
 	(4 pres/pret)
-	(NOT 4 farlige-verb)
+	(NOT 4 ambiguous-verb)
 	(**-1C lexicalverb BARRIER sentence-border)
 ;
 #  "da Peter N. Ribe testet positivt"
@@ -8019,7 +8011,7 @@ CONSTRAINTS
 	(NOT *-2 sbu)
 	(3 noun-prop)
 	(4 pres/pret)
-	(NOT 4 farlige-verb)
+	(NOT 4 ambiguous-verb)
 	(**-1C lexicalverb BARRIER sentence-border)
 ;
 #  "som Dæhlie og Ulvang er
@@ -8030,14 +8022,14 @@ CONSTRAINTS
 	(2 noun-prop)
 	(NOT *-2 sbu)
 	(3 pres/pret)
-	(NOT 3 farlige-verb)
+	(NOT 3 ambiguous-verb)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
 #  "da Peter Ribe testet positivt"
 
  SELECT:1749 (cnjsub) IF
 	(NOT *-2 sbu BARRIER sentence-border)
-	(*1 preposition LINK NOT 0 sbu LINK 1 pron/noun LINK 1 pres/pret LINK NOT 0 farlige-verb)
+	(*1 preposition LINK NOT 0 sbu LINK 1 pron/noun LINK 1 pres/pret LINK NOT 0 ambiguous-verb)
 	(*1 preposition BARRIER ikke-adv-adj-noun-det-preposition)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
@@ -8050,7 +8042,7 @@ CONSTRAINTS
 	(2 konj)
 	(3 pron/noun)
 	(4 pres/pret)
-	(NOT 4 farlige-verb)
+	(NOT 4 ambiguous-verb)
 	(*-1O sbu LINK **1C lexicalverb LINK *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
 ;
@@ -8064,7 +8056,7 @@ CONSTRAINTS
 	(2 konj)
 	(3 pron/noun)
 	(4 pres/pret)
-	(NOT 4 farlige-verb)
+	(NOT 4 ambiguous-verb)
 	(*-1O sbu LINK **1C lexicalverb LINK NOT *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
 ;
@@ -8080,7 +8072,7 @@ CONSTRAINTS
 	(3 pron/noun)
 	(4 adverb)
 	(5 pres/pret)
-	(NOT 5 farlige-verb)
+	(NOT 5 ambiguous-verb)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
 #  "som (sbu) Dæhlie og Ulvang gjerne anbefaler"
@@ -8092,7 +8084,7 @@ CONSTRAINTS
 	(NOT *-2 sbu)
 	(3 pron/noun)
 	(4 pres/pret)
-	(NOT 4 farlige-verb)
+	(NOT 4 ambiguous-verb)
 	(**-1C lexicalverb BARRIER sentence-border)
 ;
 #  "som (sbu) Dæhlie og Ulvang anbefaler"
@@ -8102,7 +8094,7 @@ CONSTRAINTS
 	(NOT 0 %som%)
 	(NOT 1 pres/pret)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun-gen LINK -1 det-etterstilt LINK -1 pron/noun)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun-gen LINK -1 det-etterstilt LINK -1 pron/noun)
 ;
 #  "å studere der de selv vil"
 #      :group 73
@@ -8113,7 +8105,7 @@ CONSTRAINTS
 	(-1 comma)
 	(NOT 1 pres/pret)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun-gen LINK NOT -1 preposition/comma)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun-gen LINK NOT -1 preposition/comma)
 ;
 # group: 73
 
@@ -8124,7 +8116,7 @@ CONSTRAINTS
 	(NOT -1 clb)
 	(*-1O sbu LINK **1C lexicalverb)
 	(*-1 sbu LINK *-1 pres/pret)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 noun/pron/preposition)
@@ -8143,7 +8135,7 @@ CONSTRAINTS
 	(NOT -1 clb)
 	(*-1O sbu LINK **1C lexicalverb)
 	(*-1 sbu LINK *-1 pres/pret)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 pron LINK NOT *-1 noun/pron/preposition)
@@ -8159,7 +8151,7 @@ CONSTRAINTS
 	(NOT 1 pres/pret)
 	(*-1O sbu LINK **1C lexicalverb LINK *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 pron/noun)
@@ -8174,7 +8166,7 @@ CONSTRAINTS
 	(NOT 1 pres/pret)
 	(*-1O sbu LINK **1C lexicalverb LINK *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 pron LINK NOT *-1 pron/noun)
@@ -8189,7 +8181,7 @@ CONSTRAINTS
 	(NOT 1 pres/pret)
 	(*-1O sbu LINK **1C lexicalverb LINK NOT *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 pron/noun)
@@ -8205,7 +8197,7 @@ CONSTRAINTS
 	(NOT 1 pres/pret)
 	(*-1O sbu LINK **1C lexicalverb LINK NOT *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
-	(*2O pres/pret LINK NOT 0 farlige-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 pron LINK NOT *-1 pron/noun)
@@ -8222,7 +8214,7 @@ CONSTRAINTS
 	(NOT -1 clb-konj)
 	(NOT -2 clb-konj)
 	(*1 pres/pret BARRIER sentence-border)
-	(*3O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK -1 pron/noun LINK NOT -1 pron/noun)
+	(*3O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK -1 pron/noun LINK NOT -1 pron/noun)
 	(*3O pres/pret LINK *-1 comma/konj LINK NOT 0 clb)
 	(*3 pres/pret BARRIER ikke-adv-adj-noun-pron-konj-det2-preposition)
 	(NOT 1 ikke-adv-adj-noun-pron-konj-det2-preposition)
@@ -8240,7 +8232,7 @@ CONSTRAINTS
 	(NOT 0 %om%)
 	(NOT -1 clb-konj)
 	(*1 pres/pret BARRIER sentence-border)
-	(*3O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK -1 pron/noun LINK NOT -1 pron/noun)
+	(*3O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK -1 pron/noun LINK NOT -1 pron/noun)
 	(*3O pres/pret LINK *-1 comma/konj LINK NOT 0 clb)
 	(*3 pres/pret BARRIER ikke-adv-adj-noun-pron-konj-det2)
 	(NOT 1 ikke-adv-adj-noun-pron-konj-det2-preposition)
@@ -8257,7 +8249,7 @@ CONSTRAINTS
 	(NOT -1 clb-konj)
 	(NOT *-2 sbu BARRIER sentence-border)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(*2O pres/pret LINK -1 adverb/komp LINK -1 adverb LINK -1 pron/noun LINK NOT *-1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
@@ -8272,7 +8264,7 @@ CONSTRAINTS
 	(NOT -1 clb-konj)
 	(NOT *-2 sbu BARRIER sentence-border)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(*2O pres/pret LINK -1 adverb LINK -1 noun LINK NOT *-1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
@@ -8288,7 +8280,7 @@ CONSTRAINTS
 	(NOT -1 clb-konj)
 	(NOT *-2 sbu BARRIER sentence-border)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(*2O pres/pret LINK -1 adverb LINK -1 pron LINK NOT *-1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
@@ -8304,7 +8296,7 @@ CONSTRAINTS
 	(NOT -1 clb-konj)
 	(NOT *-2 sbu BARRIER sentence-border)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(*2O pres/pret LINK -1 det-etterstilt LINK -1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
@@ -8323,7 +8315,7 @@ CONSTRAINTS
 	(NOT -1 clb-konj)
 	(NOT *-2 sbu BARRIER sentence-border)
 	(*1 pres/pret BARRIER sentence-border)
-	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 farlige-verb LINK NOT -1 preposition-number)
+	(*2O pres/pret LINK NOT 0 noun/adj-gen LINK NOT 0 ambiguous-verb LINK NOT -1 preposition-number)
 	(*2 pres/pret BARRIER comma/konj)
 	(*2O pres/pret LINK -1 pron LINK NOT *-1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
@@ -8331,7 +8323,7 @@ CONSTRAINTS
 #  "at han kom
 # ikke preposition før verbet fordi det viser seg at
 # \"verbet\" oftest er noun i preposition-frase
-# heller og for er for \"farlige\"
+# heller og for er for \"ambiguous\"
 # SBU-kriteriet for å ikke merke \"før\" i:
 # \"etter som (sbu) pluralernumberet like før (ikke sbu) jul avviste ...
 # godtar sbu+sbu: sa at (sbu) hvis (sbu)
@@ -8367,7 +8359,7 @@ CONSTRAINTS
 
  SELECT:1733 noun IF
 	(NOT 0 farger)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 ikke-adj-noun)
 	(-1C preposition)
 	(NOT 1 noun/adj)
@@ -8380,7 +8372,7 @@ CONSTRAINTS
 
  SELECT:1732 (vblex pres) IF
 	(NOT 0 pret)
-	(NOT 0 farlige-verb)
+	(NOT 0 ambiguous-verb)
 	(NOT 0 noun-gen)
 	(NOT 1 kolon)
 	(NOT *1 overskrift)
@@ -8396,7 +8388,7 @@ CONSTRAINTS
 #  "Generell regel som tar sjanser!"
 
  SELECT:1729 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(1C preposition)
 	(-1C noun)
 	(**1C pres/pret BARRIER ikke-adv-adj-noun-pron-konj-det2-preposition)
@@ -8405,7 +8397,7 @@ CONSTRAINTS
 
  SELECT:2402 (vblex pp) IF
 	(NOT 0 noun)
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(-1 comma)
 	(1C preposition)
 	(**-1C sentence-border LINK NOT 0 sbu)
@@ -8475,7 +8467,7 @@ SELECT:4081 (adj) IF
 
  REMOVE:1710 (adj) IF
 	(0 definite-noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(1 comma/konj)
 	(-1 adj-definite)
 	(NOT -1 %meste/mindste%)
@@ -8486,7 +8478,7 @@ SELECT:4081 (adj) IF
 
  REMOVE:1713 (adj) IF
 	(0 noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 definite-noun)
 	(NOT 0 plural)
 	(1 comma/konj)
@@ -8499,7 +8491,7 @@ SELECT:4081 (adj) IF
 
  REMOVE:1714 (adj) IF
 	(0 noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 definite-noun)
 	(NOT 0 plural)
 	(1 comma/konj)
@@ -8516,7 +8508,7 @@ SELECT:4081 (adj) IF
 
  REMOVE:1717 (adj) IF
 	(0 definite-noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(-1 adj-definite)
 	(NOT 1 noun/adj)
 	(NOT 1 comma/konj)
@@ -8528,7 +8520,7 @@ SELECT:4081 (adj) IF
 
  REMOVE:1720 (adj) IF
 	(0 noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 definite-noun)
 	(NOT 0 plural)
 	(-1 adj-indefinite-singular/%bare%)
@@ -8541,7 +8533,7 @@ SELECT:4081 (adj) IF
 
  REMOVE:1721 (adj) IF
 	(0 noun)
-	(NOT 0 farlige-adj-noun)
+	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 definite-noun)
 	(NOT 0 plural)
 	(-1 adj-indefinite-singular)
@@ -8601,7 +8593,7 @@ SELECT:4081 (adj) IF
 # "
 
  REMOVE:1683 (vblex pp) IF
-	(NOT 0 farlige-part)
+	(NOT 0 ambiguous-part)
 	(1C preposition)
 	(-1C noun)
 	(**1CO pres/pret LINK *-1 ikke-adv-adj-noun-pron-konj-det2-preposition)
@@ -8622,13 +8614,13 @@ SELECT:4081 (adj) IF
 #  "kh jan 2004:"
 
  REMOVE:1676 (vblex) IF
-	(0 veldig-farlige-verb)
+	(0 veldig-ambiguous-verb)
 	(*-1 pres/pret)
 ;
 #	(*-1 pres/pret BARRIER sentence-border)
 
  REMOVE:1677 (vblex) IF
-	(0 veldig-farlige-verb)
+	(0 veldig-ambiguous-verb)
 	(*1 pres/pret)
 ;
 #	(*1 pres/pret BARRIER sentence-border)
@@ -8658,39 +8650,39 @@ SELECT:4081 (adj) IF
 #og pustet lettet (ikke perf-part) ut
 
  REMOVE:4030 (adj) IF
-	 (0 farlige-adj)
+	 (0 ambiguous-adj)
 	 (NOT 0 %andre%)
 	 (NOT 0 %vist%)
 ;
 
  REMOVE:4032 plural-noun IF
-	 (0 farlige-plural-noun)
+	 (0 ambiguous-plural-noun)
 	 (NOT 0 %slags%)
 ;
 
  REMOVE:4034 noun-neuter IF
 	 (NOT 0 %gode%)
 	 (NOT 0 %under%)
-	 (0 farlige-neuter-noun)
+	 (0 ambiguous-neuter-noun)
 ;
 
  REMOVE:4035 (vblex) IF
-	 (0 farlige-forledd-verb)
+	 (0 ambiguous-forledd-verb)
 	 (NOT 0 %fare%-pret)
 ;
 
  REMOVE:4036 (vblex imp) IF
-	 (0 farlige-imp)
+	 (0 ambiguous-imp)
 ;
 
  REMOVE:4037 (vblex inf) IF
-	 (0 farlige-inf)
+	 (0 ambiguous-inf)
 ;
 
  REMOVE:4039 (vblex pres) IF
-	 (0 farlige-verb)
+	 (0 ambiguous-verb)
 ;
-#Ingen farlige verb-pres!
+#Ingen ambiguous verb-pres!
 
  REMOVE:4065 (adj) IF
 	 (0 ikke-sans-adj)
