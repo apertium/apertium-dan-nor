@@ -17,14 +17,14 @@ LIST %anden/samme%/quantifier = ("anden" ) ("samme" ) (det qnt) ;
 LIST %anden/samme%/quantifier-fem = ("anden"  f) ("samme" ) (det qnt) ;
 LIST %anden/samme%/quantifier-mask = ("anden"  m) ("samme" ) (det qnt) ;
 LIST %anden/samme%/quantifier-neuter = ("anden"  nt) ("samme" ) (det qnt) ;
-LIST %arm/ben/krop/legg/tre%-plural = ("arm"  pl) ("ben"  pl) ("bein"  pl)("krop"  pl) ("legg"  pl) ("tre"  pl) ;
+LIST %bodyparts%-plural = ("arm"  pl) ("ben"  pl) ("krop"  pl) ("læg"  pl) ;
 LIST %at% = "at"  ;
 LIST %at/om% = "om"  "at"  ;
 LIST %af% = "af"  ;
 LIST %af/for% = ("af"  pr) ("for"  pr) ;
 LIST %bare% = ("bare"  adv) ;
 LIST %begge/selve/alle% = "selv"  "begge"  ("al"  det pl) ;
-LIST %bla% = "blant annet" "bl.a." ;
+LIST %bla% = "blandt andet" "bl.a." ;
 LIST %blik% = ("blik"  adv) ;
 LIST %brudeparret/parret% = "par"  "brudepar"  ;
 LIST %både% = "både"  ;
@@ -51,10 +51,10 @@ LIST %gang% = "gang"  ;
 LIST %et% = ("en"  det qnt nt sg) ;
 LIST %fare%-pret = ("fare"  vblex pret) ;
 LIST %fast% = ("fast"  adj) ;
-LIST %fast%-verb = "tjore"  "surre"  "sette"  "klore"  "brenne"  "binde"  ;
+LIST %fast%-verb =  "surre"  "sætte"  "brænde"  "binde"  ;
 LIST %flere% = ("mange" adj comp) ;
 LIST %for% = "for"  ;
-LIST %forbanne% = "forbanne"  ;
+LIST %forbande% = "forbande"  ;
 LIST %for%-preposition = ("for"  pr) ;
 LIST %for%-verb = ("fare"  vblex) ;
 LIST %for/før/når% = "når"  "før"  "for"  ;
@@ -68,7 +68,7 @@ LIST %før% = "før"  ;
 LIST %halvliter% = "halvliter"  ;
 LIST %i% = "i"  ;
 LIST %in% = "in"  ;
-LIST %føre% = "føre"  ;   # what does "føre" mean here ? " have noget for " adv??
+LIST %føre% = "føre"  ;
 LIST %først% = "først" ;
 LIST %første% = ("første"  adj) ;
 LIST %gange% = ("gange"  pres) ;
@@ -105,21 +105,22 @@ LIST %mange% = "mange"  ;
 LIST %men% = "men"  ;
 LIST %mene% = ("mene"  vblex) ;
 LIST %mens% = "mens"  ;
-LIST %mest/mindst% = ("mye"  sup ind) ("liten"  sup ind) ;
-LIST %meste/mindste% = ("mye"  sup def) ("liten"  sup def) ;
-LIST %meget/lidt% = "mye"  "lidt"  "lite"  ;
+LIST %mest/mindst% = ("meget"  sup ind) ("lidt"  sup ind) ;
+LIST %meste/mindste% = ("meget"  sup def) ("lidt"  sup def) ;
+LIST %meget/lidt% = "meget"  "lidt"  "lite"  ;
 LIST %noget% = "noget"  ;
 LIST %nogen% = "noen"  ;
 LIST %nok% = "nok"  ;
 LIST %nå% = "nå"  ;
-LIST %nu/da/her/der% = ("nå"  adv) ("da"  adv) ("her"  pr) ("der"  pr) ;
+LIST %nu% = "nu"  ;
+LIST %nu/da/her/der% = ("nu"  adv) ("da"  adv) ("her"  pr) ("der"  pr) ;
 LIST %nærpå% = "nærpå"  ; #????
 
 
 
 LIST %og% = "og"  ;
 LIST %om% = "om"  ;
-LIST %om/enn/som/hvis% = "som"  "om"  "hvis"  "enn"  ;
+LIST %om/end/som/hvis% = "som"  "om"  "hvis"  "end"  ;
 LIST %op% = "op"  ;
 LIST %over% = "over"  ;
 LIST %puste% = "puste"  ;
@@ -140,7 +141,7 @@ LIST %slå% = ("slå"  vblex) ;
 LIST %som% = "som"  ;
 LIST %som%-sbu = ("som"  cnjsub) ;
 LIST %som/at% = "at"  ("som"  cnjsub) ;
-LIST %som/enn% = "som"  "enn"  ;
+LIST %som/end% = "som"  "end"  ;
 LIST %som/om% = "som"  "om"  ;
 LIST %syvende% = "syvende"  "sjuende"  ;
 LIST %så% = "så"  ;
@@ -153,7 +154,7 @@ LIST %tiltalte% = ("tiltale"  adj pp def sg) ;
 LIST %tre% = "tre"  ;
 LIST %under% = ("under"  pr) ;
 LIST %ut% = "ut"  ;
-LIST %udenforstående% = "utenforstående"  ;
+LIST %udenforstående% = "udenforstående"  ;
 LIST %vedkommende% = "vedkommende"  ;
 LIST %var% = ("var"  adj) ("være"  pret) ;
 LIST %vel% = "vel"  ;
@@ -174,11 +175,10 @@ LIST adj = adj ;
 LIST adj-adv-noun-konj = adv adj n np cnjcoo ;
 LIST adj-definite = (adj def) (adj pprs) ;
 LIST adj-singular = (adj sg) (adj pprs) ;
-LIST adj-fem = (adj f) (adj mf) (adj pprs) (adj def) ;
 LIST adj-plural = (adj pl) (adj pprs) ;
 LIST adj-gen = (adj gen) ;
 LIST adj-komp = (adj comp) ;
-LIST adj-mask = (adj m) (adj mf) (adj pprs) (adj def) ;
+LIST adj-ut = (adj ut) (adj pprs) (adj def) ;
 LIST adj-neuter = (adj nt) (adj def) (adj pprs) ;
 LIST adj-neuter-indefinite = (adj nt ind) (adj pprs) ;
 LIST adj-pos = (adj posi) ;
@@ -191,13 +191,13 @@ LIST adj-indefinite = (adj ind) (adj pprs) ;
 LIST adj-indefinite-singular = (adj ind sg) (adj pprs) ;
 LIST adj-indefinite-singular/%bare% = "bare"  (adj ind sg) (adj pprs) ;
 LIST adj/adv = adj adv ;
-LIST adj/adv-iv = "så"  "nå"  "hele"  "halve"  "dette"  ("vite"  vblex pp) ("fortsette"  vblex pp) ;
+LIST adj/adv-iv = "så"  "nå"  "hele"  "halve"  "dette"  ("vide"  vblex pp) ("fortsætte"  vblex pp) ;
 LIST adj/nr2det =  "sådan"  "samme"  "næste"  "hver"  "halvanden"  "eneste"  "ene"  "egen"  "anden"  adj (det qnt pl) ;
 LIST adj/nr2det-udetplural = "sådan"  "samme"  "næste"  "hver"  "halvanden"  "eneste"  "ene"  "egen"  "anden"  adj (det qnt pl) ;
 LIST adj/perf-part = adj (vblex pp) ;
 LIST adj/noun = adj n np ;
 LIST adv = adv <adv> ;
-LIST adv-konj = "verken"  "hverken"  "singularen"  "både"  (cnjcoo <adv>) ;
+LIST adv-konj = "hverken"  "enten"  "både"  (cnjcoo <adv>) ;
 LIST adv/<adv> = adv <adv> ;
 LIST adv/adj-neuter = adv (adj nt) (adj def) (adj pprs) ;
 LIST adv/adj-neuter-indefinite = adv (adj nt) (adj def) (adj pprs) ;
@@ -206,28 +206,28 @@ LIST adverb = adv <adv> (adj nt ind) ("nær"  sup def) ("noen"  det nt) ;
 LIST adverb/komp = adv <adv> (adj nt ind) (adj comp) ("nær"  sup def) ("noen"  det nt) ;
 LIST adverb/komp/indefinite-sup = adv <adv> (adj nt ind) (adj comp) (adj sup ind) ("noen"  det nt) ;
 LIST adverb/komp/indefinite-sup/pres-part = adv <adv> (adj nt ind) (adj comp) (adj sup ind) (adj pprs) ;
-LIST adverbialnoun = "øjeblik"  "år"  "vinter"  "vej"  "uge"  "torsdag"  "tonnkilometer"  "tiår"  "tirsdag"  "time"  "tiendelssekund"  "tidelssekund"  "tid"  "søndag"  "stykke"  "stund"  "skridt"  "sted"  "sommer" "sømil"  "september"  "sekundmeter"  "sekund"  "påske"  "pinse"  "periode"  "onsdag"  "oktober"  "november"   "natt"  "nanosekund"  "nanometer"  "måned"  "morgen"  "minut"  "millisekund"  "millimeter"  "mil"  "mikrometer"  "meter"  "marts"  "mandag"  "maj"  "m." "lørdag"  "aften"  "kvartmil"  "kvadratmillimeter"  "kvadratmeter"  "kvadratkilometer"  "kvadratdecimeter"  "kvadratcentimeter"  "kubikmillimeter"  "kubikmeter"  "kubikdecimeter"  "kubikcentmeter"  "km"  "klokke"  "kilometer"  "juni"  "juli"  "jul"  "januar"  "høst"  "hverdag"  "hundrededelssekund"  "helligdag"  "helgedag"  "halvår"  "halvmil"  "gang"  "fredag"  "formiddag"  "februar"  "eftermiddag"  "døgn"  "decimeter"  "december"  "dag"  "centimeter"  "august"  "april"  <dato> ("liv"  sg def) ("forår"  n) ;
+LIST adverbialnoun = "øjeblik"  "år"  "vinter"  "vej"  "uge"  "torsdag"  "tiår"  "tirsdag"  "time"  "tiendelssekund"  "tidelssekund"  "tid"  "søndag"  "stykke"  "stund"  "skridt"  "sted"  "sommer" "sømil"  "september"  "sekundmeter"  "sekund"  "påske"  "pinse"  "periode"  "onsdag"  "oktober"  "november"   "natt"  "nanosekund"  "nanometer"  "måned"  "morgen"  "minut"  "millisekund"  "millimeter"  "mil"  "mikrometer"  "meter"  "marts"  "mandag"  "maj"  "m." "lørdag"  "aften"  "kvartmil"  "kvadratmillimeter"  "kvadratmeter"  "kvadratkilometer"  "kvadratdecimeter"  "kvadratcentimeter"  "kubikmillimeter"  "kubikmeter"  "kubikdecimeter"  "kubikcentmeter"  "km"  "klokke"  "kilometer"  "juni"  "juli"  "jul"  "januar"  "høst"  "hverdag"  "hundrededelssekund"  "helligdag"  "helgedag"  "halvår"  "halvmil"  "gang"  "fredag"  "formiddag"  "februar"  "eftermiddag"  "døgn"  "decimeter"  "december"  "dag"  "centimeter"  "august"  "april"  <dato> ("liv"  sg def) ("forår"  n) ;
 LIST akk = acc ;
-LIST alt = "siden"  adj adv vblex pr prn cnjsub "å" n np ij det cnjcoo <anf> cm <ellipsis> <kolon> lpar rpar <semi> <strek> ;
+LIST alt = "siden"  adj adv vblex pr prn cnjsub "at" n np ij det cnjcoo <anf> cm <ellipsis> <kolon> lpar rpar <semi> <hyphen> ;
 LIST anf = <anf> <ANF>;
 LIST bare-adj = "vedkommende"  "ugjort"  "tilsvarende"  "skrå"  "nær"  "ny"  "middel"  "kort"  "iført"  "halv"
  "fri"  ;
 LIST be = def ;
 LIST definite-det = "hin"  "dette"  "det"  "denne"  "den"  ;
 LIST definite-det-singular = ("hin"  sg) ("denne"  sg) ("den"  sg) ("det"  sg) ("de"  sg) (det def sg) (n gen) (np gen) ;
-LIST definite-det-singular/plural = "hin"    "det"  "denne"  "den"  "de"  (det def) ;
+LIST definite-det-singular/plural = "hin"  "det"  "denne"  "den"  "de"  (det def) ;
 LIST definite-singular = (def sg) ;
 LIST definite-singular-adj/komp-definite-sup-adj = (adj def sg) (adj comp) (adj sup def) (adj pprs) ;
-LIST definite-singular-fem-adj = (adj def sg) (adj sup def) (adj pprs) ;
-LIST definite-singular-fem-adj/komp/sup = (adj def sg) (adj comp) (adj sup def) (adj pprs) ;
-LIST definite-singular-fem-noun = (n f sg def) (np f sg def) ;
+LIST definite-singular-ut-adj = (adj def sg) (adj sup def) (adj pprs) ;
+LIST definite-singular-ut-adj/komp/sup = (adj def sg) (adj comp) (adj sup def) (adj pprs) ;
+LIST definite-singular-ut-noun = (n ut sg def) (np ut sg def) ;
 LIST definite-singular-adj = (adj def sg) (adj sup def) (adj pprs) ;
 LIST definite-singular-neuter-adj = (adj def sg) (adj sup def) (adj pprs) ;
 LIST definite-singular-neuter-noun = (n nt sg def) (np nt sg def) ;
 LIST definite-singular-noun = (n sg def) (np sg def) ;
 LIST definite-plural-noun = (n pl def) (np pl def) ;
 LIST definite-plural-noun/plural-adj = (n pl def) (np pl def) (adj pl) (adj pprs) ;
-LIST definite-mask-det = (det pos m) ("hin"  det m) ("denne"  det m) ("den"  det m) ;
+LIST definite-ut-det = (det pos m) ("hin"  det m) ("denne"  det m) ("den"  det m) ;
 LIST definite-neuter-det = (det pos nt) ("hin"  det nt) ("denne"  det nt) ("den"  det nt) ;
 LIST definite-noun = (n def) (np def) ;
 LIST clb = clb ;
@@ -253,31 +253,30 @@ LIST det-preposition-infinitive-marker-adjbe = "siden"  det pr "at" (adj def) (a
 LIST det-noun = det n np ;
 LIST det/adj = det adj ;
 LIST det/adj/gen/prop = det adj gen np ;
-LIST det/adj/comma/konj = "$," "," (adj m) (adj f) (adj mf) (adj pl) (adj pprs) (adj def) det cnjcoo ;
+LIST det/adj/comma/konj = "$," "," (adj ut) (adj pl) (adj pprs) (adj def) det cnjcoo ;
 LIST det/adv = det adv ;
 LIST ditransitive = "donere"  d1 d2 d3 d6 d7 rl6 rl7 rl8 ;
-LIST ellipsis = ("$--" <strek>) ("--" <strek>) <ellipsis> ;
+LIST ellipsis = ("$--" <hyphen>) ("--" <hyphen>) <ellipsis> ;
 LIST singular = sg ;
-LIST singular-fem-noun = (n f sg) (np f sg) ;
-LIST singular-mask-noun = (n m sg) (np m sg) ;
+LIST singular-ut-noun = (n ut sg) (np ut sg) ;
 LIST singular-neuter-noun = (n nt sg) (np nt sg) ;
 LIST singular-noun = (n sg) (np sg) ;
 LIST singular-indefinite = (sg ind) ;
-LIST f-sindefinitej = ("det"  prn) ;
-LIST farger = "turkis"  "sort"  "rød"  "rosa"  "orange"  "lilla"  "indigo"  "hvid"  "gul"  "grøn"  "grå"  "violett"  "blå"  ;
+LIST f-subj = ("det"  prn) ;
+LIST colours = "turkis"  "sort"  "rød"  "rosa"  "orange"  "lilla"  "indigo"  "hvid"  "gul"  "grøn"  "grå"  "violet"  "blå"  ;
 LIST ambiguous-adj = "brak"  "året"  "være"  "vide"  "vis"  "var"  "tids"  "sige"  "se"  "live"   "lette"  "lave"  "helle"  "før"  "fore"  "eje"  "egen"  "bar"  "anden"  "angående"  "ale"   ;
 LIST ambiguous-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller"  "gode"  "faren"  (adj comp) ("visse"  n) ("sivil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
 LIST ambiguous-plural-noun = ("hjælp"  pl ind) ("lede"  m pl ind) ("led"  m pl ind) ("fald"  m pl ind) ("snus"  m pl ind) ("find"  pl ind) ("finde"  pl ind) ("komme"  pl ind) ("under"  pl ind) ("får"  pl) ("ønske"  pl) ("slag"  gen) ("jeg"  pl) ("lo"  pl) ("var"  pl) ("nå"  pl) ("al"  pl def) ("mod"  pl ind) ("men"  pl ind) ;
 LIST ambiguous-forledd-verb = ("helle"  pres) ("nå"  pres)  ("fare"  pret) ("tro"  adj) ("tiltale"  pret) ("klokke"  pret) ;
 LIST ambiguous-imp = "live"  "vare"  "så"  "se"  "nå"  "neje"  "mine"  "mene"  "føre"  "fore"  "ene"  "bedre"  "more"  "fare" ;
-LIST ambiguous-inf = ("felle"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lite"  "like"  "lekre"  "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse"  "dette"  "bedre"  ("slette"  pass) "røde"  ;
-LIST ambiguous-mask-noun = "ville"  "ved"  "syke"  "skrå"  "like"  "helt"  "heller"  "eldste"  ("ho"  sg ind gen) ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lit"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
-LIST ambiguous-neuter-noun = "vilt"  "venstre"  "var"  "under"  "tre"  "skrå"  "sett"  "selv"  "nå"  "ny"  "mot"  "lik"  "konkret"  "jeg"  "høyre"  "godt"  "gode"  "folk"  "bak"  ("stikk"  adv) ("alt"  ind) ("fort"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
-LIST ambiguous-part = "kante"  "vite"  "via"  "vekke"  "svare"  "stole"  "spenne"  "skjønne"  "sale"  "renne"  "re"  "pule"  "prime"  "ose"  "opta"  "omvende"  "nære"  "nyte"  "mige"  "make"  "lyse"  "live"  "lite"  "lete"  "leite"  "kontre"  "klare"  "hete"  "helle"  "hele"  "gråte"  "gale"  "fortsette"  "fore"  "ete"  "desidere"  "brune"  "bre"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
-LIST ambiguous-verb = ("numbere" vblex pret) ("numbere" vblex imp) ("numbere" pp)  ("ansette"  vblex pret) ("kontre"  pret) ("gange"  pres) ("stede"  pres) ("nå"  pres) ("elle"  pres) ("fø"  pres) ("sige"  pret) ("fare"  pret) ("se"  pret) ("helle"  pres) ("mige"  pret) ("dy"  pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("kope"  vblex pres) ("iblande"  vblex pret) ("forfatte"  vblex pres);
-LIST fem = f mf (adj def) ;
+LIST ambiguous-inf = ("felle"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lide" s "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse"  "dette"  "bedre"  ("slette"  pass) "røde"  ;
+LIST ambiguous-mask-noun = "ville"  "ved"  "syge"  "skrå"  "helt"  "heller"  "ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
+LIST ambiguous-neuter-noun = "vildt"  "venstre"  "var"  "under"  "skrå"  "sæt"  "selv"  "nå"  "ny"  "mod"  "lik"  "konkret"  "jeg"  "højre"  "godt"  "gode"  "folk"  "bag"  ("stik"  adv) ("alt"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
+LIST ambiguous-part = "kante"  "vide"  "via"  "vække"  "svare"  "stole"  "spænde"  "skønne"  "rende" "pule"  "prime"  "ose"  "optage"  "omvende"  "nære"  "nyde" "mage"  "lyse"  "live"  "lide"  "lede"  "klare"  "hedde"  "helle"  "hele"  "gale"  "fortsætte"  "fore" "decidere"  "brune"  "brede"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
+LIST ambiguous-verb =  ("ansætte"  vblex pret) ("gange"  pres) ("stede"  pres) ("nå"  pres) ("sige"  pret) ("fare"  pret) ("se"  pret) ("helle"  pres) ("dy"  pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("iblande"  vblex pret) ("forfatte"  vblex pres);
+LIST fem = f (adj def) ;
 LIST fem-definite = (f def) ;
-LIST fem-det = (det f) ;
+LIST ut-det = (det f) ;
 LIST fem-singular = (f sg) (mf sg) (adj def) (f indeclinable) (np) ;
 LIST plural = pl ;
 LIST plural-adj = (adj pl) (adj pprs) ;
@@ -293,58 +292,58 @@ LIST lexicalverb = (vblex pres) (vblex pret) (vblex imp) ;
 LIST gen = gen ;
 LIST gen-noun = (n gen) (np gen) ;
 LIST gen/%slags% = "slags"  gen ;
-LIST grads-adv = "stor"  "mye"  "liten"  "ille"  "god"  ;
-LIST auxiliary-verb = "være"  "ville"  "skulle"  "måtte"  "kunne"  "ha"  "få"  "burde"  "bli"  ;
-LIST auxiliary-verb-iv = ("bli"  inf) ("bli"  vblex pp) ("ha"  inf) ("ha"  vblex pp) ("være"  inf) ("være"  vblex pp) ("få"  inf) ("få"  vblex pp) ("skulle"  inf) ("skulle"  vblex pp) ("kunne"  inf) ("kunne"  vblex pp) ("ville"  inf) ("ville"  vblex pp) ("måtte"  inf) ("måtte"  vblex pp) ("burde"  inf) ("burde"  vblex pp) ;
-LIST ikke-adj = "siden"  adv vblex pr prn cnjsub "å" n np ij det (clb cnjcoo) <anf> <ellipsis> (cnjcoo <adv>) ("$»" <ANF>) ("»" <ANF>);
-LIST ikke-adj-adv = vblex pr prn cnjsub "å" n np ij det (clb cnjcoo) <anf> <ellipsis> (cnjcoo <adv>) ;
-LIST ikke-adj-noun = "siden"  adv vblex pr prn cnjsub cnjcoo "å" ij det <<< <ellipsis> ;
-LIST ikke-adj-verb = "siden"  n np adv pr prn cnjsub cnjcoo "å" ij det <<< <ellipsis> ;
-LIST ikke-adv = "siden"  "$," "," vblex pr prn cnjsub cnjcoo "å" ij n np det <ellipsis> (adj m) (adj f) (adj mf) (adj pl) (adj comp) (adj sup) (adj pprs) (adj def) ;
-LIST ikke-adv-adj = "siden"  "$:" ":" vblex pr prn cnjsub "å" n np ij det <ellipsis> (clb cnjcoo) (clb cm) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-det = "siden"  "$:" ":" vblex pr prn cnjsub "å" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-det-pron = "siden"  "$:" ":" vblex pr cnjsub "å" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-det-noun = "siden"  "$--" "--" "$:" ":" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "å" ij <<< <ellipsis> (clb cm) ;
-LIST ikke-adv-adj-det2 = "siden"  "$:" ":" vblex pr prn cnjsub "å" n np ij <ellipsis> ;
-LIST ikke-adv-adj-comma = "siden"  "$-" "-" rpar vblex pr prn cnjsub "å" n np ij det <ellipsis> ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-comma-preposition-det-pron-prop = "siden"  "$-" "-" rpar vblex cnjsub "å" n ij <ellipsis> ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-konj = "siden"  "$:" ":" vblex pr prn cnjsub "å" n np ij det <ellipsis> ;
-LIST ikke-adv-adj-noun = "siden"  "$--" "--" "$:" ":" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "å" ij det <<< <ellipsis> ;
-LIST ikke-adv-adj-noun-det-preposition = "$-" "-" "$," "," vblex prn cnjsub cnjcoo "å" ij <<< >>> <ellipsis> ;
-LIST ikke-adv-adj-noun-pron-det = cnjcoo pr cnjsub "å" ij <ellipsis> (vblex pres) (vblex pret) (det dem) (n gen) ("$," clb) ("," clb) ;
-LIST ikke-adv-adj-noun-pron-konj-det = "siden"  pr cnjsub "å" ij <ellipsis> (vblex pres) (vblex pret) (det dem) (n gen) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-noun-pron-konj-det-sbu2 = "siden"  pr "å" ij <ellipsis> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-noun-pron-konj-det2 = "siden"  pr cnjsub "å" ij <ellipsis> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-noun-pron-konj-det2-preposition = cnjsub "å" ij <ellipsis> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-nounmgen-konj-detmdem-preposition = prn cnjsub "å" ij <ellipsis> (vblex pres) (vblex pret) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-nounmgen-pron-detmdem-preposition = cnjsub "å" ij cnjcoo <ellipsis> (vblex pres) (vblex pret) ("$," clb) ("," clb) ;
-LIST ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition = cnjsub "å" ij <ellipsis> (vblex pres) (vblex pret) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition2 = cnjsub "å" ij <ellipsis> vblex ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-komp-indefinite-sup = "siden"  "$," "," vblex pr prn cnjsub cnjcoo "å" ij n np det <ellipsis> (adj m) (adj f) (adj mf) (adj pl) (adj sup def) (adj pprs) (adj def) ;
+LIST grads-adv = "stor"  "meget"  "lille"  "ilde"  "god"  ;
+LIST auxiliary-verb = "være"  "ville"  "skulle"  "måtte"  "kunne"  "have"  "få"  "burde"  "blive"  ;
+LIST auxiliary-verb-iv = ("blive"  inf) ("blive"  vblex pp) ("have"  inf) ("have"  vblex pp) ("være"  inf) ("være"  vblex pp) ("få"  inf) ("få"  vblex pp) ("skulle"  inf) ("skulle"  vblex pp) ("kunne"  inf) ("kunne"  vblex pp) ("ville"  inf) ("ville"  vblex pp) ("måtte"  inf) ("måtte"  vblex pp) ("burde"  inf) ("burde"  vblex pp) ;
+LIST ikke-adj = "siden"  adv vblex pr prn cnjsub "at" n np ij det (clb cnjcoo) <anf> <ellipsis> (cnjcoo <adv>) ("$»" <ANF>) ("»" <ANF>);
+LIST ikke-adj-adv = vblex pr prn cnjsub "at" n np ij det (clb cnjcoo) <anf> <ellipsis> (cnjcoo <adv>) ;
+LIST ikke-adj-noun = "siden"  adv vblex pr prn cnjsub cnjcoo "at" ij det <<< <ellipsis> ;
+LIST ikke-adj-verb = "siden"  n np adv pr prn cnjsub cnjcoo "at" ij det <<< <ellipsis> ;
+LIST ikke-adv = "siden"  "$," "," vblex pr prn cnjsub cnjcoo "at" ij n np det <ellipsis> (adj ut) (adj ut) (adj pl) (adj comp) (adj sup) (adj pprs) (adj def) ;
+LIST ikke-adv-adj = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij det <ellipsis> (clb cnjcoo) (clb cm) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-det = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-det-pron = "siden"  "$:" ":" vblex pr cnjsub "åt" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-det-noun = "siden"  "$--" "--" "$:" ":" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "at" ij <<< <ellipsis> (clb cm) ;
+LIST ikke-adv-adj-det2 = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij <ellipsis> ;
+LIST ikke-adv-adj-comma = "siden"  "$-" "-" rpar vblex pr prn cnjsub "at" n np ij det <ellipsis> ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-comma-preposition-det-pron-prop = "siden"  "$-" "-" rpar vblex cnjsub "at" n ij <ellipsis> ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-konj = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij det <ellipsis> ;
+LIST ikke-adv-adj-noun = "siden"  "$--" "--" "$:" ":" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "at" ij det <<< <ellipsis> ;
+LIST ikke-adv-adj-noun-det-preposition = "$-" "-" "$," "," vblex prn cnjsub cnjcoo "at" ij <<< >>> <ellipsis> ;
+LIST ikke-adv-adj-noun-pron-det = cnjcoo pr cnjsub "at" ij <ellipsis> (vblex pres) (vblex pret) (det dem) (n gen) ("$," clb) ("," clb) ;
+LIST ikke-adv-adj-noun-pron-konj-det = "siden"  pr cnjsub "at" ij <ellipsis> (vblex pres) (vblex pret) (det dem) (n gen) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-noun-pron-konj-det-sbu2 = "siden"  pr "at" ij <ellipsis> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-noun-pron-konj-det2 = "siden"  pr cnjsub "at" ij <ellipsis> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-noun-pron-konj-det2-preposition = cnjsub "at" ij <ellipsis> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-nounmgen-konj-detmdem-preposition = prn cnjsub "at" ij <ellipsis> (vblex pres) (vblex pret) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-nounmgen-pron-detmdem-preposition = cnjsub "at" ij cnjcoo <ellipsis> (vblex pres) (vblex pret) ("$," clb) ("," clb) ;
+LIST ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition = cnjsub "at" ij <ellipsis> (vblex pres) (vblex pret) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition2 = cnjsub "at" ij <ellipsis> vblex ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-komp-indefinite-sup = "siden"  "$," "," vblex pr prn cnjsub cnjcoo "at" ij n np det <ellipsis> (adj m) (adj f) (adj mf) (adj pl) (adj sup def) (adj pprs) (adj def) ;
 LIST ikke-adv-noun-pron-konj = "siden"  det vblex pr cnjsub ij <ellipsis> (det dem) (adj mf) (adj m) (adj f) (adj mf) (adj pl) (adj def) (adj pprs) (n gen) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
 LIST ikke-adv-noun-pron-konj-det = "siden"  vblex pr cnjsub ij <ellipsis> (det dem) (adj pprs) (adj mf) (adj m) (adj f) (adj mf) (adj pl) (adj def) (n gen) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
 LIST ikke-adv-noun-pron-konj-det-verb = "siden"  pr cnjsub ij <ellipsis> (det dem) (adj mf) (adj m) (adj f) (adj mf) (adj pl) (adj def) (adj pprs) (n gen) ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-verb = "siden"  "$," "," pr prn cnjsub cnjcoo "å" ij n np det <ellipsis> (adj m) (adj f) (adj pl) (adj mf) (adj comp) (adj sup) (adj pprs) (adj def) ;
-LIST ikke-det = "siden"  vblex pr prn cnjsub cnjcoo "å" n np ij adj adv ;
-LIST ikke-det-preposition = "siden"  vblex pr prn cnjsub cnjcoo "å" n np ij adj adv ;
-LIST ikke-mod = inf @lexicalverb @sindefinitej @obj @i-obj @s-pred @o-pred @app @<p-utfyll @løs-np @<sbu @<sbu-rel @s-gr @adv ;
-LIST ikke-poss-det = "siden"  "$," "," adj adv vblex pr prn cnjsub cnjcoo "å" ij n np <ellipsis> (det def) (det dem) (det emph) (det qnt) (det itg) ;
-LIST ikke-preposition = cnjsub adv adj vblex prn "å" n np ij det (clb cnjcoo) <anf> <ellipsis> ;
-LIST ikke-preposition-sbu = adv adj vblex prn "å" n np ij det (clb cnjcoo) <anf> <ellipsis> ;
-LIST ikke-sans-adj = "kurr"  ("regne"  adj pp) ("grepet"  adj)("sette"  adj pp) ("pågå"  adj pp) ("løye"  adj pp) ("overholde"  adj pp) ("befinde"  adj pp) ("spekulere"  adj pp) ("forbryte"  adj pp) ("frabe"  adj pp) ("tore"  adj pp) ("bistå"  adj pp) ("rådføre"  adj pp) ("foreligge"  adj pp) ("fornemme"  adj pp) ("driste"  adj pp) ("forholde"  adj pp) ("håndtere"  adj pp) ("håndtere"  adj pp) ("affinde"  adj pp) ("dikke"  adj pp) ("dikke"  adj pp) ("overstige"  adj pp) ("kvie"  adj pp) ("rotte"  adj pp) ("håve"  adj pp) ("karre"  adj pp) ("dorme"  adj pp) ("feriere"  adj pp) ("luske"  adj pp) ("forestå"  adj pp) ("forregne"  adj pp) ("stride"  adj pp) ("stride"  adj pp) ("sysle"  adj pp) ("tilpluralyte"  adj pp) ("forelese"  adj pp) ("grafse"  adj pp) ("hige"  adj pp) ("punge"  adj pp) ("vedde"  adj pp) ("blafre"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("klarne"  adj pp) ("klyve"  adj pp) ("letne"  adj pp) ("oversitte"  adj pp) ("påminde"  adj pp) ("dvele"  adj pp) ("forsove"  adj pp) ("ordlegge"  adj pp) ("prakke"  adj pp) ("smyge"  adj pp) ("tillyse"  adj pp) ("bepluralidte"  adj pp) ("bemektige"  adj pp) ("gamble"  adj pp) ("gjalle"  adj pp) ("hinke"  adj pp) ("livne"  adj pp) ("motstå"  adj pp) ("skorte"  adj pp) ("tø"  adj pp) ("ynke"  adj pp) ("angå"  adj pp) ("danke"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("gnikke"  adj pp) ("gnikke"  adj pp) ("gumle"  adj pp) ("gyve"  adj pp) ("herse"  adj pp) ("hoie"  adj pp) ("huie"  adj pp) ("jule"  adj pp) ("mekre"  adj pp) ("myldre"  adj pp) ("nedkomme"  adj pp) ("paradere"  adj pp) ("plinge"  adj pp) ("prute"  adj pp) ("sparre"  adj pp) ("tyste"  adj pp) ("afvike"  adj pp) ("bale"  adj pp) ("befatte"  adj pp) ("beile"  adj pp) ("briske"  adj pp) ("campe"  adj pp) ("duellere"  adj pp) ("dulle"  adj pp) ("duve"  adj pp) ("pluralotte"  adj pp) ("frø"  adj pp) ("gaule"  adj pp) ("gnu"  adj pp) ("gnugge"  adj pp) ("grabbe"  adj pp) ("hånle"  adj pp) ("indebære"  adj pp) ("klakke"  adj pp) ("knise"  adj pp) ("knuffe"  adj pp) ("kulse"  adj pp) ("mukke"  adj pp) ("nage"  adj pp) ("pikke"  adj pp) ("pimpe"  adj pp) ("plumpe"  adj pp) ("posere"  adj pp) ("prelle"  adj pp) ("pønse"  adj pp) ("rippe"  adj pp) ("risle"  adj pp) ("slingre"  adj pp) ("sluntre"  adj pp) ("sondre"  adj pp) ("teoretisere"  adj pp) ("tilsnike"  adj pp) ("tvære"  adj pp) ("undergå"  adj pp) ("andøve"  adj pp) ("afhenge"  adj pp) ("bekvemme"  adj pp) ("bemøye"  adj pp) ("betle"  adj pp) ("bevre"  adj pp) ("bleikne"  adj pp) ("bleikne"  adj pp) ("blunde"  adj pp) ("daffe"  adj pp) ("defilere"  adj pp) ("delje"  adj pp) ("drasse"  adj pp) ("feide"  adj pp) ("fiffe"  adj pp) ("foresveve"  adj pp) ("gla"  adj pp) ("gnukke"  adj pp) ("gnåle"  adj pp) ("grine"  adj pp) ("handhelse"  adj pp) ("handhelse"  adj pp) ("handse"  adj pp) ("hospitere"  adj pp) ("husere"  adj pp) ("hysse"  adj pp) ("hysse"  adj pp) ("hånpluralire"  adj pp) ("indestå"  adj pp) ("isne"  adj pp) ("jamme"  adj pp) ("jamme"  adj pp) ("kauke"  adj pp) ("kjekle"  adj pp) ("klenge"  adj pp) ("klenge"  adj pp) ("knoge"  adj pp) ("kokettere"  adj pp) ("kollokvere"  adj pp) ("konsertere"  adj pp) ("konspirere"  adj pp) ("konvergere"  adj pp) ("krible"  adj pp) ("krokkere"  adj pp) ("kvede"  adj pp) ("køe"  adj pp) ("leplurale"  adj pp) ("ljome"  adj pp) ("loffe"  adj pp) ("loffe"  adj pp) ("logre"  adj pp) ("menge"  adj pp) ("misjonere"  adj pp) ("morske"  adj pp) ("nugge"  adj pp) ("okke"  adj pp) ("patte"  adj pp) ("peise"  adj pp) ("perle"  adj pp) ("piffe"  adj pp) ("propagandere"  adj pp) ("revansjere"  adj pp) ("rolle"  adj pp) ("rushe"  adj pp) ("rutsje"  adj pp) ("samtykke"  adj pp) ("skingre"  adj pp) ("skralle"  adj pp) ("skråne"  adj pp) ("skrømte"  adj pp) ("skvaldre"  adj pp) ("sluffe"  adj pp) ("smaske"  adj pp) ("småløpe"  adj pp) ("solidarisere"  adj pp) ("sope"  adj pp) ("spinke"  adj pp) ("spjette"  adj pp) ("stiltre"  adj pp) ("storkose"  adj pp) ("stulle"  adj pp) ("sindefiniteskribere"  adj pp) ("sykne"  adj pp) ("sykne"  adj pp) ("tendere"  adj pp) ("trikke"  adj pp) ("tysse"  adj pp) ("vedstå"  adj pp) ("vintre"  adj pp) ("visle"  adj pp) ("vitse"  adj pp) ("ætte"  adj pp) ("økonomisere"  adj pp) ("adherere"  adj pp) ("akke"  adj pp) ("akke"  adj pp) ("akkedere"  adj pp) ("akkordere"  adj pp) ("alboge"  adj pp) ("alternere"  adj pp) ("ambulere"  adj pp) ("anmasse"  adj pp) ("anstå"  adj pp) ("ansøke"  adj pp) ("baisse"  adj pp) ("barske"  adj pp) ("bede"  adj pp) ("bede"  adj pp) ("beinpluralyge"  adj pp) ("bekomme"  adj pp) ("belje"  adj pp) ("belje"  adj pp) ("besitte"  adj pp) ("beve"  adj pp) ("bile"  adj pp) ("bivuakkere"  adj pp) ("blakne"  adj pp) ("blakre"  adj pp) ("blitse"  adj pp) ("blive"  adj pp) ("blive"  adj pp) ("boge"  adj pp) ("boge"  adj pp) ("bogne"  adj pp) ("bolne"  adj pp) ("bonge"  adj pp) ("bramme"  adj pp) ("braske"  adj pp) ("bratne"  adj pp) ("braute"  adj pp) ("breste"  adj pp) ("breste"  adj pp) ("brotne"  adj pp) ("brotsje"  adj pp) ("brumle"  adj pp) ("bryske"  adj pp) ("bulne"  adj pp) ("burde"  adj pp) ("bykse"  adj pp) ("bæsje"  adj pp) ("bølgje"  adj pp) ("changere"  adj pp) ("chevrotere"  adj pp) ("choke"  adj pp) ("clinche"  adj pp) ("clutche"  adj pp) ("clutche"  adj pp) ("dalke"  adj pp) ("dalte"  adj pp) ("darre"  adj pp) ("daude"  adj pp) ("differere"  adj pp) ("dinere"  adj pp) ("dragse"  adj pp) ("drette"  adj pp) ("drøse"  adj pp) ("dutte"  adj pp) ("dutte"  adj pp) ("dy"  adj pp) ("eksellere"  adj pp) ("fagne"  adj pp) ("fantegå"  adj pp) ("fastne"  adj pp) ("fise"  adj pp) ("fjeske"  adj pp) ("pluralakne"  adj pp) ("pluralanere"  adj pp) ("pluralaue"  adj pp) ("pluralekse"  adj pp) ("pluralope"  adj pp) ("pluralope"  adj pp) ("pluraluktuere"  adj pp) ("pluraluorescere"  adj pp) ("pluraluoridere"  adj pp) ("pluralyge"  adj pp) ("pluralyge"  adj pp) ("pluralåse"  adj pp) ("pluralømme"  adj pp) ("pluralømme"  adj pp) ("forføye"  adj pp) ("forhandsstemme"  adj pp) ("forhandsstemme"  adj pp) ("forhåndsstemme"  adj pp) ("forhåndsstemme"  adj pp) ("forivre"  adj pp) ("acronymjøpe"  adj pp) ("forlyde"  adj pp) ("forlyste"  adj pp) ("formaste"  adj pp) ("formene"  adj pp) ("forpleie"  adj pp) ("forrekne"  adj pp) ("forsynde"  adj pp) ("fortryte"  adj pp) ("fossregne"  adj pp) ("frege"  adj pp) ("frilanse"  adj pp) ("frukte"  adj pp) ("fråde"  adj pp) ("fråsse"  adj pp) ("føyse"  adj pp) ("gaple"  adj pp) ("garpe"  adj pp) ("gauke"  adj pp) ("geberde"  adj pp) ("gjenlyde"  adj pp) ("gjenstå"  adj pp) ("gjøne"  adj pp) ("gleppe"  adj pp) ("gleppe"  adj pp) ("gli"  adj pp) ("gli"  adj pp) ("glidepluralyge"  adj pp) ("glipe"  adj pp) ("glire"  adj pp) ("gnike"  adj pp) ("gnike"  adj pp) ("gnikse"  adj pp) ("gnisle"  adj pp) ("gny"  adj pp) ("godsnakke"  adj pp) ("gramse"  adj pp) ("grassere"  adj pp) ("grisne"  adj pp) ("grøde"  adj pp) ("grøde"  adj pp) ("grønke"  adj pp) ("gulke"  adj pp) ("guste"  adj pp) ("gyse"  adj pp) ("halvsove"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("harme"  adj pp) ("harske"  adj pp) ("helse"  adj pp) ("helse"  adj pp) ("henhøre"  adj pp) ("henstå"  adj pp) ("heppe"  adj pp) ("herdne"  adj pp) ("hikstegråte"  adj pp) ("hildre"  adj pp) ("hire"  adj pp) ("hofferde"  adj pp) ("horse"  adj pp) ("hufse"  adj pp) ("hugsvale"  adj pp) ("husholdere"  adj pp) ("husholderere"  adj pp) ("høkre"  adj pp) ("høljeregne"  adj pp) ("idke"  adj pp) ("illskrike"  adj pp) ("ilske"  adj pp) ("ilskne"  adj pp) ("interferere"  adj pp) ("intervenere"  adj pp) ("jalme"  adj pp) ("jibbe"  adj pp) ("jorte"  adj pp) ("junke"  adj pp) ("jøye"  adj pp) ("kadreie"  adj pp) ("kaldpluralire"  adj pp) ("kalligrafere"  adj pp) ("kampere"  adj pp) ("kavere"  adj pp) ("kikne"  adj pp) ("kikre"  adj pp) ("kimse"  adj pp) ("kjangse"  adj pp) ("kjase"  adj pp) ("kjave"  adj pp) ("kjee"  adj pp) ("kjese"  adj pp) ("kjeske"  adj pp) ("kjæte"  adj pp) ("kleie"  adj pp) ("kleime"  adj pp) ("kloroformere"  adj pp) ("klukkle"  adj pp) ("klunke"  adj pp) ("klå"  adj pp) ("kløne"  adj pp) ("kløtsje"  adj pp) ("kløtsje"  adj pp) ("kløvne"  adj pp) ("knarke"  adj pp) ("knatre"  adj pp) ("knege"  adj pp) ("knepre"  adj pp) ("knæste"  adj pp) ("knette"  adj pp) ("knisle"  adj pp) ("knockoute"  adj pp) ("knurke"  adj pp) ("knurpe"  adj pp) ("knuspe"  adj pp) ("knuspre"  adj pp) ("knustre"  adj pp) ("kny"  adj pp) ("kokkelere"  adj pp) ("kokkerere"  adj pp) ("kokre"  adj pp) ("konnotere"  adj pp) ("kontribuere"  adj pp) ("kope"  adj pp) ("kovne"  adj pp) ("kramse"  adj pp) ("krasle"  adj pp) ("kraume"  adj pp) ("krille"  adj pp) ("kringgå"  adj pp) ("krinse"  adj pp) ("krisle"  adj pp) ("krisle"  adj pp) ("kritle"  adj pp) ("kritle"  adj pp) ("kro"  adj pp) ("kruke"  adj pp) ("krøkne"  adj pp) ("krøsse"  adj pp) ("kukelure"  adj pp) ("kull-lyse" adj pp) ("kullyse"  adj pp) ("kulske"  adj pp) ("kurre"  adj pp) ("kursere"  adj pp) ("kvakke"  adj pp) ("kvamne"  adj pp) ("kverulere"  adj pp) ("kvine"  adj pp) ("kvine"  adj pp) ("la"  adj pp) ("la"  adj pp) ("lauslate"  adj pp) ("lauslate"  adj pp) ("layoute"  adj pp) ("lekre"  adj pp) ("lepe"  adj pp) ("less"  adj pp) ("less"  adj pp) ("lest"  adj pp) ("lest"  adj pp) ("li"  adj pp) ("li"  adj pp) ("li"  adj pp) ("linde"  adj pp) ("loge"  adj pp) ("loge"  adj pp) ("loope"  adj pp) ("luffe"  adj pp) ("lunsje"  adj pp) ("lægre"  adj pp) ("mankere"  adj pp) ("marme"  adj pp) ("merle"  adj pp) ("midle"  adj pp) ("misfare"  adj pp) ("missnakke"  adj pp) ("mjaue"  adj pp) ("mjukne"  adj pp) ("mjukne"  adj pp) ("mompe"  adj pp) ("moralisere"  adj pp) ("muge"  adj pp) ("mumse"  adj pp) ("mussere"  adj pp) ("naue"  adj pp) ("nedstamme"  adj pp) ("nevehelse"  adj pp) ("nevehilse"  adj pp) ("nufse"  adj pp) ("nuske"  adj pp) ("nusle"  adj pp) ("nyse"  adj pp) ("nøffe"  adj pp) ("neutere"  adj pp) ("obstruere"  adj pp) ("oie"  adj pp) ("olme"  adj pp) ("omrømme"  adj pp) ("opebie"  adj pp) ("opstamme"  adj pp) ("optere"  adj pp) ("orme"  adj pp) ("oscillere"  adj pp) ("ovre"  adj pp) ("paffe"  adj pp) ("pale"  adj pp) ("panegyrere"  adj pp) ("parlamsingularere"  adj pp) ("parlere"  adj pp) ("passiare"  adj pp) ("pausere"  adj pp) ("perennere"  adj pp) ("permutere"  adj pp) ("pinke"  adj pp) ("pinke"  adj pp) ("pippe"  adj pp) ("piruettere"  adj pp) ("piste"  adj pp) ("pjalle"  adj pp) ("pjoltre"  adj pp) ("plaffe"  adj pp) ("pløse"  adj pp) ("pokre"  adj pp) ("pokulere"  adj pp) ("prale"  adj pp) ("prasle"  adj pp) ("presidere"  adj pp) ("prille"  adj pp) ("proe"  adj pp) ("proe"  adj pp) ("prompe"  adj pp) ("protte"  adj pp) ("protte"  adj pp) ("proviantere"  adj pp) ("prunke"  adj pp) ("pruppe"  adj pp) ("prøvebore"  adj pp) ("ptroe"  adj pp) ("ptroe"  adj pp) ("ptrotte"  adj pp) ("ptrotte"  adj pp) ("puge"  adj pp) ("puldre"  adj pp) ("pulsere"  adj pp) ("purle"  adj pp) ("påligge"  adj pp) ("radiere"  adj pp) ("rafse"  adj pp) ("ralle"  adj pp) ("ratle"  adj pp) ("rebellere"  adj pp) ("reike"  adj pp) ("remse"  adj pp) ("renonsere"  adj pp) ("residere"  adj pp) ("respirere"  adj pp) ("restere"  adj pp) ("revoltere"  adj pp) ("rikle"  adj pp) ("rikte"  adj pp) ("rine"  adj pp) ("rivalisere"  adj pp) ("rulte"  adj pp) ("ryte"  adj pp) ("rådlegge"  adj pp) ("røplurale"  adj pp) ("røkte"  adj pp) ("røle"  adj pp) ("røyte"  adj pp) ("saluttere"  adj pp) ("sameksidstere"  adj pp) ("sangre"  adj pp) ("sesongdebutere"  adj pp) ("sexdebutere"  adj pp) ("shake"  adj pp) ("sikksakke"  adj pp) ("silregne"  adj pp) ("silrenne"  adj pp) ("siregne"  adj pp) ("sjabbe"  adj pp) ("sjakre"  adj pp) ("sjevre"  adj pp) ("sjoplurale"  adj pp) ("sjoge"  adj pp) ("sjogse"  adj pp) ("sjonglere"  adj pp) ("sjukne"  adj pp) ("sjukne"  adj pp) ("skalte"  adj pp) ("skeine"  adj pp) ("skeise"  adj pp) ("skillinge"  adj pp) ("skimre"  adj pp) ("skjelle"  adj pp) ("skjelle"  adj pp) ("skoggerle"  adj pp) ("skogre"  adj pp) ("skose"  adj pp) ("skrappe"  adj pp) ("skrasle"  adj pp) ("skratle"  adj pp) ("skrattle"  adj pp) ("skrense"  adj pp) ("skreppe"  adj pp) ("skrø"  adj pp) ("skrøne"  adj pp) ("skumle"  adj pp) ("skutle"  adj pp) ("skutle"  adj pp) ("skvadronere"  adj pp) ("skvale"  adj pp) ("skvatre"  adj pp) ("skøye"  adj pp) ("slapne"  adj pp) ("slaure"  adj pp) ("slave"  adj pp) ("sleske"  adj pp) ("sletne"  adj pp) ("sleve"  adj pp) ("slitne"  adj pp) ("slindefinitebe"  adj pp) ("slufse"  adj pp) ("slure"  adj pp) ("slute"  adj pp) ("sløvne"  adj pp) ("smatre"  adj pp) ("smeike"  adj pp) ("smekte"  adj pp) ("snadre"  adj pp) ("snafse"  adj pp) ("snapse"  adj pp) ("snike"  adj pp) ("snike"  adj pp) ("snorksove"  adj pp) ("snøgge"  adj pp) ("sose"  adj pp) ("spase"  adj pp) ("spekse"  adj pp) ("sprengkjøre"  adj pp) ("sprutregne"  adj pp) ("stane"  adj pp) ("stanke"  adj pp) ("stanke"  adj pp) ("stoltsere"  adj pp) ("storle"  adj pp) ("storskrike"  adj pp) ("streite"  adj pp) ("strende"  adj pp) ("strende"  adj pp) ("stri"  adj pp) ("stri"  adj pp) ("stridgråte"  adj pp) ("stridgråte"  adj pp) ("strigråte"  adj pp) ("strigråte"  adj pp) ("sturte"  adj pp) ("stutne"  adj pp) ("stylte"  adj pp) ("styltre"  adj pp) ("styrtblø"  adj pp) ("sukle"  adj pp) ("suksedere"  adj pp) ("sulle"  adj pp) ("sulle"  adj pp) ("supe"  adj pp) ("surle"  adj pp) ("surmule"  adj pp) ("susle"  adj pp) ("sutenere"  adj pp) ("svage"  adj pp) ("svalne"  adj pp) ("svanse"  adj pp) ("svelte"  adj pp) ("svire"  adj pp) ("svive"  adj pp) ("svæve"  adj pp) ("synfare"  adj pp) ("tagne"  adj pp) ("takse"  adj pp) ("taktere"  adj pp) ("tamse"  adj pp) ("tevle"  adj pp) ("tilligge"  adj pp) ("tiltru"  adj pp) ("tinkle"  adj pp) ("tiple"  adj pp) ("tisle"  adj pp) ("tjatre"  adj pp) ("tjatte"  adj pp) ("tjone"  adj pp) ("tjukne"  adj pp) ("tjukne"  adj pp) ("tjåke"  adj pp) ("trabelere"  adj pp) ("transfigurere"  adj pp) ("transpirere"  adj pp) ("trasse"  adj pp) ("tretne"  adj pp) ("tretne"  adj pp) ("trinse"  adj pp) ("trivle"  adj pp) ("tryte"  adj pp) ("tråve"  adj pp) ("trøtne"  adj pp) ("trøtne"  adj pp) ("twiste"  adj pp) ("ty"  adj pp) ("tystne"  adj pp) ("tyvtitte"  adj pp) ("tyvtitte"  adj pp) ("tøplurale"  adj pp) ("ulke"  adj pp) ("umake"  adj pp) ("understå"  adj pp) ("unnbe"  adj pp) ("unnpluraly"  adj pp) ("unngjelde"  adj pp) ("unnvike"  adj pp) ("uteske"  adj pp) ("utlyde"  adj pp) ("utspeide"  adj pp) ("vabbe"  adj pp) ("vagabondere"  adj pp) ("valandere"  adj pp) ("vandle"  adj pp) ("vavre"  adj pp) ("vedkomme"  adj pp) ("vege"  adj pp) ("vege"  adj pp) ("versne"  adj pp) ("voffe"  adj pp) ("vrinske"  adj pp) ("våle"  adj pp) ("vånde"  adj pp) ("våre"  adj pp) ("yle"  adj pp) ("ynge"  adj pp) ("åe"  adj pp) ("ågre"  adj pp) ("åke"  adj pp) ("åvirke"  adj pp) ("øksle"  adj pp) ("økte"  adj pp) ("ømme"  adj pp) ("øsregne"  adj pp) ("forgripe"  adj pp) ("hisse"  adj pp) ("funke"  adj pp) ("forskåne"  adj pp) ("gjenindføre"  adj pp) ("hauste"  adj pp) ("aktorere"  adj pp) ("beinpluraly"  adj pp) ("beligge"  adj pp) ("bråsnu"  adj pp) ("dvaske"  adj pp) ("ire"  adj pp) ("kjeppe"  adj pp) ("knuppe"  adj pp) ("lurke"  adj pp) ("trasle"  adj pp) ("ukependle"  adj pp) ("afreise"  adj pp) ("berope"  adj pp) ("berøve"  adj pp) ("bisne"  adj pp) ("bivre"  adj pp) ("bondske"  adj pp) ("bøle"  adj pp) ("dagne"  adj pp) ("dagpendle"  adj pp) ("dalle"  adj pp) ("dorske"  adj pp) ("drulte"  adj pp) ("drunte"  adj pp) ("dunse"  adj pp) ("eitre"  adj pp) ("fikte"  adj pp) ("fistle"  adj pp) ("fjonge"  adj pp) ("pluraloe"  adj pp) ("pluraloe"  adj pp) ("pluralu"  adj pp) ("forråtne"  adj pp) ("forsmekte"  adj pp) ("fye"  adj pp) ("fælne"  adj pp) ("geine"  adj pp) ("gine"  adj pp) ("glisne"  adj pp) ("gløse"  adj pp) ("gnaske"  adj pp) ("gnavle"  adj pp) ("grimasere"  adj pp) ("grisekjøre"  adj pp) ("grunke"  adj pp) ("guffe"  adj pp) ("gustne"  adj pp) ("gysje"  adj pp) ("gøye"  adj pp) ("haie"  adj pp) ("harangere"  adj pp) ("henregne"  adj pp) ("hikstele"  adj pp) ("historisere"  adj pp) ("hutle"  adj pp) ("håndhelse"  adj pp) ("hønse"  adj pp) ("igle"  adj pp) ("indføle"  adj pp) ("indsnike"  adj pp) ("julle"  adj pp) ("kappsvømme"  adj pp) ("karske"  adj pp) ("kille"  adj pp) ("kjake"  adj pp) ("kjaste"  adj pp) ("kjastre"  adj pp) ("klope"  adj pp) ("knarre"  adj pp) ("konformere"  adj pp) ("koseprate"  adj pp) ("krye"  adj pp) ("kryssreagere"  adj pp) ("kulsne"  adj pp) ("kvalme"  adj pp) ("leste"  adj pp) ("lumske"  adj pp) ("makramere"  adj pp) ("mannekenge"  adj pp) ("miserere"  adj pp) ("munke"  adj pp) ("muse"  adj pp) ("nibe"  adj pp) ("nikse"  adj pp) ("niskrike"  adj pp) ("nitridere"  adj pp) ("overensstemme"  adj pp) ("overstrømme"  adj pp) ("petisjonere"  adj pp) ("platedebutere"  adj pp) ("plsingulare"  adj pp) ("prøvepluralyge"  adj pp) ("prøvesitte"  adj pp) ("pudle"  adj pp) ("radde"  adj pp) ("rekylere"  adj pp) ("romandebutere"  adj pp) ("ruffe"  adj pp) ("runse"  adj pp) ("sensibilisere"  adj pp) ("sigge"  adj pp) ("skjekte"  adj pp) ("skokke"  adj pp) ("skrale"  adj pp) ("skute"  adj pp) ("sleide"  adj pp) ("sleipe"  adj pp) ("sleipne"  adj pp) ("slunke"  adj pp) ("slunkne"  adj pp) ("slunte"  adj pp) ("smukke"  adj pp) ("småkoke"  adj pp) ("småputre"  adj pp) ("småspringe"  adj pp) ("småtøffe"  adj pp) ("snabbe"  adj pp) ("snikksnakke"  adj pp) ("snorkle"  adj pp) ("snurte"  adj pp) ("spøle"  adj pp) ("stinte"  adj pp) ("stormpluralørte"  adj pp) ("strile"  adj pp) ("sulfatere"  adj pp) ("sulfidere"  adj pp) ("sulre"  adj pp) ("sva"  adj pp) ("svasse"  adj pp) ("svipe"  adj pp) ("tandre"  adj pp) ("tantre"  adj pp) ("tilgå"  adj pp) ("tjoe"  adj pp) ("usse"  adj pp) ("viltre"  adj pp) ("vipse"  adj pp) ("vitre"  adj pp) ("beskyte"  adj pp) ("afmarsjere"  adj pp) ("blaffe"  adj pp) ("divergere"  adj pp) ("pluralippe"  adj pp) ("folle"  adj pp) ("fosskoke"  adj pp) ("frøse"  adj pp) ("gymnastisere"  adj pp) ("halle"  adj pp) ("hikke"  adj pp) ("hovere"  adj pp) ("hungre"  adj pp) ("hustre"  adj pp) ("hute"  adj pp) ("jodle"  adj pp) ("kaue"  adj pp) ("kjappe"  adj pp) ("kneise"  adj pp) ("krasse"  adj pp) ("kåsere"  adj pp) ("maure"  adj pp) ("otre"  adj pp) ("parasittere"  adj pp) ("ploge"  adj pp) ("rumle"  adj pp) ("rutte"  adj pp) ("råkjøre"  adj pp) ("rødne"  adj pp) ("sisle"  adj pp) ("snylte"  adj pp) ("snåve"  adj pp) ("snøse"  adj pp) ("stage"  adj pp) ("sveipe"  adj pp) ("svimle"  adj pp) ("svimre"  adj pp) ("teve"  adj pp) ("etterleve"  adj pp) ("kurere"  adj pp) ("forveksle"  adj pp) ("konsultere"  adj pp) ("prope"  adj pp) ("tilta"  adj pp) ("albue"  adj pp) ("begi"  adj pp) ("frafalle"  adj pp) ("fyllekjøre"  adj pp) ("gapskratte"  adj pp) ("gjøgle"  adj pp) ("halse"  adj pp) ("ironisere"  adj pp) ("jumpe"  adj pp) ("klapse"  adj pp) ("klimpre"  adj pp) ("knikse"  adj pp) ("kondolere"  adj pp) ("kopulere"  adj pp) ("meie"  adj pp) ("mugne"  adj pp) ("plire"  adj pp) ("raljere"  adj pp) ("revurdere"  adj pp) ("snegle"  adj pp) ("spankulere"  adj pp) ("sympatisere"  adj pp) ("syte"  adj pp) ("tindre"  adj pp) ("trege"  adj pp) ("vibrere"  adj pp) ("vralte"  adj pp) ("vrimle"  adj pp) ("depluralatere"  adj pp)	-16 ("agitere"  adj pp) ("blånekte"  adj pp) ("drodle"  adj pp) ("pluralorere"  adj pp) ("pluralø"  adj pp) ("hsingularyde"  adj pp) ("kakke"  adj pp) ("knake"  adj pp) ("larme"  adj pp) ("musisere"  adj pp) ("skarre"  adj pp) ("skvulpe"  adj pp) ("sprade"  adj pp) ("styrtregne"  adj pp) ("sutte"  adj pp) ("syde"  adj pp) ("tykne"  adj pp) ("tykne"  adj pp) ("vone"  adj pp) ("deportere"  adj pp) ("dunste"  adj pp) ("fnyse"  adj pp) ("fyke"  adj pp) ("geire"  adj pp) ("krakse"  adj pp) ("skratte"  adj pp) ("skvalpe"  adj pp) ("slsingularre"  adj pp) ("smette"  adj pp) ("småpludre"  adj pp) ("sprinte"  adj pp) ("sprudle"  adj pp) ("tørste"  adj pp) ("unnsleppe"  adj pp) ("abonnere"  adj pp) ("gjennomstrømme"  adj pp) ("jafse"  adj pp) ("klapre"  adj pp) ("krafse"  adj pp) ("monne"  adj pp) ("rasle"  adj pp) ("slumpe"  adj pp) ("tiske"  adj pp) ("urinere"  adj pp) ("adlyde"  adj pp) ("fenge"  adj pp) ("filosofere"  adj pp) ("henfalle"  adj pp) ("hygge"  adj pp) ("indkvartere"  adj pp) ("pendle"  adj pp) ("sige"  adj pp) ("ødsle"  adj pp) ("fable"  adj pp) ("gremme"  adj pp) ("harselere"  adj pp) ("håndhilse"  adj pp) ("håndhilse"  adj pp) ("håndhilse"  adj pp) ("sprelle"  adj pp) ("stavre"  adj pp) ("surfe"  adj pp) ("sømme"  adj pp) ("årsake"  adj pp) ("bestrebe"  adj pp) ("dabbe"  adj pp) ("forbarme"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indlate"  adj pp) ("kapitulere"  adj pp) ("klipe"  adj pp) ("skusle"  adj pp) ("skusle"  adj pp) ("tilkjennegi"  adj pp) ("trå"  adj pp) ("trå"  adj pp) ("votere"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("huke"  adj pp) ("indfinde"  adj pp) ("pipe"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("esle"  adj pp) ("esle"  adj pp) ("forske"  adj pp) ("forutsi"  adj pp) ("kategorisere"  adj pp) ("konkurrere"  adj pp) ("krype"  adj pp) ("sakke"  adj pp) ("skjøtte"  adj pp) ("affeie"  adj pp) ("bestikke"  adj pp) ("dysse"  adj pp) ("frasi"  adj pp) ("imøtekomme"  adj pp) ("kverke"  adj pp) ("streke"  adj pp) ("daue"  adj pp) ("bekjsingulargøre"  adj pp) ("frase"  adj pp) ("kreditere"  adj pp) ("afhjelpe"  adj pp) ("afstedkomme"  adj pp) ("fraskrive"  adj pp) ("håne"  adj pp) ("tilsi"  adj pp) ("ul"  adj);
-LIST ikke-sans-verb = "bande"  "finere"  "grade"  "grase"  "kante"  "katte"  "knatte"  "kindefinitebe"  "lave"  "sope"  ("forvenne"  pres) ("forvenne"  pret) ("penne"  pres) ("sake"  vblex) ;
-LIST ikke-sans-noun = "brutto"  "gal"  "gro"  "frisk"  "ekte"   "falle"  "gam"  "gifte"  "jo"  "koke"  "kot"  "lunt"  "sildre"  "svekk"  ("nynn"  sg def) ("silder"  sg def);
-LIST ikke-sans-noun-singular-indefinite = "begynner"  ("bratte"  n ind sg) ("brekke"  n ind sg) "bygger"  ("daler"  n ind sg) "deler"  "dreier"  "driver"  ("dukk"  sg ind) "dukker"  "finder"  "pluralikker"  "fordeler"  "gange"  "gasser"  "gjelder"  "griper"  ("gule"  n sg ind) "handler"  "heller"  "hører"  "kjemper"  "koker"  "kjenner"  "klager"  "knapper"  "krenker"  "krysser"  "lage"  "leker"  "ligger"  "lurer"  ("lo"  n sg ind) ("lunt"  n sg ind) ("lyse"  n sg ind) "løfter"  "mager"  "merker"  "midler"  ("navne"  sg ind) "nevner"  "nyter"  "pakker"  "plager"  "regner"  "retter"  "setter"  "skyter"  "snakker"  ("snurt"  sg ind)"springer"  "setter"  "stammer"  "stemmer"  "stiller"  "suser"  "tanker"  "tekster"  "trapper"  "tyder"  "veier"  ("vinde"  n sg ind) ("koper"  n) ("kjemper"  n) ("kvalm"  n) ;
-LIST ikke-sans-noun-singular-definite = ("fakte"  sg def) ("våk"  sg def) ;
-LIST ikke-sans-noun-plural-indefinite =  ("dekke"  pl ind)  ("drei"  pl ind) ("drive"  pl ind) ("fyk"  pl ind) ("lyse"  pl ind) ("sambo"  pl ind) ("sikt"  pl ind) ("sikte"  pl ind)("spis"  pl ind) ("spise"  pl ind) ("vinde"  pl ind) ;
-LIST ikke-noun = "siden"  "$-" "-" "$," "," vblex pr prn cnjsub cnjcoo "å" det ij adj adv ;
+LIST ikke-adv-verb = "siden"  "$," "," pr prn cnjsub cnjcoo "at" ij n np det <ellipsis> (adj m) (adj f) (adj pl) (adj mf) (adj comp) (adj sup) (adj pprs) (adj def) ;
+LIST ikke-det = "siden"  vblex pr prn cnjsub cnjcoo "at" n np ij adj adv ;
+LIST ikke-det-preposition = "siden"  vblex pr prn cnjsub cnjcoo "at" n np ij adj adv ;
+LIST ikke-mod = inf @lexicalverb @subj @obj @i-obj @s-pred @o-pred @app @<p-utfyll @løs-np @<sbu @<sbu-rel @s-gr @adv ;
+LIST ikke-poss-det = "siden"  "$," "," adj adv vblex pr prn cnjsub cnjcoo "at" ij n np <ellipsis> (det def) (det dem) (det emph) (det qnt) (det itg) ;
+LIST ikke-preposition = cnjsub adv adj vblex prn "at" n np ij det (clb cnjcoo) <anf> <ellipsis> ;
+LIST ikke-preposition-sbu = adv adj vblex prn "at" n np ij det (clb cnjcoo) <anf> <ellipsis> ;
+
+LIST ikke-sans-adj = e-sans-adj = ("regne"  adj pp) ("grebet"  adj) ("sætte"  adj pp) ("pågå"  adj pp) ("løje" adj pp) ("overholde"  adj pp) ("befinde"  adj pp) ("spekulere"  adj pp) ("forbryde"  adj pp) ("bistå"  adj pp) ("rådføre"  adj pp) ("foreligge"  adj pp) ("fornemme"  adj pp) ("driste"  adj pp) ("forholde"  adj pp) ("håndtere"  adj pp) ("håndtere"  adj pp) ("affinde"  adj pp)  ("overstige"  adj pp) ("kvie"  adj pp) ("rotte"  adj pp) ("feriere"  adj pp) ("luske"  adj pp) ("forestå"  adj pp) ("forregne"  adj pp) ("stride"  adj pp) ("sysle"  adj pp) ("tilflyde"  adj pp) ("forelæse"  adj pp)  ("hige"  adj pp) ("punge"  adj pp) ("vædde"  adj pp) ("blafre"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("klarne"  adj pp) ("letne"  adj pp) ("oversidde"  adj pp) ("påminde"  adj pp) ("dvæle"  adj pp) ("forsove"  adj pp) ("ordlægge"  adj pp) ("prakke"  adj pp) ("smyge"  adj pp) ("tillyse"  adj pp) ("bemægtige"  adj pp) ("gamble"  adj pp) ("gjalde"  adj pp) ("hinke"  adj pp) ("livne"  adj pp) ("modstå"  adj pp) ("skorte"  adj pp) ("tø"  adj pp) ("ynke"  adj pp) ("angå"  adj pp) ("danke"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("gumle"  adj pp) ("herse"  adj pp)  ("huje"  adj pp) ("myldre"  adj pp) ("nedkomme"  adj pp) ("paradere"  adj pp) ("sparre"  adj pp) ("afvige"  adj pp)  ("befatte"  adj pp) ("bejle"  adj pp) ("campe"  adj pp) ("duellere"  adj pp) ("dulle"  adj pp) ("duve"  adj pp) ("flotte"  adj pp) ("frø"  adj pp) ("hånle"  adj pp) ("indebære"  adj pp) ("mukke"  adj pp) ("nage"  adj pp) ("posere"  adj pp) ("prelle"  adj pp) ("pønse"  adj pp) ("rippe"  adj pp) ("risle"  adj pp) ("slingre"  adj pp) ("sondre"  adj pp) ("teoretisere"  adj pp) ("tilsnige"  adj pp) ("tvære"  adj pp) ("undergå"  adj pp) ("afhænge"  adj pp) ("bekvemme"  adj pp) ("betle"  adj pp) ("bævre"  adj pp) ("blegne"  adj pp) ("blunde"  adj pp) ("daffe"  adj pp) ("defilere"  adj pp) ("husere"  adj pp) ("hysse"  adj pp) ("hysse"  adj pp) ("hånle"  adj pp) ("indestå"  adj pp) ("isne"  adj pp) ("jamme"  adj pp) ("jamme"  adj pp) ("konvergere"  adj pp) ("krible"  adj pp) ("lefle"  adj pp) ("propagandere"  adj pp) ("rutsje"  adj pp) ("samtykke"  adj pp) ("skingre"  adj pp) ("skråne"  adj pp)  ("smaske"  adj pp) ("småløbe"  adj pp) ("solidarisere"  adj pp) ("spjætte"  adj pp) ("sygne"  adj pp) ("tendere"  adj pp) ("tysse"  adj pp) ("vedstå"  adj pp) ("økonomisere"  adj pp) ("akkordere"  adj pp) ("albue"  adj pp) ("alternere"  adj pp) ("ambulere"  adj pp) ("anmasse"  adj pp) ("anstå"  adj pp) ("ansøge"  adj pp) ("bede"  adj pp) ("bede"  adj pp) ("bekomme"  adj pp) ("besidde"  adj pp) ("bæve"  adj pp) ("bivuakere"  adj pp) ("blitze"  adj pp) ("blive"  adj pp) ("blive"  adj pp) ("burde"  adj pp)  ("bølge"  adj pp) ("changere"  adj pp) ("chevrotere"  adj pp) ("choke"  adj pp) ("clinche"  adj pp) ("dy"  adj pp) ("eksellere"  adj pp) ("favne"  adj pp)  ("fastne"  adj pp) ("fise"  adj pp)  ("flekse"  adj pp) ("fluktuere"  adj pp) ("fluorescere"  adj pp) ("fluoridere"  adj pp) ("flyve"  adj pp) ("forhåndsstemme"  adj pp) ("forhåndsstemme"  adj pp) ("forivre"  adj pp) ("forlyde"  adj pp) ("forlyste"  adj pp) ("formaste"  adj pp) ("formene"  adj pp) ("forpleje"  adj pp) ("forregne"  adj pp) ("forsynde"  adj pp) ("fortryde"  adj pp) ("øsregne"  adj pp) ("fråde"  adj pp)  ("gebærde"  adj pp) ("genlyde"  adj pp)  ("gyse"  adj pp) ("halvsove"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("harme"  adj pp) ("harske"  adj pp) ("henhøre"  adj pp) ("henstå"  adj pp) ("heppe"  adj pp) ("hærdne"  adj pp) ("interferere"  adj pp) ("intervenere"  adj pp) ("kalligrafere"  adj pp) ("klukle"  adj pp)  ("knockoute"  adj pp)  ("kokkerere"  adj pp) ("kokre"  adj pp) ("konnotere"  adj pp) ("kværulere"  adj pp) ("kvine"  adj pp) ("kvine"  adj pp) ("lade"  adj pp) ("layoute"  adj pp) ("læst"  adj pp) ("moralisere"  adj pp) ("nedstamme"  adj pp) ("obstruere"  adj pp)  ("orme"  adj pp) ("oscillere"  adj pp) ("permutere"  adj pp) ("prale"  adj pp)  ("præsidere"  adj pp) ("proviantere"  adj pp)  ("påligge"  adj pp) ("radiere"  adj pp) ("ralle"  adj pp) ("rebellere"  adj pp) ("remse"  adj pp) ("renoncere"  adj pp) ("residere"  adj pp) ("respirere"  adj pp) ("restere"  adj pp) ("revoltere"  adj pp) ("rivalisere"  adj pp) ("salutere"  adj pp) ("sameksistere"  adj pp) ("sexdebutere"  adj pp) ("shake"  adj pp) ("zigzagge"  adj pp) ("sjofle"  adj pp)  ("jonglere"  adj pp) ("sygne"  adj pp)  ("skillinge"  adj pp) ("skoggerle"  adj pp) ("skumle"  adj pp) ("snorksove"  adj pp) ("storle"  adj pp) ("storskrige"  adj pp) ("succedere"  adj pp) ("surmule"  adj pp)  ("sutenere"  adj pp) ("svalne"  adj pp) ("svanse"  adj pp) ("svire"  adj pp) ("svæve"  adj pp)("tilligge"  adj pp) ("tiltro"  adj pp) ("tykne"  adj pp) ("tjukne"  adj pp) ("transfigurere"  adj pp) ("transpirere"  adj pp) ("twiste"  adj pp) ("ty"  adj pp) ("tystne"  adj pp) ("understå"  adj pp) ("undgællde"  adj pp) ("undvige"  adj pp) ("vagabondere"  adj pp) ("vedkomme"  adj pp) ("vrinske"  adj pp) ("vånde"  adj pp)  ("forskåne"  adj pp) ("genindføre"  adj pp) ("beligge"  adj pp) ("beråbe"  adj pp) ("berøve"  adj pp) ("forrådne"  adj pp) ("grimassere"  adj pp)  ("konformere"  adj pp) ("overensstemme"  adj pp) ("overstrømme"  adj pp) ("petitionere"  adj pp) ("pladedebutere"  adj pp)("prøveflyve"  adj pp) ("småkoge"  adj pp) ("sulfatere"  adj pp) ("sulfidere"  adj pp) ("beskyde"  adj pp) ("afmarchere"  adj pp) ("blaffe"  adj pp) ("divergere"  adj pp) ("flippe"  adj pp) ("gymnasticere"  adj pp)("hikke"  adj pp) ("hovere"  adj pp) ("hungre"  adj pp)  ("rødne"  adj pp) ("snylte"  adj pp) ("snåve"  adj pp) ("snøse"  adj pp) ("stage"  adj pp) ("sveipe"  adj pp) ("svimle"  adj pp) ("efterleve"  adj pp) ("kurere"  adj pp) ("forveksle"  adj pp) ("konsultere"  adj pp) ("tiltage"  adj pp) ("albue"  adj pp) ("begive"  adj pp) ("frafalde"  adj pp) ("gøgle"  adj pp) ("halse"  adj pp) ("ironisere"  adj pp) ("jumpe"  adj pp) ("klimpre"  adj pp)  ("kondolere"  adj pp) ("kopulere"  adj pp) ("meje"  adj pp) ("mugne"  adj pp) ("plire"  adj pp)  ("revurdere"  adj pp) ("snegle"  adj pp) ("spankulere"  adj pp) ("sympatisere"  adj pp) ("syde"  adj pp) ("tindre"  adj pp) ("vibrere"  adj pp) ("vralte"  adj pp) ("vrimle"  adj pp) ("deflatere"  adj pp)  -16 ("agitere"  adj pp) ("florere"  adj pp) ("larme"  adj pp) ("musicere"  adj pp)("skvulpe"  adj pp) ("styrtregne"  adj pp) ("sutte"  adj pp) ("syde"  adj pp) ("tykne"  adj pp) ("tykne"  adj pp) ("deportere"  adj pp) ("dunste"  adj pp) ("fnyse"  adj pp) ("fyge"  adj pp) ("skratte"  adj pp) ("småpludre"  adj pp) ("sprinte"  adj pp) ("sprudle"  adj pp) ("tørste"  adj pp) ("undslippe"  adj pp) ("abonnere"  adj pp) ("gennemstrømme"  adj pp) ("klapre"  adj pp)("rasle"  adj pp) ("tiske"  adj pp) ("urinere"  adj pp) ("adlyde"  adj pp) ("fænge"  adj pp) ("filosofere"  adj pp) ("henfalde"  adj pp) ("hygge"  adj pp) ("indkvartere"  adj pp) ("pendle"  adj pp) ("sige"  adj pp) ("ødsle"  adj pp) ("fable"  adj pp) ("græmme"  adj pp) ("harcelere"  adj pp) ("håndhilse"  adj pp)  ("sprælle"  adj pp) ("stavre"  adj pp) ("surfe"  adj pp) ("sømme"  adj pp) ("bestræbe"  adj pp) ("forbarme"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indlade"  adj pp) ("kapitulere"  adj pp) ("tilkendegive"  adj pp) ("votere"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indfinde"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("forske"  adj pp) ("forudsige"  adj pp) ("kategorisere"  adj pp) ("konkurrere"  adj pp) ("krybe"  adj pp) ("sakke"  adj pp) ("affeje"  adj pp) ("bestikke"  adj pp) ("dysse"  adj pp) ("frasige"  adj pp) ("imødekomme"  adj pp) ("kværke"  adj pp) ("strege"  adj pp) ("bekendtgøre"  adj pp) ("frase"  adj pp) ("kreditere"  adj pp) ("afhjælpe"  adj pp) ("afstedkomme"  adj pp) ("fraskrive"  adj pp) ("håne"  adj pp) ("tilsige"  adj pp);
+LIST ikke-sans-verb = "bande"s;
+LIST ikke-sans-noun = "brutto";
+LIST ikke-sans-noun-singular-indefinite = "begynder" ("brække"  n ind sg) "bygger"  ("daler"  n ind sg) "deler"  drejer"  "driver"  ("duk"  sg ind) "dukker"  "finder"  "flikker"  "fordeler"  "gange"  "gasser"  "gælder"  "griber"  ("gule"  n sg ind) "handler"  "heller"  "hører"  "kæmper"  "koger"  "kender"  "klager"  "knapper"  "krænker"  "krydser"  "leger"  "ligger"  "lurer"  "løfter"  "mager"  "mærker"  "midler" "nævner"  "nyder"  "pakker"  "plager"  "regner"  "retter"  "sætter"  "skyder"  "snakker"  ("snurt"  sg ind) "springer"  "sætter"  "stammer"  "stemmer"  "stiller"  "suser"  "tanker"  "tekster"  "trapper"  "tyder"  "vejer"  ("vinde"  n sg ind) ("kæmper"  n) ("kvalme"  n) ;
+LIST ikke-sans-noun-plural-indefinite =  ("dkke"  pl ind)  ("drej"  pl ind) ("drive"  pl ind) ("fyg"  pl ind) ("lyse"  pl ind) ("sambo"  pl ind) ("sigt"  pl ind) ("sigte"  pl ind) ("spise"  pl ind)  ;
+LIST ikke-noun = "siden"  "$-" "-" "$," "," vblex pr prn cnjsub cnjcoo "at" det ij adj adv ;
 LIST ikke-noun-adj-det-adv = "siden"  "$-" "-" "$," "," prn (n gen) (np gen) vblex pr cnjsub cnjcoo "å" ij ;
-LIST ikke-noun-adj-det-pron = "siden"  "$-" "-" "$," "," adv vblex pr cnjsub cnjcoo "å" ij ;
+LIST ikke-noun-adj-det-pron = "siden"  "$-" "-" "$," "," adv vblex pr cnjsub cnjcoo "at" ij ;
 LIST ikke-noun-adj-det-pron-adv = "siden"  "$-" "-" "$," "," (n gen) (np gen) vblex pr cnjsub cnjcoo "å" ij ;
-LIST ikke-noun-pron = "siden"  "$-" "-" "$," "," vblex pr cnjsub cnjcoo "å" det ij adj adv ;
-LIST ikke-noun-verb = "siden"  "$-" "-" "$," "," pr prn cnjsub cnjcoo "å" det ij adj adv ;
+LIST ikke-noun-pron = "siden"  "$-" "-" "$," "," vblex pr cnjsub cnjcoo "at" det ij adj adv ;
+LIST ikke-noun-verb = "siden"  "$-" "-" "$," "," pr prn cnjsub cnjcoo "at" det ij adj adv ;
 LIST ikke-number = "somme"  "samtlige"  "noen"  "ingen"  "hver"  "enhver"  "begge"  "all"  ;
-LIST ikke-verb = "siden"  det pr prn cnjsub cnjcoo "å" n np ij adj adv ;
+LIST ikke-verb = "siden"  det pr prn cnjsub cnjcoo "at" n np ij adj adv ;
 LIST imp = imp ;
 LIST inf = inf ;
 LIST inf/perf-part = (vblex inf) (vblex pp) ;
@@ -357,15 +356,15 @@ LIST iv = (vblex inf) (vblex pp) ;
 LIST kolon = ("$:" clb) (":" clb) ;
 LIST comma = "$," "," ;
 LIST comma/konj = "$," "," cnjcoo ;
-LIST comma/konj/strek = "$," "," <strek> cnjcoo ;
+LIST comma/konj/hyphen = "$," "," <hyphen> cnjcoo ;
 LIST comma/end-of-sentence = "$," "," <<< ;
-LIST comma/strek = "$," "," <strek> ;
+LIST comma/hyphen = "$," "," <hyphen> ;
 LIST komp = comp ;
 LIST konj = cnjcoo ;
 LIST konj-<adv> = (cnjcoo <adv>) ;
-LIST copula = "være"  "virke"  "synes"  "hete"  "bli"  ("kalle"  pass) ;
-LIST copula-u-%hedde/kalde = "være"  "virke"  "synes"  "bli" ;
-LIST copula-lexicalverb = ("være"  pres) ("bli"  pres) ("hete"  pres) ("synes"  pres) ("virke"  pres) ("kalle"  pres pass) ("være"  pret) ("bli"  pret) ("hete"  pret) ("synes"  pret) ("virke"  pret) ("kalle"  pret pass) ;
+LIST copula = "være"  "virke"  "synes"  "hedde"  "blive"  ("kalde"  pass) ;
+LIST copula-u-%hedde/kalde = "være"  "virke"  "synes"  "blive" ;
+LIST copula-lexicalverb = ("være"  pres) ("blive"  pres) ("hedde"  pres) ("synes"  pres) ("virke"  pres) ("kalde"  pres pass) ("være"  pret) ("blive"  pret) ("hedde"  pret) ("synes"  pret) ("virke"  pret) ("kalde"  pret pass) ;
 LIST quantifier = qnt ;
 LIST quantifier-med-flere = "mange"  "halv"  "flere"  (det qnt) ("adskillig"  pl) ;
 LIST m-auxiliary-verb = ("få"  vblex) ("skulle"  vblex) ("kunne"  vblex) ("ville"  vblex) ("måtte"  vblex) ("burde"  vblex) ;
@@ -373,29 +372,27 @@ LIST m-auxiliary-verb-lexicalverb = ("få"  pres) ("skulle"  pres) ("kunne"  pre
 LIST m-auxiliary-verb-perfpart = ("skulle"  vblex pp) ("kunne"  vblex pp) ("ville"  vblex pp) ("måtte"  vblex pp) ("burde"  vblex pp) ("få"  vblex pp) ;
 LIST m-auxiliary-verb-pret = ("skulle"  pret) ("kunne"  pret) ("ville"  pret) ("måtte"  pret) ("burde"  pret) ("få"  pret) ;
 LIST mask = m mf (adj def) ;
-LIST mask-adj-det = (adj m) (adj mf) (adj def) (adj pprs) (det m) ;
-LIST mask-definite = (m def) ;
-LIST mask-det = (det m) ;
-LIST mask-singular = (m sg) (mf sg) (adj def) (m indeclinable) (np) ;
-LIST mask/fem = m f mf (adj def) (adj pprs) ;
-LIST mest-sans-adj-istf-noun = "visse"  "ville"  "venstre"  "velkommen"  "stille"  "snille"  "myke"  "mjuke"  "klare"  "høyre"  "høgre"  "pluralott"  ;
-LIST mest-sans-noun-istf-adj = "året"  "skyld"  "lo"  "hull"  "faren"  ("skygg"  def) ("folke"  adj pp) ("live"  adj pp) ("kute"  adj pp) ("leg"  adj pl) ("leg"  adj def) ;
-LIST mest-sans-verb-istf-noun = "temmer"  "tapper"  "suger"  "strever"  "strekker"  "stiller"  "stikker"  "slukker"  "koker"  "hogger"  "binder"  ;
-LIST målnoun = "tonnkilometer"  "snes"  "sjømil"  "sekundmeter"  "prossingular"  "nanometer"  "millimeter"  "milliliter"  "milligram"  "mil"  "mikrometer"  "meter"  "liter"  "kvartmil"  "kvartliter"  "kvadratmillimeter"  "kvadratmeter"  "kvadratkilometer"  "kvadratdesimeter"  "kvadratcsingularimeter"  "kindefiniteikkmillimeter"  "kindefiniteikkmeter"  "kindefiniteikkdesimeter"  "kindefiniteikkcsingularimeter"  "kilometer"  "kilogram"  "kilo"  "hektoliter"  "hektogram"  "halvmil"  "halvmeter"  "halvliter"  "halvkilo"  "gram"  "dusin"  "desimeter"  "desiliter"  "desigram"  "dekaliter"  "csingularimeter"  "csingulariliter"  "csingularigram"  ("gang"  pl) ;
+LIST ut-adj-det = (adj ut) (adj def) (adj pprs) (det ut) ;
+LIST ut-definite = (ut def) ;
+LIST ut-singular = (ut sg) (adj def) (ut indeclinable) (np) ;
+LIST uterum = ut (adj def) (adj pprs) ;
+LIST mest-sans-adj-istf-noun = "visse"  "ville"  "venstre"  "velkommen"  "stille"    "klare"  "højre"  "flot"  ;
+LIST mest-sans-noun-istf-adj = "året"  "skyld"  "lo"  "hul"  "faren" ("folke"  adj pp) ("live"  adj pp) ;
+LIST mest-sans-verb-istf-noun = "tapper"  "suger"  "stræber"  "streger"  "stiller"  "stikker"  "slukker"  "koger"  "hugger"  "binder"  ;
+LIST målnoun = '' "snes"  "sømil"  "sekundmeter"  "procent"  "nanometer"  "millimeter"  "milliliter"  "milligram"  "mil"  "mikrometer"  "meter"  "liter"  "kvartmil"  "kvartliter"  "kvadratmillimeter"  "kvadratmeter"  "kvadratkilometer"  "kvadratdesimeter"  "kvadratcentimeter"  "kubikmillimeter"  "kubikmeter"  "kubikdesimeter"  "kubikcentimeter"  "kilometer"  "kilogram"  "kilo"  "hektoliter"  "hektogram"  "halvmil"  "halvmeter"  "halvliter"  "halvkilo"  "gram"  "dusin"  "desimeter"  "deciliter"  "decigram"  "dekaliter"  "centimeter"  "centiliter"  "centigram"  ("gang"  pl) ;
 LIST nom = (n) (np) (adj) (prn) (det) ;
-LIST nom-singular = (n sg) (np sg) ("all"  sg) ("de"  nom <*>) ("han"  nom) ("jeg"  nom) ("hun"  nom) ("du"  nom) ("den"  prn) ("denne"  prn m) ("denne"  prn f) ("det"  prn) ("denne"  prn nt) ("man"  prn) ;
-LIST nom-fem-singular = (n f sg) (np f sg) ("all"  det f) ("jeg"  nom) ("hun"  nom) ("du"  nom) ("den"  prn) ("denne"  prn) ;
+LIST nom-singular = (n sg) (np sg) ("al"  sg) ("de"  nom <*>) ("han"  nom) ("jeg"  nom) ("hun"  nom) ("du"  nom) ("den"  prn) ("denne"  prn ut) ("det"  prn) ("denne"  prn nt) ("man"  prn) ;
+LIST nom-ut-singular = (n ut sg) (np ut sg) ("al"  det ut) ("jeg"  nom) ("du"  nom) ("den"  prn) ("denne"  prn) ;
 LIST nom-neuter-singular = (n nt sg) (np nt sg) ("all"  det nt) ("det"  prn) ("denne"  prn nt) ;
-LIST nom-plural = "vi"  "disse"  "dere"  "de"  (n pl) (np pl) ("all"  det pl) ;
+LIST nom-plural = "vi"  "disse"  "I"  "de"  (n pl) (np pl) ("al"  det pl) ;
 LIST nom-without-pron = n np adj det ;
-LIST nom/akk-pron = "jeg"  "han"  "du"  "dere"  ;
+LIST nom/akk-pron = "jeg"  "han"  "du"  ;
 LIST nom/at = ("at"  cnjsub) (n) (np) (adj) (prn) (det) ;
 LIST nominativ = nom ;
-LIST npu-verb = "trenge"  "orke"  "klare"  "gidde"  "behøve"  ;
-LIST nr2-det = "sånn"  "sådan"  "slik"  "samme"  "noe"  "næste"  "hver"  "halvanden"  "forrige"  "eneste"  "eigen"  "egen"  "anden"  (det qnt pl) ("ene"  det) ;
-LIST nr2-det-fem-definite = ("noe"  f) ("ene"  def) ("eneste"  def) ("samme"  def) ("forrige"  def) ("næste"  def) ("anden"  def) ("egen"  def) ("eigen"  def) ;
-LIST nr2-det-plural = (det qnt pl) ("eneste"  def) ("samme"  def) ("forrige"  def) ("næste"  def) ("anden"  pl) ("slik"  pl) ("sånn"  pl) ("sådan"  pl) ("egen"  pl) ("eigen"  pl) ;
-LIST nr2-det-mask-definite = ("noe"  m) ("ene"  def) ("eneste"  def) ("samme"  def) ("forrige"  def) ("næste"  def) ("anden"  def) ("egen"  def) ("eigen"  def) ;
+LIST npu-verb = "trænge"  "orke"  "klare"  "gide"  "behøve"  ;
+LIST nr2-det = sådan"  "samme"  "noget"  "næste"  "hver"  "halvanden"  "forrige"  "eneste"   "egen"  "anden"  (det qnt pl) ("ene"  det) ;
+LIST nr2-det-ut-definite = ("nogen"  ut) ("ene"  def) ("eneste"  def) ("samme"  def) ("forrige"  def) ("næste"  def) ("anden"  def) ("egen"  def) ;
+LIST nr2-det-plural = (det qnt pl) ("eneste"  def) ("samme"  def) ("forrige"  def) ("næste"  def) ("anden"  pl) ("sådan"  pl) ("egen"  pl) ;
 LIST nr2-det-neuter-definite = ("noget"  nt) ("ene"  def) ("eneste"  def) ("samme"  def) ("forrige"  def) ("næste"  def) ("anden"  def) ("egen"  nt def) ;
 LIST nr2-det-neuter-indefinite = ("noget"  nt) ("anden"  nt ind) ("eneste"  def) ("sådan"  nt) ("egen"  nt ind) ("halvanden"  nt) ("hver"  det nt) ;
 LIST nr2-det-u-plural = "sådan"  "samme"  "næste"  "hver"  "halvanden"  "forrige"  "eneste"  "egen"  "anden"  ("ene"  det) ;
@@ -422,8 +419,8 @@ LIST perf-part = (vblex pp) ;
 LIST perf-part/<perf-part> = (vblex pp) (adj pp) ;
 LIST perf-part/inf = (vblex pp) (vblex inf) ;
 LIST periode-begin = >>> ;
-LIST periode-begin/clb/strek = >>> clb <strek> ;
-LIST periode-begin/comma/konj/strek = >>> cm cnjcoo <strek> ;
+LIST periode-begin/clb/hyphen = >>> clb <hyphen> ;
+LIST periode-begin/comma/konj/hyphen = >>> cm cnjcoo <hyphen> ;
 LIST periode-begin/konj-clb = >>> (clb cnjcoo) ;
 LIST periode-begin/sbu = >>> cnjsub ;
 LIST periode-end = <<< ;
@@ -444,14 +441,14 @@ LIST preposition/comma = pr ("$," cm) ("," cm) ;
 LIST pres = (vblex pres) ;
 LIST pres-part = (adj pprs) ;
 LIST pres/pret = (vblex pres) (vblex pret) ;
-LIST pres/pret/adverb = adv <adv> (vblex pres) (vblex pret) (adj nt ind) ("noen"  det nt) ;
-LIST present-indefinite = "et"  "en"  "ei"  (n ind) (np ind) ;
-LIST present-verb = "være"  "stå"  "ligge"  "komme"  "henge"  ;
+LIST pres/pret/adverb = adv <adv> (vblex pres) (vblex pret) (adj nt ind) ("noget"  det nt) ;
+LIST present-indefinite = "et"  "en" (n ind) (np ind) ;
+LIST present-verb = "være"  "stå"  "ligge"  "komme"  "hænge"  ;
 LIST pret = pret ;
 LIST pron = prn ;
 LIST pron-akk = "sig"  (prn p1 pl acc) (prn p2 pl acc) (prn p3 pl acc) ;
 LIST pron-akk-plural = ("vi"  acc) ("de"  acc) ("jer"  acc) ("disse"  prn) ;
-LIST pron-akk-mfn/plural = "seg"  ("de"  acc <*>) ("han"  acc) ("jeg"  acc) ("hun"  acc) ("du"  acc) ("den"  prn) ("denne"  prn) ("vi"  acc) ("de"  acc) ("dere"  acc) ("de"  acc) ("disse"  prn) ("det"  prn) ("denne"  prn nt) ;
+LIST pron-akk-utn/plural = "sig"  ("de"  acc <*>) ("han"  acc) ("jeg"  acc) ("hun"  acc) ("du"  acc) ("den"  prn) ("denne"  prn) ("vi"  acc) ("de"  acc) ("I"  acc) ("de"  acc) ("disse"  prn) ("det"  prn) ("denne"  prn nt) ;
 LIST pron-nom = (prn p1 nom) (prn p2 nom) (prn p3 nom) ;
 LIST pron-nom/%sig% = (prn p1 nom) (prn p2 nom) (prn p3 nom) ;
 LIST pron-neuter = ("det"  prn) ("denne"  prn nt) ;
@@ -464,10 +461,10 @@ LIST prop-det-singular = ("det" np) ("den" np) ;
 LIST prop-mask = (np m) ;
 LIST replural = rl1 rl2 rl3 rl4 rl5 rl6 rl7 rl8 rl9 rl10 rl11 rl12 rl13 rl14 rl15 rl16 rl17 rl18 rl19 rl20 ;
 LIST rel-pron = "som"  ;
-LIST replikk = "$?" "?" "$;" "$:" ":" "$--" "--" "$-" "-" "$\"" "\"" >>> <<< ;
-LIST replikk-snever = "$:" ":" "$--" "--" "$-" "-" "$\"" "\""  ;
+LIST quotedspeech = "$?" "?" "$;" "$:" ":" "$--" "--" "$-" "-" "$\"" "\"" >>> <<< ;
+LIST quotedspeech-narrow = "$:" ":" "$--" "--" "$-" "-" "$\"" "\""  ;
 LIST retning = "øst"  "vest"  "syd"  "nord" "sydøst"  "sydvest"  "nordøst"  "nordøst"  "nordvest"  ;
-LIST romernumber = <romernumber> ;
+LIST romannumeral = <romannumeral> ;
 LIST s#periode-begin/clb-konj = >>> (clb cnjcoo) ;
 LIST s-gr = "$;" ";" "$:" ":" "$..." "..." "$--" "--" "$-" "-" "$," "," "$\"" "\"" cnjcoo >>> <<< ;
 LIST s-gr/interj = "$;" ";" "$:" ":" "$..." "..." "$--" "--" "$-" "-" "$," "," "$\"" "\"" ij >>> <<< ;
@@ -481,11 +478,11 @@ LIST sbu/konj = cnjsub cnjcoo ;
 LIST selv = "selv"  ;
 LIST sentence-border = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST sentence-border-u-sbu = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
-LIST sentence-border-u-strek = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
+LIST sentence-border-u-hyphen = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST sentence-border/parenthesis-begin = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" lpar cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST sentence-border/verb = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" vblex cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST full-stop/ellipsis = ("." clb) ("$." clb) (".." clb) ("$.." clb) ("..." clb) ("$..." clb) ;
-LIST sentence-adverb = "øjensynlig" "og" "vistnok"  "ventelig"  "sædvanligvis"  "unægtelig"  "uheldigvis"  "tydeligvis"  "trolig"  "tilfældigvis"  "sågar"  "sluttelig"  "simpelthen"  "sandsynligvis"  "sandelig"  "sagtens"  "rimeligvis" "også"  "ofte"  "nødvendigvis"  "næsten"  "næppe"  "nemlig"  "naturligvis"  "muligvis"  "lykkeligvis"  "ligesom"  "klogelig"  "måske"  "jo"  "jamen"  "især"  "imidlertid"  "ikke"  "heldigvis"  "gudskjelov"  "gledeligvis"  "følgelig"  "fortrinsvis"  "forresten"  "fornuftigvis"  "formodentlig"  "formelig"  "forhåbentligvis"  "ellers"  "eksempelvis"  "dog"  "desværre"  "desuden"  "beklageligvis"  "bare"  "antagelig"  "antagelig"  "altså"  "altid"  "aldrig"  ("kan"  adv) ("hende"  adv) ("nok"  adv) ("nu"  adv) ("så"  adv) ("da"  adv) ;
+LIST sentence-adverb = "øjensynlig" "og" "vistnok"  "ventelig"  "sædvanligvis"  "unægtelig"  "uheldigvis"  "tydeligvis"  "trolig"  "tilfældigvis"  "sågar"  "sluttelig"  "simpelthen"  "sandsynligvis"  "sandelig"  "sagtens"  "rimeligvis" "også"  "ofte"  "nødvendigvis"  "næsten"  "næppe"  "nemlig"  "naturligvis"  "muligvis"  "lykkeligvis"  "ligesom"  "klogelig"  "måske"  "jo"  "jamen"  "især"  "imidlertid"  "ikke"  "heldigvis"  "gudskelov"  "glædeligvis"  "følgelig"  "fortrinsvis"  "forresten"  "fornuftigvis"  "formodentlig"  "forhåbentligvis"  "ellers"  "eksempelvis"  "dog"  "desværre"  "desuden"  "beklageligvis"  "bare"  "antagelig"  "antagelig"  "altså"  "altid"  "aldrig" ("hænde"  adv) ("nok"  adv) ("nu"  adv) ("så"  adv) ("da"  adv) ;
 LIST communication-verb = "tilføje"  "tænke"  "svare"  "sukke"  "spørge"  "skrive"  "sige"  "råbe"  "mumle"  "mene"  "hyle"  "hviske"  "fortsætte"  "fortælle"  "antage"  "advare"  ;
 LIST sikre-navn = "rune"  "helle"  "dag"  "bjørn"  "arne"  (np m) (np f) ;
 LIST som-sbu = ("som"  cnjsub) ;
@@ -494,15 +491,14 @@ LIST languages = "tysk"  "svensk"  "spansk"  "portugisisk"  "nynorsk"  "norsk"  
 LIST question-adverbs = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  ;
 LIST question-t = "$?" "?" ;
 LIST sted = top ;
-LIST strek = <strek> ;
-LIST strek/parenthesis = <strek> lpar rpar ;
-LIST strek/parenthesis-begin/anf = <strek> lpar <anf> ;
+LIST hyphen = <hyphen> ;
+LIST hyphen/parenthesis = <hyphen> lpar rpar ;
+LIST hyphen/parenthesis-begin/anf = <hyphen> lpar <anf> ;
 LIST noun = n np ;
 LIST noun-appell = (n) ; 				    # (n appell)
 LIST noun-appell-indefinite-singular = (n sg ind) ; 		    # (n appell sg ind)
 LIST noun-gen = (n gen) (np gen) ;
-LIST noun-mask = (n m) (np m) ;
-LIST noun-mask/fem = (n m) (np m) (n f) (np f) ;
+LIST noun-ut = (n ut) (np ut) ;
 LIST noun-neuter = (n nt) (np nt) ;
 LIST noun-neuter-singular = (n nt sg) (np nt sg) ;
 LIST noun-prop = (np) ;
@@ -516,13 +512,13 @@ LIST noun/adj/det-quantifier-%af% = n np adj ("af"  pr) (det qnt) ;
 LIST noun/adj/nr2-det = "sådan" samme"  "noe"  "næste"  "hver"  "halvanden"  "forrige"  "eneste" "egen"  "anden"  n np adj (det qnt pl) ("ene"  det) ;
 LIST noun/adj/pron/det = n np adj prn det ;
 LIST noun/adj/pron/det/konj = n np adj prn det cnjcoo ;
-LIST noun/pron/%al% = n np prn ("all"  det qnt) ;
-LIST noun/pron/%al%/%mang%/%mange% = n np prn ("all"  det qnt) ("mang"  det) ("mange"  det) ;
+LIST noun/pron/%al% = n np prn ("al"  det qnt) ;
+LIST noun/pron/%al%/%mang%/%mange% = n np prn ("al"  det qnt) ("mange"  det) ;
 LIST noun/pron/preposition = n np prn pr ;
 LIST sup = sup ;
 LIST number = "1" (det qnt pl) ("en"  det qnt) ("én" det qnt) "pi" ;
 LIST number-noun = "tusind"  "trillion"  "titusind"  "mrd." "million"  "milliard"  "mill." "kvadrillion"  "hundrede"  "halvmillion"  "billion"  "billiard" "pi" ;
-LIST punctuation = cm <ellipsis> <kolon> lpar rpar <semi> <strek> ;
+LIST punctuation = cm <ellipsis> <kolon> lpar rpar <semi> <hyphen> ;
 LIST tidsadv = "tidlig"  "sen" "nu"  "længe"  "igen"  "før"  "efter"  "da"  ("snar"  nt ind sg) ;
 LIST tittel = <tittel> @tittel ;
 LIST trans12/til = tr12/til ;
@@ -532,15 +528,14 @@ LIST indefinite-adj = (adj ind) (adj pprs) ;
 LIST indefinite-det = ("en"  det) ("noen"  det) ("ingen"  det) ;
 LIST indefinite-det-plural = ("noen"  det pl) ("ingen"  det pl) ;
 LIST indefinite-singular = (sg ind) ;
-LIST indefinite-singular-mask-adj = (adj m ind sg) (adj mf ind sg) (adj pprs) ;
-LIST indefinite-singular-mask-noun = (n m sg ind) (np m sg ind) ;
-LIST indefinite-singular-mask/fem-noun = (n m sg ind) (np m sg ind) (n f sg ind) (np f sg ind) (n m sg ind gen) (np m sg ind gen) (n f sg ind gen) (np f sg ind gen) ;
+LIST indefinite-singular-ut-adj = (adj ut ind sg) (adj pprs) ;
+LIST indefinite-singular-ut-noun = (n ut sg ind) (np ut sg ind) ;
+LIST indefinite-singular-ut/ut-noun = (n ut sg ind) (np ut sg ind) (n ut sg ind gen) (np ut sg ind gen) (n ut sg ind gen) (np ut sg ind gen) ;
 LIST indefinite-singular-neuter-adj = (adj nt ind sg) (adj pprs) ;
 LIST indefinite-singular-neuter-noun = (n nt sg ind) (np nt sg ind) ;
 LIST indefinite-singular-noun = (n ind sg) (np ind sg) ;
-LIST indefinite-fem-det = ("en"  det f) ("noen"  det f) ("ingen"  det f) ;
 LIST indefinite-plural-noun = (n pl ind) (np pl ind) ;
-LIST indefinite-mask-det = ("én" det m) ("en"  det m) ("noen"  det m) ("ingen"  det m) ;
+LIST indefinite-ut-det = ("én" det m) ("en"  det m) ("noen"  det m) ("ingen"  det m) ;
 LIST indefinite-neuter-det = ("en"  det nt) ("noen"  det nt) ("ingen"  det nt) ;
 LIST indefinite-noun = (n ind) (np ind) ;
 LIST utfyll-sbu = "siden"  "når"  "før"  "der"  "da"  ;
@@ -909,7 +904,7 @@ CONSTRAINTS
 
 
   "<hun>"   SELECT:3529   (prn p3) IF
-	(NOT *-1 indefinite-mask-det)
+	(NOT *-1 indefinite-ut-det)
 ;
 #  "kun noun i \"en hun\".."
 # jofm
@@ -1081,7 +1076,7 @@ CONSTRAINTS
   "<omvendt>"   SELECT:3364   (adj nt ind) IF
 	(-1 konj)
 	(NOT 1 verb)
-	(-2 comma/strek)
+	(-2 comma/hyphen)
 ;
 #  "Folket blev forsonet med embedsstudiet, og omvendt (adj neuter)
 # NOT 1 VERB: ..., men omvendt blev han aldrig"
@@ -1144,7 +1139,7 @@ CONSTRAINTS
 # jofm
 
   "<selv>"   SELECT:3328   (adv) IF
-	(-1 comma/konj/strek)
+	(-1 comma/konj/hyphen)
 	(NOT 1 lexicalverb)
 ;
 #  "- selv (adv) svensk industri ..."))
@@ -1490,7 +1485,7 @@ CONSTRAINTS
 	(0 adv)
 ;
 #  "referancegrammatikken ser ikke ud til at regne \"før\" som
-# adverb, bare som prepositionosisjon og sindefinitejunksjon"
+# adverb, bare som prepositionosisjon og subjunksjon"
 # jofm
 
   "<galt>"   REMOVE:4017   (n) IF
@@ -1535,7 +1530,7 @@ CONSTRAINTS
 
 
   "<ham>"   REMOVE:3573   (n) IF
-	(NOT *-1 mask-det)
+	(NOT *-1 ut-det)
 	(NOT -1 %skifte/bytte%)
 ;
 #  "Bare noun ved \"skifte ham\" og \"en ham\""
@@ -1687,7 +1682,7 @@ CONSTRAINTS
 # 30.11"
 
   "<selv>"   REMOVE:3324   (adv) IF
-	(1 comma/konj/strek)
+	(1 comma/konj/hyphen)
 	(NOT 1 %for%)
 ;
 #  "Håret vaskede pigerne selv - "
@@ -1718,8 +1713,8 @@ CONSTRAINTS
 #  "Bare noun i typen: sit eget selv"
 
   "<siden>"   REMOVE:3298   (n) IF
-	(NOT -1 nr2-det-mask-definite)
-	(NOT -1 definite-mask-det)
+	(NOT -1 nr2-det-ut-definite)
+	(NOT -1 definite-ut-det)
 	(NOT -1 definite-singular-adj)
 	(NOT -1 preposition)
 ;
@@ -2453,7 +2448,7 @@ CONSTRAINTS
 	(NOT -1 copula)
 	(*-1 sentence-border BARRIER copula-lexicalverb)
 ;
-#  "puste lidt ut etter sommeren"
+#  "puste lidt ud efter sommeren"
 
  SELECT:2960 (adj nt ind sg) IF
 	(NOT 0 adv)
@@ -2462,7 +2457,7 @@ CONSTRAINTS
 	(1C adj)
 	(-1C pres/pret)
 ;
-#  "De er snart ferdig."
+#  "De er snart færdige."
 
  SELECT:2961 (adj nt ind sg) IF
 	(NOT 0 gen)
@@ -2473,7 +2468,7 @@ CONSTRAINTS
 	(NOT 0 inf)
 	(NOT 0 pres/pret)
 	(-1C indefinite-singular-neuter-adj)
-	(NOT 1 indefinite-singular-mask/fem-noun)
+	(NOT 1 indefinite-singular-ut/ut-noun)
 	(NOT 1 adj)
 	(-2C lexicalverb)
 	(NOT -2 copula)
@@ -2491,7 +2486,7 @@ CONSTRAINTS
 	(NOT 0 pres/pret)
 	(1C adj)
 	(-1C lexicalverb)
-	(NOT 2 indefinite-singular-mask/fem-noun)
+	(NOT 2 indefinite-singular-ut/ut-noun)
 ;
 #  "Forutsigbarhet er veldig (adj neuter) viktig
 # NOT 0 DET: noe (det) mer
@@ -2505,7 +2500,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 pres/pret)
 	(1C adv)
 	(-1C lexicalverb)
-	(NOT -2 mask/fem)
+	(NOT -2 uterum)
 ;
 #  "er egentlig ikke"
 
@@ -2604,7 +2599,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*-1O verb-u-imp LINK NOT 0 copula LINK NOT 0 objpred-pron-verb LINK NOT *1 pres/pret)
 ;
 #  "Sjefen kan ikke direkte (adj neuter) anbefale
-# NOT LR0 copula/OBJPRED: Ikke sindefinitejekts-
+# NOT LR0 copula/OBJPRED: Ikke subjekts-
 # eller objektspredikativ.
 # Setningen må ha verb til venstre
 # (Mange setningsfragment skaper trøbbel
@@ -2618,11 +2613,11 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 %så/ganske%)
 	(NOT *1 overskrift)
 	(NOT 1 nom)
-	(NOT 2 adj-mask)
+	(NOT 2 adj-ut)
 	(NOT 2 adj-plural)
 	(**-1C sentence-border BARRIER copula)
 ;
-#  "Ikke: så omhyggelig (mask/fem) og grei (mask/fem) "))
+#  "Ikke: så omhyggelig (uterum) og grei (uterum) "))
 
  SELECT:2973 (adj nt ind sg) IF
 	(NOT 0 adv)
@@ -2697,7 +2692,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 <adv>)
 	(-2C indefinite-singular-neuter-adj)
 	(NOT 2 adverb)
-	(NOT -2 mask/fem)
+	(NOT -2 uterum)
 ;
 # group: 15
 
@@ -2706,7 +2701,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 pres/pret)
 	(1 comma)
 	(NOT 2 adverb)
-	(*-1 ikke-adv LINK 0 konj LINK NOT 0 <adv> LINK -1C indefinite-singular-neuter-adj LINK NOT 0 mask/fem)
+	(*-1 ikke-adv LINK 0 konj LINK NOT 0 <adv> LINK -1C indefinite-singular-neuter-adj LINK NOT 0 uterum)
 ;
 # group: 15
 
@@ -2717,7 +2712,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 1 comma)
 	(NOT -1 <adv>)
 	(-2C indefinite-singular-neuter-adj)
-	(NOT -2 mask/fem)
+	(NOT -2 uterum)
 ;
 # group: 15
 
@@ -2726,7 +2721,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 pres/pret)
 	(NOT 1 indefinite-singular-neuter-noun)
 	(NOT 1 comma)
-	(*-1 ikke-adv LINK 0 konj LINK NOT 0 <adv> LINK -1C indefinite-singular-neuter-adj LINK NOT 0 mask/fem)
+	(*-1 ikke-adv LINK 0 konj LINK NOT 0 <adv> LINK -1C indefinite-singular-neuter-adj LINK NOT 0 uterum)
 ;
 # group: 15
 
@@ -2880,7 +2875,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(1 indefinite-singular-neuter-noun)
 	(-1 preposition)
 	(NOT 1 ikke-noun)
-	(NOT 1 indefinite-singular-mask-noun)
+	(NOT 1 indefinite-singular-ut-noun)
 ;
 #  "på norsk hav"
 #      :group 18
@@ -2983,7 +2978,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 pres/pret)
 	(1 indefinite-singular-neuter-noun)
 	(NOT 1 ikke-noun)
-	(NOT 1 indefinite-singular-mask-noun)
+	(NOT 1 indefinite-singular-ut-noun)
 	(NOT -1 neuter-det)
 	(NOT -1 adj)
 	(NOT -1 noun-gen)
@@ -3001,7 +2996,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 pres/pret)
 	(1 indefinite-singular-neuter-noun)
 	(NOT 1 ikke-noun)
-	(NOT 1 indefinite-singular-mask-noun)
+	(NOT 1 indefinite-singular-ut-noun)
 	(NOT -1 neuter-det)
 	(NOT -1 adj)
 	(*-1 p-auxiliary-verb BARRIER sentence-border)
@@ -3020,7 +3015,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(1 indefinite-singular-neuter-noun)
 	(-1 adj)
 	(NOT 1 ikke-noun)
-	(NOT 1 indefinite-singular-mask-noun)
+	(NOT 1 indefinite-singular-ut-noun)
 	(NOT -2 neuter-det)
 	(*-1 p-auxiliary-verb BARRIER sentence-border)
 	(*-1 perf-part BARRIER sentence-border)
@@ -3037,7 +3032,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(1 indefinite-singular-neuter-noun)
 	(-1 adj)
 	(NOT 1 ikke-noun)
-	(NOT 1 indefinite-singular-mask-noun)
+	(NOT 1 indefinite-singular-ut-noun)
 	(NOT -2 neuter-det)
 	(*-1 sentence-border BARRIER p-auxiliary-verb)
 ;
@@ -3084,11 +3079,11 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 adv)
 	(NOT 0 <perf-part>)
 	(-1 pron/noun)
-	(*1 ikke-adv LINK 0 perf-part/inf LINK NOT 0 noun-mask/fem)
+	(*1 ikke-adv LINK 0 perf-part/inf LINK NOT 0 noun-ut)
 	(**-2C lexicalverb BARRIER ikke-adv-noun-pron-konj-det)
 ;
 #  "8.9.2003: Det skulle han egentlig ikke  havegjort."
-#NOT 0 noun-mask/fem
+#NOT 0 noun-ut
 
  SELECT:2953 (adj nt) IF
 	(1 noun-neuter-singular)
@@ -3533,7 +3528,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(0 indefinite-neuter-det)
 	(NOT 0 plural-det)
 	(1 indefinite-singular-neuter-adj)
-	(NOT 1 indefinite-singular-mask-adj)
+	(NOT 1 indefinite-singular-ut-adj)
 	(NOT 1 lexicalverb)
 	(NOT 1 adv)
 	(NOT 2 noun/adj)
@@ -3745,7 +3740,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2687 (det pos nt sg) IF
 	(*1 indefinite-singular-neuter-noun BARRIER ikke-adv-adj)
-	(*1 indefinite-singular-neuter-noun LINK NOT 0 plural-noun LINK NOT 0 noun-mask/fem LINK NOT 0 ikke-noun)
+	(*1 indefinite-singular-neuter-noun LINK NOT 0 plural-noun LINK NOT 0 noun-ut LINK NOT 0 ikke-noun)
 ;
 #  "sin (gule) bil"))
 
@@ -3795,7 +3790,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 pres/pret)
 	(NOT 0 ambiguous-imp)
 	(1 %at%)
-	(-1 replikk)
+	(-1 quotedspeech)
 ;
 #  "sig at jeg kommer"
 
@@ -3804,7 +3799,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 preposition)
 	(1 pron-pers)
 	(1 akk)
-	(-1 replikk)
+	(-1 quotedspeech)
 ;
 #  "Lad dig ikke lure"
 
@@ -3822,7 +3817,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 ambiguous-imp)
 	(NOT 0 samset)
 	(NOT 0 preposition)
-	(-1 replikk)
+	(-1 quotedspeech)
 	(NOT 1 pres/pret)
 	(*1CO sentence-border LINK NOT *-1 lexicalverb)
 	(*1 utrop-t BARRIER sentence-border)
@@ -3835,7 +3830,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 ambiguous-imp)
 	(NOT *1 comma)
 	(NOT *1 sbu)
-	(-2 replikk)
+	(-2 quotedspeech)
 	(*1 utrop-t)
 ;
 #  "<$.> slå ikke!
@@ -3873,7 +3868,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2659 (vblex pp) IF
 	(NOT 0 pres/pret)
-	(-1 %om/enn/som/hvis%)
+	(-1 %om/end/som/hvis%)
 	(-1C sbu)
 	(NOT 1 noun/adj)
 	(*1 sentence-border BARRIER pres/pret)
@@ -4148,7 +4143,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(0 %den/denne%)
 	(1 adverb)
 	(-1C lexicalverb)
-	(NOT 2 mask/fem)
+	(NOT 2 uterum)
 	(*-2O sentence-border LINK 1 preposition LINK NOT *1 sentence-border)
 ;
 #  "i dag spiser den kød"
@@ -4157,7 +4152,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2599 pron-pers IF
 	(0 %den/denne%)
 	(-1C lexicalverb)
-	(NOT 1 mask/fem)
+	(NOT 1 uterum)
 	(NOT 1 adj-sup)
 	(NOT 1 adverb)
 	(*-2O sentence-border LINK 1 preposition LINK NOT *1 sentence-border)
@@ -4168,7 +4163,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2600 pron-pers IF
 	(0 %den/denne%)
 	(-1C lexicalverb)
-	(NOT 1 mask/fem)
+	(NOT 1 uterum)
 	(NOT 1 adj-sup)
 	(NOT 1 adverb)
 	(-2C adverb)
@@ -4181,7 +4176,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(0 %den/denne%)
 	(1 perf-part)
 	(-1C lexicalverb)
-	(NOT 1 noun-mask/fem)
+	(NOT 1 noun-ut)
 	(NOT 1 adverb)
 ;
 #  ".. er den anlagt"
@@ -4374,7 +4369,7 @@ SELECT:2963 (adj nt ind sg) IF
 # NOT 1 %SOM%: om han (akk) som har magt ...
 # (NOT 1 %BEGGE/BÅE/SJØLVE/ALLE%:
 # Han ville forhandle med jer (nom) begge
-# (-1 %SOM/ENN%)"
+# (-1 %som/end%)"
 #      :group 36
 
  SELECT:2580 (prn) IF
@@ -4472,11 +4467,11 @@ SELECT:2963 (adj nt ind sg) IF
 # 27.2.2003: NOT 0 preposition: Før 1994 reiste hun mye."
 
  SELECT:2571 (cnjsub) IF
-	(0 %om/enn/som/hvis%)
+	(0 %om/end/som/hvis%)
 	(1 perf-part)
 	(NOT 1 ambiguous-part)
 	(NOT 1 definite-singular-neuter-noun)
-	(NOT 1 definite-singular-fem-noun)
+	(NOT 1 definite-singular-ut-noun)
 	(NOT 2 noun/adj)
 	(*1 sentence-border BARRIER pres/pret)
 ;
@@ -4808,7 +4803,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 konj)
 	(NOT 1 noun/adj)
 	(NOT 1 comma/konj)
-	(NOT 1 strek/parenthesis)
+	(NOT 1 hyphen/parenthesis)
 	(NOT -1 clb)
 	(NOT -1 <adv>)
 	(-2C noun)
@@ -4822,7 +4817,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(-1 konj)
 	(NOT 1 noun/adj)
 	(NOT 1 comma/konj)
-	(NOT 1 strek/parenthesis)
+	(NOT 1 hyphen/parenthesis)
 	(NOT -1 clb)
 	(NOT -1 <adv>)
 	(-2C noun)
@@ -5238,7 +5233,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2475 (vblex pres) IF
 	(0 communication-verb)
 	(1 pron/noun)
-	(-1 replikk)
+	(-1 quotedspeech)
 	(2 sentence-border)
 ;
 #  "Er det sådan det er? spørger hun."
@@ -5389,7 +5384,7 @@ SELECT:2963 (adj nt ind sg) IF
 
  SELECT:2398 (vblex pp) IF
 	(NOT 0 definite-singular-neuter-noun)
-	(NOT 0 definite-singular-fem-noun)
+	(NOT 0 definite-singular-ut-noun)
 	(NOT 0 ambiguous-part)
 	(-1C perf-part)
 ;
@@ -5399,7 +5394,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 ambiguous-part)
 	(NOT 0 noun)
 	(-1 adj-komp)
-	(-2 comma/strek)
+	(-2 comma/hyphen)
 ;
 #  ", nærmere bestemt fossiler ..."
 
@@ -5501,9 +5496,9 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2419 (vblex pp) IF
 	(NOT 0 ikke-adj-verb)
 	(NOT 0 inf)
-	(*-1 strek/parenthesis BARRIER pres/pret)
-	(*-1O strek/parenthesis LINK NOT 0 parenthesis-begin LINK *-1 strek/parenthesis LINK NOT 0 parenthesis-end LINK *-1 pres/pret LINK 0 auxiliary-verb LINK NOT 0 copula LINK NOT *1 copula)
-	(*-1O strek/parenthesis LINK *-1 strek/parenthesis LINK *-1 pres/pret LINK NOT *1 sentence-border-u-strek)
+	(*-1 hyphen/parenthesis BARRIER pres/pret)
+	(*-1O hyphen/parenthesis LINK NOT 0 parenthesis-begin LINK *-1 hyphen/parenthesis LINK NOT 0 parenthesis-end LINK *-1 pres/pret LINK 0 auxiliary-verb LINK NOT 0 copula LINK NOT *1 copula)
+	(*-1O hyphen/parenthesis LINK *-1 hyphen/parenthesis LINK *-1 pres/pret LINK NOT *1 sentence-border-u-hyphen)
 ;
 # group: 45
 
@@ -5933,7 +5928,7 @@ CONSTRAINTS
 	(NOT 0 bare-adj)
 	(-1C preposition)
 	(NOT 1 noun)
-	(NOT 1 adj-fem)
+	(NOT 1 adj-ut)
 	(NOT 1 comma/konj)
 	(NOT -1 %som%)
 	(NOT -1 %nærpå%)
@@ -5948,8 +5943,8 @@ CONSTRAINTS
 	(NOT 1 ikke-adj-noun)
 	(NOT 1 adj-komp)
 	(NOT 1 adj-sup)
-	(NOT 1 indefinite-singular-mask-adj)
-	(NOT 1 indefinite-singular-mask/fem-noun)
+	(NOT 1 indefinite-singular-ut-adj)
+	(NOT 1 indefinite-singular-ut/ut-noun)
 	(NOT 1 noun-prop)
 	(NOT 1 noun-indeclinable)
 	(NOT -1 adverb)
@@ -6299,7 +6294,7 @@ CONSTRAINTS
 # \"se\" imperativ"
 
  REMOVE:2116 (imp) IF
-	(NOT -1 strek/parenthesis-begin/anf)
+	(NOT -1 hyphen/parenthesis-begin/anf)
 	(NOT -1 %ikke%)
 	(NOT -1 konj)
 	(-2 >>>)
@@ -6341,7 +6336,7 @@ CONSTRAINTS
  REMOVE:2106 (ij) IF
 	(NOT 0 %ja-nej%)
 	(NOT -1 interj)
-	(NOT -1 replikk)
+	(NOT -1 quotedspeech)
 ;
 #  "Antager at interjektioner står i begynnelsen av en
 # periode."
@@ -6365,7 +6360,7 @@ CONSTRAINTS
 	(NOT *3 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition)
 	(*2O ikke-adv-adj LINK 0 noun LINK NOT 0 ikke-noun LINK NOT -1 comma/konj)
 ;
-#  "bare for den (ikke pron) udenlandske mønstringspliktige"))
+#  "kun for den (ikke pron) udenlandske mønstringspligtige"))
 
  REMOVE:2080 pron-pers IF
 	(0 det)
@@ -6373,7 +6368,7 @@ CONSTRAINTS
 	(1C noun)
 	(*2 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition LINK NOT 0 pres/pret)
 ;
-#  "bare for den (ikke pron) mønstringspligtige her hjemme"))
+#  "bakunre for den (ikke pron) mønstringspligtige her hjemme"))
 
 #jofmmarker
 
@@ -6383,7 +6378,7 @@ CONSTRAINTS
 	(1C noun)
 	(NOT *2 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition)
 ;
-#  "bare for den (ikke pron) mønstringspliktige"))
+#  "kun for den (ikke pron) mønstringspligtige"))
 
  REMOVE:2082 pron-pers IF
 	(0 det)
@@ -6394,9 +6389,9 @@ CONSTRAINTS
 	(NOT 1 adj-sup-indefinite)
 	(*2 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition LINK NOT 0 pres/pret)
 ;
-#  "bare for den (ikke pron) utenlandske
+#  "kun for den (ikke pron) udenlandske
 #
-# mønstringspliktige her hjemme"
+# mønstringspligtige her hjemme"
 
  REMOVE:2083 pron-pers IF
 	(0 det)
@@ -6407,13 +6402,13 @@ CONSTRAINTS
 	(NOT 1 adj-sup-indefinite)
 	(NOT *2 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition)
 ;
-#  "bare for den (ikke pron) utenlandske mønstringspliktige"))
+#  "kun for den (ikke pron) utenlandske mønstringspliktige"))
 
  REMOVE:2094 pron-pers IF
 	(1 %samme/næste/ene/eneste/forrige%)
 	(NOT 2 nom-without-pron)
 ;
-#  "å være den samme
+#  "at være den samme
 # det kunne være det samme"
 
  REMOVE:2069 (prn nom) IF
@@ -6421,7 +6416,7 @@ CONSTRAINTS
 	(-2C pron-nom)
 	(*1O pres/pret LINK *-1 ikke-adv)
 ;
-#  "jeg kjenner dere (akk) ikke, det må jeg si"
+#  "jeg kender jer (akk) ikke, det må jeg sige"
 #      :group 62
 
  REMOVE:2070 (prn nom) IF
@@ -6429,14 +6424,10 @@ CONSTRAINTS
 	(NOT *1 pres/pret)
 	(-2C pron-nom)
 ;
-#  "jeg kjenner dere (akk) ikke"
+#  "jeg kender jer (akk) ikke"
 #      :group 62
 
- REMOVE:2071 (prn nom) IF
-	(-1C imp)
-;
-#  "kom dere (akk) vekk"
-#      :group 62
+
 
  REMOVE:2072 (prn nom) IF
 	(-1 iv)
@@ -6446,7 +6437,7 @@ CONSTRAINTS
 	(NOT -1 pres/pret)
 	(*-2 ikke-adv LINK 0 infinitive-marker)
 ;
-#  "å skremme dere"
+#  "at skræmme jer"
 #      :group 62
 
  REMOVE:2073 (prn nom) IF
@@ -6457,7 +6448,7 @@ CONSTRAINTS
 	(NOT 1 adverb)
 	(NOT -1 pres/pret)
 ;
-#  "å skremme dere"
+#  "at skræmme jer"
 #      :group 62
 
  REMOVE:2074 (prn nom) IF
@@ -6467,7 +6458,7 @@ CONSTRAINTS
 	(NOT 1 preposition)
 	(*-2 ikke-adv LINK 0 %som%)
 ;
-#  "som skremmer dere"
+#  "som skræmmer jer"
 #      :group 62
 
  REMOVE:2075 (prn nom) IF
@@ -6475,10 +6466,10 @@ CONSTRAINTS
 	(-1 preposition)
 	(*2 comma LINK *1 ikke-adv LINK NOT 0 pres/pret)
 ;
-#  "vi er helt enige med dere (akk), dere kloke, snille folk
+#  "vi er helt enige med jer (akk), jer kloke, søde folk
 # NOT LR0 PRES/PRET: festiviteter som han, Selmer Høysand,
 #
-# hittil bare har hørt ryktene om"
+# hidtil bare har hørt rygterne om"
 #      :group 62
 
  REMOVE:2077 (prn nom) IF
@@ -6486,7 +6477,7 @@ CONSTRAINTS
 	(-1 preposition)
 	(NOT *2 comma)
 ;
-#  "vi er helt enige med dere (akk), i alt dere seier"
+#  "vi er helt enige med jer (akk), i alt I siger"
 #      :group 62
 
  REMOVE:2053 (prn acc) IF
@@ -6496,9 +6487,9 @@ CONSTRAINTS
 	(NOT -1 preposition)
 	(*2 ikke-adv LINK 0 iv)
 ;
-#  "dere tror dere (nom) skal få dere den store
+#  "I tror I (nom) skal få jer den store
 #
-# kjærligheten i kveld"
+# kærlighed i aften"
 #      :group 62
 
  REMOVE:2054 (prn acc) IF
@@ -6507,7 +6498,7 @@ CONSTRAINTS
 	(NOT -1 verb)
 	(*2O iv LINK *-1 ikke-adv LINK 0 pres/pret LINK 0 auxiliary-verb LINK NOT *-1 ikke-adv)
 ;
-#  "hvad slags alger dere (nom) helst vil ha"
+#  "hvad slags alger I (nom) helst vil ha"
 #      :group 62
 
  REMOVE:2055 (prn acc) IF
@@ -6515,7 +6506,7 @@ CONSTRAINTS
 	(1 noun/adj)
 	(-1 copula-lexicalverb)
 ;
-#  "da blir dere (nom) store"
+#  "da bliver I (nom) store"
 #      :group 62
 
  REMOVE:2056 (prn acc) IF
@@ -6523,7 +6514,7 @@ CONSTRAINTS
 	(1 copula-lexicalverb)
 	(-1C sentence-border/parenthesis-begin)
 ;
-#  "så dere (nom) blir ikke ført bort"
+#  "så I (nom) bliver ikke ført bort"
 #      :group 62
 
  REMOVE:2057 (prn acc) IF
@@ -6531,7 +6522,7 @@ CONSTRAINTS
 	(1 %som%)
 	(-1C sentence-border)
 ;
-#  "dere (nom) som ser pønget, kan stope her"
+#  "I (nom) som ser pointen, kan stoppe her"
 #      :group 62
 
  REMOVE:2058 (prn acc) IF
@@ -6549,6 +6540,8 @@ CONSTRAINTS
 ;
 #  "den første tiden danset han (nom) ved Grefsen Gymnas"
 #      :group 62
+#jofmmarker
+
 
  REMOVE:2060 (prn acc) IF
 	(0 nominativ)
@@ -6648,7 +6641,7 @@ CONSTRAINTS
 
  REMOVE:2045 (cnjsub) IF
 	(0 preposition)
-	(NOT 0 %som/enn%)
+	(NOT 0 %som/end%)
 	(1 sentence-border)
 	(NOT 1 %bare%)
 ;
@@ -6747,7 +6740,7 @@ CONSTRAINTS
 ;
 
  REMOVE:2030 singular-noun IF
-	(0 farger)
+	(0 colours)
 	(1 comma/konj)
 	(*3 plural-noun BARRIER ikke-adv-adj)
 	(NOT 2 ikke-adv-adj)
@@ -6852,7 +6845,7 @@ CONSTRAINTS
 	(**-1C det BARRIER ikke-adv-adj)
 ;
 
- REMOVE:2008 singular-fem-noun IF
+ REMOVE:2008 singular-ut-noun IF
 	(0 adj)
 	(**-1C det LINK NOT 0 fem LINK NOT 0 plural LINK NOT 0 %selv% LINK NOT 0 %samme/næste/ene/eneste/selve/forrige%)
 	(**-1C det BARRIER ikke-adv-adj)
@@ -6860,7 +6853,7 @@ CONSTRAINTS
 
  REMOVE:2005 (np gen) IF
 	(0 noun-prop)
-	(0 mask/fem)
+	(0 uterum)
 	(1 noun-prop)
 ;
 #  "Johannes Hansen
@@ -7062,7 +7055,7 @@ REMOVE:gen-noun gen-noun IF
 	(NOT 1 noun)
 	(NOT *-2 comma)
 	(NOT 1 sentence-border)
-	(**-1CO sentence-border LINK NOT 0 comma LINK NOT 0 strek LINK NOT *1 lexicalverb)
+	(**-1CO sentence-border LINK NOT 0 comma LINK NOT 0 hyphen LINK NOT *1 lexicalverb)
 	(**-1C sentence-border BARRIER preposition)
 	(*1 pres/pret BARRIER sentence-border)
 ;
@@ -7469,7 +7462,7 @@ REMOVE:gen-noun gen-noun IF
 
  REMOVE:1892 (vblex pp) IF
 	(NOT 0 %ta%)
-	(-1 pron-akk-mfn/plural)
+	(-1 pron-akk-utn/plural)
 	(**-1C sentence-border BARRIER objpred-pron-verb)
 	(**-1C sentence-border BARRIER p-auxiliary-verb)
 	(**-1C sentence-border BARRIER m-auxiliary-verb-pret)
@@ -7481,8 +7474,8 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -2 clb-comma)
 	(NOT -2 perf-part)
 	(NOT -3 perf-part)
-	(**-2C sentence-border-u-strek BARRIER p-auxiliary-verb)
-	(**-2C sentence-border-u-strek BARRIER m-auxiliary-verb-pret)
+	(**-2C sentence-border-u-hyphen BARRIER p-auxiliary-verb)
+	(**-2C sentence-border-u-hyphen BARRIER m-auxiliary-verb-pret)
 ;
 #  "tar tilfellene med konj
 # Ikke: ..har vært vellykket, og ført
@@ -7491,23 +7484,23 @@ REMOVE:gen-noun gen-noun IF
  REMOVE:1895 (vblex pp) IF
 	(NOT 0 %ta%)
 	(NOT *1 overskrift)
-	(NOT -1 periode-begin/clb/strek)
-	(NOT -1 %om/enn/som/hvis%)
+	(NOT -1 periode-begin/clb/hyphen)
+	(NOT -1 %om/end/som/hvis%)
 	(NOT -1 pass)
 	(NOT -1 noun)
 	(NOT -1 perf-part)
 	(NOT -1 konj)
 	(NOT -1 comma)
 	(NOT -1 adj-komp)
-	(NOT -1 pron-akk-mfn/plural)
+	(NOT -1 pron-akk-utn/plural)
 	(**-1C sentence-border BARRIER p-auxiliary-verb)
 	(**-1C sentence-border BARRIER m-auxiliary-verb-pret)
 ;
-#  "NOT \"OM/ENN/SOM/HVIS\":som dokumsingularert(perf-part)
+#  "NOT \"om/end/som/hvis\":som dokumsingularert(perf-part)
 # (NOT -1C PASS): forsøkes solgt (perf-part)
 # NOT -1 noun: minstepriser pålagt (perf-part) av
 # er forsøkt solgt (perf-part)
-# NOT -1 PRON-AKK-MFN/plural: Objektspred av <perf-part> plural:
+# NOT -1 PRON-AKK-utn/plural: Objektspred av <perf-part> plural:
 # De føler seg forpliktet (perf-part) "))
 
  REMOVE:1896 (vblex pp) IF
@@ -7668,7 +7661,7 @@ CONSTRAINTS
 
   "<bare>"   SELECT:4053   (adj pl) IF
 	(**-1C plural-det BARRIER ikke-adv-adj)
-	(1 %arm/ben/krop/legg/tre%-plural)
+	(1 %bodyparts%-plural)
 ;
 #  de bare bena
 
@@ -8163,10 +8156,10 @@ CONSTRAINTS
 # etter en SBU kan ikke lexicalverb stå rett til venstre
 # om livet (ikke verb pret)
 # egne regler for SOM nedenfor
-# må komme en setning før sindefinitejunksjonen:
+# må komme en setning før subjunksjonen:
 # For 100 år siden (ikke sbu) kom
 # NOT *L comma/KONJ: Lite sansynlig med
-# tunge sindefinitejekter som indeholder comma/konj
+# tunge subjekter som indeholder comma/konj
 # *L PRON NOT *L noun: Sikrer mot skjult
 # relativsetning: som stjernestoffet vi så"
 #      :group 73
@@ -8190,7 +8183,7 @@ CONSTRAINTS
 # "
 
  SELECT:1733 noun IF
-	(NOT 0 farger)
+	(NOT 0 colours)
 	(NOT 0 ambiguous-adj-noun)
 	(NOT 0 ikke-adj-noun)
 	(-1C preposition)
@@ -8251,7 +8244,7 @@ CONSTRAINTS
 ;
 
 SELECT:4081 (adj) IF
-	(0 farger)
+	(0 colours)
 	(0 noun)
 	(-1C preposition)
 	(NOT 1 noun/adj)
@@ -8412,8 +8405,8 @@ SELECT:4081 (adj) IF
 	(0 %siden%)
 	(-1 preposition)
 	(1C nom)
-	(NOT -1 nr2-det-mask-definite)
-	(NOT -1 definite-mask-det)
+	(NOT -1 nr2-det-ut-definite)
+	(NOT -1 definite-ut-det)
 	(NOT -1 definite-singular-adj)
 ;
 #  "25.11.2002: 500 pluralyktninger har vendt hjem siden forrige fredag."
@@ -8516,8 +8509,8 @@ SELECT:4081 (adj) IF
 ;
 #Ingen ambiguous verb-pres!
 
- REMOVE:4065 (adj) IF
-	 (0 ikke-sans-adj)
+REMOVE:4065 (adj) IF
+      (0 ikke-sans-adj)
 ;
 
  REMOVE:4066 noun IF
