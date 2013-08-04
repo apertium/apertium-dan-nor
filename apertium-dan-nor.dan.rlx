@@ -147,13 +147,13 @@ LIST %syvende% = "syvende"  "sjuende"  ;
 LIST %så% = "så"  ;
 LIST %så/ganske% = "så"  "ganske"  ;
 LIST %så/og/selv% = "så"  "sjøl"  "selv"  "og"  ;
-LIST %ta% = "ta"  ;
+LIST %tage% = "tage"  ;
 LIST %tids% = ("tids"  adj) ;
 LIST %til% = "til"  ;
 LIST %tiltalte% = ("tiltale"  adj pp def sg) ;
 LIST %tre% = "tre"  ;
 LIST %under% = ("under"  pr) ;
-LIST %ut% = "ut"  ;
+LIST %ud% = "ud"  ;
 LIST %udenforstående% = "udenforstående"  ;
 LIST %vedkommende% = "vedkommende"  ;
 LIST %var% = ("var"  adj) ("være"  pret) ;
@@ -202,9 +202,9 @@ LIST adv/<adv> = adv <adv> ;
 LIST adv/adj-neuter = adv (adj nt) (adj def) (adj pprs) ;
 LIST adv/adj-neuter-indefinite = adv (adj nt) (adj def) (adj pprs) ;
 LIST adv/lexicalverb = adv (vblex pres) (vblex pret) (vblex imp) ;
-LIST adverb = adv <adv> (adj nt ind) ("nær"  sup def) ("noen"  det nt) ;
-LIST adverb/komp = adv <adv> (adj nt ind) (adj comp) ("nær"  sup def) ("noen"  det nt) ;
-LIST adverb/komp/indefinite-sup = adv <adv> (adj nt ind) (adj comp) (adj sup ind) ("noen"  det nt) ;
+LIST adverb = adv <adv> (adj nt ind) ("nær"  sup def) ("noget"  det nt) ;
+LIST adverb/komp = adv <adv> (adj nt ind) (adj comp) ("nær"  sup def) ("noget"  det nt) ;
+LIST adverb/komp/indefinite-sup = adv <adv> (adj nt ind) (adj comp) (adj sup ind) ("noget"  det nt) ;
 LIST adverb/komp/indefinite-sup/pres-part = adv <adv> (adj nt ind) (adj comp) (adj sup ind) (adj pprs) ;
 LIST adverbialnoun = "øjeblik"  "år"  "vinter"  "vej"  "uge"  "torsdag"  "tiår"  "tirsdag"  "time"  "tiendelssekund"  "tidelssekund"  "tid"  "søndag"  "stykke"  "stund"  "skridt"  "sted"  "sommer" "sømil"  "september"  "sekundmeter"  "sekund"  "påske"  "pinse"  "periode"  "onsdag"  "oktober"  "november"   "natt"  "nanosekund"  "nanometer"  "måned"  "morgen"  "minut"  "millisekund"  "millimeter"  "mil"  "mikrometer"  "meter"  "marts"  "mandag"  "maj"  "m." "lørdag"  "aften"  "kvartmil"  "kvadratmillimeter"  "kvadratmeter"  "kvadratkilometer"  "kvadratdecimeter"  "kvadratcentimeter"  "kubikmillimeter"  "kubikmeter"  "kubikdecimeter"  "kubikcentmeter"  "km"  "klokke"  "kilometer"  "juni"  "juli"  "jul"  "januar"  "høst"  "hverdag"  "hundrededelssekund"  "helligdag"  "helgedag"  "halvår"  "halvmil"  "gang"  "fredag"  "formiddag"  "februar"  "eftermiddag"  "døgn"  "decimeter"  "december"  "dag"  "centimeter"  "august"  "april"  <dato> ("liv"  sg def) ("forår"  n) ;
 LIST akk = acc ;
@@ -243,7 +243,7 @@ LIST det = det ;
 LIST det-dem = (det dem) ;
 LIST det-singular = (det sg) ;
 LIST det-singular/pron-singular = (det sg) (prn sg) ;
-LIST det-etterstilt = (det pos) ("selv"  det emph) ("sjøl"  det emph) ;
+LIST det-etterstilt = (det pos) ("selv"  det emph) ;
 LIST det-gen = det (n gen) (np gen) ;
 LIST det-quantifier = (det qnt) ;
 LIST det-neuter-singular = (det nt sg) ;
@@ -265,12 +265,12 @@ LIST singular-indefinite = (sg ind) ;
 LIST f-subj = ("det"  prn) ;
 LIST colours = "turkis"  "sort"  "rød"  "rosa"  "orange"  "lilla"  "indigo"  "hvid"  "gul"  "grøn"  "grå"  "violet"  "blå"  ;
 LIST ambiguous-adj = "brak"  "året"  "være"  "vide"  "vis"  "var"  "tids"  "sige"  "se"  "live"   "lette"  "lave"  "helle"  "før"  "fore"  "eje"  "egen"  "bar"  "anden"  "angående"  "ale"   ;
-LIST ambiguous-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller"  "gode"  "faren"  (adj comp) ("visse"  n) ("sivil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
+LIST ambiguous-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller"  "gode"  "faren"  (adj comp) ("visse"  n) ("civil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
 LIST ambiguous-plural-noun = ("hjælp"  pl ind) ("lede"  m pl ind) ("led"  m pl ind) ("fald"  m pl ind) ("snus"  m pl ind) ("find"  pl ind) ("finde"  pl ind) ("komme"  pl ind) ("under"  pl ind) ("får"  pl) ("ønske"  pl) ("slag"  gen) ("jeg"  pl) ("lo"  pl) ("var"  pl) ("nå"  pl) ("al"  pl def) ("mod"  pl ind) ("men"  pl ind) ;
 LIST ambiguous-forledd-verb = ("helle"  pres) ("nå"  pres)  ("fare"  pret) ("tro"  adj) ("tiltale"  pret) ("klokke"  pret) ;
 LIST ambiguous-imp = "live"  "vare"  "så"  "se"  "nå"  "neje"  "mine"  "mene"  "føre"  "fore"  "ene"  "bedre"  "more"  "fare" ;
-LIST ambiguous-inf = ("felle"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lide" s "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse"  "dette"  "bedre"  ("slette"  pass) "røde"  ;
-LIST ambiguous-mask-noun = "ville"  "ved"  "syge"  "skrå"  "helt"  "heller"  "ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
+LIST ambiguous-inf = ("fælde"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lide" s "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse" "bedre"  ("slette"  pass) "røde"  ;
+LIST ambiguous-ut-noun = "ville"  "ved"  "syge"  "skrå"  "helt"  "heller"  "ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
 LIST ambiguous-neuter-noun = "vildt"  "venstre"  "var"  "under"  "skrå"  "sæt"  "selv"  "nå"  "ny"  "mod"  "lik"  "konkret"  "jeg"  "højre"  "godt"  "gode"  "folk"  "bag"  ("stik"  adv) ("alt"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
 LIST ambiguous-part = "kante"  "vide"  "via"  "vække"  "svare"  "stole"  "spænde"  "skønne"  "rende" "pule"  "prime"  "ose"  "optage"  "omvende"  "nære"  "nyde" "mage"  "lyse"  "live"  "lide"  "lede"  "klare"  "hedde"  "helle"  "hele"  "gale"  "fortsætte"  "fore" "decidere"  "brune"  "brede"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
 LIST ambiguous-verb =  ("ansætte"  vblex pret) ("gange"  pres) ("stede"  pres) ("nå"  pres) ("sige"  pret) ("fare"  pret) ("se"  pret) ("helle"  pres) ("dy"  pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("iblande"  vblex pret) ("forfatte"  vblex pres);
@@ -302,7 +302,7 @@ LIST ikke-adj-verb = "siden"  n np adv pr prn cnjsub cnjcoo "at" ij det <<< <ell
 LIST ikke-adv = "siden"  "$," "," vblex pr prn cnjsub cnjcoo "at" ij n np det <ellipsis> (adj ut) (adj ut) (adj pl) (adj comp) (adj sup) (adj pprs) (adj def) ;
 LIST ikke-adv-adj = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij det <ellipsis> (clb cnjcoo) (clb cm) (cnjcoo <adv>) ;
 LIST ikke-adv-adj-det = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
-LIST ikke-adv-adj-det-pron = "siden"  "$:" ":" vblex pr cnjsub "åt" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
+LIST ikke-adv-adj-det-pron = "siden"  "$:" ":" vblex pr cnjsub "at" n np ij <ellipsis> (clb cnjcoo) (cnjcoo <adv>) ;
 LIST ikke-adv-adj-det-noun = "siden"  "$--" "--" "$:" ":" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "at" ij <<< <ellipsis> (clb cm) ;
 LIST ikke-adv-adj-det2 = "siden"  "$:" ":" vblex pr prn cnjsub "at" n np ij <ellipsis> ;
 LIST ikke-adv-adj-comma = "siden"  "$-" "-" rpar vblex pr prn cnjsub "at" n np ij det <ellipsis> ("$," clb) ("," clb) (clb cnjcoo) (cnjcoo <adv>) ;
@@ -331,7 +331,7 @@ LIST ikke-poss-det = "siden"  "$," "," adj adv vblex pr prn cnjsub cnjcoo "at" i
 LIST ikke-preposition = cnjsub adv adj vblex prn "at" n np ij det (clb cnjcoo) <anf> <ellipsis> ;
 LIST ikke-preposition-sbu = adv adj vblex prn "at" n np ij det (clb cnjcoo) <anf> <ellipsis> ;
 
-LIST ikke-sans-adj = e-sans-adj = ("regne"  adj pp) ("grebet"  adj) ("sætte"  adj pp) ("pågå"  adj pp) ("løje" adj pp) ("overholde"  adj pp) ("befinde"  adj pp) ("spekulere"  adj pp) ("forbryde"  adj pp) ("bistå"  adj pp) ("rådføre"  adj pp) ("foreligge"  adj pp) ("fornemme"  adj pp) ("driste"  adj pp) ("forholde"  adj pp) ("håndtere"  adj pp) ("håndtere"  adj pp) ("affinde"  adj pp)  ("overstige"  adj pp) ("kvie"  adj pp) ("rotte"  adj pp) ("feriere"  adj pp) ("luske"  adj pp) ("forestå"  adj pp) ("forregne"  adj pp) ("stride"  adj pp) ("sysle"  adj pp) ("tilflyde"  adj pp) ("forelæse"  adj pp)  ("hige"  adj pp) ("punge"  adj pp) ("vædde"  adj pp) ("blafre"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("klarne"  adj pp) ("letne"  adj pp) ("oversidde"  adj pp) ("påminde"  adj pp) ("dvæle"  adj pp) ("forsove"  adj pp) ("ordlægge"  adj pp) ("prakke"  adj pp) ("smyge"  adj pp) ("tillyse"  adj pp) ("bemægtige"  adj pp) ("gamble"  adj pp) ("gjalde"  adj pp) ("hinke"  adj pp) ("livne"  adj pp) ("modstå"  adj pp) ("skorte"  adj pp) ("tø"  adj pp) ("ynke"  adj pp) ("angå"  adj pp) ("danke"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("gumle"  adj pp) ("herse"  adj pp)  ("huje"  adj pp) ("myldre"  adj pp) ("nedkomme"  adj pp) ("paradere"  adj pp) ("sparre"  adj pp) ("afvige"  adj pp)  ("befatte"  adj pp) ("bejle"  adj pp) ("campe"  adj pp) ("duellere"  adj pp) ("dulle"  adj pp) ("duve"  adj pp) ("flotte"  adj pp) ("frø"  adj pp) ("hånle"  adj pp) ("indebære"  adj pp) ("mukke"  adj pp) ("nage"  adj pp) ("posere"  adj pp) ("prelle"  adj pp) ("pønse"  adj pp) ("rippe"  adj pp) ("risle"  adj pp) ("slingre"  adj pp) ("sondre"  adj pp) ("teoretisere"  adj pp) ("tilsnige"  adj pp) ("tvære"  adj pp) ("undergå"  adj pp) ("afhænge"  adj pp) ("bekvemme"  adj pp) ("betle"  adj pp) ("bævre"  adj pp) ("blegne"  adj pp) ("blunde"  adj pp) ("daffe"  adj pp) ("defilere"  adj pp) ("husere"  adj pp) ("hysse"  adj pp) ("hysse"  adj pp) ("hånle"  adj pp) ("indestå"  adj pp) ("isne"  adj pp) ("jamme"  adj pp) ("jamme"  adj pp) ("konvergere"  adj pp) ("krible"  adj pp) ("lefle"  adj pp) ("propagandere"  adj pp) ("rutsje"  adj pp) ("samtykke"  adj pp) ("skingre"  adj pp) ("skråne"  adj pp)  ("smaske"  adj pp) ("småløbe"  adj pp) ("solidarisere"  adj pp) ("spjætte"  adj pp) ("sygne"  adj pp) ("tendere"  adj pp) ("tysse"  adj pp) ("vedstå"  adj pp) ("økonomisere"  adj pp) ("akkordere"  adj pp) ("albue"  adj pp) ("alternere"  adj pp) ("ambulere"  adj pp) ("anmasse"  adj pp) ("anstå"  adj pp) ("ansøge"  adj pp) ("bede"  adj pp) ("bede"  adj pp) ("bekomme"  adj pp) ("besidde"  adj pp) ("bæve"  adj pp) ("bivuakere"  adj pp) ("blitze"  adj pp) ("blive"  adj pp) ("blive"  adj pp) ("burde"  adj pp)  ("bølge"  adj pp) ("changere"  adj pp) ("chevrotere"  adj pp) ("choke"  adj pp) ("clinche"  adj pp) ("dy"  adj pp) ("eksellere"  adj pp) ("favne"  adj pp)  ("fastne"  adj pp) ("fise"  adj pp)  ("flekse"  adj pp) ("fluktuere"  adj pp) ("fluorescere"  adj pp) ("fluoridere"  adj pp) ("flyve"  adj pp) ("forhåndsstemme"  adj pp) ("forhåndsstemme"  adj pp) ("forivre"  adj pp) ("forlyde"  adj pp) ("forlyste"  adj pp) ("formaste"  adj pp) ("formene"  adj pp) ("forpleje"  adj pp) ("forregne"  adj pp) ("forsynde"  adj pp) ("fortryde"  adj pp) ("øsregne"  adj pp) ("fråde"  adj pp)  ("gebærde"  adj pp) ("genlyde"  adj pp)  ("gyse"  adj pp) ("halvsove"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("harme"  adj pp) ("harske"  adj pp) ("henhøre"  adj pp) ("henstå"  adj pp) ("heppe"  adj pp) ("hærdne"  adj pp) ("interferere"  adj pp) ("intervenere"  adj pp) ("kalligrafere"  adj pp) ("klukle"  adj pp)  ("knockoute"  adj pp)  ("kokkerere"  adj pp) ("kokre"  adj pp) ("konnotere"  adj pp) ("kværulere"  adj pp) ("kvine"  adj pp) ("kvine"  adj pp) ("lade"  adj pp) ("layoute"  adj pp) ("læst"  adj pp) ("moralisere"  adj pp) ("nedstamme"  adj pp) ("obstruere"  adj pp)  ("orme"  adj pp) ("oscillere"  adj pp) ("permutere"  adj pp) ("prale"  adj pp)  ("præsidere"  adj pp) ("proviantere"  adj pp)  ("påligge"  adj pp) ("radiere"  adj pp) ("ralle"  adj pp) ("rebellere"  adj pp) ("remse"  adj pp) ("renoncere"  adj pp) ("residere"  adj pp) ("respirere"  adj pp) ("restere"  adj pp) ("revoltere"  adj pp) ("rivalisere"  adj pp) ("salutere"  adj pp) ("sameksistere"  adj pp) ("sexdebutere"  adj pp) ("shake"  adj pp) ("zigzagge"  adj pp) ("sjofle"  adj pp)  ("jonglere"  adj pp) ("sygne"  adj pp)  ("skillinge"  adj pp) ("skoggerle"  adj pp) ("skumle"  adj pp) ("snorksove"  adj pp) ("storle"  adj pp) ("storskrige"  adj pp) ("succedere"  adj pp) ("surmule"  adj pp)  ("sutenere"  adj pp) ("svalne"  adj pp) ("svanse"  adj pp) ("svire"  adj pp) ("svæve"  adj pp)("tilligge"  adj pp) ("tiltro"  adj pp) ("tykne"  adj pp) ("tjukne"  adj pp) ("transfigurere"  adj pp) ("transpirere"  adj pp) ("twiste"  adj pp) ("ty"  adj pp) ("tystne"  adj pp) ("understå"  adj pp) ("undgællde"  adj pp) ("undvige"  adj pp) ("vagabondere"  adj pp) ("vedkomme"  adj pp) ("vrinske"  adj pp) ("vånde"  adj pp)  ("forskåne"  adj pp) ("genindføre"  adj pp) ("beligge"  adj pp) ("beråbe"  adj pp) ("berøve"  adj pp) ("forrådne"  adj pp) ("grimassere"  adj pp)  ("konformere"  adj pp) ("overensstemme"  adj pp) ("overstrømme"  adj pp) ("petitionere"  adj pp) ("pladedebutere"  adj pp)("prøveflyve"  adj pp) ("småkoge"  adj pp) ("sulfatere"  adj pp) ("sulfidere"  adj pp) ("beskyde"  adj pp) ("afmarchere"  adj pp) ("blaffe"  adj pp) ("divergere"  adj pp) ("flippe"  adj pp) ("gymnasticere"  adj pp)("hikke"  adj pp) ("hovere"  adj pp) ("hungre"  adj pp)  ("rødne"  adj pp) ("snylte"  adj pp) ("snåve"  adj pp) ("snøse"  adj pp) ("stage"  adj pp) ("sveipe"  adj pp) ("svimle"  adj pp) ("efterleve"  adj pp) ("kurere"  adj pp) ("forveksle"  adj pp) ("konsultere"  adj pp) ("tiltage"  adj pp) ("albue"  adj pp) ("begive"  adj pp) ("frafalde"  adj pp) ("gøgle"  adj pp) ("halse"  adj pp) ("ironisere"  adj pp) ("jumpe"  adj pp) ("klimpre"  adj pp)  ("kondolere"  adj pp) ("kopulere"  adj pp) ("meje"  adj pp) ("mugne"  adj pp) ("plire"  adj pp)  ("revurdere"  adj pp) ("snegle"  adj pp) ("spankulere"  adj pp) ("sympatisere"  adj pp) ("syde"  adj pp) ("tindre"  adj pp) ("vibrere"  adj pp) ("vralte"  adj pp) ("vrimle"  adj pp) ("deflatere"  adj pp)  -16 ("agitere"  adj pp) ("florere"  adj pp) ("larme"  adj pp) ("musicere"  adj pp)("skvulpe"  adj pp) ("styrtregne"  adj pp) ("sutte"  adj pp) ("syde"  adj pp) ("tykne"  adj pp) ("tykne"  adj pp) ("deportere"  adj pp) ("dunste"  adj pp) ("fnyse"  adj pp) ("fyge"  adj pp) ("skratte"  adj pp) ("småpludre"  adj pp) ("sprinte"  adj pp) ("sprudle"  adj pp) ("tørste"  adj pp) ("undslippe"  adj pp) ("abonnere"  adj pp) ("gennemstrømme"  adj pp) ("klapre"  adj pp)("rasle"  adj pp) ("tiske"  adj pp) ("urinere"  adj pp) ("adlyde"  adj pp) ("fænge"  adj pp) ("filosofere"  adj pp) ("henfalde"  adj pp) ("hygge"  adj pp) ("indkvartere"  adj pp) ("pendle"  adj pp) ("sige"  adj pp) ("ødsle"  adj pp) ("fable"  adj pp) ("græmme"  adj pp) ("harcelere"  adj pp) ("håndhilse"  adj pp)  ("sprælle"  adj pp) ("stavre"  adj pp) ("surfe"  adj pp) ("sømme"  adj pp) ("bestræbe"  adj pp) ("forbarme"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indlade"  adj pp) ("kapitulere"  adj pp) ("tilkendegive"  adj pp) ("votere"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indfinde"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("forske"  adj pp) ("forudsige"  adj pp) ("kategorisere"  adj pp) ("konkurrere"  adj pp) ("krybe"  adj pp) ("sakke"  adj pp) ("affeje"  adj pp) ("bestikke"  adj pp) ("dysse"  adj pp) ("frasige"  adj pp) ("imødekomme"  adj pp) ("kværke"  adj pp) ("strege"  adj pp) ("bekendtgøre"  adj pp) ("frase"  adj pp) ("kreditere"  adj pp) ("afhjælpe"  adj pp) ("afstedkomme"  adj pp) ("fraskrive"  adj pp) ("håne"  adj pp) ("tilsige"  adj pp);
+LIST ikke-sans-adj = e-sans-adj = ("regne"  adj pp) ("grebet"  adj) ("sætte"  adj pp) ("pågå"  adj pp) ("løje" adj pp) ("overholde"  adj pp) ("befinde"  adj pp) ("spekulere"  adj pp) ("forbryde"  adj pp) ("bistå"  adj pp) ("rådføre"  adj pp) ("foreligge"  adj pp) ("fornemme"  adj pp) ("driste"  adj pp) ("forholde"  adj pp) ("håndtere"  adj pp) ("håndtere"  adj pp) ("affinde"  adj pp)  ("overstige"  adj pp) ("kvie"  adj pp) ("rotte"  adj pp) ("feriere"  adj pp) ("luske"  adj pp) ("forestå"  adj pp) ("forregne"  adj pp) ("stride"  adj pp) ("sysle"  adj pp) ("tilflyde"  adj pp) ("forelæse"  adj pp)  ("hige"  adj pp) ("punge"  adj pp) ("vædde"  adj pp) ("blafre"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("klarne"  adj pp) ("letne"  adj pp) ("oversidde"  adj pp) ("påminde"  adj pp) ("dvæle"  adj pp) ("forsove"  adj pp) ("ordlægge"  adj pp) ("prakke"  adj pp) ("smyge"  adj pp) ("tillyse"  adj pp) ("bemægtige"  adj pp) ("gamble"  adj pp) ("gjalde"  adj pp) ("hinke"  adj pp) ("livne"  adj pp) ("modstå"  adj pp) ("skorte"  adj pp) ("tø"  adj pp) ("ynke"  adj pp) ("angå"  adj pp) ("danke"  adj pp) ("fremgå"  adj pp) ("fremgå"  adj pp) ("gumle"  adj pp) ("herse"  adj pp)  ("huje"  adj pp) ("myldre"  adj pp) ("nedkomme"  adj pp) ("paradere"  adj pp) ("sparre"  adj pp) ("afvige"  adj pp)  ("befatte"  adj pp) ("bejle"  adj pp) ("campe"  adj pp) ("duellere"  adj pp) ("dulle"  adj pp) ("duve"  adj pp) ("flotte"  adj pp) ("frø"  adj pp) ("hånle"  adj pp) ("indebære"  adj pp) ("mukke"  adj pp) ("nage"  adj pp) ("posere"  adj pp) ("prelle"  adj pp) ("pønse"  adj pp) ("rippe"  adj pp) ("risle"  adj pp) ("slingre"  adj pp) ("sondre"  adj pp) ("teoretisere"  adj pp) ("tilsnige"  adj pp) ("tvære"  adj pp) ("undergå"  adj pp) ("afhænge"  adj pp) ("bekvemme"  adj pp) ("betle"  adj pp) ("bævre"  adj pp) ("blegne"  adj pp) ("blunde"  adj pp) ("daffe"  adj pp) ("defilere"  adj pp) ("husere"  adj pp) ("hysse"  adj pp) ("hysse"  adj pp) ("hånle"  adj pp) ("indestå"  adj pp) ("isne"  adj pp) ("jamme"  adj pp) ("jamme"  adj pp) ("konvergere"  adj pp) ("krible"  adj pp) ("lefle"  adj pp) ("propagandere"  adj pp) ("rutsje"  adj pp) ("samtykke"  adj pp) ("skingre"  adj pp) ("skråne"  adj pp)  ("smaske"  adj pp) ("småløbe"  adj pp) ("solidarisere"  adj pp) ("spjætte"  adj pp) ("sygne"  adj pp) ("tendere"  adj pp) ("tysse"  adj pp) ("vedstå"  adj pp) ("økonomisere"  adj pp) ("akkordere"  adj pp) ("albue"  adj pp) ("alternere"  adj pp) ("ambulere"  adj pp) ("anmasse"  adj pp) ("anstå"  adj pp) ("ansøge"  adj pp) ("bede"  adj pp) ("bede"  adj pp) ("bekomme"  adj pp) ("besidde"  adj pp) ("bæve"  adj pp) ("bivuakere"  adj pp) ("blitze"  adj pp) ("blive"  adj pp) ("blive"  adj pp) ("burde"  adj pp)  ("bølge"  adj pp) ("changere"  adj pp) ("chevrotere"  adj pp) ("choke"  adj pp) ("clinche"  adj pp) ("dy"  adj pp) ("eksellere"  adj pp) ("favne"  adj pp)  ("fastne"  adj pp) ("fise"  adj pp)  ("flekse"  adj pp) ("fluktuere"  adj pp) ("fluorescere"  adj pp) ("fluoridere"  adj pp) ("flyve"  adj pp) ("forhåndsstemme"  adj pp) ("forhåndsstemme"  adj pp) ("forivre"  adj pp) ("forlyde"  adj pp) ("forlyste"  adj pp) ("formaste"  adj pp) ("formene"  adj pp) ("forpleje"  adj pp) ("forregne"  adj pp) ("forsynde"  adj pp) ("fortryde"  adj pp) ("øsregne"  adj pp) ("fråde"  adj pp)  ("gebærde"  adj pp) ("genlyde"  adj pp)  ("gyse"  adj pp) ("halvsove"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("handhilse"  adj pp) ("harme"  adj pp) ("harske"  adj pp) ("henhøre"  adj pp) ("henstå"  adj pp) ("heppe"  adj pp) ("hærdne"  adj pp) ("interferere"  adj pp) ("intervenere"  adj pp) ("kalligrafere"  adj pp) ("klukle"  adj pp)  ("knockoute"  adj pp)  ("kokkerere"  adj pp) ("kokre"  adj pp) ("konnotere"  adj pp) ("kværulere"  adj pp) ("kvine"  adj pp) ("kvine"  adj pp) ("lade"  adj pp) ("layoute"  adj pp) ("læst"  adj pp) ("moralisere"  adj pp) ("nedstamme"  adj pp) ("obstruere"  adj pp)  ("orme"  adj pp) ("oscillere"  adj pp) ("permutere"  adj pp) ("prale"  adj pp)  ("præsidere"  adj pp) ("proviantere"  adj pp)  ("påligge"  adj pp) ("radiere"  adj pp) ("ralle"  adj pp) ("rebellere"  adj pp) ("remse"  adj pp) ("renoncere"  adj pp) ("residere"  adj pp) ("respirere"  adj pp) ("restere"  adj pp) ("revoltere"  adj pp) ("rivalisere"  adj pp) ("salutere"  adj pp) ("sameksistere"  adj pp) ("sexdebutere"  adj pp) ("shake"  adj pp) ("zigzagge"  adj pp) ("sjofle"  adj pp)  ("jonglere"  adj pp) ("sygne"  adj pp)  ("skillinge"  adj pp) ("skoggerle"  adj pp) ("skumle"  adj pp) ("snorksove"  adj pp) ("storle"  adj pp) ("storskrige"  adj pp) ("succedere"  adj pp) ("surmule"  adj pp)  ("sutenere"  adj pp) ("svalne"  adj pp) ("svanse"  adj pp) ("svire"  adj pp) ("svæve"  adj pp)("tilligge"  adj pp) ("tiltro"  adj pp) ("tykne"  adj pp) ("tykne"  adj pp) ("transfigurere"  adj pp) ("transpirere"  adj pp) ("twiste"  adj pp) ("ty"  adj pp) ("tystne"  adj pp) ("understå"  adj pp) ("undgælde"  adj pp) ("undvige"  adj pp) ("vagabondere"  adj pp) ("vedkomme"  adj pp) ("vrinske"  adj pp) ("vånde"  adj pp)  ("forskåne"  adj pp) ("genindføre"  adj pp) ("beligge"  adj pp) ("beråbe"  adj pp) ("berøve"  adj pp) ("forrådne"  adj pp) ("grimassere"  adj pp)  ("konformere"  adj pp) ("overensstemme"  adj pp) ("overstrømme"  adj pp) ("petitionere"  adj pp) ("pladedebutere"  adj pp)("prøveflyve"  adj pp) ("småkoge"  adj pp) ("sulfatere"  adj pp) ("sulfidere"  adj pp) ("beskyde"  adj pp) ("afmarchere"  adj pp) ("blaffe"  adj pp) ("divergere"  adj pp) ("flippe"  adj pp) ("gymnasticere"  adj pp)("hikke"  adj pp) ("hovere"  adj pp) ("hungre"  adj pp)  ("rødne"  adj pp) ("snylte"  adj pp) ("stage"  adj pp) ("svimle"  adj pp) ("efterleve"  adj pp) ("kurere"  adj pp) ("forveksle"  adj pp) ("konsultere"  adj pp) ("tiltage"  adj pp) ("albue"  adj pp) ("begive"  adj pp) ("frafalde"  adj pp) ("gøgle"  adj pp) ("halse"  adj pp) ("ironisere"  adj pp) ("jumpe"  adj pp) ("klimpre"  adj pp)  ("kondolere"  adj pp) ("kopulere"  adj pp) ("meje"  adj pp) ("mugne"  adj pp) ("plire"  adj pp)  ("revurdere"  adj pp) ("snegle"  adj pp) ("spankulere"  adj pp) ("sympatisere"  adj pp) ("syde"  adj pp) ("tindre"  adj pp) ("vibrere"  adj pp) ("vralte"  adj pp) ("vrimle"  adj pp) ("deflatere"  adj pp)  -16 ("agitere"  adj pp) ("florere"  adj pp) ("larme"  adj pp) ("musicere"  adj pp)("skvulpe"  adj pp) ("styrtregne"  adj pp) ("sutte"  adj pp) ("syde"  adj pp) ("tykne"  adj pp) ("tykne"  adj pp) ("deportere"  adj pp) ("dunste"  adj pp) ("fnyse"  adj pp) ("fyge"  adj pp) ("skratte"  adj pp) ("småpludre"  adj pp) ("sprinte"  adj pp) ("sprudle"  adj pp) ("tørste"  adj pp) ("undslippe"  adj pp) ("abonnere"  adj pp) ("gennemstrømme"  adj pp) ("klapre"  adj pp)("rasle"  adj pp) ("tiske"  adj pp) ("urinere"  adj pp) ("adlyde"  adj pp) ("fænge"  adj pp) ("filosofere"  adj pp) ("henfalde"  adj pp) ("hygge"  adj pp) ("indkvartere"  adj pp) ("pendle"  adj pp) ("sige"  adj pp) ("ødsle"  adj pp) ("fable"  adj pp) ("græmme"  adj pp) ("harcelere"  adj pp) ("håndhilse"  adj pp)  ("sprælle"  adj pp) ("stavre"  adj pp) ("surfe"  adj pp) ("sømme"  adj pp) ("bestræbe"  adj pp) ("forbarme"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indlade"  adj pp) ("kapitulere"  adj pp) ("tilkendegive"  adj pp) ("votere"  adj pp) ("fremstå"  adj pp) ("fremstå"  adj pp) ("indfinde"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("drille"  adj pp) ("forske"  adj pp) ("forudsige"  adj pp) ("kategorisere"  adj pp) ("konkurrere"  adj pp) ("krybe"  adj pp) ("sakke"  adj pp) ("affeje"  adj pp) ("bestikke"  adj pp) ("dysse"  adj pp) ("frasige"  adj pp) ("imødekomme"  adj pp) ("kværke"  adj pp) ("strege"  adj pp) ("bekendtgøre"  adj pp) ("frase"  adj pp) ("kreditere"  adj pp) ("afhjælpe"  adj pp) ("afstedkomme"  adj pp) ("fraskrive"  adj pp) ("håne"  adj pp) ("tilsige"  adj pp);
 LIST ikke-sans-verb = "bande"s;
 LIST ikke-sans-noun = "brutto";
 LIST ikke-sans-noun-singular-indefinite = "begynder" ("brække"  n ind sg) "bygger"  ("daler"  n ind sg) "deler"  drejer"  "driver"  ("duk"  sg ind) "dukker"  "finder"  "flikker"  "fordeler"  "gange"  "gasser"  "gælder"  "griber"  ("gule"  n sg ind) "handler"  "heller"  "hører"  "kæmper"  "koger"  "kender"  "klager"  "knapper"  "krænker"  "krydser"  "leger"  "ligger"  "lurer"  "løfter"  "mager"  "mærker"  "midler" "nævner"  "nyder"  "pakker"  "plager"  "regner"  "retter"  "sætter"  "skyder"  "snakker"  ("snurt"  sg ind) "springer"  "sætter"  "stammer"  "stemmer"  "stiller"  "suser"  "tanker"  "tekster"  "trapper"  "tyder"  "vejer"  ("vinde"  n sg ind) ("kæmper"  n) ("kvalme"  n) ;
@@ -383,7 +383,7 @@ LIST målnoun = '' "snes"  "sømil"  "sekundmeter"  "procent"  "nanometer"  "mil
 LIST nom = (n) (np) (adj) (prn) (det) ;
 LIST nom-singular = (n sg) (np sg) ("al"  sg) ("de"  nom <*>) ("han"  nom) ("jeg"  nom) ("hun"  nom) ("du"  nom) ("den"  prn) ("denne"  prn ut) ("det"  prn) ("denne"  prn nt) ("man"  prn) ;
 LIST nom-ut-singular = (n ut sg) (np ut sg) ("al"  det ut) ("jeg"  nom) ("du"  nom) ("den"  prn) ("denne"  prn) ;
-LIST nom-neuter-singular = (n nt sg) (np nt sg) ("all"  det nt) ("det"  prn) ("denne"  prn nt) ;
+LIST nom-neuter-singular = (n nt sg) (np nt sg) ("al"  det nt) ("det"  prn) ("denne"  prn nt) ;
 LIST nom-plural = "vi"  "disse"  "I"  "de"  (n pl) (np pl) ("al"  det pl) ;
 LIST nom-without-pron = n np adj det ;
 LIST nom/akk-pron = "jeg"  "han"  "du"  ;
@@ -513,20 +513,20 @@ LIST noun/adj/nr2-det = "sådan" samme"  "noe"  "næste"  "hver"  "halvanden"  "
 LIST noun/adj/pron/det = n np adj prn det ;
 LIST noun/adj/pron/det/konj = n np adj prn det cnjcoo ;
 LIST noun/pron/%al% = n np prn ("al"  det qnt) ;
-LIST noun/pron/%al%/%mang%/%mange% = n np prn ("al"  det qnt) ("mange"  det) ;
+LIST noun/pron/%al%/%mange% = n np prn ("al"  det qnt) ("mange"  det) ;
 LIST noun/pron/preposition = n np prn pr ;
 LIST sup = sup ;
 LIST number = "1" (det qnt pl) ("en"  det qnt) ("én" det qnt) "pi" ;
 LIST number-noun = "tusind"  "trillion"  "titusind"  "mrd." "million"  "milliard"  "mill." "kvadrillion"  "hundrede"  "halvmillion"  "billion"  "billiard" "pi" ;
 LIST punctuation = cm <ellipsis> <kolon> lpar rpar <semi> <hyphen> ;
-LIST tidsadv = "tidlig"  "sen" "nu"  "længe"  "igen"  "før"  "efter"  "da"  ("snar"  nt ind sg) ;
-LIST tittel = <tittel> @tittel ;
+LIST timeadv = "tidlig"  "sen" "nu"  "længe"  "igen"  "før"  "efter"  "da"  ("snar"  nt ind sg) ;
+LIST titel = <titel> @titel ;
 LIST trans12/til = tr12/til ;
 LIST trans2 = tr2 tr18 ;
 LIST indefinite = ind ;
 LIST indefinite-adj = (adj ind) (adj pprs) ;
-LIST indefinite-det = ("en"  det) ("noen"  det) ("ingen"  det) ;
-LIST indefinite-det-plural = ("noen"  det pl) ("ingen"  det pl) ;
+LIST indefinite-det = ("en"  det) ("nogen"  det) ("ingen"  det) ;
+LIST indefinite-det-plural = ("nogen"  det pl) ("ingen"  det pl) ;
 LIST indefinite-singular = (sg ind) ;
 LIST indefinite-singular-ut-adj = (adj ut ind sg) (adj pprs) ;
 LIST indefinite-singular-ut-noun = (n ut sg ind) (np ut sg ind) ;
@@ -540,8 +540,8 @@ LIST indefinite-neuter-det = ("en"  det nt) ("noen"  det nt) ("ingen"  det nt) ;
 LIST indefinite-noun = (n ind) (np ind) ;
 LIST utfyll-sbu = "siden"  "når"  "før"  "der"  "da"  ;
 LIST utrop-t = "$!" "!" ;
-LIST veldig-ambiguous-part = "nære"  "nyde"  "mage"  "lide"  "hele"  "gale"  "fore"  "brune"  "bene"  "bare"   gen ;
-LIST veldig-ambiguous-verb = ("penne"  pres) ("stede"  pres) ("dy"  pres) ("grade"  pres) ("kurve"  pres) ("iblande"  vblex pret) ("grade"  vblex pres) ;
+LIST very-ambiguous-part = "nære"  "nyde"  "mage"  "lide"  "hele"  "gale"  "fore"  "brune"  "bene"  "bare"   gen ;
+LIST very-ambiguous-verb = ("penne"  pres) ("stede"  pres) ("dy"  pres) ("grade"  pres) ("kurve"  pres) ("iblande"  vblex pret) ("grade"  vblex pres) ;
 LIST verb = vblex ;
 LIST verb-u-imp = (vblex pres) (vblex pret) (vblex pp) (vblex inf) ;
 
@@ -1580,7 +1580,7 @@ CONSTRAINTS
 	(NOT -1 noun-gen)
 	(NOT -1 %og%)
 ;
-#  "ikke noun dersom det ikke er et hjem osv
+#  "ikke noun hvis det ikke er et hjem osv
 # eller feks \"hus og hjem\""
 # KBU: flertal må med...
 
@@ -1753,7 +1753,7 @@ CONSTRAINTS
 ;
 #  "Hvis til står tidlig i perioden
 # (dvs at det ikke er noe PRES/PRET til venstre)
-# må leddsetningen etterfølges av , PRES/PRET
+# må leddsætningen etterfølges av , PRES/PRET
 # Til hun kommer, skriver han"
 
   "<timer>"   REMOVE:3181   (vblex pres) IF
@@ -2601,8 +2601,8 @@ SELECT:2963 (adj nt ind sg) IF
 #  "Sjefen kan ikke direkte (adj neuter) anbefale
 # NOT LR0 copula/OBJPRED: Ikke subjekts-
 # eller objektspredikativ.
-# Setningen må ha verb til venstre
-# (Mange setningsfragment skaper trøbbel
+# Sætningen må ha verb til venstre
+# (Mange sætningsfragment skaper trøbbel
 # som: Fundament uenig (m/f/n)!)
 # Fortsatt lidt mange feil"
 
@@ -3984,7 +3984,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1 lexicalverb BARRIER noun-gen)
 	(*1 lexicalverb BARRIER comma/konj)
 ;
-#  "Vælger preposition når verbet tilhører skjult rel-setn
+#  "Vælger preposition når verbet tilhører skjult rel-sætn
 # Vi vil vide mer om (preposition) den mander en .."))
 
  SELECT:2649 (pr) IF
@@ -4033,7 +4033,7 @@ SELECT:2963 (adj nt ind sg) IF
 # behov for dette. (Kun et lexicalverb i perioden)
 # Ikke: Om (sbu) det var sådan han ville ha det?
 # Ikke: Før (adv) rejste han med toget
-# NOT %SOM%: For mange setninger som:
+# NOT %SOM%: For mange sætninger som:
 # Som (sbu) han ikke havde lest en stavelse af
 # Av en eller anden grunn er det mange ufuldstændige
 
@@ -4109,7 +4109,7 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "(**-2C PRON/noun L-1)
 # (NOT L-1 preposition))
-# identificerer lexicalverb i rel.setn uden som
+# identificerer lexicalverb i rel.sætn uden som
 # den dag vi vinder"
 
  SELECT:2616 pron-pers IF
@@ -4119,7 +4119,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(2C lexicalverb)
 ;
 #  "sadsynlig pron pers: at jeg ikke kunne komme
-# Dersom \"adverbet\" kan være adjektiv i np uden
+# hvis \"adverbet\" kan være adjektiv i np uden
 # noun-hovede, undtas nogen, dette osv:
 # hvis nogen (ikke pers pron) ekstra kommer på"))
 
@@ -4283,7 +4283,7 @@ SELECT:2963 (adj nt ind sg) IF
 # sandsynligt at der kun er pp-er i forfelt"
 #      :group 36
 
-# jofmmarker
+
  SELECT:2591 (prn nom) IF
 	(0 nom/akk-pron)
 	(NOT 0 gen)
@@ -4613,7 +4613,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1O sentence-border LINK **-1C lexicalverb LINK NOT 0 ambiguous-verb)
 ;
 #  "de vidunderligt smukke sommerfuglene
-# Tjekker også at der er lexicalverb i setningen sådan at ikke
+# Tjekker også at der er lexicalverb i sætningen sådan at ikke
 #  feks denne blir forkert: De sidstnævnte får (pres)
 # (forts) ofte rigtig gode anmeldelser"))
 
@@ -4753,7 +4753,7 @@ SELECT:2963 (adj nt ind sg) IF
 # comma ikke del af np"
 
  SELECT:2494 noun IF
-	(NOT 0 ambiguous-mask-noun)
+	(NOT 0 ambiguous-ut-noun)
 	(NOT 0 ambiguous-neuter-noun)
 	(-1C adj)
 	(-2C preposition)
@@ -4911,7 +4911,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**1C lexicalverb CBARRIER sentence-border)
 ;
 #  "med stadig længre nætter
-# 9.3.2001: sjekker at det er funnet verb tidligere i setningen"
+# 9.3.2001: sjekker at det er funnet verb tidligere i sætningen"
 
  SELECT:2513 noun IF
 	(0 pres)
@@ -4919,7 +4919,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**-1C preposition BARRIER ikke-adv-adj)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
-#  "9.3.2001: Ny regel som tjekker om det er fundet verb tidligere i setningen."
+#  "9.3.2001: Ny regel som tjekker om det er fundet verb tidligere i sætningen."
 
  SELECT:2516 noun IF
 	(NOT 0 ikke-noun-verb)
@@ -5018,7 +5018,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(*1 sentence-border BARRIER lexicalverb)
 ;
 #  "Alle som tåler den røde diesel kan (verb)"
-# finder verbet i setningen efter en relativ-
+# finder verbet i sætningen efter en relativ-
 # sætning med som når denne står først i
 # perioden."
 
@@ -5907,7 +5907,7 @@ CONSTRAINTS
 # 6.3.2001: not 0 tiltalte"
 
  REMOVE:2285 (adj pp) IF
-	(0 veldig-ambiguous-part)
+	(0 very-ambiguous-part)
 	(NOT 0 gen)
 ;
 #  "kh jan 2004: Antaget at adjektivene som er genereret av vældig ambiguous participier "
@@ -5952,7 +5952,7 @@ CONSTRAINTS
 ;
 #  "stryger adjektiv som ikke kongruerer
 # med et adj eller noun til højre
-# fra politisk (ikke m/f adj) hold
+# fra politisk (ikke ut adj) hold
 # det kunne selvfølgelig (ikke m/f adj) komme
 # nogen egentlig (ut eller n) ydre (komp) trussel
 # Ikke stryg: hvor høj (adj ut) er du?
@@ -6091,7 +6091,7 @@ CONSTRAINTS
 	(*-2 ikke-adv LINK 0 pres/pret)
 	(*1 ikke-adv)
 ;
-#  "Han skal få en (ikke adv) bok"))
+#  "Han skal få en (ikke adv) bog"))
 
  REMOVE:2226 (adv) IF
 	(-1C indefinite-det)
@@ -6099,7 +6099,7 @@ CONSTRAINTS
 	(NOT 1 adj)
 	(NOT 1 adv)
 ;
-#  "en lugt (ikke adv) ag melk"))
+#  "en lugt (ikke adv) af mælk"))
 
 
 
@@ -6146,7 +6146,7 @@ CONSTRAINTS
  REMOVE:2144 (det qnt pl) IF
 	(0 det-singular)
 	(NOT 1 comma)
-	(*1O indefinite-singular-noun LINK NOT 0 ambiguous-mask-noun LINK NOT 0 ambiguous-neuter-noun LINK NOT 0 plural LINK NOT 0 infinitive-marker LINK NOT 0 lexicalverb LINK NOT *-1 ikke-adv-adj-det)
+	(*1O indefinite-singular-noun LINK NOT 0 ambiguous-ut-noun LINK NOT 0 ambiguous-neuter-noun LINK NOT 0 plural LINK NOT 0 infinitive-marker LINK NOT 0 lexicalverb LINK NOT *-1 ikke-adv-adj-det)
 ;
 #  "nogen (ikke plural) særstilling "))
 
@@ -6307,7 +6307,7 @@ CONSTRAINTS
 	(NOT -1 comma)
 	(NOT -2 >>>)
 ;
-#  "denne acronymaster mulige imperativformer som
+#  "denne fjerner mulige imperativformer som
 # ikke står i begyndelsen af en sætning efter en pot.sætningsgrænse.
 # Han lægger ikke skjul (ikke imp) på sin irritation
 # 7.8.2001: not -1 parenthesis: Der er han (se ramme)"))
@@ -6368,9 +6368,9 @@ CONSTRAINTS
 	(1C noun)
 	(*2 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition LINK NOT 0 pres/pret)
 ;
-#  "bakunre for den (ikke pron) mønstringspligtige her hjemme"))
+#  "baggrunden for den (ikke pron) mønstringspligtige her hjemme"))
 
-#jofmmarker
+
 
  REMOVE:2081 pron-pers IF
 	(0 det)
@@ -6538,27 +6538,27 @@ CONSTRAINTS
 	(0 nominativ)
 	(*-1O sentence-border LINK *1 ikke-adv-adj-det LINK 0 adverbialnoun LINK *1 ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition LINK 0 pres/pret LINK NOT *1 alt)
 ;
-#  "den første tiden danset han (nom) ved Grefsen Gymnas"
+#  "den første tiden dansede han (nom) ved Grefsen Gymnas"
 #      :group 62
-#jofmmarker
+
 
 
  REMOVE:2060 (prn acc) IF
 	(0 nominativ)
 	(*-1O sentence-border LINK *1 ikke-adv-adj-det LINK 0 nom LINK NOT 0 ikke-noun-adj-det-pron LINK *1 ikke-poss-det LINK 0 pres/pret LINK NOT 0 ikke-verb LINK *1 ikke-adv LINK 0 iv LINK NOT 0 ikke-verb LINK *1 ikke-adv-adj-det LINK 0 nom LINK NOT 0 ikke-noun-adj-det-pron LINK NOT *1 alt)
 ;
-#  "han kunne huske et bilde han (nom) indbilte
+#  "han kunne huske et billede han (nom) indbildte
 #
-# seg han hadde sett"
+# sig han havde set"
 #      :group 62
 
  REMOVE:2061 (prn acc) IF
 	(0 nominativ)
 	(*-1O sentence-border LINK *1 ikke-adv-adj-det LINK 0 nom LINK NOT 0 ikke-noun-adj-det-pron LINK *1 ikke-adv LINK 0 pres/pret LINK *1 ikke-adv-adj-det LINK 0 nom LINK NOT 0 ikke-noun-adj-det-pron LINK NOT *1 alt)
 ;
-#  "han husker et bilde han (nom) indbilte
+#  "han husker et billede han (nom) indbidlte
 #
-# seg han hadde sett"
+# sig han havde set"
 #      :group 62
 
  REMOVE:2068 (prn acc) IF
@@ -6567,7 +6567,7 @@ CONSTRAINTS
 	(**-1C pres/pret BARRIER ikke-adv)
 	(**-1C pres/pret LINK *-1 ikke-adv LINK NOT 0 %som%)
 ;
-#  "han syntes han (nom) hørte noe"
+#  "han syntes han (nom) hørte noget"
 #      :group 62
 
  REMOVE:2050 (prn) IF
@@ -6580,8 +6580,7 @@ CONSTRAINTS
 	(NOT -1 pres/pret)
 	(*2 ikke-poss-det LINK NOT 0 lexicalverb)
 ;
-#  "å nå de (ikke pron) unge
-# NOT LR0 lexicalverb: det har vært det (pron) Roger har kalt katten sin
+#  "at nu de (ikke pron) unge
 # 8.3"
 
  REMOVE:2051 (prn) IF
@@ -6594,12 +6593,12 @@ CONSTRAINTS
 	(NOT -1 pres/pret)
 	(NOT *2 ikke-poss-det)
 ;
-#  "å nå de (ikke pron) unge"))
+#  "at nu de (ikke pron) unge"))
 
  REMOVE:2052 (prn) IF
 	(1 %slags%)
 ;
-#  "minst mulig av den (m+f) slags (m+f)"
+#  "mindst mulig af den (ut) slags (ut)"
 #      :group 63
 
  REMOVE:2036 (cnjsub) IF
@@ -6609,7 +6608,7 @@ CONSTRAINTS
 	(NOT -1 ikke-noun)
 	(**-2CO sentence-border/parenthesis-begin LINK *1 ikke-adv-adj-det LINK 0 noun LINK NOT 0 ikke-noun LINK NOT *1 alt)
 ;
-#  "arbeidsmiljøloven (lov om (ikke sbu) arbeidervern og arbeidsmiljø)...
+#  "arbejdsmiljøloven (lov om (ikke sbu) arbejdervern og arbejdsmiljø)...
 # 22.3"
 #250908: Not o før
 
@@ -6627,7 +6626,7 @@ CONSTRAINTS
 	(NOT 1 ikke-adv-adj)
 	(2C pres/pret)
 ;
-#  "til (preposition) nå har ..."))
+#  "til (preposition) nu har ..."))
 
  REMOVE:2044 (cnjsub) IF
 	(0 preposition)
@@ -6637,7 +6636,7 @@ CONSTRAINTS
 	(NOT *1 ellipsis)
 	(*1 pres/pret LINK NOT *1 pres/pret)
 ;
-#  "Om vinteren er det ingen målbar tilvekst"
+#  "Om vinteren er der ingen målbar tilvækst"
 
  REMOVE:2045 (cnjsub) IF
 	(0 preposition)
@@ -6651,18 +6650,18 @@ CONSTRAINTS
 	(**1C sentence-border BARRIER pres/pret)
 ;
 #  "før (ikke sbu) min tid. "))
-# Merk: sentence-border kan vere på pres/pret-ordet: «visste ikke hvor<adv> høy farten var<pret><sentence-border>» -KBU
+# Mærk: sentence-border kan være på pres/pret-ordet: «vidste ikke hvor<adv> høj farten var<pret><sentence-border>» -KBU
 
  REMOVE:2047 (cnjsub) IF
 	(1 comma/end-of-sentence)
-;
-#  "Ho hadde fått han tilbake, liksom,/. "
+
+#  "Hun hadde fået ham tilbage, ligesom,/. "
 
  REMOVE:2049 (cnjsub) IF
 	(NOT 0 %som%)
 	(1C lexicalverb)
 ;
-#  "fra før (ikke sbu) har de lagd ...
+#  "fra før (ikke sbu) har de lagt ...
 #
 # 11.3"
 
@@ -6671,46 +6670,6 @@ CONSTRAINTS
 	(0 pres)
 ;
 
- REMOVE:2031 indefinite-singular-noun IF
-	(0 indefinite-plural-noun)
-	(-1 adj-plural)
-	(NOT 1 noun)
-	(NOT -1 adj-singular)
-	(NOT -1 det-singular)
-	(NOT -1 gen)
-	(NOT -1 sup)
-	(NOT -1 lexicalverb)
-	(NOT -1 noun-prop)
-;
-#  "visse fordeler (ikke en fordeler!)"))
-
- REMOVE:20310 indefinite-singular-noun IF
-	(0 indefinite-plural-noun)
-	(1 copula LINK *1 adj-plural BARRIER ikke-adv)
-;
-# «Barn er store»
-
- REMOVE:2032 indefinite-singular-noun IF
-	(NOT 0 adverbialnoun)
-	(NOT 0 number-noun)
-	(NOT 0 målnoun)
-	(NOT 0 gen)
-	(NOT 0 tittel)
-	(NOT 1 comma/konj)
-	(NOT 1 anf)
-	(NOT -1 det/adj/gen/prop)
-	(NOT -1 %hvilken%)
-	(NOT -1 preposition)
-	(NOT -1 comma/konj)
-	(*-1 sentence-border BARRIER copula)
-	(*1 ikke-adv-adj-det BARRIER sentence-border)
-	(*1 ikke-adv-adj-det BARRIER acronym/ukjsingular-ord)
-	(*1 ikke-adv-adj-det BARRIER parenthesis)
-	(*1 ikke-adv-adj-det LINK 0 noun LINK NOT 0 ikke-noun LINK NOT 0 adverbialnoun LINK NOT 0 noun-prop LINK NOT 0 acronym)
-	(*0 lexicalverb)
-;
-#  "han kjøpte nemlig feil (ikke noun) bok da"))
-# (*0 lexicalverb) for å unngå titler --KBU
 
  REMOVE:2033 indefinite-singular-noun IF
 	(0 definite-noun)
@@ -6731,7 +6690,7 @@ CONSTRAINTS
 	(0 plural-noun)
 	(*-1 %flere% BARRIER ikke-adv-adj)
 ;
-#  "flere bankbygg (noun plural)"))
+#  "flere bankbyggerier (noun plural)"))
 
  REMOVE:2029 singular-noun IF
 	(NOT -1 comma/konj)
@@ -6745,30 +6704,9 @@ CONSTRAINTS
 	(*3 plural-noun BARRIER ikke-adv-adj)
 	(NOT 2 ikke-adv-adj)
 ;
-#  "røde (ikke noun singular) og hvite petunia"
+#  "røde (ikke noun singular) og hvide petunia"
 #      :group 64
 
- REMOVE:2025 noun-indefinite IF
-	(NOT 0 adverbialnoun)
-	(NOT 0 number-noun)
-	(NOT 0 målnoun)
-	(NOT 0 gen)
-	(NOT 0 tittel)
-	(NOT 1 comma/konj)
-	(NOT 1 anf)
-	(NOT -1 det/adj/gen/prop)
-	(NOT -1 %hvilken%)
-	(NOT -1 preposition)
-	(NOT -1 comma/konj)
-	(*-1 sentence-border BARRIER copula)
-	(*1 ikke-adv-adj-det BARRIER sentence-border)
-	(*1 ikke-adv-adj-det BARRIER acronym/ukjsingular-ord)
-	(*1 ikke-adv-adj-det BARRIER parenthesis)
-	(*1 ikke-adv-adj-det LINK 0 noun LINK NOT 0 ikke-noun LINK NOT 0 adverbialnoun LINK NOT 0 acronym LINK NOT 0 noun-prop LINK 1 sentence-border)
-	(*0 lexicalverb)
-;
-#  "han kjøpte nemlig feil (ikke noun) bok"))
-# (*0 lexicalverb) for å unngå titler --KBU
 
  REMOVE:2026 noun-indefinite IF
 	(0 pres/pret)
@@ -6788,17 +6726,12 @@ CONSTRAINTS
 	(*1 sentence-border BARRIER pres/pret)
 ;
 
- REMOVE:2023 definite-noun IF
-	(-1C adj-indefinite)
-	(**-1C preposition BARRIER ikke-adv-adj)
-;
-#  "da trenger en psingular lite av statistiske data (ikke be)"))
 
  REMOVE:2024 definite-noun IF
 	(-1 poss-det)
 	(NOT -2 definite-noun)
 ;
-#  "likevel er hver bevegelse hennes egen (ikke noun be)
+#  "hver bevægelse hendes egen (ikke noun be)
 # 26.3"
 
  REMOVE:2016 plural-noun IF
@@ -6814,19 +6747,8 @@ CONSTRAINTS
 	(NOT -1 comma/konj)
 	(*-1O det LINK NOT 0 plural LINK NOT 0 ikke-det LINK NOT 0 %samme/næste/ene/eneste/selve/forrige% LINK NOT *1 ikke-adv-adj)
 ;
-#  "hver (ikke plural) mann (ikke plural)"))
+#  "hver (ikke plural) mand (ikke plural)"))
 
- REMOVE:2019 plural-noun IF
-	(NOT 0 %gang%)
-	(**-1CO sentence-border LINK 1 adv LINK 1 pres/pret LINK 0 copula LINK *1 ikke-adv-adj-det LINK 0 nom-singular LINK NOT 0 plural LINK NOT 0 %det/dette%-pron LINK NOT 0 %del/andel% LINK NOT *1 ikke-poss-det)
-;
-#  "sånn var han laga (ikke noun plural)"))
-
- REMOVE:2020 plural-noun IF
-	(NOT 0 %gang%)
-	(**-1CO sentence-border LINK *1 ikke-adv-adj-det LINK 0 nom-singular LINK NOT 0 plural LINK NOT 0 %det/dette%-pron LINK NOT 0 %del/andel% LINK *1 ikke-adv-adj-nounmgen-pron-detmdem-preposition LINK 0 pres/pret LINK 0 copula LINK NOT *1 ikke-adv-adj-det)
-;
-#  "hvordan han var laga (ikke noun plural) indi"))
 
  REMOVE:2010 singular-neuter-noun IF
 	(NOT -1 comma/konj)
@@ -6835,9 +6757,7 @@ CONSTRAINTS
 	(*-1O det LINK NOT 1 comma)
 	(*-1O det LINK NOT 0 ikke-det LINK NOT 0 %samme/næste/ene/eneste/selve/forrige% LINK NOT 0 neuter-det LINK NOT 0 poss-det LINK NOT 0 %al% LINK NOT *1 ikke-adv-adj)
 ;
-#  "etter noen år (ikke neuter singular)
-# ikke: i samme år
-#  eller har gitt boka mi håp (noun neuter)"))
+#  "efter nogen år (ikke neuter singular)
 
  REMOVE:2011 singular-neuter-noun IF
 	(0 adj)
@@ -6857,7 +6777,7 @@ CONSTRAINTS
 	(1 noun-prop)
 ;
 #  "Johannes Hansen
-# Gir mange feil hvis en ikke krever at
+# Giver mange feil hvis en ikke krever at
 # prop-et helt sikkert kommer fra leksikon"
 
  REMOVE:2006 (np gen) IF
@@ -6868,10 +6788,10 @@ CONSTRAINTS
 	(NOT 1 anf)
 	(NOT 1 sentence-border)
 ;
-#  "Johannes - Tar sjansen på at det ikke er
-# gen om det det ikke kommer en
-# mulig np etterpå (Wildes forfatterskap)
-# eller en sentence-border (Boka var Wildes.)"))
+#  "Johannes - Tar chancen at det ikke er
+# gen hvis det det ikke kommer en
+# mulig np efter (Wildes forfatterskab)
+# eller en sentence-border (Bogen var Wildes.)"))
 
  REMOVE:2004 (np) IF
 	(NOT 0 ikke-noun)
@@ -6882,10 +6802,10 @@ CONSTRAINTS
 	(NOT -1 %hver%)
 	(NOT -1 preposition)
 ;
-#  "kh 27.5.2003: Geologi-studsingular (ikke prop) Frode Normann Eriksen har studert ett år.
+#  "kh 27.5.2003: Geologi-student(ikke prop) Frode Normann Eriksen har studeret et år.
 # kh jan 2004: NOT 0 sikre-navn: Arne, Dag, Bjørn..."
 
-#  "rosa (ikke noun indeclinable) og hvite petunia"
+#  "rosa (ikke noun indeclinable) og hvide petunia"
 #      :group 66
 
  REMOVE:1997 gen-noun IF
@@ -6894,7 +6814,7 @@ CONSTRAINTS
 	(NOT 1 konj)
 	(NOT 1 parenthesis)
 ;
-#  "gamle, utbombede hus (ikke gen) noen km unna"))
+#  "det gamle, utbombede hus (ikke gen) nogen km væk"))
 
  REMOVE:1998 gen-noun IF
 	(0 adj)
@@ -6902,11 +6822,8 @@ CONSTRAINTS
 	(NOT 0 samset)
 	(NOT 0 adj-gen)
 ;
-#  "felles (adj, ikke gen av felle) struktur
-# NOT 0 SAMSET: fordi denne kan gi underlige
-# resultater som ettermiddagstrafikkens (adj)
-# (av ens adj)
-# 29.5.2001: NOT 0 TIDS (tids er også adjektiv)"))
+#  "fælles (adj, ikke gen av felle) struktur
+
 
 REMOVE:gen-noun gen-noun IF
 	(0 top)
@@ -6922,7 +6839,7 @@ REMOVE:gen-noun gen-noun IF
 	(NOT 0 noun-prop)
 	(NOT -1 indefinite-det)
 ;
-#  "Hun går stille ut av rommet"
+#  "Hun går stille ud av rommet"
 
  REMOVE:1981 noun IF
 	(NOT 0 imp)
@@ -6934,15 +6851,14 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 verb LINK NOT 0 ditransitive)
 	(*1 sentence-border BARRIER pres/pret)
 ;
-#  "\"noun\" er sansynligvis noe annet når to
-# noun står ved siden av hverandre og det:
-# -ikke indleder ny setning (manden gutten så)
-# -Ikke er adverbial i forf (i dag så manden gutten)
-# -verbet i setn ikke er ditransitive (Jeg gav manden eplet)
+#  "\"noun\" er sansynligvis noget annet når to
+# noun står ved siden af hverandre og det:
+# -ikke indleder ny sætning (manden drengen så)
+# -Ikke er adverbial i forf (i dag så manden drengen)
+# -verbet i sætn ikke er ditransitive (Jeg gav manden æblet)
 # -noun til venstre ikke er genitiv (mandens sko)
-# NOT 0 IMP for å hindre at noun blir fjerna og
-# bsre imp står igjen (lite sansynlig at imp er riktig)
-# Eks: Det var i virkeligheten mor (ikke imp) mi ..."))
+# NOT 0 IMP for at hindre at noun blir fjernet og
+
 
  REMOVE:1982 noun IF
 	(0 adj)
@@ -6950,7 +6866,7 @@ REMOVE:gen-noun gen-noun IF
 	(1C noun)
 	(-2 adj)
 ;
-#  "Skogkledde, myke åssider"
+#  "Skogklædte, bløde bjergsider"
 
  REMOVE:1984 noun IF
 	(0 det/adj)
@@ -6961,7 +6877,7 @@ REMOVE:gen-noun gen-noun IF
 	(1C noun)
 	(NOT 1 noun-prop)
 ;
-#  "et enormt potensial for økt (adj) sysselsetting"))
+#  "et enormt potentiale for øget (adj) arbejde"))
 
  REMOVE:1986 noun IF
 	(0 pres/pret)
@@ -6970,7 +6886,7 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 noun BARRIER punctuation)
 	(*-1 noun BARRIER konj)
 ;
-#  "i klarlanguages dreier (ikke noun) det seg om..."))
+#  "i klarsprog drejer (ikke noun) det sig om..."))
 
  REMOVE:1987 noun IF
 	(0 pres/pret)
@@ -6979,18 +6895,10 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 noun BARRIER punctuation)
 	(*-1 noun BARRIER konj)
 ;
-#  "de har i lengre tid enn universitetene
+#  "de har i længere tid end universiteterne
 #
-# arbeidet (ikke noun) med tiltak"))
+# arbejdet (ikke noun) med tiltag"))
 
- REMOVE:1988 noun IF
-	(0 perf-part)
-	(NOT 1 %som%-sbu)
-	(*-1 ikke-adv LINK 0 %det%-pron LINK -1 copula)
-;
-#  "indtil nå er det ikke felt (ikke noun) noen
-# NOT 1 %SOM%-SBU: helst er det hopet (noun) som blir brukt
-# 26.11"
 
  REMOVE:1990 noun IF
 	(0 adj)
@@ -6999,23 +6907,23 @@ REMOVE:gen-noun gen-noun IF
 	(-1C sentence-border)
 	(*1 ikke-adv-adj LINK 0 noun LINK NOT 0 ikke-noun LINK NOT 0 be LINK NOT 0 noun-prop LINK NOT 0 poss-det LINK NOT 0 %selv% LINK *1 ikke-poss-det LINK 0 pres/pret)
 ;
-#  "at vedkommende (ikke noun) areal ble regulert
+#  "at vedkommende (ikke noun) areal blev reguleret
 # 27.11"
 
  REMOVE:1991 noun IF
 	(0 retning)
 ;
-#  "nord (preposition) for spissen av ...
-# Han såg sola gå op i aust (preposition)
-# Tolkar aust, nord osv som preposition i
-# begge tilfeller"
+#  "nord (preposition) for spidsen av ...
+# Han så solen gå op i Øst (preposition)
+# Tolkar øst, nord osv som preposition i
+# begge tilfælde"
 
  REMOVE:1992 noun IF
 	(0 languages)
 	(1 noun)
 	(NOT 1 %alt%)
 ;
-#  "norsk (adj) languages"
+#  "norsk (adj) sprog"
 #      :group 66
 
  REMOVE:1994 noun IF
@@ -7026,13 +6934,13 @@ REMOVE:gen-noun gen-noun IF
 	(NOT 2 noun/adj)
 	(NOT 2 comma/konj)
 ;
-#  "vår elskede"
+#  "vor elskede"
 
  REMOVE:1995 noun IF
 	(0 poss-det)
 	(*1 indefinite-singular-noun BARRIER ikke-adv-adj)
 ;
-#  "vår (ikke noun) virksomhet"))
+#  "vor (ikke noun) virksomhed"))
 
  REMOVE:1933 (vblex pres) IF
 	(1 %siden%)
@@ -7040,14 +6948,14 @@ REMOVE:gen-noun gen-noun IF
 ;
 #  "IKKE-ADV-ADJ-noun-PRON-KONJ-DET pga ikke disamb.
 # feks pron når verbet ikke er slettet
-# for bare noen (det+pron) dager (ikke pres) siden"))
+# for bare noen (det+pron) dage (ikke pres) siden"))
 
  REMOVE:1934 (vblex pres) IF
 	(-1C perf-part)
 	(NOT 1 nom)
 ;
-#  "nærmere bestemt (perf-part) deler (noun) for raketten
-# Ikke: nærmere bestemt deler (verb) hun leilighet med ..."))
+#  "nærmere bestemte (perf-part) flader
+# Ikke: nærmere bestemte flader (verb) han ud  ..."))
 
  REMOVE:1935 (vblex pres) IF
 	(NOT 0 communication-verb)
@@ -7059,7 +6967,7 @@ REMOVE:gen-noun gen-noun IF
 	(**-1C sentence-border BARRIER preposition)
 	(*1 pres/pret BARRIER sentence-border)
 ;
-#  "Anne Marie, styrer (ikke pres) i barnehagen,"))
+#  "Anne Marie, styrer (ikke pres) i børnehaven,"))
 # 040908 Ikke: ,låner (pres) penger de ikke har
 
  REMOVE:1936 (vblex pres) IF
@@ -7069,7 +6977,7 @@ REMOVE:gen-noun gen-noun IF
 	(2 noun)
 	(-2 noun)
 ;
-#  "Spiker, tømmer (ikke pres), sag..."))
+#  "Søm tømmer (ikke pres), sager..."))
 
  REMOVE:1937 (vblex pres) IF
 	(0 noun)
@@ -7085,7 +6993,7 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -1 clb)
 	(*-1 lexicalverb BARRIER sentence-border)
 ;
-#  "Ikke: Nei, (ikke clb) hvisker (verb)"))
+#  "Ikke: Nej, (ikke clb) hvisker (verb)"))
 
  REMOVE:1939 (vblex pres) IF
 	(0 plural-noun)
@@ -7093,7 +7001,7 @@ REMOVE:gen-noun gen-noun IF
 	(-1 adj-plural)
 	(-2 comma)
 ;
-#  "verkende skuldre, tunge legger (noun plural)"
+#  "værkende skuldre, tunge lægge (noun plural)"
 #      :group 67
 
  REMOVE:1940 (vblex pres) IF
@@ -7102,9 +7010,8 @@ REMOVE:gen-noun gen-noun IF
 	(-2 comma)
 	(NOT -3 lexicalverb)
 ;
-#  "glede og overskudd, ikke anger (ikke verb)
-# ikke: hekken dufter, ikke anger (verb!!)"
-#      :group 67
+#  "glæde og overskud, ikke anger (ikke verb)
+
 
  REMOVE:1942 (vblex pres) IF
 	(-1 >>>)
@@ -7117,9 +7024,9 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 periode-begin/konj-clb BARRIER comma/konj)
 	(**1C lexicalverb BARRIER ikke-adv)
 ;
-#  "sletter bare hvis verbet er umiddelbart til
-# høyre eller med bare ev adv mellom seg og verbet:
-# Begge deler (ikke pres) er feil"
+#  "sletter kun hvis verbet er umiddelbart til
+# højre eller med kun et adv mellem sig og verbet:
+# Begge flader (ikke pres) er forkerte"
 #      :group 67
 
  REMOVE:1944 (vblex pres) IF
@@ -7145,8 +7052,8 @@ REMOVE:gen-noun gen-noun IF
 #  "(NOT LR0 TRANS2)
 # (*-1 sentence-border *R)
 # (LR0 %SOM%))
-# Dersom \"verbet\" kongruerar med noko, er det
-# større sjansar for at det ikkje er verb"
+# hvis \"verbet\" kongruerer med noget, er der
+# større chancer for at det ikke er verb"
 
  REMOVE:1946 (vblex pres) IF
 	(NOT 0 pass)
@@ -7169,8 +7076,8 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 sentence-border LINK NOT -1 >>>)
 	(*-1 sentence-border LINK 0 %som%)
 ;
-#  "Mindre sansynlig (?) med setninger som:
-# ... som han kjenner til i bøker"
+#  "Mindre sandsynlig (?) med sætninger som:
+# ... som han kenfer til i bøger"
 
  REMOVE:1949 (vblex pres) IF
 	(NOT 0 pass)
@@ -7180,8 +7087,8 @@ REMOVE:gen-noun gen-noun IF
 	(*-1O sentence-border LINK **1C lexicalverb LINK NOT 0 trans2)
 	(*-1 sentence-border LINK NOT 0 %som%)
 ;
-#  "for å stryke de verbene som ikke blir strøket
-# av regelen over"
+#  "for at stryge de verber som ikke blir strøget
+# af regelen over"
 
  REMOVE:1953 (vblex pres) IF
 	(NOT 0 pass)
@@ -7191,17 +7098,15 @@ REMOVE:gen-noun gen-noun IF
 	(*-1O sentence-border LINK **1C lexicalverb LINK NOT 0 trans2 LINK NOT *-1 pron LINK NOT *-1 noun)
 	(*-1O sentence-border LINK NOT 0 %som%)
 ;
-#  "acronymaster finitt verb dersom det allerede
-# er funnet verb i setningen
-# NOT -1 PRON/noun osv så den ikke skal acronymaste
+#  fjerner finit  verb hvis der allerede
+# er fundet verb i sætningen
+# NOT -1 PRON/noun osv så den ikke skal fjerne
 # verb i rel-u-som
-# NOT LR0 TRANS2: Mulig skjult at-setning
+# NOT LR0 TRANS2: Mulig skjult at-sætning
 # 8.2.2000: NOT LR0 %SOM% fordi indskutte
-# relativsetninger ofte er uten
-# etterfølgende comma:
-# salat vi var redd ville (lexicalverb) ta rotta på"))
-# «Båten jeg maler<lexicalverb> lekker<lexicalverb>»: ikkje fjern lexicalverb om verbet til
-# venstre har noun, så pron, føre seg -KBU
+# relativsætninger ofte er uten
+# efterfølgende komma:
+# «Båten jeg maler<lexicalverb> lækker<lexicalverb>»:
 
 #090908 1C
 
@@ -7217,8 +7122,8 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -1 %at%)
 	(NOT -1 %som%)
 ;
-#  "fordi når (ikke verb pres) våren kommer
-# Ikke: da (sbu/adv) kjenner jeg at ...
+#  "fordi når (ikke verb pres) foråret kommer
+# Ikke: da (sbu/adv) føler jeg at ...
 # Ikke: Der hører jeg hjemme"
 
  REMOVE:1957 (vblex pres) IF
@@ -7226,12 +7131,12 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -1 clb)
 	(NOT -1 adv)
 ;
-#  "utredninger eller planer (ikke pres)"))
+#  "udredninger eller planer (ikke pres)"))
 
  REMOVE:1958 (vblex pres) IF
 	(-1C noun-gen)
 ;
-#  "ordet etter et noun gen er neppe verb"
+#  "ordet efter et noun gen er neppe verb"
 
  REMOVE:1963 (vblex pres) IF
 	(1C konj)
@@ -7239,13 +7144,7 @@ REMOVE:gen-noun gen-noun IF
 	(NOT 1 <adv>)
 	(NOT 2 pres)
 ;
-#  "Hoper (ikke verb pres) og kjendis Espen Bredesen"))
-
- REMOVE:1964 (vblex pres) IF
-	(0 ikke-verb)
-	(*-1O sentence-border LINK 1 noun/adj/pron/det LINK *1 ikke-noun-adj-det-pron LINK 0 %nu/da/her/der% LINK 1 preposition LINK NOT *1 ikke-adv-adj-det-noun)
-;
-#  "Konstant regn nå i næsten 14 dagar (ikke verb pres)"))
+#  "Løber (ikke verb pres) og kendis Espen Bredesen"))
 
  REMOVE:1970 (vblex pres) IF
 	(NOT 0 s-verb)
@@ -7272,7 +7171,6 @@ REMOVE:gen-noun gen-noun IF
 	(*1 periode-end/konj-clb BARRIER m-auxiliary-verb-lexicalverb)
 ;
 #  "kunne (ikke inf) de det?
-# NOT *R %lade%: de lot seg lettere fornorske (inf)
 # 23.3"
 
  REMOVE:1908 (vblex inf) IF
@@ -7280,7 +7178,7 @@ REMOVE:gen-noun gen-noun IF
 	(-1 comma)
 	(**-2C sentence-border BARRIER inf)
 ;
-#  "Svarte, blanke (ikke inf) biler"))
+#  "Sorte, blanke (ikke inf) biler"))
 
  REMOVE:1909 (vblex inf) IF
 	(NOT 0 pass)
@@ -7300,8 +7198,8 @@ REMOVE:gen-noun gen-noun IF
 	(**-1C sentence-border BARRIER m-auxiliary-verb)
 	(**-2C sentence-border BARRIER perceptionverb)
 ;
-#  "og nå (ikke inf) også kajakkesset ...
-# Ikke: Hun ble sittende og se (inf)"))
+#  "og så (ikke inf) også kajakkesset ...
+# Ikke: Hun ble siddende og se (inf)"))
 
  REMOVE:1911 (vblex inf) IF
 	(NOT 0 pass)
@@ -7313,7 +7211,7 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 clb/konj-konj BARRIER sentence-border)
 	(*-1O clb/konj-konj LINK *1C ikke-adv)
 ;
-#  "kjøkken og en stue (ikke inf)"))
+#  "køkken og en lade (ikke inf)"))
 
  REMOVE:1912 (vblex inf) IF
 	(NOT 0 pass)
@@ -7323,8 +7221,8 @@ REMOVE:gen-noun gen-noun IF
 	(**-2C sentence-border BARRIER perceptionverb)
 	(**-2C sentence-border BARRIER clb/konj-konj)
 ;
-#  "stryker inf i setninger uten å og m-auxiliary-verb
-# NOT CLB/KONJ-KONJ: å komme ut og (ikke) være"))
+#  "stryger inf i sætninger uden at og m-auxiliary-verb
+# NOT CLB/KONJ-KONJ: at komme ud og (ikke) være"))
 
  REMOVE:1913 (vblex inf) IF
 	(NOT 0 pass)
@@ -7336,8 +7234,8 @@ REMOVE:gen-noun gen-noun IF
 	(*-1 konj BARRIER sentence-border)
 	(*-1O konj LINK *1C ikke-adv)
 ;
-#  "stryker inf i setninger med å + disamb. inf
-# + og etter"
+#  "stryger inf i seætninger med at + disamb. inf
+# + og efter"
 
  REMOVE:1914 (vblex inf) IF
 	(NOT 0 pass)
@@ -7350,8 +7248,8 @@ REMOVE:gen-noun gen-noun IF
 	(**-2C sentence-border BARRIER perceptionverb)
 	(**-2C sentence-border BARRIER konj)
 ;
-#  "stryker inf i setninger med å + disamb. inf")
-# 040908 NOT -1 %og% telle kulepenner og jåle (inf) seg ut)
+#  "stryger inf i sætninger med at + disamb. inf")
+
 
  REMOVE:1916 (vblex inf) IF
 	(NOT 0 pass)
@@ -7361,10 +7259,10 @@ REMOVE:gen-noun gen-noun IF
 	(**-2C perceptionverb BARRIER m-auxiliary-verb)
 	(**-2C sentence-border BARRIER comma/konj)
 ;
-#  "stryker inf i setninger med perceptionverb-verb og
+#  "stryger inf i sætninger med perceptionverb-verb og
 # preposition mellom ev. inf og perceptionverb
-# se (perceptionverb) forfra på grunn av den lange (ikke inf),
-# (forts) spisse (ikke inf) nesen"))
+# "se (perceptionverb) forfra på grund af den lange (ikke inf),
+# (forts) spisde (ikke inf) næse"))
 
  REMOVE:1917 (vblex inf) IF
 	(NOT 0 pass)
@@ -7375,7 +7273,7 @@ REMOVE:gen-noun gen-noun IF
 	(*-2O perceptionverb LINK **1C inf)
 	(**-2C sentence-border BARRIER konj)
 ;
-#  "stryker inf i setninger med perceptionverb-verb og
+#  "stryger inf i sætninger med perceptionverb-verb og
 # disamb.inf"
 
  REMOVE:1918 (vblex inf) IF
@@ -7388,7 +7286,7 @@ REMOVE:gen-noun gen-noun IF
 	(**-2C sentence-border BARRIER perceptionverb)
 	(*-2 sentence-border BARRIER konj)
 ;
-#  "stryker inf i setninger med m-auxiliary-verb og
+#  "stryger inf i sætninger med m-auxiliary-verb og
 # disamb.inf"
 # 150908: NOT -1 konj
 
@@ -7402,8 +7300,8 @@ REMOVE:gen-noun gen-noun IF
 	(**-2C sentence-border BARRIER perceptionverb)
 	(*-2 sentence-border BARRIER konj)
 ;
-#  "stryker inf i setninger med både å og m-auxiliary-verb
-# NOT 0 PASS: som jeg vet findes (har både inf
+#  "stryger inf i sætninger med både at og m-auxiliary-verb
+# NOT 0 PASS: som jeg ved findes (har både inf
 # og pres pass på samme linje
 # TAR FOR MANGE AV TYPEN: kan vi løse op
 # spenninger og finde (inf)..."))
@@ -7431,23 +7329,17 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -1 @adv)
 	(NOT -1 preposition-intransitive)
 ;
-#  "bare adv og nom ledd kan stå mellom inf og
-# å/hjverb. Sletter ikke etter konj pga:
-# å slukke lyset og melde seg på ...
-# OBS mengden endret pga ... må brukeren
-# selv (det forst) bære ... ville kanskje
-# ingen nevne ... kan ikke mennene deres være
+#  "kun adv og nom led kan stå mellem inf og
+# at/hjverb. Sletter ikke efter konj pga:
+# at slukke lyset og melde sig på ...
+# OBS mngden endret pga ... må brugeren
+# selv (det forst) bære ... ville måske
+# ingen nævne ...
 # verb til venstre: se næste regel
-# NOT -1 @ADV Nå skal forbrukerrådet m.a.o
+# NOT -1 @ADV Nu skal forbrugerrådet m.a.o
 # (forts) (preposition @ADV) komme (inf)"))
 
- REMOVE:1922 (vblex inf) IF
-	(1 pres/pret)
-	(-1 sentence-border)
-	(*1 periode-end/konj-clb BARRIER %gøre%)
-;
-#  "Tida (ikkje inf) har eit anna indhald
-# 15.3"
+
 
  REMOVE:1891 (vblex pp) IF
 	(0 adj)
@@ -7457,17 +7349,17 @@ REMOVE:gen-noun gen-noun IF
 	(-2 noun-appell)
 	(*-2 sentence-border BARRIER perf-part)
 ;
-#  "økte kostnader og redusert (ikke perf-part) evne til å
-# NOT 1 preposition: , skapt (perf-part) for"))
+#  "øgede omkostninger og reduceret (ikke perf-part) evne til at
+# NOT 1 preposition: , skabt (perf-part) for"))
 
  REMOVE:1892 (vblex pp) IF
-	(NOT 0 %ta%)
+	(NOT 0 %tage%)
 	(-1 pron-akk-utn/plural)
 	(**-1C sentence-border BARRIER objpred-pron-verb)
 	(**-1C sentence-border BARRIER p-auxiliary-verb)
 	(**-1C sentence-border BARRIER m-auxiliary-verb-pret)
 ;
-#  "stryker perf-part som ikke kan være objpred plural"
+#  "stryger perf-part som ikke kan være objpred plural"
 
  REMOVE:1894 (vblex pp) IF
 	(-1 clb/konj-konj)
@@ -7477,12 +7369,12 @@ REMOVE:gen-noun gen-noun IF
 	(**-2C sentence-border-u-hyphen BARRIER p-auxiliary-verb)
 	(**-2C sentence-border-u-hyphen BARRIER m-auxiliary-verb-pret)
 ;
-#  "tar tilfellene med konj
-# Ikke: ..har vært vellykket, og ført
-# eller. har vært bakbundet og skamslått - og fraranet"
+#  "tar tilfælde med konj
+# Ikke: ..har været vellykket, og ført
+# eller. har vært bagbundet og skamslået - og fraranet"
 
  REMOVE:1895 (vblex pp) IF
-	(NOT 0 %ta%)
+	(NOT 0 %tage%)
 	(NOT *1 overskrift)
 	(NOT -1 periode-begin/clb/hyphen)
 	(NOT -1 %om/end/som/hvis%)
@@ -7496,82 +7388,62 @@ REMOVE:gen-noun gen-noun IF
 	(**-1C sentence-border BARRIER p-auxiliary-verb)
 	(**-1C sentence-border BARRIER m-auxiliary-verb-pret)
 ;
-#  "NOT \"om/end/som/hvis\":som dokumsingularert(perf-part)
-# (NOT -1C PASS): forsøkes solgt (perf-part)
-# NOT -1 noun: minstepriser pålagt (perf-part) av
-# er forsøkt solgt (perf-part)
+#  "NOT \"om/end/som/hvis\":som dokumenteret(perf-part)
+# (NOT -1C PASS): forsøges solgt (perf-part)
+# NOT -1 noun: mindstepriser pålagt (perf-part) af
+# er forsøgt solgt (perf-part)
 # NOT -1 PRON-AKK-utn/plural: Objektspred av <perf-part> plural:
-# De føler seg forpliktet (perf-part) "))
+# De føler sig forpligtet (perf-part) "))
 
  REMOVE:1896 (vblex pp) IF
-	(NOT 0 %ta%)
+	(NOT 0 %tage%)
 	(*-1 sentence-border BARRIER p-auxiliary-verb)
 	(*-1O det LINK NOT 0 quantifier LINK NOT *1 ikke-adv-adj)
 ;
-#  "fjerner foreløpig bare perf-part i np-er
-# Ikke: i det hele tatt (perf-part)"))
+#  "fjerner foreløbig kun perf-part i np-er
+# Ikke: i det hele taget (perf-part)"))
 
  REMOVE:1898 (vblex pp) IF
 	(-1 %til%)
 	(-2 %og%)
 	(NOT -3 %af%)
 ;
-#  "De kjørte til låven og til huset (ikke perf-part)"))
+#  "De kørte til gården og til huset (ikke perf-part)"))
 
  REMOVE:1899 (vblex pp) IF
 	(-1 %til%)
 	(NOT -2 %og%)
 ;
-#  "De kjørte til huset (ikke perf-part)"))
+#  "De kj'ørte til huset (ikke perf-part)"))
 
  REMOVE:1900 (vblex pp) IF
 	(-1 preposition)
 	(NOT -1 sbu)
 	(NOT -1 %bla%)
 	(NOT -1 %til%)
-	(NOT -1 %ut%)
+	(NOT -1 %ud%)
 	(NOT -1 @adv)
 ;
-#  "tok seg ut av huset (ikke perf-part)
-# NOT -1 SBU: Som (sbu) kjsingular (perf-part)
-# IKKE: har bl.a. vært(perf-part)
-# blir av og til kjørt
-# blir fullt ut kompensert
+#  "gik ud af huset (ikke perf-part)
+# NOT -1 SBU: Som (sbu) kendt (perf-part)
+# IKKE: har bl.a. været(perf-part)
+# bliver af og til kørt
+# bliver fullt ut kompensert
 # har m.a.o (preposition @ADV) kommet (perf-part)"))
 
  REMOVE:1901 (vblex pp) IF
 	(-1 noun-gen)
 ;
-#  "Bsingulares rent (ikke perf-part) primitive glede"))
+#  "helt rent (ikke perf-part) hus"))
 
  REMOVE:1903 (vblex pp) IF
-	(0 veldig-ambiguous-part)
+	(0 very-ambiguous-part)
 ;
-#  "Antar at ambiguous partisipper er adjektiv
+#  "Antager at ambiguous participier er adjektiv
 # Dristig!
-# vi vet alt (ikke perf-part)"))
+# vi ved alt (ikke perf-part)"))
 
- REMOVE:1904 (vblex pp) IF
-	(-1 noun)
-	(NOT *1 overskrift)
-	(NOT -1 adj-komp)
-	(**-1C sentence-border BARRIER m-auxiliary-verb-pret)
-	(**-1C sentence-border BARRIER p-auxiliary-verb)
-	(*-1 preposition BARRIER ikke-adv-adj-det-noun)
-	(*-1 preposition LINK -1 pron/noun)
-;
-#  "Manden i høysetet løftet (ikke perf-part)
-# (forts) forbauset på ....."))
 
- REMOVE:1825 (vblex) IF
-	(0 lexicalverb)
-	(-1 det)
-	(NOT -1 number)
-	(NOT -1 %hvert%)
-	(-2C preposition)
-;
-#  "Jeg må overleve i dette huset (ikke verb)"))
-# Men ikkje: «Av disse skal 50 legges ned»
 
  REMOVE:1826 (vblex) IF
 	(0 lexicalverb)
@@ -7579,7 +7451,7 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -1 @adv)
 	(-2 %som%)
 ;
-#  "For som med så (ikke verb) mye annet"))
+#  "For som med så (ikke verb) meget annet"))
 
  REMOVE:1827 (vblex) IF
 	(0 lexicalverb)
@@ -7590,8 +7462,8 @@ REMOVE:gen-noun gen-noun IF
 	(NOT -1 @adv)
 	(-2 sentence-border)
 ;
-#  "I speilet (ikke verb) hoper fugler
-# 27.2.2003: Før kjøpte Elkem ..."
+#  "I spejlet (ikke verb) ses fugle
+# 27.2.2003: Før købte Elkem ..."
 
  REMOVE:1828 (vblex) IF
 	(0 lexicalverb)
@@ -7601,20 +7473,6 @@ REMOVE:gen-noun gen-noun IF
 ;
 #  "Jenny for med sladder (ikke pres)."))
 
- REMOVE:1829 (vblex) IF
-	(0 lexicalverb)
-	(-1 preposition)
-	(NOT -1 ikke-preposition-sbu)
-	(NOT -1 %som%)
-	(NOT -1 preposition-intransitive)
-	(NOT -1 @adv)
-	(NOT -2 sentence-border)
-	(NOT -2 adj)
-	(NOT -2 konj)
-	(NOT -2 preposition)
-;
-#  "med (preposition + sbu) hamrar (kan ikke vere
-# verb) og hiv "
 
  REMOVE:1831 (vblex) IF
 	(0 lexicalverb)
@@ -7633,14 +7491,14 @@ REMOVE:gen-noun gen-noun IF
 	(0 lexicalverb)
 	(-1C %en/et%)
 ;
-#  "et forbløffet (ikke lexicalverb) og begeistret
-# London-pindefinitelikum"
+#  "et forbløffet (ikke lexicalverb) og begejstret
+# London-publikum"
 
  REMOVE:1834 (vblex) IF
 	(0 sbu)
 	(*1O pres/pret LINK *-1 ikke-poss-det LINK NOT *-1 ikke-adv-adj-det)
 ;
-#  "noen få dager før (ikke verb) krigen brøt ut
+#  "nogen få dage før (ikke verb) krigen brød ud
 # 30.11"
 
  REMOVE:1835 (vblex) IF
@@ -7651,9 +7509,9 @@ REMOVE:gen-noun gen-noun IF
 	(2C pres/pret)
 	(**-1C sentence-border LINK NOT 0 sbu)
 ;
-#  "reduserte (ikke verb) marginer fører til
-# 29.5.2001: At Monica Hås leverte våpnene var klart.
-# (lidt dårligere presisjon med denne regelen)"))
+#  "reducerede (ikke verb) marginer fører til
+# 29.5.2001: At Monica Hås leverede våbnene var klart.
+# (lidt dårligere precision med denne regel)"))
 
 # sec 3
 CONSTRAINTS
@@ -7663,7 +7521,7 @@ CONSTRAINTS
 	(**-1C plural-det BARRIER ikke-adv-adj)
 	(1 %bodyparts%-plural)
 ;
-#  de bare bena
+#  de bare ben
 
 "<de>" REMOVE:de-np (np) IF
 	(NOT 1 prop)
@@ -7676,21 +7534,15 @@ CONSTRAINTS
  "<ekstra>"   SELECT:5004   (adj nt ind sg) IF
 	   (NOT 1 nom)
 ;
-#som quantifieror: Han fikk disse dagene ekstra, han får tre rynker ekstra,
-#en hundredelapp ekstra, et par skjeer ekstra
+#som quantifier: Han fik disse dage ekstra, han får tre rynker ekstra,
+#en hundredelap ekstra, et par skeer ekstra
 
  "<ende>"   SELECT:4097   (n) IF
 	 (-1 preposition)
 ;
 
-  "<hele>"   SELECT:3558   (adj pl) IF
-	(1 definite-plural-noun/plural-adj)
-;
-#  "hele greiene"
 
-#det var en mine.
 
-#det var ei mine.
 
  "<rette>"   SELECT:4063   (n) IF
 	  (-1 %til%)
@@ -7698,8 +7550,8 @@ CONSTRAINTS
 ;
 #snakke til rette (ikke rette personer)
 
-#I et marked med et etterspørselspotensial som markedet for havbruksprodukter er
-#må ha unntak for setninger som ", tær som sover",
+#I et marked med et efterspørselspotentiale som markedet for havbrugsprodukter er
+
 
   "<dels>"   REMOVE:3725   (n gen) IF
 	(0 adv)
@@ -7707,8 +7559,6 @@ CONSTRAINTS
 #  "kh feb 2004: som regel adverb"
 
  #:4092
-
-#gått i hi
 
   "<holdt>"   REMOVE:3532   (adj) IF
 	(0 verb)
@@ -7719,27 +7569,13 @@ CONSTRAINTS
 	(0 verb)
 ;
 #  "kh jan 2004
-# Bare i \"gøre holdt\""
+# kun i \"gøre holdt\""
 
   "<nu>"   REMOVE:3394   (n) IF
 	(0 adv)
 ;
 #  "kh feb 2004: Bare i samme/næste nu."
 
-  "<ved>"   REMOVE:4057   (pr) IF
-	(-1 preposition)
-;
-#brukes til ved
-
-  "<at>"   REMOVE:3118   (n sg ind) IF
-	(0 infinitive-marker)
-;
-#  "kh jan 2004: Lite sansynlig at å er noun om ingen av substantivreglene har virket"
-
-  "<været>"   REMOVE:31230   (vblex)
-;
-# Veldig heuristisk! Men mest sansynleg snakkar folk om været. --KBU
-# «Sjekk været der du bor»
 
 # sec 4
 #CONSTRAINTS
@@ -7750,9 +7586,9 @@ CONSTRAINTS
  SELECT:1735 (cnjsub) IF
 	(-1 konj)
 	(-2 comma)
-	(*1 ikke-adv-adj-det LINK 0 noun/pron/%al%/%mang%/%mange% LINK *1 ikke-adv LINK 0 pres/pret LINK *1 ikke-adv LINK 0 iv)
+	(*1 ikke-adv-adj-det LINK 0 noun/pron/%al%/%mange% LINK *1 ikke-adv LINK 0 pres/pret LINK *1 ikke-adv LINK 0 iv)
 ;
-#  "..., og som (sbu) han hadde båret med seg"))
+#  "..., og som (sbu) han havde båret med sig"))
 
  SELECT:1736 (cnjsub) IF
 	(0 %som%)
@@ -7762,7 +7598,7 @@ CONSTRAINTS
 	(**-1C sentence-border BARRIER pres/pret)
 	(*-1C sentence-border LINK 0 >>>)
 ;
-#  "De undersøkelsene som artikkelen bygger på, har"
+#  "De undersøgelser som artikelen bygger på, har"
 
  SELECT:1737 (cnjsub) IF
 	(0 %som%)
@@ -7770,7 +7606,7 @@ CONSTRAINTS
 	(1C pron/noun)
 	(2 pres/pret)
 ;
-#  "... han vant som han ville"
+#  "... han gik som han ville"
 
  SELECT:1738 (cnjsub) IF
 	(0 %som%)
@@ -7780,8 +7616,8 @@ CONSTRAINTS
 	(3 pres/pret)
 	(NOT 3 ambiguous-verb)
 ;
-#  "som næringen nå sliter med
-# Ikke: at (sbu) LO som (preposition) org ikke har"))
+#  "som man nu slås med
+
 
  SELECT:1739 (cnjsub) IF
 	(0 %som%)
@@ -7791,8 +7627,8 @@ CONSTRAINTS
 	(2 pres/pret)
 	(**-1C sentence-border BARRIER pres/pret)
 ;
-#  "kan ha lexicalverb rett til høyre
-# Han som kommer (verb pres) gir ...
+#  "kan have lexicalverb lige til højre
+# Han som kommer (verb pres) giver ...
 # Ikke: som skiftet (ikke lexicalverb) gir"))
 
  SELECT:1740 (cnjsub) IF
@@ -7803,9 +7639,9 @@ CONSTRAINTS
 	(NOT 2 pres/pret)
 ;
 #  "egne regler for som (+ flere?)
-# kan ha lexicalverb rett til høyre
+# kan have lexicalverb lige til højre
 # som kommer (verb pres) ...
-# Ikke: som skiftet (ikke lexicalverb) gir"))
+# Ikke: som skiftet (ikke lexicalverb) giver"))
 
  SELECT:1741 (cnjsub) IF
 	(0 %som%)
@@ -7827,7 +7663,7 @@ CONSTRAINTS
 	(NOT 4 ambiguous-verb)
 	(**-1C lexicalverb BARRIER sentence-border)
 ;
-#  "da Peter N. Ribe testet positivt"
+#  "da Peter N. Ribe testede positivt"
 
  SELECT:1747 (cnjsub) IF
 	(1 noun-prop)
@@ -7850,7 +7686,7 @@ CONSTRAINTS
 	(NOT 3 ambiguous-verb)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
-#  "da Peter Ribe testet positivt"
+#  "da Peter Ribe testede positivt"
 
  SELECT:1749 (cnjsub) IF
 	(NOT *-2 sbu BARRIER sentence-border)
@@ -7859,8 +7695,7 @@ CONSTRAINTS
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
 #  "som (sbu) manden i går var
-# (reglene ovenfor godtar ikke noun+
-# noun selv om noun er i en pp)"
+
 
  SELECT:1751 (cnjsub) IF
 	(1 pron/noun)
@@ -7871,24 +7706,11 @@ CONSTRAINTS
 	(*-1O sbu LINK **1C lexicalverb LINK *1 lexicalverb)
 	(*-1 sbu LINK NOT *-1 lexicalverb)
 ;
-#  "Da vi gikk ind på rommet, nektet hun å si nø
-# da Dæhlie og Ulvang spurte ...
+#  "Da vi gik ind i rummet, nægtede hun at sige noget
+# da Dæhlie og Ulvang spurgte ...
 # sbu lexicalverb lexicalverb sbu lexicalverb"
 #      :group 72
 
- SELECT:1752 (cnjsub) IF
-	(1 pron/noun)
-	(2 konj)
-	(3 pron/noun)
-	(4 pres/pret)
-	(NOT 4 ambiguous-verb)
-	(*-1O sbu LINK **1C lexicalverb LINK NOT *1 lexicalverb)
-	(*-1 sbu LINK NOT *-1 lexicalverb)
-;
-#  "Da vi gikk ind på rommet der (sbu) Dæhli og
-# Ulvang skulle sove, nektet hun ...
-# sbu lexicalverb sbu lexicalverb lexicalverb"
-#      :group 72
 
  SELECT:1753 (cnjsub) IF
 	(1 pron/noun)
@@ -7900,7 +7722,7 @@ CONSTRAINTS
 	(NOT 5 ambiguous-verb)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
-#  "som (sbu) Dæhlie og Ulvang gjerne anbefaler"
+#  "som (sbu) Dæhlie og Ulvang gerne anbefaler"
 #      :group 72
 
  SELECT:1754 (cnjsub) IF
@@ -7921,7 +7743,7 @@ CONSTRAINTS
 	(*1 pres/pret BARRIER sentence-border)
 	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun-gen LINK -1 det-etterstilt LINK -1 pron/noun)
 ;
-#  "å studere der de selv vil"
+#  "at studere der de selv vil"
 #      :group 73
 
  SELECT:1756 (cnjsub) IF
@@ -7946,13 +7768,13 @@ CONSTRAINTS
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 noun/pron/preposition)
 ;
-#  "Det er ingen mening i at den skal sysselsette mer
-# (forts) enn (sbu) produksjonen er ... TODO -KBU
+#  "der er ingen mening i at den skal ansætte mere
+# (forts) end (sbu) produktionen er ... TODO -KBU
 # lexicalverb sbu lexicalverb sbu lexicalverb
-# NOT 1 SBU: enn (preposition) om (sbu)
+# NOT 1 SBU: end (preposition) om (sbu)
 # NOT -1 CLB: men som (preposition) Dina vil han helst ikke "
 #      :group 73
-# Men: «at han ikke visste hvor<adv> høy farten var.» (så NOT 1C adj ...) -KBU
+# Men: «at han ikke vidste hvor<adv> høj farten var.» (så NOT 1C adj ...) -KBU
 
  SELECT:1761 (cnjsub) IF
 	(NOT 1 sbu)
@@ -7965,8 +7787,8 @@ CONSTRAINTS
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 pron LINK NOT *-1 noun/pron/preposition)
 ;
-#  "Det er ingen mening i at den skal sysselsette mer
-# (forts) enn (sbu) det er ...
+#  "der er ingen mening i at den skal ansætte mere
+# (forts) end (sbu) det er ...
 # lexicalverb sbu lexicalverb sbu lexicalverb
 # NOT 1 SBU: enn (preposition) om (sbu)
 # NOT -1 CLB: men som (preposition) Dina vil han helst ikke "
@@ -7981,8 +7803,8 @@ CONSTRAINTS
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 pron/noun)
 ;
-#  "Da vi gikk ind på rommet, nektet hun å si nø
-# da vi spurte ...
+#  "Da vi gik ind i rummet, nægtede hun at sige noget
+# da vi spurgte ...
 # sbu lexicalverb lexicalverb sbu lexicalverb"
 #      :group 73
 
@@ -7996,7 +7818,7 @@ CONSTRAINTS
 	(NOT 1 comma/konj)
 	(*2O pres/pret LINK -1 pron LINK NOT *-1 pron/noun)
 ;
-#  "Da vi gikk ind på rommet, nektet hun å si nø
+#  "Da vi gik ind i rummet, nægtede hun at sige noget
 # da vi spurte ...
 # sbu lexicalverb lexicalverb sbu lexicalverb"
 #      :group 73
@@ -8012,26 +7834,12 @@ CONSTRAINTS
 	(*2O pres/pret LINK -1 noun LINK NOT *-1 pron/noun)
 	(*2O pres/pret LINK *1 pres/pret LINK NOT *-1 sbu)
 ;
-#  "Da vi gikk ind på rommet der (sbu) jsingulara skulle
+#  "Da vi gikk ind på rommet hvor (sbu) jsingulara skulle
 # sove, nektet hun
 # sbu lexicalverb sbu lexicalverb lexicalverb"
 #      :group 73
+#jofmmarker
 
- SELECT:1765 (cnjsub) IF
-	(NOT 0 %bare%)
-	(NOT 1 pres/pret)
-	(*-1O sbu LINK **1C lexicalverb LINK NOT *1 lexicalverb)
-	(*-1 sbu LINK NOT *-1 lexicalverb)
-	(*2O pres/pret LINK NOT 0 ambiguous-verb LINK NOT 0 noun/adj-gen LINK NOT -1 preposition-number)
-	(*2 pres/pret BARRIER comma/konj)
-	(NOT 1 comma/konj)
-	(*2O pres/pret LINK -1 pron LINK NOT *-1 pron/noun)
-	(*2O pres/pret LINK *1 pres/pret LINK NOT *-1 sbu)
-;
-#  "Da vi gikk ind på rommet der (sbu) vi skulle
-# sove, nektet hun ...
-# sbu lexicalverb sbu lexicalverb lexicalverb"
-#      :group 73
 
   SELECT:1766 (cnjsub) IF
 	(NOT 0 %bare%)
@@ -8047,8 +7855,8 @@ CONSTRAINTS
 	(**-1C lexicalverb BARRIER sentence-border)
 	(**-1C sentence-border BARRIER sentence-border)
 ;
-#  "før (sbu) madamen og resten av forsamlinga
-# (forts) i restauranten traller med.
+#  "før (sbu) madamen og resten af forsamlingen
+# (forts) i restauranten synger med.
 
 #      :group 73
 
@@ -8064,8 +7872,7 @@ CONSTRAINTS
 	(NOT 2 ikke-adv-adj-noun-pron-konj-det2-preposition)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
-#  "som stat og privat industri trenger"
-# 050908 om ser ut til å skape pluralest feil
+#  "som stat og privat industri behøver"
 #      :group 73
 
  SELECT:1768 (cnjsub) IF
@@ -8079,7 +7886,7 @@ CONSTRAINTS
 	(*2O pres/pret LINK -1 adverb/komp LINK -1 adverb LINK -1 pron/noun LINK NOT *-1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
-#  "som vi ikke seinere makter å stope
+#  "som vi ikke senere magter at stoppe
 # L-1 ADVERB/KOMP L-1 ADVERB"
 #      :group 73
 
@@ -8095,7 +7902,7 @@ CONSTRAINTS
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
 #  "med adverb som L-1, substantiv testes på L-2
-# som (sbu) høgskolene lenge har brukt"
+# som (sbu) højskolerne længe har brugt"
 #      :group 73
 
  SELECT:1770 (cnjsub) IF
@@ -8111,7 +7918,7 @@ CONSTRAINTS
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
 #  "med adverb som L-1, pronomen testes på L-2
-# som (sbu) de lenge har brukt"
+# som (sbu) de længe har brugt"
 #      :group 73
 
  SELECT:1771 (cnjsub) IF
@@ -8126,7 +7933,7 @@ CONSTRAINTS
 	(*2O pres/pret LINK -1 det-etterstilt LINK -1 pron/noun)
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
-#  "Etterstilt det etter pron/noun:
+#  "Etterstillet det efter pron/noun:
 # som (sbu) hun selv (det) var"
 #      :group 73
 
@@ -8146,31 +7953,16 @@ CONSTRAINTS
 	(**-1C lexicalverb CBARRIER sentence-border)
 ;
 #  "at han kom
-# ikke preposition før verbet fordi det viser seg at
+# ikke preposition før verbet fordi det viser sig at
 # \"verbet\" oftest er noun i preposition-frase
-# heller og for er for \"ambiguous\"
-# SBU-kriteriet for å ikke merke \"før\" i:
-# \"etter som (sbu) pluralernumberet like før (ikke sbu) jul avviste ...
-# godtar sbu+sbu: sa at (sbu) hvis (sbu)
-# Se også næste regel
-# etter en SBU kan ikke lexicalverb stå rett til venstre
-# om livet (ikke verb pret)
-# egne regler for SOM nedenfor
-# må komme en setning før subjunksjonen:
-# For 100 år siden (ikke sbu) kom
-# NOT *L comma/KONJ: Lite sansynlig med
-# tunge subjekter som indeholder comma/konj
-# *L PRON NOT *L noun: Sikrer mot skjult
-# relativsetning: som stjernestoffet vi så"
-#      :group 73
-# ikkje «De pluraleste vet ikke hvor<adv!!> pene de er»
+#
 
  SELECT:1777 (cnjsub) IF
 	(*-1 sentence-border LINK NOT 0 sbu)
 	(**1C pres/pret BARRIER ikke-adv-adj-nounmgen-pron-konj-detmdem-preposition)
 	(**1C pres/pret LINK *1 ikke-adv-adj-det LINK 0 nom LINK 1C pres/pret)
 ;
-#  "noen dager før (sbu) krigen tok ham holdt han en tale"
+#  "nogen dage før (sbu) krigen tog ham holdt han en tale"
 #      :group 73
 
  SELECT:1734 (np) IF
@@ -8190,10 +7982,10 @@ CONSTRAINTS
 	(NOT 1 noun/adj)
 	(NOT 1 comma/konj)
 ;
-#  "velger noun - ikke adj rett etter en preposition
-# farlig - men må vi til slutt velge?
-# bedre som heuristisk etter at vi har forsøkt
-# å finde adj?"
+#  "vælger noun - ikke adj lige efter en preposition
+# farlig - men må vi til slut velge?
+# bedre som heuristisk etter at vi har forsøgt
+# at finde adj?"
 
  SELECT:1732 (vblex pres) IF
 	(NOT 0 pret)
@@ -8210,7 +8002,7 @@ CONSTRAINTS
 	(**-1C sentence-border BARRIER pres/pret)
 	(**1C sentence-border BARRIER pres/pret)
 ;
-#  "Generell regel som tar sjanser!"
+#  "Generel regel som tar chanser!"
 
  SELECT:1729 (vblex pp) IF
 	(NOT 0 ambiguous-part)
@@ -8228,15 +8020,15 @@ CONSTRAINTS
 	(**-1C sentence-border LINK NOT 0 sbu)
 ;
 #  "(NOT -1 CLB)
-# Forholdet mellom dem, representert (perf-p) ved ...
-# 13.9.2001: not lr0 sbu: Barna, som hadde funnet frem massevis av artige klesdrakter fra diverse loft hos tanter og onkler, besteforeldre og svigerforeldre, sprudlet av singularusiasme og danseglede."
+# Forholdet mellom dem, repræsenteret (perf-p) ved ...
+
 
  SELECT:24021 (vblex pp) IF
 	(-1 pass_take_pp LINK 0 perf-part LINK -1 %være/blive% LINK 0 lexicalverb)
 ;
-# «blir forsøkt lokket» --KBU
+# «bliver forsøkt lokket» --KBU
 
-#Gjensidige skyter seg ind
+#Gensidige skyder sig ind
 
  SELECT:4028 (vblex pres) IF
  	(-1 nom)
@@ -8257,7 +8049,7 @@ SELECT:4081 (adj) IF
 	(NOT *1 pron/noun)
 	(NOT *-1 det-singular/pron-singular)
 ;
-#  "sjuke og gamle (ikke singular)
+#  "syge og gamle (ikke singular)
 # NOT 0 %SYVENDE%: til syvende og sidst"
 
  REMOVE:1724 (adj def sg) IF
@@ -8267,8 +8059,8 @@ SELECT:4081 (adj) IF
 	(NOT *1 pron/noun)
 	(*-1O ikke-adv-adj-det-pron LINK NOT 0 det-singular/pron-singular LINK NOT 1 det-singular/pron-singular)
 ;
-#  "forholdene for syke og gamle
-# 6.3.2001: not 0 tiltalte: der tiltalte har blidt dømt"
+#  "forholdene for syge og gamle
+# 6.3.2001: not 0 tiltalte:  tiltalte er blidt dømt"
 
  REMOVE:1725 (adj def sg) IF
 	(0 plural)
@@ -8277,8 +8069,7 @@ SELECT:4081 (adj) IF
 	(NOT *-1 det-singular/pron-singular)
 	(*1O pron/noun LINK *-1 ikke-adv-adj-det)
 ;
-#  "forholdene for syke og gamle
-# 6.3.2001: Der tiltalte har blidt dømt er det slik."
+#  "forholdene for syge og gamle
 
  REMOVE:1726 (adj def sg) IF
 	(0 plural)
@@ -8287,9 +8078,7 @@ SELECT:4081 (adj) IF
 	(*1O pron/noun LINK *-1 ikke-adv-adj-det)
 	(*-1O ikke-adv-adj-det-pron LINK NOT 0 det-singular/pron-singular LINK NOT 1 det-singular/pron-singular)
 ;
-#  "forholdene for syke og gamle, sa manden
-# 6.3.2001: Der tiltalte har blidt dømt er det slik."
-
+#  "forholdene for syge og gamle, sagde manden
  REMOVE:1710 (adj) IF
 	(0 definite-noun)
 	(NOT 0 ambiguous-adj-noun)
@@ -8312,7 +8101,7 @@ SELECT:4081 (adj) IF
 	(*-2 preposition BARRIER ikke-adv-adj)
 	(*-1 sentence-border/verb BARRIER %noget%)
 ;
-#  "bruk av bare norsk (ikke adj), ikke engelsk, i ordregiving"))
+#  "brug af kun norsk (ikke adj), ikke engelsk, i ordregivning"))
 
  REMOVE:1714 (adj) IF
 	(0 noun)
@@ -8329,7 +8118,7 @@ SELECT:4081 (adj) IF
 	(NOT 2 adj)
 	(*-1 sentence-border/verb BARRIER %noget%)
 ;
-#  "han har god tro (ikke adj), sier han"))
+#  "han har god tro (ikke adj), siger han"))
 
  REMOVE:1717 (adj) IF
 	(0 definite-noun)
@@ -8341,7 +8130,7 @@ SELECT:4081 (adj) IF
 	(NOT -1 %meget/lidt%)
 	(*-1 sentence-border/verb BARRIER %noget%)
 ;
-#  "den største trøn"
+#  "den største krig"
 
  REMOVE:1720 (adj) IF
 	(0 noun)
@@ -8354,7 +8143,7 @@ SELECT:4081 (adj) IF
 	(*-2 preposition BARRIER ikke-adv-adj)
 	(*-1 sentence-border/verb BARRIER %noget%)
 ;
-#  "bruk av bare norsk (ikke adj) i ordregiving"))
+#  "brug av kun norsk (ikke adj) i ordregivning"))
 
  REMOVE:1721 (adj) IF
 	(0 noun)
@@ -8377,7 +8166,7 @@ SELECT:4081 (adj) IF
 	(0 adj)
 	(1 infinitive-marker)
 ;
-#  "de er lette (ikke imp) å tolke"))
+#  "de er lette (ikke imp) at tolke"))
 
  REMOVE:1686 noun IF
 	(0 adj)
@@ -8399,7 +8188,7 @@ SELECT:4081 (adj) IF
 	(NOT -1 det/adj)
 	(NOT *-1 verb)
 ;
-#  "adj mer sansynlig enn noun foran infinitivsmerke"
+#  "adj mere sandsynligt end noun foran infinitivsmærke"
 
  REMOVE:1689 noun IF
 	(0 %siden%)
@@ -8409,28 +8198,20 @@ SELECT:4081 (adj) IF
 	(NOT -1 definite-ut-det)
 	(NOT -1 definite-singular-adj)
 ;
-#  "25.11.2002: 500 pluralyktninger har vendt hjem siden forrige fredag."
+#  "25.11.2002: 500 flytgtninge er vendt hjem siden forrige fredag."
 
  REMOVE:1691 noun IF
 	(0 %men%)
 ;
-#  "kh jan 2004: Ikke substantiv om reglene for substantiv ikke slår til
+#  "kh jan 2004: Ikke substantiv hvis reglerne for substantiv ikke slår til
 # "
 
- REMOVE:1683 (vblex pp) IF
-	(NOT 0 ambiguous-part)
-	(1C preposition)
-	(-1C noun)
-	(**1CO pres/pret LINK *-1 ikke-adv-adj-noun-pron-konj-det2-preposition)
-;
-#  "Byretten besluttet (ikke perf-part) i en
-# knallhard dom at ..."
 
  REMOVE:1679 (vblex imp) IF
 	(0 nom)
 	(-1 %at/om%)
 ;
-#  "kh jan 2004: lite sansynlig med imp i at/om-setning."
+#  "kh jan 2004: lidt sadnsynlig med imp i at/om-sætning."
 
  REMOVE:1680 (vblex imp) IF
 	(0 konj)
@@ -8439,13 +8220,13 @@ SELECT:4081 (adj) IF
 #  "kh jan 2004:"
 
  REMOVE:1676 (vblex) IF
-	(0 veldig-ambiguous-verb)
+	(0 very-ambiguous-verb)
 	(*-1 pres/pret)
 ;
 #	(*-1 pres/pret BARRIER sentence-border)
 
  REMOVE:1677 (vblex) IF
-	(0 veldig-ambiguous-verb)
+	(0 very-ambiguous-verb)
 	(*1 pres/pret)
 ;
 #	(*1 pres/pret BARRIER sentence-border)
@@ -8455,13 +8236,13 @@ SELECT:4081 (adj) IF
 	(-1C number)
 	(NOT -1 ikke-number)
 ;
-#  "noun mer sansynlig enn verb etter number"
+#  "noun mer sansynlig end verb efter tal"
 
  REMOVE:4022 (vblex pres) IF
  	 (-1C inf)
 	 (0 noun)
 ;
-#låse sykler
+#låse cykler
 
  REMOVE:4024 (vblex pp) IF
  	 (-1C inf)
@@ -8472,7 +8253,7 @@ SELECT:4081 (adj) IF
  	 (-1C pres/pret)
 	 (NOT -1 auxiliary-verb)
 ;
-#og pustet lettet (ikke perf-part) ut
+#og pustede lettet (ikke perf-part) ut
 
  REMOVE:4030 (adj) IF
 	 (0 ambiguous-adj)
@@ -8533,7 +8314,7 @@ REMOVE:4065 (adj) IF
  	 (-1C pron-akk)
 	 (0 noun)
 ;
-#dytte i seg piller
+#give mig piller
 
  REMOVE:4079 indefinite-plural-noun IF
 	   (0 ikke-sans-noun-plural-indefinite)
@@ -8548,19 +8329,19 @@ REMOVE:4065 (adj) IF
 	   (-1 det)
 	   (1 noun)
 ;
-# KBU «det beste<adj, ikkje noun> vilkåret»
+# KBU «det bedste <adj, ikke noun> vilkår»
 
 REMOVE:6211 (n pl) IF
 	(0 singular-noun)
-	(-1 definite-singular-noun LINK -1 adj-definite BARRIER ikke-adv-adj-comma LINK -1* definite-det-singular/plural)
+	(-1 indefinite-singular-noun LINK -1 adj-definite BARRIER ikke-adv-adj-comma LINK -1* definite-det-singular/plural)
 ;
-# KBU: «det viktige, grammatiske trekket imperativ<sg>»
+# KBU: «det vigtige, grammatiske træk imperativ<sg>»
 
 REMOVE:gen-noun gen-noun IF
 	(0 noun-prop)
 ;
 # «God morgen, Troms 06.03.2009»
-# Viss me har både genitiv og eigennamn er det vel usansynleg at det er genitiven sidan eigennamnet har stor forbokstav
+
 
 REMOVE:gen-noun-sentence-border gen-noun IF
 	(1 sentence-border)
