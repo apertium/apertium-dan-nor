@@ -564,7 +564,7 @@ CONSTRAINTS
 	(2 indefinite-singular-neuter-adj)
 ;
 #  "alt var velgjort"
-# jofm
+
 
   "<alt>"   SELECT:3774   (det) IF
 	(1C pres/pret)
@@ -574,14 +574,14 @@ CONSTRAINTS
 ;
 #  "alt ligger derfor tilrette
 #   alt har været godt"
-# jofm
+
 
   "<alt>"   SELECT:3775   (det) IF
 	(1C pres/pret)
 	(-1C preposition)
 ;
 #  "mest af alt er det..."
-# jofm
+
 
 
 
@@ -589,21 +589,21 @@ CONSTRAINTS
 	(-1 %i%)
 ;
 #  "(alt) i alt"))
-# jofm
+
 
   "<alt>"   SELECT:3778   (det) IF
 	(-1C lexicalverb)
 	(*-1O sentence-border LINK 1 preposition)
 ;
 #  "I dag blev alt(det) ødelagt"))
-# jofm
+
 
   "<alt>"   SELECT:3779   (det) IF
 	(-1C lexicalverb)
 	(*-1O sentence-border LINK 1 adv)
 ;
 #  "så blev alt(det) ødelagt"))
-# jofm
+
 
   "<alt>"   SELECT:3780   (adv) IF
 	(1 perf-part)
@@ -618,7 +618,7 @@ CONSTRAINTS
 #  "det er alt [adv, ikke perf-part] vedtaget
 # hvis der er præposition eller adv i forfelt,
 # er 'alt' determiner: så blev alt (det) ødelagt"))
-# jofm
+
 
   "<alt>"   SELECT:3772   (det) IF
 	(NOT 1 perf-part)
@@ -627,7 +627,7 @@ CONSTRAINTS
 #  "Alt (det) var sådan det skulle være
 # Det var alt.
 # Ikke: hun har alt spist
-# jofm
+
 
 
   "<andre>"   SELECT:3761   (det pl) IF
@@ -640,7 +640,7 @@ CONSTRAINTS
 #	(**1C sentence-border BARRIER ordinal-number)
 ;
 #  "... idrætsstjerner eller andre som ... "
-# jofm
+
 
 
 
@@ -649,7 +649,7 @@ CONSTRAINTS
 	(*1 lexicalverb BARRIER sentence-border)
 ;
 #  "Bislett bad er nyåbnet."
-# jofm
+
 
 
 
@@ -658,7 +658,7 @@ CONSTRAINTS
 	(*-1 lexicalverb BARRIER sentence-border)
 ;
 # "De åbnede Bislet bad."
-# jofm
+
 
   "<bare>"   SELECT:3739   (adv) IF
 	(1 inf)
@@ -678,7 +678,7 @@ CONSTRAINTS
 	(*1 singular-noun BARRIER ikke-adv-adj)
 ;
 #  bare <adj> i kontekster som: "det bare træ"
-# jofm
+
 
  "<bare>"   SELECT:4010   (adj pl) IF
 	(NOT 1 noun/adj/adv)
@@ -692,20 +692,20 @@ CONSTRAINTS
 	(*-1O sentence-border LINK NOT 1 preposition)
 ;
 #  "trærne er bare"
-# jofm
+
 
   "<eksklusive>"   SELECT:3701   (pr) IF
 	(1 nom)
 	(-1 noun)
 ;
-# jofm
+
 
 
   "<eksklusiv>"   SELECT:3705   (pr) IF
 	(1 nom)
 	(-1 noun)
 ;
-# jofm
+
 
 
 
@@ -713,21 +713,21 @@ CONSTRAINTS
 	   (1C adj)
 ;
 #Ekstra pæn,sød, god
-# jofm
+
 
   "<en>"   SELECT:3690   (det) IF
 	(-1 %gange%)
 	(-2 number)
 ;
 #  "en gange en"
-# jofm
+
 
   "<en>"   SELECT:3692   (det) IF
 	(-1 %og%)
 	(-2 %hver%)
 ;
 #  "Hver og en"
-# jofm
+
 
   "<et>"   SELECT:3680   (det) IF
 	(*1O %et% LINK -1 adj-neuter LINK NOT *-1 ikke-adv-adj)
@@ -739,7 +739,7 @@ CONSTRAINTS
 	(*-1 %et% BARRIER ikke-adv-adj)
 ;
 #  "et stort et"
-# jofm
+
 
   "<for>"   SELECT:3652   (adv) IF
 	(NOT 1 ikke-adj)
@@ -752,26 +752,26 @@ CONSTRAINTS
 #  "det var for lidt.
 # 6.8.2001: not 1 sentence-border"
 # NOT 1 komp
-# jofm
+
 
   "<for>"   SELECT:3634   (pr) IF
 	(**1CO sentence-border LINK *-1 %siden% LINK NOT 0 noun)
 ;
 #  "For fire dage siden"
-# jofm
+
 
   "<for>"   SELECT:5031   (pr) IF
 	 (1 %eksempel%)
 ;
 #  for eksempel
-# jofm
+
 
 
   "<for>"   SELECT:3636   (pr) IF
 	(1 infinitive-marker)
 ;
 #  "for at hjælpe til"
-# jofm
+
 
   "<for>"   SELECT:3637   (pr) IF
 	(1 %det%)
@@ -779,7 +779,7 @@ CONSTRAINTS
 	(2 ordinal-number)
 ;
 #  "for det første"
-# jofm
+
 
   "<for>"   SELECT:3638   (pr) IF
 	(-1 nom)
@@ -788,7 +788,7 @@ CONSTRAINTS
 ;
 #  "dette skylder han dem for mangt og meget"
 #	(**1C sentence-border BARRIER pron/noun)
-# jofm
+
 
   "<for>"   SELECT:3639   (pr) IF
 	(-1 nom)
@@ -797,13 +797,13 @@ CONSTRAINTS
 ;
 #  "dette gør han for små og store"
 #	(**1C sentence-border BARRIER pron/noun)
-# jofm
+
 
   "<for>"   SELECT:3640   (pr) IF
 	(1 %at%)
 ;
 #  "for at"
-# jofm
+
 
   "<for>"   SELECT:3641   (pr) IF
 	(NOT 0 pret)
@@ -813,14 +813,14 @@ CONSTRAINTS
 	(NOT -1 pres/pret)
 ;
 #  "Prisen for dette er at ..."
-# jofm
+
 
   "<for>"   SELECT:3642   (pr) IF
 	(-1 noun)
 	(*-2 ikke-adv-adj-det LINK 0 konj LINK -1 comma)
 ;
 #  "..., og behovet for(preposition) entydig og klar information blir understreget"))
-# jofm
+
 
 
   "<føre>"   SELECT:3599   (n nt sg) IF
@@ -834,7 +834,7 @@ CONSTRAINTS
 ;
 #  "vanskeligt føre
 # ikke: kan det let føre"
-# jofm
+
 
 
   "<føre>"   SELECT:3598   (vblex inf) IF
@@ -843,94 +843,94 @@ CONSTRAINTS
 	(*-1 m-auxiliary-verb BARRIER inf)
 ;
 #  "det kan føre til at ..."
-# jofm
+
 
   "<gange>"   SELECT:3593   (vblex pres) IF
 	(1 number)
 	(-1 number)
 ;
 #  "en gange en er to!"
-# jofm
+
 
   "<gode>"   SELECT:3588   (n) IF
 	(-1 %til%)
 	(NOT 1 noun)
 ;
 #  "have til gode (noun) "))
-# jofm
+
 
   "<hele>"   SELECT:3563   (adj pl) IF
 	(1 plural-det)
 ;
 #  "hele 500 %"
-# jofm
+
 
   "<hele>"   SELECT:3562   (n) IF
 	(*-1 %et% BARRIER ikke-adv-adj)
 ;
 #  hele(noun), kun ved "et hele"
-# jofm
+
 
   "<helt>"   SELECT:3546   (adj nt) IF
 	(1C preposition)
 ;
 #  "helt til København"
-# jofm
+
 
   "<helt>"   SELECT:3547   (adj nt) IF
 	(1 nr2-det)
 ;
 #  "en helt (adv) anden helt (noun)"))
-# jofm
+
 
   "<helt>"   SELECT:3548   (adj nt) IF
 	(1 indefinite-singular-neuter-noun)
 	(-1 neuter-det)
 ;
 #  "et helt land"
-# jofm
+
 
   "<helt>"   SELECT:3549   (adj nt) IF
 	(1 adj)
 ;
 #  "en helt (adv) almindelig helt (noun)"))
-# jofm
+
 
 
   "<hos>"   SELECT:3530   (pr) IF
 	(0 preposition)
 ;
-# jofm
+
 
 
   "<hun>"   SELECT:3529   (prn p3) IF
 	(NOT *-1 indefinite-ut-det)
 ;
 #  "kun noun i \"en hun\".."
-# jofm
+
 
   "<intet>"   SELECT:3509   (det nt) IF
 	(*-1O sentence-border LINK *1 neuter-det LINK *1 ikke-adv-adj)
 ;
 #  "intet mindre
 # Ikke: det store intet"
-# jofm
+
 
   "<intet>"   SELECT:3510   (det nt) IF
 	(*-1 sentence-border BARRIER neuter-det)
 ;
 #  "intet mindre"
-# jofm
+
 
   "<jeg>"   SELECT:3505   (prn p1) IF
 	(*-1O poss-det-neuter LINK *1 ikke-adv-adj)
 ;
-# jofm
+
 
   "<jeg>"   SELECT:3506   (prn p1) IF
 	(*-1O %et% LINK *1 ikke-adv-adj)
 ;
-# jofm
+
 
   "<jeg>"   SELECT:3507   (prn p1) IF
 	(NOT *-1 %et%)
@@ -942,7 +942,7 @@ CONSTRAINTS
 	(*-1 verb LINK 0 %slå%)
 ;
 #  "at slå kontra"
-# jofm
+
 
   "<kontra>"   SELECT:3496   (pr) IF
 	(1 nom)
@@ -952,7 +952,7 @@ CONSTRAINTS
 ;
 #  "Men København kontra Uppsala
 # ikke: I København kontra Uppsala"
-# jofm
+
 
   "<kontra>"   SELECT:3497   (pr) IF
 	(1 nom)
@@ -963,13 +963,13 @@ CONSTRAINTS
 ;
 #  "København kontra Uppsala
 # NOT LR0 ADVERBIALnoun: København kontra mange gange"
-# jofm
+
 
   "<lyst>"   SELECT:3453   (n) IF
 	(1 %på/til%)
 ;
 #  "Jeg har lyst til at gøre det"
-# jofm
+
 
 
 
@@ -977,7 +977,7 @@ CONSTRAINTS
 	(-1 comma)
 ;
 #  "mest sandsynligt at "men" er konj lige efter komma"
-# jofm
+
 
   "<men>"   SELECT:3442   (cnjcoo) IF
 	(1 sentence-border)
@@ -985,7 +985,7 @@ CONSTRAINTS
 ;
 #  "mest sandsynligt at "men" er konj efter sætningsgrænse
 # når der følger sentence-border efter: Men når det er sådan at"
-# jofm
+
 
   "<men>"   SELECT:3441   (n sg) IF
 	(NOT 0 %mens%)
@@ -994,7 +994,7 @@ CONSTRAINTS
 ;
 #  "kh jan 2004: Det er et stort men ved det hele.
 # NOT 1 neuter: Han har et grønt men modent æble."
-# jofm
+
 
   "<men>"   SELECT:3438   (n pl) IF
 	(NOT 1 adj/noun)
@@ -1004,7 +1004,7 @@ CONSTRAINTS
 #  "kh jan 2004: uden at få varige men af det
 # NB: lavesom til enkeltordsregel når dette blir mulig.
 # NOT 1 noun: Han har grønne men modne æbler"
-# jofm
+
 
   "<nå>"   SELECT:3393   (vblex inf) IF
 	(1 adverb)
@@ -1015,7 +1015,7 @@ CONSTRAINTS
 	(**-1C m-auxiliary-verb BARRIER perf-part)
 ;
 #  "2.3.2001 Hun kan aldrig nå længere på statusstigen."
-# jofm
+
 
   "<når>"   SELECT:3384   (vblex pres) IF
 	(1 adverb)
@@ -1024,7 +1024,7 @@ CONSTRAINTS
 	(*1 sentence-border BARRIER pres/pret)
 ;
 #  "Det når ikke ind til dem."
-# jofm
+
 
   "<når>"   SELECT:3385   (vblex pres) IF
 	(1 %frem/ind/op%)
@@ -1032,7 +1032,7 @@ CONSTRAINTS
 	(*1 sentence-border BARRIER pres/pret)
 ;
 #  "Det når ind til dem."
-# jofm
+
 
   "<når>"   SELECT:3386   (vblex pres) IF
 	(1 nom)
@@ -1040,38 +1040,38 @@ CONSTRAINTS
 	(**1C sentence-border BARRIER pres/pret)
 ;
 #  Nå er trans: "Han når bussen"
-# jofm
+
 
   "<om>"   SELECT:3371   (pr) IF
 	(1 infinitive-marker)
 ;
 #  "Han bad om (preposition) at få ..."))
-# jofm
+
 
   "<om>"   SELECT:3372   (pr) IF
 	(1 sbu)
 ;
 #  "Hun bad om (preposition) at ..."))
-# jofm
+
 
   "<om>"   SELECT:3368   (cnjsub) IF
 	(-1 %selv%)
 	(NOT 1 sentence-border)
 ;
 #  "Selv om det var sådan,"
-# jofm
+
   "<om>"   SELECT:3369   (cnjsub) IF
 	(-1 rel-pron)
 ;
 #  " som om (sbu) nogen skar rebene løs. "))
-# jofm
+
 
   "<om>"   SELECT:3370   (cnjsub) IF
 	(*-1 verb_take_%om%cnjsub BARRIER ikke-preposition LINK 0 verb)
 	(**1C pres/pret BARRIER sentence-border)
 ;
 # «at spørge/vurdere/høre om ...»
-# jofm
+
 
   "<omvendt>"   SELECT:3364   (adj nt ind) IF
 	(-1 konj)
@@ -1080,7 +1080,7 @@ CONSTRAINTS
 ;
 #  "Folket blev forsonet med embedsstudiet, og omvendt (adj neuter)
 # NOT 1 VERB: ..., men omvendt blev han aldrig"
-# jofm
+
 
   "<omvendt>"   SELECT:3365   (adj nt ind) IF
 	(NOT -1 det-preposition-infinitive-marker-adjbe)
@@ -1092,7 +1092,7 @@ CONSTRAINTS
 	(*-1 %det%-pron BARRIER sentence-border)
 ;
 #  "Det er omvendt (adj neuter)"))
-# jofm
+
 
   "<omvendt>"   SELECT:3363   (vblex pp) IF
 	(NOT -1 det-preposition-infinitive-marker-adjbe)
@@ -1106,13 +1106,13 @@ CONSTRAINTS
 ;
 #  "Han er omvendt/ han har omvendt dem
 # Ikke: det er omvendt (adj-neuter)"))
-# jofm
+
 
   "<pils>"   SELECT:5016   (n sg ind) IF
 	(-1 %halvliter%)
 ;
 #en halvliter pils
-# jofm
+
 
 
   "<rundt>"   SELECT:3339   (pr) IF
@@ -1136,27 +1136,27 @@ CONSTRAINTS
 	(*2 lexicalverb BARRIER sentence-border)
 ;
 #  "selv om freden er skrøbelig ..."
-# jofm
+
 
   "<selv>"   SELECT:3328   (adv) IF
 	(-1 comma/konj/hyphen)
 	(NOT 1 lexicalverb)
 ;
 #  "- selv (adv) svensk industri ..."))
-# jofm
+
 
   "<selv>"   SELECT:3329   (adv) IF
 	(-1 sentence-border)
 	(NOT 1 lexicalverb)
 ;
 #  ", Selv (adv) svensk industri ...
-# jofm
+
 
   "<selv>"   SELECT:3326   (det) IF
 	(1C lexicalverb)
 ;
 #  "selv (det) har svensk industri ..."))
-# jofm
+
 
   "<selv>"   SELECT:3327   (det) IF
 	(-1 pron)
@@ -1164,20 +1164,20 @@ CONSTRAINTS
 	(NOT 1 noun/adj/pron/det)
 ;
 #  "os selv"
-# jofm
+
 
   "<siden>"   SELECT:3304   (adv) IF
 	(-1C noun)
 	(**-1C %for% BARRIER sentence-border)
 ;
 #  "For fire dage siden"
-# jofm
+
 
   "<siden>"   SELECT:3305   (adv) IF
 	(1 %da%)
 ;
 #  "Siden (adv) da har hun ..."))
-# jofm
+
 
   "<slags>"   SELECT:3274   (n nt) IF
 	(-1 neuter-det)
@@ -1185,21 +1185,21 @@ CONSTRAINTS
 #  "et slags (noun +neuter gen) stykke
 # et slags (noun indeclinable+neuter gen) hus"
 #      :group 3
-# jofm
+
 
   "<slags>"   SELECT:3275   (n nt) IF
 	(-1 plural-det)
 ;
 #  "alle slags (noun indeclinable plural gen) bøger"
 #      :group 3
-# jofm
+
 
   "<som>"   SELECT:3246   (cnjsub) IF
 	(NOT -1 >>>)
 	(*2O nom LINK -1 pres/pret LINK 0 copula LINK NOT *-1 ikke-adv)
 ;
 #  "ham som blev gal"
-# jofm
+
 
   "<som>"   SELECT:3247   (cnjsub) IF
 	(NOT -1 >>>)
@@ -1207,7 +1207,7 @@ CONSTRAINTS
 	(*1 pres/pret LINK 1 det)
 ;
 #  "ham som brugte dette ord"
-# jofm
+
 
   "<som>"   SELECT:3248   (cnjsub) IF
 	(NOT -1 >>>)
@@ -1215,35 +1215,35 @@ CONSTRAINTS
 	(*1 pres/pret LINK NOT 1 punctuation LINK NOT 0 konj)
 ;
 #  "ham som ramte plet"
-# jofm
+
 
   "<som>"   SELECT:3249   (cnjsub) IF
 	(NOT -1 >>>)
 	(*2O definite-noun LINK *-1 ikke-adv-adj-det LINK 0 pres/pret LINK NOT 0 %for/før/når% LINK NOT *-1 ikke-adv)
 ;
 #  "ham som ramte pletten"
-# jofm
+
 
   "<som>"   SELECT:3250   (cnjsub) IF
 	(NOT -1 >>>)
 	(*2O pron LINK -1 pres/pret LINK NOT 0 %for/før/når% LINK NOT *-1 ikke-adv)
 ;
 #  "ham som ramte mig"
-# jofm
+
 
   "<som>"   SELECT:3251   (cnjsub) IF
 	(NOT -1 >>>)
 	(*2O iv LINK -1 pres/pret LINK NOT 0 adv LINK NOT *-1 ikke-adv)
 ;
 #  "problemer som må løses"
-# jofm
+
 
   "<som>"   SELECT:3252   (cnjsub) IF
 	(NOT -1 >>>)
 	(**1C pres/pret BARRIER ikke-adv)
 ;
 #  "problemer som må løses"
-# jofm
+
 
   "<som>"   SELECT:3254   (cnjsub) IF
 	(1C preposition)
@@ -1252,7 +1252,7 @@ CONSTRAINTS
 #  "Det var Skipper Worse som (sbu) for fulde sejl og i frisk
 # kuling fra nord-vest kom brusende ind Byfjorden
 # 25.2"
-# jofm
+
 
   "<så>"   SELECT:3216   (cnjsub) IF
 	(-1 comma)
@@ -1260,14 +1260,14 @@ CONSTRAINTS
 	(*1O sentence-border LINK *-1 pres/pret LINK NOT 0 ambiguous-verb LINK -1 adverb LINK NOT *-1 pres/pret)
 ;
 #  " , så (sbu) de ikke fik lov til at være "))
-# jofm
+
 
   "<så>"   SELECT:3218   (adv) IF
 	(1 %videre%)
 	(-1 %og%)
 ;
 #  "og så videre ..."
-# jofm
+
 
 
   "<så>"   SELECT:3220   (adv) IF
@@ -1277,7 +1277,7 @@ CONSTRAINTS
 ;
 #  "Som regel er "så" adv og ordet etter
 # pres/pret: , så slipper du ..."
-# jofm
+
 
   "<så>"   SELECT:3221   (adv) IF
 	(1C indefinite-singular-neuter-adj)
@@ -1285,7 +1285,7 @@ CONSTRAINTS
 ;
 #  "så fint
 # Ikke: hun så hårdt på ham!"
-# jofm
+
 
   "<så>"   SELECT:3222   (adv) IF
 	(1C indefinite-singular-neuter-adj)
@@ -1293,41 +1293,41 @@ CONSTRAINTS
 ;
 #  "så fint
 # Ikke: hun så hårdt på ham!"
-# jofm
+
 
 
   "<så>"   SELECT:3224   (adv) IF
 	(1C adj-plural)
 ;
 #  "så mange"
-# jofm
+
 
   "<så>"   SELECT:3226   (adv) IF
 	(1 adj)
 	(-1 comma)
 ;
 #  " ,så længe det er .."
-# jofm
+
 
   "<så>"   SELECT:3227   (adv) IF
 	(1C lexicalverb)
 ;
 #  "så er det vel"
-# jofm
+
 
   "<så>"   SELECT:3228   (adv) IF
 	(1C adj)
 	(-1C inf)
 ;
 #  "at være så stor"
-# jofm
+
 
   "<så>"   SELECT:3229   (adv) IF
 	(1C adj)
 	(-1C lexicalverb)
 ;
 #  "er så stor"
-# jofm
+
 
 
   "<så>"   SELECT:3234   (adv) IF
@@ -1336,14 +1336,14 @@ CONSTRAINTS
 ;
 #  "så ofte som han var her
 # så langt ned at han aldrig kom op"
-# jofm
+
 
   "<så>"   SELECT:32340   (adv) IF
 	(*-3 %først%)
 	(-1 %og%)
 ;
 # «først til Venezuela, og så til USA» --KBU
-# jofm
+
 
 
 
@@ -1352,79 +1352,79 @@ CONSTRAINTS
 	(*1O sentence-border LINK *-1 pres/pret LINK NOT *-1 ikke-adv-adj-noun-pron-det)
 ;
 #  "Stem så det svier -  stem RV!!"
-# jofm
+
 
   "<til>"   SELECT:3184   (pr) IF
 	(**-2C sentence-border BARRIER ikke-adv-adj-noun-det-preposition)
 
 ;
 #  "Et forslag til ny barnelov er nu vedtaget"
-# jofm
+
 
   "<til>"   SELECT:3192   (pr) IF
 	(1C akk)
 ;
 #  "Hun snakkede truende til ham"
-# jofm
+
 
 #080908 1C
 
   "<vi>"   SELECT:3138   (prn) IF
 	(*1 lexicalverb BARRIER sentence-border)
 ;
-# jofm
+
 
   "<at>"   SELECT:3120   ("at") IF
 	(1 adverb)
 	(2 inf)
 ;
-# jofm
 
-  "<at>"   SELECT:3122   ("å") IF
+
+  "<at>"   SELECT:3122   ("at") IF
 	(1 inf)
 ;
-#  "at leke"
-# jofm
+#  "at lege"
+
 
   "<alle>"   REMOVE:3781   (n) IF
 	(0 det)
 ;
 #  "allé skrives som regel sådan, ikke alle"
-# jofm
+
 
   "<alt>"   REMOVE:3769   (n nt) IF
 	(0 indefinite)
 ;
 #  "Iflg ordbogen mest som \"altet\""
-# jofm
+
 
   "<angående>"   REMOVE:3745   (adj) IF
 	(NOT -1 definite-det)
 ;
 #  "Bare adj ved \"den angående sag\""
-# jofm
+
 
   "<anstrengt>"   REMOVE:3742   (vblex pp) IF
 	(NOT 1 pron-akk)
 ;
 #  "almindelig brug: har anstrengt (perf-part) sig
-# jofm
+
 
   "<egen>"   REMOVE:4061   (adj) IF
 	  (0 det)
 ;
-# jofm
+
 
   "<egne>"   REMOVE:4062   (adj) IF
 	  (0 det)
 ;
-# jofm
+
 
   "<eksklusiv>"   REMOVE:3703   (pr) IF
 	(-1 noun)
 	(NOT 1 nom)
 ;
-# jofm
+
 
   "<eksklusiv>"   REMOVE:3704   (pr) IF
 	(NOT -1 comma)
@@ -1432,13 +1432,13 @@ CONSTRAINTS
 ;
 #  "kun præposition ved:
 # udgifter, eksklusiv moms/udgifter eksklusiv moms"
-# jofm
+
 
   "<eksklusive>"   REMOVE:3699   (pr) IF
 	(-1 noun)
 	(NOT 1 nom)
 ;
-# jofm
+
 
   "<eksklusive>"   REMOVE:3700   (pr) IF
 	(NOT -1 comma)
@@ -1446,12 +1446,12 @@ CONSTRAINTS
 ;
 #  "kun præposition ved:
 # udgifter, eksklusive moms/udgifter eksklusive moms"
-# jofm
+
 
 
 #  "udsat for (preposition) stadige fristelser"))
 #050908 not -1 alt/lidt
-# jofm
+
 
   "<for>"   REMOVE:3628   (adv) IF
 	(NOT -1 %alt/lidt%)
@@ -1485,13 +1485,13 @@ CONSTRAINTS
 	(0 adv)
 ;
 #  "referancegrammatikken ser ikke ud til at regne \"før\" som
-# adverb, bare som prepositionosisjon og subjunksjon"
-# jofm
+# adverb, bare som preposition og subjunktion"
+
 
   "<galt>"   REMOVE:4017   (n) IF
 	(NOT *-1 %en% BARRIER ikke-adv-adj)
 ;
-#  "\"galt\" noun er hanngris som bare godtas hvis
+#  "\"galt\" noun er hangris som kun godtages hvis
 # det står en galt!"
 
 
@@ -3472,7 +3472,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**1C plural-noun BARRIER ikke-adv-adj-comma)
 ;
 #  "de andre biler"
-# jofm
+
 
  SELECT:2786 (det pl) IF
 	(0 nr2-det)
@@ -4503,7 +4503,7 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "påvisningen af ulykkesrisikoen som (sbu) brug av
 #
-# engelsk languages kan representere"
+# engelsk sprog kan repræsentere"
 
  SELECT:2576 (cnjsub) IF
 	(-1 definite-noun)
@@ -4512,7 +4512,7 @@ SELECT:2963 (adj nt ind sg) IF
 ;
 #  "påvisningen av ulykkesrisikoen som (sbu) brug av
 #
-# sprog languages representerer"
+# sprog  repræsenterer"
 
  SELECT:2579 (cnjsub) IF
 	(NOT 0 %endnu%)
@@ -4524,7 +4524,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**1C pron/noun BARRIER ikke-adv-adj-det)
 	(**1C pron/noun LINK *1 ikke-adv LINK 0 pres/pret)
 ;
-#  "da minedriften tog til
+#  "da minedriften tog til"
 # vælger sbu i stedet for adv"
 # Men: «at han ikke vidste hvor<adv> høj farten var.» (så NOT 1C adj ...) -KBU
 
@@ -4556,7 +4556,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(**1C sentence-border BARRIER pres/pret)
 	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 ikke-adv-adj-comma)
 ;
-#  "Tager ikke chansen for at 0 kan være lexicalverb hvis der
+#  "Tager ikke chancen for at 0 kan være lexicalverb hvis der
 # ikke er andre verber i sætningen"
 
  SELECT:2557 plural-noun IF
@@ -4566,9 +4566,9 @@ SELECT:2963 (adj nt ind sg) IF
 	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 ikke-adv-adj-comma)
 	(*1 pres/pret BARRIER sentence-border)
 ;
-#  "over ti år
+#  "over ti år"
 # Sikker noun hvis der er lexicalverb senere
-# i sætningen"
+# i sætningen
 
  SELECT:2558 plural-noun IF
 	(NOT 0 ambiguous-plural-noun)
@@ -4609,10 +4609,10 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT -1 comma/konj)
 	(NOT -1 gen)
 	(**-1CO plural-det LINK NOT 0 number LINK NOT *1 ikke-adv-adj-comma)
-	(**-1C plural-det LINK NOT -1 definite-plural-noun)
+	(**-1C plural-det LINK NOT -1 indefinite-plural-noun)
 	(*1O sentence-border LINK **-1C lexicalverb LINK NOT 0 ambiguous-verb)
 ;
-#  "de vidunderligt smukke sommerfuglene
+#  "de vidunderligt smukke sommerfugle
 # Tjekker også at der er lexicalverb i sætningen sådan at ikke
 #  feks denne blir forkert: De sidstnævnte får (pres)
 # (forts) ofte rigtig gode anmeldelser"))
