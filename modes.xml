@@ -39,13 +39,13 @@
   <mode name="dan-nob-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
-        <file name="dan-nob.automorf.bin"/>
+        <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="dan-nob.rlx.bin"/>
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="dan-nob.prob"/>
+        <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
