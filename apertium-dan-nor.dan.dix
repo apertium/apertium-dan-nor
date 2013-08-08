@@ -2854,6 +2854,15 @@
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
+<pardef n="bukser__n" c="autoconcord:ut,sp"> <!-- Common; ~ / ~en / ~ / ~ene -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
+
 <pardef n="laks__n" c="autoconcord:ut,sp"> <!-- Common; ~ / ~en / ~ / ~ene; Like sko__n, but with lemmas ending in 's' -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="apos__case"/></e>
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="apos__case"/></e>
@@ -7971,7 +7980,6 @@
 <e lm="bravo">                     <i>bravo</i><par n="firma__n"/></e>
 <e lm="breche">                    <i>breche</i><par n="hygiejne__n"/></e>
 <e lm="bredde">          <i>bredde</i><par n="abe__n"/></e>
-<e lm="breddegrad">                <i>breddegrad</i><par n="aften__n"/></e>
 <e lm="breddegrad">      <i>breddegrad</i><par n="ateist__n"/></e>
 <e lm="bremse">          <i>bremse</i><par n="abe__n"/></e>
 <e lm="bremsesystem">    <i>bremsesystem</i><par n="alibi__n"/></e>
@@ -8079,7 +8087,7 @@
 <e lm="bugt">            <i>bugt</i><par n="ateist__n"/></e>
 <e lm="buk">                      <i>buk</i><par n="drik__n"/></e>
 <e lm="buk">                      <i>buk</i><par n="stik__n"/></e>
-<e lm="bukser" a="PT">   <i>bukser</i><par n="jordbær__n"/></e>
+<e lm="bukser" a="PT">   <i>bukser</i><par n="bukser__n"/></e>
 <e lm="bule">                      <i>bule</i><par n="hygiejne__n"/></e>
 <e lm="bulgarsk">                  <i>bulgarsk</i><par n="afghansk__n"/></e>
 <e lm="bulgarsk">        <i>bulgarsk</i><par n="afghansk__n"/></e>
@@ -12201,7 +12209,6 @@
 <e lm="luftværn">        <i>luftværn</i><par n="år__n"/></e>
 <e lm="luge">            <i>luge</i><par n="abe__n"/></e>
 <e lm="lugt">            <i>lugt</i><par n="bold__n"/></e>
-<e lm="lugt">            <i>lugt</i><par n="skib__n"/></e>
 <e lm="lugt">            <i>lugt</i><par n="år__n"/></e>
 <e lm="lukning">         <i>lukning</i><par n="ateist__n"/></e>
 <e lm="lun">             <i>lun</i><par n="alibi__n"/></e>
@@ -23316,8 +23323,6 @@
 <e lm="langdistanceløb"><i>langdistanceløb</i><par n="slag__n"/></e>
 <e lm="langdistanceraket"><i>langdistanceraket</i><par n="salut__n"/></e>
 <e lm="langdrag"><i>langdrag</i><par n="slag__n"/></e>
-<e lm="lange"><i>lang</i><par n="enk/e__n"/></e>
-<e lm="langeleik"><i>langeleik</i><par n="aften__n"/></e>
 <e lm="langfart"><i>langfart</i><par n="aften__n"/></e>
 <e lm="langfilm"><i>langfilm</i><par n="aften__n"/></e>
 <e lm="langfinger"><i>langfing</i><par n="minist/er__n"/></e>
@@ -23344,6 +23349,267 @@
 <e lm="lazaron"><i>lazaron</i><par n="aften__n"/></e>
 <e lm="laserstråle"><i>laserstråle</i><par n="hygiejne__n"/></e>
 <e lm="laservåben"><i>laservåb</i><par n="våb/en__n"/></e>
+
+
+<e lm="lasso"><i>lasso</i><par n="aften__n"/></e>
+<e lm="lastbilchauffør"><i>lastbilchauffør</i><par n="aften__n"/></e>
+<e lm="lastebåd"><i>lastebåd</i><par n="bold__n"/></e>
+<e lm="lastplan"><i>lastplan</i><par n="slag__n"/></e>
+<e lm="lasteplads"><i>lasteplads</i><par n="aften__n"/></e>
+<e lm="lastrum"><i>lastrum</i><par n="lam__n"/></e>
+<e lm="lastskib"><i>lastskib</i><par n="skib__n"/></e>
+<e lm="lasting"><i>lasting</i><par n="art_\s__n"/></e>
+<e lm="lastværk"><i>lastværk</i><par n="slag__n"/></e>
+<e lm="latex"><i>latex</i><par n="aften__n"/></e>
+<e lm="lateral"><i>lateral</i><par n="aften__n"/></e>
+<e lm="dovendidrik"><i>dovendidrik</i><par n="paryk__n"/></e>
+<e lm="latinskole"><i>latinskole</i><par n="hygiejne__n"/></e>
+<e lm="latitude"><i>latitude</i><par n="hygiejne__n"/></e>
+<e lm="dovneliv"><i>dovneliv</i><par n="slag__n"/></e>
+<e lm="latrin"><i>latrin</i><par n="alibi__n"/></e>
+<e lm="latterkrampe"><i>latterkrampe</i><par n="hygiejne__n"/></e>
+<e lm="lattersalve"><i>lattersalv</i><par n="enk/e__n"/></e>
+<e lm="topkarakter"><i>topkarakter</i><par n="aften__n"/></e>
+<e lm="laurbær"><i>laurbær</i><par n="slag__n"/></e>
+<e lm="laurbærkrans"><i>laurbærkrans</i><par n="bold__n"/></e>
+<e lm="halling"><i>halling</i><par n="aften__n"/></e>
+<e lm="løsmasse"><i>løsmasse</i><par n="hygiejne__n"/></e>
+<e lm="lavendel"><i>lavend</i><par n="cirk/el__n"/></e>
+<e lm="lavine"><i>lavine</i><par n="hygiejne__n"/></e>
+<e lm="lavinehund"><i>lavinehund</i><par n="bold__n"/></e>
+<e lm="lavvand"><i>lavvand</i><par n="hus__n"/></e>
+<e lm="ledbetændelse"><i>ledbetændelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="harmonikabus"><i>harmonikabus</i><par n="mis__n"/></e>
+<e lm="ledkapsel"><i>ledkaps</i><par n="cirk/el__n"/></e>
+<e lm="lediggang"><i>lediggang</i><par n="bold__n"/></e>
+<e lm="legalitet"><i>legalitet</i><par n="aften_\s__n"/></e>
+<e lm="legasion"><i>legasion</i><par n="aften_\s__n"/></e>
+<e lm="lægeambulance"><i>lægeambulance</i><par n="hygiejne__n"/></e>
+<e lm="lægesekretær"><i>lægesekretær</i><par n="aften__n"/></e>
+<e lm="lægestand"><i>lægestand</i><par n="bold__n"/></e>
+<e lm="lægetilsyn"><i>lægetilsyn</i><par n="slag__n"/></e>
+<e lm="lægevisit"><i>lægevisit</i><par n="salut__n"/></e>
+<e lm="lægben"><i>lægben</i><par n="slag__n"/></e>
+<e lm="lægger"><i>lægger</i><par n="spiller__n"/></e>
+<e lm="legion"><i>legion</i><par n="aften__n"/></e>
+<e lm="legionær"><i>legionær</i><par n="aften__n"/></e>
+<e lm="legitimationspapir"><i>legitimationspapir</i><par n="firma__n"/></e>
+<e lm="lejde"><i>lejd</i><par n="mød/e__n"/></e>
+<e lm="folkedansergruppe"><i>folkedansergruppe</i><par n="abe__n"/></e>
+<e lm="lerbund"><i>lerbund</i><par n="bold__n"/></e>
+<e lm="lejrbål"><i>lejrbål</i><par n="slag__n"/></e>
+<e lm="lerdue"><i>lerdu</i><par n="enk/e__n"/></e>
+<e lm="lejrfod"><i>lejrf</i><par n="f/od__n"/></e>
+<e lm="lejrplads"><i>lejrplads</i><par n="aften__n"/></e>
+<e lm="lejrskred"><i>lejrskred</i><par n="slag__n"/></e>
+<e lm="eftersøgningsaktion"><i>eftersøgningsaktion</i><par n="aften_\s__n"/></e>
+<e lm="eftersøgningsmandskab"><i>eftersøgningsmandskab</i><par n="firma_\s__n"/></e>
+<e lm="legebil"><i>legebil</i><par n="aften__n"/></e>
+<e lm="legehus"><i>legehus</i><par n="hus__n"/></e>
+<e lm="legekammerat"><i>legekammerat</i><par n="aften__n"/></e>
+<e lm="lægfolk"><i>lægfolk</i><par n="slag__n"/></e>
+<e lm="lækkerbisken"><i>lækkerbisken</i><par n="aften__n"/></e>
+<e lm="lægprædikant"><i>lægprædikant</i><par n="aften__n"/></e>
+<e lm="lastepram"><i>lastepram</i><par n="bom__n"/></e>
+<e lm="lektorat"><i>lektorat</i><par n="firma__n"/></e>
+<e lm="lektyre"><i>lektyre</i><par n="hygiejne__n"/></e>
+<e lm="lemming"><i>lemming</i><par n="aften__n"/></e>
+<e lm="lememingår"><i>lemmingår</i><par n="slag__n"/></e>
+<e lm="lændeklæde"><i>lændeklæd</i><par n="mød/e__n"/></e>
+<e lm="lænestol"><i>lænestol</i><par n="bold__n"/></e>
+<e lm="længdeløb"><i>længdeløb</i><par n="slag__n"/></e>
+<e lm="længdemål"><i>længdemål</i><par n="slag__n"/></e>
+<e lm="læns"><i>læns</i><par n="aften__n"/></e>
+<e lm="lensherre"><i>lensherre</i><par n="hygiejne__n"/></e>
+<e lm="lensmandsbetjent"><i>lensmandsbetjent</i><par n="bold__n"/></e>
+<e lm="lensmandsdistrikt"><i>lensmandsdistrikt</i><par n="firma__n"/></e>
+<e lm="læbefisk"><i>læbefisk</i><par n="sko__n"/></e>
+<e lm="læbestift"><i>læbestift</i><par n="aften__n"/></e>
+<e lm="spedalskhed"><i>spedalskhed</i><par n="aften__n"/></e>
+<e lm="lærk"><i>lærk</i><par n="aften__n"/></e>
+<e lm="lærketræ"><i>lærketræ</i><par n="alibi__n"/></e>
+<e lm="læsehest"><i>læsehest</i><par n="bold__n"/></e>
+<e lm="læsemåde"><i>læsemåde</i><par n="hygiejne__n"/></e>
+<e lm="læseprøve"><i>læseprøv</i><par n="enk/e__n"/></e>
+<e lm="læsecirkel"><i>læsecirk</i><par n="cirk/el__n"/></e>
+<e lm="læsestykke"><i>læsestykk</i><par n="mød/e__n"/></e>
+<e lm="læsevanskelighed"><i>læsevanskelighed</i><par n="ateist__n"/></e>
+<e lm="læseværk"><i>læseværk</i><par n="firma__n"/></e>
+<e lm="læsion"><i>læsion</i><par n="aften_\s__n"/></e>
+<e lm="læskedrik"><i>læskedrik</i><par n="drik__n"/></e>
+<e lm="læskur"><i>læskur</i><par n="slag__n"/></e>
+<e lm="letbeton"><i>letbeton</i><par n="aften__n"/></e>
+<e lm="letbåd"><i>letbåd</i><par n="bold__n"/></e>
+<e lm="letmatros"><i>letmatros</i><par n="aften__n"/></e>
+<e lm="letmetal"><i>letmetal</i><par n="metal__n"/></e>
+<e lm="letolie"><i>letoli</i><par n="enk/e__n"/></e>
+<e lm="letsidn"><i>letsind</i><par n="år__n"/></e>
+<e lm="letvæg"><i>letvæg</i><par n="væg__n"/></e>
+<e lm="levedag"><i>levedag</i><par n="bold__n"/></e>
+<e lm="leveomkostning"><i>leveomkostning</i><par n="aften_\s__n"/></e>
+<e lm="levemand"><i>levem</i><par n="m/and__n"/></e>
+<e lm="leverbetændelse"><i>leverbetændelse</i><par n="hygiejne_\s__n"/></e>
+<e lm="leveregel"><i>levereg</i><par n="cirk/el__n"/></e>
+<e lm="levevej"><i>levevej</i><par n="bold__n"/></e>
+<e lm="levevis"><i>levevis</i><par n="sko__n"/></e>
+<e lm="liaison"><i>liaison</i><par n="aften__n"/></e>
+<e lm="liaisonofficer"><i>liaisonofficer</i><par n="aften__n"/></e>
+<e lm="liberalitet"><i>liberalitet</i><par n="aften_\s__n"/></e>
+<e lm="libero"><i>libero</i><par n="aften__n"/></e>
+<e lm="libetto"><i>libetto</i><par n="aften__n"/></e>
+<e lm="liebhaver"><i>liebhaver</i><par n="spiller__n"/></e>
+<e lm="ligament"><i>ligament</i><par n="firma__n"/></e>
+<e lm="liggedag"><i>liggedag</i><par n="bold__n"/></e>
+<e lm="ligger"><i>ligger</i><par n="spiller__n"/></e>
+<e lm="liggesår"><i>liggesår</i><par n="slag__n"/></e>
+<e lm="liggeunderlag"><i>liggeunderlag</i><par n="slag__n"/></e>
+<e lm="lighter"><i>lighter</i><par n="spiller__n"/></e>
+<e lm="lignin"><i>lignin</i><par n="slag__n"/></e>
+<e lm="ligemand"><i>ligem</i><par n="m/and__n"/></e>
+<e lm="ligestilling"><i>ligestilling</i><par n="art_\s__n"/></e>
+<e lm="ligestrøm"><i>ligestrøm</i><par n="bom__n"/></e>
+<e lm="ligevekt"><i>ligevekt</i><par n="art__n"/></e>
+<e lm="lighus"><i>lighus</i><par n="hus__n"/></e>
+<e lm="ligklede"><i>ligkled</i><par n="mød/e__n"/></e>
+<e lm="ligning"><i>ligning</i><par n="art_\s__n"/></e>
+<e lm="ligningskontor"><i>ligningskontor</i><par n="firma__n"/></e>
+<e lm="ligningschef"><i>ligningschef</i><par n="aften__n"/></e>
+<e lm="ligstrå"><i>ligstrå</i><par n="slag__n"/></e>
+<e lm="ligtorn"><i>ligtorn</i><par n="aften__n"/></e>
+<e lm="likvid"><i>likvid</i><par n="aften__n"/></e>
+<e lm="likvidation"><i>likvidation</i><par n="aften_\s__n"/></e>
+<e lm="likviditetsvanskelighed"><i>likviditetsvanskelighed</i><par n="aften__n"/></e>
+<e lm="likør"><i>likør</i><par n="aften__n"/></e>
+<e lm="liljekonval"><i>liljekonval</i><par n="duel__n"/></e>
+<e lm="lime"><i>lime</i><par n="hygiejne__n"/></e>
+<e lm="limejuice"><i>limejuice</i><par n="hygiejne__n"/></e>
+<e lm="limonade"><i>limonade</i><par n="hygiejne__n"/></e>
+<e lm="limousine"><i>limousine</i><par n="abe__n"/></e>
+<e lm="limpind"><i>limpind</i><par n="bold__n"/></e>
+<e lm="linebåd"><i>linebåd</i><par n="bold__n"/></e>
+<e lm="linefiskeri"><i>linefiskeri</i><par n="alibi__n"/></e>
+<e lm="lingvist"><i>lingvist</i><par n="aften__n"/></e>
+<e lm="lineal"><i>lineal</i><par n="aften__n"/></e>
+<e lm="linjeakvavit"><i>linjeakvavit</i><par n="salut__n"/></e>
+<e lm="linjemand"><i>linjem</i><par n="m/and__n"/></e>
+<e lm="linjesystem"><i>linjesystem</i><par n="firma__n"/></e>
+<e lm="linding"><i>linding</i><par n="art_\s__n"/></e>
+<e lm="linoleum"><i>linoleum</i><par n="aften__n"/></e>
+<e lm="linoleumssnit"><i>linoleumssnit</i><par n="sæt__n"/></e>
+<e lm="linolie"><i>linolj</i><par n="enk/e__n"/></e>
+<e lm="lipid"><i>lipid</i><par n="firma__n"/></e>
+<e lm="lire"><i>lire</i><par n="abe__n"/></e>
+<e lm="lirekasse"><i>lirekass</i><par n="enk/e__n"/></e>
+<e lm="listepris"><i>listepris</i><par n="aften__n"/></e>
+<e lm="listesamarbejde"><i>listesamarbejd</i><par n="mød/e__n"/></e>
+<e lm="listværk"><i>listværk</i><par n="slag__n"/></e>
+<e lm="litermål"><i>litermål</i><par n="slag__n"/></e>
+<e lm="litografi"><i>litografi</i><par n="sekund__n"/></e>
+<e lm="litterat"><i>litterat</i><par n="aften__n"/></e>
+<e lm="litteraturkritik"><i>litteraturkritik</i><par n="paryk__n"/></e>
+<e lm="liturgi"><i>liturgi</i><par n="aften__n"/></e>
+<e lm="redningsbælte"><i>redningsbælt</i><par n="mød/e__n"/></e>
+<e lm="redningbåd"><i>redningbåd</i><par n="bold__n"/></e>
+<e lm="liveoptagelsed"><i>liveoptagelsed</i><par n="slag__n"/></e>
+<e lm="livgarde"><i>livgarde</i><par n="hygiejne__n"/></e>
+<e lm="livlæge"><i>livlæge</i><par n="hygiejne__n"/></e>
+<e lm="livmoderkræft"><i>livmoderkræft</i><par n="aften__n"/></e>
+<e lm="livret"><i>livret</i><par n="salut__n"/></e>
+<e lm="livsarving"><i>livsarving</i><par n="aften__n"/></e>
+<e lm="livsfilosofi"><i>livsfilosofi</i><par n="aften__n"/></e>
+<e lm="livsminde"><i>livsmind</i><par n="mød/e__n"/></e>
+<e lm="livsmod"><i>livsmod</i><par n="slag__n"/></e>
+<e lm="luv"><i>luv</i><par n="aften__n"/></e>
+<e lm="livsmønster"><i>livsmønst</i><par n="cent/er__n"/></e>
+<e lm="livsnerve"><i>livsnerve</i><par n="hygiejne__n"/></e>
+<e lm="livspolice"><i>livspolice</i><par n="hygiejne__n"/></e>
+<e lm="livsstandard"><i>livsstandard</i><par n="aften__n"/></e>
+<e lm="livsvisdom"><i>livsvisdom</i><par n="bom_\s__n"/></e>
+<e lm="ljåslåt"><i>ljåslåt</i><par n="salut__n"/></e>
+<e lm="lob"><i>lob</i><par n="klub__n"/></e>
+<e lm="lobotomi"><i>lobotomi</i><par n="aften__n"/></e>
+<e lm="loddefiskeri"><i>loddefiskeri</i><par n="alibi__n"/></e>
+<e lm="loddetorsk"><i>loddetorsk</i><par n="aften__n"/></e>
+<e lm="luvfilter"><i>lofilt</i><par n="cent/er__n"/></e>
+<e lm="lofotfiskeri"><i>lofotfiskeri</i><par n="alibi__n"/></e>
+<e lm="lofotværing"><i>lofotværing</i><par n="bold__n"/></e>
+<e lm="loftsetage"><i>loftsetage</i><par n="hygiejne__n"/></e>
+<e lm="loftsrum"><i>loftsrum</i><par n="lam__n"/></e>
+<e lm="loggia"><i>loggia</i><par n="aften__n"/></e>
+<e lm="logopæd"><i>logopæd</i><par n="aften__n"/></e>
+<e lm="lokaladministration"><i>lokaladministration</i><par n="aften_\s__n"/></e>
+<e lm="lokalbåd"><i>lokalbåd</i><par n="bold__n"/></e>
+<e lm="lokalkolorit"><i>lokalkolorit</i><par n="salut__n"/></e>
+<e lm="lokalkontor"><i>lokalkontor</i><par n="firma__n"/></e>
+<e lm="lokalpatriot"><i>lokalpatriot</i><par n="aften__n"/></e>
+<e lm="lokalpatriotisme"><i>lokalpatriotisme</i><par n="hygiejne__n"/></e>
+<e lm="lokaltakst"><i>lokaltakst</i><par n="aften__n"/></e>
+<e lm="lokaltog"><i>lokaltog</i><par n="skib__n"/></e>
+<e lm="lokaltrafik"><i>lokaltrafik</i><par n="paryk__n"/></e>
+<e lm="lok"><i>lok</i><par n="stik__n"/></e>
+<e lm="lokkedue"><i>lokkedu</i><par n="enk/e__n"/></e>
+<e lm="lokkemad"><i>lokkemad</i><par n="aften__n"/></e>
+<e lm="lokkemiddel"><i>lokkemid</i><par n="av-mid/del__n"/></e>
+<e lm="lommeformat"><i>lommeformat</i><par n="firma__n"/></e>
+<e lm="lommekniv"><i>lommekniv</i><par n="bold__n"/></e>
+<e lm="håndøre"><i>håndøre</i><par n="abe__n"/></e>
+<e lm="lommetyv"><i>lommetyv</i><par n="bold__n"/></e>
+<e lm="lommetyv"><i>lommetyv</i><par n="bold__n"/></e>
+<e lm="lommeur"><i>lommeur</i><par n="hus__n"/></e>
+<e lm="lomvi"><i>lomvi</i><par n="aften__n"/></e>
+<e lm="longe"><i>long</i><par n="enk/e__n"/></e>
+<e lm="skiunderbukser"><i>skiunderbukser</i><par n="bukser__n"/></e>
+<e lm="loppecirkus"><i>loppecirkus</i><par n="firma__n"/></e>
+<e lm="lort"><i>lort</i><par n="bold__n"/></e>
+<e lm="losbåd"><i>losbåd</i><par n="bold__n"/></e>
+<e lm="losoldermand"><i>losolderm</i><par n="m/and__n"/></e>
+<e lm="lotion"><i>lotion</i><par n="aften__n"/></e>
+<e lm="lovfremlæggelse"><i>lovfremlæggelse</i><par n="abe__n"/></e>
+<e lm="lovsang"><i>lovsang</i><par n="slag__n"/></e>
+<e lm="lovtekst"><i>lovtekst</i><par n="art__n"/></e>
+<e lm="madamme"><i>madamm</i><par n="enk/e__n"/></e>
+<e lm="luciadag"><i>luciadag</i><par n="bold__n"/></e>
+<e lm="luftetur"><i>luftetur</i><par n="bold__n"/></e>
+<e lm="luftfartøj"><i>luftfartøj</i><par n="firma__n"/></e>
+<e lm="luftfilter"><i>luftfilt</i><par n="cent/er__n"/></e>
+<e lm="luftgevær"><i>luftgevær</i><par n="firma__n"/></e>
+<e lm="lufthavn"><i>lufthavn</i><par n="art__n"/></e>
+<e lm="luftkamp"><i>luftkamp</i><par n="bold__n"/></e>
+<e lm="airconditionanlæg"><i>airconditionanlæg</i><par n="æg__n"/></e>
+<e lm="luftkrig"><i>luftkrig</i><par n="bold__n"/></e>
+<e lm="luftlag"><i>luftlag</i><par n="slag__n"/></e>
+<e lm="luftmadras"><i>luftmadras</i><par n="mis__n"/></e>
+<e lm="luftmasse"><i>luftmasse</i><par n="hygiejne__n"/></e>
+<e lm="luftmodstand"><i>luftmodstand</i><par n="bold__n"/></e>
+<e lm="luftpistol"><i>luftpistol</i><par n="bold__n"/></e>
+<e lm="luftpudebåd"><i>luftpudebåd</i><par n="bold__n"/></e>
+<e lm="luftskib"><i>luftskib</i><par n="skib__n"/></e>
+<e lm="luftskyts"><i>luftskyts</i><par n="slag__n"/></e>
+<e lm="luftstrøm"><i>luftstrøm</i><par n="bom__n"/></e>
+<e lm="luftterritorium"><i>luftterritori</i><par n="podi/um__n"/></e>
+<e lm="lufttrafik"><i>lufttrafik</i><par n="paryk__n"/></e>
+<e lm="luftvej"><i>luftvej</i><par n="bold__n"/></e>
+<e lm="luftvejsinfektion"><i>luftvejsinfektion</i><par n="aften_\s__n"/></e>
+<e lm="luftværnskyts"><i>luftværnskyts</i><par n="slag__n"/></e>
+<e lm="lugger"><i>lugger</i><par n="spiller__n"/></e>
+<e lm="luksusartikel"><i>luksusartik</i><par n="cirk/el__n"/></e>
+<e lm="luksusbil"><i>luksusbil</i><par n="aften__n"/></e>
+<e lm="luksusforbrug"><i>luksusforbrug</i><par n="slag__n"/></e>
+<e lm="luksusgenstand"><i>luksusgenstand</i><par n="bold__n"/></e>
+<e lm="luksusskat"><i>luksusskat</i><par n="salut__n"/></e>
+<e lm="lugtesalt"><i>lugtesalt</i><par n="UH__n"/></e>
+<e lm="lugtesans"><i>lugtesans</i><par n="aften__n"/></e>
+<e lm="lugtstof"><i>luktstof</i><par n="stof__n"/></e>
+<e lm="lump"><i>lump</i><par n="aften__n"/></e>
+<e lm="lundefugl"><i>lundefugl</i><par n="bold__n"/></e>
+<e lm="lungesygdom"><i>lungesygdom</i><par n="bom_\s__n"/></e>
+<e lm="lun"><i>lun</i><par n="løn__n"/></e>
+<e lm="frokostpause"><i>frokostpause</i><par n="hygiejne__n"/></e>
+<e lm="lupin"><i>lupin</i><par n="aften__n"/></e>
+<e lm="lurendrejer"><i>lurendrejer</i><par n="spiller__n"/></e>
+<e lm="lurendrejeri"><i>lurendrejeri</i><par n="firma__n"/></e>
+<e lm="lurifaks"><i>lurifaks</i><par n="aften__n"/></e>
+<e lm="listigper"><i>listigper</i><par n="art_\s__n"/></e>
 
 
 
