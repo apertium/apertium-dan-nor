@@ -1682,6 +1682,15 @@
 
  <!-- ported and changed NOB pardefs-->
 
+
+<pardef n="monstr/um__n">
+  <e>       <p><l>ummerne</l>       <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>ummer</l>         <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>ummet</l>      <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>um</l>        <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+</pardef>
+
+
 <pardef n="dekan/us__n">
   <e>       <p><l>ene</l>       <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r>us<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -9391,7 +9400,6 @@
 <e lm="fjeldområde">               <i>fjeldområd</i><par n="mød/e__n"/></e>
 <e lm="fjeldrev">                  <i>fjeldrev</i><par n="aften__n"/></e>
 <e lm="fjeldslette">                       <i>fjeldslette</i><par n="hygiejne__n"/></e>
-<e lm="fjeldslette">                 <i>fjeldslette</i><par n="aften__n"/></e>
 <e lm="fjende">          <i>fjende</i><par n="abe__n"/></e>
 <e lm="fjendskab">       <i>fjendskab</i><par n="alibi__n"/></e>
 <e lm="fjendtlighed">    <i>fjendtlighed</i><par n="ateist__n"/></e>
@@ -16265,7 +16273,6 @@
 <e lm="molekyle">                   <i>molekyl</i><par n="mød/e__n"/></e>
 <e lm="dna-molekyle">                   <i>dna-molekyl</i><par n="mød/e__n"/></e>
 <e lm="moms">                      <i>moms</i><par n="aften__n"/></e>
-<e lm="momsfritag">                <i>momsfritag</i><par n="slag__n"/></e>
 <e lm="monitor">                   <i>monitor</i><par n="aften__n"/></e>
 <e lm="gavn">                      <i>gavn</i><par n="slag__n"/></e>
 <e lm="mono">                      <i>mono</i><par n="aften__n"/></e>
@@ -23833,6 +23840,334 @@
 <e lm="masseturisme"><i>masseturisme</i><par n="hygiejne__n"/></e>
 
 
+
+<e lm="massør"><i>massør</i><par n="aften__n"/></e>
+<e lm="mastetop"><i>mastetop</i><par n="krop__n"/></e>
+<e lm="mastitis"><i>mastitis</i><par n="aften__n"/></e>
+<e lm="mastodont"><i>mastodont</i><par n="aften__n"/></e>
+<e lm="matador"><i>matador</i><par n="aften__n"/></e>
+<e lm="madtilskud"><i>madtilskud</i><par n="aften__n"/></e>
+<e lm="madbord"><i>madbord</i><par n="bold__n"/></e>
+<e lm="matchbold"><i>matchbold</i><par n="bold__n"/></e>
+<e lm="madæble"><i>madæbl</i><par n="mød/e__n"/></e>
+<e lm="materialist"><i>materialist</i><par n="aften__n"/></e>
+<e lm="madfisk"><i>madfisk</i><par n="sko__n"/></e>
+<e lm="madhus"><i>madhus</i><par n="hus__n"/></e>
+<e lm="matiné"><i>matin</i><par n="id/é__n"/></e>
+
+
+<e lm="madolie"><i>madolj</i><par n="enk/e__n"/></e>
+<e lm="mados"><i>mados</i><par n="aften__n"/></e>
+<e lm="madpakke"><i>madpakk</i><par n="enk/e__n"/></e>
+<e lm="madpause"><i>madpause</i><par n="hygiejne__n"/></e>
+<e lm="madrest"><i>madrest</i><par n="aften__n"/></e>
+<e lm="matriarkat"><i>matriarkat</i><par n="firma__n"/></e>
+<e lm="matrikel"><i>matrik</i><par n="cirk/el__n"/></e>
+<e lm="matrikelnummer"><i>matrikkelnum</i><par n="kam/mer__n"/></e>
+<e lm="matrostøj"><i>matrostøj</i><par n="år__n"/></e>
+<e lm="madsal"><i>madsal</i><par n="bold__n"/></e>
+<e lm="madcenter"><i>madcent</i><par n="cent/er__n"/></e>
+<e lm="madskab"><i>madskab</i><par n="slag__n"/></e>
+<e lm="madstation"><i>madstation</i><par n="aften_\s__n"/></e>
+<e lm="madvej"><i>madvej</i><par n="bold__n"/></e>
+<e lm="madvej"><i>madvej</i><par n="bold__n"/></e>
+<e lm="madkundskab"><i>madkundskab</i><par n="aften__n"/></e>
+<e lm="snerre"><i>snerr</i><par n="enk/e__n"/></e>
+<e lm="mauser"><i>mauser</i><par n="spiller__n"/></e>
+<e lm="mausolæum"><i>mausolæ</i><par n="podi/um__n"/></e>
+<e lm="medaljeplads"><i>medaljeplads</i><par n="aften__n"/></e>
+<e lm="medaljør"><i>medaljør</i><par n="aften__n"/></e>
+<e lm="meddelelsesmiddel"><i>meddelelsesmid</i><par n="av-mid/del__n"/></e>
+<e lm="meddommer"><i>meddommer</i><par n="spiller__n"/></e>
+<e lm="meddomsret"><i>meddomsret</i><par n="salut__n"/></e>
+<e lm="medfange"><i>medfange</i><par n="hygiejne__n"/></e>
+<e lm="medgift"><i>medgift</i><par n="art__n"/></e>
+<e lm="mediatek"><i>mediatek</i><par n="firma__n"/></e>
+<e lm="mediekundskab"><i>mediekundskab</i><par n="aften__n"/></e>
+<e lm="mediepolitik"><i>mediepolitik</i><par n="paryk__n"/></e>
+<e lm="medietek"><i>medietek</i><par n="firma__n"/></e>
+<e lm="medicinmand"><i>medicinm</i><par n="m/and__n"/></e>
+<e lm="medicinplante"><i>medicinplant</i><par n="enk/e__n"/></e>
+<e lm="medicinskab"><i>medicinskab</i><par n="slag__n"/></e>
+<e lm="medicintran"><i>medicintran</i><par n="art__n"/></e>
+<e lm="medister"><i>medist</i><par n="minist/er__n"/></e>
+<e lm="medlemskartotek"><i>medlemskartotek</i><par n="firma__n"/></e>
+<e lm="medley"><i>medley</i><par n="aften__n"/></e>
+<e lm="medynk"><i>medynk</i><par n="aften__n"/></e>
+<e lm="mede"><i>mede</i><par n="abe__n"/></e>
+<e lm="mejeriskole"><i>mejeriskole</i><par n="hygiejne__n"/></e>
+<e lm="mejerismør"><i>mejerismør</i><par n="slag__n"/></e>
+<e lm="bærekurv"><i>bærekurv</i><par n="bold__n"/></e>
+<e lm="mejsel"><i>mejs</i><par n="cirk/el__n"/></e>
+<e lm="mæglingsmand"><i>mæglingsm</i><par n="m/and__n"/></e>
+<e lm="melamin"><i>melamin</i><par n="slag__n"/></e>
+<e lm="melasse"><i>melasse</i><par n="hygiejne__n"/></e>
+<e lm="melder"><i>melder</i><par n="spiller__n"/></e>
+<e lm="gåsefod"><i>gåsef</i><par n="f/od__n"/></e>
+<e lm="mælkebil"><i>mælkebil</i><par n="aften__n"/></e>
+<e lm="mælkefeber"><i>mælkefeb</i><par n="minist/er__n"/></e>
+<e lm="mælkeglas"><i>mælkeglas</i><par n="glas__n"/></e>
+<e lm="mælkekarton"><i>mælkekarton</i><par n="aften__n"/></e>
+<e lm="mælkemaskine"><i>mælkemaskine</i><par n="abe__n"/></e>
+<e lm="mælkeproducent"><i>mælkeproducent</i><par n="aften__n"/></e>
+<e lm="mælkerampe"><i>mælkeramp</i><par n="enk/e__n"/></e>
+<e lm="mælkecentral"><i>mælkecentral</i><par n="aften__n"/></e>
+<e lm="mælkespand"><i>mælkespand</i><par n="bold__n"/></e>
+<e lm="mælkesukker"><i>mælkesukker</i><par n="slag__n"/></e>
+<e lm="mælkesyrebakterie"><i>mælkesyrebakterie</i><par n="hygiejne__n"/></e>
+<e lm="mellemalder"><i>mellemald</i><par n="minist/er__n"/></e>
+<e lm="mellemdistance"><i>mellemdistance</i><par n="hygiejne__n"/></e>
+<e lm="mellemdistanceraket"><i>mellemdistanceraket</i><par n="salut__n"/></e>
+<e lm="mellemfod"><i>mellemf</i><par n="f/od__n"/></e>
+<e lm="mellemgeneration"><i>mellemgeneration</i><par n="aften_\s__n"/></e>
+<e lm="mellemheat"><i>mellemheat</i><par n="slag__n"/></e>
+<e lm="mellemklasse"><i>mellemklass</i><par n="enk/e__n"/></e>
+<e lm="mellemkomst"><i>mellemkomst</i><par n="aften__n"/></e>
+<e lm="mellemkrigsår"><i>mellemkrigsår</i><par n="slag__n"/></e>
+<e lm="mellemlag"><i>mellemlag</i><par n="slag__n"/></e>
+<e lm="mellemmand"><i>mellemm</i><par n="m/and__n"/></e>
+<e lm="mellemparti"><i>mellemparti</i><par n="firma__n"/></e>
+<e lm="mellemrigsvej"><i>mellemrigsvej</i><par n="bold__n"/></e>
+<e lm="mellemstandpunkt"><i>mellemstandpunkt</i><par n="firma__n"/></e>
+<e lm="mellemstation"><i>mellemstation</i><par n="aften_\s__n"/></e>
+<e lm="mellemvej"><i>mellemvej</i><par n="bold__n"/></e>
+<e lm="mellemøre"><i>mellemør</i><par n="mød/e__n"/></e>
+<e lm="melodrama"><i>melodrama</i><par n="vita__n"/></e>
+<e lm="memento"><i>memento</i><par n="firma__n"/></e>
+<e lm="memorandum"><i>memorand</i><par n="vis/um__n"/></e>
+<e lm="menageri"><i>menageri</i><par n="firma__n"/></e>
+<e lm="meningsfælle"><i>meningsfælle</i><par n="hygiejne__n"/></e>
+<e lm="menisk"><i>menisk</i><par n="aften__n"/></e>
+<e lm="meniskskade"><i>meniskskade</i><par n="hygiejne__n"/></e>
+<e lm="menneskealder"><i>menneskeald</i><par n="minist/er__n"/></e>
+<e lm="menneskeabe"><i>menneskeab</i><par n="enk/e__n"/></e>
+<e lm="menneskebarn"><i>menneskeb</i><par n="b/arn__n"/></e>
+<e lm="menneskehed"><i>menneskehed</i><par n="art__n"/></e>
+<e lm="menneskemasse"><i>menneskemasse</i><par n="hygiejne__n"/></e>
+<e lm="menneskenatur"><i>menneskenatur</i><par n="bold__n"/></e>
+<e lm="menneskerace"><i>menneskerace</i><par n="hygiejne__n"/></e>
+<e lm="menneskeretsdomstol"><i>menneskeretsdomstol</i><par n="bold__n"/></e>
+<e lm="menneskeretskommission"><i>menneskeretskommission</i><par n="aften_\s__n"/></e>
+<e lm="menneskeretskonvention"><i>menneskeretskonvention</i><par n="aften_\s__n"/></e>
+<e lm="menneskesind"><i>menneskesind</i><par n="slag__n"/></e>
+<e lm="menneskeslægt"><i>menneskeslægt</i><par n="art__n"/></e>
+<e lm="mennesketype"><i>mennesketype</i><par n="hygiejne__n"/></e>
+<e lm="menneskeværk"><i>menneskeværk</i><par n="firma__n"/></e>
+<e lm="mens"><i>mens</i><par n="sko__n"/></e>
+<e lm="menstruationsbind"><i>menstruationsbind</i><par n="slag__n"/></e>
+<e lm="menstruationsblod"><i>menstruationsblod</i><par n="slag__n"/></e>
+<e lm="menstruationscyklus"><i>menstruationscyklus</i><par n="mis__n"/></e>
+<e lm="mentalhygiejne"><i>mentalhygiejne</i><par n="hygiejne__n"/></e>
+<e lm="mentalsygehus"><i>mentalsygehus</i><par n="hus__n"/></e>
+<e lm="mentometer"><i>mentomet</i><par n="cent/er__n"/></e>
+<e lm="menuet"><i>menuet</i><par n="salut__n"/></e>
+<e lm="merian"><i>merian</i><par n="aften__n"/></e>
+<e lm="meridian"><i>meridian</i><par n="aften__n"/></e>
+<e lm="merino"><i>merino</i><par n="år__n"/></e>
+<e lm="mærker"><i>mærker</i><par n="spiller__n"/></e>
+<e lm="mærkesten"><i>mærkesten</i><par n="sko__n"/></e>
+<e lm="mærkeår"><i>mærkeår</i><par n="slag__n"/></e>
+<e lm="mæcen"><i>mæcen</i><par n="aften__n"/></e>
+<e lm="metaforik"><i>metaforik</i><par n="paryk__n"/></e>
+<e lm="metaldetektor"><i>metaldetektor</i><par n="aften__n"/></e>
+<e lm="metaltråd"><i>metaltråd</i><par n="bold__n"/></e>
+<e lm="metallurg"><i>metallurg</i><par n="aften__n"/></e>
+<e lm="metallurgi"><i>metallurgi</i><par n="aften__n"/></e>
+<e lm="metamorfose"><i>metamorfose</i><par n="hygiejne__n"/></e>
+<e lm="meteorit"><i>meteorit</i><par n="salut__n"/></e>
+<e lm="metermål"><i>metermål</i><par n="slag__n"/></e>
+<e lm="metodist"><i>metodist</i><par n="aften__n"/></e>
+<e lm="metodistpræst"><i>metodistpræst</i><par n="aften__n"/></e>
+<e lm="metropol"><i>metropol</i><par n="aften__n"/></e>
+<e lm="mætte"><i>mætt</i><par n="enk/e__n"/></e>
+<e lm="metyl"><i>metyl</i><par n="slag__n"/></e>
+<e lm="mezzosopran"><i>mezzosopran</i><par n="aften__n"/></e>
+<e lm="mide"><i>mide</i><par n="abe__n"/></e>
+<e lm="middagsgæst"><i>middagsgæst</i><par n="aften__n"/></e>
+<e lm="middagsmat"><i>middagsmat</i><par n="aften__n"/></e>
+<e lm="middagsmåltid"><i>middagsmåltid</i><par n="firma__n"/></e>
+<e lm="middagsselskab"><i>middagsselskab</i><par n="firma_\s__n"/></e>
+<e lm="middelhavsklima"><i>middelhavsklima</i><par n="vita__n"/></e>
+<e lm="middelhavsland"><i>middelhavsland</i><par n="hus__n"/></e>
+<e lm="middelklasse"><i>middelklass</i><par n="enk/e__n"/></e>
+<e lm="middelpris"><i>middelpris</i><par n="aften__n"/></e>
+<e lm="middelvej"><i>middelvej</i><par n="bold__n"/></e>
+<e lm="middelvej"><i>middelvej</i><par n="bold__n"/></e>
+<e lm="midtergang"><i>midtergang</i><par n="bold__n"/></e>
+<e lm="midtergård"><i>midtergård</i><par n="aften__n"/></e>
+<e lm="midterparti"><i>midterparti</i><par n="firma__n"/></e>
+<e lm="midterrabat"><i>midterrabat</i><par n="salut__n"/></e>
+<e lm="midtskib"><i>midtskib</i><par n="skib__n"/></e>
+<e lm="midtvinter"><i>midtvint</i><par n="minist/er__n"/></e>
+<e lm="mig"><i>mig</i><par n="slag_no-cp__n"/></e>
+<e lm="mikrobe"><i>mikrobe</i><par n="hygiejne__n"/></e>
+<e lm="mikrofilm"><i>mikrofilm</i><par n="aften__n"/></e>
+<e lm="mikrokosmos"><i>mikrokosmos</i><par n="slag__n"/></e>
+<e lm="mikroprocessor"><i>mikroprocessor</i><par n="aften__n"/></e>
+<e lm="køkkenmaskine"><i>køkkenmaskine</i><par n="spiller__n"/></e>
+<e lm="mildt vejr"><i>mildt<b/>vejr</i><par n="slag__n"/></e>
+<e lm="militarisme"><i>militarisme</i><par n="hygiejne__n"/></e>
+<e lm="milits"><i>milits</i><par n="aften__n"/></e>
+<e lm="militærattaché"><i>militærattach</i><par n="id/é__n"/></e>
+<e lm="militærbase"><i>militærbase</i><par n="hygiejne__n"/></e>
+<e lm="militærdiktatur"><i>militærdiktatur</i><par n="firma__n"/></e>
+<e lm="militærfly"><i>militærfly</i><par n="slag__n"/></e>
+<e lm="militærbase"><i>militærbase</i><par n="aften__n"/></e>
+<e lm="militærkolonne"><i>militærkolonne</i><par n="hygiejne__n"/></e>
+<e lm="militærlejr"><i>militærlejr</i><par n="bold__n"/></e>
+<e lm="militærparade"><i>militærparade</i><par n="hygiejne__n"/></e>
+<e lm="militærpoliti"><i>militærpoliti</i><par n="firma__n"/></e>
+<e lm="militærstyre"><i>militærstyr</i><par n="mød/e__n"/></e>
+<e lm="miljøskade"><i>miljøskade</i><par n="hygiejne__n"/></e>
+<e lm="miljøterapeut"><i>miljøterapeut</i><par n="aften__n"/></e>
+<e lm="milkshake"><i>milkshake</i><par n="hygiejne__n"/></e>
+<e lm="milligram"><i>milligram</i><par n="lam__n"/></e>
+<e lm="milliliter"><i>milliliter</i><par n="meter__n"/></e>
+<e lm="millionoplag"><i>millionoplag</i><par n="slag__n"/></e>
+<e lm="miltbran"><i>miltbran</i><par n="løn__n"/></e>
+<e lm="mimeteater"><i>mimeteat</i><par n="minist/er__n"/></e>
+<e lm="mimik"><i>mimik</i><par n="paryk__n"/></e>
+<e lm="minaret"><i>minaret</i><par n="aften__n"/></e>
+<e lm="mindreverd"><i>mindreverd</i><par n="slag__n"/></e>
+<e lm="minedetektor"><i>minedetektor</i><par n="aften__n"/></e>
+<e lm="mineralolie"><i>mineralolj</i><par n="enk/e__n"/></e>
+<e lm="mineralrike"><i>mineralrik</i><par n="mød/e__n"/></e>
+<e lm="miniature"><i>miniature</i><par n="aften__n"/></e>
+<e lm="miniaturebillede"><i>miniaturebilled</i><par n="mød/e__n"/></e>
+<e lm="miniaturegevær"><i>miniaturegevær</i><par n="firma__n"/></e>
+<e lm="minibil"><i>minibil</i><par n="aften__n"/></e>
+<e lm="minigolf"><i>minigolf</i><par n="aften__n"/></e>
+<e lm="miniskørt"><i>miniskørt</i><par n="slag__n"/></e>
+<e lm="minimumskrav"><i>minimumskrav</i><par n="slag__n"/></e>
+<e lm="minimumstemperatur"><i>minimumstemperatur</i><par n="bold__n"/></e>
+<e lm="miniput"><i>miniput</i><par n="salut__n"/></e>
+<e lm="miniskørt"><i>miniskørt</i><par n="firma__n"/></e>
+<e lm="ministerium"><i>ministeri</i><par n="podi/um__n"/></e>
+<e lm="ministerråd"><i>ministerråd</i><par n="år__n"/></e>
+<e lm="miniubåd"><i>miniubåd</i><par n="bold__n"/></e>
+<e lm="minkfarm"><i>minkfarm</i><par n="aften__n"/></e>
+<e lm="minkopdræt"><i>minkopdræt</i><par n="sæt__n"/></e>
+<e lm="minkskind"><i>minkskind</i><par n="slag__n"/></e>
+<e lm="mindedag"><i>mindedag</i><par n="bold__n"/></e>
+<e lm="mindefest"><i>mindefest</i><par n="aften__n"/></e>
+<e lm="mindeord"><i>mindeord</i><par n="slag__n"/></e>
+<e lm="mindesamvær"><i>mindesamvær</i><par n="slag__n"/></e>
+<e lm="mindesmærke"><i>mindesmærk</i><par n="mød/e__n"/></e>
+<e lm="mindstebarn"><i>mindsteb</i><par n="b/arn__n"/></e>
+<e lm="mindstebeløb"><i>mindstebeløb</i><par n="slag__n"/></e>
+<e lm="mindstekrav"><i>mindstekrav</i><par n="slag__n"/></e>
+<e lm="mindstemand"><i>mindstem</i><par n="m/and__n"/></e>
+<e lm="folkepensionist"><i>folkepensionist</i><par n="aften__n"/></e>
+<e lm="mindstepris"><i>mindstepris</i><par n="aften__n"/></e>
+<e lm="mindstesum"><i>mindstesum</i><par n="bom__n"/></e>
+<e lm="mindstetakst"><i>mindstetakst</i><par n="aften__n"/></e>
+<e lm="minusfaktor"><i>minusfaktor</i><par n="aften__n"/></e>
+<e lm="misantrop"><i>misantrop</i><par n="aften__n"/></e>
+<e lm="misbrug"><i>misbrug</i><par n="år__n"/></e>
+<e lm="misforhold"><i>misforhold</i><par n="slag__n"/></e>
+<e lm="misfoster"><i>misfost</i><par n="cent/er__n"/></e>
+<e lm="mishag"><i>mishag</i><par n="slag__n"/></e>
+<e lm="missionsarbejde"><i>missionsarbejd</i><par n="mød/e__n"/></e>
+<e lm="missionsselskab"><i>missionsselskab</i><par n="firma_\s__n"/></e>
+<e lm="miskredit"><i>miskredit</i><par n="salut__n"/></e>
+<e lm="mismod"><i>mismot</i><par n="slag__n"/></e>
+<e lm="misopfattelse"><i>misopfattelse</i><par n="aften__n"/></e>
+<e lm="mispel"><i>misp</i><par n="cirk/el__n"/></e>
+<e lm="skønhedsonkurrence"><i>skønhedsonkurrence</i><par n="hygiejne__n"/></e>
+<e lm="mistanke"><i>mistanke</i><par n="hygiejne__n"/></e>
+<e lm="mistelten"><i>mistelten</i><par n="aften__n"/></e>
+<e lm="mister"><i>mist</i><par n="minist/er__n"/></e>
+<e lm="mistillidsforslag"><i>mistillidsforslag</i><par n="slag__n"/></e>
+<e lm="mistillidsvotum"><i>mistillidsvotum</i><par n="vel/um__n"/></e>
+<e lm="mistrivsel"><i>mistrivs</i><par n="cirk/el__n"/></e>
+<e lm="misvækst"><i>misvækst</i><par n="aften__n"/></e>
+<e lm="mix"><i>mix</i><par n="aften_no-cp__n"/></e>
+<e lm="mjav"><i>mjav</i><par n="slag__n"/></e>
+<e lm="softice"><i>softice</i><par n="abe__n"/></e>
+<e lm="mo"><i>mo</i><par n="år__n"/></e>
+<e lm="mobil"><i>mobil</i><par n="aften__n"/></e>
+<e lm="mobiliseringshær"><i>mobiliseringshær</i><par n="aften__n"/></e>
+<e lm="mobilitet"><i>mobilitet</i><par n="aften_\s__n"/></e>
+<e lm="modalitet"><i>modalitet</i><par n="aften_\s__n"/></e>
+<e lm="modelfly"><i>modelfly</i><par n="slag__n"/></e>
+<e lm="modelforsøg"><i>modelforsøg</i><par n="slag__n"/></e>
+<e lm="moderation"><i>moderation</i><par n="aften_\s__n"/></e>
+<e lm="moderator"><i>moderator</i><par n="aften__n"/></e>
+<e lm="moderhjerte"><i>moderhjert</i><par n="mød/e__n"/></e>
+<e lm="moderland"><i>moderland</i><par n="hus__n"/></e>
+<e lm="modernisme"><i>modernisme</i><par n="hygiejne__n"/></e>
+<e lm="modernitet"><i>modernitet</i><par n="aften_\s__n"/></e>
+<e lm="moderselskab"><i>moderselskab</i><par n="firma_\s__n"/></e>
+<e lm="moderskib"><i>moderskib</i><par n="skib__n"/></e>
+<e lm="modifikation"><i>modifikation</i><par n="aften_\s__n"/></e>
+<e lm="modist"><i>modist</i><par n="aften__n"/></e>
+<e lm="modningsproces"><i>modningsproces</i><par n="mis__n"/></e>
+<e lm="modul"><i>modul</i><par n="aften__n"/></e>
+<e lm="modulation"><i>modulation</i><par n="aften_\s__n"/></e>
+<e lm="modus"><i>mod</i><par n="mod/us__n"/></e>
+<e lm="varmedis"><i>varmedis</i><par n="aften__n"/></e>
+<e lm="mogul"><i>mogul</i><par n="aften__n"/></e>
+<e lm="mohair"><i>mohair</i><par n="år__n"/></e>
+<e lm="mokassin"><i>mokassin</i><par n="aften__n"/></e>
+<e lm="mokka"><i>mokka</i><par n="aften__n"/></e>
+<e lm="muldvarp"><i>muldvarp</i><par n="aften__n"/></e>
+<e lm="muldvarparbejde"><i>muldvarparbejde</i><par n="slag__n"/></e>
+<e lm="mole"><i>mole</i><par n="hygiejne__n"/></e>
+<e lm="mol"><i>mol</i><par n="duel__n"/></e>
+<e lm="molo"><i>molo</i><par n="aften__n"/></e>
+<e lm="molotovcocktail"><i>molotovcocktail</i><par n="aften__n"/></e>
+<e lm="moltebær"><i>moltebær</i><par n="slag__n"/></e>
+<e lm="moms"><i>moms</i><par n="aften__n"/></e>
+<e lm="monarkist"><i>monarkist</i><par n="aften__n"/></e>
+<e lm="mongol"><i>mongol</i><par n="aften__n"/></e>
+<e lm="monitor"><i>monitor</i><par n="aften__n"/></e>
+<e lm="monogami"><i>monogami</i><par n="slag__n"/></e>
+<e lm="monografi"><i>monografi</i><par n="aften__n"/></e>
+<e lm="monogram"><i>monogram</i><par n="program__n"/></e>
+<e lm="monokultur"><i>monokultur</i><par n="aften__n"/></e>
+<e lm="monolit"><i>monolit</i><par n="salut__n"/></e>
+<e lm="monom"><i>monom</i><par n="firma__n"/></e>
+<e lm="monopolkapital"><i>monopolkapital</i><par n="aften__n"/></e>
+<e lm="monopolkapitalisme"><i>monopolkapitalisme</i><par n="hygiejne__n"/></e>
+<e lm="monoteisme"><i>monoteisme</i><par n="hygiejne__n"/></e>
+<e lm="monotoni"><i>monotoni</i><par n="aften__n"/></e>
+<e lm="monstrum"><i>monstrum</i><par n="monstr/um__n"/></e>
+<e lm="monsun"><i>monsun</i><par n="aften__n"/></e>
+<e lm="monsunregn"><i>monsunregn</i><par n="slag__n"/></e>
+<e lm="montage"><i>montage</i><par n="hygiejne__n"/></e>
+<e lm="montre"><i>montre</i><par n="hygiejne__n"/></e>
+<e lm="montør"><i>montør</i><par n="aften__n"/></e>
+<e lm="knallertkører"><i>knallertkører</i><par n="spiller__n"/></e>
+<e lm="moppe"><i>moppe</i><par n="abe__n"/></e>
+<e lm="mora"><i>mora</i><par n="aften__n"/></e>
+<e lm="moralisme"><i>moralisme</i><par n="hygiejne__n"/></e>
+<e lm="moralist"><i>moralist</i><par n="aften__n"/></e>
+<e lm="moralitet"><i>moralitet</i><par n="aften_\s__n"/></e>
+<e lm="moralkodæks"><i>moralkodæks</i><par n="aften__n"/></e>
+<e lm="morads"><i>morads</i><par n="alibi__n"/></e>
+<e lm="moratorium"><i>moratori</i><par n="podi/um__n"/></e>
+<e lm="morbror"><i>morbr</i><par n="m/or__n"/></e>
+<e lm="mordkommision"><i>mordkommision</i><par n="aften_\s__n"/></e>
+<e lm="morel"><i>morel</i><par n="duel__n"/></e>
+<e lm="moreltræ"><i>moreltræ</i><par n="alibi__n"/></e>
+<e lm="moræne"><i>moræne</i><par n="hygiejne__n"/></e>
+<e lm="mormon"><i>mormon</i><par n="aften__n"/></e>
+<e lm="spøgefugl"><i>spøgefugl</i><par n="bold__n"/></e>
+<e lm="mors dag"><i>mors<b/>dag</i><par n="bold__n"/></e>
+<e lm="morsealfabet"><i>morsealfabet</i><par n="alibi__n"/></e>
+<e lm="morshjerte"><i>morshjert</i><par n="mød/e__n"/></e>
+<e lm="moderinstinkt"><i>moderinstinkt</i><par n="firma__n"/></e>
+<e lm="morskab"><i>morskab</i><par n="år__n"/></e>
+<e lm="modermælkserstatning"><i>modermælkserstatning</i><par n="aften__n"/></e>
+<e lm="mortalitet"><i>mortalitet</i><par n="aften_\s__n"/></e>
+<e lm="mortifikation"><i>mortifikation</i><par n="aften_\s__n"/></e>
+<e lm="mosaik"><i>mosaik</i><par n="paryk__n"/></e>
+<e lm="motionist"><i>motionist</i><par n="aften__n"/></e>
+<e lm="moskito"><i>moskito</i><par n="aften__n"/></e>
+<e lm="moskovit"><i>moskovit</i><par n="salut__n"/></e>
+<e lm="moskus"><i>moskus</i><par n="aften__n"/></e>
+<e lm="moskusokse"><i>moskusokse</i><par n="hygiejne__n"/></e>
+<e lm="moské"><i>mosk</i><par n="id/é__n"/></e>
 
  <!-- /nouns -->
 
