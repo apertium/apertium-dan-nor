@@ -21,6 +21,7 @@ LIST %anden/samme%/quantifier-neuter = ("anden"  nt) ("samme" ) (det qnt) ;
 LIST %bodyparts%-plural = ("arm"  pl) ("ben"  pl) ("krop"  pl) ("læg"  pl) ;
 LIST %at% = "at"  ;
 LIST %at/om% = "om"  "at"  ;
+LIST %om-at% = "om at"  ;
 LIST %af% = "af"  ;
 LIST %af/for% = ("af"  pr) ("for"  pr) ;
 LIST %bare% = ("bare"  adv) ;
@@ -348,11 +349,12 @@ LIST ikke-noun-verb = "siden"  "$-" "-" "$," "," pr prn cnjsub cnjcoo "at" det i
 LIST ikke-number = "somme"  "samtlige"  "noen"  "ingen"  "hver"  "enhver"  "begge"  "all"  ;
 LIST ikke-verb = "siden"  det pr prn cnjsub cnjcoo "at" n np ij adj adv ;
 LIST imp = imp ;
+LIST part = part ;
 LIST inf = inf ;
 LIST inf/perf-part = (vblex inf) (vblex pp) ;
 LIST inf/pres = (vblex inf pres) ;
 LIST inf/pres/past = inf pres past ;
-LIST infinitive-marker = "at" ;
+LIST infinitive-marker = "at" part;
 LIST int-sentence-border = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$-" "-" cnjsub @sbu ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST interj = ij ;
 LIST iv = (vblex inf) (vblex pp) ;
@@ -370,7 +372,7 @@ LIST copula-u-%hedde/kalde = "være"  "virke"  "synes"  "blive" ;
 LIST copula-lexicalverb = ("være"  pres) ("blive"  pres) ("hedde"  pres) ("synes"  pres) ("virke"  pres) ("kalde"  pres pass) ("være"  past) ("blive"  past) ("hedde"  past) ("synes"  past) ("virke"  past) ("kalde"  past pass) ;
 LIST quantifier = qnt ;
 LIST quantifier-med-flere = "mange"  "halv"  "flere"  (det qnt) ("adskillig"  pl) ;
-LIST m-auxiliary-verb = ("få"  vblex) ("skulle"  vbmod) ("kunne"  vbmod) ("ville"  vbaux) ("måtte"  vbaux) ("burde"  vbmod) ;
+LIST m-auxiliary-verb = ("få"  vblex) ("skulle"  vbmod) ("kunne"  vbmod) ("ville"  vaux) ("måtte"  vaux) ("burde"  vbmod) ;
 LIST m-auxiliary-verb-lexicalverb = ("få"  pres) ("skulle"  pres) ("kunne"  pres) ("ville"  pres) ("måtte"  pres) ("burde"  pres) ("skulle"  past) ("kunne"  past) ("ville"  past) ("måtte"  past) ("burde"  past) ("få"  past) ;
 LIST m-auxiliary-verb-perfpart = ("skulle"  vblex pp) ("kunne"  vblex pp) ("ville"  vblex pp) ("måtte"  vblex pp) ("burde"  vblex pp) ("få"  vblex pp) ;
 LIST m-auxiliary-verb-past = ("skulle"  past) ("kunne"  past) ("ville"  past) ("måtte"  past) ("burde"  past) ("få"  past) ;
@@ -1028,6 +1030,20 @@ CONSTRAINTS
 #  "2.3.2001 Hun kan aldrig nå længere på statusstigen."
 
 
+  "<få>"   SELECT:10019   (vblex inf) IF
+    (**-1C m-auxiliary-verb BARRIER sentence-border)
+    (**-1C m-auxiliary-verb BARRIER inf)
+    (**-1C m-auxiliary-verb BARRIER perf-part)
+;
+
+#  ville vi få lejlighed
+
+
+
+
+
+
+
   "<når>"   SELECT:3384   (vblex pres) IF
 	(1 adverb)
 	(2 %frem/ind/op%)
@@ -1321,6 +1337,15 @@ CONSTRAINTS
 	(1C adj-plural)
 ;
 #  "så mange"
+
+
+
+  "<at>"   SELECT:10016   (part) IF
+    (1C inf)
+
+;
+
+# at gøre det
 
 
   "<så>"   SELECT:3226   (adv) IF
@@ -4317,6 +4342,7 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 0 %en/et%)
 	(NOT 0 interj)
 	(1C ikke-adv-adj-noun)
+    (NOT 1 adj-definite)
 
 #    811:LIST ikke-adv-adj-noun = "siden"  "$--" "--" "$:" ":" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "at" interj det <<< <ellipsis> ;
 	(NOT 1 nr2-det)
@@ -4864,6 +4890,12 @@ SELECT:2963 (adj nt ind sg) IF
 	(NOT 2 adj)
 ;
 #  "fra naturens side (noun) og gennom "))
+
+
+ SELECT:10018 verb IF
+    (-1 %om-at%)
+;
+#  om at (adv) få (vblex not adv)
 
  SELECT:2496 noun IF
 	(-1C noun-gen)
@@ -7367,7 +7399,7 @@ REMOVE:gen-noun gen-noun IF
 
  REMOVE:1912 (vblex inf) IF
 	(NOT 0 pass)
-	(*-1 sentence-border BARRIER infinitive-marker)
+	(NOT *-1 sentence-border BARRIER %at%)
 	(**-1C sentence-border BARRIER m-auxiliary-verb)
 	(**-2C sentence-border BARRIER perceptionverb)
 	(**-2C sentence-border BARRIER clb/konj-konj)
@@ -7465,6 +7497,16 @@ REMOVE:gen-noun gen-noun IF
 #  "(NOT -1 AC)
 # sletter etter verb som ikke er A eller
 # m-auxiliary-verb"
+
+
+
+ REMOVE:10017 (imp) IF
+    (-1 %at%)
+;
+#  sletter imp læsning efter "at"
+
+
+
 
  REMOVE:5000 (vblex inf) IF
 	(NOT 0 pass)
@@ -8433,7 +8475,13 @@ SELECT:4081 (adj) IF
 ;
 
  REMOVE:4037 (vblex inf) IF
-	 (0 ambiguous-inf)
+     (0 ambiguous-inf)
+     (NOT -1 m-auxiliary-verb)
+;
+
+
+ SELECT:10015 (vblex) IF
+     (-1 m-auxiliary-verb)
 ;
 
  REMOVE:4039 (vblex pres) IF
