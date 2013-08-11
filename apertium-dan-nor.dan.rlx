@@ -269,15 +269,15 @@ LIST singular-indefinite = (sg ind) ;
 LIST f-subj = ("det"  prn) ;
 LIST colours = "turkis"  "sort"  "rød"  "rosa"  "orange"  "lilla"  "indigo"  "hvid"  "gul"  "grøn"  "grå"  "violet"  "blå"  ;
 LIST ambiguous-adj = "brak"  "året"  "være"  "vide"  "vis"  "var"  "tids"  "sige"  "se"  "live"   "lette"  "lave"  "helle"  "før"  "fore"  "eje"  "egen"  "bar"  "anden"  "angående"  "ale"   ;
-LIST ambiguous-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller"  "gode"  "faren"  (adj comp) ("visse"  n) ("civil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
+LIST ambiguous-adj-noun = "gifte"  "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller" "planer"  "gode"  "faren"  (adj comp) ("visse"  n) ("civil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
 LIST ambiguous-plural-noun = ("hjælp"  pl ind) ("lede"  m pl ind) ("led"  m pl ind) ("fald"  m pl ind) ("snus"  m pl ind) ("find"  pl ind) ("finde"  pl ind) ("komme"  pl ind) ("under"  pl ind) ("får"  pl) ("ønske"  pl) ("slag"  gen) ("jeg"  pl) ("lo"  pl) ("var"  pl) ("nå"  pl) ("al"  pl def) ("mod"  pl ind) ("men"  pl ind) ;
 LIST ambiguous-forledd-verb = ("helle"  pres)  ("unde"  pres) ("nå"  pres)  ("fare"  past) ("tro"  adj) ("tiltale"  past) ("klokke"  past) ;
 LIST ambiguous-imp = "live"  "vare"  "så"  "se"  "nå"  "neje"  "mine"  "mene"  "føre"  "fore"  "ene"  "bedre"  "more"  "fare" ;
 LIST ambiguous-inf = ("fælde"  vblex inf pass) "så"  "støtte"  "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lide" s "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse" "bedre"  ("slette"  pass) "røde"  ;
-LIST ambiguous-ut-noun = "ville"  "ved"  "syge"  "skrå"  "helt"  "heller"  "ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
+LIST ambiguous-ut-noun = "ville"  "ved"  "syge" "skrå"  "helt"  "heller"  "ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
 LIST ambiguous-neuter-noun = "vildt"  "venstre"  "var"  "under"  "skrå"  "sæt"  "selv"  "nå"  "ny"  "mod"  "lik"  "konkret"  "jeg"  "højre"  "godt"  "gode"  "folk"  "bag"  ("stik"  adv) ("alt"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
 LIST ambiguous-part = "kante"  "vide"  "via"  "vække"  "svare"  "stole"  "spænde"  "skønne"  "rende" "pule"  "prime"  "ose"  "optage"  "omvende"  "nære"  "nyde" "mage"  "lyse"  "live"  "lide"  "lede"  "klare"  "hedde"  "helle"  "hele"  "gale"  "fortsætte"  "fore" "decidere"  "brune"  "brede"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
-LIST ambiguous-verb =  ("ansætte"  vblex past) ("gange"  pres) ("stede"  pres) ("nå"  pres) ("sige"  past) ("fare"  past) ("se"  past) ("helle"  pres) ("dy"  pres) ("unde" vblex pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("iblande"  vblex past) ("forfatte"  vblex pres);
+LIST ambiguous-verb =  ("ansætte"  vblex past) ("gange"  pres)  ("plane"  pres) ("stede"  pres) ("nå"  pres) ("sige"  past) ("fare"  past) ("se"  past) ("helle"  pres) ("dy"  pres) ("unde" vblex pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("iblande"  vblex past) ("forfatte"  vblex pres);
 LIST fem = f (adj def) ;
 LIST fem-definite = (f def) ;
 LIST ut-det = (det f) ;
@@ -1039,7 +1039,13 @@ CONSTRAINTS
 #  ville vi få lejlighed
 
 
+  "<takke>"   SELECT:10019   (vblex inf) IF
+    (**-1C m-auxiliary-verb BARRIER sentence-border)
+    (**-1C m-auxiliary-verb BARRIER inf)
+    (**-1C m-auxiliary-verb BARRIER perf-part)
+;
 
+#  vil gerne takke
 
 
 
@@ -1346,6 +1352,16 @@ CONSTRAINTS
 ;
 
 # at gøre det
+
+
+
+  SELECT:10019  (vblex inf) IF
+    (-1C %at%)
+
+;
+
+# at skabe (not NOUN) det
+
 
 
   "<så>"   SELECT:3226   (adv) IF
@@ -8188,6 +8204,7 @@ CONSTRAINTS
 	(NOT *1 overskrift)
 	(NOT -1 comma/konj)
 	(NOT -1 sbu)
+    (NOT -1 det)
 	(NOT -1 parenthesis)
 	(NOT -1 >>>)
 	(NOT -1 overskrift)
