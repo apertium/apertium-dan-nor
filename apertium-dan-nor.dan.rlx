@@ -55,7 +55,7 @@ LIST %end% = "end"  ;
 LIST %gang% = "gang" ;
 LIST %et% = ("en"  det nt sg) ;
 LIST %en% = ("en"  det ut sg) ;
-LIST %en/et% = ("en" det sg ut) ("et" det sg nt) ;
+LIST %en/et% = ("en" det sg ut) ("en" det sg nt) ;
 LIST %fare%-past = ("fare"  vblex past) ;
 LIST %fast% = ("fast"  adj) ;
 LIST %fast%-verb =  "surre"  "sætte"  "brænde"  "binde"  ;
@@ -137,7 +137,7 @@ LIST %på/ved% = "på"  ("ved"  pr);
 LIST %samme% = "samme"  ;
 LIST %samme/næste/ene/eneste/forrige% = ("forrige"  det) ("samme"  det) ("næste"  det) ("eneste"  det) ("ene"  det) ;
 LIST %samme/næste/ene/eneste/selve/forrige% = ("selv"  det) ("forrige"  det) ("samme"  det) ("næste"  det) ("eneste"  det) ("ene"  det) ;
-LIST %sig% = ("seg"  prn) ;
+LIST %sig% = ("sig"  prn) ;
 LIST %selv% = "selv"  ;
 LIST %siden% = "siden"  ;
 LIST %sidste% = ("sidst"  pl) ;
@@ -166,7 +166,7 @@ LIST %vedkommende% = "vedkommende"  ;
 LIST %var% = ("var"  adj) ("være"  past) ;
 LIST %vel% = "vel"  ;
 LIST %videre% = ("vid"  adj comp) ;
-LIST %vist% = ("viss"  adj posi nt ind sg) ;
+LIST %vist% = ("vis"  adj pst nt ind sg) ;
 LIST %være/blive% = "være"  "blive"  ;
 LIST %yderligere% = "yderligere"  ;
 LIST %år% = "år"  ;
@@ -274,15 +274,15 @@ LIST singular-indefinite = (sg ind) ;
 LIST f-subj = ("det"  prn) ;
 LIST colours = "turkis"  "sort"  "rød"  "rosa"  "orange"  "lilla"  "indigo"  "hvid"  "gul"  "grøn"  "grå"  "violet"  "blå"  ;
 LIST ambiguous-adj = "brak"  "året" "være"  "vide"  "var"  "tids"  "sige"  "se"  "live"   "lette"  "lave"  "helle"  "før"  "fore"  "eje"  "egen"  "bar"  "anden"  "angående"  "ale" "plan"  ;
-LIST ambiguous-adj-noun = "gifte" "streng" "strenge" "vedkommende"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller" "planer"  "gode"  "faren"  (adj comp) ("visse"  n) ("civil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
+LIST ambiguous-adj-noun = "gifte" "streng" "strenge" "vedkommende" "tro"  "venstre"  "tunge"  "skrå"  "skarp"  "ret"  "ny"  "lige"  "lig"  "kvalm"  "høj"  "helt" "heller" "planer"  "gode"  "faren"  (adj comp) ("visse"  n) ("civil"  n) ("absolutt"  n) ("konkret"  n) ("set"  nt) ("halv"  indeclinable) ("var"  n ind) ("lidt"  sg def) ("middel"  gen) ("al"  pl def) ;
 LIST ambiguous-plural-noun = ("hjælp"  pl ind) ("lede"  m pl ind) ("led"  m pl ind) ("fald"  m pl ind) ("snus"  m pl ind) ("find"  pl ind) ("finde"  pl ind) ("komme"  pl ind) ("under"  pl ind) ("får"  pl) ("ønske"  pl) ("slag"  gen) ("jeg"  pl) ("lo"  pl) ("var"  pl) ("nå"  pl) ("al"  pl def) ("mod"  pl ind) ("men"  pl ind) ("støtte"  pl ind) ;
 LIST ambiguous-forledd-verb = ("helle"  pres)  ("unde"  pres) ("nå"  pres)  ("fare"  past) ("tro"  adj) ("tiltale"  past) ("klokke"  past) ;
 LIST ambiguous-imp = "live"  "vare"  "så"  "se"  "nå"  "neje"  "mine"  "mene"  "føre"  "fore"  "ene"  "bedre"  "more"  "fare" ;
 LIST ambiguous-inf = ("fælde"  vblex inf pass) "så"  "støtte"  "møde" "skole"  "pose"  "nå"  "nye"  "norske"  "næste"  "lide" s "hele"  "friske"  "fri"  "fjerne"  "finere"  "disse" "bedre"  ("slette"  pass) "røde"  ;
-LIST ambiguous-ut-noun = "ville" "ved" "os" "syge" "skrå"  "helt"  "heller"  "ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) "måtte" ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
-LIST ambiguous-neuter-noun = "vildt"  "venstre"  "var"  "under"  "skrå"  "sæt"  "selv"  "nå"  "ny"  "mod"  "lik"  "konkret"  "jeg"  "højre"  "godt"  "gode"  "folk"  "bag"  ("stik"  adv) ("alt"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
-LIST ambiguous-part = "kante"  "vide"  "via"  "vække"  "svare"  "stole"  "spænde"  "skønne"  "rende" "pule"  "prime"  "ose"  "optage"  "omvende"  "nære"  "nyde" "mage"  "lyse"  "live"  "lide"  "lede"  "klare"  "hedde"  "helle"  "hele"  "gale"  "fortsætte"  "fore" "decidere"  "brune"  "brede"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
-LIST ambiguous-verb =  ("ansætte"  vblex past) ("få"  vblex inf) ("stemme"  vblex pres) ("vide"  vblex pres) ("gange"  pres)  ("plane"  pres) ("stede"  pres) ("nå"  pres) ("sige"  past) ("fare"  past) ("se"  past) ("helle"  pres) ("dy"  pres) ("unde" vblex pres) ("dage"  pres) ("grade"  pres) ("tro"  adj) ("kurve"  pres) ("iblande"  vblex past) ("forfatte"  vblex pres) ;
+LIST ambiguous-ut-noun = "ville" "helt" "have" "hav" "ved" "os" "syge" "skrå"  "helt"  "heller" ("bør"  sg ind)"ældste"  ("å"  sg ind) ("alt"  sg ind) ("mens"  sg ind) ("meget"  sg ind) "måtte" ("side"  sg def) ("lid"  sg def) ("middel"  gen) ("gode"  sg ind) ("al"  pl def) ;
+LIST ambiguous-neuter-noun = "vildt"  "venstre"  "minde"  "var"  "under"  "skrå"  "sæt"  "selv"  "nå"  "ny"  "mod"  "lik"  "konkret"  "jeg"  "højre"  "godt"  "gode"  "folk"  "bag"  ("stik"  adv) ("alt"  ind) ("slag"  gen) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ;
+LIST ambiguous-part = "kante"  "vide"  "råde" "via"  "vække"  "svare"  "stole"  "spænde"  "skønne"  "rende" "pule"  "prime"  "ose"  "optage"  "omvende"  "nære"  "nyde" "mage"  "lyse"  "live"  "lide"  "lede"  "klare"  "hedde"  "helle"  "hele"  "gale"  "fortsætte"  "fore" "decidere"  "brune"  "brede"  "bene"  "bare"  "anstrenge"  "ale"  gen ;
+LIST ambiguous-verb =  ("ansætte"  vblex past) ("få"  vblex inf) ("stemme"  vblex pres) ("vide"  vblex pres) ("gange"  pres)  ("plane"  pres) ("stede"  pres) ("nå"  pres) ("sige"  past) ("fare"  past) ("se"  past) ("helle"  pres) ("dy"  pres) ("unde" vblex pres) ("dage"  pres) ("grade"  pres) ("tro"  adj)  ("skalle"  imp) ("kurve"  pres) ("iblande"  vblex past) ("forfatte"  vblex pres) ;
 LIST fem = f (adj def) ;
 LIST fem-definite = (f def) ;
 LIST ut-det = (det f) ;
@@ -1504,7 +1504,7 @@ CONSTRAINTS
 #  "Bare adj ved \"den angående sag\""
 
 
-  "<anstrengt>"   REMOVE:3742   (vblex pp) IF
+  "<anstrengt>"   REMOVE:3742   (pp) IF
 	(NOT 1 pron-akk)
 ;
 #  "almindelig brug: har anstrengt (perf-part) sig
@@ -1669,6 +1669,17 @@ CONSTRAINTS
 
 #only n reading is "en disse"
 
+;
+
+ "<bør>"   REMOVE:10032   (n)
+     (NOT -1 %en%)
+
+#only n reading is "en bør"
+
+
+
+;
+
  "<måtte>"   REMOVE:10025   (n)
      (NOT -1 %det%)
 
@@ -1748,7 +1759,7 @@ CONSTRAINTS
 # Veldig...heuristisk, ein kan jo ha «Vi åt våre og de tok med sine
 # hjem», men såg ingen slike i avis.uib.no -KBU
 
-  "<huset>"   REMOVE:3522   (vblex pp) IF
+  "<huset>"   REMOVE:3522   (pp) IF
 	(**-1CO sentence-border LINK **1C lexicalverb LINK NOT 0 auxiliary-verb)
 ;
 
@@ -4067,6 +4078,8 @@ SELECT:2963 (adj nt ind sg) IF
 #  "Jeg så mod (preposition, ikke noun) vinduet"))
 
 
+
+
  SELECT:2640 (pr) IF
 	(0 sbu)
 	(1 adj-plural)
@@ -4221,7 +4234,7 @@ SELECT:2963 (adj nt ind sg) IF
  SELECT:2653 (pr) IF
 	(0 sbu)
 	(NOT 0 adj)
-
+    (NOT 0 %om%)
 	(NOT 1 perf-part)
 	(**1C sentence-border BARRIER pres/past)
 ;
@@ -6902,13 +6915,11 @@ CONSTRAINTS
 #  "til (preposition) nu har ..."))
 
 
-
-
-
  REMOVE:2044 (cnjsub) IF
 	(0 preposition)
 	(-1 >>>)
 	(NOT *1 overskrift)
+    (NOT 0 %for%)
 	(NOT *1 question-t)
 	(NOT *1 ellipsis)
 	(*1 pres/past LINK NOT *1 pres/past)
@@ -7631,7 +7642,7 @@ REMOVE:gen-noun gen-noun IF
 
 
 
- REMOVE:1891 (vblex pp) IF
+ REMOVE:1891 (pp) IF
 	(0 adj)
 	(1C noun)
 	(-1C comma/konj)
@@ -7642,7 +7653,7 @@ REMOVE:gen-noun gen-noun IF
 #  "øgede omkostninger og reduceret (ikke perf-part) evne til at
 # NOT 1 preposition: , skabt (perf-part) for"))
 
- REMOVE:1892 (vblex pp) IF
+ REMOVE:1892 (pp) IF
 	(NOT 0 %tage%)
 	(-1 pron-akk-utn/plural)
 	(**-1C sentence-border BARRIER objpred-pron-verb)
@@ -7651,7 +7662,7 @@ REMOVE:gen-noun gen-noun IF
 ;
 #  "stryger perf-part som ikke kan være objpred plural"
 
- REMOVE:1894 (vblex pp) IF
+ REMOVE:1894 (pp) IF
 	(-1 clb/konj-konj)
 	(NOT -2 clb-comma)
 	(NOT -2 perf-part)
@@ -7663,7 +7674,7 @@ REMOVE:gen-noun gen-noun IF
 # Ikke: ..har været vellykket, og ført
 # eller. har vært bagbundet og skamslået - og fraranet"
 
- REMOVE:1895 (vblex pp) IF
+ REMOVE:1895 (pp) IF
 	(NOT 0 %tage%)
 	(NOT *1 overskrift)
 	(NOT -1 periode-begin/clb/hyphen)
@@ -7685,7 +7696,7 @@ REMOVE:gen-noun gen-noun IF
 # NOT -1 PRON-AKK-utn/plural: Objektspred av <perf-part> plural:
 # De føler sig forpligtet (perf-part) "))
 
- REMOVE:1896 (vblex pp) IF
+ REMOVE:1896 (pp) IF
 	(NOT 0 %tage%)
 	(*-1 sentence-border BARRIER p-auxiliary-verb)
 	(*-1O det LINK NOT 0 quantifier LINK NOT *1 not-adv-adj)
@@ -7693,20 +7704,20 @@ REMOVE:gen-noun gen-noun IF
 #  "fjerner foreløbig kun perf-part i np-er
 # Ikke: i det hele taget (perf-part)"))
 
- REMOVE:1898 (vblex pp) IF
+ REMOVE:1898 (pp) IF
 	(-1 %til%)
 	(-2 %og%)
 	(NOT -3 %af%)
 ;
 #  "De kørte til gården og til huset (ikke perf-part)"))
 
- REMOVE:1899 (vblex pp) IF
+ REMOVE:1899 (pp) IF
 	(-1 %til%)
 	(NOT -2 %og%)
 ;
 #  "De kj'ørte til huset (ikke perf-part)"))
 
- REMOVE:1900 (vblex pp) IF
+ REMOVE:1900 (pp) IF
 	(-1 preposition)
 	(NOT -1 sbu)
 	(NOT -1 %bla%)
@@ -7721,12 +7732,12 @@ REMOVE:gen-noun gen-noun IF
 # bliver fullt ut kompensert
 # har m.a.o (preposition @ADV) kommet (perf-part)"))
 
- REMOVE:1901 (vblex pp) IF
+ REMOVE:1901 (pp) IF
 	(-1 noun-gen)
 ;
 #  "helt rent (ikke perf-part) hus"))
 
- REMOVE:1903 (vblex pp) IF
+ REMOVE:1903 (pp) IF
 	(0 very-ambiguous-part)
 ;
 #  "Antager at ambiguous participier er adjektiv
@@ -8547,7 +8558,7 @@ SELECT:4081 (adj) IF
 ;
 #låse cykler
 
- REMOVE:4024 (vblex pp) IF
+ REMOVE:4024 (pp) IF
  	 (-1C inf)
 	 (0 noun)
 ;
@@ -8561,7 +8572,7 @@ SELECT:4081 (adj) IF
 # "hele (adj sg) det økonomiske fundament"
 
 
- REMOVE:4050 (vblex pp) IF
+ REMOVE:4050 (pp) IF
  	 (-1C pres/past)
 	 (NOT -1 auxiliary-verb)
 ;
@@ -8604,6 +8615,16 @@ SELECT:10030 (vblex) IF
      (-1* m-auxiliary-verb BARRIER sentence-border)
 ;
 #og den kan jeg derfor helhjertet støtte (vblex not noun)
+
+
+
+REMOVE:10035 (n) IF
+     (0 ambiguous-ut-noun)
+     (0 ambiguous-neuter-noun)
+     (-1* m-auxiliary-verb BARRIER sentence-border)
+;
+# Det er virksomheden der skal have(NOT n) kontrol eller
+
 
 ;
 
