@@ -1914,7 +1914,7 @@
 
 <pardef n="pen/ny__n">
   <e r="LR"><p><l>cene</l>      <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>nyene</l>     <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>nyerne</l>     <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e r="LR"><p><l>ce</l>        <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>nyer</l>      <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e r="LR"><p><l>ny</l>        <r>ny<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
@@ -17177,7 +17177,7 @@
 <e lm="civilisation">              <i>civilisation</i><par n="aften_\s__n"/></e>
 <e lm="civiløkonom">               <i>civiløkonom</i><par n="aften__n"/></e>
 <e lm="skaktræk">                <i>skaktræk</i><par n="slag__n"/></e>
-<e lm="sjal">                      <i>sjal</i><par n="slag__n"/></e>
+<e lm="sjal">                      <i>sjal</i><par n="alibi__n"/></e>
 <e lm="shampoo">                    <i>shampoo</i><par n="aften__n"/></e>
 <e lm="chefredaktør"><i>chefredaktør</i><par n="aften__n"/></e>
 <e lm="chefstol">                 <i>chefstol</i><par n="vals__n"/></e>
@@ -26077,6 +26077,230 @@
 <e lm="sæsondebut"><i>sæsondebut</i><par n="aften__n"/></e>
 <e lm="sæsonoplæg"><i>sæsonoplæg</i><par n="æg__n"/></e>
 
+
+<e lm="sædekapacitet"><i>sædekapacitet</i><par n="aften_\s__n"/></e>
+<e lm="sædemuskel"><i>setemusk</i><par n="cirk/el__n"/></e>
+<e lm="sæter"><i>sæter</i><par n="spiller__n"/></e>
+<e lm="sæterdrift"><i>sæterdrift</i><par n="bold__n"/></e>
+<e lm="sæterhus"><i>sæterhus</i><par n="hus__n"/></e>
+<e lm="sæterkost"><i>sæterkost</i><par n="bold__n"/></e>
+<e lm="sætervej"><i>sætervej</i><par n="bold__n"/></e>
+<e lm="sætervold"><i>sætervold</i><par n="bold__n"/></e>
+<e lm="setesdøl"><i>setesdøl</i><par n="aften__n"/></e>
+<e lm="sædebetræk"><i>sædebetræk</i><par n="stik__n"/></e>
+<e lm="sætter"><i>sætter</i><par n="spiller__n"/></e>
+<e lm="koloni"><i>koloni</i><par n="aften__n"/></e>
+<e lm="sev"><i>sev</i><par n="slag_no-cp__n"/></e>
+<e lm="sex appeal"><i>sex<b/>appeal</i><par n="mail__n"/></e>
+<e lm="sexfilm"><i>sexfilm</i><par n="sko__n"/></e>
+<e lm="sexklub"><i>sexklub</i><par n="klub__n"/></e>
+<e lm="sexologi"><i>sexologi</i><par n="aften__n"/></e>
+<e lm="sfinks"><i>sfinks</i><par n="aften__n"/></e>
+<e lm="shake"><i>shake</i><par n="hygiejne__n"/></e>
+<e lm="sherpa"><i>sherpa</i><par n="aften__n"/></e>
+<e lm="shetlandspony"><i>shetlandspony</i><par n="aften__n"/></e>
+<e lm="shilling"><i>shilling</i><par n="lux__n"/></e>
+<e lm="shintoisme"><i>shintoisme</i><par n="hygiejne__n"/></e>
+<e lm="shippingbranche"><i>shippingbranche</i><par n="hygiejne__n"/></e>
+<e lm="shippingfirma"><i>shippingfirma</i><par n="vita__n"/></e>
+<e lm="shoppingcenter"><i>shoppingcent</i><par n="cent/er__n"/></e>
+<e lm="samelandsby"><i>samelandsby</i><par n="aften__n"/></e>
+<e lm="sideback"><i>sideback</i><par n="aften__n"/></e>
+<e lm="sideben"><i>sideben</i><par n="slag__n"/></e>
+<e lm="smugblik"><i>smugblik</i><par n="stik__n"/></e>
+<e lm="sidedal"><i>sidedal</i><par n="aften__n"/></e>
+<e lm="sideelv"><i>sideelv</i><par n="art__n"/></e>
+<e lm="sideflæsk"><i>sideflæsk</i><par n="slag__n"/></e>
+<e lm="sidemand"><i>sidem</i><par n="m/and__n"/></e>
+<e lm="sidemålsstil"><i>sidemålsstil</i><par n="aften__n"/></e>
+<e lm="silkehale"><i>silkehale</i><par n="abe__n"/></e>
+<e lm="cider"><i>cid</i><par n="minist/er__n"/></e>
+<e lm="siderum"><i>siderum</i><par n="lam__n"/></e>
+<e lm="sidespring"><i>sidespring</i><par n="slag__n"/></e>
+<e lm="sidevej"><i>sidevej</i><par n="bold__n"/></e>
+<e lm="sidevæg"><i>sidevæg</i><par n="væg__n"/></e>
+<e lm="sidevind"><i>sidevind</i><par n="bold__n"/></e>
+<e lm="siesta"><i>siesta</i><par n="aften__n"/></e>
+<e lm="cigaretpakke"><i>cigaretpakk</i><par n="enk/e__n"/></e>
+<e lm="cigaretpapir"><i>cigaretpapir</i><par n="firma__n"/></e>
+<e lm="cigaretskod"><i>cigaretskod</i><par n="brud__n"/></e>
+<e lm="cigarillo"><i>cigarillo</i><par n="aften__n"/></e>
+<e lm="segl"><i>segl</i><par n="sko__n"/></e>
+<e lm="sightseeingbus"><i>sightseeingbus</i><par n="mis__n"/></e>
+<e lm="sightseeingtur"><i>sightseeingtur</i><par n="bold__n"/></e>
+<e lm="signalanlæg"><i>signalanlæg</i><par n="æg__n"/></e>
+<e lm="signalement"><i>signalement</i><par n="firma__n"/></e>
+<e lm="signalflag"><i>signalflagg</i><par n="slag__n"/></e>
+<e lm="signallys"><i>signallys</i><par n="slag__n"/></e>
+<e lm="signalpistol"><i>signalpistol</i><par n="bold__n"/></e>
+<e lm="signalsystem"><i>signalsystem</i><par n="firma__n"/></e>
+<e lm="underskriver"><i>underskriver</i><par n="spiller__n"/></e>
+<e lm="signet"><i>signet</i><par n="portræt__n"/></e>
+<e lm="signifikans"><i>signifikans</i><par n="aften__n"/></e>
+<e lm="cikade"><i>cikade</i><par n="hygiejne__n"/></e>
+<e lm="sikh"><i>sikh</i><par n="aften__n"/></e>
+<e lm="sikl"><i>sikl</i><par n="slag__n"/></e>
+<e lm="sikling"><i>sikling</i><par n="art_\s__n"/></e>
+<e lm="sikringsboks"><i>sikringsboks</i><par n="aften__n"/></e>
+<e lm="sikringsdom"><i>sikringsdom</i><par n="bom_\s__n"/></e>
+<e lm="sikringskost"><i>sikringskost</i><par n="bold__n"/></e>
+<e lm="sikringsskab"><i>sikringsskab</i><par n="slag__n"/></e>
+<e lm="sigt"><i>sigt</i><par n="bold__n"/></e>
+<e lm="sigtepunkt"><i>sigtepunkt</i><par n="firma__n"/></e>
+<e lm="sildefiskeri"><i>sildefiskeri</i><par n="alibi__n"/></e>
+<e lm="sildemel"><i>sildemel</i><par n="slag__n"/></e>
+<e lm="sildemelfabrik"><i>sildemelfabrik</i><par n="paryk__n"/></e>
+<e lm="sildemåge"><i>sildemåge</i><par n="hygiejne__n"/></e>
+<e lm="sildeolie"><i>sildeolj</i><par n="enk/e__n"/></e>
+<e lm="sildeoliefabrik"><i>sildeoliefabrik</i><par n="paryk__n"/></e>
+<e lm="rislen"><i>rislen</i><par n="småen__n"/></e>
+<e lm="sildeolie"><i>sildeolj</i><par n="enk/e__n"/></e>
+<e lm="sildeoliefabrik"><i>siledoliefabrik</i><par n="paryk__n"/></e>
+<e lm="silhouet"><i>silhouet</i><par n="salut__n"/></e>
+<e lm="silikat"><i>silikat</i><par n="firma__n"/></e>
+<e lm="silikose"><i>silikose</i><par n="hygiejne__n"/></e>
+<e lm="silisiumkarbid"><i>silisiumkarbid</i><par n="sekund__n"/></e>
+<e lm="silkeføre"><i>silkefør</i><par n="mød/e__n"/></e>
+<e lm="silkehandske"><i>silkehandske</i><par n="hygiejne__n"/></e>
+<e lm="silkekjole"><i>silkekjole</i><par n="hygiejne__n"/></e>
+<e lm="silkeorm"><i>silkeorm</i><par n="bold__n"/></e>
+<e lm="silkepapir"><i>silkepapir</i><par n="firma__n"/></e>
+<e lm="silkesjal"><i>silkesjal</i><par n="alibi__n"/></e>
+<e lm="silketryk"><i>silketryk</i><par n="stik__n"/></e>
+<e lm="silketråd"><i>silketråd</i><par n="bold__n"/></e>
+<e lm="silofoder"><i>silofoder</i><par n="hus__n"/></e>
+<e lm="siloslåt"><i>siloslåt</i><par n="salut__n"/></e>
+<e lm="silosvans"><i>silosvans</i><par n="aften__n"/></e>
+<e lm="silt"><i>silt</i><par n="aften__n"/></e>
+<e lm="simoni"><i>simoni</i><par n="aften__n"/></e>
+<e lm="simuleringsmodel"><i>simuleringsmodel</i><par n="duel__n"/></e>
+<e lm="singlesculler"><i>singlesculler</i><par n="spiller__n"/></e>
+<e lm="undertrøje"><i>undertrøje</i><par n="abe__n"/></e>
+<e lm="singleton"><i>singleton</i><par n="lux__n"/></e>
+<e lm="zink"><i>zink</i><par n="sko__n"/></e>
+<e lm="hidsigprop"><i>hidsigprop</i><par n="kop__n"/></e>
+<e lm="sindsbillede"><i>sindsbilled</i><par n="mød/e__n"/></e>
+<e lm="mentalsygehus"><i>mentalsygehus</i><par n="hus__n"/></e>
+<e lm="sindstilstand"><i>sindstilstand</i><par n="bold__n"/></e>
+<e lm="kalkaflejring"><i>kalkaflejring</i><par n="aften__n"/></e>
+<e lm="sinusknude"><i>sinusknude</i><par n="hygiejne__n"/></e>
+<e lm="sionisme"><i>sionisme</i><par n="hygiejne__n"/></e>
+<e lm="sionist"><i>sionist</i><par n="aften__n"/></e>
+<e lm="fårekylling"><i>fårekylling</i><par n="aften__n"/></e>
+<e lm="cirkulære"><i>cirkulær</i><par n="mød/e__n"/></e>
+<e lm="cirkusartist"><i>cirkusartist</i><par n="aften__n"/></e>
+<e lm="cirkushest"><i>cirkushest</i><par n="bold__n"/></e>
+<e lm="sirupssmåkage"><i>sirupssmåkage</i><par n="abe__n"/></e>
+<e lm="sidsteled"><i>sidsteled</i><par n="brud__n"/></e>
+<e lm="sidsten"><i>sidsten</i><par n="småen__n"/></e>
+<e lm="slutrunde"><i>slutrunde</i><par n="hygiejne__n"/></e>
+<e lm="udholdenhed"><i>udholdenhed</i><par n="aften__n"/></e>
+<e lm="sit-ups"><i>sit-ups</i><par n="lux__n"/></e>
+<e lm="citatfusk"><i>citatfusk</i><par n="slag__n"/></e>
+<e lm="citronbrus"><i>citronbrus</i><par n="lux__n"/></e>
+<e lm="citronsmag"><i>citronsmag</i><par n="bold__n"/></e>
+<e lm="citrontræ"><i>citrontræ</i><par n="alibi__n"/></e>
+<e lm="situationsbillede"><i>situationsbilled</i><par n="mød/e__n"/></e>
+<e lm="situationskomik"><i>situationskomik</i><par n="paryk__n"/></e>
+<e lm="situationsrapport"><i>situationsrapport</i><par n="bold__n"/></e>
+<e lm="civilagronom"><i>civilagronom</i><par n="aften__n"/></e>
+<e lm="civilforsvar"><i>civilforsvar</i><par n="slag__n"/></e>
+<e lm="civilist"><i>civilist</i><par n="aften__n"/></e>
+<e lm="civilperson"><i>civilperson</i><par n="aften__n"/></e>
+<e lm="civilret"><i>civilret</i><par n="salut__n"/></e>
+<e lm="civilstand"><i>civilstand</i><par n="bold__n"/></e>
+<e lm="shah"><i>shah</i><par n="aften__n"/></e>
+<e lm="sjakal"><i>sjakal</i><par n="aften__n"/></e>
+<e lm="skakbræt"><i>skakbræt</i><par n="portræt__n"/></e>
+<e lm="skalottenløg"><i>skalottenløg</i><par n="aften__n"/></e>
+<e lm="chalup"><i>chalup</i><par n="kop__n"/></e>
+<e lm="jalousidrama"><i>jalousidrama</i><par n="vita__n"/></e>
+<e lm="shaman"><i>shaman</i><par n="aften__n"/></e>
+<e lm="champignon"><i>champignon</i><par n="aften__n"/></e>
+<e lm="shanti"><i>shanti</i><par n="aften__n"/></e>
+<e lm="jargon"><i>jargon</i><par n="aften__n"/></e>
+<e lm="charlatan"><i>charlatan</i><par n="aften__n"/></e>
+<e lm="charmeoffensiv"><i>charmeoffensiv</i><par n="aften__n"/></e>
+<e lm="charmetrold"><i>charmetrold</i><par n="bold__n"/></e>
+<e lm="charmør"><i>charmør</i><par n="aften__n"/></e>
+<e lm="chefkok"><i>chefkok</i><par n="drik__n"/></e>
+<e lm="chefsygeplejer"><i>chefsygeplejer</i><par n="spiller__n"/></e>
+<e lm="checkhæfte"><i>checkhæft</i><par n="mød/e__n"/></e>
+<e lm="checksvindel"><i>checksvind</i><par n="cirk/el__n"/></e>
+<e lm="sjælefred"><i>sjælefred</i><par n="bold__n"/></e>
+<e lm="sjælekval"><i>sjælekval</i><par n="aften__n"/></e>
+<e lm="sjæleliv"><i>sjæleliv</i><par n="slag__n"/></e>
+<e lm="generøsitet"><i>generøsitet</i><par n="aften_\s__n"/></e>
+<e lm="chaiselong"><i>chaiselong</i><par n="aften__n"/></e>
+<e lm="jeton"><i>jeton</i><par n="aften__n"/></e>
+<e lm="sjetteklasses"><i>sjetteklasses</i><par n="lux__n"/></e>
+<e lm="sjettemand"><i>sjettem</i><par n="m/and__n"/></e>
+<e lm="shiit"><i>shiit</i><par n="salut__n"/></e>
+<e lm="chimpanse"><i>chimpanse</i><par n="hygiejne__n"/></e>
+<e lm="giraf"><i>giraf</i><par n="straf__n"/></e>
+<e lm="chockpris"><i>chockpris</i><par n="aften__n"/></e>
+<e lm="chockskade"><i>chockskade</i><par n="hygiejne__n"/></e>
+<e lm="chokoladebudding"><i>chokoladebudding</i><par n="aften__n"/></e>
+<e lm="jonglør"><i>jonglør</i><par n="aften__n"/></e>
+<e lm="syvendedel"><i>syvendedel</i><par n="bold__n"/></e>
+<e lm="sygdomsbillede"><i>sygdomsbilled</i><par n="mød/e__n"/></e>
+<e lm="sygdomstilfælde"><i>sygdomstilfælde</i><par n="hygiejne__n"/></e>
+<e lm="sygebesøg"><i>sygebesøg</i><par n="slag__n"/></e>
+<e lm="sygebil"><i>sygebil</i><par n="aften__n"/></e>
+<e lm="sygehjem"><i>sygehjem</i><par n="lam__n"/></e>
+<e lm="sygehotel"><i>sygehotel</i><par n="metal__n"/></e>
+<e lm="sygeplejerhøjskole"><i>sygeplejerhøjskole</i><par n="hygiejne__n"/></e>
+<e lm="sygeplejerskole"><i>sygeplejerskole</i><par n="hygiejne__n"/></e>
+<e lm="sygeplejerstilling"><i>sygeplejerstilling</i><par n="art_\s__n"/></e>
+<e lm="sygeplejerutdannelse"><i>sygeplejerutdannelse</i><par n="art_\s__n"/></e>
+<e lm="sygestel"><i>sygestel</i><par n="spil__n"/></e>
+<e lm="sygetransport"><i>sygetransport</i><par n="bold__n"/></e>
+<e lm="syvmileskridt"><i>syvmileskridt</i><par n="år__n"/></e>
+<e lm="syvmilestøvle"><i>syvmilestøvle</i><par n="abe__n"/></e>
+<e lm="sjusk"><i>sjusk</i><par n="år__n"/></e>
+<e lm="sjuske"><i>sjuske</i><par n="abe__n"/></e>
+<e lm="syvårig"><i>syvårig</i><par n="bold__n"/></e>
+<e lm="chauvinisme"><i>chauvinisme</i><par n="hygiejne__n"/></e>
+<e lm="chauvinist"><i>chauvinist</i><par n="aften__n"/></e>
+<e lm="søanemone"><i>søanemone</i><par n="hygiejne__n"/></e>
+<e lm="havørred"><i>havøred</i><par n="aften__n"/></e>
+<e lm="havbad"><i>havbad</i><par n="hus__n"/></e>
+<e lm="havdyr"><i>havdyr</i><par n="slag__n"/></e>
+<e lm="søfartsby"><i>søfartsby</i><par n="aften__n"/></e>
+<e lm="søfartsinspektør"><i>søfartsinspektør</i><par n="aften__n"/></e>
+<e lm="søfartsnation"><i>søfartsnation</i><par n="aften_\s__n"/></e>
+<e lm="havfiskeri"><i>havfiskeri</i><par n="alibi__n"/></e>
+<e lm="vandfly"><i>vandfly</i><par n="slag__n"/></e>
+<e lm="søgang"><i>søgang</i><par n="bold__n"/></e>
+<e lm="havis"><i>havis</i><par n="aften__n"/></e>
+<e lm="søkabel"><i>søkab</i><par n="cirk/el__n"/></e>
+<e lm="søkaptajn"><i>søkaptajn</i><par n="aften__n"/></e>
+<e lm="havkrebs"><i>havkrebs</i><par n="sko__n"/></e>
+<e lm="søkrig"><i>søkrig</i><par n="bold__n"/></e>
+<e lm="søkrigsskole"><i>søkrigsskole</i><par n="hygiejne__n"/></e>
+<e lm="søliv"><i>søliv</i><par n="slag__n"/></e>
+<e lm="sømandsliv"><i>sømandsliv</i><par n="slag__n"/></e>
+<e lm="sømandsmission"><i>sømandsmission</i><par n="aften_\s__n"/></e>
+<e lm="sømandspræst"><i>sømandspræst</i><par n="aften__n"/></e>
+<e lm="sømandsskole"><i>sømandsskole</i><par n="hygiejne__n"/></e>
+<e lm="sømandsudtryk"><i>sømandsudtryk</i><par n="stik__n"/></e>
+<e lm="sømærke"><i>sømærk</i><par n="mød/e__n"/></e>
+<e lm="søofficer"><i>søofficer</i><par n="aften__n"/></e>
+<e lm="søorm"><i>søorm</i><par n="bold__n"/></e>
+<e lm="søpung"><i>søpung</i><par n="aften__n"/></e>
+<e lm="søret"><i>søret</i><par n="salut__n"/></e>
+<e lm="havsalt"><i>havsalt</i><par n="UH__n"/></e>
+<e lm="havsame"><i>havsame</i><par n="hygiejne__n"/></e>
+<e lm="havsprøjt"><i>havsprøjt</i><par n="år__n"/></e>
+<e lm="søtransport"><i>søtransport</i><par n="bold__n"/></e>
+<e lm="søulk"><i>søulk</i><par n="bold__n"/></e>
+<e lm="søvand"><i>søvand</i><par n="slag__n"/></e>
+<e lm="søvej"><i>søvej</i><par n="bold__n"/></e>
+<e lm="søsyge"><i>søsyge</i><par n="abe__n"/></e>
+<e lm="søfornuft"><i>søfornuft</i><par n="aften__n"/></e>
+<e lm="skadelig bjørn"><i>skadelig<b/>bjørn</i><par n="aften__n"/></e>
+<e lm="skadeligt højvande"><i>skadeligt<b/>højvande</i><par n="vindue__n"/></e>
+<e lm="skadefryd"><i>skadefryd</i><par n="aften__n"/></e>
 
 
  <!-- /nouns -->
