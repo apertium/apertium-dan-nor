@@ -36,6 +36,9 @@ dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
 dev/nb-da.test -text
 dev/nbkorpus5000.txt -text
+dev/sortedbidixes/dan-nb.dix -text svneol=unset#application/xml
+dev/sortedbidixes/dan-nn.dix -text svneol=unset#application/xml
+dev/sortedbidixes/sortedbidixes.tar.gz -text svneol=unset#application/x-gzip
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
 dev/testvoc/testvoc-summary.dan-nob.txt -text
@@ -44,5 +47,8 @@ dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /nno-dan.prob -text svneol=unset#unset
 /nob-dan.prob -text
+sortedbidixes/dan-nb.dix -text svneol=unset#application/xml
+sortedbidixes/dan-nn.dix -text svneol=unset#application/xml
+sortedbidixes/sortedbidixes.tar.gz -text svneol=unset#application/x-gzip
 texts/evaluationtext14072013.dan.txt -text
 texts/evaluationtext14072013.nob.txt -text
