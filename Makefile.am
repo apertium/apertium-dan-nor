@@ -49,43 +49,43 @@ $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
 
 $(PREFIX1).rlx.bin: $(BASENAME).$(LANG1).rlx 
-	cg-comp $(BASENAME).$(LANG1).rlx $@ 
+	cg-comp $< $@ 
 
 # replace this with stripping for dan-nob
 .deps/$(PREFIX1a).dix: $(BASENAME).$(PREFIX1).dix
 	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	cp $(BASENAME).$(PREFIX1).dix $@
+	xsltproc --stringparam alt nob alt.xsl $< > $@
 
 .deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix
 	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	cp $(BASENAME).$(PREFIX1).dix $@
+	xsltproc --stringparam alt nno alt.xsl $< > $@
 
 $(PREFIX1a).autobil.bin: .deps/$(PREFIX1a).dix 
-	lt-comp lr .deps/$(PREFIX1a).dix $@
+	lt-comp lr $< $@
 
 $(PREFIX1b).autobil.bin: .deps/$(PREFIX1b).dix 
-	lt-comp lr .deps/$(PREFIX1b).dix $@
+	lt-comp lr $< $@
 
 $(PREFIX1a).autolex.bin: $(BASENAME).$(PREFIX1a).lrx
-	lrx-comp $(BASENAME).$(PREFIX1a).lrx $@
+	lrx-comp $< $@
 
 $(PREFIX1b).autolex.bin: $(BASENAME).$(PREFIX1b).lrx
-	lrx-comp $(BASENAME).$(PREFIX1b).lrx $@
+	lrx-comp $< $@
 $(PREFIX1a).autogen.bin: $(BASENAME).$(LANG2a).dix 
-	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
-	lt-comp rl $(BASENAME).$(LANG2a).dix $@ 
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@ 
 
 $(PREFIX1b).autogen.bin: $(BASENAME).$(LANG2a).dix 
-	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
-	lt-comp rl $(BASENAME).$(LANG2a).dix $@ 
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@ 
 
 $(PREFIX1a).t1x.bin: $(BASENAME).$(PREFIX1a).t1x
-	apertium-validate-transfer $(BASENAME).$(PREFIX1a).t1x
-	apertium-preprocess-transfer $(BASENAME).$(PREFIX1a).t1x $@
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
 
 $(PREFIX1b).t1x.bin: $(BASENAME).$(PREFIX1b).t1x
-	apertium-validate-transfer $(BASENAME).$(PREFIX1b).t1x
-	apertium-preprocess-transfer $(BASENAME).$(PREFIX1b).t1x $@
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
 
 
 ###
@@ -96,49 +96,49 @@ $(PREFIX2a).automorf.bin: $(BASENAME).$(LANG2a).dix $(BASENAME).$(LANG2).acx
 
 .deps/$(LANG2b).dix:  $(BASENAME).$(LANG2b).dix
 	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	xsltproc --stringparam alt nn_e alt.xsl $(BASENAME).$(LANG2b).dix > $@
+	xsltproc --stringparam alt nn_e alt.xsl $< > $@
 
 $(PREFIX2b).automorf.bin: .deps/$(LANG2b).dix $(BASENAME).$(LANG2).acx
 	apertium-validate-dictionary .deps/$(LANG2b).dix
 	lt-comp lr .deps/$(LANG2b).dix $@ $(BASENAME).$(LANG2).acx
 
 $(PREFIX2a).rlx.bin: $(BASENAME).$(LANG2a).rlx 
-	cg-comp $(BASENAME).$(LANG2a).rlx $@ 
+	cg-comp $< $@ 
 
 $(PREFIX2b).rlx.bin: $(BASENAME).$(LANG2b).rlx 
-	cg-comp $(BASENAME).$(LANG2b).rlx $@ 
+	cg-comp $< $@ 
 
 # replace this with stripping for nob-dan
 .deps/$(PREFIX2a).dix: $(BASENAME).$(PREFIX1).dix
 	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	cp $(BASENAME).$(PREFIX1).dix $@
+	cp $< $@
 
 .deps/$(PREFIX2b).dix: $(BASENAME).$(PREFIX1).dix
 	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	cp $(BASENAME).$(PREFIX1).dix $@
+	cp $< $@
 
 $(PREFIX2a).autobil.bin: .deps/$(PREFIX2a).dix 
-	lt-comp rl .deps/$(PREFIX2a).dix $@
+	lt-comp rl $< $@
 
 $(PREFIX2b).autobil.bin: .deps/$(PREFIX2b).dix 
-	lt-comp rl .deps/$(PREFIX2b).dix $@
+	lt-comp rl $< $@
 
 $(PREFIX2a).autolex.bin: $(BASENAME).$(PREFIX2a).lrx
-	lrx-comp $(BASENAME).$(PREFIX2a).lrx $@
+	lrx-comp $< $@
 
 $(PREFIX2b).autolex.bin: $(BASENAME).$(PREFIX2b).lrx
-	lrx-comp $(BASENAME).$(PREFIX2b).lrx $@
+	lrx-comp $< $@
 
 $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
-	lt-comp rl $(BASENAME).$(LANG1).dix $@
+	lt-comp rl $< $@
 
 $(PREFIX2a).t1x.bin: $(BASENAME).$(PREFIX2a).t1x
-	apertium-validate-transfer $(BASENAME).$(PREFIX2a).t1x
-	apertium-preprocess-transfer $(BASENAME).$(PREFIX2a).t1x $@
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
 
 $(PREFIX2b).t1x.bin: $(BASENAME).$(PREFIX2b).t1x
-	apertium-validate-transfer $(BASENAME).$(PREFIX2b).t1x
-	apertium-preprocess-transfer $(BASENAME).$(PREFIX2b).t1x $@
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
 
 
 modes: modes.xml
