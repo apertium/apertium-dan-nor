@@ -156,8 +156,22 @@ apertium_dan_nor_DATA=$(TARGETS_COMMON) \
     $(PREFIX1).prob \
     $(PREFIX2a).prob \
     $(PREFIX2b).prob \
-    modes \
     modes.xml 
+
+install-data-local:
+	mv modes modes.bak
+	apertium-gen-modes modes.xml apertium-$(PREFIX1)
+	rm -rf modes
+	mv modes.bak modes
+	test -d $(DESTDIR)$(apertium_dan_normodesdir) || mkdir $(DESTDIR)$(apertium_dan_normodesdir)
+	$(INSTALL_DATA) $(PREFIX1a).mode $(DESTDIR)$(apertium_dan_normodesdir)
+	$(INSTALL_DATA) $(PREFIX1b).mode $(DESTDIR)$(apertium_dan_normodesdir)
+	$(INSTALL_DATA) $(PREFIX2a).mode $(DESTDIR)$(apertium_dan_normodesdir)
+	rm $(PREFIX1a).mode $(PREFIX1b).mode $(PREFIX2a).mode
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1a).t1x $(DESTDIR)$(apertium_dan_nordir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1b).t1x $(DESTDIR)$(apertium_dan_nordir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2a).t1x $(DESTDIR)$(apertium_dan_nordir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2b).t1x $(DESTDIR)$(apertium_dan_nordir)
 
 CLEANFILES = $(TARGETS_COMMON) 
 clean-local: 
