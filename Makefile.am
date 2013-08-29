@@ -39,8 +39,7 @@ TARGETS_COMMON = \
       $(PREFIX2a).autolex.bin \
       $(PREFIX2b).autolex.bin \
       $(PREFIX2).autogen.bin \
-      $(PREFIX2b).t1x.bin \
-      $(PREFIX2a).t1x.bin
+      $(PREFIX2).t1x.bin
 
 
 
@@ -132,11 +131,7 @@ $(PREFIX2b).autolex.bin: $(BASENAME).$(PREFIX2b).lrx
 $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
 	lt-comp rl $< $@
 
-$(PREFIX2a).t1x.bin: $(BASENAME).$(PREFIX2a).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX2b).t1x.bin: $(BASENAME).$(PREFIX2b).t1x
+$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
@@ -170,8 +165,7 @@ install-data-local:
 	rm $(PREFIX1a).mode $(PREFIX1b).mode $(PREFIX2a).mode
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1a).t1x $(DESTDIR)$(apertium_dan_nordir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1b).t1x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2a).t1x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2b).t1x $(DESTDIR)$(apertium_dan_nordir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_dan_nordir)
 
 CLEANFILES = $(TARGETS_COMMON) 
 clean-local: 

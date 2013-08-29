@@ -176,8 +176,8 @@
         <file name="nob-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-dan-nor.nob-dan.t1x"/>
-        <file name="nob-dan.t1x.bin"/>
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="nor-dan.autogen.bin"/>
@@ -256,8 +256,8 @@
         <file name="nob-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
-        <file name="apertium-dan-nor.nob-dan.t1x"/>
-        <file name="nob-dan.t1x.bin"/>
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -278,8 +278,8 @@
         <file name="nob-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-dan-nor.nob-dan.t1x"/>
-        <file name="nob-dan.t1x.bin"/>
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="nor-dan.autogen.bin"/>
