@@ -195,7 +195,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nob-dan-disam" install="yes">
+  <mode name="nob-dan-disam" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
