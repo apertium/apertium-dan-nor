@@ -136,7 +136,8 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $< $@
 
 
-modes: modes.xml
+modes/$(PREFIX1a).mode: modes.xml
+	apertium-validate-modes modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
@@ -152,6 +153,9 @@ apertium_dan_nor_DATA=$(TARGETS_COMMON) \
     $(PREFIX2a).prob \
     $(PREFIX2b).prob \
     modes.xml 
+
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1a).mode
 
 install-data-local:
 	mv modes modes.bak
