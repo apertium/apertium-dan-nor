@@ -47,8 +47,5 @@ dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /nno-dan.prob -text svneol=unset#unset
 /nob-dan.prob -text
-sortedbidixes/dan-nb.dix -text svneol=unset#application/xml
-sortedbidixes/dan-nn.dix -text svneol=unset#application/xml
-sortedbidixes/sortedbidixes.tar.gz -text svneol=unset#application/x-gzip
 texts/evaluationtext14072013.dan.txt -text
 texts/evaluationtext14072013.nob.txt -text
