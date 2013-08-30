@@ -169,7 +169,8 @@ install-data-local:
 	$(INSTALL_DATA) $(PREFIX1a).mode $(DESTDIR)$(apertium_dan_normodesdir)
 	$(INSTALL_DATA) $(PREFIX1b).mode $(DESTDIR)$(apertium_dan_normodesdir)
 	$(INSTALL_DATA) $(PREFIX2a).mode $(DESTDIR)$(apertium_dan_normodesdir)
-	rm $(PREFIX1a).mode $(PREFIX1b).mode $(PREFIX2a).mode
+	$(INSTALL_DATA) $(PREFIX2b).mode $(DESTDIR)$(apertium_dan_normodesdir)
+	rm $(PREFIX1a).mode $(PREFIX1b).mode $(PREFIX2a).mode $(PREFIX2b).mode
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1a).t1x $(DESTDIR)$(apertium_dan_nordir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1b).t1x $(DESTDIR)$(apertium_dan_nordir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_dan_nordir)

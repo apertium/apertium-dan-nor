@@ -2,8 +2,7 @@
 <modes>
 
 
-
-  <!-- Danish →    Norwegian-->
+  <!-- Danish → Norwegian Nynorsk -->
   <mode name="dan-nno" install="yes">
     <pipeline>
       <program name="lt-proc -e">
@@ -23,57 +22,30 @@
       <program name="lt-proc $1">
         <file name="dan-nno.autogen.bin"/>
       </program>
-
     </pipeline>
   </mode>
 
-  <mode name="dan-nob" install="yes">
+  <mode name="dan-nno-morph" install="no">
     <pipeline>
       <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nno-tagger-nocg" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
         <file name="dan-nor.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="dan-nob.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-dan-nor.dan-nob.t1x"/>
-        <file name="dan-nob.t1x.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="dan-nob.autogen.bin"/>
-      </program>
-
     </pipeline>
   </mode>
 
-  <mode name="dan-nob-morph" install="no">
-    <pipeline>
-      <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-
- <mode name="dan-nob-tagger-nocg" install="no">
-   <pipeline>
-     <program name="lt-proc -e -w">
-       <file name="dan-nor.automorf.bin"/>
-     </program>
-     <program name="apertium-tagger -g $2">
-       <file name="dan-nor.prob"/>
-     </program>
-     <program name="apertium-pretransfer"/>
-   </pipeline>
- </mode>
-
-
-  <mode name="dan-nob-tagger" install="no">
+  <mode name="dan-nno-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="dan-nor.automorf.bin"/>
@@ -89,20 +61,6 @@
   </mode>
 
 
-  <mode name="dan-nob-biltrans" install="no">
-    <pipeline>
-      <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="dan-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="dan-nob.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
   <mode name="dan-nno-biltrans" install="no">
     <pipeline>
       <program name="lt-proc -e">
@@ -118,25 +76,6 @@
     </pipeline>
   </mode>
 
-
-  <mode name="dan-nob-transfer" install="no">
-    <pipeline>
-      <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="dan-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="dan-nob.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b -t">
-        <file name="apertium-dan-nor.dan-nob.t1x"/>
-        <file name="dan-nob.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
   <mode name="dan-nno-transfer" install="no">
     <pipeline>
       <program name="lt-proc -e">
@@ -156,10 +95,272 @@
     </pipeline>
   </mode>
 
+  <mode name="dan-nno-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nno.t1x"/>
+        <file name="dan-nno.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="dan-nno.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
 
-  <!-- Norwegian → Danish -->
+  <!-- Danish → Norwegian Bokmål -->
+  <mode name="dan-nob" install="yes">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nob.t1x"/>
+        <file name="dan-nob.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="dan-nob.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
+  <mode name="dan-nob-morph" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-tagger-nocg" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -t">
+        <file name="apertium-dan-nor.dan-nob.t1x"/>
+        <file name="dan-nob.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nor.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nob.t1x"/>
+        <file name="dan-nob.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="dan-nob.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <!-- Norwegian Nynorsk → Danish -->
+  <mode name="nno-dan" install="yes">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nno-dan.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="nor-dan.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-morph" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nno-dan.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nno-dan.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -t">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nno-dan.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="nor-dan.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <!-- Norwegian bokmål → Danish -->
   <mode name="nob-dan" install="yes">
     <pipeline>
       <program name="lt-proc -e -w">
@@ -205,7 +406,6 @@
     </pipeline>
   </mode>
 
-
   <mode name="nob-dan-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
@@ -238,7 +438,6 @@
       </program>
     </pipeline>
   </mode>
-
 
   <mode name="nob-dan-transfer" install="no">
     <pipeline>
@@ -286,6 +485,5 @@
       </program>
     </pipeline>
   </mode>
-
 
 </modes>
