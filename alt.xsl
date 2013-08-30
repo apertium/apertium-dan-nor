@@ -48,7 +48,7 @@
 </xsl:template>
 
 <xsl:template match="*">
-  <xsl:if test="not(count(./@alt)=1) or ./@alt=$alt">
+  <xsl:if test="alt='*' or not(count(./@alt)=1) or ./@alt=$alt">
     <xsl:if test="not(local-name(.)=string('group'))">
       <xsl:value-of select="string('&lt;')"/>
       <xsl:value-of select="local-name(.)"/>

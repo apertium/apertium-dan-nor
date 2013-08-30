@@ -42,6 +42,14 @@ TARGETS_COMMON = \
       $(PREFIX2).t1x.bin
 
 
+# Use this goal for creating .deps, otherwise make -j2 will give problems:
+.deps/.d:
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	touch $@
+
+# Prevent the .d file from being removed automatically:
+.PRECIOUS: .deps/.d
+
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -51,12 +59,10 @@ $(PREFIX1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@ 
 
 # replace this with stripping for dan-nob
-.deps/$(PREFIX1a).dix: $(BASENAME).$(PREFIX1).dix
-	if [ ! -d .deps ] ; then mkdir .deps ; fi
+.deps/$(PREFIX1a).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
 	xsltproc --stringparam alt nob alt.xsl $< > $@
 
-.deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix
-	if [ ! -d .deps ] ; then mkdir .deps ; fi
+.deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
 	xsltproc --stringparam alt nno alt.xsl $< > $@
 
 $(PREFIX1a).autobil.bin: .deps/$(PREFIX1a).dix 
@@ -93,8 +99,7 @@ $(PREFIX2a).automorf.bin: $(BASENAME).$(LANG2a).dix $(BASENAME).$(LANG2).acx
 	apertium-validate-dictionary $(BASENAME).$(LANG2a).dix
 	lt-comp lr $(BASENAME).$(LANG2a).dix $@ $(BASENAME).$(LANG2).acx
 
-.deps/$(LANG2b).dix:  $(BASENAME).$(LANG2b).dix
-	if [ ! -d .deps ] ; then mkdir .deps ; fi
+.deps/$(LANG2b).dix:  $(BASENAME).$(LANG2b).dix .deps/.d
 	xsltproc --stringparam alt nn_e alt.xsl $< > $@
 
 $(PREFIX2b).automorf.bin: .deps/$(LANG2b).dix $(BASENAME).$(LANG2).acx
@@ -108,13 +113,11 @@ $(PREFIX2b).rlx.bin: $(BASENAME).$(LANG2b).rlx
 	cg-comp $< $@ 
 
 # replace this with stripping for nob-dan
-.deps/$(PREFIX2a).dix: $(BASENAME).$(PREFIX1).dix
-	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	cp $< $@
+.deps/$(PREFIX2a).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+	xsltproc --stringparam alt '*' alt.xsl $< > $@
 
-.deps/$(PREFIX2b).dix: $(BASENAME).$(PREFIX1).dix
-	if [ ! -d .deps ] ; then mkdir .deps ; fi
-	cp $< $@
+.deps/$(PREFIX2b).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+	xsltproc --stringparam alt '*' alt.xsl $< > $@
 
 $(PREFIX2a).autobil.bin: .deps/$(PREFIX2a).dix 
 	lt-comp rl $< $@
