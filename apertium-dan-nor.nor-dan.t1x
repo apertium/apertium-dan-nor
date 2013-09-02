@@ -782,7 +782,6 @@
 
 
 
-
     <rule comment=" DET (DEF) + NOUN (DEF) >  DET (DEF)  NOUN (IND)  den manden > den mand" >
       <pattern>
         <pattern-item n="det-dem"/>
@@ -918,6 +917,8 @@
         </choose>
 
         <choose>
+
+
           <when><test><equal>
             <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
           </test>
@@ -925,6 +926,8 @@
           <otherwise>
             <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
           </otherwise>
+
+
         </choose>
 
 
