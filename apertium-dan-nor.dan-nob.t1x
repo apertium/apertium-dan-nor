@@ -9,14 +9,14 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-   
-   <def-cat n="adj">
+
+    <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
   </section-def-cats>
-  
+
   <section-def-attrs>
-  
+
     <def-attr n="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -25,19 +25,19 @@
       <attr-item tags="mf"/>
       <attr-item tags="GD"/>
     </def-attr>
- 
+
     <def-attr n="cas">
       <attr-item tags="nom"/>
       <attr-item tags="gen"/>
     </def-attr>
-    
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="sp"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
-        
+
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
@@ -45,7 +45,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
-    
+
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
     </def-attr>
@@ -62,14 +62,14 @@
     </def-attr>
 
   </section-def-attrs>
- 
+
   <section-def-vars>
     <def-var n="number"/>
-  </section-def-vars>  
+  </section-def-vars>
 
   <section-def-macros>
     <def-macro n="concord1" npar="1">
-      <!-- Placeholder macro for doing concordance when you have one 
+      <!-- Placeholder macro for doing concordance when you have one
            item, for example a lonely pronoun. This could be expanded to look
            at previous genders etc. -->
       <choose>
@@ -119,7 +119,7 @@
 
 
   <section-rules>
-    
+
     <rule comment="RULE: Noun → Noun : ( → )">
       <pattern>
         <pattern-item n="nom"/>
@@ -155,7 +155,7 @@
         </out>
       </action>
     </rule>
-    
+
 
 
   </section-rules>
