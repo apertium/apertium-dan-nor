@@ -20,6 +20,7 @@
     <sdef n="m"   c="Masculine"/>
     <sdef n="f"   c="Feminine"/>
     <sdef n="mf"  c="Masculine / feminine"/>
+    <sdef n="clb"   c="Possible clause boundary"/>
        <sdef n="pstv"  c="-s verbs"/>
     <sdef n="top"   c="Toponym"/>
     <sdef n="ant"   c="Anthroponym"/>
@@ -215,6 +216,7 @@
 </pardef>
 
 <pardef n="coma">
+  <e>       <re>,</re><p><l></l><r><s n="cm"/><s n="clb"/></r></p></e>
   <e>       <re>,</re><p><l></l><r><s n="cm"/></r></p></e>
 </pardef>
 
@@ -28976,6 +28978,7 @@
       ****************************** -->
 
 <e lm="bagom">        <i>bagom</i><par n="ikke__adv"/></e>
+<e lm="at">        <i>at</i><par n="ikke__adv"/></e>
 <e lm="riv">        <i>riv</i><par n="ikke__adv"/></e>
 <e lm="springvis">        <i>springvis</i><par n="ikke__adv"/></e>
 <e lm="når">        <i>når</i><par n="ikke__adv"/></e>
