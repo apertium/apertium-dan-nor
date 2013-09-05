@@ -1,3 +1,5 @@
+# -*- cg-pre-pipe: "apertium -d . dan-nno-morph|cg-conv -a 2>/dev/null" -*-
+
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ssingular ;
 

@@ -1,3 +1,5 @@
+# -*- cg-pre-pipe: "apertium -d . nno-dan-morph|cg-conv -a 2>/dev/null" -*-
+
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" sent ;
 
@@ -393,7 +395,7 @@ LIST farlege-mask-subst = "ville"  "ved"  "skrå"  "like"  "helt"  "heller"  "el
 LIST farlege-nøyt-subst = "vilt"  "venstre"  "var"  "under"  "skrå"  "skal"  "sjølv"  "sett"  "positiv"  "nå"  "ny"  "mot"  "lik"  "konkret"  "høgre"  "godt"  "gode"  "folk"  "bak"  ("beste"  sg ind) ("stikk"  adv) ("gjeld"  ind) ("or"  ind) ("no"  ind) ("skjer"  ind) ("kor"  ind) ("eige"  ind) ("rikt"  ind) ("fort"  ind) ("slag"  gen) ("eg"  sg) ("lo"  pl) ("al"  pl def) ("middel"  gen) ("men"  sg ind) ("men"  pl ind) ("tre"  ind) ("trass"  ind) ;
 LIST farlege-part = "åre"  "vå"  "vogge"  "vite"  "ville"  "vete"  "venne"  "vekkje"  "vekke"  "tørste"  "trøyste"  "tale"  "svare"  "spenne"  "spanne"  "slikje"  "slike"  "slette"  "skulde"  "sitte"  "sitje"  "semje"  "sake"  "rynje"  "rikje"  "rike"  "rette"  "pule"  "prime"  "oppta"  "omvende"  "nære"  "namne"  "minnast"  "lyse"  "love"  "lite"  "lengjast"  "lengast"  "le"  "kontre"  "klokke"  "klare"  "jorde"  "høgje"  "hende"  "helse"  "helle"  "grå"  "greie"  "gale"  "fri"  "felle"  "fare"  "ende"  "elje"  "desidere"  "brå"  "beste"  "ause"  "anne"  "ale"  gen ord ("vinne"  n) ("bygd"  n f) ("var"  adj posi nt) ("pult"  n m) ;
 LIST farlege-prep = "van"  ;
-LIST farlege-verb = "late"  "la"  ("bile"  pres) ("sva"  pres) ("keise"  pres) ("beste"  pret) ("venne"  vblex pret) ("liste"  vblex pret) ("venne"  pres) ("rose"  pres) ("toske"  pres) ("øye"  pres) ("dykke"  pres) ("børse"  pret) ("vege"  pres) ("slute"  pret) ("hå"  pres) ("godte"  pret) ("kan"  adv) ("stie"  pres) ("bøke"  pres) ("senge"  pret) ("rine"  pret) ("neste"  pret) ("deke"  pres) ("ete"  pret) ("anne"  pret) ("grade"  pres) ("åre"  pret) ("kontre"  pret) ("slette"  pres) ("velje"  pres) ("fare"  pret) ("sitje"  pres) ("sitte"  pres) ("sette"  pres) ("nå"  pres) ("elle"  pres) ("fø"  pres) ("helle"  pres) ("dy"  pres) ("dage"  pres) ("vå"  pres) ("vinde"  pres) ("snerte"  pret) ("jorde"  pret) ("ry"  pret) ("rynje"  pret) ("kagge"  pres) ("kroppe"  vblex pres) ("åte"  pret) ("hurre"  pret) ("marke"  pret) "<fila>" "høgde" ;
+LIST farlege-verb = "late"  "la"  ("bile"  pres) ("sva"  pres) ("keise"  pres) ("beste"  pret) ("venne"  vblex pret) ("liste"  vblex pret) ("venne"  pres) ("rose"  pres) ("toske"  pres) ("øye"  pres) ("dykke"  pres) ("børse"  pret) ("vege"  pres) ("slute"  pret) ("hå"  pres) ("godte"  pret) ("kan"  adv) ("stie"  pres) ("bøke"  pres) ("senge"  pret) ("rine"  pret) ("neste"  pret) ("deke"  pres) ("ete"  pret) ("anne"  pret) ("grade"  pres) ("åre"  pret) ("kontre"  pret) ("slette"  pres) ("velje"  pres) ("fare"  pret) ("sitje"  pres) ("sitte"  pres) ("<sett>"  "sette"  pres) ("nå"  pres) ("elle"  pres) ("fø"  pres) ("helle"  pres) ("dy"  pres) ("dage"  pres) ("vå"  pres) ("vinde"  pres) ("snerte"  pret) ("jorde"  pret) ("ry"  pret) ("rynje"  pret) ("kagge"  pres) ("kroppe"  vblex pres) ("åte"  pret) ("hurre"  pret) ("marke"  pret) "<fila>"  "høgde"  ("kontre"  pass) ("same"  pres) ("same"  inf) ("same"  imp) ("<så>"  "sjå") "<breidde>" "<lengde>" "<mengde>" ("type"  vblex inf) ("type"  vblex imp) ("type"  vblex pres) ("måte"  verb) "<leiar>" ;
 LIST fem = f mf (adj def) ;
 LIST fem-bu = (f def) ;
 LIST fem-det = (det f) ;
@@ -638,7 +640,7 @@ LIST sanseverb = "sjå"  "merke"  "late"  "la"  "kjenne"  "høyre"  "høre"  "f�
 LIST sbu = "kva"  cnjsub ("kor"  adv) ("kvar"  adv) ;
 LIST sbu-rein = cnjsub ;
 LIST sbu/konj = cnjsub cnjcoo ;
-LIST seier-verb = "takke" "åtvare" "tenkje" "tenke" "svare" "sukke" "spørje" "skrive" "seie" "rope" "mumle" "meine" "låte" "kviskre" "hyle" "fortelje" "(\"la\" verb pret) = <let> uten ` som det eigentleg burde ga vore, dvs pret av låte " ("la" verb pret) ;
+LIST seier-verb = "takke" "åtvare" "tenkje" "tenke" "svare" "sukke" "spørje" "skrive" "seie" "rope" "mumle" "meine" "låte" "kviskre" "hyle" "fortelje" ("la" verb pret) ; 
 #"(\"la\" vblex pret) = <let> uten ` som det eigentleg burde ga vore, dvs pret av låte "
 # ^^^ fjerna denne frå lista over, såg ut som ein feil..? -KBU
 LIST setn-gr = "kvifor"  "korleis"  "$--" "--" "$-" "-" cnjsub @sbu >>> <<< ("koss"  adv) ("kor"  adv) ("kvar"  adv) ("kven"  prn itg) ("kva"  prn itg) ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>";
