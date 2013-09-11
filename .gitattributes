@@ -29,6 +29,8 @@
 /configure.ac -text
 /dan-nor.prob -text
 dev/apertium-da-nb.da-nb.dix -text
+dev/apertium-dan-nor.nno.dixBEFORETRIM -text svneol=unset#application/xml
+dev/apertium-dan-nor.nob.dixBEFORETRIM -text svneol=unset#application/xml
 dev/cuento.da.txt -text
 dev/cuento.nb.txt -text
 dev/full.nb.dix -text
