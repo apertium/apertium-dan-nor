@@ -21,7 +21,7 @@
     <sdef n="f"   c="Feminine"/>
     <sdef n="mf"  c="Masculine / feminine"/>
     <sdef n="clb"   c="Possible clause boundary"/>
-       <sdef n="pstv"  c="-s verbs"/>
+   <sdef n="pstv"  c="-s verbs"/>
     <sdef n="top"   c="Toponym"/>
     <sdef n="ant"   c="Anthroponym"/>
     <sdef n="cog"   c="Cognomen"/>
@@ -1073,6 +1073,11 @@
     <!-- Determiners -->
 
 
+<pardef n="halvande/n__num">
+  <e>       <p><l>n</l>        <r>n<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>n<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="e/nhver__det">
   <e>       <p><l>thvert</l>         <r>nhver<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>nhver</l>          <r>nhver<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
@@ -1520,8 +1525,11 @@
   <e>       <p><l>dig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>os<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>os<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="du"/></r></p></e>
   <e>       <p><l>jer<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>jer<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="du"/></r></p></e>
   <e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="du"/></r></p></e>
 </pardef>
 
 
@@ -6046,6 +6054,7 @@
 
 
     <!-- Determiners -->
+<e lm="halvanden">       <i>halvande</i><par n="halvande/n__num"/></e>
 
     <e lm="en eller anden">            <i>e</i><par n="e/n_eller_anden__det"/></e>
 <e lm="enhver">            <i>e</i><par n="e/nhver__det"/></e>
@@ -6131,7 +6140,9 @@
           group pr
       ****************************** -->
 
+<e lm="afsides">                   <i>afsides</i><par n="på__pr"/></e>
 <e lm="a">            <i>a</i><par n="på__pr"/></e>
+<e lm="der">            <i>der</i><par n="på__pr"/></e>
 <e lm="væk gennem">            <i>væk<b/>gennem</i><par n="på__pr"/></e>
 <e lm="væk igennem">           <i>væk<b/>igennem</i><par n="på__pr"/></e>
 <e lm="på denne side af ">           <i>på<b/>denne<b/>side<b/>af</i><par n="på__pr"/></e>
@@ -6160,7 +6171,9 @@
 <e lm="fra øst">      <i>fra<b/>øst</i><par n="på__pr"/></e>
 <e lm="ens med">      <i>ens<b/>med</i><par n="på__pr"/></e>
 <e lm="øst for fjeldet">  <i>øst<b/>for<b/>fjeldet</i><par n="på__pr"/></e>
+<e lm="med hensyn til">  <i>med<b/>hensyn<b/>til</i><par n="på__pr"/></e>
 <e lm="øst for">    <i>øst<b/>for</i><par n="på__pr"/></e>
+<e lm="sammenlignet med">    <i>sammenlignet<b/>med</i><par n="på__pr"/></e>
 <e lm="østom">     <i>østom</i><par n="på__pr"/></e>
 <e lm="østover">     <i>østover</i><par n="på__pr"/></e>
 <e lm="østpå">       <i>østpå</i><par n="på__pr"/></e>
@@ -28976,8 +28989,17 @@
     <!-- ******************************
           group adv
       ****************************** -->
+<e lm="til fjelds">    <i>til<b/>fjelds</i><par n="ikke__adv"/></e>
+<e lm="til bords">    <i>til<b/>bords</i><par n="ikke__adv"/></e>
+<e lm="til tops">    <i>til<b/>tops</i><par n="ikke__adv"/></e>
+<e lm="til søs">    <i>til<b/>søs</i><par n="ikke__adv"/></e>
+<e lm="til bunds">    <i>til<b/>bunds</i><par n="ikke__adv"/></e>
+<e lm="til fods">    <i>til<b/>fods</i><par n="ikke__adv"/></e>
+<e lm="til vands">    <i>til<b/>vands</i><par n="ikke__adv"/></e>
+<e lm="til lands">    <i>til<b/>lands</i><par n="ikke__adv"/></e>
 
 <e lm="bagom">        <i>bagom</i><par n="ikke__adv"/></e>
+<e lm="langt">        <i>langt</i><par n="ikke__adv"/></e>
 <e lm="at">        <i>at</i><par n="ikke__adv"/></e>
 <e lm="riv">        <i>riv</i><par n="ikke__adv"/></e>
 <e lm="springvis">        <i>springvis</i><par n="ikke__adv"/></e>
@@ -28992,8 +29014,14 @@
 <e lm="pokkers">        <i>pokkers</i><par n="ikke__adv"/></e>
 <e lm="stik">        <i>stik</i><par n="ikke__adv"/></e>
 <e lm="hermed">      <i>hermed</i><par n="ikke__adv"/></e>
+<e lm="gravid">      <i>gravid</i><par n="ikke__adv"/></e>
 
 <e lm="langvejs fra">  <i>langvejs<b/>fra</i><par n="ikke__adv"/></e>
+<e lm="til sin ret">  <i>til<b/>sin<b/>ret</i><par n="ikke__adv"/></e>
+<e lm="længst borte">  <i>længst<b/>borte</i><par n="ikke__adv"/></e>
+<e lm="et kvarters tid">  <i>et<b/>kvarters<b/>tid</i><par n="ikke__adv"/></e>
+<e lm="en skønne dag">  <i>en<b/>skønne<b/>dag</i><par n="ikke__adv"/></e>
+<e lm="vær venlig og">  <i>vær<b/>venlig<b/>og</i><par n="ikke__adv"/></e>
 <e lm="langvejs">  <i>langvejs</i><par n="ikke__adv"/></e>
 <e lm="tids">  <i>tids</i><par n="ikke__adv"/></e>
 <e lm="ud over">         <i>ud<b/>over</i><par n="ikke__adv"/></e>
@@ -29008,6 +29036,7 @@
        <e lm="skiftevis">     <i>skiftevis</i><par n="ikke__adv"/></e>
        <e lm="sent">     <i>sent</i><par n="ikke__adv"/></e>
   <e lm="alligevel">     <i>alligevel</i><par n="ikke__adv"/></e>
+  <e lm="ikke noget">     <i>ikke<b/>noget</i><par n="ikke__adv"/></e>
 <!--<e lm="at">     <i>at</i><par n="ikke__adv"/></e>-->
 <e lm="sidst">     <i>sidst</i><par n="ikke__adv"/></e>
 <e lm="herhen">     <i>herhen</i><par n="ikke__adv"/></e>
@@ -29090,6 +29119,7 @@
 <e lm="hjemad">            <i>hjemad</i><par n="ikke__adv"/></e>
 <e lm="hjemme">          <i>hjemme</i><par n="ikke__adv"/></e>
 <e lm="hovedsageligt">   <i>hovedsageligt</i><par n="ikke__adv"/></e>
+<e lm="hovedsagelig">   <i>hovedsagelig</i><par n="ikke__adv"/></e>
 <e lm="hvad">            <i>hvad</i><par n="hvordan__adv"/></e>  <!-- Jacob: ="what". Hope wordclass is OK, Francis? -->
 <e lm="udover">          <i>udover</i><par n="ikke__adv"/></e>
 <e lm="mod solen">          <i>mod<b/>solen</i><par n="ikke__adv"/></e>
@@ -29885,6 +29915,7 @@
 <e lm="sjældnest">        <i>sjældnest</i><par n="ikke__adv"/></e>
 <e lm="selv">             <i>selv</i><par n="ikke__adv"/></e>
 <e lm="til vands">          <i>til<b/>vands</i><par n="ikke__adv"/></e>
+<e lm="til bens">          <i>til<b/>bens</i><par n="ikke__adv"/></e>
 <e lm="helst ikke">          <i>helst<b/>ikke</i><par n="ikke__adv"/></e>
 <e lm="gennem skoven">        <i>gennem<b/>skoven</i><par n="ikke__adv"/></e>
 <e lm="skiftevis">        <i>skiftevis</i><par n="ikke__adv"/></e>
