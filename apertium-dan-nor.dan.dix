@@ -271,6 +271,10 @@
 <pardef n="første__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+
+    <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="def"/></r></p></e>
+
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
@@ -1485,9 +1489,9 @@
 </pardef>
 
 <pardef n="De__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>m</l>         <r><s n="prn"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>res</l>       <r><s n="prn"/><s n="pos"/><s n="p3"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>m</l>         <r><s n="prn"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>res</l>       <r><s n="prn"/><s n="pos"/><s n="p2"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -4813,8 +4817,8 @@
   <e>       <p><l>ad</l>        <r>idde<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>iddet</l>     <r>idde<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>iddende</l>   <r>idde<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>det</l>         <r>idde<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>det</l>         <r>idde<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>iddet</l>         <r>idde<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>iddet</l>         <r>idde<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>idne</l>        <r>idde<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>idne</l>          <r>idde<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
 
@@ -5822,7 +5826,8 @@
 <pardef n="vil/le__vaux">
   <e>       <p><l>le</l>        <r>le<s n="vaux"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l></l>          <r>le<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>le</l>        <r>le<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l></l>          <r>le<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>les</l>        <r>le<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>let</l>       <r>le<s n="vaux"/><s n="pp"/></r></p></e>
 </pardef>
 
@@ -6142,7 +6147,7 @@
     <!-- ******************************
           group pr
       ****************************** -->
-
+<e lm="langt fra">        <i>langt<b/>fra</i><par n="på__pr"/></e>
 <e lm="afsides">                   <i>afsides</i><par n="på__pr"/></e>
 <e lm="a">            <i>a</i><par n="på__pr"/></e>
 <e lm="der">            <i>der</i><par n="på__pr"/></e>
@@ -6740,6 +6745,7 @@
 <e lm="du">              <i>d</i><par n="d/u__prn"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__prn"/></e>
 <e lm="de">              <i>de</i><par n="de__prn"/></e>
+<e lm="De">              <i>De</i><par n="De__prn"/></e>
 <e lm="den">             <i>den</i><par n="den__prn"/></e>
 <e lm="der">             <i>der</i><par n="der__prn"/></e>
 <e lm="det">             <i>det</i><par n="det__prn"/></e>
@@ -30102,6 +30108,8 @@
 <e lm="årligt">        <i>årligt</i><par n="ikke__adv"/></e>
 <e lm="hvordan">            <i>hvordan</i><par n="ikke__adv"/></e>
 <e lm="øjensynlig">       <i>øjensynlig</i><par n="ikke__adv"/></e>
+<e lm="spændende">                 <i>spændende</i><par n="ikke__adv"/></e>
+
  <!--/adverbs -->
 
     <!-- ******************************
@@ -31165,7 +31173,7 @@
 <e lm="Hitler">          <i>Hitler</i><par n="Ibsen__np"/></e>
 <e lm="Honecker">        <i>Honecker</i><par n="Ibsen__np"/></e>
 <e lm="Humanioradagene"> <i>Humanioradagene</i><par n="Ibsen__np"/></e>
-<e lm="Hvitekrist">      <i>Hvitekrist</i><par n="Ibsen__np"/></e>
+<e lm="Hvidekrist">      <i>Hvidekrist</i><par n="Ibsen__np"/></e>
 <e lm="Høyre">           <i>Høyre</i><par n="Ibsen__np"/></e>
 <e lm="Inc">             <i>Inc</i><par n="Ibsen__np"/></e>
 <e lm="Inge">            <i>Inge</i><par n="Jo__np"/></e>
@@ -34902,7 +34910,7 @@
 <e lm="Høst-Madsen">   <i>Høst-Madsen</i><par n="Ibsen__np"/></e>
 <e lm="Høsøien">   <i>Høsøien</i><par n="Ibsen__np"/></e>
 <e lm="Høver">   <i>Høver</i><par n="Ibsen__np"/></e>
-<e lm="Høy">   <i>Hø</i><par n="Ibsen__np"/></e>
+<e lm="Høy">   <i>Høy</i><par n="Ibsen__np"/></e>
 <e lm="Høybakken">   <i>Høybakken</i><par n="Ibsen__np"/></e>
 <e lm="Høybråten">   <i>Høybråten</i><par n="Ibsen__np"/></e>
 <e lm="Høydahl">   <i>Høydahl</i><par n="Ibsen__np"/></e>
@@ -37162,7 +37170,7 @@
 <e lm="Lokvam">   <i>Lokvam</i><par n="Ibsen__np"/></e>
 <e lm="Lolland-Falster">   <i>Lolland-Falster</i><par n="Ibsen__np"/></e>
 <e lm="Lompolo">   <i>Lompolo</i><par n="Ibsen__np"/></e>
-<e lm="Lomøy">   <i>Lomø</i><par n="Ibsen__np"/></e>
+<e lm="Lomø">   <i>Lomø</i><par n="Ibsen__np"/></e>
 <e lm="Longerak">   <i>Longerak</i><par n="Ibsen__np"/></e>
 <e lm="Longford">   <i>Longford</i><par n="Ibsen__np"/></e>
 <e lm="Loose">   <i>Loose</i><par n="Ibsen__np"/></e>
@@ -43386,6 +43394,7 @@
 <e lm="Athen">           <i>Athen</i><par n="Norge__np"/></e>
 <e lm="Atlanta">         <i>Atlanta</i><par n="Norge__np"/></e>
 <e lm="Atlasbjergene">     <i>Atlasbjergene</i><par n="Norge__np"/></e>
+<e lm="Atlasbjergene">     <i>Atlasbjergene</i><par n="Norge__np"/></e>
 <e lm="Atlasbjergene">   <i>Atlasbjergene</i><par n="Norge__np"/></e>
 <e lm="Atna">            <i>Atna</i><par n="Norge__np"/></e>
 <e lm="Aubert">          <i>Aubert</i><par n="Norge__np"/></e>
@@ -45984,7 +45993,7 @@
 <e lm="Radiumhospitalet"><i>Radiumhospitalet</i><par n="Lagtinget__np"/></e>
 <e lm="Ridderrennet">    <i>Ridderrennet</i><par n="Lagtinget__np"/></e>
 <e lm="Riksteatret">     <i>Riksteatret</i><par n="Lagtinget__np"/></e>
-<e lm="Senterpartiet">   <i>Senterpartiet</i><par n="Lagtinget__np"/></e>
+<e lm="Centerpartiet">   <i>Centerpartiet</i><par n="Lagtinget__np"/></e>
 <e lm="Skattedirektoratet"><i>Skattedirektoratet</i><par n="Lagtinget__np"/></e>
 <e lm="Stabburet">       <i>Stabburet</i><par n="Lagtinget__np"/></e>
 <e lm="Stanford-universitetet"><i>Stanford-universitetet</i><par n="Lagtinget__np"/></e>
@@ -46089,6 +46098,7 @@
 <e lm="Astrid">          <i>Astrid</i><par n="Eva__np"/></e>
 <e lm="Astri">           <i>Astri</i><par n="Eva__np"/></e>
 <e lm="Atlanterhavspagten"><i>Atlanterhavspagten</i><par n="Eva__np"/></e>
+<e lm="Atlanterhavspagten"><i>Atlanterhavspagten</i><par n="Jo__np"/></e>
 <e lm="Aud">             <i>Aud</i><par n="Eva__np"/></e>
 <e lm="Barbro">          <i>Barbro</i><par n="Eva__np"/></e>
 <e lm="Bente">           <i>Bente</i><par n="Eva__np"/></e>

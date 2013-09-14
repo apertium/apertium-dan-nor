@@ -364,7 +364,6 @@ able to generate the sg.ind.cmp form too -->
 
 <pardef n="personal_pronouns__prn">
 <e>       <p><l>De</l>        <r>De<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-<e>       <p><l>Dem</l>      <r>De<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
 
 <e>       <p><l>jeg</l>       <r>jeg<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
 <e>       <p><l>meg</l>       <r>jeg<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -408,6 +407,7 @@ Polite forms still todo
 <e>       <p><l></l>          <r><s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l></l>          <r><s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="possessives__det">
 <e r="RL"><p><l>min</l>         <r>jeg<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>min</l>         <r>jeg<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -11197,8 +11197,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="fremunder"><i>fremunder</i><par n="i__pr"/></e>
 <e lm="fremved"><i>fremved</i><par n="i__pr"/></e>
 <e lm="i samsvar med"> <i>i<b/>samsvar<b/>med</i><par n="i__pr"/></e>
-<!-- RL until CG stops choosing it over determiner 'en' -->
-<e r="RL" lm="en">       <i>en</i><par n="i__pr"/></e>
 <e lm="anno">            <i>anno</i><par n="i__pr"/></e>
 <e lm="attåt">            <i>attåt</i><par n="i__pr"/></e>
 <e lm="bergimellom">     <i>bergimellom</i><par n="i__pr"/></e>
@@ -12278,7 +12276,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="snyte">           <i>snyte</i><par n="dagevis__adv"/></e>
 <e lm="solo">            <i>solo</i><par n="dagevis__adv"/></e>
 <e lm="sommerstid">      <i>sommerstid</i><par n="dagevis__adv"/></e>
-<e lm="spenna">          <i>spenna</i><par n="dagevis__adv"/></e>
 <e lm="spent">           <i>spent</i><par n="dagevis__adv"/></e>
 <e lm="spesielt">        <i>spesielt</i><par n="dagevis__adv"/></e>
 <e lm="spika">           <i>spika</i><par n="dagevis__adv"/></e>
@@ -12496,7 +12493,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="gladelig">        <i>gladelig</i><par n="dagevis__adv"/></e>
 <e lm="givetvis">        <i>givetvis</i><par n="dagevis__adv"/></e>
 <e lm="gid">             <i>gid</i><par n="dagevis__adv"/></e>
-<e lm="fylkesvis">       <i>fylkesvis</i><par n="dagevis__adv"/></e>
 <e lm="fremt">           <i>fremt</i><par n="dagevis__adv"/></e>
 <e lm="free on rail">    <i>free<b/>on<b/>rail</i><par n="dagevis__adv"/></e>
 <e lm="free on board">   <i>free<b/>on<b/>board</i><par n="dagevis__adv"/></e>
@@ -12638,7 +12634,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="skinnende">       <i>skinnende</i><par n="dagevis__adv"/></e>
 <e lm="lynende">         <i>lynende</i><par n="dagevis__adv"/></e>
 <e lm="raspende">        <i>raspende</i><par n="dagevis__adv"/></e>
-<e lm="fortløpende">     <i>fortløpende</i><par n="dagevis__adv"/></e>
 <e lm="gneldrende">      <i>gneldrende</i><par n="dagevis__adv"/></e>
 <e lm="isende">          <i>isende</i><par n="dagevis__adv"/></e>
 <e lm="isende">          <i>isende</i><par n="dagevis__adv"/></e>
@@ -20241,7 +20236,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="beruset">         <i>beruse</i><par n="øve/t__adj"/></e>
 <e lm="duknakket">       <i>duknakke</i><par n="øve/t__adj"/></e>
 <e lm="enarmet">         <i>enarme</i><par n="øve/t__adj"/></e>
-<e lm="enkeltløpet">     <i>enkeltløpe</i><par n="øve/t__adj"/></e>
 <e lm="ettertraktet">    <i>ettertrakte</i><par n="øve/t__adj"/></e>
 <e lm="fastspikret">     <i>fastspikre</i><par n="øve/t__adj"/></e>
 <e lm="fattet">          <i>fatte</i><par n="øve/t__adj"/></e>
@@ -37558,7 +37552,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="AKP-ml">          <i>AKP-ml</i><par n="Ibsen__np"/></e>
 <e lm="AMO">             <i>AMO</i><par n="Ibsen__np"/></e>
 <e lm="ANC">             <i>ANC</i><par n="Ibsen__np"/></e>
-<e lm="ANSA">            <i>ANSA</i><par n="Ibsen__np"/></e>
 <e lm="AOF">             <i>AOF</i><par n="Ibsen__np"/></e>
 <e lm="ASEA">            <i>ASEA</i><par n="Ibsen__np"/></e>
 <e lm="AUF">             <i>AUF</i><par n="Ibsen__np"/></e>
@@ -38883,7 +38876,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Budtz">   <i>Budtz</i><par n="Findus__np"/></e>
 <e lm="Buene">   <i>Buene</i><par n="Ibsen__np"/></e>
 <e lm="Bueng">   <i>Bueng</i><par n="Ibsen__np"/></e>
-<e lm="Buer">   <i>Buer</i><par n="Ibsen__np"/></e>
 <e lm="Bug">   <i>Bug</i><par n="Ibsen__np"/></e>
 <e lm="Bugt">   <i>Bugt</i><par n="Ibsen__np"/></e>
 <e lm="Buhl">   <i>Buhl</i><par n="Ibsen__np"/></e>
@@ -39140,7 +39132,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Danilova">   <i>Danilova</i><par n="Ibsen__np"/></e>
 <e lm="Dannevang">   <i>Dannevang</i><par n="Ibsen__np"/></e>
 <e lm="Dannevig">   <i>Dannevig</i><par n="Ibsen__np"/></e>
-<e lm="Dansk">   <i>Dansk</i><par n="Ibsen__np"/></e>
 <e lm="Dansommer">   <i>Dansommer</i><par n="Ibsen__np"/></e>
 <e lm="Danubius">   <i>Danubius</i><par n="Findus__np"/></e>
 <e lm="Dančenko">   <i>Dančenko</i><par n="Ibsen__np"/></e>
@@ -39312,7 +39303,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Eckersberg">   <i>Eckersberg</i><par n="Ibsen__np"/></e>
 <e lm="Eckhoff">   <i>Eckhoff</i><par n="Ibsen__np"/></e>
 <e lm="Ecktell">   <i>Ecktell</i><par n="Ibsen__np"/></e>
-<e lm="Eder">   <i>Eder</i><par n="Ibsen__np"/></e>
 <e lm="Edirne">   <i>Edirne</i><par n="Ibsen__np"/></e>
 <e lm="Edlund">   <i>Edlund</i><par n="Ibsen__np"/></e>
 <e lm="Edmonsson">   <i>Edmonsson</i><par n="Ibsen__np"/></e>
@@ -39676,7 +39666,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Finnås">   <i>Finnås</i><par n="Findus__np"/></e>
 <e lm="Finsen">   <i>Finsen</i><par n="Ibsen__np"/></e>
 <e lm="Finseth">   <i>Finseth</i><par n="Ibsen__np"/></e>
-<e lm="Finsk">   <i>Finsk</i><par n="Ibsen__np"/></e>
 <e lm="Finska">   <i>Finska</i><par n="Ibsen__np"/></e>
 <e lm="Finsrud">   <i>Finsrud</i><par n="Ibsen__np"/></e>
 <e lm="Fintoft">   <i>Fintoft</i><par n="Ibsen__np"/></e>
@@ -39822,7 +39811,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Fossan">   <i>Fossan</i><par n="Ibsen__np"/></e>
 <e lm="Fossem">   <i>Fossem</i><par n="Ibsen__np"/></e>
 <e lm="Fossen">   <i>Fossen</i><par n="Ibsen__np"/></e>
-<e lm="Fosser">   <i>Fosser</i><par n="Ibsen__np"/></e>
 <e lm="Fosshaug">   <i>Fosshaug</i><par n="Ibsen__np"/></e>
 <e lm="Fossing">   <i>Fossing</i><par n="Ibsen__np"/></e>
 <e lm="Fosslandsosen">   <i>Fosslandsosen</i><par n="Ibsen__np"/></e>
@@ -39843,7 +39831,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Frandsen">   <i>Frandsen</i><par n="Ibsen__np"/></e>
 <e lm="Franken">   <i>Franken</i><par n="Ibsen__np"/></e>
 <e lm="Fransen">   <i>Fransen</i><par n="Ibsen__np"/></e>
-<e lm="Fransk">   <i>Fransk</i><par n="Ibsen__np"/></e>
 <e lm="Fransplass">   <i>Fransplass</i><par n="Findus__np"/></e>
 <e lm="Franssila">   <i>Franssila</i><par n="Ibsen__np"/></e>
 <e lm="Frantsen">   <i>Frantsen</i><par n="Ibsen__np"/></e>
@@ -39883,7 +39870,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Frisell">   <i>Frisell</i><par n="Ibsen__np"/></e>
 <e lm="Fritzner">   <i>Fritzner</i><par n="Ibsen__np"/></e>
 <e lm="Froan">   <i>Froan</i><par n="Ibsen__np"/></e>
-<e lm="From">   <i>From</i><par n="Ibsen__np"/></e>
 <e lm="Frost">   <i>Frost</i><par n="Ibsen__np"/></e>
 <e lm="Frostad">   <i>Frostad</i><par n="Ibsen__np"/></e>
 <e lm="Frostadiggeláhka">   <i>Frostadiggeláhka</i><par n="Ibsen__np"/></e>
@@ -39892,7 +39878,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Frydenberg">   <i>Frydenberg</i><par n="Ibsen__np"/></e>
 <e lm="Frängstorp">   <i>Frängstorp</i><par n="Ibsen__np"/></e>
 <e lm="Fränti">   <i>Fränti</i><par n="Ibsen__np"/></e>
-<e lm="Frøen">   <i>Frøen</i><par n="Ibsen__np"/></e>
 <e lm="Frølich">   <i>Frølich</i><par n="Ibsen__np"/></e>
 <e lm="Frøseth">   <i>Frøseth</i><par n="Ibsen__np"/></e>
 <e lm="Frøystad">   <i>Frøystad</i><par n="Ibsen__np"/></e>
@@ -40445,7 +40430,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Halkosaari">   <i>Halkosaari</i><par n="Ibsen__np"/></e>
 <e lm="Hall">   <i>Hall</i><par n="Ibsen__np"/></e>
 <e lm="Halla-aho">   <i>Halla-aho</i><par n="Ibsen__np"/></e>
-<e lm="Halla">   <i>Halla</i><par n="Ibsen__np"/></e>
 <e lm="Hallager">   <i>Hallager</i><par n="Ibsen__np"/></e>
 <e lm="Hallamaa">   <i>Hallamaa</i><par n="Ibsen__np"/></e>
 <e lm="Hallan">   <i>Hallan</i><par n="Ibsen__np"/></e>
@@ -40755,7 +40739,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Heilbuth">   <i>Heilbuth</i><par n="Ibsen__np"/></e>
 <e lm="Heilevang">   <i>Heilevang</i><par n="Ibsen__np"/></e>
 <e lm="Heilmann">   <i>Heilmann</i><par n="Ibsen__np"/></e>
-<e lm="Heim">   <i>Heim</i><par n="Ibsen__np"/></e>
 <e lm="Heimala">   <i>Heimala</i><par n="Ibsen__np"/></e>
 <e lm="Heimbeck">   <i>Heimbeck</i><par n="Ibsen__np"/></e>
 <e lm="Heimlund">   <i>Heimlund</i><par n="Ibsen__np"/></e>
@@ -40851,7 +40834,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Helweg">   <i>Helweg</i><par n="Ibsen__np"/></e>
 <e lm="Hemfjell">   <i>Hemfjell</i><par n="Ibsen__np"/></e>
 <e lm="Hemingway">   <i>Hemingway</i><par n="Ibsen__np"/></e>
-<e lm="Hemmer">   <i>Hemmer</i><par n="Ibsen__np"/></e>
 <e lm="Hemmilä">   <i>Hemmilä</i><par n="Ibsen__np"/></e>
 <e lm="Hemming">   <i>Hemming</i><par n="Ibsen__np"/></e>
 <e lm="Hemmingsen">   <i>Hemmingsen</i><par n="Ibsen__np"/></e>
@@ -41458,7 +41440,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Hønen">   <i>Hønen</i><par n="Ibsen__np"/></e>
 <e lm="Høst-Madsen">   <i>Høst-Madsen</i><par n="Ibsen__np"/></e>
 <e lm="Høsøien">   <i>Høsøien</i><par n="Ibsen__np"/></e>
-<e lm="Høver">   <i>Høver</i><par n="Ibsen__np"/></e>
 <e lm="Høy">   <i>Høy</i><par n="Ibsen__np"/></e>
 <e lm="Høybakken">   <i>Høybakken</i><par n="Ibsen__np"/></e>
 <e lm="Høybråten">   <i>Høybråten</i><par n="Ibsen__np"/></e>
@@ -41549,7 +41530,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Inkiläinen">   <i>Inkiläinen</i><par n="Ibsen__np"/></e>
 <e lm="Inkinen">   <i>Inkinen</i><par n="Ibsen__np"/></e>
 <e lm="Inkonen">   <i>Inkonen</i><par n="Ibsen__np"/></e>
-<e lm="Inn">   <i>Inn</i><par n="Ibsen__np"/></e>
 <e lm="Innala">   <i>Innala</i><par n="Ibsen__np"/></e>
 <e lm="Innanen">   <i>Innanen</i><par n="Ibsen__np"/></e>
 <e lm="Inndyr">   <i>Inndyr</i><par n="Ibsen__np"/></e>
@@ -42360,7 +42340,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Kines">   <i>Kines</i><par n="Findus__np"/></e>
 <e lm="Kingell">   <i>Kingell</i><par n="Ibsen__np"/></e>
 <e lm="Kingo">   <i>Kingo</i><par n="Ibsen__np"/></e>
-<e lm="Kinna">   <i>Kinna</i><par n="Ibsen__np"/></e>
 <e lm="Kinnari">   <i>Kinnari</i><par n="Ibsen__np"/></e>
 <e lm="Kinnarinen">   <i>Kinnarinen</i><par n="Ibsen__np"/></e>
 <e lm="Kinni">   <i>Kinni</i><par n="Ibsen__np"/></e>
@@ -43054,7 +43033,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Kvig">   <i>Kvig</i><par n="Ibsen__np"/></e>
 <e lm="Kvinge">   <i>Kvinge</i><par n="Ibsen__np"/></e>
 <e lm="Kvirinius">   <i>Kvirinius</i><par n="Findus__np"/></e>
-<e lm="Kvisler">   <i>Kvisler</i><par n="Ibsen__np"/></e>
 <e lm="Kvist">   <i>Kvist</i><par n="Ibsen__np"/></e>
 <e lm="Kviting">   <i>Kviting</i><par n="Ibsen__np"/></e>
 <e lm="Kvivesen">   <i>Kvivesen</i><par n="Ibsen__np"/></e>
@@ -43395,8 +43373,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Ledang">   <i>Ledang</i><par n="Ibsen__np"/></e>
 <e lm="Lee">   <i>Lee</i><par n="Ibsen__np"/></e>
 <e lm="Leegaard">   <i>Leegaard</i><par n="Ibsen__np"/></e>
-<e lm="Leem">   <i>Leem</i><par n="Ibsen__np"/></e>
-<e lm="Leer">   <i>Leer</i><par n="Ibsen__np"/></e>
 <e lm="Leerstang">   <i>Leerstang</i><par n="Ibsen__np"/></e>
 <e lm="Legreid">   <i>Legreid</i><par n="Ibsen__np"/></e>
 <e lm="Lehikoinen">   <i>Lehikoinen</i><par n="Ibsen__np"/></e>
@@ -44262,7 +44238,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Melkko">   <i>Melkko</i><par n="Ibsen__np"/></e>
 <e lm="Mellanen">   <i>Mellanen</i><par n="Ibsen__np"/></e>
 <e lm="Melleby">   <i>Melleby</i><par n="Ibsen__np"/></e>
-<e lm="Mellem">   <i>Mellem</i><par n="Ibsen__np"/></e>
 <e lm="Melleris">   <i>Melleris</i><par n="Findus__np"/></e>
 <e lm="Mellerud">   <i>Mellerud</i><par n="Ibsen__np"/></e>
 <e lm="Mellum">   <i>Mellum</i><par n="Ibsen__np"/></e>
@@ -44505,7 +44480,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Muittari">   <i>Muittari</i><par n="Ibsen__np"/></e>
 <e lm="Muje">   <i>Muje</i><par n="Ibsen__np"/></e>
 <e lm="Mujunen">   <i>Mujunen</i><par n="Ibsen__np"/></e>
-<e lm="Mukka">   <i>Mukka</i><par n="Ibsen__np"/></e>
 <e lm="Mukkala">   <i>Mukkala</i><par n="Ibsen__np"/></e>
 <e lm="Muladal">   <i>Muladal</i><par n="Ibsen__np"/></e>
 <e lm="Mulari">   <i>Mulari</i><par n="Ibsen__np"/></e>
@@ -44882,7 +44856,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Niskasaari">   <i>Niskasaari</i><par n="Ibsen__np"/></e>
 <e lm="Nisonen">   <i>Nisonen</i><par n="Ibsen__np"/></e>
 <e lm="Nissen">   <i>Nissen</i><par n="Ibsen__np"/></e>
-<e lm="Nisser">   <i>Nisser</i><par n="Ibsen__np"/></e>
 <e lm="Nissi">   <i>Nissi</i><par n="Ibsen__np"/></e>
 <e lm="Nissilä">   <i>Nissilä</i><par n="Ibsen__np"/></e>
 <e lm="Nissinen">   <i>Nissinen</i><par n="Ibsen__np"/></e>
@@ -44920,7 +44893,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Norberg">   <i>Norberg</i><par n="Ibsen__np"/></e>
 <e lm="Norbom">   <i>Norbom</i><par n="Ibsen__np"/></e>
 <e lm="Norbye">   <i>Norbye</i><par n="Ibsen__np"/></e>
-<e lm="Nord">   <i>Nord</i><par n="Ibsen__np"/></e>
 <e lm="Nordang">   <i>Nordang</i><par n="Ibsen__np"/></e>
 <e lm="Nordavis">   <i>Nordavis</i><par n="Findus__np"/></e>
 <e lm="Nordborg">   <i>Nordborg</i><par n="Ibsen__np"/></e>
@@ -44967,7 +44939,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Noronen">   <i>Noronen</i><par n="Ibsen__np"/></e>
 <e lm="Norppa">   <i>Norppa</i><par n="Ibsen__np"/></e>
 <e lm="Norrena">   <i>Norrena</i><par n="Ibsen__np"/></e>
-<e lm="Norsk">   <i>Norsk</i><par n="Ibsen__np"/></e>
 <e lm="Northeim">   <i>Northeim</i><par n="Ibsen__np"/></e>
 <e lm="Nortunen">   <i>Nortunen</i><par n="Ibsen__np"/></e>
 <e lm="Norvang">   <i>Norvang</i><par n="Ibsen__np"/></e>
@@ -45320,7 +45291,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Pallesen">   <i>Pallesen</i><par n="Ibsen__np"/></e>
 <e lm="Pallonen">   <i>Pallonen</i><par n="Ibsen__np"/></e>
 <e lm="Palmar">   <i>Palmar</i><par n="Ibsen__np"/></e>
-<e lm="Palmer">   <i>Palmer</i><par n="Ibsen__np"/></e>
 <e lm="Palmereana">   <i>Palmereana</i><par n="Ibsen__np"/></e>
 <e lm="Palmu">   <i>Palmu</i><par n="Ibsen__np"/></e>
 <e lm="Palmunen">   <i>Palmunen</i><par n="Ibsen__np"/></e>
@@ -45734,7 +45704,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Porttipantti">   <i>Porttipantti</i><par n="Ibsen__np"/></e>
 <e lm="Porvali">   <i>Porvali</i><par n="Ibsen__np"/></e>
 <e lm="Poskiparta">   <i>Poskiparta</i><par n="Ibsen__np"/></e>
-<e lm="Post">   <i>Post</i><par n="Ibsen__np"/></e>
 <e lm="Posti">   <i>Posti</i><par n="Ibsen__np"/></e>
 <e lm="Postila">   <i>Postila</i><par n="Ibsen__np"/></e>
 <e lm="Poti">   <i>Poti</i><par n="Ibsen__np"/></e>
@@ -46014,7 +45983,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Rakfjord">   <i>Rakfjord</i><par n="Ibsen__np"/></e>
 <e lm="Rakkola">   <i>Rakkola</i><par n="Ibsen__np"/></e>
 <e lm="Rakkolainen">   <i>Rakkolainen</i><par n="Ibsen__np"/></e>
-<e lm="Raknes">   <i>Raknes</i><par n="Findus__np"/></e>
 <e lm="Rakvåg">   <i>Rakvåg</i><par n="Ibsen__np"/></e>
 <e lm="Ramas">   <i>Ramas</i><par n="Findus__np"/></e>
 <e lm="Rambøll">   <i>Rambøll</i><par n="Ibsen__np"/></e>
@@ -46215,8 +46183,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Rheen">   <i>Rheen</i><par n="Ibsen__np"/></e>
 <e lm="Rheman">   <i>Rheman</i><par n="Ibsen__np"/></e>
 <e lm="Rian">   <i>Rian</i><par n="Ibsen__np"/></e>
-<e lm="Riast-Hylling">   <i>Riast-Hylling</i><par n="Ibsen__np"/></e>
-<e lm="Riast/Hylling">   <i>Riast/Hylling</i><par n="Ibsen__np"/></e>
 <e lm="Riber-Mohn">   <i>Riber-Mohn</i><par n="Ibsen__np"/></e>
 <e lm="Richer-Hanssen">   <i>Richer-Hanssen</i><par n="Ibsen__np"/></e>
 <e lm="Riddervold">   <i>Riddervold</i><par n="Ibsen__np"/></e>
@@ -46354,7 +46320,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Rodin">   <i>Rodin</i><par n="Ibsen__np"/></e>
 <e lm="Rodtwitt">   <i>Rodtwitt</i><par n="Ibsen__np"/></e>
 <e lm="Roe">   <i>Roe</i><par n="Ibsen__np"/></e>
-<e lm="Roede">   <i>Roede</i><par n="Ibsen__np"/></e>
 <e lm="Roen">   <i>Roen</i><par n="Ibsen__np"/></e>
 <e lm="Rofstad">   <i>Rofstad</i><par n="Ibsen__np"/></e>
 <e lm="Rog">   <i>Rog</i><par n="Ibsen__np"/></e>
@@ -47026,7 +46991,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Serigstad">   <i>Serigstad</i><par n="Ibsen__np"/></e>
 <e lm="Serlachius">   <i>Serlachius</i><par n="Findus__np"/></e>
 <e lm="Serritslev">   <i>Serritslev</i><par n="Ibsen__np"/></e>
-<e lm="Server">   <i>Server</i><par n="Ibsen__np"/></e>
 <e lm="Set">   <i>Set</i><par n="Ibsen__np"/></e>
 <e lm="Setúbal">   <i>Setúbal</i><par n="Ibsen__np"/></e>
 <e lm="Seurajärvi">   <i>Seurajärvi</i><par n="Ibsen__np"/></e>
@@ -47325,7 +47289,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Skullerud">   <i>Skullerud</i><par n="Ibsen__np"/></e>
 <e lm="Skum">   <i>Skum</i><par n="Ibsen__np"/></e>
 <e lm="Skutnabb-Kangas">   <i>Skutnabb-Kangas</i><par n="Findus__np"/></e>
-<e lm="Skyer">   <i>Skyer</i><par n="Ibsen__np"/></e>
 <e lm="Skåden">   <i>Skåden</i><par n="Ibsen__np"/></e>
 <e lm="Skålnes">   <i>Skålnes</i><par n="Findus__np"/></e>
 <e lm="Skåningsbukt">   <i>Skåningsbukt</i><par n="Ibsen__np"/></e>
@@ -47485,7 +47448,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Sousse">   <i>Sousse</i><par n="Ibsen__np"/></e>
 <e lm="Sovkina">   <i>Sovkina</i><par n="Ibsen__np"/></e>
 <e lm="Spa">   <i>Spa</i><par n="Ibsen__np"/></e>
-<e lm="Spansk">   <i>Spansk</i><par n="Ibsen__np"/></e>
 <e lm="Sparby">   <i>Sparby</i><par n="Ibsen__np"/></e>
 <e lm="Sparre">   <i>Sparre</i><par n="Ibsen__np"/></e>
 <e lm="Sparrock">   <i>Sparrock</i><par n="Ibsen__np"/></e>
@@ -47815,7 +47777,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Svenes">   <i>Svenes</i><par n="Findus__np"/></e>
 <e lm="Svenkerud">   <i>Svenkerud</i><par n="Ibsen__np"/></e>
 <e lm="Svenningsen">   <i>Svenningsen</i><par n="Ibsen__np"/></e>
-<e lm="Svensk">   <i>Svensk</i><par n="Ibsen__np"/></e>
 <e lm="Svensli">   <i>Svensli</i><par n="Ibsen__np"/></e>
 <e lm="Sverd">   <i>Sverd</i><par n="Ibsen__np"/></e>
 <e lm="Sverdlovsk">   <i>Sverdlovsk</i><par n="Ibsen__np"/></e>
@@ -47887,7 +47848,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Sääski">   <i>Sääski</i><par n="Ibsen__np"/></e>
 <e lm="Sääskilahti">   <i>Sääskilahti</i><par n="Ibsen__np"/></e>
 <e lm="Såner">   <i>Såner</i><par n="Ibsen__np"/></e>
-<e lm="Sås">   <i>Sås</i><par n="Findus__np"/></e>
 <e lm="Sæbønes">   <i>Sæbønes</i><par n="Findus__np"/></e>
 <e lm="Sægrov">   <i>Sægrov</i><par n="Ibsen__np"/></e>
 <e lm="Sæhter">   <i>Sæhter</i><par n="Ibsen__np"/></e>
@@ -47923,7 +47883,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Sønsterud">   <i>Sønsterud</i><par n="Ibsen__np"/></e>
 <e lm="Sønvinsen">   <i>Sønvinsen</i><par n="Ibsen__np"/></e>
 <e lm="Sør-Bokn">   <i>Sør-Bokn</i><par n="Ibsen__np"/></e>
-<e lm="Sør">   <i>Sør</i><par n="Ibsen__np"/></e>
 <e lm="Sørby">   <i>Sørby</i><par n="Ibsen__np"/></e>
 <e lm="Sørbye">   <i>Sørbye</i><par n="Ibsen__np"/></e>
 <e lm="Søreidgrend">   <i>Søreidgrend</i><par n="Ibsen__np"/></e>
@@ -48393,8 +48352,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Tres">   <i>Tres</i><par n="Findus__np"/></e>
 <e lm="Treschow">   <i>Treschow</i><par n="Ibsen__np"/></e>
 <e lm="Tretjakova">   <i>Tretjakova</i><par n="Ibsen__np"/></e>
-<e lm="Tretten">   <i>Tretten</i><par n="Ibsen__np"/></e>
-<e lm="Trier">   <i>Trier</i><par n="Ibsen__np"/></e>
 <e lm="Trifan">   <i>Trifan</i><par n="Ibsen__np"/></e>
 <e lm="Triumf">   <i>Triumf</i><par n="Ibsen__np"/></e>
 <e lm="Tro">   <i>Tro</i><par n="Ibsen__np"/></e>
@@ -48641,7 +48598,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Unhjem">   <i>Unhjem</i><par n="Ibsen__np"/></e>
 <e lm="Unkuri">   <i>Unkuri</i><par n="Ibsen__np"/></e>
 <e lm="Unn">   <i>Unn</i><par n="Ibsen__np"/></e>
-<e lm="Unna">   <i>Unna</i><par n="Ibsen__np"/></e>
 <e lm="Untak">   <i>Untak</i><par n="Ibsen__np"/></e>
 <e lm="Untinen">   <i>Untinen</i><par n="Ibsen__np"/></e>
 <e lm="Uosukainen">   <i>Uosukainen</i><par n="Ibsen__np"/></e>
@@ -48765,7 +48721,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Valtonen">   <i>Valtonen</i><par n="Ibsen__np"/></e>
 <e lm="Valvik">   <i>Valvik</i><par n="Ibsen__np"/></e>
 <e lm="Vamdrup">   <i>Vamdrup</i><par n="Ibsen__np"/></e>
-<e lm="Van">   <i>Van</i><par n="Ibsen__np"/></e>
 <e lm="Vanamo">   <i>Vanamo</i><par n="Ibsen__np"/></e>
 <e lm="Vandbakk">   <i>Vandbakk</i><par n="Ibsen__np"/></e>
 <e lm="Vangberg">   <i>Vangberg</i><par n="Ibsen__np"/></e>
@@ -48899,7 +48854,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Veracruz">   <i>Veracruz</i><par n="Findus__np"/></e>
 <e lm="Verdande">   <i>Verdande</i><par n="Ibsen__np"/></e>
 <e lm="Verkerk">   <i>Verkerk</i><par n="Ibsen__np"/></e>
-<e lm="Verner">   <i>Verner</i><par n="Ibsen__np"/></e>
 <e lm="Verningen">   <i>Verningen</i><par n="Ibsen__np"/></e>
 <e lm="Verpe">   <i>Verpe</i><par n="Ibsen__np"/></e>
 <e lm="Verpet">   <i>Verpet</i><par n="Ibsen__np"/></e>
@@ -48916,7 +48870,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Vesanen">   <i>Vesanen</i><par n="Ibsen__np"/></e>
 <e lm="Vesikko">   <i>Vesikko</i><par n="Ibsen__np"/></e>
 <e lm="Vest-Kasai">   <i>Vest-Kasai</i><par n="Ibsen__np"/></e>
-<e lm="Vest">   <i>Vest</i><par n="Ibsen__np"/></e>
 <e lm="Vestad">   <i>Vestad</i><par n="Ibsen__np"/></e>
 <e lm="Vestbirk">   <i>Vestbirk</i><par n="Ibsen__np"/></e>
 <e lm="Vesterfjeld">   <i>Vesterfjeld</i><par n="Ibsen__np"/></e>
@@ -49693,7 +49646,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Øygård">   <i>Øygård</i><par n="Ibsen__np"/></e>
 <e lm="Øyheim">   <i>Øyheim</i><par n="Ibsen__np"/></e>
 <e lm="Øymyr">   <i>Øymyr</i><par n="Ibsen__np"/></e>
-<e lm="Øynes">   <i>Øynes</i><par n="Findus__np"/></e>
 <e lm="Øysang">   <i>Øysang</i><par n="Ibsen__np"/></e>
 <e lm="Øzerk">   <i>Øzerk</i><par n="Ibsen__np"/></e>
 <e lm="Þórlákshöfn">   <i>Þórlákshöfn</i><par n="Ibsen__np"/></e>
@@ -49857,7 +49809,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Aden">            <i>Aden</i><par n="Norge__np"/></e>
 <e lm="Afghanistan">     <i>Afghanistan</i><par n="Norge__np"/></e>
 <e lm="Afrika">          <i>Afrika</i><par n="Norge__np"/></e>
-<e lm="Aga">             <i>Aga</i><par n="Norge__np"/></e>
 <e lm="Agdenes">         <i>Agdenes</i><par n="Ås__np"/></e>
 <e lm="Agder">           <i>Agder</i><par n="Norge__np"/></e>
 <e lm="Agip">            <i>Agip</i><par n="Norge__np"/></e>
@@ -50856,7 +50807,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Ibiza">           <i>Ibiza</i><par n="Norge__np"/></e>
 <e lm="Idaho">           <i>Idaho</i><par n="Norge__np"/></e>
 <e lm="Ikornnes">        <i>Ikornnes</i><par n="Ås__np"/></e>
-<e lm="Ila">             <i>Ila</i><par n="Norge__np"/></e>
 <e lm="Illinois">        <i>Illinois</i><par n="Ås__np"/></e>
 <e lm="Ilseng">          <i>Ilseng</i><par n="Norge__np"/></e>
 <e lm="Imatra">          <i>Imatra</i><par n="Norge__np"/></e>
@@ -51558,7 +51508,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Oskarshamn">      <i>Oskarshamn</i><par n="Norge__np"/></e>
 <e lm="Oslo">            <i>Oslo</i><par n="Norge__np"/></e>
 <e lm="Osterøy">         <i>Osterøy</i><par n="Norge__np"/></e>
-<e lm="Otra">            <i>Otra</i><par n="Norge__np"/></e>
 <e lm="Otta">            <i>Otta</i><par n="Norge__np"/></e>
 <e lm="Ottawa">          <i>Ottawa</i><par n="Norge__np"/></e>
 <e lm="Oulu">            <i>Oulu</i><par n="Norge__np"/></e>
@@ -51773,7 +51722,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Røyken">          <i>Røyken</i><par n="Norge__np"/></e>
 <e lm="Røyrvik">         <i>Røyrvik</i><par n="Norge__np"/></e>
 <e lm="Rügen">           <i>Rügen</i><par n="Norge__np"/></e>
-<e lm="I">               <i>I</i><par n="Norge__np"/></e>
 <e lm="Saana">           <i>Saana</i><par n="Norge__np"/></e>
 <e lm="Saarbrücken">     <i>Saarbrücken</i><par n="Norge__np"/></e>
 <e lm="Sabah">           <i>Sabah</i><par n="Norge__np"/></e>
@@ -52332,7 +52280,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Verran">          <i>Verran</i><par n="Norge__np"/></e>
 <e lm="Versailles">      <i>Versailles</i><par n="Ås__np"/></e>
 <e lm="Veslemøy">        <i>Veslemøy</i><par n="Eva__np"/></e>
-<e lm="Vesta">           <i>Vesta</i><par n="Norge__np"/></e>
 <e lm="Vestby">          <i>Vestby</i><par n="Norge__np"/></e>
 <e lm="Vesterålen">      <i>Vesterålen</i><par n="Norge__np"/></e>
 <e lm="Vestfold">        <i>Vestfold</i><par n="Norge__np"/></e>
@@ -52351,7 +52298,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Vigrestad">       <i>Vigrestad</i><par n="Norge__np"/></e>
 <e lm="Vik">             <i>Vik</i><par n="Norge__np"/></e>
 <e lm="Vikan">           <i>Vikan</i><par n="Norge__np"/></e>
-<e lm="Viker">           <i>Viker</i><par n="Norge__np"/></e>
 <e lm="Vikersund">       <i>Vikersund</i><par n="Norge__np"/></e>
 <e lm="Viking">          <i>Viking</i><par n="Norge__np"/></e>
 <e lm="Vikna">           <i>Vikna</i><par n="Norge__np"/></e>
@@ -52641,7 +52587,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Andrea">          <i>Andrea</i><par n="Eva__np"/></e>
 <e lm="Anita">           <i>Anita</i><par n="Eva__np"/></e>
 <e lm="Anja">            <i>Anja</i><par n="Eva__np"/></e>
-<e lm="Anna">            <i>Anna</i><par n="Eva__np"/></e>
 <e lm="Anne">            <i>Anne</i><par n="Eva__np"/></e>
 <e lm="Ann">             <i>Ann</i><par n="Eva__np"/></e>
 <e lm="Åse">             <i>Åse</i><par n="Eva__np"/></e>
@@ -52673,7 +52618,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Elsa">            <i>Elsa</i><par n="Eva__np"/></e>
 <e lm="Else">            <i>Else</i><par n="Eva__np"/></e>
 <e lm="Erika">           <i>Erika</i><par n="Eva__np"/></e>
-<e lm="Eva">             <i>Eva</i><par n="Eva__np"/></e>
 <e lm="Evelyn">          <i>Evelyn</i><par n="Eva__np"/></e>
 <e lm="Evy">             <i>Evy</i><par n="Eva__np"/></e>
 <e lm="Frederikke">      <i>Frederikke</i><par n="Eva__np"/></e>
@@ -52715,7 +52659,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Herøya">          <i>Herøya</i><par n="Eva__np"/></e>
 <e lm="Hilde">           <i>Hilde</i><par n="Eva__np"/></e>
 <e lm="Hjørdis">         <i>Hjørdis</i><par n="Doris__np"/></e>
-<e lm="Inga">            <i>Inga</i><par n="Eva__np"/></e>
 <e lm="Ingebjørg">       <i>Ingebjørg</i><par n="Eva__np"/></e>
 <e lm="Ingeborg">        <i>Ingeborg</i><par n="Eva__np"/></e>
 <e lm="Ingerid">         <i>Ingerid</i><par n="Eva__np"/></e>
@@ -52951,7 +52894,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Beathe">   <i>Beathe</i><par n="Eva__np"/></e>
 <e lm="Beatrice">   <i>Beatrice</i><par n="Eva__np"/></e>
 <e lm="Beda">   <i>Beda</i><par n="Eva__np"/></e>
-<e lm="Bela">   <i>Bela</i><par n="Eva__np"/></e>
 <e lm="Belinda">   <i>Belinda</i><par n="Eva__np"/></e>
 <e lm="Bendeke">   <i>Bendeke</i><par n="Eva__np"/></e>
 <e lm="Benedicte">   <i>Benedicte</i><par n="Eva__np"/></e>
@@ -53486,7 +53428,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Kitty">   <i>Kitty</i><par n="Eva__np"/></e>
 <e lm="Kjellfrid">   <i>Kjellfrid</i><par n="Eva__np"/></e>
 <e lm="Kjellrun">   <i>Kjellrun</i><par n="Eva__np"/></e>
-<e lm="Klara">   <i>Klara</i><par n="Eva__np"/></e>
 <e lm="Kloe">   <i>Kloe</i><par n="Eva__np"/></e>
 <e lm="Kloegázzi">   <i>Kloegázzi</i><par n="Eva__np"/></e>
 <e lm="Konstance">   <i>Konstance</i><par n="Eva__np"/></e>
@@ -53827,7 +53768,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Petra">   <i>Petra</i><par n="Eva__np"/></e>
 <e lm="Petrine">   <i>Petrine</i><par n="Eva__np"/></e>
 <e lm="Petronella">   <i>Petronella</i><par n="Eva__np"/></e>
-<e lm="Pigga">   <i>Pigga</i><par n="Eva__np"/></e>
 <e lm="Pilvi">   <i>Pilvi</i><par n="Eva__np"/></e>
 <e lm="Pina">   <i>Pina</i><par n="Eva__np"/></e>
 <e lm="Pinar">   <i>Pinar</i><par n="Eva__np"/></e>
@@ -54208,7 +54148,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 
 <e lm="Jesaia">          <i>Jesaia</i><par n="Jo__np"/></e>
 <e lm="Jesper">          <i>Jesper</i><par n="Jo__np"/></e>
-<e lm="Jesus">           <i>Jesu</i><par n="Jesu/s__np"/></e>
 <e lm="Job">             <i>Job</i><par n="Jo__np"/></e>
 <e lm="Johan">           <i>Johan</i><par n="Jo__np"/></e>
 <e lm="Johannes">        <i>Johannes</i><par n="Jens__np"/></e>
@@ -54253,7 +54192,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Kristen">         <i>Kristen</i><par n="Jo__np"/></e>
 <e lm="Kristian">        <i>Kristian</i><par n="Jo__np"/></e>
 <e lm="Kristoffer">      <i>Kristoffer</i><par n="Jo__np"/></e>
-<e lm="Kristus">         <i>Krist</i><par n="Krist/us__np"/></e>
 <e lm="Kurt">            <i>Kurt</i><par n="Jo__np"/></e>
 <e lm="Kvinnefronten">   <i>Kvinnefronten</i><par n="Jo__np"/></e>
 <e lm="Lars">            <i>Lars</i><par n="Jens__np"/></e>
@@ -54326,7 +54264,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Anders">          <i>Anders</i><par n="Jens__np"/></e>
 <e lm="Ánde">            <i>Ánde</i><par n="Jo__np"/></e>
 <e lm="Áššu">            <i>Áššu</i><par n="Jo__np"/></e>
-<e lm="Andreas">         <i>Andreas</i><par n="Jens__np"/></e>
 <e lm="Andre">           <i>Andre</i><par n="Jo__np"/></e>
 <e lm="André">           <i>André</i><par n="Jo__np"/></e>
 <e lm="Ånon">            <i>Ånon</i><par n="Jo__np"/></e>
@@ -54368,7 +54305,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Bjørnar">         <i>Bjørnar</i><par n="Jo__np"/></e>
 <e lm="Bjørn">           <i>Bjørn</i><par n="Jo__np"/></e>
 <e lm="Børge">           <i>Børge</i><par n="Jo__np"/></e>
-<e lm="Borger">          <i>Borger</i><par n="Jo__np"/></e>
 <e lm="Boris">           <i>Boris</i><par n="Jens__np"/></e>
 <e lm="Børre">           <i>Børre</i><par n="Jo__np"/></e>
 <e lm="Botolv">          <i>Botolv</i><par n="Jo__np"/></e>
@@ -54527,7 +54463,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Paulus">          <i>Paulus</i><par n="Jens__np"/></e>
 <e lm="Peder">           <i>Peder</i><par n="Jo__np"/></e>
 <e lm="Pedro">           <i>Pedro</i><par n="Jo__np"/></e>
-<e lm="Per">             <i>Per</i><par n="Jo__np"/></e>
 <e lm="Pete">            <i>Pete</i><par n="Jo__np"/></e>
 <e lm="Peter">           <i>Peter</i><par n="Jo__np"/></e>
 <e lm="Petter">          <i>Petter</i><par n="Jo__np"/></e>
@@ -54616,7 +54551,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Tobias">          <i>Tobias</i><par n="Jens__np"/></e>
 <e lm="Tollef">          <i>Tollef</i><par n="Jo__np"/></e>
 <e lm="Tomas">           <i>Tomas</i><par n="Jens__np"/></e>
-<e lm="Tom">             <i>Tom</i><par n="Jo__np"/></e>
 <e lm="Tønne">           <i>Tønne</i><par n="Jo__np"/></e>
 <e lm="Toralf">          <i>Toralf</i><par n="Jo__np"/></e>
 <e lm="Toralv">          <i>Toralv</i><par n="Jo__np"/></e>
@@ -54745,7 +54679,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Sveagruva">       <i>Sveagruva</i><par n="Andøya__np"/></e>
 <e lm="Sunndalsøra">     <i>Sunndalsøra</i><par n="Andøya__np"/></e>
 <e lm="Suezbukta">       <i>Suezbukta</i><par n="Andøya__np"/></e>
-<e lm="Stjørdalselva">   <i>Stjørdalselven</i><par n="Andøya__np"/></e>
 <e lm="Sørøya">          <i>Sørøya</i><par n="Andøya__np"/></e>
 <e lm="Sørmarka">        <i>Sørmarka</i><par n="Andøya__np"/></e>
 <e lm="Sollihøgda">      <i>Sollihøgda</i><par n="Andøya__np"/></e>
@@ -55238,7 +55171,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Androklus">   <i>Androklus</i><par n="Jens__np"/></e>
 <e lm="András">   <i>András</i><par n="Jens__np"/></e>
 <e lm="Andrés">   <i>Andrés</i><par n="Jens__np"/></e>
-<e lm="Aner">   <i>Aner</i><par n="Jo__np"/></e>
 <e lm="Anfin">   <i>Anfin</i><par n="Jo__np"/></e>
 <e lm="Angus">   <i>Angus</i><par n="Jens__np"/></e>
 <e lm="Ann-Karin">   <i>Ann-Karin</i><par n="Jo__np"/></e>
@@ -55508,7 +55440,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Deahppánnuorri">   <i>Deahppánnuorri</i><par n="Jo__np"/></e>
 <e lm="Deahppánsuolu">   <i>Deahppánsuolu</i><par n="Jo__np"/></e>
 <e lm="Demetriades">   <i>Demetriades</i><par n="Jens__np"/></e>
-<e lm="Den">   <i>Den</i><par n="Jo__np"/></e>
 <e lm="Devi">   <i>Devi</i><par n="Jo__np"/></e>
 <e lm="Dick">   <i>Dick</i><par n="Jo__np"/></e>
 <e lm="Dieter">   <i>Dieter</i><par n="Jo__np"/></e>
@@ -55741,7 +55672,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Grahameana">   <i>Grahameana</i><par n="Jo__np"/></e>
 <e lm="Grigorij">   <i>Grigorij</i><par n="Jo__np"/></e>
 <e lm="Grimkjell">   <i>Grimkjell</i><par n="Jo__np"/></e>
-<e lm="Grisa">   <i>Grisa</i><par n="Jo__np"/></e>
 <e lm="Grude">   <i>Grude</i><par n="Jo__np"/></e>
 <e lm="Gudleif">   <i>Gudleif</i><par n="Jo__np"/></e>
 <e lm="Gudmundur">   <i>Gudmundur</i><par n="Jo__np"/></e>
@@ -56270,7 +56200,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Kjelleidet">   <i>Kjelleidet</i><par n="Jo__np"/></e>
 <e lm="Kjerulf">   <i>Kjerulf</i><par n="Jo__np"/></e>
 <e lm="Kjærulf">   <i>Kjærulf</i><par n="Jo__np"/></e>
-<e lm="Kleiv">   <i>Kleiv</i><par n="Jo__np"/></e>
 <e lm="Klemmet">   <i>Klemmet</i><par n="Jo__np"/></e>
 <e lm="Klemmá">   <i>Klemmá</i><par n="Jo__np"/></e>
 <e lm="Klev">   <i>Klev</i><par n="Jo__np"/></e>
@@ -56787,7 +56716,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Raimond">   <i>Raimond</i><par n="Jo__np"/></e>
 <e lm="Ramakrishna">   <i>Ramakrishna</i><par n="Jo__np"/></e>
 <e lm="Rambo">   <i>Rambo</i><par n="Jo__np"/></e>
-<e lm="Ramses">   <i>Ramses</i><par n="Jens__np"/></e>
 <e lm="Randolf">   <i>Randolf</i><par n="Jo__np"/></e>
 <e lm="Randulf">   <i>Randulf</i><par n="Jo__np"/></e>
 <e lm="Rasputin">   <i>Rasputin</i><par n="Jo__np"/></e>
@@ -57147,7 +57075,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Viljar">   <i>Viljar</i><par n="Jo__np"/></e>
 <e lm="Viljo">   <i>Viljo</i><par n="Jo__np"/></e>
 <e lm="Ville-Ásllat">   <i>Ville-Ásllat</i><par n="Jo__np"/></e>
-<e lm="Ville">   <i>Ville</i><par n="Jo__np"/></e>
 <e lm="Villebáiki">   <i>Villebáiki</i><par n="Jo__np"/></e>
 <e lm="Villejohka">   <i>Villejohka</i><par n="Jo__np"/></e>
 <e lm="Villejávri">   <i>Villejávri</i><par n="Jo__np"/></e>
@@ -57258,7 +57185,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Áttámajávri">   <i>Áttámajávri</i><par n="Jo__np"/></e>
 <e lm="Áttán">   <i>Áttán</i><par n="Jo__np"/></e>
 <e lm="Áššur">   <i>Áššur</i><par n="Jo__np"/></e>
-<e lm="Åke">   <i>Åke</i><par n="Jo__np"/></e>
 <e lm="Åsa-Tor">   <i>Åsa-Tor</i><par n="Jo__np"/></e>
 <e lm="Åsmund">   <i>Åsmund</i><par n="Jo__np"/></e>
 <e lm="Æge">   <i>Æge</i><par n="Jo__np"/></e>
@@ -57342,7 +57268,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Dr">              <i>Dr</i><par n="Ibsen__np"/></e>
 <e lm="Duffman">         <i>Duffman</i><par n="Ibsen__np"/></e>
 <e lm="Dáil">            <i>Dáil</i><par n="Ibsen__np"/></e>
-<e lm="Dáil Éireann">    <i>Dáil<b/>Éireann</i><par n="Ibsen__np"/></e>
 <e lm="European">        <i>European</i><par n="Ibsen__np"/></e>
 <e lm="Eurovision">      <i>Eurovision</i><par n="Ibsen__np"/></e>
 <e lm="Fame">            <i>Fame</i><par n="Ibsen__np"/></e>
@@ -57470,7 +57395,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="War">             <i>War</i><par n="Ibsen__np"/></e>
 <e lm="We">              <i>We</i><par n="Ibsen__np"/></e>
 <e lm="Wessel">          <i>Wessel</i><par n="Ibsen__np"/></e>
-<e lm="The Who">         <i>The<b/>Who</i><par n="Ibsen__np"/></e>
 <e lm="Wikimedia">       <i>Wikimedia</i><par n="Ibsen__np"/></e>
 <e lm="Wilson">          <i>Wilson</i><par n="Ibsen__np"/></e>
 <e lm="Wood">            <i>Wood</i><par n="Ibsen__np"/></e>
@@ -57530,7 +57454,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Sea">             <i>Sea</i><par n="Norge__np"/></e>
 <e lm="Road">            <i>Road</i><par n="Norge__np"/></e>
 <e lm="Pradesh">         <i>Pradesh</i><par n="Norge__np"/></e>
-<e lm="St. Petersburg">  <i>St.<b/>Petersburg</i><par n="Norge__np"/></e>
 <e lm="Paraná">          <i>Paraná</i><par n="Norge__np"/></e>
 <e lm="Northumbria">     <i>Northumbria</i><par n="Norge__np"/></e>
 <e lm="Northern">        <i>Northern</i><par n="Norge__np"/></e>
@@ -57554,8 +57477,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Holland">         <i>Holland</i><par n="Norge__np"/></e>
 <e lm="Hill">            <i>Hill</i><par n="Norge__np"/></e>
 <e lm="Hercegovina">     <i>Hercegovina</i><par n="Norge__np"/></e>
-<e lm="New Hampshire">   <i>New<b/>Hampshire</i><par n="Norge__np"/></e>
-<e lm="St. Hanshaugen">  <i>St.<b/>Hanshaugen</i><par n="Norge__np"/></e>
 <e lm="Everton">         <i>Everton</i><par n="Norge__np"/></e>
 <e lm="Flandern">        <i>Flandern</i><par n="Norge__np"/></e>
 <e lm="Football">        <i>Football</i><par n="Norge__np"/></e>
@@ -57598,7 +57519,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Austertana">   <i>Austertana</i><par n="Norge__np"/></e>
 <e lm="Blåfjellet">   <i>Blåfjellet</i><par n="Norge__np"/></e>
 <e lm="Bonakas">   <i>Bonakas</i><par n="Ås__np"/></e>
-<e lm="Bukta">   <i>Bukta</i><par n="Norge__np"/></e>
 <e lm="Båteng">   <i>Båteng</i><par n="Norge__np"/></e>
 <e lm="Børselv">   <i>Børselv</i><par n="Norge__np"/></e>
 <e lm="Elvekroken">   <i>Elvekroken</i><par n="Norge__np"/></e>
