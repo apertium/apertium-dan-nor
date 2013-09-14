@@ -6134,6 +6134,9 @@
 <e lm="firs">            <i>firs</i><par n="to__num"/></e>
 <e lm="halvfems">           <i>halvfems</i><par n="to__num"/></e>
 <e lm="hundrede">          <i>hundrede</i><par n="to__num"/></e>
+<e lm="tusind">          <i>tusind</i><par n="to__num"/></e>
+<e lm="million">          <i>million</i><par n="to__num"/></e>
+<e lm="milliard">          <i>milliard</i><par n="to__num"/></e>
     <!-- Prepositions -->
 
     <!-- ******************************
@@ -48155,9 +48158,9 @@
 <e lm="Japanhavet">      <i>Japanhavet</i><par n="Midhavet__np"/></e>
 <e lm="Norskehavet">     <i>Norskehavet</i><par n="Midhavet__np"/></e>
 <e lm="Rødehavet">       <i>Rødehavet</i><par n="Midhavet__np"/></e>
-<e lm="Romerriket">      <i>Romerriket</i><par n="Midhavet__np"/></e>
+<e lm="Romerriget">      <i>Romerriget</i><par n="Midhavet__np"/></e>
 <e lm="Rosshavet">       <i>Rosshavet</i><par n="Midhavet__np"/></e>
-<e lm="Sahelbeltet">     <i>Sahelbeltet</i><par n="Midhavet__np"/></e>
+<e lm="Sahelbæltet">     <i>Sahelbæltet</i><par n="Midhavet__np"/></e>
 <e lm="Sargassohavet">   <i>Sargassohavet</i><par n="Midhavet__np"/></e>
 <e lm="Seljordvandet">   <i>Seljordvandet</i><par n="Midhavet__np"/></e>
 <e lm="Skedsmokorset">   <i>Skedsmokorset</i><par n="Midhavet__np"/></e>
