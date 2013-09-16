@@ -10242,8 +10242,8 @@ forms) -KBU 090630 -->
 <e>       <p><l>ondt</l>      <r>ond<s n="adj"/><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
 <e>       <p><l>onde</l>      <r>ond<s n="adj"/><s n="posi"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
 <e>       <p><l>onde</l>      <r>ond<s n="adj"/><s n="posi"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-<e>       <p><l>erste</l>     <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>ondeste</l>   <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="def"/></r></p></e>
+<e>       <p><l>erste</l>     <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>ondeste</l>   <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 <e>       <p><l>erst</l>      <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>ondest</l>    <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
 </pardef>
@@ -14581,7 +14581,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="slipe">		 <i>slip</i><par n="an/e__vblex_adj"/></e>
 <e lm="transpirere">	 <i>transpirer</i><par n="an/e__vblex_adj"/></e>
 <e lm="kalkere">	 <i>kalker</i><par n="an/e__vblex_adj"/></e>
-<e lm="bile">		 <i>bil</i><par n="an/e__vblex_adj"/></e>
 <e lm="trivialisere">	 <i>trivialiser</i><par n="an/e__vblex_adj"/></e>
 <e lm="kollasjonere">	 <i>kollasjoner</i><par n="an/e__vblex_adj"/></e>
 <e lm="bløte">		 <i>bløt</i><par n="an/e__vblex_adj"/></e>
@@ -16360,7 +16359,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="bygsle"><i>bygsl</i><par n="adl/e__vblex_adj"/></e>
 <e lm="bylte"><i>bylt</i><par n="å/e__vblex_adj"/></e>
 <e lm="bysse"><i>byss</i><par n="å/e__vblex_adj"/></e>
-<e lm="båse"><i>bås</i><par n="yt/e__vblex_adj"/></e>
 <e lm="bæsje"><i>bæsj</i><par n="å/e__vblex_adj"/></e>
 <e lm="bølgje"><i>bølg</i><par n="bølg/je__vblex_adj"/></e>
 <e lm="bønnfalle"><i>bønnfal</i><par n="fal/le__vblex_adj"/></e>
@@ -20647,11 +20645,11 @@ should end up being collapsable superlative forms anyway -->
 <e lm="syttiende">         <i>syttiende</i><par n="første__adj"/></e>
 <e lm="åttiende">         <i>åttiende</i><par n="første__adj"/></e>
 <e lm="nittiende">         <i>nittiende</i><par n="første__adj"/></e>
-<!-- todo: rest of them -->
-<e lm="[0-9]+.">         <re>[0-9]+</re><i>.</i><par n="første__adj"/></e>
-<!-- used in sme-nob: -->
+<!-- todo: rest of them
+<e lm="[0-9]+.">         <re>[0-9]+</re><i>.</i><par n="første__adj"/></e> -->
+<!-- used in sme-nob:
 <e r="RL"><re>[IVXLCDM\-]+</re><i>.</i><par n="første__adj"/></e>
-<e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*</re><i>.</i><par n="første__adj"/></e>
+<e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*</re><i>.</i><par n="første__adj"/></e>-->
 
 <!-- Common nouns -->
 
@@ -20673,8 +20671,7 @@ should end up being collapsable superlative forms anyway -->
 <e lm="norden">          <i>norden</i><par n="sør__n"/></e>
 <e lm="østen">           <i>østen</i><par n="sør__n"/></e>
 
-<e lm="b">               <i>b</i><par n="b_no-cp__n"/></e>
-<e lm="e">               <i>e</i><par n="e_no-cp__n"/></e>
+
 <!--<e lm="å">               <i>å</i><par n="å_no-cp__n"/></e>-->
 
 <e lm="km">              <i>km</i><par n="km_no-cp__n"/></e>
@@ -20689,7 +20686,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="jpeg">             <i>jpeg</i><par n="km__n"/></e>
 <e lm="png">             <i>png</i><par n="km_no-cp__n"/></e>
 <e lm="svg">             <i>svg</i><par n="km_no-cp__n"/></e>
-<e lm="ca">              <i>ca</i><par n="km_no-cp__n"/></e>
 <e lm="fvt">             <i>fvt</i><par n="km_no-cp__n"/></e>
 <e lm="evt">             <i>evt</i><par n="km_no-cp__n"/></e>
 <e lm="kg">             <i>kg</i><par n="km_no-cp__n"/></e>
@@ -20703,7 +20699,7 @@ should end up being collapsable superlative forms anyway -->
 <e lm="jf">              <i>jf</i><par n="km_no-cp__n"/></e>
 <e lm="fig">              <i>fig</i><par n="km_no-cp__n"/></e>
 <e lm="pga">              <i>pga</i><par n="km_no-cp__n"/></e>
-
+<e lm="ca">              <i>ca</i><par n="km_no-cp__n"/></e>
 <e lm="helligdag">       <i>helligdag</i><par n="ep__n"/></e>
 <e lm="dag">             <i>dag</i><par n="ep_no-cp__n"/></e>
 <e lm="hverdag">         <i>hverdag</i><par n="ep__n"/></e>
@@ -36190,7 +36186,7 @@ should end up being collapsable superlative forms anyway -->
 <e lm="veps"><i>veps</i><par n="ep__n"/></e>
 <e lm="veranda"><i>veranda</i><par n="ep__n"/></e>
 <e lm="verbal"><i>verbal</i><par n="ja__n"/></e>
-<e lm="verd"><i>verd</i><par n="lo__n"/></e>
+<!--<e lm="verd"><i>verd</i><par n="lo__n"/></e>-->
 <e lm="verdifall"><i>verdifall</i><par n="ul__n"/></e>
 <e lm="verdigrunnlag"><i>verdigrunnlag</i><par n="ul__n"/></e>
 <e lm="verdipapir"><i>verdipapir</i><par n="ja__n"/></e>
@@ -54253,7 +54249,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Anders">          <i>Anders</i><par n="Jens__np"/></e>
 <e lm="Ánde">            <i>Ánde</i><par n="Jo__np"/></e>
 <e lm="Áššu">            <i>Áššu</i><par n="Jo__np"/></e>
-<e lm="Andre">           <i>Andre</i><par n="Jo__np"/></e>
 <e lm="André">           <i>André</i><par n="Jo__np"/></e>
 <e lm="Ånon">            <i>Ånon</i><par n="Jo__np"/></e>
 <e lm="Anton">           <i>Anton</i><par n="Jo__np"/></e>

@@ -21549,9 +21549,9 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="syttiande">         <i>syttiande</i><par n="første__adj"/></e>
 <e lm="åttiande">         <i>åttiande</i><par n="første__adj"/></e>
 <e lm="nittiande">         <i>nittiande</i><par n="første__adj"/></e>
-<!-- todo: rest of them -->
+<!-- todo: rest of them
 <e lm="[0-9]+.">         <re>[0-9]+</re><i>.</i><par n="første__adj"/></e>
-
+-->
 <!-- Common nouns -->
 <e lm="alphabet">        <i></i><par n="alphabet__n"/></e>
 <e lm="-åring"><re>[0-9]+</re><i>-åring</i><par n="ep_\s__n"/></e>

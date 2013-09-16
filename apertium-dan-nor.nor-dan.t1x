@@ -425,45 +425,6 @@
 
 
 
-
-    <!--
-        <rule comment="CONVERT NOB SIDE ADJ PP'S TO VERB">
-        <pattern>
-        <pattern-item n="vb-pp"/>
-        </pattern>
-        <action>
-        <choose>
-        <when><test><or>
-        <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
-        <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal></or></test>
-        <let><var n="tempus"/><lit-tag v="past"/></let>
-        <let><var n="diatese"/><lit-tag v="actv"/></let></when>
-        </choose>
-
-<choose>
-<when><test><equal>
-
-<clip pos="1" side="sl" part="defnes"/><lit-tag v="ind"/></equal></test>
-<let><var n="tempus"/><lit-tag v="pp"/></let></when>
-</choose>
-
-<out>
-<lu>
-<clip pos="1" side="tl" part="lemh"/>
-<clip pos="1" side="tl" part="a_verb"/>
-<var n="tempus"/>
-<var n="diatese"/>
-<clip pos="1" side="tl" part="lemq"/>
-</lu>
-</out>
-<let><var n="tempus"/><lit v=""/></let>
-<let><var n="diatese"/><lit v=""/></let>
-</action>
-</rule>
-
-    -->
-
-
     <rule comment="VERB → VERB">
       <pattern>
         <pattern-item n="verb"/>
@@ -517,13 +478,6 @@
 
 
 
-
-
-
-
-
-
-
     <rule comment="NCMP NOM: ytelse ytelse => ytingsyting
                    Remove the space that pretransfer added">
       <pattern>
@@ -565,9 +519,28 @@
       <action>
         <call-macro n="out_cp_lhs"><with-param pos="1"/></call-macro>
         <call-macro n="out_cp_lhs"><with-param pos="2"/></call-macro>
-        <out><lu><clip pos="3" side="tl" part="whole"/></lu></out>
+              <choose>
+          <when><test><equal>
+            <!--if the noun has no tag for case, give it the case 'nom'-->
+            <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+          <let><var n="kasus"/><lit-tag v="nom"/></let></when>
+          <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="3" side="tl" part="lemh"/>
+            <clip pos="3" side="tl" part="a_nom"/>
+            <clip pos="3" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+            <clip pos="3" side="tl" part="defnes"/>
+            <var n="kasus"/>
+            <clip pos="3" side="tl" part="lemq"/>
+          </lu>
+        </out>
+        <let><var n="kasus"/><lit v=""/></let>
       </action>
     </rule>
+
 
 
 
@@ -654,17 +627,6 @@
         <let><var n="køn2"/><lit v=""/></let>
       </action>
     </rule>
-
-
-
-
-
-
-
-
-
-
-
 
 
     <rule comment=" DET (DEF) + ADJ + NCMP+  NOUN (DEF) >  DET (DEF) + ADJ + NCMP +  NOUN (IND)  den direkte pressestøtten > den direkte pressestøtte">

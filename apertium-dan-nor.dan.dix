@@ -25,6 +25,7 @@
     <sdef n="top"   c="Toponym"/>
     <sdef n="ant"   c="Anthroponym"/>
     <sdef n="cog"   c="Cognomen"/>
+    <sdef n="apos"   c="apostrophe"/>
     <sdef n="emph"   c="emphatic"/>
     <sdef n="al"  c=""/>
     <sdef n="sp"  c="Singular and plural"/>
@@ -196,16 +197,20 @@
     <!-- Punctuation  -->
 
 <pardef n="numeros">
+<!-- separate out the number 1 as singular (fortunately "1.00" is usually plural!) -->
+<e>       <re>1</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="sg"/></r></p></e>
+<e>       <re>[02-9]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e>       <re>[0-9][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e>       <re>[0-9][.,][0-9]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
-  <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l> mm</l><r> mm<s n="num"/></r></p></e>
-  <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l> cm</l><r> cm<s n="num"/></r></p></e>
-  <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l> km</l><r> km<s n="num"/></r></p></e>
-  <!-- separate out the number 1 as singular (fortunately "1.00" is usually plural!) -->
-  <e>       <re>1</re><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
-  <e>       <re>[02-9]</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
-  <e>       <re>[0-9][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
-  <e>       <re>[0-9][.,][0-9]+</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
-  <e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+<e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*( *%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+
+
+  <!-- ORDINALS
+
+ <e lm="[0-9]+.">         <re>[0-9]+</re><i>.</i><par n="første__adj"/></e>-->
+
 </pardef>
 
 
@@ -214,6 +219,15 @@
   <e>       <p><l>...</l>       <r>...<s n="sent"/></r></p></e>
   <e>       <re>[.\?;:!…¿¶]</re><p><l></l><r><s n="sent"/></r></p></e>
 </pardef>
+
+<pardef n="aposchar">
+<e>       <i>'</i></e>
+</pardef>
+
+<pardef n="cometa">
+<e>       <par n="aposchar"/><p><l></l><r><s n="apos"/></r></p></e>
+</pardef>
+
 
 <pardef n="coma">
   <e>       <re>,</re><p><l></l><r><s n="cm"/><s n="clb"/></r></p></e>
@@ -243,6 +257,12 @@
   <e>       <p><l></l>          <r><s n="num"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
+
+    <!-- Acronyms -->
+
+<pardef n="n_acr" c="optional dot">
+<e>       <re>.?</re><p><l><s n="n"/><s n="nom"/></l><r><s n="n"/><s n="acr"/></r></p></e>
+</pardef>
 
     <!-- Adjectives -->
 
@@ -278,6 +298,22 @@
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
+
+
+<pardef n="and/en__adj">
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>et</l>          <r>en<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+
+    <e>       <p><l>en</l>       <r>en<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="def"/></r></p></e>
+
+    <e>       <p><l>en</l>       <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+
+  <e>       <p><l>et</l>          <r>en<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="def"/></r></p></e>
+
+  <e>       <p><l>re</l>          <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+</pardef>
+
 
 
 <pardef n="æd/el__adj">
@@ -403,7 +439,7 @@
   <e>       <p><l>mere</l>      <r><s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>meste</l>     <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>mest</l>      <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
@@ -582,6 +618,7 @@
   <e><p><l></l>           <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e><p><l>e</l>          <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e><p><l></l>          <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e><p><l>e</l>          <r><s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
@@ -1147,8 +1184,6 @@
 
   <e>       <p><l>Deres</l>          <r><s n="det"/><s n="pos"/><s n="p2"/><s n="un"/><s n="sp"/></r></p></e>
 </pardef>
-
-
 
 
 
@@ -2168,11 +2203,11 @@
 </pardef>
 
 <pardef n="km_no-cp__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="acr"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="nom"/></r></p></e>
 </pardef>
 
 <pardef n="km__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="acr"/></r></p><re>.?</re></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="nom"/></r></p></e>
 </pardef>
 
 <pardef n="bh_no-cp__n">
@@ -2499,7 +2534,6 @@
   <e>       <p><l>el</l>        <r>el<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
   <e>       <p><l>lerne</l>      <r>el<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>ler</l>       <r>el<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>elen</l>      <r>el<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
   <e>       <p><l>el</l>        <r>el<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 
@@ -4006,6 +4040,11 @@
   <e>       <p><l>vær</l>       <r>være<s n="vbser"/><s n="imp"/></r></p></e>
   <e>       <p><l>været</l>     <r>være<s n="vbser"/><s n="pp"/></r></p></e>
   <e>       <p><l>værende</l>   <r>være<s n="vbser"/><s n="pprs"/></r></p></e>
+    <e>       <p><l>været</l>        <r>være<s n="vbser"/><s n="pp"/></r></p></e>
+    <e>       <p><l>været</l>         <r>være<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>været</l>         <r>være<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>været</l>        <r>være<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>været</l>        <r>være<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="/være__vblex"> <!-- Use this one for compound words -->
@@ -4015,7 +4054,13 @@
   <e>       <p><l>vær</l>       <r>være<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>været</l>     <r>være<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>værende</l>   <r>være<s n="adj"/><s n="pprs"/></r></p></e>
+    <e>       <p><l>været</l>        <r>være<s n="vbser"/><s n="pp"/></r></p></e>
+    <e>       <p><l>været</l>         <r>være<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>været</l>         <r>være<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>været</l>        <r>være<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>været</l>        <r>være<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
+
 
 <pardef n="ha/ve__vbhaver">
   <e>       <p><l>ve</l>        <r>ve<s n="vbhaver"/><s n="inf"/></r></p><par n="S__voice"/></e>
@@ -6063,7 +6108,6 @@
   <e>       <p><l>mel</l>       <r>mel<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>le</l>       <r>mel<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>len</l>       <r>mel<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e><p><l>melen</l>            <r>mel<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>lene</l>     <r>mel<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
@@ -6131,7 +6175,6 @@
     <!--<e lm="selv"><i>selv</i><par n="selv__det"/></e>-->
 
 <e lm="første">          <i>første</i><par n="første__det"/></e>
-<e lm="anden">           <i>anden</i><par n="første__det"/></e> <!-- THIS IS WRONG  // NEEDS CAREFUL THOUGHT ~fmt -->
 <e lm="tredje">          <i>tredje</i><par n="første__det"/></e>
 <e lm="fjerde">          <i>fjerde</i><par n="første__det"/></e>
 <e lm="femte">           <i>femte</i><par n="første__det"/></e>
@@ -9803,7 +9846,6 @@
 <e lm="forløsning">                <i>forløsning</i><par n="aften__n"/></e>
 <e lm="forløsning">      <i>forløsning</i><par n="ateist__n"/></e>
 <e lm="form">                      <i>form</i><par n="art__n"/></e>
-<e lm="form">            <i>form</i><par n="bold__n"/></e>
 <e lm="formalitet">                <i>formalitet</i><par n="aften_\s__n"/></e>
 <e lm="formand">                   <i>form</i><par n="m/and__n"/></e>
 <e lm="partiformand">                   <i>partiform</i><par n="m/and__n"/></e>
@@ -11893,7 +11935,7 @@
 <e lm="kong">            <i>kong</i><par n="ateist__n"/></e>
 <e lm="konge">           <i>konge</i><par n="abe__n"/></e>
 <e lm="kongehus">        <i>kongehus</i><par n="hus__n"/></e>
-<e lm="kongres">         <i>kongres</i><par n="residens__n"/></e>
+<e lm="kongres">         <i>kongres</i><par n="mis__n"/></e>
 <e lm="kongsgård">       <i>kongsgård</i><par n="bold__n"/></e>
 <e lm="konklusion">      <i>konklusion</i><par n="ateist__n"/></e>
 <e lm="konkurrence">     <i>konkurrence</i><par n="abe__n"/></e>
@@ -15567,7 +15609,7 @@
 <e lm="virkning">        <i>virkning</i><par n="ateist__n"/></e>
 <e lm="virksomhed">      <i>virksomhed</i><par n="ateist__n"/></e>
 <e lm="virus">           <i>vir</i><par n="vir/us__n"/></e>
-<e lm="vis">             <i>vis</i><par n="residens__n"/></e>
+<e lm="vis">             <i>vis</i><par n="sko__n"/></e>
 <e lm="visdom">          <i>visdom</i><par n="strøm__n"/></e>
 <e lm="vise">            <i>vise</i><par n="abe__n"/></e>
 <e lm="vision">          <i>vision</i><par n="ateist__n"/></e>
@@ -15963,7 +16005,6 @@
 <e lm="skoling">                  <i>skoling</i><par n="aften__n"/></e>
 <e lm="røm">                     <i>røm</i><par n="hjem__n"/></e>
 <e lm="krebs">                     <i>krebs</i><par n="vals__n"/></e>
-<e lm="kreds">                     <i>kreds</i><par n="aften__n"/></e>
 <e lm="krigsføring">                <i>krigsføring</i><par n="art_\s__n"/></e>
 <e lm="krigsår"><i>krigsår</i><par n="år__n"/></e>
 <e lm="krill">                     <i>krill</i><par n="aften__n"/></e>
@@ -18748,7 +18789,6 @@
 <e lm="banklån"><i>banklån</i><par n="slag__n"/></e>
 <e lm="bankmand"><i>bankm</i><par n="m/and__n"/></e>
 <e lm="bankstyre"><i>bankstyr</i><par n="mød/e__n"/></e>
-<e lm="band"><i>band</i><par n="slag__n"/></e>
 <e lm="bandbulle"><i>bandbulle</i><par n="hygiejne__n"/></e>
 <e lm="bantustan"><i>bantustan</i><par n="aften__n"/></e>
 <e lm="baptist"><i>baptist</i><par n="aften__n"/></e>
@@ -21195,7 +21235,6 @@
 <e lm="ginseng"><i>ginseng</i><par n="aften__n"/></e>
 <e lm="gipsbandage"><i>gipsbandage</i><par n="hygiejne__n"/></e>
 <e lm="gipsroset"><i>gipsroset</i><par n="salut__n"/></e>
-<e lm="gearkasse"><i>gearkass</i><par n="enk/e__n"/></e>
 <e lm="guirlande"><i>guirlande</i><par n="abe__n"/></e>
 <e lm="gironummer"><i>gironum</i><par n="kam/mer__n"/></e>
 <e lm="gearstang"><i>gearst</i><par n="t/ang__n"/></e>
@@ -27143,7 +27182,6 @@
 <e lm="sur">             <i>sur</i><par n="rund__adj"/></e>
 <e lm="svag">            <i>svag</i><par n="aktiv__adj"/></e>
 <e lm="svensk">          <i>svensk</i><par n="amerikansk__adj"/></e>
-<e lm="sydlig">          <i>sydlig</i><par n="aktiv__adj"/></e>
 <e lm="sympatisk">       <i>sympatisk</i><par n="amerikansk__adj"/></e>
 <e lm="synlig">          <i>synlig</i><par n="aktiv__adj"/></e>
 <e lm="systematisk">     <i>systematisk</i><par n="amerikansk__adj"/></e>
@@ -27283,7 +27321,7 @@
 <e lm="intakt">                <i>intakt</i><par n="glad__adj"/></e>
 <e lm="hidsig">                     <i>hidsig</i><par n="lykkelig__adj"/></e>
 <e lm="analog">                    <i>analog</i><par n="rund__adj"/></e>
-<e lm="anden">                     <i>anden</i><par n="første__adj"/></e>
+<e lm="anden">                     <i>and</i><par n="and/en__adj"/></e>
 <e lm="angerfri">                  <i>angerfri</i><par n="rund__adj"/></e>
 <e lm="angivelig">                 <i>angivelig</i><par n="lykkelig__adj"/></e>
 <e lm="angrebsvillig">             <i>angrebsvillig</i><par n="lykkelig__adj"/></e>
@@ -28999,7 +29037,7 @@
 <e lm="østnorsk">                  <i>østnorsk</i><par n="glad__adj"/></e>
 <e lm="østre">                     <i>østre</i><par n="OK__adj"/></e>
 <e lm="øverstkommanderende">       <i>øverstkommanderende</i><par n="OK__adj"/></e>
-<e lm="øvre">                      <i>øvre</i><par n="øv/re__adj"/></e>
+<e lm="øvre">                      <i>øv</i><par n="øv/re__adj"/></e>
 <e lm="øvrig">                     <i>øvrig</i><par n="lykkelig__adj"/></e>
 <e lm="øjeblikkelig">              <i>øjeblikkelig</i><par n="lykkelig__adj"/></e>
      <!-- /adjectives -->
@@ -43223,7 +43261,7 @@
 <e lm="mellem-Europa">   <i>mellem-Europa</i><par n="Norge__np"/></e>
 <e lm="Middelalder-Oslo"><i>Middelalder-Oslo</i><par n="Norge__np"/></e>
 <e lm="Midt-England">    <i>Midt-England</i><par n="Norge__np"/></e>
-<e lm="Midt-Frankrike">  <i>Midt-Frankrike</i><par n="Norge__np"/></e>
+<e lm="Midt-Frankrig">  <i>Midt-Frankrig</i><par n="Norge__np"/></e>
 <e lm="Midt-Norge">      <i>Midt-Norge</i><par n="Norge__np"/></e>
 <e lm="Midt-Sverige">    <i>Midt-Sverige</i><par n="Norge__np"/></e>
 <e lm="Midt-Vesten">     <i>Midt-Vesten</i><par n="Norge__np"/></e>
@@ -43249,7 +43287,7 @@
 <e lm="Saudi-Arabia">    <i>Saudi-Arabia</i><par n="Norge__np"/></e>
 <e lm="Central-Afrika">  <i>Central-Afrika</i><par n="Norge__np"/></e>
 <e lm="Central-Amerika"> <i>Central-Amerika</i><par n="Norge__np"/></e>
-<e lm="Central-Asia">    <i>Central-Asia</i><par n="Norge__np"/></e>
+<e lm="Central-Asien">    <i>Central-Asien</i><par n="Norge__np"/></e>
 <e lm="Central-Europa">  <i>Central-Europa</i><par n="Norge__np"/></e>
 <e lm="Sommer-Bergen">   <i>Sommer-Bergen</i><par n="Norge__np"/></e>
 <e lm="Sommer-Oslo">     <i>Sommer-Oslo</i><par n="Norge__np"/></e>
@@ -43259,7 +43297,7 @@
 <e lm="Stor-Oslo">       <i>Stor-Oslo</i><par n="Norge__np"/></e>
 <e lm="Syd-Afrika">      <i>Syd-Afrika</i><par n="Norge__np"/></e>
 <e lm="Syd-Amerika">     <i>Syd-Amerika</i><par n="Norge__np"/></e>
-<e lm="Syd-Asia">        <i>Syd-Asia</i><par n="Norge__np"/></e>
+<e lm="Syd-Asien">        <i>Syd-Asien</i><par n="Norge__np"/></e>
 <e lm="Syd-Aurdal">      <i>Syd-Aurdal</i><par n="Norge__np"/></e>
 <e lm="Syd-Australia">   <i>Syd-Australia</i><par n="Norge__np"/></e>
 <e lm="Syd-Carolina">    <i>Syd-Carolina</i><par n="Norge__np"/></e>
@@ -43267,7 +43305,7 @@
 <e lm="Syd-England">     <i>Syd-England</i><par n="Norge__np"/></e>
 <e lm="Syd-Europa">      <i>Syd-Europa</i><par n="Norge__np"/></e>
 <e lm="Syd-Finland">     <i>Syd-Finland</i><par n="Norge__np"/></e>
-<e lm="Syd-Frankrike">   <i>Syd-Frankrike</i><par n="Norge__np"/></e>
+<e lm="Syd-Frankrig">   <i>Syd-Frankrig</i><par n="Norge__np"/></e>
 <e lm="Syd-Fron">        <i>Syd-Fron</i><par n="Norge__np"/></e>
 <e lm="Syd-Hålogaland">  <i>Syd-Hålogaland</i><par n="Norge__np"/></e>
 <e lm="Syd-India">       <i>Syd-India</i><par n="Norge__np"/></e>
@@ -43289,7 +43327,7 @@
 <e lm="Syd-Vietnam">     <i>Syd-Vietnam</i><par n="Norge__np"/></e>
 <e lm="Syd-Yemen">       <i>Syd-Yemen</i><par n="Norge__np"/></e>
 <e lm="Sydvest-Afrika">  <i>Sydvest-Afrika</i><par n="Norge__np"/></e>
-<e lm="Sydøst-Asia">     <i>Sydøst-Asia</i><par n="Norge__np"/></e>
+<e lm="Sydøst-Asien">     <i>Sydøst-Asien</i><par n="Norge__np"/></e>
 <e lm="Sydøst-Norge">    <i>Sydøst-Norge</i><par n="Norge__np"/></e>
 <e lm="V-Tyskland">      <i>V-Tyskland</i><par n="Norge__np"/></e>
 <e lm="Vest-Afrika">     <i>Vest-Afrika</i><par n="Norge__np"/></e>
@@ -43415,7 +43453,7 @@
 <e lm="Arntzen">         <i>Arntzen</i><par n="Norge__np"/></e>
 <e lm="Ascona">          <i>Ascona</i><par n="Norge__np"/></e>
 <e lm="Aserbajdsjan">    <i>Aserbajdsjan</i><par n="Norge__np"/></e>
-<e lm="Asia">            <i>Asia</i><par n="Norge__np"/></e>
+<e lm="Asien">            <i>Asien</i><par n="Norge__np"/></e>
 <e lm="Askeland">        <i>Askeland</i><par n="Norge__np"/></e>
 <e lm="Asker">           <i>Asker</i><par n="Norge__np"/></e>
 <e lm="Askim">           <i>Askim</i><par n="Norge__np"/></e>
@@ -43976,7 +44014,7 @@
 <e lm="Framnæs">         <i>Framnæs</i><par n="Ås__np"/></e>
 <e lm="Frankfurt">       <i>Frankfurt</i><par n="Norge__np"/></e>
 <e lm="Franklin">        <i>Franklin</i><par n="Norge__np"/></e>
-<e lm="Frankrike">       <i>Frankrike</i><par n="Norge__np"/></e>
+<e lm="Frankrig">       <i>Frankrig</i><par n="Norge__np"/></e>
 <e lm="Fransisco">       <i>Fransisco</i><par n="Norge__np"/></e>
 <e lm="Frantzen">        <i>Frantzen</i><par n="Norge__np"/></e>
 <e lm="Frantzon">        <i>Frantzon</i><par n="Norge__np"/></e>
@@ -56280,6 +56318,8 @@
 <e lm="syndikere">          <i>syndiker</i><par n="mal/e__vblex"/></e>
 <e lm="syne">               <i>syn</i><par n="mal/e__vblex"/></e>
 <e lm="synes">              <i>syn</i><par n="syn/es__vblex"/></e>
+<e lm="ses">              <i>s</i><par n="s/es__vblex"/></e>
+
 <e lm="skændes">              <i>skænd</i><par n="syn/es__vblex"/></e>
 <e lm="tændes">              <i>tænd</i><par n="syn/es__vblex"/></e>
 <e lm="høres">              <i>hør</i><par n="syn/es__vblex"/></e>
@@ -56302,7 +56342,6 @@
 <e lm="særpræge">           <i>særpræg</i><par n="mal/e__vblex"/></e>
 <e lm="sæsonarbejde">       <i>sæsonarbejd</i><par n="mal/e__vblex"/></e>
 <e lm="sæsondebutere">      <i>sæsondebuter</i><par n="mal/e__vblex"/></e>
-<e lm="sætte                i bås"><i>s i bås</i><par n="s/ætte__vblex"/></e>
 <e lm="sætte">              <i>s</i><par n="s/ætte__vblex"/></e>
 <e lm="søde">               <i>sød</i><par n="mal/e__vblex"/></e>
 <e lm="søge">               <i>søg</i><par n="tal/e__vblex"/></e>
@@ -56396,7 +56435,6 @@
 <e lm="tilkomme">           <i>tilkom</i><par n="kom/me__vblex"/></e>
 <e lm="tilkæmpe">           <i>tilkæmp</i><par n="mal/e__vblex"/></e>
 <e lm="tilkøre">            <i>tilkør</i><par n="mal/e__vblex"/></e>
-<e lm="tillade">            <i>till</i><par n="l/ade__vblex"/></e>
 <e lm="tillade">            <i>till</i><par n="till/ade__vblex"/></e>
 <e lm="tille">              <i>till</i><par n="mal/e__vblex"/></e>
 <e lm="tillempe">           <i>tillemp</i><par n="mal/e__vblex"/></e>
@@ -57560,8 +57598,56 @@
 <e lm="Strömstad" a="PT"><i>Strömstad</i><par n="Danmark__np"/></e>
 <e lm="Koster" a="PT">   <i>Koster</i><par n="Danmark__np"/></e>
 <e lm="Oslo" a="PT">     <i>Oslo</i><par n="Danmark__np"/></e>
+
+
+<!--ACRONYMS-->
+<e lm="km">              <i>km</i><par n="km_no-cp__n"/></e>
+<e lm="km">              <i>km.</i><par n="km_no-cp__n"/></e>
+<e lm="moh">             <i>moh</i><par n="km_no-cp__n"/></e>
+<e lm="cm">              <i>cm</i><par n="km_no-cp__n"/></e>
+<e lm="cm">              <i>cm.</i><par n="km_no-cp__n"/></e>
+<e lm="mm">              <i>mm</i><par n="km_no-cp__n"/></e>
+<e lm="mm">              <i>mm.</i><par n="km_no-cp__n"/></e>
+<e lm="m">               <i>m</i><par n="km_no-cp__n"/></e>
+<e lm="nr">              <i>nr</i><par n="km_no-cp__n"/></e>
+<e lm="nr">              <i>nr.</i><par n="km_no-cp__n"/></e>
+<e lm="ca">              <i>ca</i><par n="km_no-cp__n"/></e>
+<e lm="ca">              <i>ca.</i><par n="km_no-cp__n"/></e>
+<e lm="kr">              <i>kr</i><par n="km_no-cp__n"/></e>
+<e lm="kr">              <i>kr.</i><par n="km_no-cp__n"/></e>
+<e lm="kl">              <i>kl</i><par n="km_no-cp__n"/></e>
+<e lm="kl">              <i>kl.</i><par n="km_no-cp__n"/></e>
+<e lm="jpg">             <i>jpg</i><par n="km_no-cp__n"/></e>
+<e lm="jpeg">             <i>jpeg</i><par n="km__n"/></e>
+<e lm="png">             <i>png</i><par n="km_no-cp__n"/></e>
+<e lm="svg">             <i>svg</i><par n="km_no-cp__n"/></e>
+<e lm="fvt">             <i>fvt</i><par n="km_no-cp__n"/></e>
+<e lm="fvt">             <i>fvt.</i><par n="km_no-cp__n"/></e>
+<e lm="evt">             <i>evt</i><par n="km_no-cp__n"/></e>
+<e lm="evt">             <i>evt.</i><par n="km_no-cp__n"/></e>
+<e lm="kg">             <i>kg</i><par n="km_no-cp__n"/></e>
+<e lm="kg">             <i>kg.</i><par n="km_no-cp__n"/></e>
+<e lm="dvs">             <i>dvs</i><par n="km_no-cp__n"/></e>
+<e lm="dvs">             <i>dvs.</i><par n="km_no-cp__n"/></e>
+<e lm="osv">             <i>osv</i><par n="km_no-cp__n"/></e>
+<e lm="osv">             <i>osv.</i><par n="km_no-cp__n"/></e>
+<e lm="mvh">             <i>mvh</i><par n="km_no-cp__n"/></e>
+<e lm="mvh">             <i>mvh.</i><par n="km_no-cp__n"/></e>
+<e lm="mht">             <i>mht</i><par n="km_no-cp__n"/></e>
+<e lm="mht">             <i>mht.</i><par n="km_no-cp__n"/></e>
+<e lm="bl.a">            <i>bl.a</i><par n="km__n"/></e>
+<e lm="bla">             <i>bla</i><par n="km_no-cp__n"/></e>
+<e lm="bla">             <i>bla.</i><par n="km_no-cp__n"/></e>
+<e lm="jf">              <i>jf</i><par n="km_no-cp__n"/></e>
+<e lm="jf">              <i>jf.</i><par n="km_no-cp__n"/></e>
+<e lm="fig">              <i>fig</i><par n="km_no-cp__n"/></e>
+<e lm="fig">              <i>fig.</i><par n="km_no-cp__n"/></e>
+<e lm="pga">              <i>pga</i><par n="km_no-cp__n"/></e>
+<e lm="pga.">              <i>pga.</i><par n="km_no-cp__n"/></e>
+
+
     <!-- ******************************
-          årig  åring
+          årig
        ****************************** -->
 <e lm="-årig"><re>[0-9]+</re><i>-årig</i><par n="bold__n"/></e>
 <e lm="-tal"><re>[0-9]+</re><i>-tal</i><par n="spil__n"/></e>
@@ -57574,6 +57660,7 @@
 <e>                      <par n="separa"/></e>
 <e>                      <par n="numeros"/></e>
 <e>                      <par n="coma"/></e>
+<e>                      <par n="cometa"/></e>
 <e>                      <par n="paresq"/></e>
 <e>                      <par n="pardret"/></e>
   </section>
