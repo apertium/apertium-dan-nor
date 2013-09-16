@@ -10659,7 +10659,7 @@ But it also needs changing in CG then.  -->
 <e>       <p><l>fest</l>      <r>f<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
 <pardef n="em/men__adj">
-<e>       <p><l>nere</l>      <r>men<s n="adj"/><s n="comp"/></r></p></e>
+<e>       <p><l>nere</l>      <r>men<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
 <e>       <p><l>men</l>       <r>men<s n="adj"/><s n="posi"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
 <e>       <p><l>ment</l>      <r>men<s n="adj"/><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
 <e>       <p><l>ne</l>        <r>men<s n="adj"/><s n="posi"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
@@ -12475,7 +12475,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="hvorvidt">         <i>hvorvidt</i><par n="dagevis__adv"/></e>
 <e lm="hvi">             <i>hvi</i><par n="dagevis__adv"/></e>
 <e lm="her">          <i>her</i><par n="dagevis__adv"/></e>
-<e lm="hurra-meg-rundt"> <i>hurra-meg-rundt</i><par n="dagevis__adv"/></e>
 <e lm="hodestups">       <i>hodestups</i><par n="dagevis__adv"/></e>
 <e lm="hodestupes">      <i>hodestupes</i><par n="dagevis__adv"/></e>
 <e lm="hodekulls">       <i>hodekulls</i><par n="dagevis__adv"/></e>
@@ -19844,7 +19843,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="uttømmende">      <i>uttømmende</i><par n="OK__adj"/></e>
 <e lm="utøvende">        <i>utøvende</i><par n="OK__adj"/></e>
 <e lm="grensesprengende"><i>grensesprengende</i><par n="OK__adj"/></e>
-<e lm="fortløpende">     <i>fortløpende</i><par n="OK__adj"/></e>
 <e lm="liknende">        <i>liknende</i><par n="OK__adj"/></e>
 
 <e lm="nærliggende">     <i>nærliggende</i><par n="OK__adj"/></e>
@@ -20000,7 +19998,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="full">            <i>full</i><par n="sen__adj"/></e>
 <e lm="fundamental">     <i>fundamental</i><par n="sen__adj"/></e>
 <e lm="funksjonsfrisk">  <i>funksjonsfrisk</i><par n="sen__adj"/></e>
-<e lm="fylkeskommunal">  <i>fylkeskommunal</i><par n="sen__adj"/></e>
 <e lm="fæl">             <i>fæl</i><par n="sen__adj"/></e>
 <e lm="førerløs">        <i>førerløs</i><par n="sen__adj"/></e>
 <e lm="gal">             <i>gal</i><par n="sen__adj"/></e>
@@ -36329,13 +36326,8 @@ should end up being collapsable superlative forms anyway -->
 <e lm="østrogen"><i>østrogen</i><par n="ja__n"/></e>
 <e lm="øygard"><i>øygard</i><par n="ep__n"/></e>
 <e lm="plage"><i>plag</i><par n="enk/e__n"/></e>
-<e lm="bossa nova"><i>bossa<b/>nova</i><par n="ep__n"/></e>
-<e lm="cerebral parese"><i>cerebral<b/>parese</i><par n="re__n"/></e>
-<e lm="cocker spaniel"><i>cocker<b/>spaniel</i><par n="ep__n"/></e>
-<e lm="hat trick"><i>hat<b/>trick</i><par n="ul__n"/></e>
-<e lm="hip hop"><i>hip<b/>hop</i><par n="tv__n"/></e>
-<e lm="hjerte- og karsykdom"><i>hjerte- og<b/>karsykdom</i><par n="bom_\s__n"/></e>
-<e lm="knock out"><i>knock<b/>out</i><par n="tv__n"/></e>
+
+
 <e lm="hvelv"><i>hvelv</i><par n="ul__n"/></e>
 <e lm="løvsprett"><i>løvsprett</i><par n="to__n"/></e>
 <e lm="sex appeal"><i>sex<b/>appeal</i><par n="ep__n"/></e>
@@ -43820,7 +43812,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Luotonen">   <i>Luotonen</i><par n="Ibsen__np"/></e>
 <e lm="Luoyang">   <i>Luoyang</i><par n="Ibsen__np"/></e>
 <e lm="Lus">   <i>Lus</i><par n="Findus__np"/></e>
-<e lm="Lusa">   <i>Lusa</i><par n="Ibsen__np"/></e>
 <e lm="Luse">   <i>Luse</i><par n="Ibsen__np"/></e>
 <e lm="Lustig">   <i>Lustig</i><par n="Ibsen__np"/></e>
 <e lm="Lutnes">   <i>Lutnes</i><par n="Findus__np"/></e>
@@ -48354,7 +48345,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="Tretjakova">   <i>Tretjakova</i><par n="Ibsen__np"/></e>
 <e lm="Trifan">   <i>Trifan</i><par n="Ibsen__np"/></e>
 <e lm="Triumf">   <i>Triumf</i><par n="Ibsen__np"/></e>
-<e lm="Tro">   <i>Tro</i><par n="Ibsen__np"/></e>
 <e lm="Troas">   <i>Troas</i><par n="Findus__np"/></e>
 <e lm="Troels">   <i>Troels</i><par n="Findus__np"/></e>
 <e lm="Troelsen">   <i>Troelsen</i><par n="Ibsen__np"/></e>
@@ -52529,7 +52519,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Kristin">         <i>Kristin</i><par n="Eva__np"/></e>
 <e lm="Kværner-gruppa">  <i>Kværner-gruppa</i><par n="Eva__np"/></e>
 <e lm="Laila">           <i>Laila</i><par n="Eva__np"/></e>
-<e lm="Lea">             <i>Lea</i><par n="Eva__np"/></e>
 <e lm="Lene">            <i>Lene</i><par n="Eva__np"/></e>
 <e lm="Linda">           <i>Linda</i><par n="Eva__np"/></e>
 <e lm="Line">            <i>Line</i><par n="Eva__np"/></e>
@@ -55795,7 +55784,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Hemmojávri">   <i>Hemmojávri</i><par n="Jo__np"/></e>
 <e lm="Hemmonjavvesuolu">   <i>Hemmonjavvesuolu</i><par n="Jo__np"/></e>
 <e lm="Hemmonjavvi">   <i>Hemmonjavvi</i><par n="Jo__np"/></e>
-<e lm="Hen">   <i>Hen</i><par n="Jo__np"/></e>
 <e lm="Henan">   <i>Henan</i><par n="Jo__np"/></e>
 <e lm="Henddo">   <i>Henddo</i><par n="Jo__np"/></e>
 <e lm="Henddovággi">   <i>Henddovággi</i><par n="Jo__np"/></e>
