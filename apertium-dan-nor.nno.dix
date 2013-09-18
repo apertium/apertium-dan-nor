@@ -162,7 +162,7 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 <pardef n="cp-both\Ø_LR_s" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
-<e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+<e><p><l></l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
 <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
