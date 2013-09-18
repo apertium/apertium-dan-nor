@@ -137,13 +137,11 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <pardef n="cp-only-L\Ø" c="cp-only-L, for forms that can only start compounds">
 <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 <pardef n="cp-only-L\s" c="cp-only-L, for forms that can only start compounds">
 <e r="RL"><p><l>s</l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l>s</l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>s-</l>         <r><s n="cmp-split"/></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 
@@ -152,7 +150,6 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
 <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
 <e>       <p><l></l>          <r></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
@@ -160,7 +157,6 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <pardef n="cp-both\Ø" c="cp-L and cp-R. Analyse only -Ø- in compounds, generate -Ø- if cp-L">
 <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
 <e>       <p><l></l>          <r></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
@@ -169,7 +165,6 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
 <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
 <e>       <p><l></l>          <r></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
@@ -178,7 +173,6 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <pardef n="cp-both\s" c="cp-L and cp-R. Analyse only -s- in compounds, generate -s- if cp-L">
 <e r="RL"><p><l>s</l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>s-</l>        <r><s n="cmp-split"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
 <e>       <p><l></l>          <r></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
@@ -187,7 +181,6 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
 <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>e-</l>        <r><s n="cmp-split"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
 <e>       <p><l></l>          <r></r></p></e>
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
@@ -198,7 +191,6 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
 <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-<e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
 <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
 <e>       <p><l></l>          <r></r></p></e>
 <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
@@ -17057,7 +17049,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="bylgje"><i>bylgj</i><par n="mo/e__vblex_adj"/></e>
 <e lm="bylte"><i>bylt</i><par n="mo/e__vblex_adj"/></e>
 <e lm="bysse"><i>byss</i><par n="mo/e__vblex_adj"/></e>
-<e lm="båse"><i>bås</i><par n="mo/e__vblex_adj"/></e>
 <e lm="bæsje"><i>bæsj</i><par n="mo/e__vblex_adj"/></e>
 <e lm="bønnfalle"><i>bønnf</i><par n="f/alle__vblex_adj"/></e>
 <e lm="børse"><i>børs</i><par n="mo/e__vblex_adj"/></e>
@@ -20033,6 +20024,7 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="nett">            <i>nett</i><par n="svart__adj"/></e>
 <e lm="nordisk">         <i>nordisk</i><par n="svart__adj"/></e>
 <e lm="norsk">           <i>norsk</i><par n="svart__adj"/></e>
+<e lm="nynorsk">           <i>nynorsk</i><par n="svart__adj"/></e>
 <e lm="vestnorsk">       <i>vestnorsk</i><par n="svart__adj"/></e>
 <e lm="austnorsk">       <i>austnorsk</i><par n="svart__adj"/></e>
 <e lm="sørnorsk">        <i>sørnorsk</i><par n="svart__adj"/></e>
@@ -21421,7 +21413,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="utilsikta">       <i>utilsikta</i><par n="le__adj"/></e>
 <e lm="utmerka">         <i>utmerka</i><par n="le__adj"/></e>
 <e lm="uønska">          <i>uønska</i><par n="le__adj"/></e>
-<e lm="øyeblikkeleg">    <i>augeblikke</i><par n="sak/leg__adj"/></e>
 <e lm="evindeleg">         <i>evinde</i><par n="sak/leg__adj"/></e>
 <e lm="dugeleg">         <i>duge</i><par n="sak/leg__adj"/></e>
 <e lm="udugeleg">         <i>uduge</i><par n="sak/leg__adj"/></e>
@@ -22019,12 +22010,10 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="røyr">            <i>røyr</i><par n="røyr__n"/></e>
 <e lm="vik">             <i>vik</i><par n="røyr_no-cp__n"/></e>
 <e lm="vit">		 <i></i><par n="vit_no-cp__n"/></e>
-<e lm="allvit">		 <i>all</i><par n="vit__n"/></e>
 <e lm="bygdeflogvit">	 <i>bygdeflog</i><par n="vit__n"/></e>
 <e lm="forfylgingsvanvit">	<i>forfylgingsvan</i><par n="vit__n"/></e>
 
 <e lm="vise">            <i>vis</i><par n="od/e__n"/></e>
-<e lm="uttale">          <i>uttal</i><par n="od/e__n"/></e>
 <e lm="kumpan">		 <i>kumpan</i><par n="ep__n"/></e>
 <e lm="snø">             <i>snø</i><par n="ep_no-cp__n"/></e>
 <e lm="tåke">            <i>tåk</i><par n="lø/e__n"/></e>
@@ -22426,7 +22415,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="frekvens">        <i>frekvens</i><par n="ep__n"/></e>
 <e lm="gnu">             <i>gnu</i><par n="ep_no-cp__n"/></e>
 <e lm="hang">            <i>hang</i><par n="ep__n"/></e>
-<e lm="hand">            <i>h</i><par n="h/and__n"/></e>
 <!-- unlikely: -->
 <!-- <e lm="hans">            <i>hans</i><par n="ep__n"/></e> -->
 <e lm="borg">            <i>borg</i><par n="å__n"/></e>
@@ -33355,6 +33343,7 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="ortografi"><i>ortografi</i><par n="ep__n"/></e>
 <e lm="ortoped"><i>ortoped</i><par n="ep__n"/></e>
 <e lm="ortopedi"><i>ortopedi</i><par n="ep__n"/></e>
+<e lm="encyklopedi"><i>encyklopedi</i><par n="ep__n"/></e>
 <e lm="oscillator"><i>oscillator</i><par n="ep__n"/></e>
 <e lm="osean"><i>osean</i><par n="ty__n"/></e>
 <e lm="oslomann"><i>oslom</i><par n="m/ann__n"/></e>
@@ -37251,125 +37240,7 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 
 <e lm="kule">            <i>kul</i><par n="lø/e__n"/></e>
 
-<e lm="skumring">        <i>skumring</i><par n="yting_\s__n"/></e>
-<e lm="gjelle">          <i>gjell</i><par n="lø/e__n"/></e>
-<e lm="frægd">           <i>frægd</i><par n="å__n"/></e>
-<e lm="amalgamfylling">  <i>amalgamfylling</i><par n="yting_\s__n"/></e>
-<e lm="buslit">          <i>buslit</i><par n="ty__n"/></e>
-<e lm="meklar">          <i>meklar</i><par n="ep__n"/></e>
-<e lm="førarkort">       <i>førarkort</i><par n="ty__n"/></e>
-<e lm="prikkbelasting">  <i>prikkbelasting</i><par n="yting_\s__n"/></e>
-<e lm="innvending">      <i>innvending</i><par n="yting_\s__n"/></e>
-<e lm="bilførar">        <i>bilførar</i><par n="ep__n"/></e>
-<e lm="kjellar">         <i>kjellar</i><par n="ep__n"/></e>
-<e lm="markering">       <i>markering</i><par n="yting_\s__n"/></e>
-<e lm="flystripe">       <i>flystrip</i><par n="lø/e__n"/></e>
-<e lm="polarforskar">    <i>polarforskar</i><par n="ep__n"/></e>
-<e lm="kvalfangar">      <i>kvalfangar</i><par n="ep__n"/></e>
-<e lm="vêrforhold">      <i>vêrforhold</i><par n="ty__n"/></e>
-<e lm="kryssing">        <i>kryssing</i><par n="yting_\s__n"/></e>
-<e lm="fråflytting">     <i>fråflytting</i><par n="yting_\s__n"/></e>
-<e lm="hushald">         <i>hushald</i><par n="ty_\s__n"/></e>
-<e lm="sjåar">           <i>sjåar</i><par n="ep__n"/></e>
-<e lm="julaftan">        <i>julaft</i><par n="aft/an__n"/></e>
-<e lm="tilslutting">     <i>tilslutting</i><par n="yting_\s__n"/></e>
-<e lm="prikkbelasting">  <i>prikkbelasting</i><par n="yting_\s__n"/></e>
-<e lm="innvending">      <i>innvending</i><par n="yting_\s__n"/></e>
-<e lm="kryssing">        <i>kryssing</i><par n="yting_\s__n"/></e>
-<e lm="fråflytting">     <i>fråflytting</i><par n="yting_\s__n"/></e>
-<e lm="køyreskuleelev">  <par n="køyr_LR_kjør"/><i>eskuleelev</i><par n="ep__n"/></e>
-<e lm="køyrelærar">      <par n="køyr_LR_kjør"/><i>elærar</i><par n="ep__n"/></e>
-<e lm="fareskilt">       <i>fareskilt</i><par n="ty__n"/></e>
-<e lm="lastebilsjåfør">  <i>lastebilsjåfør</i><par n="ep__n"/></e>
-<e lm="biland">          <i>biland</i><par n="ty__n"/></e>
-<e lm="landstasjon">     <i>landstasjon</i><par n="ep_\s__n"/></e>
-<e lm="flytur">          <i>flytur</i><par n="ep__n"/></e>
-<e lm="motorproblem">    <i>motorproblem</i><par n="ty__n"/></e>
-<e lm="familievald">     <i>familievald</i><par n="ul_\s__n"/></e>
-<e lm="køyreskule">      <par n="køyr_LR_kjør"/><i>eskul</i><par n="r/e__n"/></e>
-<e lm="sommarhalvår">    <i>sommarhalvår</i><par n="ty_\s__n"/></e>
-<e lm="tilslutting">     <i>tilslutting</i><par n="yting_\s__n"/></e>
-<e lm="prikkbelasting">  <i>prikkbelasting</i><par n="yting_\s__n"/></e>
-<e lm="kryssing">        <i>kryssing</i><par n="yting_\s__n"/></e>
-<e lm="fråflytting">     <i>fråflytting</i><par n="yting_\s__n"/></e>
-<e lm="førekomst">       <i>førekomst</i><par n="ep__n"/></e>
-<e lm="innsatsleiar">    <i>innsatsleiar</i><par n="ep__n"/></e>
-<e lm="bakrute">            <i>bakrut</i><par n="lø/e__n"/></e>
-<e lm="øygruppe">    <i>øygrupp</i><par n="lø/e__n"/></e>
-<e lm="byjente">           <i>byjent</i><par n="lø/e__n"/></e>
-<e lm="mørketid">        <i>mørketid</i><par n="å_\s__n"/></e>
-<e lm="snikkar">  <i>snikkar</i><par n="ep__n"/></e>
-<e lm="smie">            <i>smi</i><par n="yr/e__n"/></e>
-<e lm="heidning">        <i>heidning</i><par n="ep__n"/></e>
-<e lm="heidenskap">      <i>heidenskap</i><par n="ep_\s__n"/></e>
-<e lm="skremsle">        <i>skremsl</i><par n="lø/e__n"/></e>
-<e lm="lengsle">         <i>lengsl</i><par n="lø/e__n"/></e>
-<e lm="kosthald">        <i>kosthald</i><par n="ty_\s__n"/></e>
-<e lm="sortering">       <i>sortering</i><par n="yting_\s__n"/></e>
-<e lm="innehavar">       <i>innehavar</i><par n="ep__n"/></e>
-<e lm="sansing">         <i>sansing</i><par n="yting_\s__n"/></e>
-<e lm="gjødsel">         <i>gjøds</i><par n="hov/el__n"/></e>
-<e lm="handverkar">      <i>handverkar</i><par n="ep__n"/></e>
-<e lm="skilsmisse">      <i>skilsmiss</i><par n="lø/e__n"/></e>
-<e lm="geit">            <i>geit</i><par n="å__n"/></e>
-<e lm="gissel">          <i>gis</i><par n="sys/sel__n"/></e>
-<e lm="mobbing">         <i>mobbing</i><par n="yting_\s__n"/></e>
-<e lm="fotografering">   <i>fotografering</i><par n="yting_\s__n"/></e>
-<e lm="pute">            <i>put</i><par n="lø/e__n"/></e>
-<e lm="gravlegging">     <i>gravlegging</i><par n="yting_\s__n"/></e>
-<e lm="regle">           <i>regl</i><par n="lø/e__n"/></e>
-<e lm="jakke">           <i>jakk</i><par n="lø/e__n"/></e>
-<e lm="utlevering">      <i>utlevering</i><par n="yting_\s__n"/></e>
-<e lm="gutunge">         <i>gutung</i><par n="r/e__n"/></e>
-<e lm="suppe">           <i>supp</i><par n="lø/e__n"/></e>
-<e lm="pølse">           <i>pøls</i><par n="lø/e__n"/></e>
-<e lm="utmark">          <i>utmark</i><par n="å__n"/></e>
-<e lm="mekanikar">       <i>mekanikar</i><par n="ep__n"/></e>
-<e lm="sorg">            <i>sorg</i><par n="å__n"/></e>
-<e lm="nise">            <i>nis</i><par n="lø/e__n"/></e>
-<e lm="slakting">        <i>slakting</i><par n="yting_\s__n"/></e>
-<e lm="norm">            <i>norm</i><par n="å__n"/></e>
-<e lm="formaning">       <i>formaning</i><par n="yting_\s__n"/></e>
-<e lm="skjerping">       <i>skjerping</i><par n="yting_\s__n"/></e>
-<e lm="avløysar">        <i>avløysar</i><par n="ep__n"/></e>
-<e lm="isolering">       <i>isolering</i><par n="yting_\s__n"/></e>
-<e lm="eske">            <i>esk</i><par n="lø/e__n"/></e>
-<e lm="teknikar">        <i>teknikar</i><par n="ep__n"/></e>
-<e lm="oppleving">       <i>oppleving</i><par n="yting_\s__n"/></e>
-<e lm="svigerson">       <i>svigers</i><par n="s/on__n"/></e>
-<e lm="hulder">          <i>huld</i><par n="fest/er__n"/></e>
-<e lm="brunsvart">           <i>brunsvart</i><par n="leve__n"/></e>
-<e lm="reinflokk"><i>reinflokk</i><par n="ep__n"/></e>
-<e lm="fettlag"><i>fettlag</i><par n="ty_\s__n"/></e>
-<e lm="animasjon"><i>animasjon</i><par n="ep_\s__n"/></e>
-<e lm="solskin">  <i>solskin</i><par n="ty__n"/></e>
-<e lm="meddommar"><i>meddommar</i><par n="ep__n"/></e>
-<e lm="sengetøy"><i>sengetøy</i><par n="ty__n"/></e>
-<e lm="gyting">       <i>gyting</i><par n="yting_\s__n"/></e>
-<e lm="overhovud"><i>overhovud</i><par n="ty__n"/></e>
-<e lm="pseudonym"><i>pseudonym</i><par n="ty__n"/></e>
-<e lm="satanist"><i>satanist</i><par n="mon__n"/></e>
-<e lm="tilbehøyr"><i>tilbe</i><par n="høyr_LR_hør"/><par n="ty_\s__n"/></e>
-<e lm="kråke">      <i>kråk</i><par n="lø/e__n"/></e>
-<e lm="haldeplass">      <i>haldeplass</i><par n="ep__n"/></e>
-<e lm="overrasking">     <i>overrasking</i><par n="yting_\s__n"/></e>
-<e lm="dansing">     <i>dansing</i><par n="yting_\s__n"/></e>
-<e lm="knekk">           <i>knekk</i><par n="ep__n"/></e>
-<e c="todo" lm="trulova">           <i>trulova</i><par n="trulova__n"/></e>
 
-<e lm="sancerre"><i>sancerre</i><par n="ep__n"/></e>
-<e lm="muffins"><i>muffins</i><par n="ep__n"/></e>
-<e lm="brustein"><i>brustein</i><par n="ep__n"/></e>
-<e lm="gråsone">         <i>gråson</i><par n="lø/e__n"/></e>
-<e lm="forundring">      <i>forundring</i><par n="yting_\s__n"/></e>
-<e lm="aftan">           <i>aft</i><par n="aft/an__n"/></e>
-<e lm="regnvêr">  <i>regnvêr</i><par n="ty__n"/></e>
-<e r="LR" lm="regnvêr">  <p><l>regnver</l><r>regnvêr</r></p><par n="ty__n"/></e>
-<e lm="skam">            <i>skam</i><par n="skam__n"/></e>
-<e lm="omstende">        <i>omstend</i><par n="l/e__n"/></e>
-<e c="pølse" lm="kurv"><i>kurv</i><par n="ep__n"/></e>
-<e lm="korg">        <i>korg</i><par n="å__n"/></e>
-<e lm="spegel">          <i>speg</i><par n="ad/el__n"/></e>
 
 <!-- /common nouns -->
 
@@ -38538,7 +38409,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Mellom-Europa">   <i>Mellom-Europa</i><par n="Noreg__np"/></e>
 <e lm="Middelalder-Oslo"><i>Middelalder-Oslo</i><par n="Noreg__np"/></e>
 <e lm="Midt-England">    <i>Midt-England</i><par n="Noreg__np"/></e>
-<e lm="Midt-Frankrike">  <i>Midt-Frankrike</i><par n="Noreg__np"/></e>
 <e lm="Midt-Noreg">      <i>Midt-Noreg</i><par n="Noreg__np"/></e>
 <e lm="Midt-Sverige">    <i>Midt-Sverige</i><par n="Noreg__np"/></e>
 <e lm="Midt-Vesten">     <i>Midt-Vesten</i><par n="Noreg__np"/></e>

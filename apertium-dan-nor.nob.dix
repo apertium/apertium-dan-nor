@@ -4822,7 +4822,6 @@ for å ikkje forvirre transfer (get-case-from/modify-case). -->
 <e>       <p><l>urde</l>      <r>urde<s n="vblex"/><s n="pret"/></r></p></e>
 </pardef>
 <pardef n="må/tte__vblex">
-<e>       <p><l>ttet</l>  <r>tte<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
 
 <e>       <p><l>tte</l>   <r>tte<s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l>ttes</l>  <r>tte<s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
@@ -4839,7 +4838,6 @@ for å ikkje forvirre transfer (get-case-from/modify-case). -->
 <e>       <p><l>unnes</l>     <r>unne<s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
 <e>       <p><l>unnet</l>     <r>unne<s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l>an</l>        <r>unne<s n="vblex"/><s n="pres"/></r></p></e>
-<e>       <p><l>unnes</l>     <r>unne<s n="vblex"/><s n="pres"/><s n="pass"/></r></p></e>
 <e>       <p><l>unne</l>      <r>unne<s n="vblex"/><s n="pret"/></r></p></e>
 </pardef>
 <pardef n="sk/ulle__vblex_adj">
@@ -4856,8 +4854,7 @@ for å ikkje forvirre transfer (get-case-from/modify-case). -->
 <pardef n="vil/le__vblex">
 <!-- eigentleg au eit leksikalsk verb («forville»), men det er nok
 ganske lågfrekvent.. -->
-<e>       <p><l>let</l>         <r>le<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>lende</l>       <r>le<s n="adj"/><s n="pprs"/></r></p></e>
+<!--<e>       <p><l>lende</l>       <r>le<s n="adj"/><s n="pprs"/></r></p></e>-->
 
 <e>       <p><l>le</l>        <r>le<s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l>les</l>       <r>le<s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
@@ -7836,13 +7833,7 @@ forms) -KBU 090630 -->
 <e>       <p><l></l>          <r>e<s n="vblex"/><s n="pret"/></r></p></e>
 </pardef>
 <pardef n="l/juge__vblex_adj">
-<e>       <p><l>ogi</l>   <r>juge<s n="adj"/><s n="pp"/><s n="f"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>ogen</l>  <r>juge<s n="adj"/><s n="pp"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>oge</l>   <r>juge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>ogi</l>   <r>juge<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>ogne</l>  <r>juge<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-<e>       <p><l>ogne</l>  <r>juge<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-<e>       <p><l>jugande</l><r>juge<s n="adj"/><s n="pprs"/></r></p></e>
+
 
 <e>       <p><l>jug</l>   <r>juge<s n="vblex"/><s n="imp"/></r></p></e>
 <e>       <p><l>juge</l>  <r>juge<s n="vblex"/><s n="inf"/></r></p></e>
@@ -10244,8 +10235,8 @@ forms) -KBU 090630 -->
 <e>       <p><l>onde</l>      <r>ond<s n="adj"/><s n="posi"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 <e>       <p><l>erste</l>     <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 <e r="LR"><p><l>ondeste</l>   <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-<e>       <p><l>erst</l>      <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>ondest</l>    <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="ind"/></r></p></e>
+<e>       <p><l>erst</l>      <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>ondest</l>    <r>ond<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
 <pardef n="likefre/m__adj">
 <e>       <p><l>mmere</l> <r>m<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
@@ -12979,7 +12970,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="forklare">        <i>forklar</i><par n="an/e__vblex_adj"/></e>
 <e lm="akseptere">       <i>aksepter</i><par n="an/e__vblex_adj"/></e>
 <e lm="vende">           <i>vend</i><par n="an/e__vblex_adj"/></e>
-<e lm="bråvende">        <i>bråvend</i><par n="an/e__vblex_adj"/></e>
 <e lm="betale">          <i>betal</i><par n="an/e__vblex_adj"/></e>
 <e lm="formene">         <i>formen</i><par n="an/e__vblex_adj"/></e>
 <e lm="bevise">          <i>bevis</i><par n="an/e__vblex_adj"/></e>
@@ -13389,7 +13379,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="armere">		 <i>armer</i><par n="an/e__vblex_adj"/></e>
 <e lm="elektrisere">	 <i>elektriser</i><par n="an/e__vblex_adj"/></e>
 <e lm="fjernadoptere">	 <i>fjernadopter</i><par n="an/e__vblex_adj"/></e>
-<e lm="fyllekjøre">	 <i>fyllekjør</i><par n="an/e__vblex_adj"/></e>
 <e lm="privatkjøre">	 <i>privatkjør</i><par n="an/e__vblex_adj"/></e>
 <e lm="promillekjøre">	 <i>promillekjør</i><par n="an/e__vblex_adj"/></e>
 <e lm="tomkjøre">	 <i>tomkjør</i><par n="an/e__vblex_adj"/></e>
@@ -13768,7 +13757,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="diktere">	 <i>dikter</i><par n="an/e__vblex_adj"/></e>
 <e lm="innløse">	 <i>innløs</i><par n="an/e__vblex_adj"/></e>
 <e lm="transskribere">	 <i>transskriber</i><par n="an/e__vblex_adj"/></e>
-<e lm="budsende">	 <i>budsend</i><par n="an/e__vblex_adj"/></e>
 <e lm="tørrkoke">	 <i>tørrkok</i><par n="an/e__vblex_adj"/></e>
 <e lm="eksplodere">	 <i>eksploder</i><par n="an/e__vblex_adj"/></e>
 <e lm="konsertere">	 <i>konserter</i><par n="an/e__vblex_adj"/></e>
@@ -15758,7 +15746,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="forhøye">         <i>forhøy</i><par n="nag/e__vblex_adj"/></e>
 <e lm="brune">           <i>brun</i><par n="yt/e__vblex_adj"/></e>
 <e lm="lake">            <i>lak</i><par n="å/e__vblex_adj"/></e>
-<e lm="like">            <i>lik</i><par n="yt/e__vblex_adj"/></e>
 <e lm="gifte">           <i>gift</i><par n="å/e__vblex_adj"/></e>
 <e lm="sikte">           <i>sikt</i><par n="å/e__vblex_adj"/></e>
 <e lm="rømme">           <i>røm</i><par n="dim/me__vblex_adj"/></e>
@@ -16331,10 +16318,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="bryste"><i>bryst</i><par n="å/e__vblex_adj"/></e>
 <e lm="bråke"><i>bråk</i><par n="yt/e__vblex_adj"/></e>
 <e lm="bråne"><i>brån</i><par n="yt/e__vblex_adj"/></e>
-<e lm="dagse"><i>dags</i><par n="å/e__vblex_adj"/></e>
-<e lm="bråsnu"><i>bråsnu</i><par n="nø__vblex_adj"/></e>
-<e lm="bråstanse"><i>bråstans</i><par n="å/e__vblex_adj"/></e>
-<e lm="bråstoppe"><i>bråstopp</i><par n="å/e__vblex_adj"/></e>
 <e lm="brødfø"><i>brødfø</i><par n="nø__vblex_adj"/></e>
 <e lm="brøyte"><i>brøyt</i><par n="ønsk/e__vblex_adj"/></e>
 <e lm="bu"><i>bu</i><par n="nø__vblex_adj"/></e>
@@ -16354,7 +16337,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="buske"><i>busk</i><par n="å/e__vblex_adj"/></e>
 <e lm="busse"><i>buss</i><par n="å/e__vblex_adj"/></e>
 <e lm="buste"><i>bust</i><par n="å/e__vblex_adj"/></e>
-<e lm="butte"><i>butt</i><par n="å/e__vblex_adj"/></e>
 <e lm="byde"><i>b</i><par n="b/yde__vblex_adj"/></e>
 <e lm="bygsle"><i>bygsl</i><par n="adl/e__vblex_adj"/></e>
 <e lm="bylte"><i>bylt</i><par n="å/e__vblex_adj"/></e>
@@ -16503,7 +16485,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="fantegå"><i>fanteg</i><par n="g/å__vblex_adj"/></e>
 <e lm="farte"><i>fart</i><par n="å/e__vblex_adj"/></e>
 <e lm="fasle"><i>fasl</i><par n="adl/e__vblex_adj"/></e>
-<e lm="fastne"><i>fastn</i><par n="adl/e__vblex_adj"/></e>
 <e lm="fate"><i>fat</i><par n="å/e__vblex_adj"/></e>
 <e lm="fatle"><i>fatl</i><par n="adl/e__vblex_adj"/></e>
 <e lm="fatte"><i>fatt</i><par n="å/e__vblex_adj"/></e>
@@ -16748,7 +16729,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="fossregne"><i>fossregn</i><par n="ønsk/e__vblex_adj"/></e>
 <e lm="fossro"><i>fossro</i><par n="nø__vblex_adj"/></e>
 <e lm="fostre"><i>fostr</i><par n="adl/e__vblex_adj"/></e>
-<e lm="fote"><i>fot</i><par n="å/e__vblex_adj"/></e>
 <e lm="frakte"><i>frakt</i><par n="å/e__vblex_adj"/></e>
 <e lm="framelske"><i>framelsk</i><par n="å/e__vblex_adj"/></e>
 <e lm="framheve"><i>framhev</i><par n="nag/e__vblex_adj"/></e>
@@ -16979,7 +16959,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="herme"><i>herm</i><par n="ønsk/e__vblex_adj"/></e>
 <e lm="herse"><i>hers</i><par n="å/e__vblex_adj"/></e>
 <e lm="herske"><i>hersk</i><par n="å/e__vblex_adj"/></e>
-<e lm="hesje"><i>hesj</i><par n="å/e__vblex_adj"/></e>
 <e lm="hespe"><i>hesp</i><par n="å/e__vblex_adj"/></e>
 <e lm="hesple"><i>hespl</i><par n="adl/e__vblex_adj"/></e>
 <e lm="løsne">           <i>løsn</i><par n="å/e__vblex_adj"/></e>
@@ -18839,7 +18818,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="hoftelang">       <i>hoftel</i><par n="l/ang__adj"/></e>
 <e lm="jamgod">          <i>jam</i><par n="/god__adj"/></e>
 <e lm="jamlang">         <i>jaml</i><par n="l/ang__adj"/></e>
-<e lm="jevngod">         <i>jevn</i><par n="/god__adj"/></e>
 <e lm="jevnlang">        <i>jevnl</i><par n="l/ang__adj"/></e>
 <e lm="kilometerlang">   <i>kilometerl</i><par n="l/ang__adj"/></e>
 <e lm="kjempelang">      <i>kjempel</i><par n="l/ang__adj"/></e>
@@ -19113,7 +19091,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="gift">            <i>gift</i><par n="sort__adj"/></e>
 <e lm="gigantisk">       <i>gigantisk</i><par n="sort__adj"/></e>
 <e lm="gjennomført">     <i>gjennomført</i><par n="sort__adj"/></e>
-<e lm="glad i">          <i>glad</i><par n="sort__adj"/><p><l><b/>i</l><r><g><b/>i</g></r></p></e>
 <e lm="livsglad">        <i>livsglad</i><par n="sort__adj"/></e>
 <e lm="glatt">           <i>glatt</i><par n="sort__adj"/></e>
 <e lm="godlynt">         <i>godlynt</i><par n="sort__adj"/></e>
@@ -19218,6 +19195,7 @@ should end up being collapsable superlative forms anyway -->
 <e lm="nett">            <i>nett</i><par n="sort__adj"/></e>
 <e lm="nordisk">         <i>nordisk</i><par n="sort__adj"/></e>
 <e lm="norsk">           <i>norsk</i><par n="sort__adj"/></e>
+<e lm="nynorsk">           <i>nynorsk</i><par n="sort__adj"/></e>
 <e lm="vestnorsk">       <i>vestnorsk</i><par n="sort__adj"/></e>
 <e lm="austnorsk">       <i>austnorsk</i><par n="sort__adj"/></e>
 <e lm="østnorsk">        <i>østnorsk</i><par n="sort__adj"/></e>
@@ -21326,7 +21304,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="hat">             <i>hat</i><par n="ul_no-cp__n"/></e>
 <e lm="innhold">         <i>innhold</i><par n="ul__n"/></e>
 <e lm="gods">            <i>gods</i><par n="ja__n"/></e>
-<e lm="godt">            <i>godt</i><par n="godt__n"/></e>
 <e lm="gode">            <i>god</i><par n="god/e__n"/></e>
 <e lm="ishockey">        <i>ishockey</i><par n="ep__n"/></e>
 <e lm="følelse">         <i>følelse</i><par n="re_\s__n"/></e>
@@ -21361,7 +21338,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="initiativ">       <i>initiativ</i><par n="ja__n"/></e>
 <e lm="forbindelse">     <i>forbindelse</i><par n="re_\s__n"/></e>
 <e lm="grev">            <i>grev</i><par n="to__n"/></e>
-<e lm="gren">            <i>gren</i><par n="lo__n"/></e>
 <e lm="kai">             <i>kai</i><par n="då_no-cp__n"/></e>
 <e lm="folkeslag">       <i>folkeslag</i><par n="ul__n"/></e>
 <e lm="grunnlag">        <i>grunnlag</i><par n="ul__n"/></e>
@@ -21892,7 +21868,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="liv">             <i>liv</i><par n="ul_no-cp__n"/></e>
 <e lm="lake">            <i>lake</i><par n="re__n"/></e>
 <!--<e lm="komme">           <i>komm</i><par n="ød/e__n"/></e>-->
-<e lm="leve">            <i>lev</i><par n="lev/e__n"/></e>
 <e lm="konsert">         <i>konsert</i><par n="ep__n"/></e>
 <e lm="miljø">           <i>miljø</i><par n="ja__n"/></e>
 <e lm="kommentar">       <i>kommentar</i><par n="ep__n"/></e>
@@ -23139,7 +23114,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="middel">          <i>mid</i><par n="mid/del__n"/></e>
 <e lm="kalkstein">       <i>kalkstein</i><par n="ep__n"/></e>
 <e lm="kupp">            <i>kupp</i><par n="ul__n"/></e>
-<e lm="klede">           <i>kled</i><par n="ød/e__n"/></e>
 <e lm="jordsmonn">       <i>jordsmonn</i><par n="ul__n"/></e>
 <e lm="kobber">          <i>kobber</i><par n="ul__n"/></e>
 <e lm="landområde">      <i>landområd</i><par n="ød/e__n"/></e>
@@ -27447,7 +27421,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="gips"><i>gips</i><par n="ep__n"/></e>
 <e lm="gipsbandasje"><i>gipsbandasje</i><par n="re__n"/></e>
 <e lm="gipsrosett"><i>gipsrosett</i><par n="ep__n"/></e>
-<e lm="girkasse"><i>girkass</i><par n="enk/e__n"/></e>
 <e lm="girlander"><i>girlander</i><par n="uer__n"/></e>
 <e lm="giro"><i>giro</i><par n="ep__n"/></e>
 <e lm="gironummer"><i>gironum</i><par n="num/mer__n"/></e>
@@ -27645,7 +27618,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="gravstein"><i>gravstein</i><par n="ep__n"/></e>
 <e lm="gravøl"><i>gravøl</i><par n="ul__n"/></e>
 <e lm="gray"><i>gray</i><par n="lux__n"/></e>
-<e lm="grein"><i>grein</i><par n="ert__n"/></e>
 <e lm="grenader"><i>grenader</i><par n="ep__n"/></e>
 <e lm="grendehus"><i>grendehus</i><par n="ul__n"/></e>
 <e lm="grendeskole"><i>grendeskole</i><par n="re__n"/></e>
@@ -32626,6 +32598,7 @@ should end up being collapsable superlative forms anyway -->
 <e lm="ortografi"><i>ortografi</i><par n="ep__n"/></e>
 <e lm="ortoped"><i>ortoped</i><par n="ep__n"/></e>
 <e lm="ortopedi"><i>ortopedi</i><par n="ep__n"/></e>
+<e lm="encyklopedi"><i>encyklopedi</i><par n="ep__n"/></e>
 <e lm="oscillator"><i>oscillator</i><par n="ep__n"/></e>
 <e lm="osean"><i>osean</i><par n="ja__n"/></e>
 <e lm="oslomann"><i>oslom</i><par n="jam/ann__n"/></e>
@@ -36467,7 +36440,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="trøst"><i>trøst</i><par n="då__n"/></e>
 <e lm="lus"><i>lus</i><par n="lus_no-cp__n"/></e>
 <e lm="virkemiddel"><i>virkemid</i><par n="av-mid/del__n"/></e>
-<e lm="trakt"><i>trakt</i><par n="då__n"/></e>
 <e lm="sult"><i>sult</i><par n="ep__n"/></e>
 <e lm="tann"><i>t</i><par n="t/ann__n"/></e>
 <e lm="etterspørsel"><i>etterspørs</i><par n="ad/el__n"/></e>
@@ -49678,7 +49650,6 @@ men eg har ikkje sjekka veldig grundig gjennom lista. -->
 <e lm="Mellom-Europa">   <i>Mellom-Europa</i><par n="Norge__np"/></e>
 <e lm="Middelalder-Oslo"><i>Middelalder-Oslo</i><par n="Norge__np"/></e>
 <e lm="Midt-England">    <i>Midt-England</i><par n="Norge__np"/></e>
-<e lm="Midt-Frankrike">  <i>Midt-Frankrike</i><par n="Norge__np"/></e>
 <e lm="Midt-Norge">      <i>Midt-Norge</i><par n="Norge__np"/></e>
 <e lm="Midt-Sverige">    <i>Midt-Sverige</i><par n="Norge__np"/></e>
 <e lm="Midt-Vesten">     <i>Midt-Vesten</i><par n="Norge__np"/></e>

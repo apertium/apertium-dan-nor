@@ -748,7 +748,7 @@
 
 
 <pardef n="kærkom/men__adj">
-  <e>       <p><l>nere</l>      <r>men<s n="adj"/><s n="comp"/></r></p></e>
+  <e>       <p><l>nere</l>      <r>men<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>men</l>       <r>men<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ment</l>      <r>men<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ne</l>        <r>men<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
@@ -864,10 +864,11 @@
   <e>       <p><l>derste</l>    <r>dre<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>derst</l>     <r>dre<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
     <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+    <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l>este</l>    <r>dre<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l>est</l>     <r>dre<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+  <e>       <p><l>derste</l>    <r>dre<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>derst</l>     <r>dre<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
 
 
@@ -4040,6 +4041,7 @@
   <e>       <p><l>vær</l>       <r>være<s n="vbser"/><s n="imp"/></r></p></e>
   <e>       <p><l>været</l>     <r>være<s n="vbser"/><s n="pp"/></r></p></e>
   <e>       <p><l>værende</l>   <r>være<s n="vbser"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>værende</l>   <r>være<s n="adj"/><s n="pprs"/></r></p></e>
     <e>       <p><l>været</l>        <r>være<s n="vbser"/><s n="pp"/></r></p></e>
     <e>       <p><l>været</l>         <r>være<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>været</l>         <r>være<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -4917,8 +4919,12 @@
   <e>       <p><l>es</l>        <r>es<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>tes</l>       <r>es<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>tes</l>       <r>es<s n="vblex"/><s n="pp"/></r></p></e>
-  <e>       <p><l>enede</l>     <r>es<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>et</l>     <r>es<s n="adj"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ende</l>     <r>es<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>ende</l>     <r>es<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>et</l>         <r>es<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>et</l>         <r>es<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ede</l>        <r>es<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ede</l>          <r>es<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="saml/es__vblex">
@@ -27132,6 +27138,7 @@
 <e lm="nordlig">         <i>nordlig</i><par n="amerikansk__adj"/></e>
 <e lm="normal">          <i>normal</i><par n="aktiv__adj"/></e>
 <e lm="norsk">           <i>norsk</i><par n="amerikansk__adj"/></e>
+<e lm="nynorsk">           <i>nynorsk</i><par n="amerikansk__adj"/></e>
 <e lm="ny">              <i>ny</i><par n="rund__adj"/></e>
 <e lm="nysgerrig">       <i>nysgerrig</i><par n="lykkelig__adj"/></e>
 <e lm="offensiv">        <i>offensiv</i><par n="aktiv__adj"/></e>
@@ -27369,7 +27376,7 @@
 <e lm="afsavet">                    <i>afsave</i><par n="øve/t__adj"/></e>
 <e lm="afsides">                   <i>afsides</i><par n="OK__adj"/></e>
 <e lm="afslået">                   <i>afslåe</i><par n="øve/t__adj"/></e>
-<e lm="bagre">                     <i>bagre</i><par n="øv/re__adj"/></e>
+<e lm="bagre">                     <i>bag</i><par n="øv/re__adj"/></e>
 <e lm="bakteriefri">               <i>bakteriefri</i><par n="rund__adj"/></e>
 <e lm="banal">                     <i>banal</i><par n="rund__adj"/></e>
 <e lm="bar">                       <i>bar</i><par n="rund__adj"/></e>

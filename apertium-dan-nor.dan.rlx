@@ -8685,11 +8685,7 @@ REMOVE:10002 noun IF
 ;
 # KBU «det bedste <adj, ikke noun> vilkår»
 
-REMOVE:6211 (n pl) IF
-	(0 singular-noun)
-	(-1 indefinite-singular-noun LINK -1 adj-definite BARRIER not-adv-adj-comma LINK -1* definite-det-singular/plural)
-;
-# KBU: «det vigtige, grammatiske træk imperativ<sg>»
+
 
 REMOVE:gen-noun gen-noun IF
 	(0 noun-prop)
