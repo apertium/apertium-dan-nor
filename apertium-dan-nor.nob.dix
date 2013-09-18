@@ -10165,6 +10165,12 @@ forms) -KBU 090630 -->
 <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="posi"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
 <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="posi"/><s n="un"/><s n="pl"/></r></p></e>
 <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="posi"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+
+
+
+
+
+
 </pardef>
 <pardef n="b/ra__adj">
 <e r="RL"><p><l>edre</l>     <r>ra<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
@@ -21262,7 +21268,6 @@ should end up being collapsable superlative forms anyway -->
 <e lm="frykt">           <i>frykt</i><par n="ep__n"/></e>
 <e lm="industri">        <i>industri</i><par n="ep__n"/></e>
 <e lm="hel">             <i>hel</i><par n="MC_no-cp__n"/></e>
-<e lm="gifte">           <i>gift</i><par n="hu/e__n"/></e>
 <e lm="foto">            <i>foto</i><par n="ja__n"/></e>
 <e lm="folkemusikk">     <i>folkemusikk</i><par n="ep__n"/></e>
 <e lm="jobber">          <i>jobber</i><par n="uer__n"/></e>

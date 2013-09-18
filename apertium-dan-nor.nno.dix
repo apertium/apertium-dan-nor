@@ -408,19 +408,7 @@ thus need to be able to generate the sg.ind.cmp form too -->
 <e>       <p><l>dei</l>       <r>dei<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
 <e r="LR"><p><l>deim</l>      <r>dei<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
 
-<!-- Hack for the «hennes måte å sykle=>måten ho syklar» transfer rule: -->
-<e r="RL"><p><l>eg</l>        <r>eg<s n="prn"/></r></p></e>
-<e r="RL"><p><l>du</l>        <r>du<s n="prn"/></r></p></e>
-<e r="RL"><p><l>han</l>       <r>han<s n="prn"/></r></p></e>
-<e r="RL"><p><l>ho</l>        <r>ho<s n="prn"/></r></p></e>
-<e r="RL"><p><l>det</l>       <r>det<s n="prn"/></r></p></e>
-<!-- the gender from det.pos are for the possessed, not possessor, thus
-useless for "dens"-disambiguation, CG could change lemma though:  -->
-<e r="RL"><p><l>ho</l>        <r>den<s n="prn"/></r></p></e>
-<e r="RL"><p><l>vi</l>        <r>vi<s n="prn"/></r></p></e>
-<e r="RL"><p><l>de</l>        <r>de<s n="prn"/></r></p></e>
-<e r="RL"><p><l>dei</l>       <r>dei<s n="prn"/></r></p></e>
-<e r="RL"><p><l>De</l>       <r>de<s n="prn"/><s n="p2"/></r></p></e>
+
 </pardef>
 
 <!-- Possessives -->
@@ -630,8 +618,8 @@ useless for "dens"-disambiguation, CG could change lemma though:  -->
 </pardef>
 <!-- mange vs mye -->
 <pardef n="m/ange__det">
-<e>       <p><l>ange</l>         <r>ange<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-<e>       <p><l>ye</l>          <r>ange<s n="det"/><s n="qnt"/><s n="pl"/><s n="unc"/></r></p></e>
+<e>       <p><l>ange</l>         <r>ange<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+<!--<e>       <p><l>ye</l>          <r>ange<s n="det"/><s n="qnt"/><s n="pl"/><s n="unc"/></r></p></e>-->
 </pardef>
 
 <!-- begge; begge -->
@@ -4196,15 +4184,7 @@ no av og til 'sumarane': -->
 <e>       <p><l>urde</l>  <r>urde<s n="vblex"/><s n="pret"/></r></p></e>
 </pardef>
 <pardef n="må/tte__vblex_adj">
-<e r="LR"><p><l>tt</l>    <r>tte<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>tta</l>   <r>tte<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>tta</l>   <r>tte<s n="adj"/><s n="pp"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>tta</l>   <r>tte<s n="adj"/><s n="pp"/><s n="f"/><s n="sg"/><s n="ind"/></r></p></e>
-<e>       <p><l>tta</l>   <r>tte<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-<e>       <p><l>tta</l>   <r>tte<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-<e>       <p><l>ttande</l><r>tte<s n="adj"/><s n="pprs"/></r></p></e>
 
-<e>       <p><l>tt</l><r>tte</r></p><par n="a_vs_e__vblex_inf"/></e>
 <e>       <p><l>ttast</l> <r>tte<s n="vblex"/><s n="inf"/><s n="pass"/></r></p></e>
 <e>       <p><l>tta</l>   <r>tte<s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR"><p><l>tt</l>    <r>tte<s n="vblex"/><s n="pp"/></r></p></e>
@@ -14417,10 +14397,8 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="yre">		 <i>yr</i><par n="yr/e__vblex_adj"/></e>
 <e lm="publisere">       <i>publiser</i><par n="yt/e__vblex_adj"/></e>
 <e lm="kvile">           <i>kvil</i><par n="yt/e__vblex_adj"/></e>
-<e lm="tørrsymje">       <i>tørrs</i><par n="/ymje__vblex_adj"/></e>
 <e lm="oversymje">       <i>overs</i><par n="/ymje__vblex_adj"/></e>
 <e lm="ymje">            <i></i><par n="/ymje__vblex_adj"/></e>
-<e lm="turrsymje">       <i>turrs</i><par n="/ymje__vblex_adj"/></e>
 <e lm="grymje">          <i>gr</i><par n="/ymje__vblex_adj"/></e>
 <e lm="kappsymje">       <i>kapps</i><par n="/ymje__vblex_adj"/></e>
 <e lm="glymje">          <i>gl</i><par n="/ymje__vblex_adj"/></e>
@@ -14859,7 +14837,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="diskvalifisere"><i>diskvalifiser</i><par n="yt/e__vblex_adj"/></e>
 <e lm="polymerisere"><i>polymeriser</i><par n="yt/e__vblex_adj"/></e>
 <e lm="tupere">      <i>tuper</i><par n="yt/e__vblex_adj"/></e>
-<e lm="glipe">       <i>glip</i><par n="yt/e__vblex_adj"/></e>
 <e lm="lovprise">    <i>lovpris</i><par n="ål/e__vblex_adj"/></e>
 <e lm="resistere">   <i>resister</i><par n="yt/e__vblex_adj"/></e>
 <e lm="forlange">    <i>forlang</i><par n="yt/e__vblex_adj"/></e>
@@ -15030,7 +15007,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="snåpe">       <i>snåp</i><par n="mo/e__vblex_adj"/></e>
 <e lm="røyke">       <i>røyk</i><par n="yt/e__vblex_adj"/></e>
 <e lm="kommutere">   <i>kommuter</i><par n="yt/e__vblex_adj"/></e>
-<e lm="dagse">       <i>dags</i><par n="mo/e__vblex_adj"/></e>
 <e lm="agere">       <i>ager</i><par n="yt/e__vblex_adj"/></e>
 <e lm="sniffe">      <i>sniff</i><par n="mo/e__vblex_adj"/></e>
 <e lm="tusjere">     <i>tusjer</i><par n="yt/e__vblex_adj"/></e>
@@ -15400,7 +15376,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="buksere">     <i>bukser</i><par n="yt/e__vblex_adj"/></e>
 <e lm="invitere">    <i>inviter</i><par n="yt/e__vblex_adj"/></e>
 <e lm="fingre">      <i>fingr</i><par n="lagr/e__vblex_adj"/></e>
-<e lm="bråvende">    <i>bråvend</i><par n="vørd/e__vblex_adj"/></e>
 <e lm="veifte">      <i>veift</i><par n="mo/e__vblex_adj"/></e>
 <e lm="høle">        <i>høl</i><par n="yt/e__vblex_adj"/></e>
 <e lm="strupe">      <i>str</i><par n="st/upe__vblex_adj"/></e>
@@ -15451,7 +15426,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="intervenere"> <i>intervener</i><par n="yt/e__vblex_adj"/></e>
 <e lm="mikroskopere"><i>mikroskoper</i><par n="yt/e__vblex_adj"/></e>
 <e lm="jodisere">    <i>jodiser</i><par n="yt/e__vblex_adj"/></e>
-<e lm="typisere">    <i>typiser</i><par n="yt/e__vblex_adj"/></e>
 <e lm="mule">        <i>mul</i><par n="mo/e__vblex_adj"/></e>
 <e lm="implodere">   <i>imploder</i><par n="yt/e__vblex_adj"/></e>
 <e lm="politisere">  <i>politiser</i><par n="yt/e__vblex_adj"/></e>
@@ -15524,7 +15498,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="slipe">       <i>slip</i><par n="ål/e__vblex_adj"/></e>
 <e lm="transpirere"> <i>transpirer</i><par n="yt/e__vblex_adj"/></e>
 <e lm="kalkere">     <i>kalker</i><par n="yt/e__vblex_adj"/></e>
-<e lm="bile">        <i>bil</i><par n="ål/e__vblex_adj"/></e>
 <e lm="trivialisere"><i>trivialiser</i><par n="yt/e__vblex_adj"/></e>
 <e lm="kollasjonere"><i>kollasjoner</i><par n="yt/e__vblex_adj"/></e>
 <e lm="brøle">       <i>brøl</i><par n="ål/e__vblex_adj"/></e>
@@ -17022,9 +16995,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="bryste"><i>bryst</i><par n="mo/e__vblex_adj"/></e>
 <e lm="bråke"><i>bråk</i><par n="mo/e__vblex_adj"/></e>
 <e lm="bråne"><i>brån</i><par n="mo/e__vblex_adj"/></e>
-<e lm="bråsnu"><i>bråsnu</i><par n="rø__vblex_adj"/></e>
-<e lm="bråstanse"><i>bråstans</i><par n="mo/e__vblex_adj"/></e>
-<e lm="bråstoppe"><i>bråstopp</i><par n="mo/e__vblex_adj"/></e>
 <e lm="brødfø"><i>brødfø</i><par n="lø__vblex_adj"/></e>
 <e lm="brøyte"><i>brøyt</i><par n="yt/e__vblex_adj"/></e>
 <e lm="bue"><i>bu</i><par n="mo/e__vblex_adj"/></e>
@@ -17416,7 +17386,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="fossregne"><i>fossregn</i><par n="ær/e__vblex_adj"/></e>
 <e lm="fossro"><i>fossro</i><par n="rø__vblex_adj"/></e>
 <e lm="fostre"><i>fostr</i><par n="lagr/e__vblex_adj"/></e>
-<e lm="fote"><i>fot</i><par n="mo/e__vblex_adj"/></e>
 <e lm="frakte"><i>frakt</i><par n="mo/e__vblex_adj"/></e>
 <e lm="framelske"><i>framelsk</i><par n="mo/e__vblex_adj"/></e>
 <e lm="framheve"><i>framhev</i><par n="mo/e__vblex_adj"/></e>
@@ -17508,7 +17477,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="glo"><i>glo</i><par n="rø__vblex_adj"/></e>
 <e lm="glore"><i>glor</i><par n="mo/e__vblex_adj"/></e>
 <e lm="glø"><i>glø</i><par n="lø__vblex_adj"/></e>
-<e lm="gløtte"><i>gløtt</i><par n="yst/e__vblex_adj"/></e>
 <e lm="gnage"><i>gn</i><par n="gn/age__vblex_adj"/></e>
 <e lm="gnaldre"><i>gnaldr</i><par n="lagr/e__vblex_adj"/></e>
 <e lm="gnavle"><i>gnavl</i><par n="mo/e__vblex_adj"/></e>
@@ -19653,7 +19621,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="hoftelang">       <i>hoftel</i><par n="l/ang__adj"/></e>
 <e lm="jamgod">          <i>jam</i><par n="/god__adj"/></e>
 <e lm="jamlang">         <i>jaml</i><par n="l/ang__adj"/></e>
-<e lm="jamngod">         <i>jamn</i><par n="/god__adj"/></e>
 <e lm="jamnlang">        <i>jamnl</i><par n="l/ang__adj"/></e>
 <e lm="kilometerlang">   <i>kilometerl</i><par n="l/ang__adj"/></e>
 <e lm="kjempelang">      <i>kjempel</i><par n="l/ang__adj"/></e>
@@ -21079,7 +21046,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="forfallen">       <i>forfal</i><par n="forfal/len__adj"/></e>
 <e lm="gyllen">          <i>gyl</i><par n="ul/len__adj"/></e>
 <e lm="ullen">           <i>ul</i><par n="ul/len__adj"/></e>
-<e lm="verre">           <i>ver</i><par n="øv/re__adj"/></e>
 <e lm="bitter">          <i>bit</i><par n="bit/ter__adj"/></e>
 
 <e lm="dobbel">          <i>dob</i><par n="dob/bel__adj"/></e>
@@ -21554,7 +21520,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="islam">              <i>islam</i><par n="bo__n"/></e>
 <e lm="hundrevis">       <i>hundrevis</i><par n="bo__n"/></e>
 <e lm="auto">            <i>auto</i><par n="bo__n"/></e>
-<e lm="eldste">          <i>eldste</i><par n="bo__n"/></e>
 
 <e lm="km">              <i>km</i><par n="km_no-cp__n"/></e>
 <e lm="moh">             <i>moh</i><par n="km_no-cp__n"/></e>
@@ -21607,7 +21572,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="feiring"><i>feiring</i><par n="yting_\s__n"/></e>
 <e lm="gruppering"><i>gruppering</i><par n="yting_\s__n"/></e>
 <e lm="munning"><i>munning</i><par n="ep__n"/></e>
-<e lm="bo">              <i>bo</i><par n="bo_no-cp__n"/></e>
 <e lm="åtferd">          <i>åtferd</i><par n="å_\s__n"/></e>
 <e lm="mo">              <i>mo</i><par n="ul_no-cp__n"/></e>
 <e lm="my">              <i>my</i><par n="bu_no-cp__n"/></e>
@@ -22170,7 +22134,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="terminologi">     <i>terminologi</i><par n="ep__n"/></e>
 <e lm="unge">            <i>ung</i><par n="r/e__n"/></e>
 <e lm="steg">            <i>steg</i><par n="ty__n"/></e>
-<e lm="vente">           <i>vent</i><par n="lø/e__n"/></e>
 <e lm="tunge">           <i>tung</i><par n="od/e__n"/></e>
 <e lm="variasjon">       <i>variasjon</i><par n="ep_\s__n"/></e>
 <e lm="talar">           <i>talar</i><par n="ep__n"/></e>
@@ -22292,7 +22255,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="tredel">          <i>tredel</i><par n="ep__n"/></e>
 <e lm="versjon">         <i>versjon</i><par n="ep_\s__n"/></e>
 <e lm="stør">            <i>stør</i><par n="ep__n"/></e>
-<e lm="vinne">           <i>vinn</i><par n="lø/e__n"/></e>
 <e lm="studium">         <i>studi</i><par n="podi/um__n"/></e>
 <e lm="terreng">         <i>terreng</i><par n="ty__n"/></e>
 <e lm="trening">         <i>trening</i><par n="yting_\s__n"/></e>
@@ -22513,7 +22475,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="helikopter">      <i>helikopt</i><par n="hat/er__n"/></e>
 <e lm="eintal">          <i>eintal</i><par n="ty_\s__n"/></e>
 <e lm="dialekt">         <i>dialekt</i><par n="ep__n"/></e>
-<e lm="haldt">           <i>haldt</i><par n="ty__n"/></e>
 <e lm="fiskevær">        <i>fiskevær</i><par n="ty__n"/></e>
 <e lm="gang">            <i>gang</i><par n="ep_\s__n"/></e>
 <e lm="falske">          <i>falsk</i><par n="r/e__n"/></e>
@@ -22590,7 +22551,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="el">              <i>el</i><par n="ty_no-cp__n"/></e>
 <e lm="æra">             <i>æra</i><par n="mon_no-cp__n"/></e>
 <e lm="faktor">          <i>faktor</i><par n="ep__n"/></e>
-<e lm="berg">            <i>berg</i><par n="bu__n"/></e>
 <e lm="breiddegrad">     <i>breiddegrad</i><par n="så_\s__n"/></e>
 <e lm="gruvedrift">      <i>gruvedrift</i><par n="å_\s__n"/></e>
 <e lm="bomull">          <i>bomull</i><par n="å_\s__n"/></e>
@@ -22658,7 +22618,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="areal">           <i>areal</i><par n="ty__n"/></e>
 <e lm="innhald">         <i>innhald</i><par n="ty_\s__n"/></e>
 <e lm="eine">            <i>ein</i><par n="r/e__n"/></e>
-<e lm="bur">             <i>bur</i><par n="ul_no-cp__n"/></e>
 <e lm="granitt">         <i>granitt</i><par n="ep__n"/></e>
 <e lm="hatt">            <i>hatt</i><par n="ep__n"/></e>
 <e lm="anlegg">          <i>anlegg</i><par n="ty_\s__n"/></e>
@@ -22759,7 +22718,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="anatomi">         <i>anatomi</i><par n="ep__n"/></e>
 <e lm="air">             <i>air</i><par n="ep_no-cp__n"/></e>
 <e lm="gods">            <i>gods</i><par n="ty__n"/></e>
-<e lm="godt">            <i>godt</i><par n="godt__n"/></e>
 <!-- no_cp due to «kjempegode» etc. ambiguity -->
 <e lm="gode">            <i>god</i><par n="øyr/e_no-cp__n"/></e>
 <e lm="album">           <i>album</i><par n="ty__n"/></e>
@@ -22782,7 +22740,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="damp">            <i>damp</i><par n="ep__n"/></e>
 <e lm="høve">            <i>høv</i><par n="l/e__n"/></e>
 <e lm="dyrking">         <i>dyrking</i><par n="yting_\s__n"/></e>
-<e lm="felles">          <i>felles</i><par n="ep__n"/></e>
 <e lm="gitar">           <i>gitar</i><par n="ep__n"/></e>
 <e lm="arrangement">     <i>arrangement</i><par n="ty_\s__n"/></e>
 <e lm="dikt">            <i>dikt</i><par n="ty__n"/></e>
@@ -22898,7 +22855,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="åstad">           <i>åstad</i><par n="mon_\s__n"/></e>
 <e lm="genus">           <i>gen</i><par n="gen/us__n"/></e>
 <e lm="føretak">         <i>føretak</i><par n="ty_\s__n"/></e>
-<e lm="blått">           <i>blått</i><par n="ty__n"/></e>
 <e lm="byggverk">        <i>byggverk</i><par n="ty_\s__n"/></e>
 <e lm="infinitiv">       <i>infinitiv</i><par n="ep__n"/></e>
 <e lm="bly">             <i>bly</i><par n="ty_no-cp__n"/></e>
@@ -22910,7 +22866,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="eining">          <i>eining</i><par n="yting_\s__n"/></e>
 <e lm="blad">            <i>blad</i><par n="ty_\Ø__n"/></e>
 <e lm="angrep">          <i>angrep</i><par n="ty_\s__n"/></e>
-<e lm="gifte">           <i>gift</i><par n="yr/e__n"/></e>
 <e lm="følgje">          <i>følgj</i><par n="yr/e__n"/></e>
 <e lm="betaling">        <i>betaling</i><par n="yting_\s__n"/></e>
 <e lm="ekvator">         <i>ekvator</i><par n="ep__n"/></e>
@@ -22969,7 +22924,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="forbund">         <i>forbund</i><par n="ty_\s__n"/></e>
 <e lm="innlegg">         <i>innlegg</i><par n="ty_\s__n"/></e>
 <e lm="innsats">         <i>innsats</i><par n="ep__n"/></e>
-<e lm="drikke">          <i>drikk</i><par n="yr/e__n"/></e>
 <e lm="greve">           <i>grev</i><par n="r/e__n"/></e>
 <e lm="greive">          <i>greiv</i><par n="r/e__n"/></e>
 <e lm="force">           <i>forc</i><par n="r/e__n"/></e>
@@ -23308,7 +23262,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="protein">         <i>protein</i><par n="ty__n"/></e>
 <e lm="par">             <i>par</i><par n="ty_no-cp__n"/></e>
 <e lm="same">            <i>sam</i><par n="r/e__n"/></e>
-<e lm="sams">            <i>sams</i><par n="ep__n"/></e>
 <e lm="røysterett">      <i>røysterett</i><par n="ep_\s__n"/></e>
 <e lm="slutt">           <i>slutt</i><par n="ep__n"/></e>
 <e lm="roar">            <i>roar</i><par n="ep__n"/></e>
@@ -23434,7 +23387,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="rå">              <i>r</i><par n="r/å_no-cp__n"/></e>
 <e lm="pollen">          <i>pollen</i><par n="ty__n"/></e>
 <e lm="skala">           <i>skala</i><par n="mon__n"/></e>
-<e lm="raudt">           <i>raudt</i><par n="ty__n"/></e>
 <e lm="påverknad">       <i>påverknad</i><par n="mon_\s__n"/></e>
 <e lm="planlegging">     <i>planlegging</i><par n="yting_\s__n"/></e>
 <e lm="prov">            <i>prov</i><par n="ty__n"/></e>
@@ -23589,7 +23541,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="kupp">            <i>kupp</i><par n="ty__n"/></e>
 <e lm="jordbruk">        <i>jordbruk</i><par n="ty_\s__n"/></e>
 <e lm="mønster">         <i>mønst</i><par n="hat/er__n"/></e>
-<e lm="klede">           <i>kled</i><par n="l/e__n"/></e>
 <e lm="jordsmonn">       <i>jordsmonn</i><par n="ty__n"/></e>
 <e lm="kopar">           <i>kopar</i><par n="ep__n"/></e>
 <e lm="krigsskip">       <i>krigsskip</i><par n="ty_\s__n"/></e>
@@ -23730,7 +23681,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="kunstnar">        <i>kunstnar</i><par n="ep__n"/></e>
 <e lm="meter">           <i>met</i><par n="lit/ers__n"/></e>
 <e lm="mengd">           <i>mengd</i><par n="å__n"/></e>
-<e lm="le">              <i>l</i><par n="l/e_no-cp__n"/></e>
 <e lm="lo">              <i>lo</i><par n="or_no-cp__n"/></e>
 <e lm="køyretøy">        <par n="køyr_LR_kjør"/><i>etøy</i><par n="ty__n"/></e>
 <e lm="midt">            <i>midt</i><par n="ep__n"/></e>
@@ -23774,7 +23724,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="kamp">            <i>kamp</i><par n="ep__n"/></e>
 <e lm="jord">            <i>jord</i><par n="å__n"/></e>
 <e lm="lokal">           <i>lokal</i><par n="ep__n"/></e>
-<e lm="leve">            <i>leve</i><par n="leve__n"/></e>
 <e lm="magasin">         <i>magasin</i><par n="ty__n"/></e>
 <e lm="namn">            <i>namn</i><par n="ty_\e__n"/></e>
 <e lm="kvadratkilometer"><i>kvadratkilomet</i><par n="nanomet/ers__n"/></e>
@@ -25883,7 +25832,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="celluloseindustri"><i>celluloseindustri</i><par n="ep__n"/></e>
 <e lm="cent"><i>cent</i><par n="ep__n"/></e>
 <e lm="centavo"><i>centavo</i><par n="peso__n"/></e>
-<e lm="cerebral parese"><i>cerebral<b/>pares</i><par n="r/e__n"/></e>
 <e lm="certeparti"><i>certeparti</i><par n="ty__n"/></e>
 <e lm="cesium"><i>cesium</i><par n="ty__n"/></e>
 <e lm="cha-cha-cha"><i>cha-cha-cha</i><par n="ep__n"/></e>
@@ -25917,7 +25865,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="clinch"><i>clinch</i><par n="ep__n"/></e>
 <e lm="clutch"><i>clutch</i><par n="ep__n"/></e>
 <e lm="clutchpedal"><i>clutchpedal</i><par n="ep__n"/></e>
-<e lm="cocker spaniel"><i>cocker<b/>spaniel</i><par n="ep__n"/></e>
 <e lm="cockney"><i>cockney</i><par n="ep__n"/></e>
 <e lm="cockpit"><i>cockpit</i><par n="ep__n"/></e>
 <e lm="cocktail"><i>cocktail</i><par n="ep__n"/></e>
@@ -28925,7 +28872,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="hinduisme"><i>hinduism</i><par n="r/e__n"/></e>
 <e lm="hingst"><i>hingst</i><par n="ep__n"/></e>
 <e lm="hint"><i>hint</i><par n="ty__n"/></e>
-<e lm="hip hop"><i>hip<b/>hop</i><par n="tv__n"/></e>
 <e lm="hippie"><i>hippi</i><par n="r/e__n"/></e>
 <e lm="hippodrom"><i>hippodrom</i><par n="ep__n"/></e>
 <e lm="hirse"><i>hirs</i><par n="r/e__n"/></e>
@@ -31173,7 +31119,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="kvadratur"><i>kvadratur</i><par n="ep__n"/></e>
 <e lm="kvakk"><i>kvakk</i><par n="ty__n"/></e>
 <e lm="kvakksalveri"><i>kvakksalveri</i><par n="ty__n"/></e>
-<e lm="kval"><i>kval</i><par n="ep__n"/></e>
 <e lm="kvalbiff"><i>kvalbiff</i><par n="ep__n"/></e>
 <e lm="kvalbåt"><i>kvalbåt</i><par n="ep__n"/></e>
 <e lm="kvalfangst"><i>kvalfangst</i><par n="ep__n"/></e>
@@ -36994,11 +36939,8 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="firar"><i>firar</i><par n="ep__n"/></e>
 <e lm="gjeremål"><i>gjeremål</i><par n="ty__n"/></e>
 <e lm="tøying"><i>tøying</i><par n="yting_\s__n"/></e>
-<e lm="hòle"><i>hòl</i><par n="lø/e__n"/></e>
-<e lm="hóle"><i>hól</i><par n="r/e__n"/></e>
 <e lm="dask"><i>dask</i><par n="ep__n"/></e>
 <e lm="mildvêr"><i>mildvêr</i><par n="ty__n"/></e>
-<e lm="trakt"><i>trakt</i><par n="å__n"/></e>
 <e lm="einskildbillett"><i>einskildbillett</i><par n="ep__n"/></e>
 <e lm="einskildindivid"><i>einskildindivid</i><par n="ty__n"/></e>
 <e lm="einskildperson"><i>einskildperson</i><par n="ep__n"/></e>
@@ -37118,7 +37060,6 @@ http://www.tekstlab.uio.no/cgi-bin/oktnt/int_cqp_nn.pl : -->
 <e lm="omsetning"><i>omsetning</i><par n="yting_\s__n"/></e>
 <e lm="oppdagar"><i>oppdagar</i><par n="ep__n"/></e>
 <e lm="programleiar"><i>programleiar</i><par n="ep__n"/></e>
-<e lm="vedkomande"><i>vedkomand</i><par n="l/e__n"/></e>
 <e lm="teiknar"><i>teiknar</i><par n="ep__n"/></e>
 <e lm="trommeslagar"><i>trommeslagar</i><par n="ep__n"/></e>
 <e lm="tilhøyrar"><i>tilhøyrar</i><par n="ep__n"/></e>

@@ -305,16 +305,26 @@
 <pardef n="and/en__adj">
   <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>et</l>          <r>en<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-
-    <e>       <p><l>en</l>       <r>en<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="def"/></r></p></e>
-
-    <e>       <p><l>en</l>       <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
-
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
   <e>       <p><l>et</l>          <r>en<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="def"/></r></p></e>
-
   <e>       <p><l>re</l>          <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
+
+<pardef n="and/en_ord__adj">
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="ord"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>et</l>          <r>en<s n="adj"/><s n="ord"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="ord"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+    <e>       <p><l>en</l>          <r>en<s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>re</l>          <r>en<s n="adj"/><s n="ord"/><s n="pst"/><s n="pl"/></r></p></e>
+  <e>       <p><l>re</l>          <r>en<s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/></r></p></e>
+
+
+</pardef>
+
+
 
 
 
@@ -672,7 +682,14 @@
 </pardef>
 
 <pardef n="øv/re__adj">
+
+
+
   <e>       <p><l>re</l>        <r>re<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e>       <p><l>re</l>    <r>re<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+<e>       <p><l>re</l>    <r>re<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>erste</l>     <r>re<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>erst</l>      <r>re<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
@@ -1000,9 +1017,12 @@
   <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
   <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="comp"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="comp"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
   <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sup"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l>fleste</l>    <r>mange<s n="adj"/><s n="sup"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
+  <e>       <p><l>fleste</l>    <r>mange<s n="adj"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 
@@ -2693,13 +2713,6 @@
 </pardef>
 
 
-<pardef n="risi/ko__n">
-  <e>       <p><l>ciene</l>       <r>ko<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>ci</l>        <r>ko<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l>koen</l>        <r>ko<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
-  <e>       <p><l></l>          <r>ko<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-</pardef>
-
 
 
 
@@ -3449,9 +3462,7 @@
   <e>       <p><l>ko</l>        <r>ko<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
   <e>       <p><l>koen</l>      <r>ko<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>ci</l>        <r>ko<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e r="LR"><p><l>koer</l>      <r>ko<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>ciene</l>     <r>ko<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e r="LR"><p><l>koerne</l>    <r>ko<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="d/atter__n" c="autoconcord:ut,sgpl"> <!-- Common; ~atter / ~atteren / ~øtre / ~øtrene -->
@@ -4779,7 +4790,7 @@
   <e>       <p><l>le</l>        <r>le<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>ler</l>       <r>le<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>les</l>       <r>le<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>lede</l>      <r>le<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>lte</l>      <r>le<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>t</l>         <r>le<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>lende</l>     <r>le<s n="adj"/><s n="pprs"/></r></p></e>
  <e>       <p><l>t</l>         <r>le<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -5870,16 +5881,18 @@
 
 <pardef n="k/unne__vbmod">
   <e>       <p><l>unne</l>      <r>unne<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>un</l>      <r>unne<s n="vbmod"/><s n="imp"/></r></p></e>
   <e>       <p><l>an</l>        <r>unne<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>unnes</l>      <r>unne<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>unne</l>      <r>unne<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>unnende</l>   <r>unne<s n="vbmod"/><s n="pprs"/></r></p></e>
   <e>       <p><l>unnet</l>     <r>unne<s n="vbmod"/><s n="pp"/></r></p></e>
-    <e>       <p><l>unnende</l>    <r>unne<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>unnende</l>    <r>unne<s n="adj"/><s n="pprs"/></r></p></e>
   <e>       <p><l>unnet</l>         <r>unne<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unnet</l>         <r>unne<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unnet</l>        <r>unne<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>unnet</l>        <r>unne<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+
 </pardef>
 
 <pardef n="sk/ulle__vbmod">
@@ -17141,7 +17154,6 @@
 <e lm="rigsret">                  <i>rigsret</i><par n="aften__n"/></e>
 <e lm="rigsrevision">              <i>rigsrevision</i><par n="aften_\s__n"/></e>
 <e lm="rigsvej">                   <i>rigsvej</i><par n="vals__n"/></e>
-<e lm="risiko">                      <i>risi</i><par n="risi/ko__n"/></e>
 <e lm="rive">                      <i>riv</i><par n="enk/e__n"/></e>
 <e lm="riviera">                   <i>riviera</i><par n="aften__n"/></e>
 <e lm="rogn">                      <i>rogn</i><par n="sko__n"/></e>
@@ -25014,7 +25026,7 @@
 <e lm="p-plads"><i>p-plads</i><par n="aften__n"/></e>
 <e lm="pace"><i>pace</i><par n="hygiejne__n"/></e>
 <e lm="pacemaker"><i>pacemaker</i><par n="spiller__n"/></e>
-<e lm="paddehat"><i>paddehat</i><par n="salut__n"/></e>
+<e lm="paddehat"><i>paddehat</i><par n="kat__n"/></e>
 <e lm="paddock"><i>paddock</i><par n="aften__n"/></e>
 <e lm="pagaj"><i>pagaj</i><par n="aften__n"/></e>
 <e lm="pagode"><i>pagode</i><par n="hygiejne__n"/></e>
@@ -27333,6 +27345,7 @@
 <e lm="hidsig">                     <i>hidsig</i><par n="lykkelig__adj"/></e>
 <e lm="analog">                    <i>analog</i><par n="rund__adj"/></e>
 <e lm="anden">                     <i>and</i><par n="and/en__adj"/></e>
+<e lm="anden">                     <i>and</i><par n="and/en_ord__adj"/></e>
 <e lm="angerfri">                  <i>angerfri</i><par n="rund__adj"/></e>
 <e lm="angivelig">                 <i>angivelig</i><par n="lykkelig__adj"/></e>
 <e lm="angrebsvillig">             <i>angrebsvillig</i><par n="lykkelig__adj"/></e>
@@ -29908,6 +29921,8 @@
 <e lm="pars pro toto">    <i>pars<b/>pro<b/>toto</i><par n="ikke__adv"/></e>
 <e lm="partout">          <i>partout</i><par n="ikke__adv"/></e>
 <e lm="parvis">           <i>parvis</i><par n="ikke__adv"/></e>
+<e lm="amtsvis">           <i>amtsvis</i><par n="ikke__adv"/></e>
+<e lm="vedrørende">           <i>vedrørende</i><par n="ikke__adv"/></e>
 <e lm="passim">           <i>passim</i><par n="ikke__adv"/></e>
 <e lm="per capita">       <i>per<b/>capita</i><par n="ikke__adv"/></e>
 <e lm="periodevis">       <i>periodevis</i><par n="ikke__adv"/></e>
