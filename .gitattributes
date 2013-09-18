@@ -50,3 +50,6 @@ dev/testvoc/testvoc.sh -text
 /nob-dan.prob -text
 texts/evaluationtext14072013.dan.txt -text
 texts/evaluationtext14072013.nob.txt -text
+texts/finalevaluation.edited.nob-dan.dan.txt -text
+texts/finalevaluation.nob.txt -text
+texts/finalevaluation.unedited.nob-dan.dan.txt -text
