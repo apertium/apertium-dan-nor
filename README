@@ -1,0 +1,63 @@
+Danish and Norwegian
+
+                            apertium-dan-nor
+===============================================================================
+
+This is an Apertium language pair for translating between Danish and 
+Norwegian Nynorsk/Norwegian Bokmål.Currently supported is translation from both Norwegian variants to Danish
+
+
+
+Requirements
+===============================================================================
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.0.0)
+* apertium (>= 3.0.0)
+* VISL CG3 
+
+If this does not make any sense, we recommend you look at: www.apertium.org
+
+Compiling
+===============================================================================
+
+Given the requirements being installed, you should be able to just run:
+
+$ ./configure 
+$ make
+# make install
+
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you're using a --prefix to ./configure, make sure it's the
+same one you used to install apertium itself.
+
+Testing
+===============================================================================
+
+If you are in the source directory after running make, the following
+commands should work:
+
+
+BOKMÅL -> DANISH
+$  echo "Hun så på faren sin" | apertium -d . nob-dan
+Hun så på sin far
+
+NYNORSK -> DANISH
+$  echo "jenta så ikkje på faren | apertium -d . nno-dan
+Pigen så ikke på faren
+
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/Danish_and_Norwegian
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: #apertium on irc.freenode.net
+
+See also the file AUTHORS included in this distribution.
