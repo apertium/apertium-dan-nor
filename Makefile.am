@@ -144,8 +144,26 @@ modes/$(PREFIX1a).mode: modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
-EXTRA_DIST= \
-    $(BASENAME).$(LANG1).dix
+EXTRA_DIST=$(BASENAME).$(LANG1).dix \
+	   $(BASENAME).$(PREFIX1).dix \
+	   $(BASENAME).$(LANG2a).dix $(BASENAME).$(LANG2b).dix \
+	   $(BASENAME).$(LANG1).rlx \
+	   $(BASENAME).$(LANG2a).rlx $(BASENAME).$(LANG2b).rlx \
+	   $(BASENAME).$(PREFIX1a).lrx \
+	   $(BASENAME).$(PREFIX1b).lrx \
+	   $(BASENAME).$(PREFIX2a).lrx \
+	   $(BASENAME).$(PREFIX2b).lrx \
+           $(PREFIX1).prob \
+           $(PREFIX2a).prob $(PREFIX2b).prob \
+	   $(BASENAME).$(PREFIX1a).t1x \
+	   $(BASENAME).$(PREFIX1b).t1x \
+	   $(BASENAME).$(PREFIX2).t1x \
+	   $(BASENAME).$(LANG1).acx \
+	   $(BASENAME).$(LANG2).acx \
+	   modes.xml alt.xsl
+
+# Not used it seems:
+#	   $(BASENAME).$(PREFIX2).t2x
 
 apertium_dan_nordir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_dan_normodesdir=$(prefix)/share/apertium/modes/
