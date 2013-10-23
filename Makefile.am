@@ -184,14 +184,17 @@ install-data-local:
 	rm -rf modes
 	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_dan_normodesdir) || mkdir $(DESTDIR)$(apertium_dan_normodesdir)
-	$(INSTALL_DATA) $(PREFIX1a).mode $(DESTDIR)$(apertium_dan_normodesdir)
-	$(INSTALL_DATA) $(PREFIX1b).mode $(DESTDIR)$(apertium_dan_normodesdir)
 	$(INSTALL_DATA) $(PREFIX2a).mode $(DESTDIR)$(apertium_dan_normodesdir)
 	$(INSTALL_DATA) $(PREFIX2b).mode $(DESTDIR)$(apertium_dan_normodesdir)
-	rm $(PREFIX1a).mode $(PREFIX1b).mode $(PREFIX2a).mode $(PREFIX2b).mode
+	rm $(PREFIX2a).mode $(PREFIX2b).mode
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1a).t1x $(DESTDIR)$(apertium_dan_nordir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1b).t1x $(DESTDIR)$(apertium_dan_nordir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_dan_nordir)
+
+# dan→nor not ready yet
+#$(INSTALL_DATA) $(PREFIX1a).mode $(DESTDIR)$(apertium_dan_normodesdir)	
+#$(INSTALL_DATA) $(PREFIX1b).mode $(DESTDIR)$(apertium_dan_normodesdir)
+#rm  $(PREFIX1a).mode $(PREFIX1b).mode
 
 CLEANFILES = $(TARGETS_COMMON) 
 clean-local: 
