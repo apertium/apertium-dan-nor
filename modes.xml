@@ -3,7 +3,7 @@
 
 
   <!-- Danish → Norwegian Nynorsk -->
-  <mode name="dan-nno" install="yes">
+  <mode name="dan-nno" install="no">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nor.automorf.bin"/>
@@ -119,7 +119,7 @@
 
 
   <!-- Danish → Norwegian Bokmål -->
-  <mode name="dan-nob" install="yes">
+  <mode name="dan-nob" install="no">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nor.automorf.bin"/>
