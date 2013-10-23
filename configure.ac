@@ -4,8 +4,8 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-dan-nor], [0.1.0], [ftyers@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-dan-nor], [0.1.0], no-define)
+AC_INIT([apertium-dan-nor], [1.0.0], [Jonas Fromseier Mortensen <lst190@alumni.ku.dk>])
+AM_INIT_AUTOMAKE([apertium-dan-nor], [1.0.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 #AC_CONFIG_HEADER([config])

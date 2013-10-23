@@ -1,4 +1,4 @@
-VERSION=0.1.0
+VERSION=1.0.0
 LANG1=dan
 LANG2=nor
 LANG2a=nob
