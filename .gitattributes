@@ -14,14 +14,8 @@
 /apertium-dan-nor.dan-nob.t1x -text
 /apertium-dan-nor.dan-nor.dix -text
 /apertium-dan-nor.dan.acx -text
-/apertium-dan-nor.dan.dix -text
-/apertium-dan-nor.dan.rlx -text
 /apertium-dan-nor.nno-dan.lrx -text
-/apertium-dan-nor.nno.dix -text
-/apertium-dan-nor.nno.rlx -text
 /apertium-dan-nor.nob-dan.lrx -text
-/apertium-dan-nor.nob.dix -text
-/apertium-dan-nor.nob.rlx -text
 /apertium-dan-nor.nor-dan.t1x -text
 /apertium-dan-nor.nor-dan.t2x -text
 /apertium-dan-nor.nor.acx -text
@@ -48,8 +42,6 @@ dev/testvoc/testvoc-summary.dan-nob.txt -text
 dev/testvoc/testvoc-summary.nob-dan.txt -text
 dev/testvoc/testvoc.sh -text
 /modes.xml -text
-/nno-dan.prob -text svneol=unset#unset
-/nob-dan.prob -text
 texts/evaluationtext14072013.dan.txt -text
 texts/evaluationtext14072013.nob.txt -text
 texts/finalevaluation.edited.nob-dan.dan.txt -text

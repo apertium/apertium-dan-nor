@@ -247,7 +247,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nno-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -307,7 +307,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nno-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -325,7 +325,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nno-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -347,7 +347,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nno-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -374,7 +374,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nob-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -434,7 +434,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nob-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -452,7 +452,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nob-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -474,7 +474,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="nob-dan.autobil.bin"/>
+        <file name="nor-dan.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
