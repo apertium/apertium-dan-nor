@@ -8,6 +8,9 @@ LANG2=nor
 LANG2n=nno
 LANG2b=nob
 
+# If --with-lang specified, always make dependencies first:
+SUBDIRS=$(AP_SUBDIRS)
+
 # dan-nor
 PREFIX1=$(LANG1)-$(LANG2)
 # dan-nob
@@ -22,9 +25,6 @@ PREFIX2b=$(LANG2b)-$(LANG1)
 PREFIX2n=$(LANG2n)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
-
-# If --with-lang specified, always make dependencies first:
-SUBDIRS=$(AP_SUBDIRS)
 
 TARGETS_COMMON = \
       $(PREFIX1).prob \
@@ -51,13 +51,9 @@ TARGETS_COMMON = \
       $(PREFIX2).autogen.bin \
       $(PREFIX2).t1x.bin
 
-# Use this goal for creating .deps, otherwise make -j2 will give problems:
-.deps/.d:
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	touch $@
 
-# Prevent the .d file from being removed automatically:
-.PRECIOUS: .deps/.d
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
 
 ###############################################################################
 ## Monolingual dictionaries
@@ -177,47 +173,44 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 ## Translation modes
 ###############################################################################
 
-modes/$(PREFIX1b).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1b).mode
+
+###############################################################################
+## Distribution
+###############################################################################
 
 EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX1b).lrx \
 	   $(BASENAME).$(PREFIX1n).lrx \
 	   $(BASENAME).$(PREFIX2b).lrx \
 	   $(BASENAME).$(PREFIX2n).lrx \
-	   $(BASENAME).$(PREFIX1).t1x \
-	   $(BASENAME).$(PREFIX1).t3x \
+	   $(BASENAME).$(PREFIX1n).t1x \
+	   $(BASENAME).$(PREFIX1b).t1x \
 	   $(BASENAME).$(PREFIX2).t1x \
+	   $(BASENAME).$(PREFIX2).t2x \
 	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
+###############################################################################
+## Installation
+###############################################################################
+
 apertium_dan_nordir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_modesdir=$(prefix)/share/apertium/modes/
 
-apertium_dan_nor_DATA=$(TARGETS_COMMON)
+apertium_dan_nor_DATA=$(TARGETS_COMMON) \
+	$(BASENAME).$(PREFIX1n).t1x \
+	$(BASENAME).$(PREFIX1b).t1x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x
 
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
-	modes=`xmllint --xpath '//mode[@install="yes"]/@name' modes.xml | sed 's/ *name="\([^"]*\)"/\1.mode /g'`; \
-		$(INSTALL_DATA) $$modes $(DESTDIR)$(apertium_modesdir); \
-		rm $$modes
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_dan_nordir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_dan_nordir)
+install-data-local: install-modes
 
+
+###############################################################################
+## Cleanup
+###############################################################################
 
 CLEANFILES = $(TARGETS_COMMON) 
 clean-local: 

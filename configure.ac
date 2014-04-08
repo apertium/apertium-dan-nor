@@ -4,8 +4,8 @@
 
 AC_PREREQ(2.52)
 
-m4_define([required_apertium_version], [3.2.0])
-m4_define([required_lttoolbox_version], [3.2.0])
+m4_define([required_apertium_version], [3.3.0])
+m4_define([required_lttoolbox_version], [3.3.0])
 
 AC_INIT([apertium-dan-nor], [1.0.0], [Jonas Fromseier Mortensen <lst190@alumni.ku.dk>])
 AM_INIT_AUTOMAKE([apertium-dan-nor], [1.0.0], no-define)
@@ -76,6 +76,6 @@ AP_CHECK_LING([2n], [apertium-nno])
 AP_CHECK_LING([2b], [apertium-nob])
 
 
-
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
