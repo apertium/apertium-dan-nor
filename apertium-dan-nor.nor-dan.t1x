@@ -199,7 +199,7 @@
 
     <def-attr n="grad">
       <attr-item tags="pst"/>
-      <attr-item tags="posi"/>
+      <attr-item tags="pst"/>
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
       <attr-item tags="ssup"/>
@@ -296,8 +296,8 @@
         <when>
           <test>
             <equal>
-              <!--if the tag is 'posi' change it to 'pst'-->
-              <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/>
+              <!--if the tag is 'pst' change it to 'pst'-->
+              <clip pos="1" side="sl" part="grad"/><lit-tag v="pst"/>
             </equal>
           </test>
 
@@ -569,8 +569,8 @@
 
         <choose>
           <when><test><equal>
-            <!--if the tag is 'posi' change it to 'pst'-->
-            <clip pos="2" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
+            <!--if the tag is 'pst' change it to 'pst'-->
+            <clip pos="2" side="sl" part="grad"/><lit-tag v="pst"/></equal></test>
           <let><clip pos="2" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
         </choose>
 
@@ -661,8 +661,8 @@
 
         <choose>
           <when><test><equal>
-            <!--if the tag is 'posi' change it to 'pst'-->
-            <clip pos="2" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
+            <!--if the tag is 'pst' change it to 'pst'-->
+            <clip pos="2" side="sl" part="grad"/><lit-tag v="pst"/></equal></test>
           <let><clip pos="2" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
         </choose>
 
@@ -881,8 +881,8 @@
       <action>
         <choose>
           <when><test><equal>
-            <!--if the tag is 'posi' change it to 'pst'-->
-            <clip pos="1" side="sl" part="grad"/><lit-tag v="posi"/></equal></test>
+            <!--if the tag is 'pst' change it to 'pst'-->
+            <clip pos="1" side="sl" part="grad"/><lit-tag v="pst"/></equal></test>
           <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
         </choose>
 
