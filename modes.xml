@@ -6,7 +6,7 @@
   <mode name="dan-nno" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -28,7 +28,7 @@
   <mode name="dan-nno-morph" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -36,7 +36,7 @@
   <mode name="dan-nno-tagger-nocg" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -48,7 +48,7 @@
   <mode name="dan-nno-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="dan-nor.rlx.bin"/>
@@ -64,7 +64,7 @@
   <mode name="dan-nno-biltrans" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -79,7 +79,7 @@
   <mode name="dan-nno-transfer" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -98,7 +98,7 @@
   <mode name="dan-nno-debug" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nno.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -122,7 +122,7 @@
   <mode name="dan-nob" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -144,7 +144,7 @@
   <mode name="dan-nob-morph" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -152,7 +152,7 @@
   <mode name="dan-nob-tagger-nocg" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -164,7 +164,7 @@
   <mode name="dan-nob-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="dan-nor.rlx.bin"/>
@@ -179,7 +179,7 @@
   <mode name="dan-nob-biltrans" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -194,7 +194,7 @@
   <mode name="dan-nob-transfer" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -213,7 +213,7 @@
   <mode name="dan-nob-debug" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="dan-nor.automorf.bin"/>
+        <file name="dan-nob.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
