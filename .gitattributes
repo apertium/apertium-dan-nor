@@ -44,6 +44,8 @@ dev/testvoc/testvoc.sh -text
 /modes.xml -text
 t/README.org -text
 t/config.sh -text
+t/latest-pending.results -text
+t/latest-regression.results -text
 t/pending-tests -text
 t/regression-tests -text
 t/update-latest -text

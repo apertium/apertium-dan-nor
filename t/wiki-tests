@@ -43,12 +43,12 @@ cleantst () {
     $SED 's/^ *//; s/ *$//; s/\([^,.?!:;]\)$/\1./g; s/   */ /g'
 }
 cleansrc () {
-    local -r srclang=$1
-    grep -o "<li> (${srclang})[^→]*" |$SED "s%</*[^>]*>%%g; s% *(${srclang}) *%%" | cleantst
+    local -r tdir=$1
+    grep -o "<li> (${tdir})[^→]*" |$SED "s%</*[^>]*>%%g; s% *(${tdir}) *%%" | cleantst
 }
 cleantrg () {
-    local -r srclang=$1
-    grep -o "<li> (${srclang}).*" | $SED 's%[^→]*→ *%%; s%::.*%%'  | cleantst
+    local -r tdir=$1
+    grep -o "<li> (${tdir}).*" | $SED 's%[^→]*→ *%%; s%::.*%%'  | cleantst
 }
 
 summary () {
@@ -133,8 +133,8 @@ main () {
     printf "Running $1-tests with mode \"${mode}\" "; ${update} && printf "with updated tests "; echo "..."
     echo
     fetchtests "${update}" "${testtype}" "${html}"
-    cleansrc "${srclang}" < "${html}" > "${srclist}"
-    cleantrg "${srclang}" < "${html}" > "${trglist}"
+    cleansrc "${srclang}-${trglang}" < "${html}" > "${srclist}"
+    cleantrg "${srclang}-${trglang}" < "${html}" > "${trglist}"
     (
         set -o pipefail
         apertium -d . "${mode}" < "${srclist}" | cleantst > "${tstlist}"
