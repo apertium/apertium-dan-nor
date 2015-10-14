@@ -36,11 +36,9 @@ dev/nbkorpus5000.txt -text
 dev/sortedbidixes/dan-nb.dix -text svneol=unset#application/xml
 dev/sortedbidixes/dan-nn.dix -text svneol=unset#application/xml
 dev/sortedbidixes/sortedbidixes.tar.gz -text svneol=unset#application/x-gzip
-dev/testvoc/inconsistency-summary.sh -text
-dev/testvoc/inconsistency.sh -text
-dev/testvoc/testvoc-summary.dan-nob.txt -text
-dev/testvoc/testvoc-summary.nob-dan.txt -text
-dev/testvoc/testvoc.sh -text
+dev/testvoc/bidix-unknowns.sh -text
+dev/testvoc/generation.sh -text
+dev/testvoc/streamparser.py -text
 /modes.xml -text
 t/README.org -text
 t/config.sh -text
