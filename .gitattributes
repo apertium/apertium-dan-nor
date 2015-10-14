@@ -42,6 +42,12 @@ dev/testvoc/testvoc-summary.dan-nob.txt -text
 dev/testvoc/testvoc-summary.nob-dan.txt -text
 dev/testvoc/testvoc.sh -text
 /modes.xml -text
+t/README.org -text
+t/config.sh -text
+t/pending-tests -text
+t/regression-tests -text
+t/update-latest -text
+t/wiki-tests -text
 texts/evaluationtext14072013.dan.txt -text
 texts/evaluationtext14072013.nob.txt -text
 texts/finalevaluation.edited.nob-dan.dan.txt -text
