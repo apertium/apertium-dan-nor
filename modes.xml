@@ -95,7 +95,7 @@
     </pipeline>
   </mode>
 
-  <mode name="dan-nno-debug" install="no">
+  <mode name="dan-nno-dgen" install="no">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
@@ -210,7 +210,7 @@
     </pipeline>
   </mode>
 
-  <mode name="dan-nob-debug" install="no">
+  <mode name="dan-nob-dgen" install="no">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
@@ -334,7 +334,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-dan-debug" install="no">
+  <mode name="nno-dan-dgen" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nno-dan.automorf.bin"/>
@@ -461,7 +461,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nob-dan-debug" install="no">
+  <mode name="nob-dan-dgen" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
