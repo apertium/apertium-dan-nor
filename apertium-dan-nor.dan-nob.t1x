@@ -603,6 +603,7 @@
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="1"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="n_n" case="caseFirstWord">
@@ -621,6 +622,8 @@
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
         <out>
           <chunk name="n_n_n" case="caseFirstWord">
@@ -641,6 +644,9 @@
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="2"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="4"/></call-macro>
         <out>
           <chunk name="n_n_n_n" case="caseFirstWord">
@@ -700,6 +706,7 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
@@ -729,6 +736,8 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="2"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="4"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
@@ -760,6 +769,9 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="2"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="4"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="5"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
@@ -832,6 +844,7 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="4"/></call-macro>
         <choose><when>
           <!-- set_grau_aux2 may have removed the first adj: -->
@@ -874,6 +887,8 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="4"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="5"/></call-macro>
         <choose><when>
           <!-- set_grau_aux2 may have removed the first adj: -->
@@ -918,6 +933,9 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="3"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="4"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="5"/></call-macro>
         <call-macro n="set_ntags"><with-param pos="6"/></call-macro>
         <choose><when>
           <!-- set_grau_aux2 may have removed the first adj: -->
