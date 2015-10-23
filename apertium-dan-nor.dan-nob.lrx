@@ -1,5 +1,100 @@
 <rules>
   <rule>
-    <match lemma="word1"><select lemma="word2"/></match>
+    <match lemma="måling" tags="n.*.pl.*">
+      <select lemma="måling"/>
+    </match>
+  </rule>
+  <rule>
+    <or>
+      <match lemma="tynd"/>
+      <match lemma="oljebasert"/>
+      <match lemma="sort"/>
+      <match lemma="lag"/>
+      <match lemma="forme"/>
+    </or>
+    <match lemma="måling" tags="n.*.sg.ind">
+      <select lemma="maling"/>
+    </match>
+  </rule>
+  <rule>
+    <match lemma="måling" tags="n.*.sg.ind">
+      <select lemma="maling"/>
+    </match>
+    <match/>
+    <or>
+      <match lemma="altertavle"/>
+      <match lemma="væg"/>
+      <match lemma="kunst"/>
+      <match lemma="grafisk"/>
+    </or>
+  </rule>
+
+  <rule>
+    <match lemma="ret" tags="n.*">
+      <select lemma="rett"/>
+    </match>
+    <match lemma="smage" tags="vblex.*"/>
+  </rule>
+  <rule>
+    <match lemma="tradisjonell" tags="adj.*"/>
+    <match/>
+    <match lemma="rett" tags="n.*">
+      <select lemma="rett"/>
+    </match>
+  </rule>
+  <rule>
+    <match lemma="traditionel" tags="adj.*"/>
+    <match lemma="ret" tags="n.*">
+      <select lemma="rett"/>
+    </match>
+  </rule>
+  <rule>
+    <match lemma="ret" tags="n.*">
+      <select lemma="rettighet"/>
+    </match>
+    <match lemma="du" tags="det.pos.*"/>
+  </rule>
+  <rule>
+    <match lemma="ret" tags="n.*">
+      <select lemma="rettighet"/>
+    </match>
+    <match lemma="til" tags="pr.*"/>
+  </rule>
+  <rule>
+    <match lemma="ret" tags="n.*">
+      <select lemma="rettighet"/>
+    </match>
+    <match lemma="og"/>
+    <match lemma="pligt"/>
+  </rule>
+
+  <rule>
+    <match lemma="værke" tags="vblex.*">
+      <select lemma="værke"/>
+    </match>
+    <match lemma="i"/>
+  </rule>
+  <rule>
+    <match lemma="værke" tags="vblex.*">
+      <select lemma="virke"/>
+    </match>
+  </rule>
+
+  <rule>
+    <match lemma="tilsætte" tags="vblex.*">
+      <select lemma="tilsette"/>
+    </match>
+    <or>
+      <match lemma="i"/>
+      <match lemma="gær"/>
+      <match lemma="syre"/>
+      <match lemma="du"/>
+      <match lemma="smag"/>
+    </or>
+  </rule>
+  <rule>
+    <match lemma="tilsætte" tags="vblex.*">
+      <select lemma="ansette"/>
+    </match>
   </rule>
 </rules>
