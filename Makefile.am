@@ -33,12 +33,12 @@ TARGETS_COMMON = \
       $(PREFIX1b).autogen.bin \
       $(PREFIX1b).autolex.bin \
       $(PREFIX1b).automorf.bin \
-      $(PREFIX1b).t1x.bin \
+      $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
       $(PREFIX1n).autobil.bin \
       $(PREFIX1n).autogen.bin \
       $(PREFIX1n).autolex.bin \
       $(PREFIX1n).automorf.bin \
-      $(PREFIX1n).t1x.bin \
+      $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
       $(PREFIX2n).prob \
       $(PREFIX2b).prob \
       $(PREFIX2b).automorf.bin \
@@ -153,9 +153,27 @@ $(PREFIX1b).t1x.bin: $(BASENAME).$(PREFIX1b).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
+$(PREFIX1b).t2x.bin: $(BASENAME).$(PREFIX1b).t2x
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX1b).t3x.bin: $(BASENAME).$(PREFIX1b).t3x
+	apertium-validate-postchunk $<
+	apertium-preprocess-transfer $< $@
+
+
 $(PREFIX1n).t1x.bin: $(BASENAME).$(PREFIX1n).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
+
+$(PREFIX1n).t2x.bin: $(BASENAME).$(PREFIX1n).t2x
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX1n).t3x.bin: $(BASENAME).$(PREFIX1n).t3x
+	apertium-validate-postchunk $<
+	apertium-preprocess-transfer $< $@
+
 
 
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
@@ -187,6 +205,10 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX2n).lrx \
 	   $(BASENAME).$(PREFIX1n).t1x \
 	   $(BASENAME).$(PREFIX1b).t1x \
+	   $(BASENAME).$(PREFIX1n).t2x \
+	   $(BASENAME).$(PREFIX1b).t2x \
+	   $(BASENAME).$(PREFIX1n).t3x \
+	   $(BASENAME).$(PREFIX1b).t3x \
 	   $(BASENAME).$(PREFIX2).t1x \
 	   $(BASENAME).$(PREFIX2).t2x \
 	   $(BASENAME).$(LANG1).acx \
@@ -202,6 +224,10 @@ apertium_dan_nordir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_dan_nor_DATA=$(TARGETS_COMMON) \
 	$(BASENAME).$(PREFIX1n).t1x \
 	$(BASENAME).$(PREFIX1b).t1x \
+	$(BASENAME).$(PREFIX1n).t2x \
+	$(BASENAME).$(PREFIX1b).t2x \
+	$(BASENAME).$(PREFIX1n).t3x \
+	$(BASENAME).$(PREFIX1b).t3x \
 	$(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x
 

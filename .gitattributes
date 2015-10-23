@@ -10,8 +10,12 @@
 /alt.xsl -text
 /apertium-dan-nor.dan-nno.lrx -text
 /apertium-dan-nor.dan-nno.t1x -text
+/apertium-dan-nor.dan-nno.t2x -text
+/apertium-dan-nor.dan-nno.t3x -text
 /apertium-dan-nor.dan-nob.lrx -text
 /apertium-dan-nor.dan-nob.t1x -text
+/apertium-dan-nor.dan-nob.t2x -text
+/apertium-dan-nor.dan-nob.t3x -text
 /apertium-dan-nor.dan-nor.dix -text
 /apertium-dan-nor.dan.acx -text
 /apertium-dan-nor.nno-dan.lrx -text

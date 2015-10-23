@@ -19,6 +19,14 @@
         <file name="apertium-dan-nor.dan-nno.t1x"/>
         <file name="dan-nno.t1x.bin"/>
       </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.dan-nno.t2x"/>
+        <file name="dan-nno.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.dan-nno.t3x"/>
+        <file name="dan-nno.t3x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="dan-nno.autogen.bin"/>
       </program>
@@ -111,6 +119,14 @@
         <file name="apertium-dan-nor.dan-nno.t1x"/>
         <file name="dan-nno.t1x.bin"/>
       </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.dan-nno.t2x"/>
+        <file name="dan-nno.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.dan-nno.t3x"/>
+        <file name="dan-nno.t3x.bin"/>
+      </program>
       <program name="lt-proc -d">
         <file name="dan-nno.autogen.bin"/>
       </program>
@@ -134,6 +150,14 @@
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
         <file name="dan-nob.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.dan-nob.t2x"/>
+        <file name="dan-nob.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.dan-nob.t3x"/>
+        <file name="dan-nob.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="dan-nob.autogen.bin"/>
@@ -225,6 +249,14 @@
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
         <file name="dan-nob.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.dan-nob.t2x"/>
+        <file name="dan-nob.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.dan-nob.t3x"/>
+        <file name="dan-nob.t3x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="dan-nob.autogen.bin"/>
