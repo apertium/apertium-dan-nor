@@ -158,7 +158,7 @@
       <attr-item tags="det.qnt.neg"/>
       <attr-item tags="det.pos"/>
     </def-attr>
-    
+
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.pp"/>
@@ -179,7 +179,7 @@
     <def-attr n="grau">
       <attr-item tags="pst"/>
       <attr-item tags="comp"/>
-      <attr-item tags="sup"/> 
+      <attr-item tags="sup"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -187,6 +187,7 @@
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
       <attr-item tags="f"/>
+      <attr-item tags="ut"/>
       <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="nbr">
@@ -287,6 +288,7 @@
         <test><or>
           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></equal>
           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+          <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="ut"/></equal>
           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
         </or></test>
         <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
@@ -312,7 +314,7 @@
       <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
     </def-macro>
 
-    
+
 
     <def-macro n="set_grau_aux1" npar="1"
                c="arg.1: adjective
