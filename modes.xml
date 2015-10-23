@@ -84,7 +84,7 @@
     </pipeline>
   </mode>
 
-  <mode name="dan-nno-transfer" install="no">
+  <mode name="dan-nno-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
@@ -99,6 +99,57 @@
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.dan-nno.t1x"/>
         <file name="dan-nno.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nno-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nno.t1x"/>
+        <file name="dan-nno.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-dan-nor.dan-nno.t2x"/>
+        <file name="dan-nno.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="dan-nno-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nno.t1x"/>
+        <file name="dan-nno.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.dan-nno.t2x"/>
+        <file name="dan-nno.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.dan-nno.t3x"/>
+        <file name="dan-nno.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -215,7 +266,7 @@
     </pipeline>
   </mode>
 
-  <mode name="dan-nob-transfer" install="no">
+  <mode name="dan-nob-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
@@ -230,6 +281,56 @@
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
         <file name="dan-nob.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nob.t1x"/>
+        <file name="dan-nob.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-dan-nor.dan-nob.t2x"/>
+        <file name="dan-nob.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.dan-nob.t1x"/>
+        <file name="dan-nob.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.dan-nob.t2x"/>
+        <file name="dan-nob.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.dan-nob.t3x"/>
+        <file name="dan-nob.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
