@@ -1,5 +1,11 @@
 <rules>
   <rule>
+    <match lemma="bid" tags="n.*">
+      <select lemma="bete"/>
+    </match>
+  </rule>
+
+  <rule>
     <match lemma="male" tags="vblex.*">
       <select lemma="male"/>
     </match>

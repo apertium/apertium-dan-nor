@@ -30,6 +30,12 @@
   </rule>
 
   <rule>
+    <match lemma="bid" tags="n.*">
+      <select lemma="bit"/>
+    </match>
+  </rule>
+
+  <rule>
     <match lemma="ret" tags="n.*">
       <select lemma="rett"/>
     </match>
