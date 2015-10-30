@@ -8,6 +8,9 @@
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
       </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
       </program>
@@ -74,6 +77,9 @@
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
       </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
       </program>
@@ -88,6 +94,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -107,6 +116,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -131,6 +143,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -158,6 +173,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -190,6 +208,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -256,6 +277,9 @@
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
       </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
       </program>
@@ -270,6 +294,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -289,6 +316,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -312,6 +342,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
@@ -339,6 +372,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="dan-nor.prob"/>
