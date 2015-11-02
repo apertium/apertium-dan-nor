@@ -99,11 +99,11 @@ $(PREFIX2n).prob: $(AP_SRC2n)/$(LANG2n).prob
 	cp $< $@
 
 ###############################################################################
-## Disambiguation rules 
+## Disambiguation rules
 ###############################################################################
 
 $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
-	cg-comp $< $@ 
+	cg-comp $< $@
 
 $(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
 	cg-comp $< $@
@@ -235,8 +235,8 @@ install-data-local: install-modes
 ## Cleanup
 ###############################################################################
 
-CLEANFILES = $(TARGETS_COMMON) 
-clean-local: 
+CLEANFILES = $(TARGETS_COMMON)
+clean-local:
 	-rm -rf .deps modes
 
 ###############################################################################
