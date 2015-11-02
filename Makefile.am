@@ -8,9 +8,6 @@ LANG2=nor
 LANG2n=nno
 LANG2b=nob
 
-# If --with-lang specified, always make dependencies first:
-SUBDIRS=$(AP_SUBDIRS)
-
 # dan-nor
 PREFIX1=$(LANG1)-$(LANG2)
 # dan-nob
