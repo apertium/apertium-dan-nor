@@ -27,7 +27,7 @@ fi
 
 analysis-expansion () {
     lt-expand "$1" \
-        | awk -F':|:[<>]:' '
+        | awk -v clb="$2" -F':|:[<>]:' '
           /:<:/ {next}
           $2 ~ /<compound-(R|only-L)>|DUE_TO_LT_PROC_HANG|__REGEXP__/ {next}
           {
@@ -35,7 +35,7 @@ analysis-expansion () {
             gsub("/","\\/",esc)
             gsub("^","\\^",esc)
             gsub("$","\\$",esc)
-            print "["esc"] ^"$1"/"$2"$ ^./.<sent><clb>$"
+            print "["esc"] ^"$1"/"$2"$ ^./.<sent>"clb"$"
           }'
 }
 
@@ -75,6 +75,11 @@ if [[ ${dix} = guess ]]; then
     dix=${lang1dir}/apertium-${lang1}.${lang1}.dix
 fi
 
-analysis-expansion "${dix}" \
+clb=""
+case ${lang1} in
+    nno|nob) clb="<clb>" ;;
+esac
+
+analysis-expansion "${dix}" "${clb}" \
     | mode-after-analysis modes/"${mode}".mode \
     | only-errs
