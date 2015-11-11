@@ -133,12 +133,15 @@ $(PREFIX2n).autolex.bin: $(BASENAME).$(PREFIX2n).lrx
 ###############################################################################
 
 $(PREFIX1b).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $<
 	lt-comp --var-right=nob lr $< $@
 
 $(PREFIX1n).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $<
 	lt-comp --var-right=nno lr $< $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
 
