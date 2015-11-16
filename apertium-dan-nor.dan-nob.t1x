@@ -220,6 +220,12 @@
 
   <section-def-lists>
 
+    <def-list n="være_pass"
+              c="Verbs which require være instead of bli.">
+      <list-item v="vite"/>
+      <list-item v="eie"/>
+    </def-list>
+
     <def-list n="det_indef">
       <!-- feels like these should have their own
            sub-pos... «<det><dem> som kan ha <ind> etter seg på
@@ -465,6 +471,25 @@
         </out>
       </otherwise>
       </choose>
+    </def-macro>
+
+    <def-macro n="set_aux" npar="1"
+               c="arg.1: main/content verb">
+      <let><var n="aux"/><lit v=""/></let>
+      <choose>
+        <when>
+          <test><in><clip pos="1" side="tl" part="lemh"/><list n="være_pass"/></in></test>
+          <let><var n="aux"/><lit v="^være"/></let>
+        </when>
+        <otherwise>
+          <let><var n="aux"/><lit v="^bli"/></let>
+        </otherwise>
+      </choose>
+      <append n="aux">
+        <clip pos="1" side="tl" part="a_verb"/>
+        <clip pos="1" side="tl" part="temps"/>
+        <lit v="$"/>
+      </append>
     </def-macro>
 
   </section-def-macros>
