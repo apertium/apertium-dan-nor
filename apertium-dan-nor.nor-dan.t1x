@@ -226,7 +226,6 @@
 
     <def-attr n="a_diatese">
       <attr-item tags="pasv"/>
-      <attr-item tags="pass"/>
       <attr-item tags="actv"/>
     </def-attr>
 
@@ -443,22 +442,11 @@
           <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
         </choose>
 
-
-        <choose>
-          <when><test><equal>
-            <!--  if diatese tag is 'pass' convert to 'pasv' -->
-            <clip pos="1" side="sl" part="a_diatese"/><lit-tag v="pass"/></equal></test>
-          <let><var n="diatese"/><lit-tag v="pasv"/></let></when>
-        </choose>
-
-
         <choose>
           <when><test><equal>
             <!--  if tag is 'pret' convert to 'past' -->
             <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
           <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
-
-
         </choose>
 
         <out>
@@ -1052,22 +1040,11 @@
           <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
         </choose>
 
-
-        <choose>
-          <when><test><equal>
-            <!--  if diatese tag is 'pass' convert to 'pasv' -->
-            <clip pos="1" side="sl" part="a_diatese"/><lit-tag v="pass"/></equal></test>
-          <let><var n="diatese"/><lit-tag v="pasv"/></let></when>
-        </choose>
-
-
         <choose>
           <when><test><equal>
             <!--  if tag is 'pret' convert to 'past' -->
             <clip pos="1" side="sl" part="tense"/><lit-tag v="pret"/></equal></test>
           <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let></when>
-
-
         </choose>
 
         <out>

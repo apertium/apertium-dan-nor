@@ -103,11 +103,11 @@
       <cat-item tags="vblex.inf"/>
     </def-cat>
     <def-cat n="vblexinfpass">
-      <cat-item tags="vblex.inf.pass"/>
+      <cat-item tags="vblex.inf.pasv"/>
     </def-cat>
-    <def-cat n="vblexpass">
-      <cat-item tags="vblex.*.pass"/>
-      <cat-item tags="vblex.pstv.pres"/>
+    <def-cat n="vblexpasspret">
+      <cat-item tags="vblex.past.pasv"/>
+      <cat-item tags="vblex.pstv.past.actv"/>
     </def-cat>
     <def-cat n="vblex_kan">
       <cat-item lemma="kunne" tags="vblex.*"/>
@@ -147,7 +147,7 @@
       <attr-item tags="pp"/>
     </def-attr>
     <def-attr n="voice">
-      <attr-item tags="pass"/>
+      <attr-item tags="pasv"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det"/>
@@ -213,7 +213,6 @@
     <def-var n="caseFirstWord"/>
     <def-var n="c_name"         c="chunk name"/>
     <def-var n="ntags"/>
-    <def-var n="pass"/>
     <def-var n="aux"/>
     <def-var n="blank"/>
     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
@@ -473,6 +472,67 @@
 
 
   <section-rules>
+    <rule comment="VBLEX.PASS.PRET: lestes => ble lest
+                   syntes => syntes
+
+                   If we translate into a pstv verb, output like the regular VBLEX rule.
+
+                   If we don't see an infinitive marker in t2x, the aux gets
+                   deleted again.">
+      <pattern>
+        <pattern-item n="vblexpasspret"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test><equal>
+              <clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex.pstv"/>
+            </equal></test>
+            <out>
+              <chunk name="vblex" case="caseFirstWord">
+                <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <call-macro n="set_aux"><with-param pos="1"/></call-macro>
+            <!-- todo: why do I get a bus error when calling set_aux2 here? -->
+            <out>
+              <chunk name="aux" case="caseFirstWord">
+                <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+                <var n="aux"/>
+              </chunk>
+              <b/>
+              <chunk name="adj">
+                <tags>
+                  <tag><lit-tag v="adj.pp.nt.sg.ind"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <lit-tag v="adj.pp.nt.sg.ind"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <choose><when>
+          <test><not><equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal></not></test>
+          <out>
+            <chunk name="lemq">
+              <tags><tag><lit-tag v="vblex.lemq"/></tag></tags>
+              <lu><clip pos="1" side="tl" part="lemq"/></lu>
+            </chunk>
+          </out>
+        </when></choose>
+      </action>
+    </rule>
+
     <rule comment="VBLEX">
       <pattern>
         <pattern-item n="vblex"/>
@@ -1126,13 +1186,13 @@
             <tags>
               <tag><lit-tag v="vblex"/></tag>
               <tag><lit-tag v="inf"/></tag>
-              <tag><lit-tag v="pass"/></tag>
+              <tag><lit-tag v="pasv"/></tag>
             </tags>
             <lu>
               <lit v="bruke"/>
               <lit-tag v="vblex"/>
               <lit-tag v="inf"/>
-              <lit-tag v="pass"/>
+              <lit-tag v="pasv"/>
             </lu>
           </chunk>
         </out>
