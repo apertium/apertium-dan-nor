@@ -180,19 +180,7 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-# Not used:
-# $(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
-# 	apertium-validate-interchunk $<
-# 	apertium-preprocess-transfer $< $@
 
-
-
-###############################################################################
-## Translation modes
-###############################################################################
-
-# All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1b).mode
 
 ###############################################################################
 ## Distribution
@@ -230,6 +218,9 @@ apertium_dan_nor_DATA=$(TARGETS_COMMON) \
 	$(BASENAME).$(PREFIX1b).t3x \
 	$(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x
+
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1b).mode
 
 install-data-local: install-modes
 
