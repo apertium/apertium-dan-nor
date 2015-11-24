@@ -18,6 +18,9 @@
       <program name="lt-proc -b">
         <file name="dan-nno.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nno.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nno.t1x"/>
         <file name="dan-nno.t1x.bin"/>
@@ -90,6 +93,27 @@
     </pipeline>
   </mode>
 
+  <mode name="dan-nno-lex" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m -t">
+        <file name="dan-nno.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="dan-nno-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e">
@@ -104,6 +128,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.dan-nno.t1x"/>
@@ -126,6 +153,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nno.t1x"/>
@@ -153,6 +183,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nno.t1x"/>
@@ -183,6 +216,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nno.t1x"/>
@@ -218,6 +254,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nob.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
@@ -290,6 +329,27 @@
     </pipeline>
   </mode>
 
+  <mode name="dan-nob-lex" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m -t">
+        <file name="dan-nob.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="dan-nob-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e">
@@ -304,6 +364,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nob.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
@@ -326,6 +389,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nob.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
@@ -352,6 +418,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nob.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
@@ -382,6 +451,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nob.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.dan-nob.t1x"/>
@@ -417,6 +489,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nor-dan.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -496,6 +571,9 @@
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m">
+        <file name="nor-dan.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
@@ -517,6 +595,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nor-dan.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -544,6 +625,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nor-dan.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
@@ -623,6 +707,9 @@
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m">
+        <file name="nor-dan.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
@@ -644,6 +731,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nor-dan.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
