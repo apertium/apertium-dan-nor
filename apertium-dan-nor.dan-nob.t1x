@@ -96,6 +96,7 @@
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbmod.*"/>
       <cat-item tags="vbaux.*"/>
     </def-cat>
     <def-cat n="vblexpp">
@@ -113,6 +114,7 @@
       <cat-item tags="vbser.past.pasv"/>
       <cat-item tags="vbaux.past.pasv"/>
       <cat-item tags="vbhaver.past.pasv"/>
+      <cat-item tags="vbmod.past.pasv"/>
       <cat-item tags="vblex.pstv.past.actv"/>
     </def-cat>
   </section-def-cats>
@@ -133,6 +135,7 @@
       <attr-item tags="vblex.pstv"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
       <attr-item tags="vbaux"/>
     </def-attr>
     <def-attr n="temps">
