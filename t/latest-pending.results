@@ -1,26 +1,26 @@
-Revision: 62714
-AP_SRC1 Revision: 62675
-AP_SRC2b Revision: 62659
-AP_SRC2n Revision: 62660
+Revision: 63559
+AP_SRC1 Revision: 63559
+AP_SRC2b Revision: 63559
+AP_SRC2n Revision: 63559
 Running Pending-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
 	- Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgitt av den ideelle organisasjonen Wikimedia Foundation.
-	+ Wikipedia er ein internasjonal internettbasert encyklopedi derne utgje av #den *ideelle organisasjon Wikimedia Foundation.
+	+ Wikipedia er ein internasjonal internettbasert encyklopedi der vert utgjeve av han *ideelle organisasjon Wikimedia Foundation.
 
 
 0 / 1, 0%
-Revision: 62714
-AP_SRC1 Revision: 62675
-AP_SRC2b Revision: 62659
-AP_SRC2n Revision: 62660
+Revision: 63559
+AP_SRC1 Revision: 63559
+AP_SRC2b Revision: 63559
+AP_SRC2n Revision: 63559
 Running Pending-tests with mode "nno-dan" with updated tests ...
 
 0 / 0, Error 10002%
-Revision: 62714
-AP_SRC1 Revision: 62675
-AP_SRC2b Revision: 62659
-AP_SRC2n Revision: 62660
+Revision: 63559
+AP_SRC1 Revision: 63559
+AP_SRC2b Revision: 63559
+AP_SRC2n Revision: 63559
 Running Pending-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
@@ -29,10 +29,10 @@ dan-nob	  Wikipedia er en international internetbaseret encyklopædi der udgives
 
 
 0 / 1, 0%
-Revision: 62714
-AP_SRC1 Revision: 62675
-AP_SRC2b Revision: 62659
-AP_SRC2n Revision: 62660
+Revision: 63559
+AP_SRC1 Revision: 63559
+AP_SRC2b Revision: 63559
+AP_SRC2n Revision: 63559
 Running Pending-tests with mode "nob-dan" with updated tests ...
 
 0 / 0, Error 10002%

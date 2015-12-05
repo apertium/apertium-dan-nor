@@ -170,8 +170,11 @@
     <def-cat n="måte">
       <cat-item lemma="måte" tags="n.m.sg.ind"/>
     </def-cat>
-    <def-cat n="vblex">
+    <def-cat n="verb">
       <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbaux.*"/>
     </def-cat>
     <def-cat n="vblexpp">
       <cat-item tags="vblex.pp"/>
@@ -187,8 +190,11 @@
     <def-cat n="vblexinfpass">
       <cat-item tags="vblex.inf.pasv"/>
     </def-cat>
-    <def-cat n="vblexpass">
+    <def-cat n="verbpass">
       <cat-item tags="vblex.*.pasv"/>
+      <cat-item tags="vbser.*.pasv"/>
+      <cat-item tags="vbaux.*.pasv"/>
+      <cat-item tags="vbhaver.*.pasv"/>
       <cat-item tags="vblex.pstv.pres"/>
       <cat-item tags="vblex.pstv.pret"/>
     </def-cat>
@@ -208,6 +214,9 @@
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vblex.pstv"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbaux"/>
     </def-attr>
     <def-attr n="temps">
       <attr-item tags="inf"/>
@@ -664,7 +673,8 @@
 
   <section-rules>
     <!-- Verbs -->
-    <rule comment="VBLEX.PASS: leses => vert lest
+
+    <rule comment="VERB.PASS: leses => vert lest
                    beholdes [ikke] => vert [ikkje] haldt på
                    synes => synest
 
@@ -677,7 +687,7 @@
                    If we don't see an infinitive marker in t2x, the aux gets
                    deleted again.">
       <pattern>
-        <pattern-item n="vblexpass"/>
+        <pattern-item n="verbpass"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -687,7 +697,7 @@
               <clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex.pstv"/>
             </equal></test>
             <out>
-              <chunk name="vblex" case="caseFirstWord">
+              <chunk name="verb" case="caseFirstWord">
                 <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
                 <lu>
                   <clip pos="1" side="tl" part="lemh"/>
@@ -732,13 +742,14 @@
 
     <rule comment="VBLEXPP
                    This rule has to be above the regular vblex rule,
-                   override lemq-moving for pp verbs.">
+                   override lemq-moving for pp verbs.
+                   (No ser/haver/aux do lemq-moving, so don't have to match those.)">
       <pattern>
         <pattern-item n="vblexpp"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <let><var n="c_name"/><lit v="vblex"/></let>
+        <let><var n="c_name"/><lit v="verb"/></let>
         <choose><when>
           <test><or>
             <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
@@ -760,16 +771,16 @@
       </action>
     </rule>
 
-    <rule comment="VBLEX
+    <rule comment="VERB
                    If we have nn multiwords, these need the lemq after the
                    inflected part. All lemq's include their own initial space.
                    This rule has to be below the passive rule.">
       <pattern>
-        <pattern-item n="vblex"/>
+        <pattern-item n="verb"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <let><var n="c_name"/><lit v="vblex"/></let>
+        <let><var n="c_name"/><lit v="verb"/></let>
         <choose><when>
           <test><or>
             <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
@@ -865,7 +876,7 @@
           <b pos="3"/>
         </out>
         <call-macro n="set_caseFirstWord"><with-param pos="4"/></call-macro>
-        <let><var n="c_name"/><lit v="vblex"/></let>
+        <let><var n="c_name"/><lit v="verb"/></let>
         <choose><when>
           <test><or>
             <equal><clip pos="4" side="tl" part="lemh"/><lit v="bli"/></equal>
@@ -931,12 +942,12 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
             </test>
             <call-macro n="set_aux2"><with-param pos="4"/><with-param pos="4"/></call-macro>
             <out>
-              <chunk name="vblex" case="caseFirstWord">
+              <chunk name="verb" case="caseFirstWord">
                 <tags><tag><clip pos="4" side="tl" part="tags"/></tag></tags>
                 <var n="aux"/>
               </chunk>
               <b pos="3"/>
-              <chunk name="vblex" case="caseFirstWord">
+              <chunk name="verb" case="caseFirstWord">
                 <tags><tag><clip pos="4" side="tl" part="tags"/></tag></tags>
                 <lu>
                   <clip pos="4" side="tl" part="lemh"/>
@@ -950,7 +961,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
           <otherwise>
             <out>
               <b pos="3"/>
-              <chunk name="vblex" case="caseFirstWord">
+              <chunk name="verb" case="caseFirstWord">
                 <tags><tag><clip pos="4" side="tl" part="tags"/></tag></tags>
                 <lu>
                   <clip pos="4" side="tl" part="lemh"/>

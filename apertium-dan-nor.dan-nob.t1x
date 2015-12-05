@@ -92,8 +92,11 @@
     <def-cat n="måte">
       <cat-item lemma="måte" tags="n.m.sg.ind"/>
     </def-cat>
-    <def-cat n="vblex">
+    <def-cat n="verb">
       <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbaux.*"/>
     </def-cat>
     <def-cat n="vblexpp">
       <cat-item tags="vblex.pp"/>
@@ -105,22 +108,12 @@
     <def-cat n="vblexinfpass">
       <cat-item tags="vblex.inf.pasv"/>
     </def-cat>
-    <def-cat n="vblexpasspret">
+    <def-cat n="verbpasspret">
       <cat-item tags="vblex.past.pasv"/>
+      <cat-item tags="vbser.past.pasv"/>
+      <cat-item tags="vbaux.past.pasv"/>
+      <cat-item tags="vbhaver.past.pasv"/>
       <cat-item tags="vblex.pstv.past.actv"/>
-    </def-cat>
-    <def-cat n="vblex_kan">
-      <cat-item lemma="kunne" tags="vblex.*"/>
-    </def-cat>
-    <def-cat n="vblex_bli">
-      <cat-item lemma="bli" tags="vblex.*"/>
-      <cat-item lemma="verte" tags="vblex.*"/>
-    </def-cat>
-    <def-cat n="vblex_brukt">
-      <cat-item lemma="bruke" tags="vblex.pp"/>
-      <cat-item lemma="bruke" tags="adj.pp.*"/>
-      <cat-item lemma="nytte" tags="vblex.pp"/>
-      <cat-item lemma="nytte" tags="adj.pp.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -138,6 +131,9 @@
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vblex.pstv"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbaux"/>
     </def-attr>
     <def-attr n="temps">
       <attr-item tags="inf"/>
@@ -505,7 +501,7 @@
                    If we don't see an infinitive marker in t2x, the aux gets
                    deleted again.">
       <pattern>
-        <pattern-item n="vblexpasspret"/>
+        <pattern-item n="verbpasspret"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -558,9 +554,9 @@
       </action>
     </rule>
 
-    <rule comment="VBLEX">
+    <rule comment="VERB">
       <pattern>
-        <pattern-item n="vblex"/>
+        <pattern-item n="verb"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -1168,57 +1164,6 @@
           <chunk name="prn" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <!-- Idiomatic rules: -->
-    <rule comment="KAN BLI BRUKT">
-      <pattern>
-        <pattern-item n="vblex_kan"/>
-        <pattern-item n="vblex_bli"/>
-        <pattern-item n="vblex_brukt"/>
-      </pattern>
-      <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-
-        <choose c="merge blanks">
-          <when>
-            <test><equal><b pos="1"/><lit v=" "/></equal></test>
-            <let><var n="blank"/><b pos="2"/></let>
-          </when>
-          <when>
-            <test><equal><b pos="2"/><lit v=" "/></equal></test>
-            <let><var n="blank"/><b pos="1"/></let>
-          </when>
-          <otherwise>
-            <let><var n="blank"/><concat><b pos="1"/><b pos="2"/></concat></let>
-          </otherwise>
-        </choose>
-
-        <out>
-          <chunk name="aux" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-          <var n="blank"/>
-          <chunk name="vblex" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="vblex"/></tag>
-              <tag><lit-tag v="inf"/></tag>
-              <tag><lit-tag v="pasv"/></tag>
-            </tags>
-            <lu>
-              <lit v="bruke"/>
-              <lit-tag v="vblex"/>
-              <lit-tag v="inf"/>
-              <lit-tag v="pasv"/>
-            </lu>
           </chunk>
         </out>
       </action>
