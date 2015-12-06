@@ -402,6 +402,7 @@
 
         <otherwise>
           <!-- Or maybe we want to _add_ meir/mest: -->
+          <call-macro n="set_grau_aux1"><with-param pos="2"/></call-macro> <!-- TODO: a bit hacky, but fixes tags on word 2 at least -->
           <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
         </otherwise>
       </choose>
