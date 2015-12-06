@@ -1,5 +1,6 @@
 <rules>
   <rule> <match lemma="vinde" tags="vblex.*"> <select lemma="vinne"/> </match> </rule>
+  <rule> <match lemma="stor" tags="adj.*"> <select lemma="stor"/> </match> </rule>
 
   <rule> <match lemma="foreligge" tags="vblex.*"> <select lemma="finnast"/> </match> </rule>
   <rule> <match lemma="foreligge" tags="adj.*"> <select lemma="gjelde"/> </match> </rule>
