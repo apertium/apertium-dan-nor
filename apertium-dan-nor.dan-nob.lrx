@@ -1,4 +1,6 @@
 <rules>
+  <rule> <match lemma="vinde" tags="vblex.*"> <select lemma="vinne"/> </match> </rule>
+
   <rule>
     <match lemma="måling" tags="n.*.pl.*">
       <select lemma="måling"/>
