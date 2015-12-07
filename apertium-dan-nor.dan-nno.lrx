@@ -1,4 +1,15 @@
 <rules>
+  <rule> <match lemma="svæve" tags="vblex.*"> <select lemma="sveve"/> </match> </rule>
+  <rule weight="2.0">
+    <match lemma="svæve" tags="vblex.*"> <select lemma="svæve"/> </match>
+    <match lemma="barn"/>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="svæve" tags="vblex.*"> <select lemma="svæve"/> </match>
+    <match/>
+    <match lemma="barn"/>
+  </rule>
+
   <rule> <match lemma="vinde" tags="vblex.*"> <select lemma="vinne"/> </match> </rule>
   <rule> <match lemma="stor" tags="adj.*"> <select lemma="stor"/> </match> </rule>
 
@@ -7,28 +18,28 @@
 
   <rule> <match lemma="forekomme" tags="vblex.*"> <select lemma="finnast"/> </match> </rule>
   <rule> <match lemma="forekomme" tags="adj.*"> <select lemma="hende"/> </match> </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="forekomme" tags="vblex.*"> <select lemma="hende"/> </match>
     <or> <match lemma="ofte"/> <match lemma="at"/> </or>
   </rule>
-  <rule c="det forekommer meg at (could do mwe, but then nno would need mwe too, meh)">
+  <rule weight="2.0" c="det forekommer meg at (could do mwe, but then nno would need mwe too, meh)">
     <match lemma="forekomme" tags="vblex.*"> <select lemma="slå"/> </match>
     <match tags="prn.*"/>
   </rule>
-  <rule c="forekommer det meg">
+  <rule weight="2.0" c="forekommer det meg">
     <match lemma="forekomme" tags="vblex.*"> <select lemma="slå"/> </match>
     <match lemma="det"/>
     <match tags="prn.*"/>
   </rule>
 
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="bid" tags="n.*">
       <select lemma="bete"/>
     </match>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="male" tags="vblex.*">
       <select lemma="male"/>
     </match>
@@ -43,50 +54,50 @@
     </or>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="male" tags="vblex.*">
       <select lemma="måle"/>
     </match>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="maling" tags="n.*.sg.ind">
       <select lemma="maling"/>
     </match>
     <match/>
     <match lemma="korn"/>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="maling">
       <select lemma="måling"/>
     </match>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="forestilling" tags="n.*">
       <select lemma="førestilling"/>
     </match>
     <match lemma="om"/>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="forestilling" tags="n.*">
       <select lemma="tilstelling"/>
     </match>
     <match lemma="den"/>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="støtte" tags="n.*">
       <select lemma="støtte"/>
     </match>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="anse" tags="adj.*">
       <select lemma="verdsetje"/>
     </match>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="anse" tags="vblex.*">
       <select lemma="sjå# på"/>
     </match>

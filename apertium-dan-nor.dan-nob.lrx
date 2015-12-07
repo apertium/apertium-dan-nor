@@ -2,12 +2,12 @@
   <rule> <match lemma="vinde" tags="vblex.*"> <select lemma="vinne"/> </match> </rule>
   <rule> <match lemma="stor" tags="adj.*"> <select lemma="stor"/> </match> </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="måling" tags="n.*.pl.*">
       <select lemma="måling"/>
     </match>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <or>
       <match lemma="tynd"/>
       <match lemma="oljebasert"/>
@@ -19,7 +19,7 @@
       <select lemma="maling"/>
     </match>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="måling" tags="n.*.sg.ind">
       <select lemma="maling"/>
     </match>
@@ -32,44 +32,44 @@
     </or>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="bid" tags="n.*">
       <select lemma="bit"/>
     </match>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="ret" tags="n.*">
       <select lemma="rett"/>
     </match>
     <match lemma="smage" tags="vblex.*"/>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="tradisjonell" tags="adj.*"/>
     <match/>
     <match lemma="rett" tags="n.*">
       <select lemma="rett"/>
     </match>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="traditionel" tags="adj.*"/>
     <match lemma="ret" tags="n.*">
       <select lemma="rett"/>
     </match>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="ret" tags="n.*">
       <select lemma="rettighet"/>
     </match>
     <match lemma="du" tags="det.pos.*"/>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="ret" tags="n.*">
       <select lemma="rettighet"/>
     </match>
     <match lemma="til" tags="pr.*"/>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="ret" tags="n.*">
       <select lemma="rettighet"/>
     </match>
@@ -77,19 +77,19 @@
     <match lemma="pligt"/>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="værke" tags="vblex.*">
       <select lemma="værke"/>
     </match>
     <match lemma="i"/>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="værke" tags="vblex.*">
       <select lemma="virke"/>
     </match>
   </rule>
 
-  <rule>
+  <rule weight="2.0">
     <match lemma="tilsætte" tags="vblex.*">
       <select lemma="tilsette"/>
     </match>
@@ -101,7 +101,7 @@
       <match lemma="smag"/>
     </or>
   </rule>
-  <rule>
+  <rule weight="2.0">
     <match lemma="tilsætte" tags="vblex.*">
       <select lemma="ansette"/>
     </match>
