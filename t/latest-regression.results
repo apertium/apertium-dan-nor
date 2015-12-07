@@ -1,7 +1,7 @@
-Revision: 63560
-AP_SRC1 Revision: 63560
-AP_SRC2b Revision: 63560
-AP_SRC2n Revision: 63560
+Revision: 63618
+AP_SRC1 Revision: 63618
+AP_SRC2b Revision: 63618
+AP_SRC2n Revision: 63618
 Running Regression-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  af.
@@ -9,10 +9,10 @@ WORKS	  av.
 
 
 1 / 1, 100%
-Revision: 63560
-AP_SRC1 Revision: 63560
-AP_SRC2b Revision: 63560
-AP_SRC2n Revision: 63560
+Revision: 63618
+AP_SRC1 Revision: 63618
+AP_SRC2b Revision: 63618
+AP_SRC2n Revision: 63618
 Running Regression-tests with mode "nno-dan" with updated tests ...
 
 nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgitt av den ideelle organisasjonen Wikimedia Foundation.
@@ -21,10 +21,10 @@ nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert ut
 
 
 0 / 1, 0%
-Revision: 63560
-AP_SRC1 Revision: 63560
-AP_SRC2b Revision: 63560
-AP_SRC2n Revision: 63560
+Revision: 63618
+AP_SRC1 Revision: 63618
+AP_SRC2b Revision: 63618
+AP_SRC2n Revision: 63618
 Running Regression-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  af.
@@ -32,10 +32,10 @@ WORKS	  av.
 
 
 1 / 1, 100%
-Revision: 63560
-AP_SRC1 Revision: 63560
-AP_SRC2b Revision: 63560
-AP_SRC2n Revision: 63560
+Revision: 63618
+AP_SRC1 Revision: 63618
+AP_SRC2b Revision: 63618
+AP_SRC2n Revision: 63618
 Running Regression-tests with mode "nob-dan" with updated tests ...
 
 nob-dan	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjonen Wikimedia Foundation.
