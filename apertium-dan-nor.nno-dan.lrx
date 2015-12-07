@@ -1,5 +1,11 @@
 <rules>
-  <rule>
-    <match lemma="word1"><select lemma="word2"/></match>
+  <rule> <match lemma="ete"><select lemma="spise"/></match> </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="gris"/>
+      <match lemma="ku"/>
+      <match lemma="hund"/>
+    </or>
+    <match lemma="ete"><select lemma="æde"/></match>
   </rule>
 </rules>
