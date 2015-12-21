@@ -97,7 +97,7 @@
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/>
       <cat-item tags="vbmod.*"/>
-      <cat-item tags="vbaux.*"/>
+      <cat-item tags="vaux.*"/>
     </def-cat>
     <def-cat n="vblexpp">
       <cat-item tags="vblex.pp"/>
@@ -112,7 +112,7 @@
     <def-cat n="verbpasspret">
       <cat-item tags="vblex.past.pasv"/>
       <cat-item tags="vbser.past.pasv"/>
-      <cat-item tags="vbaux.past.pasv"/>
+      <cat-item tags="vaux.past.pasv"/>
       <cat-item tags="vbhaver.past.pasv"/>
       <cat-item tags="vbmod.past.pasv"/>
       <cat-item tags="vblex.pstv.past.actv"/>
@@ -136,7 +136,7 @@
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbmod"/>
-      <attr-item tags="vbaux"/>
+      <attr-item tags="vaux"/>
     </def-attr>
     <def-attr n="temps">
       <attr-item tags="inf"/>

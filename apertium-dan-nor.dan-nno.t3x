@@ -120,6 +120,7 @@
                   which should be output before the adj, with no intervening space.">
       <choose><when>
         <test><and>
+          <equal><clip pos="1" part="temps"/><lit-tag v="pp"/></equal>
           <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
           <equal><clip pos="1" part="art"/><lit v=""/></equal>
         </and></test>
