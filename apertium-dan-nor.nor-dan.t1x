@@ -1057,9 +1057,14 @@
           </lu>
           <b pos="1"/>
           <lu><clip pos="2" side="tl" part="whole"/></lu>
-          <b/>
-          <lu><clip pos="1" side="tl" part="lemq"/></lu>
         </out>
+        <choose><when>
+          <test><not><equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal></not></test>
+          <out>
+            <b/>
+            <lu><clip pos="1" side="tl" part="lemq"/></lu>
+          </out>
+        </when></choose>
         <!--purge the variable-->
         <let><var n="diatese"/><lit v=""/></let>
       </action>
