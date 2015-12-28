@@ -3,8 +3,9 @@ Danish and Norwegian
                             apertium-dan-nor
 ===============================================================================
 
-This is an Apertium language pair for translating between Danish and 
-Norwegian Nynorsk/Norwegian Bokmål.Currently supported is translation from both Norwegian variants to Danish
+This is an Apertium language pair for translating between Danish and
+Norwegian Nynorsk/Norwegian Bokmål. Currently supported is translation
+from both Norwegian variants to Danish, and from Danish to Nynorsk.
 
 
 
@@ -15,7 +16,7 @@ You will need the following software installed:
 
 * lttoolbox (>= 3.0.0)
 * apertium (>= 3.0.0)
-* VISL CG3 
+* VISL CG3
 
 If this does not make any sense, we recommend you look at: www.apertium.org
 
@@ -24,7 +25,7 @@ Compiling
 
 Given the requirements being installed, you should be able to just run:
 
-$ ./configure 
+$ ./configure
 $ make
 # make install
 
@@ -44,7 +45,7 @@ $  echo "Hun så på faren sin" | apertium -d . nob-dan
 Hun så på sin far
 
 NYNORSK -> DANISH
-$  echo "jenta så ikkje på faren | apertium -d . nno-dan
+$  echo "jenta såg ikkje på faren" | apertium -d . nno-dan
 Pigen så ikke på faren
 
 
