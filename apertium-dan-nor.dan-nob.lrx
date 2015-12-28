@@ -106,4 +106,16 @@
       <select lemma="ansette"/>
     </match>
   </rule>
+
+  <rule weight="1.0">
+    <match lemma="vold" tags="n.ut.*">
+      <select lemma="vold"/>
+    </match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="en"/>
+    <match lemma="vold" tags="n.ut.*">
+      <select lemma="voll"/>
+    </match>
+  </rule>
 </rules>
