@@ -41,12 +41,19 @@ commands should work:
 
 
 BOKMÅL -> DANISH
-$  echo "Hun så på faren sin" | apertium -d . nob-dan
-Hun så på sin far
+
+    $ echo "Hun så på faren sin" | apertium -d . nob-dan
+    Hun så på sin far
 
 NYNORSK -> DANISH
-$  echo "jenta såg ikkje på faren" | apertium -d . nno-dan
-Pigen så ikke på faren
+
+    $ echo "jenta såg ikkje på faren" | apertium -d . nno-dan
+    Pigen så ikke på faren
+
+NYNORSK -> DANISH
+
+    $ echo "jenta såg ikkje på faren" | apertium -d . nno-dan
+    Pigen så ikke på faren
 
 
 * http://wiki.apertium.org/wiki/Installation
