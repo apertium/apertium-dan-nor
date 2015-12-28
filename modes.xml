@@ -3,7 +3,7 @@
 
 
   <!-- Danish → Norwegian Nynorsk -->
-  <mode name="dan-nno" install="no">
+  <mode name="dan-nno" install="yes">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nno.automorf.bin"/>
