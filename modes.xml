@@ -59,6 +59,18 @@
     </pipeline>
   </mode>
 
+  <mode name="dan-nno-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="dan-nno-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
@@ -293,6 +305,18 @@
         <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="dan-nob-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
     </pipeline>
   </mode>
 
