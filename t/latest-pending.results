@@ -1,7 +1,7 @@
-Revision: 64252
-AP_SRC1 Revision: 64252
-AP_SRC2b Revision: 64252
-AP_SRC2n Revision: 64252
+Revision: 64262
+AP_SRC1 Revision: 64262
+AP_SRC2b Revision: 64262
+AP_SRC2n Revision: 64262
 Running Pending-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
@@ -10,17 +10,17 @@ dan-nno	  Wikipedia er en international internetbaseret encyklopædi der udgives
 
 
 0 / 1, 0%
-Revision: 64252
-AP_SRC1 Revision: 64252
-AP_SRC2b Revision: 64252
-AP_SRC2n Revision: 64252
+Revision: 64262
+AP_SRC1 Revision: 64262
+AP_SRC2b Revision: 64262
+AP_SRC2n Revision: 64262
 Running Pending-tests with mode "nno-dan" with updated tests ...
 
 0 / 0, Error 10002%
-Revision: 64252
-AP_SRC1 Revision: 64252
-AP_SRC2b Revision: 64252
-AP_SRC2n Revision: 64252
+Revision: 64262
+AP_SRC1 Revision: 64262
+AP_SRC2b Revision: 64262
+AP_SRC2n Revision: 64262
 Running Pending-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
@@ -29,10 +29,10 @@ dan-nob	  Wikipedia er en international internetbaseret encyklopædi der udgives
 
 
 0 / 1, 0%
-Revision: 64252
-AP_SRC1 Revision: 64252
-AP_SRC2b Revision: 64252
-AP_SRC2n Revision: 64252
+Revision: 64262
+AP_SRC1 Revision: 64262
+AP_SRC2b Revision: 64262
+AP_SRC2n Revision: 64262
 Running Pending-tests with mode "nob-dan" with updated tests ...
 
 0 / 0, Error 10002%
