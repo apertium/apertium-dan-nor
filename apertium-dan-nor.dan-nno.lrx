@@ -131,5 +131,11 @@
     <match tags="vblex.inf.*"/>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="fyre" tags="vblex.pp">
+      <select lemma="sparke"/>
+    </match>
+  </rule>
+
 </rules>
 
