@@ -110,6 +110,8 @@
     <match lemma="over"/>
   </rule>
 
+  <rule weight="1.0"> <match lemma="prikke"> <select lemma="trykke"/> </match> </rule>
+
   <rule weight="1.0">
     <match lemma="vold" tags="n.ut.*">
       <select lemma="vald"/>
