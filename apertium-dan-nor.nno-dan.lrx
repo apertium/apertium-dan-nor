@@ -8,4 +8,10 @@
     </or>
     <match lemma="ete"><select lemma="æde"/></match>
   </rule>
+
+  <rule> <match lemma="kval"><select lemma="hval"/></match> </rule>
+  <rule weight="2.0">
+    <match lemma="val" tags="n.*.gen"/>
+    <match lemma="kval" tags="n.*.pl.*"><select lemma="kval"/></match>
+  </rule>
 </rules>
