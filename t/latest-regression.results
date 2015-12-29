@@ -1,7 +1,7 @@
-Revision: 64235
-AP_SRC1 Revision: 64235
-AP_SRC2b Revision: 64235
-AP_SRC2n Revision: 64235
+Revision: 64238
+AP_SRC1 Revision: 64238
+AP_SRC2b Revision: 64238
+AP_SRC2n Revision: 64238
 Running Regression-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  af.
@@ -9,22 +9,22 @@ WORKS	  av.
 
 
 1 / 1, 100%
-Revision: 64235
-AP_SRC1 Revision: 64235
-AP_SRC2b Revision: 64235
-AP_SRC2n Revision: 64235
+Revision: 64238
+AP_SRC1 Revision: 64238
+AP_SRC2b Revision: 64238
+AP_SRC2n Revision: 64238
 Running Regression-tests with mode "nno-dan" with updated tests ...
 
 nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgitt av den ideelle organisasjonen Wikimedia Foundation.
 	- Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
-	+ Wikipedia er en international internetbaseret encyklopædi som bliver udgivet af den ideelle organisationen Wikimedia Foundation.
+	+ Wikipedia er en international internetbaseret encyklopædi som bliver udgivet af den ideelle organisation Wikimedia Foundation.
 
 
 0 / 1, 0%
-Revision: 64235
-AP_SRC1 Revision: 64235
-AP_SRC2b Revision: 64235
-AP_SRC2n Revision: 64235
+Revision: 64238
+AP_SRC1 Revision: 64238
+AP_SRC2b Revision: 64238
+AP_SRC2n Revision: 64238
 Running Regression-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  af.
@@ -32,15 +32,15 @@ WORKS	  av.
 
 
 1 / 1, 100%
-Revision: 64235
-AP_SRC1 Revision: 64235
-AP_SRC2b Revision: 64235
-AP_SRC2n Revision: 64235
+Revision: 64238
+AP_SRC1 Revision: 64238
+AP_SRC2b Revision: 64238
+AP_SRC2n Revision: 64238
 Running Regression-tests with mode "nob-dan" with updated tests ...
 
 nob-dan	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjonen Wikimedia Foundation.
 	- Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
-	+ Wikipedia er en international internetbaseret encyklopædi som udgives af den ideelle organisationen Wikimedia Foundation.
+	+ Wikipedia er en international internetbaseret encyklopædi som udgives af den ideelle organisation Wikimedia Foundation.
 
 
 0 / 1, 0%
