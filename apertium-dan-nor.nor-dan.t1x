@@ -416,6 +416,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_np"/>
             <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
             <var n="kasus"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
