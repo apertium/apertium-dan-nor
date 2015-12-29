@@ -1,7 +1,7 @@
-Revision: 64239
-AP_SRC1 Revision: 64239
-AP_SRC2b Revision: 64239
-AP_SRC2n Revision: 64239
+Revision: 64252
+AP_SRC1 Revision: 64252
+AP_SRC2b Revision: 64252
+AP_SRC2n Revision: 64252
 Running Regression-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  af.
@@ -13,10 +13,10 @@ WORKS	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgj
 
 
 2 / 2, 100%
-Revision: 64239
-AP_SRC1 Revision: 64239
-AP_SRC2b Revision: 64239
-AP_SRC2n Revision: 64239
+Revision: 64252
+AP_SRC1 Revision: 64252
+AP_SRC2b Revision: 64252
+AP_SRC2n Revision: 64252
 Running Regression-tests with mode "nno-dan" with updated tests ...
 
 nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgitt av den ideelle organisasjonen Wikimedia Foundation.
@@ -25,10 +25,10 @@ nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert ut
 
 
 0 / 1, 0%
-Revision: 64239
-AP_SRC1 Revision: 64239
-AP_SRC2b Revision: 64239
-AP_SRC2n Revision: 64239
+Revision: 64252
+AP_SRC1 Revision: 64252
+AP_SRC2b Revision: 64252
+AP_SRC2n Revision: 64252
 Running Regression-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  af.
@@ -40,10 +40,10 @@ WORKS	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av d
 
 
 2 / 2, 100%
-Revision: 64239
-AP_SRC1 Revision: 64239
-AP_SRC2b Revision: 64239
-AP_SRC2n Revision: 64239
+Revision: 64252
+AP_SRC1 Revision: 64252
+AP_SRC2b Revision: 64252
+AP_SRC2n Revision: 64252
 Running Regression-tests with mode "nob-dan" with updated tests ...
 
 nob-dan	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjonen Wikimedia Foundation.

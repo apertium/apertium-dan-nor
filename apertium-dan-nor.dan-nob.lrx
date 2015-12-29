@@ -118,4 +118,11 @@
       <select lemma="voll"/>
     </match>
   </rule>
+
+  <rule weight="2.0">
+    <match lemma="for at">
+      <select lemma="for å"/>
+    </match>
+    <match tags="vblex.inf.*"/>
+  </rule>
 </rules>
