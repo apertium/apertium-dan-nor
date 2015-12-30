@@ -7,8 +7,9 @@ AC_PREREQ(2.52)
 m4_define([required_apertium_version], [3.4.0])
 m4_define([required_lttoolbox_version], [3.3.2])
 
-AC_INIT([apertium-dan-nor], [1.1.0], [Jonas Fromseier Mortensen <lst190@alumni.ku.dk>])
-AM_INIT_AUTOMAKE([apertium-dan-nor], [1.1.0], no-define)
+AC_INIT([Apertium Danish-Norwegian], [1.1.0], [Jonas Fromseier Mortensen <lst190@alumni.ku.dk>], [apertium-dan-nor], [http://wiki.apertium.org/wiki/Apertium-dan-nor])
+AM_INIT_AUTOMAKE
+
 AC_PROG_LN_S
 AC_PROG_AWK
 
