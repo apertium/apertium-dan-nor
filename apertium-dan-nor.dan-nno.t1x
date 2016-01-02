@@ -377,6 +377,16 @@
   </section-def-lists>
 
   <section-def-macros>
+    <def-macro n="set_ntags" npar="1"
+               c="arg.1: (proper) noun. Puts tags of noun in ntags (for use as chunk tags).
+                  No 'nom' tag used in nno.">
+      <let><var n="ntags"/><clip pos="1" side="tl" part="tags"/></let>
+      <choose><when>
+        <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></equal></test>
+        <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+      </when></choose>
+    </def-macro>
+
     <def-macro n="stash_case_in_ntags" npar="1"
                c="arg.1: noun. Puts tags of noun in ntags (for use as chunk tags), removes case from the word.">
       <let><var n="ntags"/><clip pos="1" side="tl" part="tags"/></let>
@@ -1045,9 +1055,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="out_gen-prep"><with-param pos="1"/></call-macro>
-
-        <call-macro n="stash_case_in_ntags"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="np" case="caseFirstWord">
             <tags><tag><var n="ntags"/></tag></tags>

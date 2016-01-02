@@ -239,7 +239,8 @@
 
   <section-def-macros>
     <def-macro n="set_ntags" npar="1"
-               c="arg.1: noun. Puts tags of noun in ntags (for use as chunk tags)">
+               c="arg.1: (proper) noun. Puts tags of noun in ntags (for use as chunk tags).
+                  No 'nom' tag used in nob.">
       <let><var n="ntags"/><clip pos="1" side="tl" part="tags"/></let>
       <choose><when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></equal></test>
