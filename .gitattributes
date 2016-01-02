@@ -7,6 +7,11 @@
 /NEWS -text
 /README -text
 /TODO -text
+WER/Peter_Høeg.dan-nno-r64339-withunk.wiki -text
+WER/Peter_Høeg.dan-nno-r64339.results -text
+WER/Peter_Høeg.dan-nno-r64339.wiki -text
+WER/Peter_Høeg.dan.wiki -text
+WER/Peter_Høeg.nno.wiki -text
 /apertium-dan-nor.dan-nno.lrx -text
 /apertium-dan-nor.dan-nno.t1x -text
 /apertium-dan-nor.dan-nno.t2x -text
