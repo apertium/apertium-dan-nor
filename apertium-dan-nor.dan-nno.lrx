@@ -129,8 +129,7 @@
       <select lemma="for å"/>
     </match>
     <or>
-    <match tags="vblex.inf.*"/>
-    <match tags="vbmod.inf.*"/>
+      <match tags="*.inf.*"/>
     </or>
   </rule>
 
