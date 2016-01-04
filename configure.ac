@@ -14,7 +14,7 @@ AC_PROG_LN_S
 AC_PROG_AWK
 
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
-PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttolbox_version)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttoolbox_version)
 
 AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
 AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
