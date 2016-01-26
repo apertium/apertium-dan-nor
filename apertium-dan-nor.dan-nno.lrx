@@ -139,5 +139,14 @@
     </match>
   </rule>
 
+  <rule weight="2.0">
+    <match lemma="basere">
+      <select lemma="basere"/>
+    </match>
+    <or>
+      <match lemma="seg"/>
+    </or>
+  </rule>
+
 </rules>
 
