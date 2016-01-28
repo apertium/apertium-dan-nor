@@ -141,4 +141,10 @@
     </or>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="led">
+      <select lemma="ledd"/>
+    </match>
+  </rule>
+
 </rules>
