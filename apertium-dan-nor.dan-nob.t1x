@@ -83,6 +83,12 @@
     <def-cat n="adv">
       <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="cm">
+      <cat-item tags="cm"/>
+    </def-cat>
+    <def-cat n="cnjsub-at">
+      <cat-item lemma="at" tags="cnjsub"/>
+    </def-cat>
     <def-cat n="infm">
       <cat-item lemma="å" tags="part"/>
     </def-cat>
@@ -1181,6 +1187,36 @@
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="prn" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CM">
+      <pattern>
+        <pattern-item n="cm"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="cm" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CNJSUB-AT">
+      <pattern>
+        <pattern-item n="cnjsub-at"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="cnjsub-at" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
           </chunk>
