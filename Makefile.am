@@ -2,7 +2,7 @@
 ## Makefile for Danish--Norwegian
 ###############################################################################
 
-VERSION=1.1.0
+VERSION=1.2.0
 LANG1=dan
 LANG2=nor
 LANG2n=nno
