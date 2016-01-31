@@ -252,7 +252,7 @@
 
 
   <!-- Danish → Norwegian Bokmål -->
-  <mode name="dan-nob" install="no">
+  <mode name="dan-nob" install="yes">
     <pipeline>
       <program name="lt-proc -e">
         <file name="dan-nob.automorf.bin"/>
