@@ -130,7 +130,13 @@
 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
+      <attr-item tags="np"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.org"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.al"/>
     </def-attr>
 
     <def-attr n="a_np">
