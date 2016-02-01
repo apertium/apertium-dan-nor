@@ -1,0 +1,28 @@
+Test file: 'WER/Peter_Høeg.dan-nno-r65301-withunk.wiki'
+Reference file 'WER/Peter_Høeg.nno.wiki'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 477
+Number of words in test: 469
+Number of unknown words (marked with a star) in test: 52
+Percentage of unknown words: 11.09 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 108
+Word error rate (WER): 22.64 %
+Number of position-independent correct words: 383
+Position-independent word error rate (PER): 19.71 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 134
+Word Error Rate (WER): 28.09 %
+Number of position-independent correct words: 357
+Position-independent word error rate (PER): 25.16 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 26
+Percentage of unknown words that were free rides: 50.00 %

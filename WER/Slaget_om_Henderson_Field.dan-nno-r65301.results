@@ -1,0 +1,28 @@
+Test file: 'WER/Slaget_om_Henderson_Field.dan-nno-r65301-withunk.wiki'
+Reference file 'WER/Slaget_om_Henderson_Field.nno.wiki'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 550
+Number of words in test: 542
+Number of unknown words (marked with a star) in test: 86
+Percentage of unknown words: 15.87 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 75
+Word error rate (WER): 13.64 %
+Number of position-independent correct words: 479
+Position-independent word error rate (PER): 12.91 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 130
+Word Error Rate (WER): 23.64 %
+Number of position-independent correct words: 424
+Position-independent word error rate (PER): 22.91 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 55
+Percentage of unknown words that were free rides: 63.95 %
