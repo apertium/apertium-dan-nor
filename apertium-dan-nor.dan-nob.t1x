@@ -35,6 +35,7 @@
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*"/>
+      <cat-item tags="num.*"/>
     </def-cat>
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
