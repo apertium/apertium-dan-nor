@@ -154,5 +154,27 @@
     </match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="kende" tags="vblex">
+      <select lemma="kjenne"/>
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="til" tags="pr">
+      <select lemma="til"/>
+    </match>
+  </rule>
+
+  <rule weight="2.0">
+    <match lemma="til" tags="pr">
+      <select lemma="som"/>
+    </match>
+    <or>
+      <match lemma="opgave"/>
+      <match lemma="formål"/>
+      <match lemma="følge"/>
+    </or>
+  </rule>
 </rules>
 
