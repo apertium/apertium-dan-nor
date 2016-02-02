@@ -86,22 +86,40 @@
     <match lemma="den"/>
   </rule>
 
+
+  <rule weight="1.0"> <match lemma="stemme" tags="vblex.*"> <select lemma="stemme"/> </match> </rule>
   <rule weight="2.0">
-    <match lemma="støtte" tags="n.*">
-      <select lemma="støtte"/>
+    <match lemma="det"/>
+    <match lemma="stemme" tags="vblex.*">
+      <select lemma="stemme"/>
     </match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="å"/>
+    <match lemma="stemme" tags="vblex.*">
+      <select lemma="røyste"/>
+    </match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="stemme" tags="vblex.*">
+      <select lemma="røyste"/>
+    </match>
+    <or>
+      <match lemma="blankt"/>
+      <match lemma="blank"/>
+      <match lemma="nei"/>
+      <match lemma="ja"/>
+      <match tags="pr"/>
+      <match tags="pr.*"/>
+    </or>
   </rule>
 
-  <rule weight="2.0">
-    <match lemma="anse" tags="adj.*">
-      <select lemma="verdsetje"/>
-    </match>
-  </rule>
-  <rule weight="2.0">
-    <match lemma="anse" tags="vblex.*">
-      <select lemma="sjå# på"/>
-    </match>
-  </rule>
+  <rule> <match lemma="støtte" tags="n.*"> <select lemma="støtte"/> </match> </rule>
+
+  <rule> <match lemma="anse" tags="adj.*"> <select lemma="verdsetje"/> </match> </rule>
+  <rule> <match lemma="anse" tags="vblex.*"> <select lemma="sjå# på"/> </match> </rule>
+
+
 
   <rule weight="2.0">
     <match lemma="springe">
@@ -112,10 +130,7 @@
 
   <rule weight="1.0"> <match lemma="prikke"> <select lemma="trykke"/> </match> </rule>
 
-  <rule weight="1.0">
-    <match lemma="vold" tags="n.ut.*">
-      <select lemma="vald"/>
-    </match>
+  <rule weight="1.0"> <match lemma="vold" tags="n.ut.*"> <select lemma="vald"/> </match>
   </rule>
   <rule weight="2.0">
     <match lemma="en"/>
@@ -133,11 +148,7 @@
     </or>
   </rule>
 
-  <rule weight="1.0">
-    <match lemma="fyre" tags="vblex.pp">
-      <select lemma="sparke"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="fyre" tags="vblex.pp"> <select lemma="sparke"/> </match> </rule>
 
   <rule weight="2.0">
     <match lemma="basere">
@@ -148,23 +159,11 @@
     </or>
   </rule>
 
-  <rule weight="1.0">
-    <match lemma="led">
-      <select lemma="ledd"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="led"> <select lemma="ledd"/> </match> </rule>
 
-  <rule weight="1.0">
-    <match lemma="kende" tags="vblex">
-      <select lemma="kjenne"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="kende" tags="vblex"> <select lemma="kjenne"/> </match> </rule>
 
-  <rule weight="1.0">
-    <match lemma="til" tags="pr">
-      <select lemma="til"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="til" tags="pr"> <select lemma="til"/> </match> </rule>
 
   <rule weight="2.0">
     <match lemma="til" tags="pr">
@@ -176,5 +175,6 @@
       <match lemma="følge"/>
     </or>
   </rule>
+
 </rules>
 

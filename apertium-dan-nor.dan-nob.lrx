@@ -107,11 +107,7 @@
     </match>
   </rule>
 
-  <rule weight="1.0">
-    <match lemma="vold" tags="n.ut.*">
-      <select lemma="vold"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="vold" tags="n.ut.*"> <select lemma="vold"/> </match> </rule>
   <rule weight="2.0">
     <match lemma="en"/>
     <match lemma="vold" tags="n.ut.*">
@@ -126,11 +122,7 @@
     <match tags="vblex.inf.*"/>
   </rule>
 
-  <rule weight="1.0">
-    <match lemma="fyre" tags="vblex.pp">
-      <select lemma="sparke"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="fyre" tags="vblex.pp"> <select lemma="sparke"/> </match> </rule>
 
   <rule weight="2.0">
     <match lemma="basere">
@@ -141,23 +133,11 @@
     </or>
   </rule>
 
-  <rule weight="1.0">
-    <match lemma="led">
-      <select lemma="ledd"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="led"> <select lemma="ledd"/> </match> </rule>
 
-  <rule weight="1.0">
-    <match lemma="kende" tags="vblex">
-      <select lemma="kjenne"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="kende" tags="vblex"> <select lemma="kjenne"/> </match> </rule>
 
-  <rule weight="1.0">
-    <match lemma="til" tags="pr">
-      <select lemma="til"/>
-    </match>
-  </rule>
+  <rule weight="1.0"> <match lemma="til" tags="pr"> <select lemma="til"/> </match> </rule>
 
   <rule weight="2.0">
     <match lemma="til" tags="pr">
