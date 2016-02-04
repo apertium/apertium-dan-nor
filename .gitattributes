@@ -47,6 +47,7 @@ dev/apertium-dan-nor.nno.dixBEFORETRIM -text svneol=unset#application/xml
 dev/apertium-dan-nor.nob.dixBEFORETRIM -text svneol=unset#application/xml
 dev/cuento.da.txt -text
 dev/cuento.nb.txt -text
+dev/cx_helpers.sh -text
 dev/dan-nor-bidix-candidates -text
 dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
