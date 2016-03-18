@@ -198,7 +198,6 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX1n).t3x \
 	   $(BASENAME).$(PREFIX1b).t3x \
 	   $(BASENAME).$(PREFIX2).t1x \
-	   $(BASENAME).$(PREFIX2).t2x \
 	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).$(LANG2).acx \
 	   modes.xml
@@ -216,8 +215,7 @@ apertium_dan_nor_DATA=$(TARGETS_COMMON) \
 	$(BASENAME).$(PREFIX1b).t2x \
 	$(BASENAME).$(PREFIX1n).t3x \
 	$(BASENAME).$(PREFIX1b).t3x \
-	$(BASENAME).$(PREFIX2).t1x \
-	$(BASENAME).$(PREFIX2).t2x
+	$(BASENAME).$(PREFIX2).t1x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1b).mode
