@@ -245,7 +245,6 @@
       <attr-item tags="def"/>
     </def-attr>
 
-
   </section-def-attrs>
 
 
@@ -253,15 +252,10 @@
     <def-var n="number"/>
     <def-var n="kasus"/>
     <def-var n="kasus2"/>
-    <def-var n="køn"/>
-    <def-var n="køn2"/>
-    <def-var n="diatese"/>
-    <def-var n="tal"/>
-    <def-var n="bestemthed"/>
-    <def-var n="tempus"/>
-    <def-var n="kategori"/>
-
-
+    <def-var n="gender"/>
+    <def-var n="gender2"/>
+    <def-var n="voice"/>
+    <def-var n="defvar"/>
   </section-def-vars>
 
 
@@ -271,7 +265,7 @@
 
     <def-macro n="resetvars" npar="1">
       <let>
-        <var n="køn"/>
+        <var n="gender"/>
         <lit-tag v=""/>
       </let>
     </def-macro>
@@ -289,11 +283,11 @@
               <not><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="un"/></equal></not>
             </and>
           </test>
-          <let><var n="køn"/><lit-tag v="ut"/></let>
+          <let><var n="gender"/><lit-tag v="ut"/></let>
         </when>
 
         <otherwise>
-          <let><var n="køn"/><clip pos="1" side="tl" part="gen"/></let>
+          <let><var n="gender"/><clip pos="1" side="tl" part="gen"/></let>
         </otherwise>
 
       </choose>
@@ -325,15 +319,15 @@
 
           </test>
 
-        <let><var n="køn"/><lit-tag v="ut"/></let></when>
+        <let><var n="gender"/><lit-tag v="ut"/></let></when>
         <otherwise>
-          <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+          <let><var n="gender"/><clip pos="1" side="sl" part="gen"/></let>
         </otherwise>
       </choose>
 
-      <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
+      <let><var n="number"/><clip pos="1" side="sl" part="nbr"/></let>
 
-      <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
+      <let><var n="defvar"/><clip pos="1" side="sl" part="defnes"/></let>
 
     </def-macro>
 
@@ -368,11 +362,6 @@
   </section-def-macros>
 
 
-
-
-
-
-
   <section-rules>
 
     <rule comment="RULE: Noun → Noun : ( → )">
@@ -387,7 +376,6 @@
           <let><var n="kasus"/><lit-tag v="nom"/></let></when>
           <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
         </choose>
-
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -416,7 +404,6 @@
           <let><var n="kasus"/><lit-tag v="nom"/></let></when>
           <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
         </choose>
-
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -433,8 +420,6 @@
 
 
 
-
-
     <rule comment="VERB → VERB">
       <pattern>
         <pattern-item n="verb"/>
@@ -447,10 +432,9 @@
             <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="pp"/></equal></not>
             <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="imp"/></equal></not>
           </and></test>
-          <let><var n="diatese"/><lit-tag v="actv"/></let></when>
-
+          <let><var n="voice"/><lit-tag v="actv"/></let></when>
           <otherwise> <!--otherwise let variable be the same as the source language-->
-          <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
+          <let><var n="voice"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
         </choose>
 
         <choose>
@@ -465,13 +449,11 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="tense"/>
-            <var n="diatese"/>
+            <var n="voice"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
-        <!--purge the variable-->
-        <let><var n="diatese"/><lit v=""/></let>
-
+        <let><var n="voice"/><lit v=""/></let>
       </action>
     </rule>
 
@@ -518,7 +500,7 @@
       <action>
         <call-macro n="out_cp_lhs"><with-param pos="1"/></call-macro>
         <call-macro n="out_cp_lhs"><with-param pos="2"/></call-macro>
-              <choose>
+        <choose>
           <when><test><equal>
             <!--if the noun has no tag for case, give it the case 'nom'-->
             <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
@@ -580,14 +562,14 @@
             <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
 
           </test>
-          <let><var n="køn2"/><lit-tag v="ut"/></let></when>
+          <let><var n="gender2"/><lit-tag v="ut"/></let></when>
           <otherwise>
-            <let><var n="køn2"/><clip pos="2" side="sl" part="gen"/></let>
+            <let><var n="gender2"/><clip pos="2" side="sl" part="gen"/></let>
           </otherwise>
         </choose>
 
-        <let><var n="tal"/><clip pos="2" side="sl" part="nbr"/></let>
-        <let><var n="bestemthed"/><clip pos="2" side="sl" part="defnes"/></let>
+        <let><var n="number"/><clip pos="2" side="sl" part="nbr"/></let>
+        <let><var n="defvar"/><clip pos="2" side="sl" part="defnes"/></let>
 
         <call-macro n="determiner">
           <with-param pos="1"/>
@@ -598,7 +580,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <var n="køn"/>
+            <var n="gender"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -608,9 +590,9 @@
             <clip pos="2" side="tl" part="a_adj"/>
             <clip pos="2" side="tl" part="tense"/>
             <clip pos="2" side="tl" part="grad"/>
-            <var n="køn2"/>
-            <var n="tal"/>
-            <var n="bestemthed"/>
+            <var n="gender2"/>
+            <var n="number"/>
+            <var n="defvar"/>
             <clip pos="2" side="tl" part="lemq"/>
 
           </lu>
@@ -625,9 +607,9 @@
             <clip pos="3" side="tl" part="lemq"/>
           </lu>
         </out>
-        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
         <let><var n="kasus"/><lit v=""/></let>
-        <let><var n="køn2"/><lit v=""/></let>
+        <let><var n="gender2"/><lit v=""/></let>
       </action>
     </rule>
 
@@ -672,14 +654,14 @@
             <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
 
           </test>
-          <let><var n="køn2"/><lit-tag v="ut"/></let></when>
+          <let><var n="gender2"/><lit-tag v="ut"/></let></when>
           <otherwise>
-            <let><var n="køn2"/><clip pos="2" side="sl" part="gen"/></let>
+            <let><var n="gender2"/><clip pos="2" side="sl" part="gen"/></let>
           </otherwise>
         </choose>
 
-        <let><var n="tal"/><clip pos="2" side="sl" part="nbr"/></let>
-        <let><var n="bestemthed"/><clip pos="2" side="sl" part="defnes"/></let>
+        <let><var n="number"/><clip pos="2" side="sl" part="nbr"/></let>
+        <let><var n="defvar"/><clip pos="2" side="sl" part="defnes"/></let>
 
         <call-macro n="determiner">
           <with-param pos="1"/>
@@ -698,7 +680,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <var n="køn"/>
+            <var n="gender"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -708,9 +690,9 @@
             <clip pos="2" side="tl" part="a_adj"/>
             <clip pos="2" side="tl" part="tense"/>
             <clip pos="2" side="tl" part="grad"/>
-            <var n="køn2"/>
-            <var n="tal"/>
-            <var n="bestemthed"/>
+            <var n="gender2"/>
+            <var n="number"/>
+            <var n="defvar"/>
             <clip pos="2" side="tl" part="lemq"/>
 
           </lu>
@@ -737,10 +719,10 @@
           </lu>
         </out>
 
-        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
         <let><var n="kasus"/><lit v=""/></let>
         <let><var n="kasus2"/><lit v=""/></let>
-        <let><var n="køn2"/><lit v=""/></let>
+        <let><var n="gender2"/><lit v=""/></let>
       </action>
 
 
@@ -783,7 +765,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <var n="køn"/>
+            <var n="gender"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -798,15 +780,10 @@
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
         </out>
-        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
         <let><var n="kasus"/><lit v=""/></let>
       </action>
     </rule>
-
-
-
-
-
 
 
     <rule comment="N def  +  DETpos →  DET pos + N ind (moren sin → sin mor) ">
@@ -815,39 +792,30 @@
         <pattern-item n="det-pos"/>
       </pattern>
       <action>
-
-
-
         <choose>
           <when><test><and>
             <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
             <equal><clip pos="2" side="sl" part="a_det"/><lit-tag v="det.pos"/></equal></and></test>
           <let><clip pos="1" side="tl" part="defnes"/><lit-tag v="ind"/> </let></when>
         </choose>
-
-
-
         <choose>
-          <when><test><equal>
-
+          <when><test>
             <!--if the noun has no tag for case, give it the case 'nom'-->
-            <clip pos="1" side="sl" part="cas"/><lit v=""/></equal></test>
+            <equal><clip pos="1" side="sl" part="cas"/><lit v=""/></equal>
+          </test>
           <let><var n="kasus"/><lit-tag v="nom"/></let></when>
-
-          <otherwise><let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let></otherwise>
+          <otherwise>
+            <let><var n="kasus"/><clip pos="1" side="sl" part="cas"/></let>
+          </otherwise>
         </choose>
-
-
         <call-macro n="determiner">
           <with-param pos="2"/>
         </call-macro>
-
-
         <out>
           <lu>
             <clip pos="2" side="tl" part="lemh"/>
             <clip pos="2" side="tl" part="a_det"/>
-            <var n="køn"/>
+            <var n="gender"/>
             <clip pos="2" side="tl" part="nbr"/>
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
@@ -862,52 +830,41 @@
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
-        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
         <let><var n="kasus"/><lit v=""/></let>
       </action>
     </rule>
 
 
-
-
     <rule comment="ADJ -> ADJ">
-
       <!--TODO mf has to go to un-->
-
       <pattern>
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <choose>
-          <when><test><equal>
+        <choose><when>
+          <test>
             <!--if the tag is 'pst' change it to 'pst'-->
-            <clip pos="1" side="sl" part="grad"/><lit-tag v="pst"/></equal></test>
-          <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
-        </choose>
+            <equal><clip pos="1" side="sl" part="grad"/><lit-tag v="pst"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="grad"/><lit-tag v="pst"/></let>
+        </when></choose>
 
         <choose>
-
-
-          <when><test><or>
-            <equal>
-            <clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
-            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
-
+          <when><test>
+            <or>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+            </or>
           </test>
-          <let><var n="køn"/><lit-tag v="ut"/></let></when>
+          <let><var n="gender"/><lit-tag v="ut"/></let></when>
           <otherwise>
-            <let><var n="køn"/><clip pos="1" side="sl" part="gen"/></let>
+            <let><var n="gender"/><clip pos="1" side="sl" part="gen"/></let>
           </otherwise>
-
-
         </choose>
 
-
-
-
-        <let><var n="tal"/><clip pos="1" side="sl" part="nbr"/></let>
-
-        <let><var n="bestemthed"/><clip pos="1" side="sl" part="defnes"/></let>
+        <let><var n="number"/><clip pos="1" side="sl" part="nbr"/></let>
+        <let><var n="defvar"/><clip pos="1" side="sl" part="defnes"/></let>
 
         <out>
           <lu>
@@ -915,120 +872,58 @@
             <clip pos="1" side="tl" part="a_adj"/>
             <clip pos="1" side="tl" part="tense"/>
             <clip pos="1" side="tl" part="grad"/>
-            <var n="køn"/>
-            <var n="tal"/>
-            <var n="bestemthed"/>
+            <var n="gender"/>
+            <var n="number"/>
+            <var n="defvar"/>
             <clip pos="1" side="tl" part="lemq"/>
-
           </lu>
         </out>
-        <let><var n="køn"/><lit v=""/></let>
-        <let><var n="tal"/><lit v=""/></let>
-        <let><var n="bestemthed"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
+        <let><var n="number"/><lit v=""/></let>
+        <let><var n="defvar"/><lit v=""/></let>
       </action>
     </rule>
-
-
-
-
-
-    <rule comment="ADV -> ADV">
-      <pattern>
-        <pattern-item n="adv"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_adv"/>
-            <clip pos="1" side="tl" part="grad"/>
-            <clip pos="1" side="tl" part="lemq"/>
-
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-
 
     <rule comment="SECOND FORM (def) DET -> DET">
       <pattern>
         <pattern-item n="det-emph"/>
       </pattern>
       <action>
-
-        <call-macro n="determiner">
-          <with-param pos="1"/>
-        </call-macro>
+        <call-macro n="determiner"> <with-param pos="1"/> </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <var n="køn"/>
+            <var n="gender"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="defnes"/>
             <clip pos="1" side="tl" part="cas"/>
             <clip pos="1" side="tl" part="lemq"/>
-
           </lu>
         </out>
-        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
       </action>
     </rule>
-    <!--
-
-<rule comment="THIRD FORM (def) DET -> DET">
-<pattern>
-<pattern-item n="det-dem"/>
-</pattern>
-<action>
-<call-macro n="determiner">
-<with-param pos="1"/>
-</call-macro>
-
-<out>
-<lu>
-<clip pos="1" side="tl" part="lemh"/>
-<clip pos="1" side="tl" part="a_det"/>
-<var n="køn"/>
-<clip pos="1" side="tl" part="nbr"/>
-<clip pos="1" side="tl" part="defnes"/>
-<clip pos="1" side="tl" part="cas"/>
-<clip pos="1" side="tl" part="lemq"/>
-
-</lu>
-</out>
-<let><var n="køn"/><lit v=""/></let>
-</action>
-</rule>
-    -->
-
-
 
     <rule comment="DET -> DET">
       <pattern>
         <pattern-item n="det"/>
       </pattern>
       <action>
-        <call-macro n="determiner">
-          <with-param pos="1"/>
-        </call-macro>
-
+        <call-macro n="determiner"> <with-param pos="1"/> </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <var n="køn"/>
+            <var n="gender"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="cas"/>
             <clip pos="1" side="tl" part="lemq"/>
-
           </lu>
         </out>
-        <let><var n="køn"/><lit v=""/></let>
+        <let><var n="gender"/><lit v=""/></let>
       </action>
     </rule>
-
 
 
     <rule comment="PHRASAL VERBS  WITH ADVERBS: liker ikke > kan ikke lide">
@@ -1045,10 +940,10 @@
             <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="pp"/></equal></not>
             <not><equal><clip pos="1" side="sl" part="tense"/><lit-tag v="imp"/></equal></not>
           </and></test>
-          <let><var n="diatese"/><lit-tag v="actv"/></let></when>
+          <let><var n="voice"/><lit-tag v="actv"/></let></when>
 
           <otherwise> <!--otherwise let variable be the same as the source language-->
-          <let><var n="diatese"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
+          <let><var n="voice"/><clip pos="1" side="sl" part="a_diatese"/></let></otherwise>
         </choose>
 
         <choose>
@@ -1063,7 +958,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="tense"/>
-            <var n="diatese"/>
+            <var n="voice"/>
 
           </lu>
           <b pos="1"/>
@@ -1077,53 +972,9 @@
           </out>
         </when></choose>
         <!--purge the variable-->
-        <let><var n="diatese"/><lit v=""/></let>
+        <let><var n="voice"/><lit v=""/></let>
       </action>
     </rule>
-
-
-
-
-
-    <rule comment="PR-> PR">
-      <pattern>
-        <pattern-item n="pr"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_pr"/>
-            <clip pos="1" side="tl" part="lemq"/>
-
-          </lu>
-        </out>
-
-      </action>
-    </rule>
-
-
-
-
-
-    <rule comment="CNJCOO -> CNJCOO">
-      <pattern>
-        <pattern-item n="cnjcoo"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_cnj"/>
-            <clip pos="1" side="tl" part="lemq"/>
-
-          </lu>
-        </out>
-
-      </action>
-    </rule>
-
-
 
 
     <!--TODO
@@ -1149,11 +1000,7 @@ liker ikke > kan ikke lide
 
 
 
-
-
 ADJECTIVES
-
-
 
 
 
@@ -1171,9 +1018,6 @@ determiners ? make the bidix entry have <det><def>:<det><dem>
 
 
     -->
-
-
-
 
   </section-rules>
 </transfer>
