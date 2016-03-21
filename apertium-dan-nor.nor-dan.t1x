@@ -56,14 +56,15 @@
       <cat-item tags="adj.*"/>
     </def-cat>
     <def-cat n="preadj-adv">
-      <cat-item lemma="icke" tags="adv"/>
-      <cat-item lemma="inte" tags="adv"/>
+      <cat-item lemma="ikkje" tags="adv"/>
+      <cat-item lemma="ikke" tags="adv"/>
       <cat-item lemma="for" tags="adv"/>
       <cat-item lemma="altfor" tags="adv"/>
       <cat-item lemma="forholdsvis" tags="adv"/>
       <cat-item lemma="forhåpentlig" tags="adv"/>
       <cat-item lemma="forholdsvis" tags="adv"/>
       <cat-item lemma="hvor" tags="adv"/>
+      <cat-item lemma="kor" tags="adv"/>
       <cat-item lemma="kanon" tags="adv"/>
       <cat-item lemma="sørpe" tags="adv"/>
       <cat-item lemma="bom" tags="adv"/>
@@ -84,7 +85,7 @@
       <cat-item tags="adv"/>
     </def-cat>
     <def-cat n="infm">
-      <cat-item lemma="att" tags="cnjsub"/>
+      <cat-item lemma="å" tags="part"/>
     </def-cat>
 
     <def-cat n="verb">
@@ -447,6 +448,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
       <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
     </def-macro>
+
     <def-macro n="set_caseFirstWord2" npar="2">
       <!-- arg.1: possessed noun. arg.2: det.pos, gives typographic case -->
       <choose>
@@ -626,176 +628,6 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       </choose>
     </def-macro>
 
-    <!-- Output macros: -->
-    <def-macro n="out_ndef" npar="2">
-      <!-- arg.1: possessed noun. arg.2 gives typographic case
-
-           Strip case, add definiteness.  -->
-      <call-macro n="set_caseFirstWord2">
-        <with-param pos="1"/>
-        <with-param pos="2"/>
-      </call-macro>
-      <let><clip pos="1" side="tl" part="art"/><lit-tag v="def"/></let>
-      <out>
-        <chunk name="n" case="caseFirstWord">
-          <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="art"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </chunk>
-      </out>
-    </def-macro>
-
-    <def-macro n="out_posgen_subj" npar="2">
-      <!-- arg.1: possessor, either genitive noun or det.pos.
-           arg.2: gives typographic case
-           Assumes no variables.
-           Turns eg. "min" into "eg", "naboens" into "naboen".
-           Strips case both from chunk and word.
-      -->
-      <choose>
-        <when>
-          <test><equal><clip pos="1" side="sl" part="a_det"/><lit-tag v="det.pos"/></equal></test>
-          <call-macro n="set_caseFirstWord"><with-param pos="2"/></call-macro>
-          <out>
-            <chunk name="prn" case="caseFirstWord">
-              <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-              <lu>
-                <clip pos="1" side="tl" part="lemh"/>
-                <lit-tag v="prn"/>
-                <clip pos="1" side="tl" part="persona"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </lu>
-            </chunk>
-          </out>
-        </when>
-      <otherwise>
-        <call-macro n="set_caseFirstWord"><with-param pos="2"/></call-macro>
-        <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
-        <out>
-          <chunk name="n" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <get-case-from pos="2"><clip pos="1" side="tl" part="lemh"/></get-case-from>
-              <clip pos="1" side="tl" part="tags"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </otherwise>
-      </choose>
-    </def-macro>
-
-
-    <!-- Macros kept from swe-dan 0.5: -->
-
-    <def-macro n="resetvars" npar="1">
-	<let>
-	  <var n="numero"/>
-	  <lit-tag v="sg"/>
-	</let>
-	<let>
-	  <var n="genero"/>
-	  <lit-tag v="m"/>
-	</let>
-	<let>
-	  <var n="definite"/>
-	  <lit v=""/>
-	</let>
-    </def-macro>
-
-    <def-macro n="f_conj_auxiliar2" npar="2">
-      <choose>
-        <when> <!-- Change auxiliary verb depending on lemma -->
-          <test>
-              <in caseless="yes">
-                <clip pos="2" side="tl" part="lem"/>
-                <list n="vbambser"/>
-              </in>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="være"/>
-          </let>
-          <let>
-            <clip pos="1" side="tl" part="a_verb"/>
-            <lit-tag v="vbser"/>
-          </let>
-        </when>
-      </choose>
-    </def-macro>
-
-    <def-macro n="f_conj_pasv1" npar="1">
-      <let><var n="auxiliar"/><lit v=""/></let>
-      <choose>
-        <when><test>
-            <and>
-              <equal><clip pos="1" side="tl" part="AD"/><lit-tag v="AD"/></equal>
-              <equal><clip pos="1" side="sl" part="voice"/><lit-tag v="pasv"/></equal>
-            </and>
-          </test>
-          <let>
-            <var n="auxiliar"/>
-            <concat>
-              <lit v="blive"/>
-              <lit-tag v="vblex"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <lit-tag v="actv"/>
-              <lit v="$ ^"/>
-            </concat>
-          </let>
-          <!-- We can assume all AD can take vblex.pp: -->
-          <let><clip pos="1" side="tl" part="temps"/><lit-tag v="pp"/> </let>
-          <let><clip pos="1" side="tl" part="voice"/><lit v=""/></let>
-        </when>
-        <when><test>
-            <and>
-              <in caseless="yes"><clip pos="1" side="tl" part="lem"/><list n="no_pres_pasv"/></in>
-              <or>
-                <equal><clip pos="1" side="tl" part="temps"/><lit-tag v="pres"/></equal>
-                <equal><clip pos="1" side="tl" part="temps"/><lit-tag v="inf"/></equal>
-              </or>
-              <equal><clip pos="1" side="sl" part="voice"/><lit-tag v="pasv"/></equal>
-            </and>
-          </test>
-          <let>
-            <var n="auxiliar"/>
-            <concat>
-              <lit v="blive"/>
-              <lit-tag v="vblex"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <lit-tag v="actv"/>
-              <lit v="$ ^"/>
-            </concat>
-          </let>
-          <let><clip pos="1" side="tl" part="temps"/><lit-tag v="pp"/> </let>
-          <let><clip pos="1" side="tl" part="voice"/><lit v=""/></let>
-        </when>
-        <when><test>
-            <and>
-              <in caseless="yes"><clip pos="1" side="tl" part="lem"/><list n="no_past_pasv"/></in>
-              <equal><clip pos="1" side="tl" part="temps"/><lit-tag v="past"/></equal>
-              <equal><clip pos="1" side="tl" part="voice"/><lit-tag v="pasv"/></equal>
-            </and>
-          </test>
-          <let>
-            <var n="auxiliar"/>
-            <concat>
-              <lit v="blive"/>
-              <lit-tag v="vblex.past.actv"/>
-              <lit v="$ ^"/>
-            </concat>
-          </let>
-          <let><clip pos="1" side="tl" part="temps"/><lit-tag v="pp"/> </let>
-          <let><clip pos="1" side="tl" part="voice"/><lit v=""/></let>
-        </when>
-      </choose>
-    </def-macro>
 
   </section-def-macros>
 
@@ -1348,189 +1180,6 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       </action>
     </rule>
 
-
-
-    <!-- Rules kept from swe-dan 0.5: -->
-
-    <rule comment="REGLA: SUPN_PP // förts → ført ">
-      <pattern>
-        <pattern-item n="supn_pp"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="REGLA: VERB">
-      <pattern>
-        <pattern-item n="verb"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conj_pasv1"><with-param pos="1"/></call-macro>
-        <out>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <var n="auxiliar"/>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voice"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="resetvars"><with-param pos="1"/></call-macro>
-      </action>
-    </rule>
-
-
-    <rule comment="REGLA: VAUX SUPN_PP // Två personer har förts → To personer er ført ">
-      <pattern>
-        <pattern-item n="vaux"/>
-        <pattern-item n="supn_pp"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conj_pasv1"><with-param pos="1"/></call-macro>
-        <call-macro n="f_conj_auxiliar2"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <out>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <var n="auxiliar"/>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voice"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-          <b pos="1"/>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_verb"/>
-              <clip pos="2" side="tl" part="temps"/>
-              <clip pos="2" side="tl" part="voice"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="resetvars"><with-param pos="1"/></call-macro>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: VERB_PASV HA SUPN_PP // Tros ha dödat → Menes at have dræbt">
-      <pattern>
-        <pattern-item n="verb_pasv"/>
-        <pattern-item n="haver"/>
-        <pattern-item n="supn_pp"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conj_pasv1"><with-param pos="1"/></call-macro>
-        <out>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <var n="auxiliar"/>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voice"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-          <b pos="1"/>
-          <chunk name="cnjadv">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <lit v="at"/>
-              <lit-tag v="cnjsub"/>
-            </lu>
-          </chunk>
-          <b/>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-          <b pos="2"/>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <clip pos="3" side="tl" part="a_verb"/>
-              <clip pos="3" side="tl" part="temps"/>
-              <!--            <clip pos="3" side="tl" part="voice"/> -->
-              <clip pos="3" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="resetvars"><with-param pos="1"/></call-macro>
-      </action>
-    </rule>
-
-
-    <rule comment="REGLA: KOMMA ATT INF // kommer att bli → kommer til at blive">
-      <pattern>
-        <pattern-item n="komme"/>
-        <pattern-item n="att"/>
-        <pattern-item n="verb_inf"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voice"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-          <b pos="1"/>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <lit v="til"/>
-              <lit-tag v="pr"/>
-            </lu>
-          </chunk>
-          <b/>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-          <b pos="2"/>
-          <chunk name="vblex">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <clip pos="3" side="tl" part="a_verb"/>
-              <clip pos="3" side="tl" part="temps"/>
-              <clip pos="3" side="tl" part="voice"/>
-              <clip pos="3" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
   </section-rules>
 </transfer>
