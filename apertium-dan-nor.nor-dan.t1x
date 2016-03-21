@@ -10,7 +10,7 @@
     </def-cat>
     <!-- n should preferably not include compound-only-L's -->
     <def-cat n="n">
-      <cat-item tags="n.*.nom"/>
+      <cat-item tags="n.*"/>
       <cat-item tags="n.*.gen"/>
       <cat-item tags="n.*.cmp-split"/>
     </def-cat>
@@ -26,7 +26,7 @@
       <cat-item tags="n.acr"/>
     </def-cat>
     <def-cat n="ndef">
-      <cat-item tags="n.*.*.def.nom"/>
+      <cat-item tags="n.*.*.def"/>
       <cat-item tags="n.*.*.def.gen"/>
     </def-cat>
     <def-cat n="ngen">
