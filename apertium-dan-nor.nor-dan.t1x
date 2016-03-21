@@ -8,7 +8,7 @@
     <def-cat n="nind">
       <cat-item tags="n.*.ind.*"/>
     </def-cat>
-    <!-- n does not include compound lhs's: -->
+    <!-- n should preferably not include compound-only-L's -->
     <def-cat n="n">
       <cat-item tags="n.*.nom"/>
       <cat-item tags="n.*.gen"/>
@@ -716,8 +716,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
     <!-- Nouns -->
 
     <!-- N+ -->
-    <rule comment="N
-                   Remove cas from lu, but put it in chunk">
+    <rule comment="N">
       <pattern>
         <pattern-item n="n"/>
       </pattern>
