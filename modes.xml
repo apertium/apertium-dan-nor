@@ -521,6 +521,14 @@
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
       </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.nor-dan.t3x"/>
+        <file name="nor-dan.t3x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="nor-dan.autogen.bin"/>
       </program>
@@ -580,7 +588,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-dan-transfer" install="no">
+  <mode name="nno-dan-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nno-dan.automorf.bin"/>
@@ -601,6 +609,68 @@
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nno-dan.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nno-dan-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nno-dan.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.nor-dan.t3x"/>
+        <file name="nor-dan.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -626,6 +696,14 @@
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.nor-dan.t3x"/>
+        <file name="nor-dan.t3x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="nor-dan.autogen.bin"/>
@@ -656,6 +734,14 @@
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.nor-dan.t3x"/>
+        <file name="nor-dan.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="nor-dan.autogen.bin"/>
@@ -716,7 +802,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nob-dan-transfer" install="no">
+  <mode name="nob-dan-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
@@ -737,6 +823,68 @@
       <program name="apertium-transfer -b -t">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nob-dan-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nob-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nob-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nob-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nob-dan.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="nob-dan-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nob-dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nob-dan.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nob-dan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nor-dan.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nob-dan.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-dan-nor.nor-dan.t1x"/>
+        <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.nor-dan.t3x"/>
+        <file name="nor-dan.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -762,6 +910,14 @@
       <program name="apertium-transfer -b">
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-dan-nor.nor-dan.t2x"/>
+        <file name="nor-dan.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-dan-nor.nor-dan.t3x"/>
+        <file name="nor-dan.t3x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="nor-dan.autogen.bin"/>
