@@ -6,7 +6,7 @@ Running Pending-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
 	- Wikipedia er eit internasjonalt internettbasert leksikon som vert utgjeve av den ideelle organisasjonen Wikimedia Foundation.
-	+ #Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgjeve av den ideelle organisasjonen #Wikimedia #Foundation.
+	+ Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgjeve av den ideelle organisasjonen Wikimedia Foundation.
 
 
 0 / 1, 0%
@@ -25,7 +25,7 @@ Running Pending-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
 	- Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjonen Wikimedia Foundation.
-	+ #Wikipedia er en internasjonal internettbasert #encyklopedi som utgis av den ideelle #organisasjon #Wikimedia #Foundation.
+	+ Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjon Wikimedia Foundation.
 
 
 0 / 1, 0%

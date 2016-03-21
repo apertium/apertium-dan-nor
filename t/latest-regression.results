@@ -9,11 +9,10 @@ WORKS	  av.
 
 
 dan-nno	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
-	- Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgjeve av den ideelle organisasjonen Wikimedia Foundation.
-	+ #Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgjeve av den ideelle organisasjonen #Wikimedia #Foundation.
+WORKS	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgjeve av den ideelle organisasjonen Wikimedia Foundation.
 
 
-1 / 2, 50%
+2 / 2, 100%
 Revision: 66528
 AP_SRC1 Revision: 66528
 AP_SRC2b Revision: 66528
@@ -22,7 +21,7 @@ Running Regression-tests with mode "nno-dan" with updated tests ...
 
 nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgitt av den ideelle organisasjonen Wikimedia Foundation.
 	- Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
-	+ #Wikipedia er en #international #internetbaseret #encyklopædi som bliver udgivet af den #ideel #organisation #Wikimedia #Foundation.
+	+ Wikipedia er en international internetbaseret encyklopædi som bliver udgivet af den ideelle organisation Wikimedia Foundation.
 
 
 0 / 1, 0%
@@ -37,11 +36,10 @@ WORKS	  av.
 
 
 dan-nob	  Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
-	- Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjon Wikimedia Foundation.
-	+ #Wikipedia er en internasjonal internettbasert #encyklopedi som utgis av den ideelle #organisasjon #Wikimedia #Foundation.
+WORKS	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjon Wikimedia Foundation.
 
 
-1 / 2, 50%
+2 / 2, 100%
 Revision: 66528
 AP_SRC1 Revision: 66528
 AP_SRC2b Revision: 66528
@@ -50,7 +48,7 @@ Running Regression-tests with mode "nob-dan" with updated tests ...
 
 nob-dan	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjonen Wikimedia Foundation.
 	- Wikipedia er en international internetbaseret encyklopædi der udgives af den ideelle organisation Wikimedia Foundation.
-	+ #Wikipedia er en #international #internetbaseret #encyklopædi som udgives af den #ideel #organisation #Wikimedia #Foundation.
+	+ Wikipedia er en international internetbaseret encyklopædi som udgives af den ideelle organisation Wikimedia Foundation.
 
 
 0 / 1, 0%
