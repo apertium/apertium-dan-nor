@@ -1141,6 +1141,35 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       </action>
     </rule>
 
+    <!-- Verbs -->
+    <rule comment="VERB">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <let><var n="c_name"/><lit v="vblex"/></let>
+        <choose><when>
+          <test><or>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="vere"/></equal>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="være"/></equal>
+          </or></test>
+          <let><var n="c_name"/><lit v="aux"/></let>
+        </when></choose>
+        <out>
+          <chunk namefrom="c_name" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <!-- Other classes -->
     <rule comment="DET">
       <pattern>
