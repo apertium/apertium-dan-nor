@@ -635,7 +635,7 @@
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-dan-nor.nor-dan.t2x"/>
         <file name="nor-dan.t2x.bin"/>
       </program>
@@ -849,7 +849,7 @@
         <file name="apertium-dan-nor.nor-dan.t1x"/>
         <file name="nor-dan.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-dan-nor.nor-dan.t2x"/>
         <file name="nor-dan.t2x.bin"/>
       </program>
