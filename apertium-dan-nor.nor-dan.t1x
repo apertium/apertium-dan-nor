@@ -514,14 +514,9 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       </when></choose>
       <!-- In case the above didn't help: -->
       <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
-      <!-- Make n ind when adj def (what are the exceptions here?)
+      <!-- Make n ind after adj (even if adj not marked def; often mistagged, but going def→ind seems pretty safe)
            NB: This means all dan.dix nouns have to be able to take ind (at least RL) -->
-      <choose>
-        <when>
-          <test><equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal></test>
-          <let><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></let>
-        </when>
-      </choose>
+      <let><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></let>
     </def-macro>
 
 
