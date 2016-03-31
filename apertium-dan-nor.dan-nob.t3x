@@ -86,6 +86,15 @@
       <attr-item tags="vblex"/>
       <attr-item tags="vblex.pstv"/>
     </def-attr>
+    <def-attr n="a_det">
+      <attr-item tags="det"/>
+      <attr-item tags="det.emph"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="det.itg"/>
+      <attr-item tags="det.qnt"/>
+      <attr-item tags="det.qnt.neg"/>
+      <attr-item tags="det.pos"/>
+    </def-attr>
     <def-attr n="temps">
       <attr-item tags="inf"/>
       <attr-item tags="imp"/>
@@ -221,10 +230,14 @@
         <let><clip pos="1" part="nbr"/><clip pos="0" part="nbr"/></let>
         <let><clip pos="1" part="gen"/><clip pos="0" part="gen"/></let>
         <choose><when>
-          <test><or>
-            <equal><clip pos="1" part="gen"/><lit-tag v="GD"/></equal>
-            <equal><clip pos="1" part="gen"/><lit-tag v="mf"/></equal>
-          </or></test>
+          <test><and>
+            <or>
+              <equal><clip pos="1" part="gen"/><lit-tag v="GD"/></equal>
+              <equal><clip pos="1" part="gen"/><lit-tag v="mf"/></equal>
+            </or>
+            <!-- TODO: should all determiners in nob be mf vs f? -->
+            <not><equal><clip pos="1" part="a_det"/><lit-tag v="det.pos"/></equal></not>
+          </and></test>
           <let><clip pos="1" part="gen"/><lit-tag v="m"/></let>
         </when></choose>
 
