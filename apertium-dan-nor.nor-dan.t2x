@@ -55,6 +55,14 @@
     <def-cat n="vblex">
       <cat-item tags="vblex"/>
       <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver"/>
+      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbmod"/>
+      <cat-item tags="vbmod.*"/>
+      <cat-item tags="vaux"/>
+      <cat-item tags="vaux.*"/>
     </def-cat>
     <def-cat n="aux">
       <cat-item lemma="aux" tags="vblex"/>
@@ -76,8 +84,8 @@
       <cat-item lemma="infm" tags="cnjsub.*"/>
     </def-cat>
     <def-cat n="lemq">
-      <cat-item tags="vblex.lemq"/>
-      <cat-item tags="vblex.lemq.*"/>
+      <cat-item tags="*.lemq"/>
+      <cat-item tags="*.lemq.*"/>
     </def-cat>
     <def-cat n="adjpart">
       <cat-item tags="vblex.pp"/>
