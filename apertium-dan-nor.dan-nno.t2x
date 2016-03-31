@@ -23,8 +23,14 @@
     <def-cat n="prep_gen">
       <cat-item lemma="gen-prep" tags="pr"/>
     </def-cat>
+    <def-cat n="pr-for">
+      <cat-item lemma="pr-for" tags="pr"/>
+    </def-cat>
     <def-cat n="ngen">
       <cat-item tags="n.*.gen"/>
+    </def-cat>
+    <def-cat n="n-vedkommende">
+      <cat-item lemma="n-vedkommende" tags="n.nt.sg.ind"/>
     </def-cat>
     <def-cat n="detgen">
       <cat-item tags="det.*.gen"/>
@@ -996,6 +1002,35 @@
         <out>
           <b pos="1"/>
           <chunk><clip pos="1" part="whole"/></chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="PR-for PREP_GEN NOM N-vedkommende: for [til] størstedelens vedkommende => når det gjeld størstedelen">
+      <pattern>
+        <pattern-item n="pr-for"/>
+        <pattern-item n="prep_gen"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="n-vedkommende"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <lit v="adv"/>
+            <lit v="{^når"/>
+            <lit-tag v="cnjsub"/>
+            <lit v="$"/>
+            <b pos="1"/>
+            <lit v="^den"/>
+            <lit-tag v="prn.pers.p3.nt.sg.nom"/>
+            <lit v="$"/>
+            <b pos="2"/>
+            <lit v="^gjelde"/>
+            <lit-tag v="vblex.pres"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk><clip pos="3" part="whole"/></chunk>
         </out>
       </action>
     </rule>
