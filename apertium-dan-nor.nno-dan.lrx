@@ -14,4 +14,12 @@
     <match lemma="val" tags="n.*.gen"/>
     <match lemma="kval" tags="n.*.pl.*"><select lemma="kval"/></match>
   </rule>
+
+  <!-- TODO: -->
+  <rule>
+    <match lemma="han"><select lemma="han"/></match>
+  </rule>
+  <rule>
+    <match lemma="ho"><select lemma="hun"/></match>
+  </rule>
 </rules>

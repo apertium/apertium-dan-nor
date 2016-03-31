@@ -1,5 +1,8 @@
 <rules>
   <rule>
-    <match lemma="word1"><select lemma="word2"/></match>
+    <match lemma="han"><select lemma="han"/></match>
+  </rule>
+  <rule>
+    <match lemma="hun"><select lemma="hun"/></match>
   </rule>
 </rules>
