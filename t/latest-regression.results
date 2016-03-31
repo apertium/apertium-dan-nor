@@ -1,7 +1,7 @@
-Revision: 67032
-AP_SRC1 Revision: 67032
-AP_SRC2b Revision: 67032
-AP_SRC2n Revision: 67032
+Revision: 67055
+AP_SRC1 Revision: 67055
+AP_SRC2b Revision: 67055
+AP_SRC2n Revision: 67055
 Running Regression-tests with mode "dan-nno" with updated tests ...
 
 dan-nno	  af.
@@ -17,14 +17,22 @@ WORKS	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgj
 
 
 3 / 3, 100%
-Revision: 67032
-AP_SRC1 Revision: 67032
-AP_SRC2b Revision: 67032
-AP_SRC2n Revision: 67032
+Revision: 67055
+AP_SRC1 Revision: 67055
+AP_SRC2b Revision: 67055
+AP_SRC2n Revision: 67055
 Running Regression-tests with mode "nno-dan" with updated tests ...
 
 nno-dan	  ho liker ikkje dette noko særleg.
 WORKS	  hun kan ikke lide dette noget særligt.
+
+
+nno-dan	  den trøytte mannen.
+WORKS	  den trætte mand.
+
+
+nno-dan	  Aasen omsette òg dikt; forlaget hans omsette for 4 milliardar årleg.
+WORKS	  Aasen oversatte også digt; hans forlag omsatte for 4 milliarder årlig.
 
 
 nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert utgitt av den ideelle organisasjonen Wikimedia Foundation.
@@ -32,11 +40,11 @@ nno-dan	  Wikipedia er ein internasjonal internettbasert encyklopedi som vert ut
 	+ Wikipedia er en international internetbaseret encyklopædi som bliver udgivet af den ideelle organisation Wikimedia Foundation.
 
 
-1 / 2, 50%
-Revision: 67032
-AP_SRC1 Revision: 67032
-AP_SRC2b Revision: 67032
-AP_SRC2n Revision: 67032
+3 / 4, 75%
+Revision: 67055
+AP_SRC1 Revision: 67055
+AP_SRC2b Revision: 67055
+AP_SRC2n Revision: 67055
 Running Regression-tests with mode "dan-nob" with updated tests ...
 
 dan-nob	  af.
@@ -48,14 +56,18 @@ WORKS	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av d
 
 
 2 / 2, 100%
-Revision: 67032
-AP_SRC1 Revision: 67032
-AP_SRC2b Revision: 67032
-AP_SRC2n Revision: 67032
+Revision: 67055
+AP_SRC1 Revision: 67055
+AP_SRC2b Revision: 67055
+AP_SRC2n Revision: 67055
 Running Regression-tests with mode "nob-dan" with updated tests ...
 
 nob-dan	  hun liker ikke dette noe særlig.
 WORKS	  hun kan ikke lide dette noget særligt.
+
+
+nob-dan	  den direkte pressestøtten.
+WORKS	  den direkte pressestøtte.
 
 
 nob-dan	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av den ideelle organisasjonen Wikimedia Foundation.
@@ -63,4 +75,4 @@ nob-dan	  Wikipedia er en internasjonal internettbasert encyklopedi som utgis av
 	+ Wikipedia er en international internetbaseret encyklopædi som udgives af den ideelle organisation Wikimedia Foundation.
 
 
-1 / 2, 50%
+2 / 3, 66.67%
