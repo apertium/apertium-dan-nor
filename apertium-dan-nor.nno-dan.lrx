@@ -15,6 +15,23 @@
     <match lemma="kval" tags="n.*.pl.*"><select lemma="kval"/></match>
   </rule>
 
+  <rule> <match lemma="omsetje"><select lemma="oversætte"/></match> </rule>
+  <rule weight="2.0">
+    <match lemma="omsetje"><select lemma="omsætte"/></match>
+    <match lemma="for"/>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="omsetje"><select lemma="omsætte"/></match>
+    <match tags="*"/>
+    <match lemma="for"/>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="omsetje"><select lemma="omsætte"/></match>
+    <match tags="*"/>
+    <match tags="*"/>
+    <match lemma="for"/>
+  </rule>
+
   <!-- TODO: -->
   <rule>
     <match lemma="han"><select lemma="han"/></match>
