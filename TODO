@@ -1,23 +1,132 @@
-
-hvor blev det @av ham? > hvor blev han af?
-delete 'det'+  move 'av' to end of sentence + ham > nom
+# -*- mode:org -*-
 
 
-noe?
+* Hun kan høre det @godt nu →  Hun kan godt høre det nu
+  Wouldn't this change the meaning? ("hun kan godt" = she's allowed
+  to, "høre godt" = hear well)
+
+* gjøre → gøre eller lave?
 
 
-Central adverb placement:
-Hun kan høre det @godt nu >  Hun kan godt høre det nu
+* Placement of preposition in idiomatic expressions. Less movement in nb?
 
 
-if there's 'hvor' and 'går' we need 'hen':
-Mary tror at hun så hvor James gikk > Mary tror at hun så hvor James gik _hen_
+* 'da' in the end of sentence → så + INVERSION
 
 
-gjøre > gøre eller lave?
+* hvor blev det @av ham? → hvor blev han af?
+delete 'det'+  move 'av' to end of sentence + ham → nom
+
+need to match "hvor" as well all; all nnwiki hits for " blei det av "
+are non-mwe:
+: I 1942 blei det av administrative grunnar slik at medlemer av
+: I 2008 blei det av eit lag som hadde bruka Hubble-teleskopet og
+: I 2013 blei det av _Morgenbladet_ tatt med i den norske dramatikk-kanon.
+
+(no matches in nn/nb-wiki for " hvor ble det av " apart from a book title)
 
 
-Placement of preposition in idiomatic expressions. Less movement in nb?
+* if there's 'hvor' and 'går' we need 'hen':
+1. after verb:  Mary tror at hun så hvor James gikk → Mary tror at hun så hvor James gik _hen_
+2. but before other advs:  hvor James gikk hen i går
+3. but after subj in questions: hvor går du hen? (not *hvor går hen du?)
+4. and after the _final_ verb, not the first one: hvor James ville gå hen (not *hvor James ville hen gå)
+
+Patch below handles 1 and 2 but not 3 and 4; might have to do it in
+chunking instead
 
 
-'da' in the end of sentence > så + INVERSION
+diff --git a/trunk/apertium-dan-nor/apertium-dan-nor.nor-dan.t1x b/trunk/apertium-dan-nor/apertium-dan-nor.nor-dan.t1x
+index e455837..4173a26 100644
+--- a/trunk/apertium-dan-nor/apertium-dan-nor.nor-dan.t1x
++++ b/trunk/apertium-dan-nor/apertium-dan-nor.nor-dan.t1x
+@@ -257,6 +257,7 @@
+     <def-var n="blank"/>
+     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
+ 
++    <def-var n="missing-hen"/>
+     <def-var n="tmp"/>
+     <def-var n="genero"/>
+     <def-var n="definite"/>
+@@ -275,6 +276,16 @@
+       <list-item v="&lt;nt&gt;"/>
+     </def-list>
+ 
++    <def-list n="hen-verbs">
++      <list-item v="gå"/>
++      <list-item v="skulle"/>
++      <list-item v="vandre"/>
++      <list-item v="tage"/>
++      <list-item v="ville"/>
++      <list-item v="køre"/>
++      <!-- være på vej som mwe? -->
++    </def-list>
++
+     <!-- Verbs que s'usen amb 'være' en danès -->
+     <def-list n="vbambser">
+       <list-item v="tage"/>
+@@ -611,6 +622,39 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
+         </otherwise>
+       </choose>
+     </def-macro>
++
++    <def-macro n="maybe-set-hen" npar="1"
++               c="arg.1: adv">
++
++      <let><var n="missing-hen"/><lit v=""/></let>
++      <choose>
++        <when>
++          <test><equal><clip pos="1" side="tl" part="lemh"/><lit v="hvor"/></equal></test>
++          <let><var n="missing-hen"/><lit v="hen"/></let>
++        </when>
++      </choose>
++    </def-macro>
++
++    <def-macro n="maybe-out-hen" npar="1"
++               c="arg.1: verb">
++      <choose><when>
++        <test><and>
++          <in><clip pos="1" side="tl" part="lemh"/><list n="hen-verbs"/></in>
++          <equal><var n="missing-hen"/><lit v="hen"/></equal>
++        </and></test>
++        <out>
++          <b/>
++          <chunk name="adv">
++            <tags><tag><lit-tag v="adv"/></tag></tags>
++            <lu>
++              <lit v="hen"/>
++              <lit-tag v="adv"/>
++            </lu>
++          </chunk>
++        </out>
++        <let><var n="missing-hen"/><lit v=""/></let>
++      </when></choose>
++    </def-macro>
+   </section-def-macros>
+ 
+ 
+@@ -1139,6 +1183,8 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
+             </chunk>
+           </out>
+         </when></choose>
++
++        <call-macro n="maybe-out-hen"><with-param pos="1"/></call-macro>
+       </action>
+     </rule>
+ 
+@@ -1186,6 +1232,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
+       </pattern>
+       <action>
+         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
++        <call-macro n="maybe-set-hen"><with-param pos="1"/></call-macro>
+         <out>
+           <chunk name="adv" case="caseFirstWord">
+             <tags>
+@@ -1221,6 +1268,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
+       </pattern>
+       <action>
+         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
++        <let><var n="missing-hen"/><lit v=""/></let>
+         <out>
+           <chunk name="punct" case="caseFirstWord">
+             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
