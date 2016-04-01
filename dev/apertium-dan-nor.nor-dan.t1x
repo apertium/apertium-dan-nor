@@ -366,121 +366,6 @@
 
 
 
-    <rule comment=" DET (DEF) + ADJ + NCMP+  NOUN (DEF) >  DET (DEF) + ADJ + NCMP +  NOUN (IND)  den direkte pressestøtten > den direkte pressestøtte">
-      <pattern>
-        <pattern-item n="det-dem"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="ncmp"/>
-        <pattern-item n="nom"/>
-      </pattern>
-
-
-      <action>
-        <choose>
-          <when><test><and>
-            <equal><clip pos="4" side="sl" part="defnes"/><lit-tag v="def"/></equal>
-            <equal><clip pos="1" side="sl" part="a_det"/><lit-tag v="det.dem"/></equal></and></test>
-          <let><clip pos="4" side="tl" part="defnes"/><lit-tag v="ind"/> </let> </when>
-        </choose>
-
-        <choose>
-          <when><test><equal>
-            <!--if the noun has no tag for case, give it the case 'nom'-->
-            <clip pos="4" side="sl" part="cas"/><lit v=""/></equal></test>
-          <let><var n="kasus"/><lit-tag v="nom"/></let></when>
-          <otherwise><let><var n="kasus"/><clip pos="4" side="sl" part="cas"/></let></otherwise>
-        </choose>
-
-
-        <choose>
-          <when><test><equal>
-            <!--if the tag is 'pst' change it to 'pst'-->
-            <clip pos="2" side="sl" part="grad"/><lit-tag v="pst"/></equal></test>
-          <let><clip pos="2" side="tl" part="grad"/><lit-tag v="pst"/></let></when>
-        </choose>
-
-        <choose>
-          <when><test><or>
-            <equal>
-            <clip pos="2" side="sl" part="gen"/><lit-tag v="mf"/></equal>
-            <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="f"/></equal></or>
-
-          </test>
-          <let><var n="gender2"/><lit-tag v="ut"/></let></when>
-          <otherwise>
-            <let><var n="gender2"/><clip pos="2" side="sl" part="gen"/></let>
-          </otherwise>
-        </choose>
-
-        <let><var n="number"/><clip pos="2" side="sl" part="nbr"/></let>
-        <let><var n="defvar"/><clip pos="2" side="sl" part="defnes"/></let>
-
-        <call-macro n="determiner">
-          <with-param pos="1"/>
-        </call-macro>
-
-        <choose>
-          <when><test><equal>
-            <!--if the noun has no tag for case, give it the case 'nom'-->
-            <clip pos="3" side="sl" part="cas"/><lit v=""/></equal></test>
-          <let><var n="kasus2"/><lit-tag v="nom"/></let></when>
-          <otherwise><let><var n="kasus2"/><clip pos="3" side="sl" part="cas"/></let></otherwise>
-        </choose>
-
-
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_det"/>
-            <var n="gender"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_adj"/>
-            <clip pos="2" side="tl" part="tense"/>
-            <clip pos="2" side="tl" part="grad"/>
-            <var n="gender2"/>
-            <var n="number"/>
-            <var n="defvar"/>
-            <clip pos="2" side="tl" part="lemq"/>
-
-          </lu>
-          <b pos="1"/>
-
-          <lu>
-            <clip pos="3" side="tl" part="lemh"/>
-            <clip pos="3" side="tl" part="a_nom"/>
-            <clip pos="3" side="tl" part="gen"/>
-            <clip pos="3" side="tl" part="nbr"/>
-            <clip pos="3" side="tl" part="defnes"/>
-            <var n="kasus2"/>
-            <clip pos="3" side="tl" part="lemq"/>
-          </lu>
-
-          <lu>
-            <clip pos="4" side="tl" part="lemh"/>
-            <clip pos="4" side="tl" part="a_nom"/>
-            <clip pos="4" side="tl" part="gen"/>
-            <clip pos="4" side="tl" part="nbr"/>
-            <clip pos="4" side="tl" part="defnes"/>
-            <var n="kasus"/>
-            <clip pos="4" side="tl" part="lemq"/>
-          </lu>
-        </out>
-
-        <let><var n="gender"/><lit v=""/></let>
-        <let><var n="kasus"/><lit v=""/></let>
-        <let><var n="kasus2"/><lit v=""/></let>
-        <let><var n="gender2"/><lit v=""/></let>
-      </action>
-
-
-
-    </rule>
-
 
 
 
@@ -502,9 +387,6 @@ Hun kan høre det @godt nu >  Hun kan godt høre det nu
 
 if there's 'hvor' and 'går' we need 'hen':
 Mary tror at hun så hvor James gikk > Mary tror at hun så hvor James gik _hen_
-
-problem with the multiword implementation of "kunne lide": need to be able to output any central adverbs:
-liker ikke > kan ikke lide
 
 
 
