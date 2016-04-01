@@ -46,7 +46,6 @@ dev/analyse-all-stages.sh -text
 dev/apertium-da-nb.da-nb.dix -text
 dev/apertium-dan-nor.nno.dixBEFORETRIM -text svneol=unset#application/xml
 dev/apertium-dan-nor.nob.dixBEFORETRIM -text svneol=unset#application/xml
-dev/apertium-dan-nor.nor-dan.t1x -text
 dev/cuento.da.txt -text
 dev/cuento.nb.txt -text
 dev/cx_helpers.sh -text
