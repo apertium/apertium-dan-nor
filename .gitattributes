@@ -54,6 +54,7 @@ dev/full.nb.dix -text
 dev/generation-test.da-nb.sh -text
 dev/nb-da.test -text
 dev/nbkorpus5000.txt -text
+dev/precommit-testvoc.sh -text
 dev/sortedbidixes/dan-nb.dix -text svneol=unset#application/xml
 dev/sortedbidixes/dan-nn.dix -text svneol=unset#application/xml
 dev/sortedbidixes/sortedbidixes.tar.gz -text svneol=unset#application/x-gzip
