@@ -1150,7 +1150,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       <action>
         <choose>
           <when>
-            <test><equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="seg"/></equal></test>
+            <test><equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="sin"/></equal></test>
             <let><var n="c_name"/><lit v="detsin"/></let>
           </when>
           <otherwise><let><var n="c_name"/><lit v="det"/></let></otherwise>
