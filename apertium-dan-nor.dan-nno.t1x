@@ -671,7 +671,7 @@
     </def-macro>
 
     <def-macro n="out_gen-prep" npar="1"
-               c="arg.1: noun. Only acts on genitives. Adds a space after.">
+               c="arg.1: noun/adj. Only acts on genitives. Adds a space after.">
       <choose><when>
         <test><equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal></test>
         <choose>
@@ -1209,15 +1209,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
-        <!-- TODO: add this when it's accepted in trunk/apertium: -->
-        <!-- exception -->
-        <!--   <test> -->
-        <!--     <and> -->
-        <!--       <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal> -->
-        <!--       <equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal> -->
-        <!--     </and> -->
-        <!--   </test> -->
-        <!-- /exception -->
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -1245,6 +1243,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="3" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -1274,6 +1279,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="4" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -1305,6 +1317,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="5" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_n_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -1336,6 +1355,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="3" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="2"/></call-macro>
@@ -1376,6 +1402,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="4" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="2"/></call-macro>
@@ -1418,6 +1451,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="5" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="2"/></call-macro>
@@ -1462,6 +1502,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="n"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="6" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="2"/></call-macro>
@@ -1527,6 +1574,13 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
+            <equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <let><var n="c_name"/><lit v="adj_adj"/></let>
         <call-macro n="set_gender1.adj"><with-param pos="1"/></call-macro>
         <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
