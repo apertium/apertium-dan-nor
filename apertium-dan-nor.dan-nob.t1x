@@ -225,6 +225,14 @@
 
   <section-def-lists>
 
+    <def-list n="adj-genders" c="possible nno/nob adj genders">
+      <list-item v="&lt;m&gt;"/>
+      <list-item v="&lt;mf&gt;"/>
+      <list-item v="&lt;f&gt;"/>
+      <list-item v="&lt;nt&gt;"/>
+      <list-item v="&lt;un&gt;"/>
+    </def-list>
+
     <def-list n="være_pass"
               c="Verbs which require være instead of bli.">
       <list-item v="vite"/>
