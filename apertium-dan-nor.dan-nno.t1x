@@ -1159,7 +1159,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="n_n" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="2" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
             <lu><clip pos="2" side="tl" part="whole"/></lu>
           </chunk>
@@ -1177,7 +1177,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="3"/></call-macro>
         <out>
           <chunk name="n_n_n" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="3" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
             <lu><clip pos="2" side="tl" part="whole"/></lu>
             <lu><clip pos="3" side="tl" part="whole"/></lu>
@@ -1197,7 +1197,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="4"/></call-macro>
         <out>
           <chunk name="n_n_n_n" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="4" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
             <lu><clip pos="2" side="tl" part="whole"/></lu>
             <lu><clip pos="3" side="tl" part="whole"/></lu>
@@ -1227,7 +1227,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="2"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="2" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1261,7 +1261,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="3"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="3" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1297,7 +1297,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="4"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="4" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1335,7 +1335,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         <call-macro n="out_gen-prep"><with-param pos="5"/></call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="5" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1379,7 +1379,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         </when></choose>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="3" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1426,7 +1426,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         </when></choose>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="4" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1475,7 +1475,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         </when></choose>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="5" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1526,7 +1526,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
         </when></choose>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><clip pos="6" side="tl" part="tags"/></tag></tags>
             <var n="grau_aux"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
