@@ -67,7 +67,7 @@
     <match lemma="ret" tags="n.*">
       <select lemma="rettighet"/>
     </match>
-    <match lemma="til" tags="pr.*"/>
+    <match lemma="til" tags="pr"/>
   </rule>
   <rule weight="2.0">
     <match lemma="ret" tags="n.*">
