@@ -104,18 +104,11 @@
       <cat-item tags="vblex.*"/>
     </def-cat>
 
-    <def-cat n="supn_pp">
-      <cat-item lemma="komma" tags="vblex.supn.*"/>
-      <cat-item tags="vbser.supn.*"/>
-      <cat-item tags="vbhaver.supn.*"/>
-      <cat-item tags="vblex.supn.*"/>
-      <cat-item tags="vbmod.supn.*"/>
-      <cat-item tags="vaux.supn.*"/>
-      <cat-item tags="vbser.pp.*"/>
-      <cat-item tags="vbhaver.pp.*"/>
+    <def-cat n="pp">
+      <cat-item tags="vblex.pp"/>
       <cat-item tags="vblex.pp.*"/>
-      <cat-item tags="vbmod.pp.*"/>
-      <cat-item tags="vaux.pp.*"/>
+      <cat-item tags="aux.pp"/>
+      <cat-item tags="aux.pp.*"/>
     </def-cat>
 
     <def-cat n="vblexpp">
@@ -140,12 +133,16 @@
     </def-cat>
 
     <def-cat n="vaux">
-      <cat-item tags="vbser.pres.*"/>
-      <cat-item tags="vbser.past.*"/>
-      <cat-item tags="vbhaver.*"/>
       <cat-item lemma="ha" tags="vblex.*"/>
-      <cat-item lemma="vara¹" tags="vblex.pres.*"/>
-      <cat-item lemma="vara¹" tags="vblex.past.*"/>
+      <cat-item lemma="være" tags="vblex.*"/>
+      <cat-item lemma="vere" tags="vblex.*"/>
+      <cat-item lemma="bli" tags="vblex.*"/>
+      <cat-item lemma="verte" tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="pasvaux">
+      <cat-item lemma="bli" tags="vblex.*"/>
+      <cat-item lemma="verte" tags="vblex.*"/>
     </def-cat>
 
 
@@ -1143,6 +1140,42 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
               <lu><clip pos="1" side="tl" part="lemq"/></lu>
             </chunk>
           </out>
+        </when></choose>
+      </action>
+    </rule>
+
+    <rule comment="PASVAUX VBLEXPP: vert utgitt → utgives
+                   TODO: check that anything translated from pp in nor can generate a pasv in dan!">
+      <pattern>
+        <pattern-item n="pasvaux"/>
+        <pattern-item n="pp"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <let><var n="c_name"/><lit v="vblex"/></let>
+        <out>
+          <chunk namefrom="c_name" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="voice"/>
+            </lu>
+          </chunk>
+        </out>
+        <choose><when>
+          <test><not><equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal></not></test>
+          <out>
+            <chunk name="lemq">
+              <tags><tag><lit-tag v="vblex.lemq"/></tag></tags>
+              <lu><clip pos="2" side="tl" part="lemq"/></lu>
+            </chunk>
+          </out>
+        </when></choose>
+        <choose><when>
+          <test><not><equal><b pos="1"/><lit v=" "/></equal></not></test>
+          <out><b pos="1"/></out>
         </when></choose>
       </action>
     </rule>
