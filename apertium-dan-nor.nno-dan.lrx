@@ -39,4 +39,9 @@
   <rule>
     <match lemma="ho"><select lemma="hun"/></match>
   </rule>
+  <rule>
+    <match lemma="høyre"/>
+    <match lemma="heime"/>
+    <match lemma="innom"><select lemma="ind under"/></match>
+  </rule>
 </rules>
