@@ -209,6 +209,7 @@
         <when>
           <test><and>
             <not><equal><clip pos="1" part="gen"/><lit v=""/></equal></not>
+            <not><equal><clip pos="2" part="gen"/><lit-tag v="un"/></equal></not>
             <not><equal><clip pos="1" part="nbr"/><lit-tag v="pl"/></equal></not>
             <not><equal><clip pos="2" part="nbr"/><lit-tag v="pl"/></equal></not>
           </and></test>
