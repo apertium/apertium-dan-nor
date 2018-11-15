@@ -254,3 +254,4 @@ test: all
 	@echo "Jeg har åle i min luftpudebåd" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+	t/hash-count
