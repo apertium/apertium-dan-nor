@@ -5,19 +5,41 @@
     <def-cat n="ncmp">
       <cat-item tags="n.*.cmp"/>
       <cat-item tags="n.*.cmp.guio"/>
+      <cat-item tags="np.*.cmp"/>
+      <cat-item tags="np.*.cmp.guio"/>
     </def-cat>
     <def-cat n="nind">
       <cat-item tags="n.*.ind.*"/>
       <cat-item tags="n.*.ind.gen"/>
     </def-cat>
     <!-- n does not include compound lhs's: -->
-    <def-cat n="n">
+    <def-cat n="n_np">
       <cat-item tags="n.*.cmp-split"/>
       <cat-item tags="n.*.def"/>
       <cat-item tags="n.*.ind"/>
       <cat-item tags="n.*.acr"/>
       <cat-item tags="n.*.sp"/>
       <cat-item tags="n.*.gen"/>
+      <cat-item tags="np.*.cmp-split"/>
+      <cat-item tags="np.*.gen"/>
+      <cat-item tags="np.*.gen.guio"/>
+      <cat-item tags="np.top"/>
+      <cat-item tags="np.top.f"/>
+      <cat-item tags="np.top.m"/>
+      <cat-item tags="np.top.nt"/>
+      <cat-item tags="np.org"/>
+      <cat-item tags="np.org.f"/>
+      <cat-item tags="np.org.m"/>
+      <cat-item tags="np.org.nt"/>
+      <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant.f"/>
+      <cat-item tags="np.ant.m"/>
+      <cat-item tags="np.ant.nt"/>
+      <cat-item tags="np.cgguess"/>
+      <cat-item tags="np.guess"/>
+      <cat-item tags="np.cog"/>
+      <cat-item tags="np.al"/>
+      <cat-item tags="np.attr"/>
     </def-cat>
     <!-- is this ever a compound-lhs? TODO -->
     <def-cat n="np">
@@ -694,7 +716,7 @@
     <rule comment="N
                    Remove cas from lu, but put it in chunk">
       <pattern>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -711,7 +733,7 @@
                    Remove the space that pretransfer added">
       <pattern>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -730,7 +752,7 @@
       <pattern>
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -752,7 +774,7 @@
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
@@ -775,7 +797,7 @@
     <rule comment="ADJ N">
       <pattern>
         <pattern-item n="adj"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <!-- TODO: add this when it's accepted in trunk/apertium: -->
@@ -811,7 +833,7 @@
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_n_n"/></let>
@@ -841,7 +863,7 @@
         <pattern-item n="adj"/>
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_n_n_n"/></let>
@@ -874,7 +896,7 @@
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_n_n_n_n"/></let>
@@ -908,7 +930,7 @@
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="adj"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_adj_n"/></let>
@@ -948,7 +970,7 @@
         <pattern-item n="adj"/>
         <pattern-item n="adj"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_adj_n_n"/></let>
@@ -991,7 +1013,7 @@
         <pattern-item n="adj"/>
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_adj_n_n_n"/></let>
@@ -1037,7 +1059,7 @@
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
         <pattern-item n="ncmp"/>
-        <pattern-item n="n"/>
+        <pattern-item n="n_np"/>
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj_adj_n_n_n_n"/></let>
