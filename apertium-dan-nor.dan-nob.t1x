@@ -41,15 +41,6 @@
       <cat-item tags="np.al"/>
       <cat-item tags="np.attr"/>
     </def-cat>
-    <!-- is this ever a compound-lhs? TODO -->
-    <def-cat n="np">
-      <cat-item tags="np.*"/>
-    </def-cat>
-    <def-cat n="nom">
-      <cat-item tags="n.*.*.*"/>
-      <cat-item tags="n.*.*.*.gen"/>
-      <cat-item tags="np.*"/>
-    </def-cat>
     <def-cat n="nacr">
       <cat-item tags="n.acr"/>
     </def-cat>
@@ -693,24 +684,6 @@
     </rule>
 
     <!-- Nouns -->
-
-    <!-- NP+ -->
-    <rule comment="NP
-                   Remove cas from lu, but put it in chunk">
-      <pattern>
-        <pattern-item n="np"/>
-      </pattern>
-      <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <call-macro n="set_ntags"><with-param pos="1"/></call-macro>
-        <out>
-          <chunk name="np" case="caseFirstWord">
-            <tags><tag><var n="ntags"/></tag></tags>
-            <lu><clip pos="1" side="tl" part="whole"/></lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
     <!-- N+ -->
     <rule comment="N

@@ -52,15 +52,6 @@
     <def-cat n="n-vedkommende">
       <cat-item lemma="vedkommende" tags="n.nt.sg.ind"/>
     </def-cat>
-    <!-- is this ever a compound-lhs? TODO -->
-    <def-cat n="np">
-      <cat-item tags="np.*"/>
-    </def-cat>
-    <def-cat n="nom">
-      <cat-item tags="n.*.*.*"/>
-      <cat-item tags="n.*.*.*.gen"/>
-      <cat-item tags="np.*"/>
-    </def-cat>
     <def-cat n="nacr">
       <cat-item tags="n.acr"/>
     </def-cat>
@@ -1134,23 +1125,6 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
     </rule>
 
     <!-- Nouns -->
-
-    <!-- NP+ -->
-    <rule comment="NP
-                   Remove cas from lu, but put it in chunk">
-      <pattern>
-        <pattern-item n="np"/>
-      </pattern>
-      <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <out>
-          <chunk name="np" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu><clip pos="1" side="tl" part="whole"/></lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
     <!-- noun exceptions: -->
     <rule comment="NGEN_TIME_MEAS: dagens => dagens">
