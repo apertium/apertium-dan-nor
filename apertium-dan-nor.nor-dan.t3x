@@ -217,8 +217,9 @@
           <test><or>
             <equal><clip pos="1" part="gen"/><lit-tag v="GD"/></equal>
             <equal><clip pos="1" part="gen"/><lit-tag v="mf"/></equal>
+            <equal><clip pos="1" part="gen"/><lit-tag v="f"/></equal>
           </or></test>
-          <let><clip pos="1" part="gen"/><lit-tag v="m"/></let>
+          <let><clip pos="1" part="gen"/><lit-tag v="ut"/></let>
         </when></choose>
 
         <out>
