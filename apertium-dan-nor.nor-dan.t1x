@@ -219,6 +219,9 @@
       <attr-item tags="det.qnt.neg"/>
       <attr-item tags="det.pos"/>
     </def-attr>
+    <def-attr n="a_date">
+      <attr-item tags="date"/>
+    </def-attr>
 
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
@@ -1332,6 +1335,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
           <otherwise><let><var n="c_name"/><lit v="det"/></let></otherwise>
         </choose>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_date"/><lit v=""/></let>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
