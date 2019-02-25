@@ -36,6 +36,9 @@
       <program name="lt-proc $1">
         <file name="dan-nno.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="nob-nno.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 
@@ -246,6 +249,9 @@
       </program>
       <program name="lt-proc -d">
         <file name="dan-nno.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="nob-nno.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>

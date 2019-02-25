@@ -33,6 +33,7 @@ TARGETS_COMMON = \
       $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
       $(PREFIX1n).autobil.bin \
       $(PREFIX1n).autogen.bin \
+      $(PREFIX1n).autopgen.bin \
       $(PREFIX1n).autolex.bin \
       $(PREFIX1n).automorf.bin \
       $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
@@ -81,6 +82,9 @@ $(PREFIX1b).autogen.bin: $(AP_SRC2b)/$(LANG2b).autogen.bin
 	cp $< $@
 
 $(PREFIX1n).autogen.bin: $(AP_SRC2n)/$(LANG2n).autogen.bin
+	cp $< $@
+
+$(PREFIX1n).autopgen.bin: $(AP_SRC2n)/$(LANG2n).autopgen.bin
 	cp $< $@
 
 
