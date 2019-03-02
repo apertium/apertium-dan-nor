@@ -83,7 +83,7 @@
     </def-cat>
     <def-cat n="posgen">
       <cat-item tags="det.pos.*"/>
-      <cat-item tags="n.*.*.*.gen"/>
+      <cat-item tags="n.*.gen"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
@@ -241,10 +241,10 @@
       <attr-item tags="m"/>
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
+      <attr-item tags="fn"/>
+      <attr-item tags="f"/>
       <attr-item tags="ut"/>
       <attr-item tags="un"/>
-      <attr-item tags="f"/>
-      <attr-item tags="fn"/>
       <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="nbr">
@@ -589,15 +589,15 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
     </def-macro>
 
     <def-macro n="set_grau_aux2" npar="2"
-               c="arg.1: adjective arg.2: adjective
+               c="arg.1: adjective arg.2: adjective (in order of appearance)
                   When translating from «meir/mest» non-sint to sint, remove «meir/mest», empty grau_aux-variable.
                   When translating from (first arg) sint to non-sint, put «meir/mest» in grau_aux-variable.
 
                   Assumes c_name has been set!">
       <choose>
-        <when>
+        <when c="mest moderne→modernaste (removing mest/meir)">
           <test><and>
-            <equal><clip pos="1" side="tl" part="lemh"/><lit v="mycken"/></equal>
+            <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="meget"/></equal>
             <or>
               <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
               <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal>
