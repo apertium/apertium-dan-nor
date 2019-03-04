@@ -2,7 +2,7 @@
 
 # Check that we don't get debug symbols [#@] on some test texts.
 
-set -e -u
+set -e -u -x
 
 cd "$(dirname "$0")"
 
