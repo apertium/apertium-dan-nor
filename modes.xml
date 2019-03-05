@@ -3,7 +3,7 @@
 
 
   <!-- Danish → Norwegian Nynorsk -->
-  <mode name="dan-nno" install="yes" gendebug="true">
+  <mode name="dan-nno" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="dan-nno.automorf.bin"/>
@@ -44,7 +44,7 @@
 
 
   <!-- Danish → Norwegian Bokmål -->
-  <mode name="dan-nob" install="yes" gendebug="true">
+  <mode name="dan-nob" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="dan-nob.automorf.bin"/>
@@ -82,7 +82,7 @@
 
 
   <!-- Norwegian Nynorsk → Danish -->
-  <mode name="nno-dan" install="yes" gendebug="true">
+  <mode name="nno-dan" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nno-dan.automorf.bin"/>
@@ -120,7 +120,7 @@
 
 
   <!-- Norwegian bokmål → Danish -->
-  <mode name="nob-dan" install="yes" gendebug="true">
+  <mode name="nob-dan" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
