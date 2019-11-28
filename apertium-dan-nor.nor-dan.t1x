@@ -1294,6 +1294,10 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
           <with-param pos="2"/>
         </call-macro>
         <let><var n="c_name"/><lit v="vblex"/></let>
+        <choose><when>
+          <test><equal><clip pos="1" side="tl" part="temps"/><lit-tag v="pp"/></equal></test>
+          <let><clip pos="1" side="tl" part="temps"/><lit-tag v="past"/></let>
+        </when></choose>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
