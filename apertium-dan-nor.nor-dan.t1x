@@ -1301,7 +1301,7 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voice"/>
+              <lit-tag v="pasv"/>
             </lu>
           </chunk>
         </out>
