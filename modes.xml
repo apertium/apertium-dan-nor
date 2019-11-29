@@ -125,6 +125,9 @@
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+	<file name="nob-dan.seg.rlx.bin"/>
+      </program>
       <program name="cg-proc -w">
         <file name="nob-dan.rlx.bin"/>
       </program>
