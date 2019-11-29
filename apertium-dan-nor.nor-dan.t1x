@@ -322,117 +322,188 @@
       <list-item v="begynde"/>
     </def-list>
 
-<!-- TODO
-Avoid these in <vblex><pres><pasv>  Make them blive<vblex><pres><actv> verb<pp>
-Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
--->
-    <def-list n="no_pres_pasv">
-      <list-item v="slå"/>
-      <list-item v="ligge"/>
-      <list-item v="træffe"/>
-      <list-item v="afskrive"/>
-      <list-item v="antage"/>
-      <list-item v="besætte"/>
-      <list-item v="bestå"/>
-      <list-item v="forekomme"/>
-      <list-item v="gå"/>
-      <list-item v="gennemgå"/>
-      <list-item v="gentage"/>
-      <list-item v="gøre rent"/>
-      <list-item v="indgå"/>
-      <list-item v="kæmme"/>
-      <list-item v="kunne"/>
-      <list-item v="løbe"/>
-      <list-item v="stå"/>
-      <list-item v="tage"/>
-      <list-item v="trykke"/>
-      <list-item v="underskrive"/>
-      <list-item v="vædde"/>
+    <def-list n="no_pres_pasv" c="We never turn pp's of these into pasv (regardless of temps)">
+      <list-item v="aldres"/>
+      <list-item v="dages"/>
+      <list-item v="drages"/>
+      <list-item v="enes"/>
+      <list-item v="erfares"/>
+      <list-item v="fattes"/>
+      <list-item v="findes"/>
+      <list-item v="forefindes"/>
+      <list-item v="forældes"/>
+      <list-item v="færdes"/>
+      <list-item v="føles"/>
+      <list-item v="kappes"/>
+      <list-item v="kives"/>
+      <list-item v="ledes"/>
+      <list-item v="mindes"/>
+      <list-item v="mistrives"/>
+      <list-item v="mødes"/>
+      <list-item v="nedarves"/>
+      <list-item v="omgås"/>
+      <list-item v="opleves"/>
+      <list-item v="plages"/>
+      <list-item v="rygtes"/>
+      <list-item v="samles"/>
+      <list-item v="skilles"/>
+      <list-item v="skyldes"/>
+      <list-item v="slås"/>
+      <list-item v="snakkes"/>
+      <list-item v="stortrives"/>
+      <list-item v="trives"/>
+      <list-item v="træffes"/>
+      <list-item v="trænges"/>
+      <list-item v="tækkes"/>
+      <list-item v="undres"/>
+      <list-item v="vantrives"/>
+      <list-item v="væmmes"/>
       <list-item v="være"/>
-      <list-item v="vaske"/>
-      <list-item v="velkomme"/>
+      <list-item v="ynges"/>
+      <list-item v="ynkes"/>
+      <list-item v="ældes"/>
     </def-list>
 
-<!-- TODO Avoid these in <vblex><past><pasv>. Make them blive<vblex><past><actv> verb<pp>: -->
-    <def-list n="no_past_pasv">
-      <list-item v="slå"/>
-      <list-item v="ligge"/>
-      <list-item v="lade"/>
-      <list-item v="træffe"/>
-      <list-item v="bære"/>
-      <list-item v="skære"/>
-      <list-item v="tillade"/>
-      <list-item v="publicere"/>
-      <list-item v="flytte"/>
-      <list-item v="gøre"/>
-      <list-item v="adlyde"/>
-      <list-item v="afbryde"/>
-      <list-item v="afskrive"/>
+    <def-list n="no_past_pasv" c="We never turn pp's of these into past.pasv">
+      <list-item v="afhjælpe"/>
+      <list-item v="afhænge"/>
+      <list-item v="afvige"/>
+      <list-item v="aldres"/>
       <list-item v="angribe"/>
-      <list-item v="antage"/>
       <list-item v="begribe"/>
-      <list-item v="besætte"/>
-      <list-item v="beskrive"/>
-      <list-item v="bestå"/>
+      <list-item v="behænge"/>
       <list-item v="bestikke"/>
       <list-item v="bide"/>
-      <list-item v="bryde"/>
-      <list-item v="byde"/>
+      <list-item v="bifalde"/>
+      <list-item v="blankslide"/>
+      <list-item v="bundfryse"/>
+      <list-item v="bære"/>
+      <list-item v="dages"/>
+      <list-item v="domfælde"/>
+      <list-item v="drages"/>
+      <list-item v="drikke"/>
+      <list-item v="dybfryse"/>
+      <list-item v="efterlade"/>
+      <list-item v="enes"/>
+      <list-item v="erfares"/>
       <list-item v="falde"/>
+      <list-item v="fattes"/>
+      <list-item v="findes"/>
+      <list-item v="flydyde"/>
       <list-item v="flyve"/>
-      <list-item v="forlade"/>
-      <list-item v="frigive"/>
+      <list-item v="fnyse"/>
+      <list-item v="forefindes"/>
+      <list-item v="forfryse"/>
+      <list-item v="forgribe"/>
+      <list-item v="forskrækkes"/>
+      <list-item v="forsove"/>
+      <list-item v="forvride"/>
+      <list-item v="forældes"/>
+      <list-item v="fravige"/>
       <list-item v="fryse"/>
-      <list-item v="gælde"/>
-      <list-item v="gå"/>
-      <list-item v="gemme"/>
-      <list-item v="gennemgå"/>
-      <list-item v="gentage"/>
-      <list-item v="give"/>
+      <list-item v="færdes"/>
+      <list-item v="føles"/>
+      <list-item v="genfødes"/>
+      <list-item v="glide"/>
       <list-item v="gnide"/>
-      <list-item v="gøre rent"/>
-      <list-item v="gøre"/>
       <list-item v="gribe"/>
-      <list-item v="grille"/>
-      <list-item v="hikke"/>
-      <list-item v="indbyde"/>
-      <list-item v="indgå"/>
-      <list-item v="kunne"/>
+      <list-item v="gælde"/>
+      <list-item v="halvsove"/>
+      <list-item v="hjemfalde"/>
+      <list-item v="hjælpe"/>
+      <list-item v="hundefryse"/>
+      <list-item v="hænge"/>
+      <list-item v="høres"/>
+      <list-item v="hånle"/>
+      <list-item v="indebære"/>
+      <list-item v="indlade"/>
+      <list-item v="kapdrikke"/>
+      <list-item v="kappes"/>
+      <list-item v="kives"/>
+      <list-item v="klukle"/>
+      <list-item v="knivstikke"/>
+      <list-item v="krybe"/>
+      <list-item v="kvæles"/>
+      <list-item v="kæderyge"/>
       <list-item v="lade"/>
-      <list-item v="længes"/>
-      <list-item v="lede"/>
       <list-item v="le"/>
+      <list-item v="lede"/>
+      <list-item v="ledes"/>
       <list-item v="lide"/>
-      <list-item v="ligge"/>
-      <list-item v="løbe"/>
-      <list-item v="løsnes"/>
-      <list-item v="lyde"/>
       <list-item v="lyve"/>
-      <list-item v="medgive"/>
-      <list-item v="misse"/>
-      <list-item v="nulle"/>
-      <list-item v="plukke"/>
+      <list-item v="længes"/>
+      <list-item v="løslade"/>
+      <list-item v="løsnes"/>
+      <list-item v="mindes"/>
+      <list-item v="mistrives"/>
+      <list-item v="mødes"/>
+      <list-item v="nedarves"/>
+      <list-item v="nedlade"/>
+      <list-item v="omgås"/>
+      <list-item v="omtales"/>
+      <list-item v="opleves"/>
+      <list-item v="opslide"/>
+      <list-item v="overfalde"/>
+      <list-item v="overhænge"/>
+      <list-item v="overlade"/>
+      <list-item v="overskride"/>
+      <list-item v="plages"/>
       <list-item v="ride"/>
-      <list-item v="sidde"/>
-      <list-item v="skændes"/>
-      <list-item v="ske"/>
-      <list-item v="skrige"/>
-      <list-item v="skrive"/>
-      <list-item v="snurre"/>
-      <list-item v="snyde"/>
-      <list-item v="stå"/>
-      <list-item v="synge"/>
-      <list-item v="tage"/>
-      <list-item v="tagge"/>
-      <list-item v="trætte"/>
-      <list-item v="trykke"/>
-      <list-item v="underskrive"/>
-      <list-item v="vædde"/>
-      <list-item v="være"/>
-      <list-item v="vaske"/>
-      <list-item v="vide"/>
       <list-item v="ryge"/>
-      <list-item v="flyve"/>
+      <list-item v="rygtes"/>
+      <list-item v="samles"/>
+      <list-item v="sidde"/>
+      <list-item v="skambide"/>
+      <list-item v="skamfrysyse"/>
+      <list-item v="ske"/>
+      <list-item v="skide"/>
+      <list-item v="skilles"/>
+      <list-item v="skoggerle"/>
+      <list-item v="skride"/>
+      <list-item v="skridide"/>
+      <list-item v="skrige"/>
+      <list-item v="skyldes"/>
+      <list-item v="skændes"/>
+      <list-item v="skære"/>
+      <list-item v="slide"/>
+      <list-item v="slippe"/>
+      <list-item v="slås"/>
+      <list-item v="smide"/>
+      <list-item v="smugdrikke"/>
+      <list-item v="smugryge"/>
+      <list-item v="smyge"/>
+      <list-item v="småfryse"/>
+      <list-item v="snakkes"/>
+      <list-item v="snige"/>
+      <list-item v="snorksove"/>
+      <list-item v="sove"/>
+      <list-item v="stikke"/>
+      <list-item v="stinke"/>
+      <list-item v="storskrige"/>
+      <list-item v="stortrives"/>
+      <list-item v="stride"/>
+      <list-item v="stryge"/>
+      <list-item v="synes"/>
+      <list-item v="tilfryse"/>
+      <list-item v="trives"/>
+      <list-item v="trænges"/>
+      <list-item v="tækkes"/>
+      <list-item v="tændes"/>
+      <list-item v="udtrykke"/>
+      <list-item v="undres"/>
+      <list-item v="undslippe"/>
+      <list-item v="undvige"/>
+      <list-item v="vantrives"/>
+      <list-item v="vide"/>
+      <list-item v="vige"/>
+      <list-item v="vride"/>
+      <list-item v="væmmes"/>
+      <list-item v="være"/>
+      <list-item v="ynges"/>
+      <list-item v="ynkes"/>
+      <list-item v="æde"/>
+      <list-item v="ældes"/>
+      <list-item v="årelade"/>
     </def-list>
 
   </section-def-lists>
@@ -1282,13 +1353,23 @@ Avoid these in <vblex><inf><pasv>  Make them blive<inf><pres><actv> verb<pp>
       </action>
     </rule>
 
-    <rule comment="PASVAUX VBLEXPP: vert utgitt → utgives
-                   TODO: check that anything translated from pp in nor can generate a pasv in dan!">
+    <rule comment="PASVAUX VBLEXPP: vert utgitt → utgives">
       <pattern>
         <pattern-item n="pasvaux"/>
         <pattern-item n="pp"/>
       </pattern>
       <action>
+        <choose><when>
+          <test><in><clip pos="2" side="tl" part="lemh"/><list n="no_pres_pasv"/></in></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
+        <choose><when>
+          <test><and>
+            <equal><clip pos="1" side="tl" part="temps"/><lit-tag v="past"/></equal>
+            <in><clip pos="2" side="tl" part="lemh"/><list n="no_past_pasv"/></in>
+          </and></test>
+          <reject-current-rule shifting="no"/>
+        </when></choose>
         <call-macro n="set_caseFirstWord2">
           <with-param pos="1"/>
           <with-param pos="2"/>
