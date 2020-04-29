@@ -257,5 +257,8 @@
       <match lemma="for"/>
     </or>
   </rule>
+  <rule><match lemma="artikel" tags="n.*"><select lemma="artikkel"/></match></rule>
+  <rule><match lemma="eftersøge" tags="vblex.*"><select lemma="ettersøke"/></match></rule>
+  <rule><match lemma="virke" tags="vblex.*"><select lemma="verke"/></match></rule>
 </rules>
 
