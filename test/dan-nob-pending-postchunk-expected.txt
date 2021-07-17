@@ -1,0 +1,2 @@
+[gJh2RMTY1F_N#0] ^Wikipedia<np><org>$ ^være<vblex><pres>$ ^en<det><qnt><m><sg>$ ^internasjonal<adj><pst><mf><sg><ind>$ ^internettbasert<adj><pst><mf><sg><ind>$ ^encyklopedi<n><m><sg><ind>$ ^som<prn><rel><un><sp><nom>$ ^utgi<vblex><pres><pasv>$ ^av<pr>$ ^den<det><dem><m><sg>$ ^ideell<adj><pst><un><sp><def>$ ^organisasjon<n><m><sg><ind>$ ^Wikimedia<np><org>$ ^Foundation<np><org>$
+[/gJh2RMTY1F_N]

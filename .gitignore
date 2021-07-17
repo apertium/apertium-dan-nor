@@ -17,3 +17,4 @@
 /nob-dan.prob
 /ap_include.am
 /dev/testvoc/__pycache__/
+/test/*-output.txt

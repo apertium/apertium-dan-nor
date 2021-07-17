@@ -1,0 +1,6 @@
+[Hac3cvhrs00E#0] ^adv{^når<cnjsub>$ ^den<prn><pers><p3><nt><sg><nom>$ ^gjelde<vblex><pres>$}$ ^n<n><m><sg><def>{^størstedel<n><m><sg><def>$}$
+[/Hac3cvhrs00E]
+[UDEmh40X_Na9#0] ^pr-av<pr>{^av<pr>$}$
+[/UDEmh40X_Na9]
+[gJh2RMTY1F_N#0] ^N<np><org>{^wikipedia<np><org>$}$ ^aux<vblex><pres>{^vere<vblex><pres>$}$ ^det<det><qnt><m><sg>{^ein<det><qnt><m><sg>$}$ ^adj_adj_n<n><m><sg><ind>{^internasjonal<adj><pst><mf><sg><ind>$ ^internettbasert<adj><pst><mf><sg><ind>$ ^encyklopedi<n><m><sg><ind>$}$ ^prn<prn><rel><un><sp><nom>{^som<prn><rel><un><sp><nom>$}$ ^aux<vblex><pres><pasv>{^bli<vblex><pres>$}$ ^adj<adj><pp><mf><sg><ind>{^utgje<adj><pp><nt><sg><ind>$}$ ^pr-av<pr>{^av<pr>$}$ ^detdd<det><dem><m><sg>{^den<det><dem><m><sg>$}$ ^adj_n<n><m><sg><def>{^ideell<adj><pst><un><sp><def>$ ^organisasjon<n><m><sg><ind>$}$ ^N<np><org>{^wikimedia<np><org>$}$ ^N<np><org>{^foundation<np><org>$}$
+[/gJh2RMTY1F_N]

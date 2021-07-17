@@ -1,0 +1,6 @@
+[Hac3cvhrs00E#0] ^når<cnjsub>$ ^den<prn><pers><p3><nt><sg><nom>$ ^gjelde<vblex><pres>$ ^størstedel<n><m><sg><def>$
+[/Hac3cvhrs00E]
+[UDEmh40X_Na9#0] ^av<pr>$
+[/UDEmh40X_Na9]
+[gJh2RMTY1F_N#0] ^Wikipedia<np><org>$ ^vere<vblex><pres>$ ^ein<det><qnt><m><sg>$ ^internasjonal<adj><pst><mf><sg><ind>$ ^internettbasert<adj><pst><mf><sg><ind>$ ^encyklopedi<n><m><sg><ind>$ ^som<prn><rel><un><sp><nom>$ ^bli<vblex><pres>$ ^utgje<adj><pp><nt><sg><ind>$ ^av<pr>$ ^den<det><dem><m><sg>$ ^ideell<adj><pst><un><sp><def>$ ^organisasjon<n><m><sg><def>$ ^Wikimedia<np><org>$ ^Foundation<np><org>$
+[/gJh2RMTY1F_N]

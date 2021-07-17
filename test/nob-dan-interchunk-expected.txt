@@ -1,0 +1,2 @@
+[UE8i8Dh7zTWM#0] ^Prn<prn><pers><p1><ut><sg><nom>{^jeg<prn><pers><p1><ut><sg><nom>$}$ ^vblex<vbhaver><pres><actv>{^have<vbhaver><pres><actv>$}$ ^n<n><ut><pl><ind>{^ål<n><ut><pl><ind>$}$ ^pr-i<pr>{^i<pr>$}$ ^det<det><pos><ut><sg>{^min<det><pos><ut><sg>$}$ ^n<n><ut><sg><ind>{^luftpudebåd<n><ut><sg><ind>$}$
+[/UE8i8Dh7zTWM]

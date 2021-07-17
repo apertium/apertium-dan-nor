@@ -1,0 +1,2 @@
+[UE8i8Dh7zTWM#0] ^Jeg<prn><pers><p1><mf><sg><nom>/Jeg<prn><pers><p1><ut><sg><nom>$ ^ha<vblex><pres>/have<vbhaver><pres><actv>$ ^ål<n><m><pl><ind>/ål<n><ut><pl><ind>$ ^i<pr>/i<pr>$ ^min<det><pos><m><sg>/min<det><pos><ut><sg>$ ^luftputebåt<n><m><sg><ind>/luftpudebåd<n><ut><sg><ind>$
+[/UE8i8Dh7zTWM]

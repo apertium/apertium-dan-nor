@@ -254,11 +254,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "Såg ho ikkje orda?" | apertium -d . nno-dan | tee .test-mt
-	@echo "Så hun ikke ordene?" > .test-ref
-	@diff .test-ref .test-mt
-	echo "Jeg har åler i min luftputebåt" | apertium -d . nob-dan | tee .test-mt
-	@echo "Jeg har åle i min luftpudebåd" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-	t/hash-count
+	apertium-regtest test

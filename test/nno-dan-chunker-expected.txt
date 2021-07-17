@@ -1,0 +1,2 @@
+[4IAP1Qxnrab0#0] ^Vblex<vblex><past><actv>{^se<vblex><past><actv>$}$ ^prn<prn><pers><p3><f><sg><nom>{^hun<prn><pers><p3><f><sg><nom>$}$ ^adv<adv>{^ikke<adv>$}$ ^n<n><nt><pl><def>{^ord<n><nt><pl><def>$}$^punct<sent>{^?<sent>$}$
+[/4IAP1Qxnrab0]

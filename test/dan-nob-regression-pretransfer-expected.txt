@@ -1,0 +1,4 @@
+[UDEmh40X_Na9#0] ^af<pr>$
+[/UDEmh40X_Na9]
+[gJh2RMTY1F_N#0] ^Wikipedia<np><org>$ ^være<vbser><pres><actv>$ ^en<det><ind><ut><sg>$ ^international<adj><sint><pst><ut><sg><ind>$ ^internetbaseret<adj><sint><pst><ut><sg><ind>$ ^encyklopædi<n><ut><sg><ind>$ ^der<prn><rel><un><sp><nom>$ ^udgive<vblex><pres><pasv>$ ^af<pr>$ ^den<det><dem><ut><sg>$ ^ideel<adj><sint><pst><un><sp><def>$ ^organisation<n><ut><sg><ind>$ ^Wikimedia<np><org>$ ^Foundation<np><org>$
+[/gJh2RMTY1F_N]

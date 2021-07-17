@@ -1,0 +1,4 @@
+[UDEmh40X_Na9#0] ^af/af<pr>$
+[/UDEmh40X_Na9]
+[gJh2RMTY1F_N#0] ^Wikipedia/Wikipedia<np><org>/Wikipedia<np><org>$ ^er/være<vbser><pres><actv>$ ^en/ene<vblex><imp>/en<det><ind><ut><sg>/man<prn><pers><p3><un><sg><acc>$ ^international/international<adj><sint><pst><ut><sg><ind>$ ^internetbaseret/internetbaseret<adj><sint><pst><ut><sg><ind>/internetbaseret<adj><sint><pst><nt><sg><ind>$ ^encyklopædi/encyklopædi<n><ut><sg><ind>/encyklopædi<n><ut><sg><ind>$ ^der/der<adv>/der<cnjsub>/der<prn><rel><un><sp><nom>$ ^udgives/udgive<vblex><inf><pasv>/udgive<vblex><pres><pasv>$ ^af/af<pr>$ ^den/den<det><dem><ut><sg>/den<prn><pers><p3><ut><sg><acc>/den<prn><pers><p3><ut><sg><nom>$ ^ideelle/ideel<adj><sint><pst><un><pl><ind>/ideel<adj><sint><pst><un><sp><def>$ ^organisation/organisation<n><ut><sg><ind>/organisation<n><ut><sg><ind>$ ^Wikimedia/Wikimedia<np><org>/Wikimedia<np><org>$ ^Foundation/Foundation<np><org>/Foundation<np><org>$
+[/gJh2RMTY1F_N]

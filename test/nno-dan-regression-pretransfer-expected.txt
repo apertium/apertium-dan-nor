@@ -1,0 +1,8 @@
+[6oqVIKDxYJzh#0] ^den<det><dem><m><sg>$ ^trøytt<adj><sint><pst><un><sp><def>$ ^mann<n><m><sg><def>$
+[/6oqVIKDxYJzh]
+[SPQofzn-jOR7#0] ^Wikipedia<np><org>$ ^vere<vblex><pres>$ ^ein<det><qnt><m><sg>$ ^internasjonal<adj><pst><mf><sg><ind>$ ^internettbasert<adj><pst><mf><sg><ind>$ ^encyklopedi<n><m><sg><ind>$ ^som<cnjsub>$ ^bli<vblex><pres>$ ^utgje<adj><pp><nt><sg><ind>$ ^av<pr>$ ^den<det><dem><m><sg>$ ^ideell<adj><pst><un><sp><def>$ ^organisasjon<n><m><sg><def>$ ^Wikimedia<np><org>$ ^Foundation<np><org>$
+[/SPQofzn-jOR7]
+[kMFdz2mKdYmx#0] ^Aasen<np><cog>$ ^omsetje<vblex><pret>$ ^òg<adv>$ ^dikt<n><nt><sg><ind>$^;<sent><clb>$ ^forlag<n><nt><sg><def>$ ^hans<det><pos><nt><sg>$ ^omsetje<vblex><pret>$ ^for<pr>$ ^4<det><qnt><un><pl>$ ^milliard<n><m><pl><ind>$ ^årleg<adj><sint><pst><nt><sg><ind>$
+[/kMFdz2mKdYmx]
+[zZNykk8ceqd7#0] ^ho<prn><pers><p3><f><sg><nom>$ ^like<vblex><pres>$ ^ikkje<adv>$ ^denne<prn><dem><nt><sg><acc>$ ^noko<det><qnt><nt><sg>$ ^særleg<adj><sint><pst><nt><sg><ind>$
+[/zZNykk8ceqd7]
