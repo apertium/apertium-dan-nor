@@ -5,4 +5,5 @@
   <rule>
     <match lemma="hun"><select lemma="hun"/></match>
   </rule>
+  <rule><match lemma="høst" tags="n.*"><select lemma="efterår"/></match></rule>
 </rules>

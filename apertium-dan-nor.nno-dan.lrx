@@ -44,4 +44,5 @@
     <match lemma="heime"/>
     <match lemma="innom"><select lemma="ind under"/></match>
   </rule>
+  <rule><match lemma="haust" tags="n.*"><select lemma="efterår"/></match></rule>
 </rules>
