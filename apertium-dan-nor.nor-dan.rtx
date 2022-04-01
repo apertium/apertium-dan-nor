@@ -1,0 +1,280 @@
+! nor-swe.rtx
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+! Attribute Categories: !
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+gender = m f nt ut un fn mf xpst xpsts xpsto xcomp xsup GD ;
+gender_n = m f nt ut un fn mf GD ;
+! TODO do I need non_overwritable_gender = … @mf ;
+gender_adj_sg_ind = nt ut ;
+number = sg pl sp ND ;
+number_n = sg pl sp ND ;
+defnes = def ind ;
+tense = inf pret pres pp supn imp ;
+person = (PD p3) p1 p2 p3 PD ;
+voice = (VD actv) pasv actv ;
+case = nom acc gen ;
+! a_ for attribute:
+a_adj = sint ord pp pprs ;
+a_cmp = cmp cmp-split ;
+a_det = dem rel qnt pos emph ;
+a_neg = neg ;
+a_comp = pst comp sup ;
+a_clb = clb ;
+mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser ;
+
+! Word sets:
+w_paux = bli være vara vara¹ ;
+w_bli = bli ;
+w_supnaux = ha være vara vara¹ ;
+
+! nouns for which we use the 'm' form of adj's (tl/swe lemmas)
+w_noun_use_masc_adj = anhängare användare arvinge befälhavare beskyddare bror chef domare forskare företrädare granne Gud gud gudom hövding invånare katolik kejsare konung krigare kung ledare länd makthavare man medarbetare muslim människa person plattform polischef profet religion representant rådgivare skarprättare släkting son spelare storhertig teoretiker tsar vårdare zoolog ämbetsman ärkebiskop överlevande
+      ! vän ! seems like they use -a at least as often for this one?
+      ;
+w_ogeller = og eller ;
+
+! WIP: Verbs where we allow bli+adj.pp → vblex.pasv (otherwise just
+! happens for vblex.pp, but we often do want the adj.pp readings for
+! pl-vs-sg in nob→nno, whereas in swe we for some words would prefer
+! morphological passives)
+w_adj2pasv = dele åpne opne måle fange stjele stele finne teste lage undersøke skrape setje sette oppdage forgifte beslutte avgjøre avgjere ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+! Tag Rewrite Rules: !
+!!!!!!!!!!!!!!!!!!!!!!
+
+tense > tense : pret past ;
+gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, xpst xpst, xpsts xpsts, xpsto xpsto, xcomp xcomp, xsup xsup, GD GD ;
+number > number_n : sg sg, sp sp, pl pl, ND ND ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Tag Order (Output Patterns): !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
+n:     _.gender.number.defnes.case.a_cmp;
+np:    _.gender.number.defnes.case.a_cmp;
+vblex: _.tense.voice.a_cmp;
+pr:    _;
+adv:   _.a_comp;
+ij:    _;
+cnjsub: _;
+cnjcoo: _;
+part:   _;
+sent:   _.a_clb;
+
+det_nodef:    _.a_det.gender.number.case;
+det_finaldef: _.a_det.gender.number.case.defnes;
+det_initdef:  _.defnes.gender.number.case; ! samma<prn><def><un><pl><nom>
+det: (if (1.a_det/tl = dem or 1.lemh/tl = "ena")
+         1(det_finaldef)
+      el-if (1.mainpos/tl = prn and 1.a_det/tl = "")
+         1(det_initdef)
+      el-if (1.defnes/tl = ind and 1.a_det/tl = "")
+         1(det_initdef)
+      else
+         1(det_nodef)
+     );
+
+! Note: attrs not included here are not available to reduction rules
+N:     _.gender.number.defnes.case.a_cmp;
+A:     _.a_adj.a_comp.gender.number.defnes.case.a_cmp;
+NP:    _.gender.number.defnes;
+DP:    _.gender.number.defnes;
+PP:    _;
+VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
+ADV:   _;
+SENT:  _;
+DP2:   _;                       ! issue 80-workaround
+S:     _;                       ! issue 80-workaround
+
+
+!!!!!!!!!!!!!!!!!!!!
+! Reduction Rules: !
+!!!!!!!!!!!!!!!!!!!!
+
+N ->
+     "N2A" %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
+   |  %n            { %1[lemcase=$lemcase] }
+   | n.*.cmp %N     { 1[lemcase=$lemcase] %2 }
+   | vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | n.*.cmp-split [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   ;
+
+
+! A gender:
+! - if pst and ND/GD: pl/un
+! - if sup and GD: fn
+! A N gender:
+! - if NOT adj.un and adj.GD OR n.gen/sl != n.gen/tl:
+!   - if sg and ind and n.lemh!=första and n.ut/n.nt: adj.gen=n.gen
+!   - if sg/sp and def/första:
+!     - if n.ut and noun-use-masc-adj: adj.gen=m
+!     - if n.nt: adj.gen=fn
+
+A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un el-if (1.a_comp = sup and 1.gender = GD) fn else $gender),
+                              number=(if (1.a_comp = pst and 1.number = ND) pl else $number),
+                              a_adj=1.a_adj/tl
+                              ] }
+   | "A->n+A" n.*.cmp %A { 1 %2 }
+   ;
+
+! TODO: Stop <sint> getting copied from sl side if not in tl side!
+! <popcorndude> if you specify a side it takes that side or empty, if you don't specify a side it tries tl->ref->sl  [15:41]
+! ^nøye<adj><sint><pst><nt><sg><ind>/noga<adj><pst><nt><sg><ind>$
+! should not get sint!
+
+! > Suffixet -e ersätter i vissa fall bestämdhetssuffixet -a i singularis.
+! > Det kan väljas bl.a. när predikationsbasen har manligt kön, men det kräver
+! > vanligen också att det substantiv som betecknar predikationsbasen har det
+! > grammatiska genus utrum. Valet av suffixet -e är optionellt utom i vissa
+! > stilarter när adjektivet står självständigt.
+! https://svenska.se/SAG_Volym_2.pdf#page=212
+
+NP ->   %N { %1[lemcase=$lemcase] }
+    | "ANun" 4: A.*.un %N
+       ! Forms with <un> on the swe side of bidix don't inflect for gender
+       { 1 _ %2 }
+    | "ANnoch" 4: A %N
+       ?(2.gender/sl = 2.gender/tl and (1.gender not = GD))
+       ! Gender didn't change in bidix
+       { 1 _ %2 }
+    ! sg/sp and def/första takes fn if noun is nt, m only for certain nouns
+    | "ANutsg" 2: A.*.sg.def    %N.ut ?(2.lemh/tl in w_noun_use_masc_adj) { 1[gender=m] _ %2 }
+    | "ANutsp" 2: A.*.sp.def    %N.ut ?(2.lemh/tl in w_noun_use_masc_adj) { 1[gender=m] _ %2 }
+    | "ANutfö" 3: första@A.*.sg %N.ut ?(2.lemh/tl in w_noun_use_masc_adj) { 1[gender=m] _ %2 }
+    | "ANntfö" 3: första@A.*.sg %N.nt { 1[gender=nt] _                                    %2 }
+    | "ANntsg" 2: A.*.sg.def    %N.nt { 1[gender=nt] _                                    %2 }
+    | "ANntsp" 2: A.*.sp.def    %N.nt { 1[gender=nt] _                                    %2 }
+    ! sg.ind takes noun gender if that's nt, ut (and adj isn't första):
+    | "ANnt2N" 2: A.*.sg.ind    %N.nt { 1[gender=2.gender] _                              %2 }
+    | "ANut2N" 2: A.*.sg.ind    %N.ut { 1[gender=2.gender] _                              %2 }
+    | "AN0"    0: A             %N { 1 _                                                  %2 }
+    ;
+
+PP -> pr %DP { 1 _ 2 } ;
+
+detOfN: (always
+         1(det)[gender=(if (1.number_n = pl or 1.gender/sl = un)
+                            un
+                        el-if (1.gender_n = un) ! never apply noun <un>-gender to determiner
+                            1.gender
+                        else
+                            1.gender_n
+                        ),
+                number=1.number_n]
+        ) ;
+! TODO: when https://github.com/apertium/apertium-recursive/issues/81
+! is solved, use that instead of gender_n hack
+
+DP ->
+     "en god venn ~> en god vänn"
+      det %NP
+      ?(not (1.number = sg and 2.number = pl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+        _
+        2
+      }
+
+    | "vennene mine ~> mina vänner"
+      %NP det.pos
+      ?(not (2.number = pl and 1.number = sg)) ! reject if number mismatch (det doesn't modify n)
+      { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
+        _
+        1[defnes=ind, lemcase=2.lemcase]
+      }
+
+    | %det { %1 }
+
+    | %NP { %1 }
+      ;
+
+! TODO: Do any tags need propagating here?
+ADV -> "ADV" %adv { %1 }
+    | "ADV.nt" %A.*.nt { %1 }
+    | det.dem år@N { 1 _ %2 }
+    ;
+
+VP ->
+      3: %vblex.imp { 1[voice=""] }
+    |    %vblex { 1 }
+
+    !   %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
+    ! | adv %VP (if (1.lem/sl = there)
+    !               { %2 }
+    !            else
+    !               { 1 _ %2 } )
+    ! | PP %VP { 1 _ %2 }
+    ! |
+
+    | "ble landet delt ~> delades landetV"
+      %[w_bli]@vblex NP vblex.pp
+      { 3[voice = pasv, tense = 1.tense] _ 2 }
+
+    | "ble landet delt ~> delades landetA"
+      %[w_bli]@vblex NP [w_adj2pasv]@adj.pp
+      { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
+
+    | "ble senere delt ~> delades senareV"
+      %[w_bli]@vblex ADV vblex.pp
+      { 3[voice = pasv, tense = 1.tense] _ 2 }
+
+    | "ble senere delt ~> delades senareA"
+      %[w_bli]@vblex ADV [w_adj2pasv]@adj.pp
+      { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
+
+    | "ble delt ~> deladesV"
+      %[w_bli]@vblex vblex.pp
+      { 2[voice = pasv, tense = 1.tense] }
+
+    | "ble delt ~> deladesA"
+      %[w_bli]@vblex [w_adj2pasv]@adj.pp
+      { *(vblex)[lemh=2.lemh, voice = pasv, tense = 1.tense] }
+
+    | "er hardt rammet ~> drabbats hårt"
+      %[w_paux]@vblex ADV vblex.pp
+      { 3[voice = pasv] _ 2 }
+
+    | "er blitt smittet ~> har smittatsV"
+      %[w_supnaux]@vblex [w_bli]@vblex vblex.pp ! TODO: can I match both adj.pp and vblex.pp in one rule here?
+      { 1 _ *(vblex)[lemh=3.lemh, voice = pasv, tense = supn] }
+
+    | "er blitt smittet ~> har smittatsA"
+      %[w_supnaux]@vblex [w_bli]@vblex adj.pp   ! TODO: can I match both adj.pp and vblex.pp in one rule here?
+      { 1 _ *(vblex)[lemh=3.lemh, voice = pasv, tense = supn] }
+
+    | "rm att"
+      %vblex.*.pasv part ha@vblex vblex.pp
+      { 1 _ 3 _ 4 }
+    ;
+
+! If bidix removed clb, ensure it stays removed:
+SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
+
+
+! We need to parse wider contexts in order to work around
+! https://github.com/apertium/apertium-recursive/issues/80
+
+! Ideally, we'd only have rules that cover contexts where we need to
+! apply a change, but unfortunately there's some deep issue with
+! lookahead that means that a verb to the right can block an analysis
+! of a verb to the left or something if we try to only do fragmented
+! "bottom up" analyses. But if there's a parse covering both verbs,
+! the rules will apply.
+
+DP2 ->
+      "vennene mine virtuelt" DP A         { %1 _ 2 }
+    | "vennene hennes redde"  DP ADV       { %1 _ 2 }
+    | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
+    | "gode og fine folk"     A cnjcoo DP  { 1 _ 2 _ %3 }
+    ;
+
+S ->
+      "S-intrans" DP VP     { %1 _ 2 }
+    | "S-trans"   DP VP DP  { %1 _ 2 _ 3 }
+    | "S-trans"   DP VP DP2 { %1 _ 2 _ 3 }
+    | "S-transA"  DP VP A   { %1 _ 2 _ 3 }
+    ;
