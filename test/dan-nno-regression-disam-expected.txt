@@ -1,6 +1,0 @@
-[Hac3cvhrs00E#0] ^for/for<pr>$ ^størstedelens/størstedel<n><ut><sg><def><gen>$ ^vedkommende/vedkommende<n><nt><sg><ind>$
-[/Hac3cvhrs00E]
-[UDEmh40X_Na9#0] ^af/af<pr>$
-[/UDEmh40X_Na9]
-[gJh2RMTY1F_N#0] ^Wikipedia/Wikipedia<np><org>$ ^er/være<vbser><pres><actv>$ ^en/en<det><ind><ut><sg>/man<prn><pers><p3><un><sg><acc>$ ^international/international<adj><sint><pst><ut><sg><ind>$ ^internetbaseret/internetbaseret<adj><sint><pst><ut><sg><ind>/internetbaseret<adj><sint><pst><nt><sg><ind>$ ^encyklopædi/encyklopædi<n><ut><sg><ind>$ ^der/der<prn><rel><un><sp><nom>$ ^udgives/udgive<vblex><pres><pasv>$ ^af/af<pr>$ ^den/den<det><dem><ut><sg>$ ^ideelle/ideel<adj><sint><pst><un><sp><def>$ ^organisation/organisation<n><ut><sg><ind>$ ^Wikimedia/Wikimedia<np><org>$ ^Foundation/Foundation<np><org>$
-[/gJh2RMTY1F_N]

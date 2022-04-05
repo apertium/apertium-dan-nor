@@ -1,27 +1,11 @@
 {
-    "dan-nno-pending": {
-        "input": "dan-nno-pending-input.txt",
+    "dan-nno": {
+        "input": "dan-nno-input.txt",
         "mode": "dan-nno"
     },
-    "dan-nno-regression": {
-        "input": "dan-nno-regression-input.txt",
-        "mode": "dan-nno"
-    },
-    "dan-nob-pending": {
-        "input": "dan-nob-pending-input.txt",
+    "dan-nob": {
+        "input": "dan-nob-input.txt",
         "mode": "dan-nob"
-    },
-    "dan-nob-regression": {
-        "input": "dan-nob-regression-input.txt",
-        "mode": "dan-nob"
-    },
-    "nno-dan-regression": {
-        "input": "nno-dan-regression-input.txt",
-        "mode": "nno-dan"
-    },
-    "nob-dan-regression": {
-        "input": "nob-dan-regression-input.txt",
-        "mode": "nob-dan"
     },
     "nno-dan": {
         "input": "nno-dan-input.txt",

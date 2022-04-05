@@ -1,2 +1,8 @@
-[UE8i8Dh7zTWM#0] ^Jeg/jeg<n><nt><sg><ind>/jeg<n><nt><pl><ind>/jeg<prn><pers><p1><mf><sg><nom>$ ^har/ha<vblex><pres>$ ^åler/åle<vblex><pres>/ål<n><m><pl><ind>$ ^i/i<pr>/ialphabet<n><m><sg><ind>$ ^min/min<det><pos><m><sg>/min<prn><pos><m><sg>$ ^luftputebåt/luftputebåt<n><m><sg><ind>$
+[RyVFEsQt_nVl#0] ^hun/hun<prn><pers><p3><f><sg><nom>$ ^liker/like<vblex><pres>$ ^ikke/ikke<adv>$ ^dette/denne<det><dem><nt><sg>/denne<prn><dem><nt><sg><acc>/denne<prn><dem><nt><sg><nom>$ ^noe/noe<det><qnt><nt><sg>$ ^særlig/særlig<adj><pst><nt><sg><ind>$
+[/RyVFEsQt_nVl]
+[UE8i8Dh7zTWM#0] ^Jeg/Jeg<prn><pers><p1><mf><sg><nom>$ ^har/ha<vblex><pres>$ ^åler/ål<n><m><pl><ind>$ ^i/i<pr>$ ^min/min<det><pos><m><sg>$ ^luftputebåt/luftputebåt<n><m><sg><ind>$
 [/UE8i8Dh7zTWM]
+[e7whSWefDp2f#0] ^den/den<det><dem><m><sg>$ ^direkte/direkte<adj><pst><un><sp><def>$ ^pressestøtten/presse<n><m><sg><ind><cmp>+støtte<n><m><sg><def>$
+[/e7whSWefDp2f]
+[wYh4HfrgvFOJ#0] ^Wikipedia/Wikipedia<np><org>$ ^er/være<vblex><pres>$ ^en/en<det><qnt><m><sg>$ ^internasjonal/internasjonal<adj><pst><mf><sg><ind>$ ^internettbasert/internettbasert<adj><pst><mf><sg><ind>$ ^encyklopedi/encyklopedi<n><m><sg><ind>$ ^som/som<cnjsub>$ ^utgis/utgi<vblex><pres><pasv>$ ^av/av<pr>$ ^den/den<det><dem><m><sg>$ ^ideelle/ideell<adj><pst><un><sp><def>$ ^organisasjonen/organisasjon<n><m><sg><def>$ ^Wikimedia/Wikimedia<np><org>$ ^Foundation/Foundation<np><org>$
+[/wYh4HfrgvFOJ]

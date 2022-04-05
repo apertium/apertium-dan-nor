@@ -1,6 +1,0 @@
-[RyVFEsQt_nVl#0] ^hun<prn><pers><p3><f><sg><nom>$ ^kunne<vbmod><pres><actv>$ ^ikke<adv>$^# lide$ ^denne<det><dem><nt><sg>$ ^nogen<det><qnt><nt><sg>$ ^særlig<adj><sint><pst><nt><sg><ind>$
-[/RyVFEsQt_nVl]
-[e7whSWefDp2f#0] ^den<det><dem><ut><sg>$ ^direkte<adj><pst><un><sp><def>$ ^presse<n><ut><sg><ind><cmp>$^støtte<n><ut><sg><ind>$
-[/e7whSWefDp2f]
-[wYh4HfrgvFOJ#0] ^Wikipedia<np><org>$ ^være<vbser><pres><actv>$ ^en<det><ind><ut><sg>$ ^international<adj><sint><pst><ut><sg><ind>$ ^internetbaseret<adj><sint><pst><ut><sg><ind>$ ^encyklopædi<n><ut><sg><ind>$ ^som<cnjsub>$ ^udgive<vblex><pres><pasv>$ ^af<pr>$ ^den<det><dem><ut><sg>$ ^ideel<adj><sint><pst><un><sp><def>$ ^organisation<n><ut><sg><ind>$ ^Wikimedia<np><org>$ ^Foundation<np><org>$
-[/wYh4HfrgvFOJ]
