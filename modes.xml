@@ -183,7 +183,7 @@
         <file name="nob-dan.autolex.bin"/>
       </program>
       <program name="rtx-proc">
-        <file name="nor-swe.rtx.bin"/>
+        <file name="nor-dan.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="nor-dan.autogen.bin"/>
