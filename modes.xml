@@ -8,6 +8,9 @@
       <program name="lt-proc -e -w">
         <file name="dan-nno.automorf.bin"/>
       </program>
+      <program name="cg-proc" debug-suff="seg">
+	<file name="dan-nor.seg.rlx.bin"/>
+      </program>
       <program name="cg-proc -w">
         <file name="dan-nor.rlx.bin"/>
       </program>
@@ -48,6 +51,9 @@
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="dan-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="seg">
+	<file name="dan-nor.seg.rlx.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="dan-nor.rlx.bin"/>

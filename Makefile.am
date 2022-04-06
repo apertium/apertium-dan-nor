@@ -28,6 +28,7 @@ TARGETS_COMMON =                                               \
 
 TARGETS_PREFIX1 =                                                 \
       $(PREFIX1).prob                                             \
+      $(PREFIX1).seg.rlx.bin                                      \
       $(PREFIX1).rlx.bin
 TARGETS_PREFIX1n =                                                \
       $(PREFIX1n).automorf.bin                                    \
@@ -128,6 +129,9 @@ $(PREFIX2n).prob: $(AP_SRC2n)/$(LANG2n).prob
 ###############################################################################
 
 $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
+	cg-comp $< $@
+
+$(PREFIX1).seg.rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).seg.rlx
 	cg-comp $< $@
 
 $(PREFIX2b).seg.rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).seg.rlx
