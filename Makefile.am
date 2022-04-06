@@ -68,7 +68,7 @@ TARGETS_PREFIX2b =             \
 e: modes/$(PREFIX1b).mode	# build just nob-dan
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).autogen.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).automorf.bin  $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin $(LANG2b).prob
-	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b)
+	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b) $(PREFIX2b).automorf-untrimmed.bin
 r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).rtx.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-dan
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
 	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin $(PREFIX2).autoseq.bin
@@ -95,10 +95,14 @@ $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 # Norwegian
 
 $(PREFIX2b).automorf.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin $@
+	lt-trim $^ $@
+$(PREFIX2b).automorf-untrimmed.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin
+	cp $< $@
 
 $(PREFIX2n).automorf.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin $@
+	lt-trim $^ $@
+$(PREFIX2n).automorf-untrimmed.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin
+	cp $< $@
 
 
 $(PREFIX1b).autogen.bin: $(AP_SRC2b)/$(LANG2b).autogen.bin
