@@ -151,7 +151,7 @@ DP ->
       ?(not (1.number = sg and 2.number = pl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
         _
-        2
+        2[defnes=ind]
       }
 
     | "vennene mine ~> mina venner"
