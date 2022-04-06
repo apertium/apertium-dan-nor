@@ -1,8 +1,0 @@
-[RyVFEsQt_nVl#0] ^hun<prn><pers><p3><f><sg><nom>/hun<prn><pers><p3><f><sg><nom>$ ^like<vblex><pres>/kunne# lide<vbmod><pres><actv>$ ^ikke<adv>/ikke<adv>$ ^denne<det><dem><nt><sg>/denne<det><dem><nt><sg>$ ^noe<det><qnt><nt><sg>/nogen<det><qnt><nt><sg>$ ^særlig<adj><pst><nt><sg><ind>/særlig<adj><sint><pst><nt><sg><ind>$
-[/RyVFEsQt_nVl]
-[UE8i8Dh7zTWM#0] ^Jeg<prn><pers><p1><mf><sg><nom>/Jeg<prn><pers><p1><ut><sg><nom>$ ^ha<vblex><pres>/have<vbhaver><pres><actv>$ ^ål<n><m><pl><ind>/ål<n><ut><pl><ind>$ ^i<pr>/i<pr>$ ^min<det><pos><m><sg>/min<det><pos><ut><sg>$ ^luftputebåt<n><m><sg><ind>/luftpudebåd<n><ut><sg><ind>$
-[/UE8i8Dh7zTWM]
-[e7whSWefDp2f#0] ^den<det><dem><m><sg>/den<det><dem><ut><sg>$ ^direkte<adj><pst><un><sp><def>/direkte<adj><pst><un><sp><def>$ ^presse<n><m><sg><ind><cmp>/presse<n><ut><sg><ind><cmp>$ ^støtte<n><m><sg><def>/støtte<n><ut><sg><def>$
-[/e7whSWefDp2f]
-[wYh4HfrgvFOJ#0] ^Wikipedia<np><org>/Wikipedia<np><org>$ ^være<vblex><pres>/være<vbser><pres><actv>$ ^en<det><qnt><m><sg>/en<det><ind><ut><sg>$ ^internasjonal<adj><pst><mf><sg><ind>/international<adj><sint><pst><ut><sg><ind>$ ^internettbasert<adj><pst><mf><sg><ind>/internetbaseret<adj><sint><pst><ut><sg><ind>$ ^encyklopedi<n><m><sg><ind>/encyklopædi<n><ut><sg><ind>$ ^som<cnjsub>/som<cnjsub>$ ^utgi<vblex><pres><pasv>/udgive<vblex><pres><pasv>$ ^av<pr>/af<pr>$ ^den<det><dem><m><sg>/den<det><dem><ut><sg>$ ^ideell<adj><pst><un><sp><def>/ideel<adj><sint><pst><un><sp><def>$ ^organisasjon<n><m><sg><def>/organisation<n><ut><sg><def>$ ^Wikimedia<np><org>/Wikimedia<np><org>$ ^Foundation<np><org>/Foundation<np><org>$
-[/wYh4HfrgvFOJ]

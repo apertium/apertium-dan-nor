@@ -1,8 +1,0 @@
-[RyVFEsQt_nVl#0] ^prn<prn><pers><p3><f><sg><nom>{^hun<prn><pers><p3><f><sg><nom>$}$ ^vblex<vbmod><pres><actv>{^kunne<vbmod><pres><actv>$}$ ^adv<adv>{^ikke<adv>$}$^lemq<vblex><lemq>{^# lide$}$ ^det<det><dem><nt><sg>{^denne<det><dem><nt><sg>$}$ ^det<det><qnt><nt><sg>{^nogen<det><qnt><nt><sg>$}$ ^adj<adj><sint><pst><nt><sg><ind>{^særlig<adj><sint><pst><nt><sg><ind>$}$
-[/RyVFEsQt_nVl]
-[UE8i8Dh7zTWM#0] ^Prn<prn><pers><p1><ut><sg><nom>{^jeg<prn><pers><p1><ut><sg><nom>$}$ ^vblex<vbhaver><pres><actv>{^have<vbhaver><pres><actv>$}$ ^n<n><ut><pl><ind>{^ål<n><ut><pl><ind>$}$ ^pr-i<pr>{^i<pr>$}$ ^det<det><pos><ut><sg>{^min<det><pos><ut><sg>$}$ ^n<n><ut><sg><ind>{^luftpudebåd<n><ut><sg><ind>$}$
-[/UE8i8Dh7zTWM]
-[e7whSWefDp2f#0] ^det<det><dem><ut><sg>{^den<det><dem><ut><sg>$}$ ^adj_n_n<n><ut><sg><ind>{^direkte<adj><pst><un><sp><def>$ ^presse<n><ut><sg><ind><cmp>$^støtte<n><ut><sg><ind>$}$
-[/e7whSWefDp2f]
-[wYh4HfrgvFOJ#0] ^N<np><org>{^Wikipedia<np><org>$}$ ^aux<vbser><pres><actv>{^være<vbser><pres><actv>$}$ ^det<det><ind><ut><sg>{^en<det><ind><ut><sg>$}$ ^adj_adj_n<n><ut><sg><ind>{^international<adj><sint><pst><ut><sg><ind>$ ^internetbaseret<adj><sint><pst><ut><sg><ind>$ ^encyklopædi<n><ut><sg><ind>$}$ ^default<default>{^som<cnjsub>$}$ ^vblex<vblex><pres><pasv>{^udgive<vblex><pres><pasv>$}$ ^pr-af<pr>{^af<pr>$}$ ^det<det><dem><ut><sg>{^den<det><dem><ut><sg>$}$ ^adj_n<n><ut><sg><ind>{^ideel<adj><sint><pst><un><sp><def>$ ^organisation<n><ut><sg><ind>$}$ ^N<np><org>{^Wikimedia<np><org>$}$ ^N<np><org>{^Foundation<np><org>$}$
-[/wYh4HfrgvFOJ]
