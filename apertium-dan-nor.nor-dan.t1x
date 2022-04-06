@@ -322,7 +322,7 @@
       <list-item v="begynde"/>
     </def-list>
 
-    <def-list n="no_pres_pasv" c="We never turn pp's of these into pasv (regardless of temps)">
+    <def-list n="no_pasv" c="We never turn pp's of these into pasv (regardless of temps)">
       <list-item v="aldres"/>
       <list-item v="dages"/>
       <list-item v="drages"/>
@@ -1360,7 +1360,7 @@
       </pattern>
       <action>
         <choose><when>
-          <test><in><clip pos="2" side="tl" part="lemh"/><list n="no_pres_pasv"/></in></test>
+          <test><in><clip pos="2" side="tl" part="lemh"/><list n="no_pasv"/></in></test>
           <reject-current-rule shifting="no"/>
         </when></choose>
         <choose><when>
