@@ -13,7 +13,7 @@ number_n = sg pl sp ND ;
 defnes = def ind ;
 tense = inf pret pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
-voice = (VD actv) pasv actv ;
+voice = pasv actv ;
 case = nom acc gen ;
 ! a_ for attribute:
 a_adj = sint ord pp pprs ;
