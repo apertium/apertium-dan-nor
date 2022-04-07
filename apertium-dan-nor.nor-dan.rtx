@@ -217,6 +217,7 @@ VP ->
 SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
 
 
+
 ! We need to parse wider contexts in order to work around
 ! https://github.com/apertium/apertium-recursive/issues/80
 
@@ -239,4 +240,5 @@ S ->
     | "S-trans"   DP VP DP  { %1 _ 2 _ 3 }
     | "S-trans"   DP VP DP2 { %1 _ 2 _ 3 }
     | "S-transA"  DP VP A   { %1 _ 2 _ 3 }
+    | "3."        det.qnt sent.clb.remspc   { %1 2 }
     ;
