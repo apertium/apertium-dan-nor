@@ -93,15 +93,15 @@ S:     _;                       ! issue 80-workaround
 !!!!!!!!!!!!!!!!!!!!
 
 N ->
-     "N2A" %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
-   | 2: %n.acr      { %1 }      ! don't change lemcase on acronyms
-   | %n             { %1[lemcase=$lemcase] }
-   | n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
-   | np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
-   | vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
-   | n.*.cmp-split     [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | np.*.cmp-split    [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | vblex.*.cmp-split [w_ogeller]@cnjcoo %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
+     "N2A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
+   | "n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
+   | "n"          %n             { %1[lemcase=$lemcase] }
+   | "ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
+   | "npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
+   | "vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | "ncmpsplit"  n.*.cmp-split     [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "npcmpsplit" np.*.cmp-split    [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "vbcmpsplit" vblex.*.cmp-split [w_ogeller]@cnjcoo %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
    ;
 
 A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un el-if (1.a_comp = sup and 1.gender = GD) fn else $gender),
@@ -146,17 +146,17 @@ detOfN: (always
 ! is solved, use that instead of gender_n hack
 
 DP ->
-     "en god venn ~> en god venn"
+      "de seneste årene ~> de seneste år"
       det %NP
-      ?(not (1.number = sg and 2.number = pl)) ! reject if number mismatch (det doesn't modify n)
+      ?((2.defnes = def) and (not (1.number = sg and 2.number = pl))) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
         _
-        2[defnes=ind]
+        2[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
     | "vennene mine ~> mina venner"
       %NP det.pos
-      ?(not (2.number = pl and 1.number = sg)) ! reject if number mismatch (det doesn't modify n)
+      ?((2.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
