@@ -154,6 +154,14 @@ DP ->
         2[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
+    | "en lærebok ~> en lærebok"
+      det %NP
+      ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl))) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+        _
+        2
+      }
+
     | "vennene mine ~> mina venner"
       %NP det.pos
       ?((2.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
