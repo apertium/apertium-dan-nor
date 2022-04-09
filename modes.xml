@@ -100,6 +100,9 @@
         <file name="nno-dan.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="nor-dan.autoseq.bin"/>
+      </program>
       <program name="lt-proc -b">
         <file name="nor-dan.autobil.bin"/>
       </program>
