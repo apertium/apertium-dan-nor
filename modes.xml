@@ -126,7 +126,7 @@
 
 
   <!-- Norwegian bokmål → Danish -->
-  <mode name="nob-dan" install="yes" gendebug="yes">
+  <mode name="tnob-dan" install="no" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
@@ -164,7 +164,7 @@
       </program>
     </pipeline>
   </mode>
-  <mode name="rnob-dan" install="no" gendebug="yes">
+  <mode name="nob-dan" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-dan.automorf.bin"/>
