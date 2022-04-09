@@ -338,6 +338,13 @@
 
   <section id="main" type="standard">
 
+    <e lm="like ikke" c="kunne ikke lide">
+      <p><l>like</l>   <r>kunne</r></p><par n="td"/>
+      <par n="prn.pers.nom|adv|"/>
+      <p><l></l>   <r>like<s n="vblex"/><s n="inf"/><d/></r></p>
+    </e>
+
+
     <!-- å/att-removal: -->
     <e lm="får ikke lov til å -> får ikke" c="får inte">
       <i>få</i>   <par n="td"/>
@@ -524,12 +531,6 @@
     <e lm="tiltrekkes av → tykker om" c="tyckar om">
       <p><l>tiltrekke<s n="vblex"/><s n="pres"/><s n="pasv"/></l><r>tykke<s n="vblex"/><s n="pres"/></r></p> <i><d/></i>
       <p><l>av<t/></l><r>om<s n="pr"/></r></p>
-    </e>
-
-    <e lm="liker du → tykker du om" c="tycker du om">
-      <p><l>like</l><r>tykke</r></p> <par n="td"/>
-      <par n="prn_nom|adv"/>
-      <p><l></l><r>om<s n="pr"/></r></p>
     </e>
 
     <e lm="trekker N seg sammen → trekker N ihop seg" c="drar N ihop sig">
