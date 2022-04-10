@@ -16,6 +16,8 @@ person = (PD p3) p1 p2 p3 PD ;
 voice = pasv actv ;
 case = nom acc gen ;
 ! a_ for attribute:
+a_np = ant cog top org al attr cgguess ;
+a_guio = guio ;
 a_adj = sint ord pp pprs ;
 a_cmp = cmp cmp-split ;
 a_det = dem rel qnt pos emph itg ;
@@ -50,9 +52,9 @@ number > number_n : sg sg, sp sp, pl pl, ND ND ;
 ! Tag Order (Output Patterns): !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
-n:     _.gender.number.defnes.case.a_cmp;
-np:    _.gender.number.defnes.case.a_cmp;
+adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
+n:     _.gender.number.defnes.case.a_cmp.a_guio;
+np:    _.a_np.gender.number.defnes.case.a_cmp.a_guio;
 vblex: _.tense.voice.a_cmp;
 pr:    _;
 adv:   _.a_comp;
