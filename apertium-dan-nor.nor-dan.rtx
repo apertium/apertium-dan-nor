@@ -18,7 +18,7 @@ case = nom acc gen ;
 ! a_ for attribute:
 a_adj = sint ord pp pprs ;
 a_cmp = cmp cmp-split ;
-a_det = dem rel qnt pos emph ;
+a_det = dem rel qnt pos emph itg ;
 a_neg = neg ;
 a_comp = pst comp sup ;
 a_clb = clb ;
@@ -64,13 +64,11 @@ sent:   _.a_clb;
 
 det_nodef:    _.a_det.gender.number.case;
 det_finaldef: _.a_det.gender.number.case.defnes;
-det_initdef:  _.defnes.gender.number.case; ! samma<prn><def><un><pl><nom>
-det: (if (1.a_det/tl = dem or 1.lemh/tl = "ena")
+det_initdef:  _.defnes.gender.number.case;
+det: (if (1.defnes/tl = ind and 1.a_det/tl = "")
+         1(det_initdef)
+      el-if (1.number/tl not = pl) ! no plurals have final defnes
          1(det_finaldef)
-      el-if (1.mainpos/tl = prn and 1.a_det/tl = "")
-         1(det_initdef)
-      el-if (1.defnes/tl = ind and 1.a_det/tl = "")
-         1(det_initdef)
       else
          1(det_nodef)
      );
@@ -135,14 +133,18 @@ NP ->   %N { %1[lemcase=$lemcase] }
 PP -> pr %DP { 1 _ 2 } ;
 
 detOfN: (always
-         1(det)[gender=(if (1.number_n = pl or 1.gender/sl = un)
+         1(det)[gender=(if (1.number/tl not = sp and (1.number_n = pl or 1.gender/sl = un))
                             un
                         el-if (1.gender_n = un) ! never apply noun <un>-gender to determiner
                             1.gender
                         else
                             1.gender_n
                         ),
-                number=1.number_n]
+                number=(if (1.number/tl = sp)
+                            1.number
+                        else
+                            1.number_n
+                        )]
         ) ;
 ! TODO: when https://github.com/apertium/apertium-recursive/issues/81
 ! is solved, use that instead of gender_n hack
