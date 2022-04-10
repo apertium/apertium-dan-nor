@@ -132,15 +132,18 @@ NP ->   %N { %1[lemcase=$lemcase] }
 
 PP -> pr %DP { 1 _ 2 } ;
 
-detOfN: (always
+detOfN: (always                 ! TODO why not sp?
          1(det)[gender=(if (1.number/tl not = sp and (1.number_n = pl or 1.gender/sl = un))
                             un
+                        el-if (1.gender = un) ! never apply noun <un>-gender to determiner
+                            1.gender
                         el-if (1.gender_n = un) ! never apply noun <un>-gender to determiner
                             1.gender
                         else
                             1.gender_n
                         ),
-                number=(if (1.number/tl = sp)
+                ! TODO:for what determiners do we want to change number? hvilke(n), andre/annen, …?
+                number=(if (1.number/tl = sp or 1.a_det/tl = qnt)
                             1.number
                         else
                             1.number_n
