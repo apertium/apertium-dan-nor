@@ -147,6 +147,8 @@ detOfN: (always                 ! TODO why not sp?
                 ! TODO:for what determiners do we want to change number? hvilke(n), andre/annen, …?
                 number=(if (1.number/tl = sp or 1.a_det/tl = qnt)
                             1.number
+                        el-if (1.gender = un) ! never apply noun number if we started out un?
+                            1.number
                         else
                             1.number_n
                         )]
