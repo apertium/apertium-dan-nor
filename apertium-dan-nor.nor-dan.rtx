@@ -201,29 +201,29 @@ VP ->
 
     | "ble landet delt ~> deledes landetV"
       %[w_bli]@vblex NP vblex.pp
-      ?(not (3.lemh/tl in w_no_pasv))
+      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { 3[voice = pasv, tense = 1.tense] _ 2 }
     | "ble landet delt ~> deledes landetA"
       %[w_bli]@vblex NP adj.pp
-      ?(not (3.lemh/tl in w_no_pasv))
+      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
     | "ble senere delt ~> deledes senereV"
       %[w_bli]@vblex ADV vblex.pp
-      ?(not (3.lemh/tl in w_no_pasv))
+      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { 3[voice = pasv, tense = 1.tense] _ 2 }
     | "ble senere delt ~> deledes senereA"
       %[w_bli]@vblex ADV adj.pp
-      ?(not (3.lemh/tl in w_no_pasv))
+      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
     | "ble delt ~> deledesV"
       %[w_bli]@vblex vblex.pp
-      ?(not (2.lemh/tl in w_no_pasv))
+      ?(1.tense not = pp and (not (2.lemh/tl in w_no_pasv)))
       { 2[voice = pasv, tense = 1.tense] }
     | "ble delt ~> deledesA"
       %[w_bli]@vblex adj.pp
-      ?(not (2.lemh/tl in w_no_pasv))
+      ?(1.tense not = pp and (not (2.lemh/tl in w_no_pasv)))
       { *(vblex)[lemh=2.lemh, voice = pasv, tense = 1.tense] }
 
     ;
