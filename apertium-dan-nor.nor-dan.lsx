@@ -339,7 +339,7 @@
   <section id="main" type="standard">
 
     <e lm="like ikke" c="kunne ikke lide">
-      <p><l>like</l>   <r>kunne</r></p><par n="td"/>
+      <p><l>like<s n="vblex"/></l>   <r>kunne<s n="vblex"/></r></p><par n="td"/>
       <par n="prn.pers.nom|adv|"/>
       <p><l></l>   <r>like<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>

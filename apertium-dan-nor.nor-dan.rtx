@@ -24,6 +24,7 @@ a_det = dem rel qnt pos emph itg ;
 a_neg = neg ;
 a_comp = pst comp sup ;
 a_clb = clb ;
+a_nkon = @nkon ;
 mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser vaux ;
 
 ! Word sets:
@@ -84,6 +85,7 @@ PP:    _;
 VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
 ADV:   _;
 SENT:  _;
+CNJCOO:  _;
 DP2:   _;                       ! issue 80-workaround
 S:     _;                       ! issue 80-workaround
 
@@ -92,6 +94,8 @@ S:     _;                       ! issue 80-workaround
 ! Reduction Rules: !
 !!!!!!!!!!!!!!!!!!!!
 
+CNJCOO -> %cnjcoo { %1 } ;      ! for some reason need this to get rid of @nkon?
+
 N ->
      "N2A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
    | "n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
@@ -99,9 +103,9 @@ N ->
    | "ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
    | "npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
    | "vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
-   | "ncmpsplit"  n.*.cmp-split     [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | "npcmpsplit" np.*.cmp-split    [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | "vbcmpsplit" vblex.*.cmp-split [w_ogeller]@cnjcoo %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
+   | "ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
    ;
 
 A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un el-if (1.a_comp = sup and 1.gender = GD) fn else $gender),
@@ -236,7 +240,6 @@ VP ->
 SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
 
 
-
 ! We need to parse wider contexts in order to work around
 ! https://github.com/apertium/apertium-recursive/issues/80
 
@@ -250,8 +253,8 @@ SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
 DP2 ->
       "vennene mine virtuelt" DP A         { %1 _ 2 }
     | "vennene hennes redde"  DP ADV       { %1 _ 2 }
-    | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
-    | "gode og fine folk"     A cnjcoo DP  { 1 _ 2 _ %3 }
+    | "et sekund eller to"    DP CNJCOO DP { %1 _ 2 _ 3 }
+    | "gode og fine folk"     A CNJCOO DP  { 1 _ 2 _ %3 }
     ;
 
 S ->
