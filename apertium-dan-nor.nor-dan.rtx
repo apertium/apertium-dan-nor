@@ -267,4 +267,5 @@ S ->
     | "S-transA"  DP VP A   { %1 _ 2 _ 3 }
     | "3."        det.qnt sent.clb.remspc   { %1 2 }
     | "frag-A"    det A { 1 _ %2 }
+    | "frag-DET." det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
     ;
