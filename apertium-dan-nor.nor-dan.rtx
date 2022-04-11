@@ -21,6 +21,7 @@ a_guio = guio ;
 a_adj = sint ord pp pprs ;
 a_cmp = cmp cmp-split ;
 a_det = dem rel qnt pos emph itg ;
+a_date = date ;
 a_neg = neg ;
 a_comp = pst comp sup ;
 a_clb = clb ;
@@ -185,9 +186,9 @@ DP ->
         1[defnes=ind, lemcase=2.lemcase]
       }
 
-    | %det { %1 }
+    | "DP ~> det" %det { %1 }
 
-    | %NP { %1 }
+    | "DP ~> NP" %NP { %1 }
       ;
 
 ! TODO: Do any tags need propagating here?
