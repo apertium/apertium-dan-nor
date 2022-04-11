@@ -154,6 +154,8 @@ detOfN: (always                 ! TODO why not sp?
                             1.number
                         el-if (1.gender = un) ! never apply noun number if we started out un?
                             1.number
+                        el-if (1.number_n = sp) ! never apply noun <sp>-gender to determiner
+                            1.number
                         else
                             1.number_n
                         )]
