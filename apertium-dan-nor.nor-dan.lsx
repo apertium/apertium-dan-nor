@@ -2,9 +2,9 @@
 <dictionary type="separable">
   <!--
       This file rewrites the analysed input Norwegian into a Norwegian
-      that has slightly more idiomatic Swedish word order and
-      choice. (Maybe think of it like a multi-word bidix from
-      Norwegian to more Swedish-like Norwegian.)
+      that has slightly more idiomatic Danish word order and choice –
+      and comma rules. (Maybe think of it like a multi-word bidix from
+      Norwegian to more Danish-like Norwegian.)
 
       So both the <l> and the <r> of this file is Norwegian. All
       mentioned lemmas need to be in bidix (even ones that are removed
@@ -113,6 +113,13 @@
     </pardef>
     <pardef n="td:">
       <e><p><l><t/><d/></l><r></r></p></e>
+    </pardef>
+
+    <pardef n="td-nospc">
+      <e><i><t/><d space="no"/></i></e>
+    </pardef>
+    <pardef n="td-dospc">
+      <e><i><t/><d space="yes"/></i></e>
     </pardef>
 
     <pardef n="adj">
@@ -325,18 +332,13 @@
       <e><i><w/><s n="prn"/><s n="pers"/><t/><s n="nom"/><d/></i></e>
     </pardef>
 
-    <pardef n="verb_remove_å">
-      <e><i>begynne</i></e>
-      <e><i>pleie</i></e>
-      <e><i>forsøke</i></e>
-      <e><i>prøve</i></e>
-      <e><i>slippe</i></e>
-    </pardef>
 
 
   </pardefs>
 
   <section id="main" type="standard">
+
+    <!-- Separable verbs -->
 
     <e lm="like ikke" c="kunne ikke lide">
       <p><l>like<s n="vblex"/></l>   <r>kunne<s n="vblex"/></r></p><par n="td"/>
@@ -345,206 +347,29 @@
     </e>
 
 
-    <!-- å/att-removal: -->
-    <e lm="får ikke lov til å -> får ikke" c="får inte">
-      <i>få</i>   <par n="td"/>
-      <i>ikke</i> <par n="td"/>
-      <p><l>lov<t/><d/></l>   <r></r></p>
-      <p><l>til<t/><d/></l>   <r></r></p>
-      <p><l>å<t/><d/></l>   <r></r></p>
-    </e>
-    <e lm="begynte (jeg) å sykle -> begynte (jeg) sykle" c="började (jag) sykla">
-      <par n="verb_remove_å"/> <par n="td"/>
-      <par n="prn.pers.nom|adv|"/>
-      <par n="prn.pers.nom|adv|"/>
-      <p><l>å<t/><d/></l>   <r></r></p>
-      <i><w/><s n="vblex"/><s n="inf"/><d/></i>
-    </e>
+    <!-- Separable nouns -->
 
-    <!-- TODO: possible to generalise a bit? -->
-    <e lm="og jeg har begynt → og så har jeg begynt" c="och så har jag börjad">
-      <i>og</i> <par n="td"/>
-      <p><l>jeg<t/><d/></l> <r></r></p>
-      <p><l></l> <r>så<s n="adv"/><d/></r></p>
-      <i>ha</i> <par n="td"/>
-      <p><l></l> <r>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/><d/></r></p>
-      <i><w/><s n="vblex"/><s n="pp"/><d/></i>
-      <p><l>å<t/><d/></l>   <r></r></p>
-    </e>
-
-
-    <e lm="tusenvis av → tusenvis" c="tusantals">
-      <i>tusenvis</i> <par n="td"/>
-      <p><l>av<t/><d/></l>   <r></r></p>
-    </e>
-
-    <e lm="bakerst → lengst bak" c="längst bak">
-      <p> <l>bakre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/><d/></l> <r></r></p>
-      <p><l></l> <r>lengst<s n="adv"/><d/></r></p>
-      <p><l></l> <r>bak<s n="adv"/><d/></r></p>
-    </e>
-
-    <e lm="folk og fe → mennesker og buskap" c="människor och boskap">
-      <p> <l>folk</l> <r>menneske</r></p> <par n="td"/>
-      <i>og</i> <par n="td"/>
-      <p><l>fe</l> <r></r></p><par n="td:"/>
-      <p><l></l> <r>buskap<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><d/></r></p>
-    </e>
-
-    <e lm="til tross for at → tross at" c="trots att">
-      <p> <l>til</l> <r></r></p> <par n="td:"/>
-      <i>tross</i> <par n="td"/>
-      <p> <l>for</l> <r></r></p> <par n="td:"/>
-      <i>at</i> <par n="td"/>
-    </e>
-
-    <e lm="virker begge veier → drar til begge veier" c="drar åt bägge håll">
-      <p> <l>virke<s n="vblex"/></l> <r>dra<s n="vblex"/></r></p> <par n="td"/>
-      <p> <l></l> <r>til<s n="pr"/><d/></r></p>
-      <i>begge</i> <par n="td"/>
-      <i>vei</i> <par n="td"/>
-    </e>
-
-    <e lm="lov til å → lov å" c="lov att">
-      <i>lov</i> <par n="td"/>
-      <p><l>til<t/><d/></l>   <r></r></p>
-      <i>å</i> <par n="td"/>
-    </e>
-
-    <e lm="et av landene -> et av de land" c="ett av de länder">
-      <i>en</i> <par n="td"/>
-      <i>av</i> <par n="td"/>
-      <p><l></l>   <r>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><d/></r></p>
-      <i>land<s n="n"/><s n="nt"/><s n="pl"/></i><par n="def:ind"/><i><d/></i>
-    </e>
-
-    <e lm="ringes vi → holder vi kontakt" c="hålla vi kontakt">
-      <p><l>ringe<s n="vblex"/><s n="pres"/><s n="pasv"/><d/></l> <r>holde<s n="vblex"/><s n="pres"/><d/></r></p>
-      <par n="prn.pers.nom|adv|"/>
-      <p><l></l>   <r>kontakt<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><d/></r></p>
-    </e>
-
-    <e lm="liker du deg → trives du" c="trivst du">
-      <p><l>like<s n="vblex"/></l> <r>trives<s n="vblex"/><s n="pstv"/></r></p> <par n="td"/>
-      <par n="prn.pers.nom|adv|"/>
-      <par n="rem-refl-prn"/>
-    </e>
-
-    <e lm="gleder seg til å → ser fram til å" c="ser fram till at">
-      <p><l>glede<s n="vblex"/></l> <r>se<s n="vblex"/></r></p> <par n="td"/>
-      <par n="rem-refl-prn"/>
-      <p><l></l>   <r>fram<s n="adv"/><d/></r></p>
-      <i>til</i> <par n="td"/>
-      <i>å</i> <par n="td"/>
-    </e>
-
-    <e lm="gleder seg til X FV → ser fram til at X FV" c="ser fram till att X FV">
-      <i>glede<s n="vblex"/></i> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <par n="refl-prn"/>
-      <i>til</i> <par n="td"/>
-      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
-      <par n="SN|prn"/>
-      <par n="FV"/>
-    </e>
-
-    <e lm="synes han X FV → synes han at X FV" c="tycker han att X FV">
-      <i>synes<s n="vblex"/></i> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
-      <par n="SN|prn"/>
-      <par n="FV"/>
-    </e>
-    <e lm="noe synes han FV → noe synes han at FV" c="något tycker han att FV (topicalisation)">
-      <i><w/><s n="cnjcoo"/></i> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <i>synes<s n="vblex"/></i> <par n="td"/>
-      <par n="prn_nom"/>
-      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
-      <par n="FV"/>
-    </e>
-    <e lm=". Det synes han FV → . Det synes han at FV" c=". Det tycker han att FV (topicalisation)">
-      <i><w/><s n="sent"/></i> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <i>synes<s n="vblex"/></i> <par n="td"/>
-      <par n="prn_nom"/>
-      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
-      <par n="FV"/>
-    </e>
-
-    <e lm="driver X med → holder X på med" c="håller X på med">
-      <p><l>drive<s n="vblex"/></l> <r>holde<s n="vblex"/></r></p> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <p><l></l> <r>på<s n="pr"/><d/></r></p>
-      <i>med</i> <par n="td"/>
-    </e>
-
-    <e lm="mange mener → mange anser at" c="många anser att">
-      <i>mange</i> <par n="td"/>
-      <p><l>mene<s n="vblex"/></l> <r>anse<s n="vblex"/></r></p> <par n="td"/>
-      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
-    </e>
-    <e lm="mange tror at → mange anser at (avoid double 'at' if input has 'at')" c="många anser att">
-      <i>mange</i> <par n="td"/>
-      <p><l>tro<s n="vblex"/></l> <r>anse<s n="vblex"/></r></p> <par n="td"/>
-      <i>at</i> <par n="td"/>
-    </e>
-
-    <e lm="hva slags → hva for slags" c="va för slags">
-      <i>hva</i> <par n="td"/>
-      <p><l></l> <r>for<s n="pr"/><d/></r></p>
-      <i>slags</i> <par n="td"/>
-    </e>
-
-    <e lm="er god i → er bra på" c="är bra på">
-      <i>være</i> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <p><l>god</l> <r>bra</r></p> <par n="td"/>
-      <p><l>i</l> <r>på</r></p> <par n="td"/>
-    </e>
-
-    <e lm="dekke til → dekke for" c="täcka för">
-      <i>dekke</i> <par n="td"/>
-      <p><l>til</l> <r>for</r></p> <par n="td"/>
-    </e>
-
-    <e lm="gå ut på dato → passere holdbarhetsdatoen" c="passera hållbarhetsdatumet">
-      <p><l>gå</l><r>passere</r></p> <par n="td"/>
-      <p><l>ut<t/><d/></l><r></r></p>
-      <p><l>på<t/><d/></l><r></r></p>
-      <p><l>dato</l><r>holdbarhetsdato</r></p> <i><t/></i> <p><l><s n="ind"/></l><r><s n="def"/></r></p>
-    </e>
-
-    <e lm="bestekameraten min → min beste venn" c="min bästa vän">
-      <p><l>bestekamerat<t/><d/></l> <r></r></p>
+    <e lm="bestekameraten min → min beste venn" c="min bedste ven">
+      <p><l>bestekamerat<s n="n"/><s n="m"/><s n="sg"/><t/><d/></l> <r></r></p>
       <i><w/><s n="det"/><s n="pos"/></i> <par n="td"/>
       <p><l></l>                     <r>god<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
       <p><l></l>                     <r>venn<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/></r></p>
     </e>
 
-    <e lm="stengt ned → nedstengt" c="nedstängt">
-      <p><l>stenge</l><r>nedstenge</r></p> <par n="td"/>
-      <!-- <par n="SN|adv|prn|"/> -->
-      <p><l>ned<t/><d/></l><r></r></p>
+    <!-- Comma insertion -->
+
+    <e lm="til tross for at → til tross for, at" c="til trods for, at">
+      <i>til<b/>tross<b/>for</i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>at</i> <par n="td"/>
     </e>
 
-    <e lm="tiltrekkes av → tykker om" c="tyckar om">
-      <p><l>tiltrekke<s n="vblex"/><s n="pres"/><s n="pasv"/></l><r>tykke<s n="vblex"/><s n="pres"/></r></p> <i><d/></i>
-      <p><l>av<t/></l><r>om<s n="pr"/></r></p>
+    <e lm="X som → X , som" c="X, der">
+      <i><w/><s n="n"/></i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>som<s n="cnjsub"/><d/></i>
     </e>
 
-    <e lm="trekker N seg sammen → trekker N ihop seg" c="drar N ihop sig">
-      <p><l>trekke</l><r>trekke</r></p> <par n="td"/>
-      <par n="SN|adv|prn|"/>
-      <p><l></l><r>ihop<s n="adv"/><d/></r></p>
-      <i>seg<t/><d/></i>
-      <p><l>sammen<t/><d/></l><r></r></p>
-    </e>
-
-    <e lm="og meg → og jeg" c="och jag">
-      <i>og</i><par n="td"/>
-      <i>jeg<t/></i> <p><l><s n="acc"/></l> <r><s n="nom"/></r></p>
-    </e>
 
   </section>
 
