@@ -253,8 +253,8 @@ SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
 DP2 ->
       "vennene mine virtuelt" DP A         { %1 _ 2 }
     | "vennene hennes redde"  DP ADV       { %1 _ 2 }
-    | "et sekund eller to"    DP CNJCOO DP { %1 _ 2 _ 3 }
-    | "gode og fine folk"     A CNJCOO DP  { 1 _ 2 _ %3 }
+    | "et sekund eller to"    DP CNJCOO DP { %1 _ 2 _ 3 } ! TODO: limit to @nkon?
+    | "gode og fine folk"     A CNJCOO DP  { 1 _ 2 _ %3 } ! TODO: limit to @nkon?
     ;
 
 S ->
@@ -263,4 +263,5 @@ S ->
     | "S-trans"   DP VP DP2 { %1 _ 2 _ 3 }
     | "S-transA"  DP VP A   { %1 _ 2 _ 3 }
     | "3."        det.qnt sent.clb.remspc   { %1 2 }
+    | "frag-A"    det A { 1 _ %2 }
     ;
