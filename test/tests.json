@@ -14,5 +14,8 @@
     "nob-dan": {
         "input": "nob-dan-input.txt",
         "mode": "nob-dan"
+    },
+    "settings": {
+        "structure": "nested"
     }
 }
