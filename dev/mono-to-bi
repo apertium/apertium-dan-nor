@@ -1,0 +1,69 @@
+#!/bin/bash
+
+parsuf="__n\""
+
+for mono in dan nno nob; do
+    grep -ho "lm=\".*${parsuf}" ../apertium-${mono}/*dix | sed 's/lm="//;s/".*/./' >/tmp/"${parsuf}".${mono}
+done
+
+echo 'ind:inn
+høj:høy
+bag:bak
+mod:mot
+præ:pre
+eft:ett
+gen:gjen
+cen:sen
+børn:barn
+olie:olje
+mad:mat
+fod:fot
+bog:bok
+græ:gre
+bræ:bre
+skæ:skjæ
+rig:rik
+kød:kjøtt
+vær:ver
+mag:mak
+træ:tre
+nati:nasj
+lig:lik
+kartoffel:potet
+fælles:felles
+læse:lese
+afg:avg
+uds:uts
+ops:opps
+mælk:melk
+ken:kjen
+have:hage
+amt:fylke
+landsby:bygde
+jagt:jakt
+fæng:feng
+bjer:ber
+syg:syk
+soc:sos
+slæ:sle
+sag:sak
+opv:oppv
+opl:oppl
+læg:leg
+ker:kjer
+afs:avs
+udv:utv
+rej:rei
+opt:oppt
+kør:kjør
+vej:vei' >/tmp/dan2nob
+
+dan2nob () {
+    awk -F: 'BEGIN{ while(getline<"/tmp/dan2nob")dan2nob[$2]=$1 } {b=$0; for(pat in dan2nob)sub(pat,dan2nob[pat]);print $0":"b}'
+}
+
+join -j1 -t: \
+     <(tr -d '*.' < /tmp/"${parsuf}".dan | sort -k1b,1 -t: ) \
+     <(tr -d '*.' < /tmp/"${parsuf}".nob | dan2nob | sort -k1b,1 -t: ) \
+    | grep -v '0-9' \
+    | dev/add-words
