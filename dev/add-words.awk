@@ -47,15 +47,18 @@ BEGIN {
      for(nw in ana["dan"][ng]) {
       if(nw in bi)for(bw in bi[nw]) {
        biseen[nw][bw]++
+       lr=""
        if(bw in bknown && nw in dknown) {
-           print "<apertium-notrans>Both sides in, check that this gives the right translation:</apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
+           print "<apertium-notrans>Both sides in, skipping. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
            continue
        }
        else if(bw in bknown) {
-           print "<apertium-notrans>Only nob-side in, check that this gives the right translation:</apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
+           print "<apertium-notrans>nob-side already in bidix, LR-ing. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
+           lr=" r=\"LR\""
        }
        for(pos in ana["nno"]) {
-           if(bw in ana["nno"][pos]) e[pos]="<e>       "; else e[pos]="<e vr=\"nob\">"
+           if(lr)s=""; else s="         "
+           if(bw in ana["nno"][pos]) e[pos]="<e"lr">"s; else e[pos]="<e"lr" vr=\"nob\">"
        }
        if(ng=="f" &&nw in ana["dan"]["m"]) print "dan-side dupe!"
        if(ng=="f" &&nw in ana["dan"]["nt"]) print "dan-side dupe!"
