@@ -76,7 +76,18 @@
       </or>
     </rule>
 
-
+    <rule weight="2.0" c="Det finnes → Der findes">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+    </rule>
+    <rule weight="2.0" c="Det finnes → Der findes">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <or>
+        <match tags="vblex.pres.*"/>
+        <match tags="vblex.pres"/>
+        <match tags="vblex.pstv.*"/>
+        <match tags="vblex.pstv"/>
+      </or>
+    </rule>
 
   </rules>
 

@@ -25,6 +25,7 @@ a_date = date ;
 a_neg = neg ;
 a_comp = pst comp sup ;
 a_clb = clb ;
+a_expl = expl ;
 a_nkon = @nkon ;
 mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser vaux ;
 
@@ -66,9 +67,9 @@ cnjcoo: _;
 part:   _;
 sent:   _.a_clb;
 
-det_nodef:    _.a_det.gender.number.case;
-det_finaldef: _.a_det.gender.number.case.defnes;
-det_initdef:  _.defnes.gender.number.case;
+det_nodef:    _.a_det.gender.number.case.a_expl;
+det_finaldef: _.a_det.gender.number.case.defnes.a_expl;
+det_initdef:  _.defnes.gender.number.case.a_expl;
 det: (if (1.defnes/tl = ind and 1.a_det/tl = "")
          1(det_initdef)
       el-if (1.number/tl not = pl) ! no plurals have final defnes
