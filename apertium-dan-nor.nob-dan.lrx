@@ -46,6 +46,14 @@
         <match tags="guio.*"/>
       </or>
     </def-seq>
+
+    <def-seq n="pp">
+      <or>
+        <match tags="vblex.pp"/>
+        <match tags="adj.pp.*"/>
+     </or>
+    </def-seq>
+
   </def-seqs>
 
   <rules>
@@ -99,7 +107,40 @@
       <match lemma="noe"/>
       <match lemma="som"/>
     </rule>
+    <rule weight="3.0" c="ble det ringmærket → blev der ringmærket
+                          Generelt DER før pp, men regel nedanfor kan overstyra.">
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+      </or>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="pp"/>
+    </rule>
     <!-- override der: -->
+    <rule weight="3.0" c="ble det besluttet → blev det besluttet
+                          Visse pp oftare brukt med «det»">
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+      </or>
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="beslutte"/>
+        <match lemma="annonsere"/>
+        <match lemma="rapportere"/>
+        <match lemma="bekrefte"/>
+        <match lemma="vedta"/>
+        <match lemma="avsløre"/>
+        <match lemma="foreslå"/>
+        <match lemma="utgi"/>
+        <match lemma="overdra"/>
+        <match lemma="flytte"/>
+        <match lemma="endre"/>
+        <match lemma="overta"/>
+        <match lemma="omdanne"/>
+        <match lemma="ombygge"/>
+      </or>
+    </rule>
     <rule weight="2.0" c="det var erklært → det var erklært
                           Peiker på tidlegare subjekt, t.d. «skipet»">
       <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
