@@ -84,11 +84,20 @@
     <rule weight="2.0" c="Det finnes → Der findes">
       <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
       <or>
-        <match tags="vblex.pres.*"/>
-        <match tags="vblex.pres"/>
+        <match tags="vblex.*.pasv"/>
         <match tags="vblex.pstv.*"/>
         <match tags="vblex.pstv"/>
       </or>
+    </rule>
+    <rule weight="2.0" c="Det er noen som → Der er noen som
+                          Utrygg">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+      </or>
+      <match lemma="noe"/>
+      <match lemma="som"/>
     </rule>
     <!-- override der: -->
     <rule weight="2.0" c="det var erklært → det var erklært
@@ -105,7 +114,7 @@
       </or>
     </rule>
     <rule weight="3.0" c="det er en rovfugl som → det er en rovfugl som
-                          Peiker på tema frå tidlegare setning, utrygg regel!">
+                          Utrygg. Peiker på tema frå tidlegare setning">
       <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
       <or>
         <match lemma="bli"/>
