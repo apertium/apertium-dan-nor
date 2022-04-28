@@ -66,6 +66,7 @@ cnjsub: _;
 cnjcoo: _;
 part:   _;
 sent:   _.a_clb;
+cm:     _.a_clb;
 
 det_nodef:    _.a_det.gender.number.case.a_expl;
 det_finaldef: _.a_det.gender.number.case.defnes.a_expl;
@@ -167,7 +168,7 @@ detOfN: (always                 ! TODO why not sp?
 DP ->
       "de seneste årene ~> de seneste år"
       det %NP
-      ?((2.defnes = def) and (not (1.number = sg and 2.number = pl))) ! reject if number mismatch (det doesn't modify n)
+      ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
         _
         2[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
@@ -175,7 +176,7 @@ DP ->
 
     | "en lærebok ~> en lærebok"
       det %NP
-      ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl))) ! reject if number mismatch (det doesn't modify n)
+      ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
         _
         2
