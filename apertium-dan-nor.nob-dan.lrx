@@ -76,8 +76,10 @@
       </or>
     </rule>
 
-    <rule weight="2.0" c="Det finnes → Der findes">
-      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+    <!-- DET (lemma "den") vs DER (lemma "der") -->
+    <rule c="det → det
+             Conservative default">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
     </rule>
     <rule weight="2.0" c="Det finnes → Der findes">
       <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
@@ -88,6 +90,33 @@
         <match tags="vblex.pstv"/>
       </or>
     </rule>
+    <!-- override der: -->
+    <rule weight="2.0" c="det var erklært → det var erklært
+                          Peiker på tidlegare subjekt, t.d. «skipet»">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+      </or>
+      <repeat from="0" upto="1"><match lemma="noe"/><match lemma="gang"/></repeat>
+      <or>
+        <match tags="vblex.pp"/>
+        <match tags="adj.*"/>
+      </or>
+    </rule>
+    <rule weight="3.0" c="det er en rovfugl som → det er en rovfugl som
+                          Peiker på tema frå tidlegare setning, utrygg regel!">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+      </or>
+      <match lemma="en"/>
+      <match/>
+      <repeat from="0" upto="3"><match lemma=","/></repeat>
+      <match lemma="som"/>
+    </rule>
+    <!-- /DET vs DER -->
 
     <rule><match lemma="fort" tags="adj.*"><select lemma="stærk"/></match></rule>
     <rule weight="2.0">
