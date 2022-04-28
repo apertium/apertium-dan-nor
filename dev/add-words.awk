@@ -63,7 +63,7 @@ BEGIN {
        if(ng=="f" &&nw in ana["dan"]["m"]) print "dan-side dupe!"
        if(ng=="f" &&nw in ana["dan"]["nt"]) print "dan-side dupe!"
        if(ng=="m" &&nw in ana["dan"]["nt"]) print "dan-side dupe!"
-       if     (ng== "v" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nw"</l><r>"bw"</r></p><par n=\"vblex_adj\"/></e>"
+       if     (ng== "v" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nw"</l><r>"bw"</r></p><par n=\"vblex\"/></e>"
        else if(ng=="as" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nw"</l><r>"bw"</r></p><par n=\"adj_sint\"/></e>"
        else if(ng=="an" && bw in ana["nob"]["as"]) print e["as"] "<p><l>"nw"</l><r>"bw"</r></p><par n=\"adj:adj_sint\"/></e>"
        else if(ng=="as" && bw in ana["nob"]["an"]) print e["an"] "<p><l>"nw"</l><r>"bw"</r></p><par n=\"adj_sint:adj\"/></e>"
