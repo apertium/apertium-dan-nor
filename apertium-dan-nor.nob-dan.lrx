@@ -89,6 +89,13 @@
       </or>
     </rule>
 
-  </rules>
+    <rule><match lemma="fort" tags="adj.*"><select lemma="stærk"/></match></rule>
+    <rule weight="2.0">
+      <match lemma="kjøre"/>
+      <repeat from="0" upto="3"><match/></repeat>
+      <match lemma="fort" tags="adj.*"><select lemma="fort"/></match>
+    </rule>
+
+</rules>
 
 </lrx>
