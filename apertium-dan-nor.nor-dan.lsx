@@ -367,7 +367,13 @@
     <e lm="X som → X , som" c="X, der">
       <i><w/><s n="n"/></i> <par n="td-nospc"/>
       <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
-      <i>som<s n="cnjsub"/><d/></i>
+      <i><w/><s n="cnjsub"/><d/></i>
+    </e>
+
+    <e lm="(er) dumt å → (er) dumt, å" c="(er) dumt, at">
+      <i><w/><s n="adj"/></i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>å<s n="part"/><d/></i>
     </e>
 
   </section>
