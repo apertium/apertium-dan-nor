@@ -132,10 +132,10 @@ A -> "A->adj"       %adj { %1[gender=(if (1.number = sg and 1.defnes = ind)
 ! should not get sint!
 
 ! Recurse on multiple adj's in a row, don't change gender on first if only the first is nt:
-AP -> "AP→A|godt"           0:        %A      { %1[gender=$gender] }
-    | "AP→A A|stort godt"   3: A.*.nt %A.*.nt { 1[gender=$gender] _ %2[gender=$gender] } ! both nt, assume we can override gender of both using outer NP
-    | "AP→A A|relativt god" 2: A.*.nt %A      { 1                 _ %2[gender=$gender] } ! only first is nt, assume first adj modifies second adj (and not followin NP)
-    | "AP→A A|stor god"     1: A      %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
+AP -> "AP→A:godt"           0:        %A      { %1[gender=$gender] }
+    | "AP→A A:stort godt"   3: A.*.nt %A.*.nt { 1[gender=$gender] _ %2[gender=$gender] } ! both nt, assume we can override gender of both using outer NP
+    | "AP→A A:relativt god" 2: A.*.nt %A      { 1                 _ %2[gender=$gender] } ! only first is nt, assume first adj modifies second adj (and not followin NP)
+    | "AP→A A:stor god"     1: A      %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
     ;
 
 NP -> "NP→N"  %N { %1[lemcase=$lemcase] }
@@ -173,7 +173,7 @@ detOfN: (always                 ! TODO why not sp?
 ! is solved, use that instead of gender_n hack
 
 DP ->
-      "DP→det NP|de seneste årene → de seneste år"
+      "DP→det NP:de seneste årene → de seneste år"
       det %NP
       ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
@@ -181,7 +181,7 @@ DP ->
         2[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
-    | "DP→det NP|en lærebok → en lærebok"
+    | "DP→det NP:en lærebok → en lærebok"
       det %NP
       ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
@@ -189,7 +189,7 @@ DP ->
         2
       }
 
-    | "DP→det NP|vennene mine → mina venner"
+    | "DP→det NP:vennene mine → mina venner"
       %NP det.pos
       ?((2.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
@@ -209,39 +209,39 @@ ADV -> "ADV→adv" %adv { %1 }
     ;
 
 VP ->
-      3: %vblex.imp { 1[voice=""] }
+      "VP→imp" 3: %vblex.imp { 1[voice=""] }
     |    %vblex { 1 }
 
-    | "ble teen drukket ~> blev teen drukket"
+    | "VP→bli NP v.pp:ble teen drukket → blev teen drukket"
       2: %[w_bli]@vblex.pret NP [w_no_past_pasv]@vblex.pp
       { %1 _ 2 _ 3 }
-    | "ble teen drukket ~> blev teen drukket"
+    | "VP→bli NP adj.pp:ble teen drukket → blev teen drukket"
       2: %[w_bli]@vblex.pret NP [w_no_past_pasv]@adj.pp
       { %1 _ 2 _ 3 }
 
-    | "ble landet delt ~> deledes landetV"
+    | "VP→bli NP v.pp:ble landet delt → deledes landetV"
       %[w_bli]@vblex NP vblex.pp
       ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { 3[voice = pasv, tense = 1.tense] _ 2 }
-    | "ble landet delt ~> deledes landetA"
+    | "VP→bli NP adj.pp:ble landet delt → deledes landetA"
       %[w_bli]@vblex NP adj.pp
       ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
-    | "ble senere delt ~> deledes senereV"
+    | "VP→bli ADV v.pp:ble senere delt → deledes senereV"
       %[w_bli]@vblex ADV vblex.pp
       ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { 3[voice = pasv, tense = 1.tense] _ 2 }
-    | "ble senere delt ~> deledes senereA"
+    | "VP→bli ADV adj.pp:ble senere delt → deledes senereA"
       %[w_bli]@vblex ADV adj.pp
       ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
-    | "ble delt ~> deledesV"
+    | "VP→bli v.pp:ble delt → deledes"
       %[w_bli]@vblex vblex.pp
       ?(1.tense not = pp and (not (2.lemh/tl in w_no_pasv)))
       { 2[voice = pasv, tense = 1.tense] }
-    | "ble delt ~> deledesA"
+    | "VP→bli adj.pp:ble delt → deledes"
       %[w_bli]@vblex adj.pp
       ?(1.tense not = pp and (not (2.lemh/tl in w_no_pasv)))
       { *(vblex)[lemh=2.lemh, voice = pasv, tense = 1.tense] }
@@ -270,11 +270,13 @@ DP2 ->
     ;
 
 S ->
-      "S-intrans" DP VP     { %1 _ 2 }
-    | "S-trans"   DP VP DP  { %1 _ 2 _ 3 }
-    | "S-trans"   DP VP DP2 { %1 _ 2 _ 3 }
-    | "S-transA"  DP VP AP  { %1 _ 2 _ 3 }
-    | "3."        det.qnt sent.clb.remspc   { %1 2 }
-    | "frag-AP"   det AP   { 1 _ %2 }
-    | "frag-DET." det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
+      "S→DP VP"     DP VP     { 1 _ %2 }
+    | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
+    | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
+    | "S→DP VP DP2" DP VP DP2 { 1 _ %2 _ 3 }
+    | "S→DP VP AP"  DP VP AP  { 1 _ %2 _ 3 }
+    | "S→qnt remspc:3." det.qnt sent.clb.remspc   { %1 2 }
+    | "S→VP ADV"   VP ADV     { %1 _ 2 }
+    | "S→det AP"   det AP     { 1 _ %2 }
+    | "S→det SENT (no space)" det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
     ;
