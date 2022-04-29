@@ -175,6 +175,7 @@
       <match lemma="fort" tags="adj.*"><select lemma="fort"/></match>
     </rule>
 
+    <rule><match lemma="sjef" tags="n.*"><select lemma="chef"/></match></rule>
 </rules>
 
 </lrx>
