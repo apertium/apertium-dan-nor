@@ -4,12 +4,12 @@
 ! Attribute Categories: !
 !!!!!!!!!!!!!!!!!!!!!!!!!
 
-gender = m f nt ut un fn mf xpst xpsts xpsto xcomp xsup acr GD ;
-gender_n = m f nt ut un fn mf acr GD ;
+gender = m f nt ut un fn mf xpst xpsts xpsto xcomp xsup acr ;
+gender_n = m f nt ut un fn mf acr ;
 ! TODO do I need non_overwritable_gender = … @mf ;
 gender_adj_sg_ind = nt ut ;
-number = sg pl sp ND ;
-number_n = sg pl sp ND ;
+number = sg pl sp ;
+number_n = sg pl sp ;
 defnes = def ind ;
 tense = inf pret pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
@@ -48,8 +48,8 @@ w_ogeller = og eller ;
 !!!!!!!!!!!!!!!!!!!!!!
 
 tense > tense : pret past ;
-gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, xpst xpst, xpsts xpsts, xpsto xpsto, xcomp xcomp, xsup xsup, acr acr, GD GD ;
-number > number_n : sg sg, sp sp, pl pl, ND ND ;
+gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, xpst xpst, xpsts xpsts, xpsto xpsto, xcomp xcomp, xsup xsup, acr acr ;
+number > number_n : sg sg, sp sp, pl pl ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Tag Order (Output Patterns): !
@@ -82,6 +82,7 @@ det: (if (1.defnes/tl = ind and 1.a_det/tl = "")
 ! Note: attrs not included here are not available to reduction rules
 N:     _.gender.number.defnes.case.a_cmp;
 A:     _.a_adj.a_comp.gender.number.defnes.case.a_cmp;
+AP:    _.a_adj.a_comp.gender.number.defnes.case;
 NP:    _.gender.number.defnes;
 DP:    _.gender.number.defnes;
 PP:    _;
@@ -100,19 +101,24 @@ S:     _;                       ! issue 80-workaround
 CNJCOO -> %cnjcoo { %1 } ;      ! for some reason need this to get rid of @nkon?
 
 N ->
-     "N2A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
-   | "n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
-   | "n"          %n             { %1[lemcase=$lemcase] }
-   | "ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
-   | "npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
-   | "vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
-   | "ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | "npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | "vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
+     "N→A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
+   | "N→n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
+   | "N→n"          %n             { %1[lemcase=$lemcase] }
+   | "N→ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
+   | "N→npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
+   | "N→vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | "N→ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "N→npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "N→vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
    ;
 
-A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un el-if (1.a_comp = sup and 1.gender = GD) fn else $gender),
-                              number=(if (1.a_comp = pst and 1.number = ND) pl else $number),
+A -> "A->adj"       %adj { %1[gender=(if (1.number = sg and 1.defnes = ind)
+                                          (if ($gender = nt or $gender = ut) $gender else 1.gender)
+                                      el-if (1.a_adj = pprs or 1.a_adj = pp)
+                                          ""
+                                      else
+                                          un),
+                              number=$number,
                               a_adj=1.a_adj/tl
                               ] }
    | "A->n+A"      n.*.cmp %A { 1 %2 }
@@ -125,18 +131,19 @@ A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un e
 ! ^nøye<adj><sint><pst><nt><sg><ind>/noga<adj><pst><nt><sg><ind>$
 ! should not get sint!
 
-NP ->   %N { %1[lemcase=$lemcase] }
-    | "ANun" 4: A.*.un %N
-       ! Forms with <un> on the dan side of bidix don't inflect for gender
+! Recurse on multiple adj's in a row, don't change gender on first if only the first is nt:
+AP -> "AP→A|godt"           0:        %A      { %1[gender=$gender] }
+    | "AP→A A|stort godt"   3: A.*.nt %A.*.nt { 1[gender=$gender] _ %2[gender=$gender] } ! both nt, assume we can override gender of both using outer NP
+    | "AP→A A|relativt god" 2: A.*.nt %A      { 1                 _ %2[gender=$gender] } ! only first is nt, assume first adj modifies second adj (and not followin NP)
+    | "AP→A A|stor god"     1: A      %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
+    ;
+
+NP -> "NP→N"  %N { %1[lemcase=$lemcase] }
+    | "AN no chg" 4: AP %N
+       ?(2.gender/sl = 2.gender/tl)
+       ! Noun gender didn't change in bidix, don't change adj gender:
        { 1 _ %2 }
-    | "ANnoch" 4: A %N
-       ?(2.gender/sl = 2.gender/tl and (1.gender not = GD))
-       ! Gender didn't change in bidix
-       { 1 _ %2 }
-    ! sg.ind takes noun gender if that's nt, ut (and adj isn't första):
-    | "ANnt2N" 2: A.*.sg.ind    %N.nt { 1[gender=2.gender] _                              %2 }
-    | "ANut2N" 2: A.*.sg.ind    %N.ut { 1[gender=2.gender] _                              %2 }
-    | "AN0"    0: A             %N { 1 _                                                  %2 }
+    | "AN" 0: AP             %N { 1[gender=2.gender] _ %2 }
     ;
 
 PP -> pr %DP { 1 _ 2 } ;
@@ -166,7 +173,7 @@ detOfN: (always                 ! TODO why not sp?
 ! is solved, use that instead of gender_n hack
 
 DP ->
-      "de seneste årene ~> de seneste år"
+      "DP→det NP|de seneste årene → de seneste år"
       det %NP
       ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
@@ -174,7 +181,7 @@ DP ->
         2[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
-    | "en lærebok ~> en lærebok"
+    | "DP→det NP|en lærebok → en lærebok"
       det %NP
       ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
@@ -182,7 +189,7 @@ DP ->
         2
       }
 
-    | "vennene mine ~> mina venner"
+    | "DP→det NP|vennene mine → mina venner"
       %NP det.pos
       ?((2.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
@@ -190,14 +197,14 @@ DP ->
         1[defnes=ind, lemcase=2.lemcase]
       }
 
-    | "DP ~> det" %det { %1 }
+    | "DP→det" %det { %1 }
 
-    | "DP ~> NP" %NP { %1 }
+    | "DP→NP" %NP { %1 }
       ;
 
 ! TODO: Do any tags need propagating here?
-ADV -> "ADV" %adv { %1 }
-    | "ADV.nt" %A.*.nt { %1 }
+ADV -> "ADV→adv" %adv { %1 }
+    | "ADV→AP.nt" %AP.*.nt { %1 }
     | det.dem år@N { 1 _ %2 }
     ;
 
@@ -256,18 +263,18 @@ SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
 ! the rules will apply.
 
 DP2 ->
-      "vennene mine virtuelt" DP A         { %1 _ 2 }
+      "vennene mine virtuelt" DP AP        { %1 _ 2 }
     | "vennene hennes redde"  DP ADV       { %1 _ 2 }
     | "et sekund eller to"    DP CNJCOO DP { %1 _ 2 _ 3 } ! TODO: limit to @nkon?
-    | "gode og fine folk"     A CNJCOO DP  { 1 _ 2 _ %3 } ! TODO: limit to @nkon?
+    | "gode og fine folk"     AP CNJCOO DP { 1 _ 2 _ %3 } ! TODO: limit to @nkon?
     ;
 
 S ->
       "S-intrans" DP VP     { %1 _ 2 }
     | "S-trans"   DP VP DP  { %1 _ 2 _ 3 }
     | "S-trans"   DP VP DP2 { %1 _ 2 _ 3 }
-    | "S-transA"  DP VP A   { %1 _ 2 _ 3 }
+    | "S-transA"  DP VP AP  { %1 _ 2 _ 3 }
     | "3."        det.qnt sent.clb.remspc   { %1 2 }
-    | "frag-A"    det A { 1 _ %2 }
+    | "frag-AP"   det AP   { 1 _ %2 }
     | "frag-DET." det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
     ;
