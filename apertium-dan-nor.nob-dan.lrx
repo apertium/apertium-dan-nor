@@ -176,6 +176,9 @@
     </rule>
 
     <rule><match lemma="sjef" tags="n.*"><select lemma="chef"/></match></rule>
+
+    <rule c="fæstne sin lid til"><match lemma="lit" tags="n.*"><select lemma="lid"/></match></rule>
+
 </rules>
 
 </lrx>
