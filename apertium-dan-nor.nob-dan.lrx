@@ -179,6 +179,7 @@
 
     <rule c="fæstne sin lid til"><match lemma="lit" tags="n.*"><select lemma="lid"/></match></rule>
 
+  <rule><match lemma="helse" tags="n.*"><select lemma="helse"/></match></rule>
 </rules>
 
 </lrx>
