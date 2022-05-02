@@ -20,6 +20,7 @@ a_np = ant cog top org al attr cgguess ;
 a_guio = guio ;
 a_adj = sint ord pp pprs ;
 a_cmp = cmp cmp-split ;
+a_split = cmp-split ;
 a_det = dem rel qnt pos emph itg ;
 a_date = date ;
 a_neg = neg ;
@@ -83,8 +84,8 @@ det: (if (1.defnes/tl = ind and 1.a_det/tl = "")
 N:     _.gender.number.defnes.case.a_cmp;
 A:     _.a_adj.a_comp.gender.number.defnes.case.a_cmp;
 AP:    _.a_adj.a_comp.gender.number.defnes.case;
-NP:    _.gender.number.defnes;
-DP:    _.gender.number.defnes;
+NP:    _.gender.number.defnes.a_split;
+DP:    _.gender.number.defnes.a_split;
 PP:    _;
 VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
 ADV:   _;
@@ -173,7 +174,19 @@ detOfN: (always                 ! TODO why not sp?
 ! is solved, use that instead of gender_n hack
 
 DP ->
-      "DP→det NP:de seneste årene → de seneste år"
+      "DP→det NP.cmp-split CNJCOO DP" ! «den utenriks og sikkerhetspolitiske justeringen»
+      det NP.*.cmp-split CNJCOO %DP
+      ?((4.defnes = def) and (not (1.number = sg and 4.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=4.gender, number_n=4.number, lemcase=1.lemcase]
+        _
+        2
+        _
+        3
+        _
+        4[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
+      }
+
+    | "DP→det NP:de seneste årene → de seneste år"
       det %NP
       ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
