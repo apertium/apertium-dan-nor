@@ -1,5 +1,8 @@
 ! nor-dan.rtx
 
+! Pick genders etc. from tl (and if not, from anaphoric referent), but don't fall back to sl:
+SIDE_SOURCES = tl ref ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!
 ! Attribute Categories: !
 !!!!!!!!!!!!!!!!!!!!!!!!!
