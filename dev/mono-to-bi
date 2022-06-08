@@ -1,12 +1,13 @@
 #!/bin/bash
 
-parsuf="__adj"
+parsuf="__n"
 
 for mono in dan nno nob; do
     grep -ho "lm=\".*${parsuf}" ../apertium-${mono}/*dix | sed 's/lm="//;s/".*/./' >/tmp/"${parsuf}".${mono}
 done
 
 echo 'agt:agd$
+hed:het$
 dst:sst$
 st:sst$
 gget:gd$
