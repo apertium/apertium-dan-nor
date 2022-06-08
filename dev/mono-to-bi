@@ -117,7 +117,18 @@ kør:kjør
 vej:vei' >/tmp/dan2nob
 
 dan2nob () {
-    awk -F: 'BEGIN{ while(getline<"/tmp/dan2nob")dan2nob[$2]=$1 } {b=$0; for(pat in dan2nob)sub(pat,dan2nob[pat]);print $0":"b}'
+    awk -F: 'BEGIN{ while(getline<"/tmp/dan2nob")dan2nob[$2][$1]++ }
+{
+    b=$0
+    for(d in ds) delete ds[d]
+    ds[$0]++
+    for(pat in dan2nob) for(rep in dan2nob[pat]) for(d in ds) {
+        gsub(pat, rep, d)
+        ds[d]++
+    }
+    for(d in ds) print d":"b
+}
+'
 }
 
 join -j1 -t: \
