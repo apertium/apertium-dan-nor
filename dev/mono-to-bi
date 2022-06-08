@@ -1,14 +1,37 @@
 #!/bin/bash
 
-parsuf="__vblex"
+parsuf="__adj"
 
 for mono in dan nno nob; do
     grep -ho "lm=\".*${parsuf}" ../apertium-${mono}/*dix | sed 's/lm="//;s/".*/./' >/tmp/"${parsuf}".${mono}
 done
 
-echo '
+echo 'agt:agd$
+dst:sst$
+st:sst$
+gget:gd$
+ild:ill$
+kær:kjær$
+lad:lat$
+ldt:lt$
+yg:ygg$
+ør:ørr$
+und:unn$
+vag:vak$
+givet:gitt$
+at:att$
+et:ett$
+kold:kald$
+ut:utt$
+set:sete$
+is:iss$
+stærk:sterk$
+ædt:edd$
+ård:ard$
 agne:anje$
-teret:tert$
+eret:ert$
+el:ell$
+uld:ull$
 tørre:tørke$
 æle:ele$
 øbe:øpe$
