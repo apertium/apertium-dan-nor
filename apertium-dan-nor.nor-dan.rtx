@@ -107,7 +107,7 @@ CNJCOO -> %cnjcoo { %1 } ;      ! for some reason need this to get rid of @nkon?
 N ->
      "N→A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
    | "N→n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
-   | "N→n"          %n             { %1[lemcase=$lemcase] }
+   | "N→n"          %n ?(1.a_cmp not = cmp) { %1[lemcase=$lemcase] }
    | "N→ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
    | "N→npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
    | "N→vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
