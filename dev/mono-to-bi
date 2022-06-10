@@ -117,6 +117,9 @@ udv:utv
 rej:rei
 opt:oppt
 kør:kjør
+itis:itt
+tænd:tenn
+knude:knute
 vej:vei' >/tmp/dan2nob
 
 dan2nob () {
@@ -139,3 +142,5 @@ join -j1 -t: \
      <(tr -d '*.' < /tmp/"${parsuf}".nob | dan2nob | sort -k1b,1 -t: ) \
     | grep -v '0-9' \
     | dev/add-words
+
+# TODO: skiplist for those I always remove; «verst», «wat:watt» etc.
