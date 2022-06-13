@@ -141,6 +141,10 @@
       <e><i><w/><s n="adv"/><d/></i></e>
       <e><i><w/><s n="adv"/><t/><d/></i></e>
     </pardef>
+    <pardef n="adv|" c="Includes empty!">
+      <e></e>
+      <e><par n="adv"/></e>
+    </pardef>
     <pardef n="prn">
       <e><i><w/><s n="prn"/><d/></i></e>
       <e><i><w/><s n="prn"/><t/><d/></i></e>
@@ -197,6 +201,25 @@
       <e>                            <par n="ncmp*.n"/></e>
       <e>              <par n="adj"/><par n="ncmp*.n"/></e>
       <e><par n="adj"/><par n="adj"/><par n="ncmp*.n"/></e>
+      <e><i><w/><s n="np"/><t/><d/></i></e>
+    </pardef>
+
+    <pardef n="SN|" c="Includes empty!">
+      <e></e>
+      <e><par n="SN"/></e>
+    </pardef>
+
+    <pardef n="pr+SN|pr+np|" c="Includes empty!">
+      <e></e>
+      <e>
+        <i><w/><s n="pr"/><d/></i>
+        <par n="SN"/>
+      </e>
+      <e>
+        <i><w/><s n="pr"/><d/></i>
+        <i><w/><s n="pr"/><d/></i>
+        <par n="SN"/>
+      </e>
     </pardef>
 
     <pardef n="SN|adv|prn|" c="Includes empty!">
@@ -379,6 +402,24 @@
       <p><l>like<s n="vblex"/></l>   <r>kunne<s n="vblex"/></r></p><par n="td"/>
       <par n="prn.pers.nom|adv|"/>
       <p><l></l>   <r>like<s n="vblex"/><s n="inf"/><d/></r></p>
+    </e>
+
+
+    <e lm="la han under seg → underla han seg">
+      <p><l>legge<s n="vblex"/></l>   <r>underlegge<s n="vblex"/></r></p><par n="td"/>
+      <i><w/><s n="prn"/><s n="pers"/><t/><s n="nom"/><d/></i>
+      <p><l>under<t/><d/></l>   <r></r></p>
+      <i>seg<t/><d/></i>
+    </e>
+
+    <e lm="la området (sør for Lagoda) under seg → underla seg området (sør for Lagoda)">
+      <p><l>legge<s n="vblex"/></l>   <r>underlegge<s n="vblex"/></r></p><par n="td"/>
+      <p><l></l>   <r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/><s n="acc"/><d/></r></p>
+      <par n="SN|"/>
+      <par n="pr+SN|pr+np|"/>
+      <par n="adv|"/>
+      <p><l>under<t/><d/></l>   <r></r></p>
+      <p><l>seg<t/><d/></l>   <r></r></p>
     </e>
 
 
