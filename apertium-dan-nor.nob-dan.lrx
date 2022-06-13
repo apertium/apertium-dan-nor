@@ -195,6 +195,8 @@
     <match lemma="midt på" tags="pr"><select lemma="midt i"/></match>
     <match tags="n.nt.sg.def"/> <!-- TODO: no regex, want only 0-9-tall -->
   </rule>
+
+  <rule><match lemma="vanlig" tags="adj.*"><select lemma="almindelig"/></match></rule>
 </rules>
 
 </lrx>
