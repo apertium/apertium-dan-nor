@@ -1,13 +1,19 @@
 [0AQS_LbbTu4t#0] det er en rovfugl, der er udbredt
 [/0AQS_LbbTu4t]
+[0fNOhzUY_A9i#0] Karsygdomme er en fællesbetegnelse på sygdomme i blodårerne, både arterier og vener.
+[/0fNOhzUY_A9i]
 [1eDW_0xrRUhX#0] selve by
 [/1eDW_0xrRUhX]
 [1x4sVzQ8s9s1#0] Om sommeren er det mange dansker, der cykler. Også selv om det regner.
 [/1x4sVzQ8s9s1]
 [2PNxxSpAa4MU#0] et karakteristisk ravinelandskab
 [/2PNxxSpAa4MU]
+[3sk50h4xINoB#0] Riget grundlagdes sandsynligvis midt i 800-tallet af svenske vikinger, der lagde området syd for Ladoga under sig, og derefter udvidede herredømmet i 880'erne til også at omfatte Kiev-området.
+[/3sk50h4xINoB]
 [57KhqMt0wmzr#0] på den anden side
 [/57KhqMt0wmzr]
+[5pP8Q6Gc8x6t#0] Karsygdomme omfatter sygdomsprocesser som *årebetennelser (arteridt, *flebitt), *aterosklerose og blodprop, sjældnere også svulster (*angiom).
+[/5pP8Q6Gc8x6t]
 [6COebhF1E2Wb#0] *Titanic synkede på jomfrurejsen sin til trods for, at det var erklæret synkefrit
 [/6COebhF1E2Wb]
 [6KvLKp1kq_xT#0] Det vises film.
@@ -28,6 +34,8 @@
 [/JOXzDXbN6Lo_]
 [Jke5Xn5HiMU9#0] Det regner.
 [/Jke5Xn5HiMU9]
+[LFj9PnMAN0m9#0] Karsygdomme giver derved ophav til nogle af de vanligste og alvorligste sygdomstilstandene som *aorta-aneurisme, slagtilfælde, hjerteinfarkt og *lungeembolisme.
+[/LFj9PnMAN0m9]
 [LyEBEtFCbGKr#0] hvilken by
 [/LyEBEtFCbGKr]
 [Mv6OMsSDl14k#0] fredsopgørene
@@ -82,8 +90,12 @@
 [/i9Gb-OzPrtqd]
 [lI7hQm9NW8av#0] Der er dumt at køre for stærkt.
 [/lI7hQm9NW8av]
+[liZAWyCanT6V#0] Karsygdomme kan medføre både udvidelser (*aneurismer, åreknuder) og *forsnevringer og *tilstoppinger af blodårerne.
+[/liZAWyCanT6V]
 [lmZbhKy_sW8Q#0] den nye colombianske stat
 [/lmZbhKy_sW8Q]
+[pyo8SJjgCh1d#0] Gardariket er i nordisk sagalitteratur navnet på Kievriget, et rige i det nuværende Rusland og Ukraine, der lå omkring Novgorod (på norrønt *Holmgarðr) og Kiev.
+[/pyo8SJjgCh1d]
 [qrKYmCc0xbAN#0] en kommende ordre
 [/qrKYmCc0xbAN]
 [soZfxNO1iCxq#0] Der er nogen som banker på døren.

@@ -180,6 +180,21 @@
     <rule c="fæstne sin lid til"><match lemma="lit" tags="n.*"><select lemma="lid"/></match></rule>
 
   <rule><match lemma="helse" tags="n.*"><select lemma="helse"/></match></rule>
+
+  <rule><match lemma="for" tags="pr"><select lemma="for"/></match></rule>
+  <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
+  <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
+  <rule weight="2.0" c="en betegnelse for">
+    <or>
+      <match lemma="betegnelse"/>
+      <match lemma="fellesbetegnelse"/>
+    </or>
+    <match lemma="på" tags="pr"><select lemma="for"/></match>
+  </rule>
+  <rule weight="2.0" c="midt i 800-tallet">
+    <match lemma="midt på" tags="pr"><select lemma="midt i"/></match>
+    <match tags="n.nt.sg.def"/> <!-- TODO: no regex, want only 0-9-tall -->
+  </rule>
 </rules>
 
 </lrx>

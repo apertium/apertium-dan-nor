@@ -153,4 +153,8 @@
   <rule><match lemma="artikel" tags="n.*"><select lemma="artikkel"/></match></rule>
   <rule><match lemma="eftersøge" tags="vblex.*"><select lemma="ettersøke"/></match></rule>
   <rule><match lemma="virke" tags="vblex.*"><select lemma="virke"/></match></rule>
+
+  <rule><match lemma="for" tags="pr"><select lemma="for"/></match></rule>
+  <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
+  <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
 </rules>
