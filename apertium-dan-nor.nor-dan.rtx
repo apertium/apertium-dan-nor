@@ -189,6 +189,20 @@ DP ->
         4[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
+    | "DP→det A CNJCOO A N" ! «de vanligste og alvorligste sykdomstilstandene»
+      det A CNJCOO A %N
+      ?((5.defnes = def) and (not (1.number = sg and 5.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=5.gender, number_n=5.number, lemcase=1.lemcase]
+        _
+        2[gender=5.gender]
+        _
+        3
+        _
+        4[gender=5.gender]
+        _
+        5[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
+      }
+
     | "DP→det NP:de seneste årene → de seneste år"
       det %NP
       ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
