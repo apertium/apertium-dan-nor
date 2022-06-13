@@ -1,6 +1,6 @@
 #!/bin/bash
 
-parsuf="__n"
+parsuf="__adv"
 
 for mono in dan nno nob; do
     grep -ho "lm=\".*${parsuf}" ../apertium-${mono}/*dix | sed 's/lm="//;s/".*/./' >/tmp/"${parsuf}".${mono}
