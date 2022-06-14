@@ -443,6 +443,23 @@
       </p>
     </e>
 
+    <e lm="vann.n med kullsyre → vann med kullsyre.n" c="danskvand">
+      <p>
+        <l>vann</l>
+        <r>vann<b/>med<b/>kullsyre</r>
+      </p> <par n="td"/>
+      <p><l></l><r>med</r></p><par n="td:"/>
+      <p><l></l><r>kullsyre</r></p><par n="td:"/>
+    </e>
+    <e lm="vann.n uten kullsyre → vann uten kullsyre.n" c="danskvand">
+      <p>
+        <l>vann</l>
+        <r>vann<b/>uten<b/>kullsyre</r>
+      </p> <par n="td"/>
+      <p><l></l><r>uten</r></p><par n="td:"/>
+      <p><l></l><r>kullsyre</r></p><par n="td:"/>
+    </e>
+
     <e lm="såvel X som Y → både X og Y" c="både X og Y">
       <par n="såvel:både"/>
       <par n="ANYWORD_1,7"/> <!-- TODO: should be ANY_EXCEPT_SOM in case two som's there; want only the nearest -->
