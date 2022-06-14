@@ -212,6 +212,24 @@
     <match lemma="håndtere" tags="vblex.*"><select lemma="håndtere"/></match>
   </rule>
 
+  <rule><match lemma="vanskelig" tags="adj.*"><select lemma="svær"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
+    <or>
+      <match lemma="tilgjengelig"/>
+      <match lemma="grunnet"/>
+      <match lemma="på grunn av"/>
+      <match lemma="pga"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="kun"/>
+      <match lemma="bare"/>
+    </or>
+    <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
+    <match lemma="kan"/>
+  </rule>
 </rules>
 
 </lrx>

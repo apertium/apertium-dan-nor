@@ -67,7 +67,30 @@
   <rule weight="2.0" c="svær at greje">
     <match tags="adj.*"/>
     <match lemma="å"/>
-    <match lemma="håndtere" tags="vblex.*"><select lemma="håndtere"/></match>
+    <match lemma="handtere" tags="vblex.*"><select lemma="håndtere"/></match>
   </rule>
 
+  <rule><match lemma="vanskeleg" tags="adj.*"><select lemma="svær"/></match></rule>
+  <rule weight="2.0" c="svær at greje">
+    <match tags="adj.*"/>
+    <match lemma="å"/>
+    <match lemma="håndtere" tags="vblex.*"><select lemma="håndtere"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="vanskeleg" tags="adj.*"><select lemma="vanskelig"/></match>
+    <or>
+      <match lemma="tilgjengeleg"/>
+      <match lemma="grunna"/>
+      <match lemma="på grunn av"/>
+      <match lemma="pga"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="kun"/>
+      <match lemma="berre"/>
+    </or>
+    <match lemma="vanskeleg" tags="adj.*"><select lemma="vanskelig"/></match>
+    <match lemma="kan"/>
+  </rule>
 </rules>
