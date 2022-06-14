@@ -264,5 +264,8 @@
   <rule><match lemma="for" tags="pr"><select lemma="for"/></match></rule>
   <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
   <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
+
+  <rule><match lemma="klare" tags="vblex.*"><select lemma="klare"/></match></rule>
+
 </rules>
 

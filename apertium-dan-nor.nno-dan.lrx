@@ -55,4 +55,19 @@
   </rule>
 
   <rule><match lemma="vanleg" tags="adj.*"><select lemma="almindelig"/></match></rule>
+  <rule><match lemma="brette" tags="vblex.*"><select lemma="smøge"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="brette" tags="vblex.*"><select lemma="brætte"/></match>
+    <match lemma="opp"/>
+  </rule>
+
+  <rule><match lemma="greie" tags="vblex.*"><select lemma="klare"/></match></rule>
+
+  <rule><match lemma="handtere" tags="vblex.*"><select lemma="håndtere"/></match></rule>
+  <rule weight="2.0" c="svær at greje">
+    <match tags="adj.*"/>
+    <match lemma="å"/>
+    <match lemma="håndtere" tags="vblex.*"><select lemma="håndtere"/></match>
+  </rule>
+
 </rules>
