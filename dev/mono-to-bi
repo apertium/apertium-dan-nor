@@ -1,6 +1,13 @@
 #!/bin/bash
 
-parsuf="__adv"
+parsuf="$1"
+if [[ -z "${parsuf}" ]]; then
+    echo "Expecting 1 arg, pardef suffix. Example:" >&2
+    echo                                            >&2
+    echo "$ ./$0 \"__n\""                           >&2
+    echo                                            >&2
+    exit 1
+fi
 
 for mono in dan nno nob; do
     grep -ho "lm=\".*${parsuf}" ../apertium-${mono}/*dix | sed 's/lm="//;s/".*/./' >/tmp/"${parsuf}".${mono}
