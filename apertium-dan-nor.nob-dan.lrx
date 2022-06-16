@@ -230,6 +230,80 @@
     <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
     <match lemma="kan"/>
   </rule>
+
+  <rule><match lemma="lei" tags="adj.*"><select lemma="ked"/></match></rule>
+  <rule><match lemma="rar" tags="adj.*"><select lemma="mærkelig"/></match></rule>
+
+  <rule><match lemma="etasje" tags="n.*"><select lemma="etage"/></match></rule>
+  <rule weight="2.0" c="første etasje → andre sal">
+    <match tags="adj.ord.*"/>
+    <match lemma="etasje" tags="n.*"><select lemma="sal"/></match>
+  </rule>
+
+  <!-- Modals: -->
+  <!-- show a defective conjugation pattern. For epistemic modals, this pattern is even
+       more defective than for non-epistemic modals. Notably, epistemic modals lack
+       participles … infinitive modals can only rarely be used epistemically. Whereas
+       the morphological -s-passive is compatible only with a non-epistemic reading of
+       the modals in the scope of which it occurs, the blive-passive typically goes with
+       an epistemic reading. Epistemic modals always require a bare infinitive.
+       Mortelmans, T., Boye, K., & Van Der Auwera, J. (2009). Modals in the Germanic languages. Modals in the languages of Europe: A reference work, 11, 69.
+  -->
+  <rule><match lemma="måtte" tags="vblex.*"><select lemma="skulle"/></match></rule>
+  <rule weight="2.0" c="epistemisk">
+    <match lemma="måtte" tags="vblex.*"><select lemma="måtte"/></match>
+    <or>
+      <match lemma="bli"/>
+      <match lemma="medføre"/>
+    </or>
+  </rule>
+  <!-- TODO: epistemisk «Butleren må→må være morderen» -->
+
+  <rule><match lemma="kunne" tags="vblex.*"><select lemma="måtte"/></match></rule>
+  <rule weight="2.0" c="kan det være vanskelig → kan det være svært">
+    <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    <match lemma="den"/>
+    <match lemma="være"/>
+    <match tags="adj.*"/>
+  </rule>
+  <rule weight="2.0" c="skal kunne → skal kunne">
+    <or>
+      <match lemma="skulle"/>
+      <match lemma="skulle"/>
+    </or>
+    <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+  </rule>
+  <rule weight="2.0" c="håpte å kunne → håbede at kunne">
+    <or>
+      <match lemma="håpe"/>
+      <match lemma="ønske"/>
+      <match lemma="for"/>
+    </or>
+    <match lemma="å"/>
+    <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+  </rule>
+  <rule weight="2.0" c="som kan anvendes → der kan anvendes">
+    <match lemma="som"/>
+    <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    <match tags="vblex.*.pasv"/>
+  </rule>
+  <rule weight="2.0" c="kan medføre → kan medføre">
+    <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    <or>
+      <match lemma="bli"/>
+      <match lemma="medføre"/>
+      <match lemma="oppstå"/>   <!-- nye arter kan opstå-->
+      <match lemma="være"/>     <!-- årsagen kan være -->
+      <match lemma="føre"/>     <!-- det kan føre til -->
+    </or>
+  </rule>
+  <rule weight="2.0" c="liker ikke → kan ikke lide">
+    <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    <repeat from="0" upto="3"><match/></repeat>
+    <match lemma="like"/>
+  </rule>
+  <!-- TODO: epistemisk «Butleren kan→kan være morderen» -->
+
 </rules>
 
 </lrx>
