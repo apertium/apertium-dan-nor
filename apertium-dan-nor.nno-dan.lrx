@@ -161,4 +161,7 @@
   </rule>
   <!-- TODO: epistemisk «Butleren kan→kan være morderen» -->
 
+  <rule><match lemma="slutt" tags="n.*"><select lemma="slutning"/></match></rule>
+  <rule weight="2.0"><match lemma="slutt" tags="n.*.sg.ind"><select lemma="slut"/></match></rule>
+  <rule weight="2.0"><match lemma="slutt" tags="n.*.sg.ind.cmp"><select lemma="slut"/></match></rule>
 </rules>
