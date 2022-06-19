@@ -17,6 +17,7 @@ defnes = def ind ;
 tense = inf pret past pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
 voice = pasv actv ;
+a_pstv = pstv ;
 case = nom acc gen ;
 ! a_ for attribute:
 a_np = ant cog top org al attr cgguess ;
@@ -64,7 +65,7 @@ number > number_n : sg sg, sp sp, pl pl ;
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
 n:     _.gender.number.defnes.case.a_cmp.a_guio;
 np:    _.a_np.gender.number.defnes.case.a_cmp.a_guio;
-vblex: _.tense.voice.a_cmp;
+vblex: _.a_pstv.tense.voice.a_cmp;
 pr:    _;
 adv:   _.a_comp;
 ij:    _;
@@ -255,7 +256,8 @@ ADV -> "ADV→adv" %adv { %1 }
 VP ->
       "VP→imp" 3: %vblex.imp { %1[voice=""] }
 
-    | "VP→v"   0: %vblex     { %1 }
+    | "VP→v"   0: %vblex.*.pasv { %1 }
+    | "VP→v"   0: %vblex.*.actv { %1[voice=""] }
 
     | "VP.pasv→bli v.pp:solgtes teen → ble teen solgt"
       2: %vblex.*.pasv
