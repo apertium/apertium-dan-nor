@@ -33,15 +33,19 @@ TARGETS_PREFIX1 =                                                 \
 TARGETS_PREFIX1n =                                                \
       $(PREFIX1n).automorf.bin                                    \
       $(PREFIX1n).autopgen.bin                                    \
+      $(PREFIX1n).autoseq.bin                                     \
       $(PREFIX1n).autobil.bin                                     \
       $(PREFIX1n).autolex.bin                                     \
       $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
+      $(PREFIX1n).rtx.bin                                         \
+      $(PREFIX1n).genprefs.rlx.bin                                \
       $(PREFIX1n).autogen.bin
 TARGETS_PREFIX1b =                                                \
       $(PREFIX1b).automorf.bin                                    \
       $(PREFIX1b).autobil.bin                                     \
       $(PREFIX1b).autolex.bin                                     \
       $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
+      $(PREFIX1b).rtx.bin                                         \
       $(PREFIX1b).autogen.bin
 
 TARGETS_PREFIX2 =              \
@@ -68,9 +72,20 @@ e: modes/$(PREFIX1b).mode	# build just nob-dan
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).autogen.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).automorf.bin  $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin $(LANG2b).prob
 	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b) $(PREFIX2b).automorf-untrimmed.bin
-r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).rtx.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-dan
+
+# Fast build – nearly everything but dictionaries:
+r: modes/$(PREFIX1b).mode \
+ $(PREFIX1n).rtx.bin \
+ $(PREFIX1b).rtx.bin \
+ $(PREFIX2).rtx.bin \
+ $(PREFIX2).t1x.bin \
+ $(PREFIX2).t2x.bin \
+ $(PREFIX2).t3x.bin \
+ $(PREFIX2).autoseq.bin
+	cd $(AP_SRC1) && ${MAKE} $(LANG1).seg.rlx.bin $(LANG1).rlx.bin
+	cd $(AP_SRC2n) && ${MAKE} $(LANG2n).seg.rlx.bin $(LANG2n).rlx.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
-	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin $(PREFIX2).autoseq.bin
+	${MAKE} $(PREFIX1).seg.rlx.bin $(PREFIX1).rlx.bin $(PREFIX2n).seg.rlx.bin $(PREFIX2n).rlx.bin $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
@@ -138,14 +153,25 @@ $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 $(PREFIX1).seg.rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).seg.rlx
 	cg-comp $< $@
 
-$(PREFIX2b).seg.rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).seg.rlx
+$(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
 	cg-comp $< $@
 
-$(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
+$(PREFIX2b).seg.rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).seg.rlx
 	cg-comp $< $@
 
 $(PREFIX2n).rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).rlx
 	cg-comp $< $@
+
+$(PREFIX2n).seg.rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).seg.rlx
+	cg-comp $< $@
+
+
+###############################################################################
+## Variant preferences
+###############################################################################
+
+$(PREFIX1n).genprefs.rlx.bin: $(AP_SRC2n)/$(LANG2n).prefs.rlx.bin
+	cp $< $@
 
 
 ###############################################################################

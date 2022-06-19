@@ -1,0 +1,296 @@
+! nor-dan.rtx
+
+! Pick genders etc. from tl (and if not, from anaphoric referent), but don't fall back to sl:
+SIDE_SOURCES = tl ref ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+! Attribute Categories: !
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+gender = m f nt ut un fn mf xpst xpsts xpsto xcomp xsup acr ;
+gender_n = m f nt ut un fn mf acr ;
+! TODO do I need non_overwritable_gender = … @mf ;
+gender_adj_sg_ind = nt ut ;
+number = sg pl sp ;
+number_n = sg pl sp ;
+defnes = def ind ;
+tense = inf pret past pres pp supn imp ;
+person = (PD p3) p1 p2 p3 PD ;
+voice = pasv actv ;
+case = nom acc gen ;
+! a_ for attribute:
+a_np = ant cog top org al attr cgguess ;
+a_guio = guio ;
+a_adj = sint ord pp pprs ;
+a_cmp = cmp cmp-split ;
+a_split = cmp-split ;
+a_det = dem rel qnt pos emph itg ;
+a_date = date ;
+a_neg = neg ;
+a_comp = pst comp sup ;
+a_clb = clb ;
+a_expl = expl ;
+a_nkon = @nkon ;
+mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser vaux ;
+
+! Word sets:
+w_paux = bli blive være vere ;
+w_bli = bli blive ;
+w_supnaux = ha være vere ;
+
+! We never turn pp's of these into pasv (regardless of tense):
+w_no_pasv = aldres dages drages enes erfares fattes findes forefindes forældes færdes føles kappes kives ledes mindes mistrives mødes nedarves omgås opleves plages rygtes samles skilles skyldes slås snakkes stortrives trives træffes trænges tækkes undres vantrives væmmes være ynges ynkes ældes ;
+
+! We never turn pp's of these into past.pasv:
+w_no_past_pasv = afhjælpe afhænge afvige aldres angribe begribe behænge bestikke bide bifalde blankslide bundfryse bære dages domfælde drages drikke dybfryse efterlade enes erfares falde fattes findes flydyde flyve fnyse forefindes forfryse forgribe forskrækkes forsove forvride forældes fravige fryse færdes føles genfødes glide gnide gribe gælde halvsove hjemfalde hjælpe hundefryse hænge høres hånle indebære indlade kapdrikke kappes kives klukle knivstikke krybe kvæles kæderyge lade le lede ledes lide lyve længes løslade løsnes mindes mistrives mødes nedarves nedlade omgås omtales opleves opslide overfalde overhænge overlade overskride plages ride ryge rygtes samles sidde skambide skamfrysyse ske skide skilles skoggerle skride skridide skrige skyldes skændes skære slide slippe slås smide smugdrikke smugryge smyge småfryse snakkes snige snorksove sove stikke stinke storskrige stortrives stride stryge synes tilfryse trives trænges tækkes tændes udtrykke undres undslippe undvige vantrives vide vige vride væmmes være ynges ynkes æde ældes årelade ;
+
+w_ogeller = og eller ;
+
+w_dendenne = Denne Den den denne ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+! Tag Rewrite Rules: !
+!!!!!!!!!!!!!!!!!!!!!!
+
+tense > tense : past pret ;
+gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, xpst xpst, xpsts xpsts, xpsto xpsto, xcomp xcomp, xsup xsup, acr acr ;
+number > number_n : sg sg, sp sp, pl pl ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Tag Order (Output Patterns): !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
+n:     _.gender.number.defnes.case.a_cmp.a_guio;
+np:    _.a_np.gender.number.defnes.case.a_cmp.a_guio;
+vblex: _.tense.voice.a_cmp;
+pr:    _;
+adv:   _.a_comp;
+ij:    _;
+cnjsub: _;
+cnjcoo: _;
+part:   _;
+sent:   _.a_clb;
+cm:     _.a_clb;
+
+det_nodef:    <det>.a_det.gender.number.case.a_expl;
+det_finaldef: <det>.a_det.gender.number.case.defnes.a_expl;
+det_initdef:  <det>.defnes.gender.number.case.a_expl;
+det: (if (1.defnes/tl = ind and 1.a_det/tl = "")
+         1(det_initdef)
+      el-if (1.number/tl not = pl) ! no plurals have final defnes
+         1(det_finaldef)
+      else
+         1(det_nodef)
+     );
+
+! Note: attrs not included here are not available to reduction rules
+N:     _.gender.number.defnes.case.a_cmp;
+A:     _.a_adj.a_comp.gender.number.defnes.case.a_cmp;
+AP:    _.a_adj.a_comp.gender.number.defnes.case;
+NP:    _.gender.number.defnes.a_split;
+DP:    _.gender.number.defnes.a_split;
+PP:    _;
+VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
+ADV:   _;
+SENT:  _;
+CNJCOO:  _;
+DP2:   _;                       ! issue 80-workaround
+S:     _;                       ! issue 80-workaround
+
+
+!!!!!!!!!!!!!!!!!!!!
+! Reduction Rules: !
+!!!!!!!!!!!!!!!!!!!!
+
+CNJCOO -> %cnjcoo { %1 } ;      ! for some reason need this to get rid of @nkon?
+
+N ->
+     "N→A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
+   | "N→n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
+   | "N→n"          %n ?(1.a_cmp not = cmp) { %1[lemcase=$lemcase] }
+   | "N→ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
+   | "N→npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
+   | "N→vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | "N→ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "N→npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "N→vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
+   ;
+
+A -> "A->adj"       %adj { %1[gender=(if (1.number = sg and 1.defnes = ind)
+                                          (if ($gender = nt or $gender = ut) $gender else 1.gender)
+                                      el-if (1.a_adj = pprs or 1.a_adj = pp)
+                                          ""
+                                      else
+                                          un),
+                              number=$number,
+                              a_adj=1.a_adj/tl
+                              ] }
+   | "A->n+A"      n.*.cmp %A { 1 %2 }
+   | "A->np+A"    np.*.cmp %A { 1 %2 }
+   | "A->vb+A" vblex.*.cmp %A { 1 %2 }
+   ;
+
+! TODO: Stop <sint> getting copied from sl side if not in tl side!
+! <popcorndude> if you specify a side it takes that side or empty, if you don't specify a side it tries tl->ref->sl  [15:41]
+! ^nøye<adj><sint><pst><nt><sg><ind>/noga<adj><pst><nt><sg><ind>$
+! should not get sint!
+
+! Recurse on multiple adj's in a row, don't change gender on first if only the first is nt:
+AP -> "AP→A:godt"           0:        %A      { %1[gender=$gender] }
+    | "AP→A A:stort godt"   3: A.*.nt %A.*.nt { 1[gender=$gender] _ %2[gender=$gender] } ! both nt, assume we can override gender of both using outer NP
+    | "AP→A A:relativt god" 2: A.*.nt %A      { 1                 _ %2[gender=$gender] } ! only first is nt, assume first adj modifies second adj (and not followin NP)
+    | "AP→A A:stor god"     1: A      %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
+    ;
+
+NP -> "NP→N"  %N { %1[lemcase=$lemcase] }
+    | "AN no chg" 4: AP %N
+       ?(2.gender/sl = 2.gender/tl)
+       ! Noun gender didn't change in bidix, don't change adj gender:
+       { 1 _ %2 }
+    | "AN" 0: AP             %N { 1[gender=2.gender] _ %2 }
+    ;
+
+PP -> pr %DP { 1 _ 2 } ;
+
+detOfN: (always                 ! TODO why not sp?
+         1(det)[gender=(if (1.number/tl not = sp and (1.number_n = pl or 1.gender/sl = un))
+                            un
+                        el-if (1.gender = un) ! never apply noun <un>-gender to determiner
+                            1.gender
+                        el-if (1.gender_n = un) ! never apply noun <un>-gender to determiner
+                            1.gender
+                        else
+                            1.gender_n
+                        ),
+                ! TODO:for what determiners do we want to change number? hvilke(n), andre/annen, …?
+                number=(if (1.number/tl = sp or 1.a_det/tl = qnt)
+                            1.number
+                        el-if (1.gender = un) ! never apply noun number if we started out un?
+                            1.number
+                        el-if (1.number_n = sp) ! never apply noun <sp>-gender to determiner
+                            1.number
+                        else
+                            1.number_n
+                        )]
+        ) ;
+! TODO: when https://github.com/apertium/apertium-recursive/issues/81
+! is solved, use that instead of gender_n hack
+
+DP ->
+      "DP→det NP.cmp-split CNJCOO DP" ! «den utenriks og sikkerhetspolitiske justeringen»
+      det NP.*.cmp-split CNJCOO %DP
+      ?((4.defnes = def) and (not (1.number = sg and 4.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=4.gender, number_n=4.number, lemcase=1.lemcase]
+        _
+        2
+        _
+        3
+        _
+        4[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
+      }
+
+    | "DP→det A CNJCOO A N" ! «de vanligste og alvorligste sykdomstilstandene»
+      det A CNJCOO A %N
+      ?((5.defnes = def) and (not (1.number = sg and 5.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=5.gender, number_n=5.number, lemcase=1.lemcase]
+        _
+        2[gender=5.gender]
+        _
+        3
+        _
+        4[gender=5.gender]
+        _
+        5[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
+      }
+
+    | "DP→AP NP det:mine fine venner → dei fine vennane mine"
+      3: det.pos A %NP
+      ?(not (1.number = pl and 2.number = sg)) ! reject if number mismatch (det doesn't modify n)
+      { *(detOfN)[lemh = "den", a_det = "dem", gender="nt", gender_n=3.gender, lemcase=1.lemcase, number="sg", number_n=3.number]
+        _
+        2[gender=3.gender]
+        _
+        3[lemcase=1.lemcase, defnes=def]
+        _
+        1(detOfN)[gender=1.gender, gender_n=3.gender, number_n=3.number, lemcase=2.lemcase]
+      }
+
+    | "DP→NP det:mine venner → vennene mine"
+      2: det.pos %NP
+      ?(not (1.number = pl and 2.number = sg)) ! reject if number mismatch (det doesn't modify n)
+      { 2[lemcase=1.lemcase, defnes=def]
+        _
+        1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=2.lemcase]
+      }
+
+    | "DP→dem NP:de seneste år → de seneste årene"
+      [w_dendenne]@det.dem %NP.*.ind
+      ?((not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+        _
+        2[defnes=def]           ! we know defnes is not empty, so safe to set to def
+      }
+
+    | "DP→det NP:en lærebok → en lærebok"
+      det %NP
+      ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+        _
+        2
+      }
+
+    | "DP→det" %det { %1 }
+
+    | "DP→NP" %NP { %1 }
+      ;
+
+! TODO: Do any tags need propagating here?
+ADV -> "ADV→adv" %adv { %1 }
+    | "ADV→AP.nt" %AP.*.nt { %1 }
+    | det.dem år@N { 1 _ %2 }
+    ;
+
+VP ->
+      "VP→imp" 3: %vblex.imp { %1[voice=""] }
+
+    | "VP→v"   0: %vblex     { %1 }
+
+    | "VP.pasv→bli v.pp:solgtes teen → ble teen solgt"
+      2: %vblex.*.pasv
+      { *(vblex)[lemh = "bli", tense = 1.tense, voice = ""] _ %1[tense = pp, voice = ""] }
+    ;
+
+! If bidix removed clb, ensure it stays removed:
+SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
+
+
+! We need to parse wider contexts in order to work around
+! https://github.com/apertium/apertium-recursive/issues/80
+
+! Ideally, we'd only have rules that cover contexts where we need to
+! apply a change, but unfortunately there's some deep issue with
+! lookahead that means that a verb to the right can block an analysis
+! of a verb to the left or something if we try to only do fragmented
+! "bottom up" analyses. But if there's a parse covering both verbs,
+! the rules will apply.
+
+DP2 ->
+      "vennene mine virtuelt" DP AP        { %1 _ 2 }
+    | "vennene hennes redde"  DP ADV       { %1 _ 2 }
+    | "et sekund eller to"    DP CNJCOO DP { %1 _ 2 _ 3 } ! TODO: limit to @nkon?
+    | "gode og fine folk"     AP CNJCOO DP { 1 _ 2 _ %3 } ! TODO: limit to @nkon?
+    ;
+
+S ->
+      "S→DP VP"     DP VP     { 1 _ %2 }
+    | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
+    | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
+    | "S→DP VP DP2" DP VP DP2 { 1 _ %2 _ 3 }
+    | "S→DP VP AP"  DP VP AP  { 1 _ %2 _ 3 }
+    | "S→qnt remspc:3." det.qnt sent.clb.remspc   { %1 2 }
+    | "S→VP ADV"   VP ADV     { %1 _ 2 }
+    | "S→det AP"   det AP     { 1 _ %2 }
+    | "S→det SENT (no space)" det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
+    ;

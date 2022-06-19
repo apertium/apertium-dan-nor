@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<ref>
+
+  <section-parameters>
+
+    <delimiter>
+        <parameter-item has-tags="sent"/>
+    </delimiter>
+
+    <def-parameter n="adjpp_OR_pasv">
+      <anaphor>
+        <parameter-item has-tags="adj pp"/>
+        <parameter-item has-tags="pasv"/>
+      </anaphor>
+
+      <antecedent>
+        <parameter-item has-tags="np ant"/>
+        <parameter-item has-tags="np cog"/>
+        <parameter-item has-tags="n m"/>
+        <parameter-item has-tags="n ut"/>
+        <parameter-item has-tags="n nt"/>
+        <parameter-item has-tags="n f"/>
+        <parameter-item has-tags="n"/>
+      </antecedent>
+    </def-parameter>
+
+  </section-parameters>
+
+
+
+  <section-def-cats>
+    <def-cat n="det">
+      <cat-item has-tags="det"/>
+      <cat-item has-tags="det pos"/>
+    </def-cat>
+
+    <def-cat n="nom">
+      <cat-item has-tags="n"/>
+    </def-cat>
+
+    <def-cat n="cnjsub">
+      <cat-item has-tags="cnjsub"/>
+    </def-cat>
+
+    <def-cat n="np">
+      <cat-item has-tags="np"/>
+    </def-cat>
+
+    <def-cat n="prep">
+      <cat-item has-tags="pr"/>
+    </def-cat>
+
+  </section-def-cats>
+
+
+  <section-markables>
+
+    <markable n="CNJSUB_SUBJ">
+      <pattern>
+        <pattern-item n="cnjsub"/>
+        <pattern-item n="nom" head="t"/>
+      </pattern>
+
+      <score n="10"/>
+    </markable>
+
+    <markable n="PP">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom" head="t"/>
+      </pattern>
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom" head="t"/>
+      </pattern>
+
+      <score n="-1"/> <!-- This gives a -1 score to any antecedent that is part of a PP -->
+    </markable>
+
+    <markable n="IP">
+      <pattern>
+        <pattern-item n="ind"/>
+        <pattern-item n="nom"/>
+      </pattern>
+
+      <score n="-1"/> <!-- This gives a -1 score to any antecedent that is part of a Indefinite Noun Phrase -->
+    </markable>
+
+    <markable n="PNP">
+      <pattern>
+        <pattern-item n="np"/>
+      </pattern>
+
+      <score n="1"/> <!-- This gives a +1 score to any antecedent that is part of a Proper Noun -->
+    </markable>
+
+  </section-markables>
+
+
+
+</ref>

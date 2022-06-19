@@ -18,6 +18,45 @@
         <file name="dan-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="dan-nno.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="dan-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="dan-nno.autolex.bin"/>
+      </program>
+      <program name="rtx-proc">
+        <file name="dan-nno.rtx.bin"/>
+      </program>
+      <program name="lt-proc $1 -b" debug-suff="dgen">
+        <file name="dan-nno.autogen.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="genprefs">
+        <file name="dan-nno.genprefs.rlx.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="dan-nno.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tdan-nno" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="dan-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="seg">
+	<file name="dan-nor.seg.rlx.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="dan-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="dan-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="dan-nno.autobil.bin"/>
       </program>
@@ -36,8 +75,11 @@
         <file name="apertium-dan-nor.dan-nno.t3x"/>
         <file name="dan-nno.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b" debug-suff="dgen">
         <file name="dan-nno.autogen.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="genprefs">
+        <file name="dan-nno.genprefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="dan-nno.autopgen.bin"/>

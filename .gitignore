@@ -18,3 +18,16 @@
 /ap_include.am
 /dev/testvoc/__pycache__/
 /test/*-output.txt
+/test/output/
+/test/expected/*-morph.txt
+/test/expected/*-seg.txt
+/test/expected/*-disam.txt
+/test/expected/*-tagger.txt
+/test/expected/*-pretransfer.txt
+/test/expected/*-autoseq.txt
+/test/expected/*-biltrans.txt
+/test/expected/*-lex.txt
+/test/expected/*-transfer.txt
+/test/expected/*-dgen.txt
+/test/expected/*-genprefs.txt
+# postgen is the one we track of test/expected

@@ -161,7 +161,8 @@
 
   <rule weight="1.0"> <match lemma="led"> <select lemma="ledd"/> </match> </rule>
 
-  <rule weight="1.0"> <match lemma="kende" tags="vblex"> <select lemma="kjenne"/> </match> </rule>
+  <rule weight="1.0"> <match lemma="kende" tags="vblex.*"> <select lemma="kjenne"/> </match> </rule>
+  <rule weight="1.0"> <match lemma="kende" tags="adj.*"> <select lemma="kjenne"/> </match> </rule>
 
   <rule weight="1.0"> <match lemma="til" tags="pr"> <select lemma="til"/> </match> </rule>
 
