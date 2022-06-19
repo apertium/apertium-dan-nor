@@ -421,6 +421,28 @@
 
   <section id="main" type="standard">
 
+    <!-- Comma removal -->
+
+    <e lm="til trods for, at → til trods for at" c="til tross for at">
+      <i>til<b/>trods<b/>for</i> <par n="td-dospc"/>
+      <p> <l>,<s n="cm"/><d/></l> <r></r></p>
+      <i>at</i> <par n="td"/>
+    </e>
+
+    <e lm="X, der → X der" c="X som">
+      <i><w/><s n="n"/></i> <par n="td-dospc"/>
+      <p> <l>,<s n="cm"/><d/></l> <r></r></p>
+      <i><w/><s n="cnjsub"/><d/></i>
+    </e>
+
+    <e lm="(er) dumt at → (er) dumt, at" c="(er) dumt, å">
+      <i><w/><s n="adj"/></i> <par n="td-dospc"/>
+      <p> <l>,<s n="cm"/><d/></l> <r></r></p>
+      <i>at<s n="part"/><d/></i>
+    </e>
+
+    <!-- Fixed expressions: -->
+
     <e lm="for Xs vedkommende" c="når det gjeld X">
       <p><l>for</l>             <r></r></p> <par n="td:"/>
       <p><l></l> <r>når<s n="cnjsub"/><d/></r></p>

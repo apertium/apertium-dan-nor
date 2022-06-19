@@ -44,6 +44,7 @@ TARGETS_PREFIX1b =                                                \
       $(PREFIX1b).automorf.bin                                    \
       $(PREFIX1b).autobil.bin                                     \
       $(PREFIX1b).autolex.bin                                     \
+      $(PREFIX1b).autoseq.bin                                     \
       $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
       $(PREFIX1b).rtx.bin                                         \
       $(PREFIX1b).autogen.bin
@@ -74,14 +75,16 @@ e: modes/$(PREFIX1b).mode	# build just nob-dan
 	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b) $(PREFIX2b).automorf-untrimmed.bin
 
 # Fast build – nearly everything but dictionaries:
-r: modes/$(PREFIX1b).mode \
- $(PREFIX1n).rtx.bin \
- $(PREFIX1b).rtx.bin \
- $(PREFIX2).rtx.bin \
- $(PREFIX2).t1x.bin \
- $(PREFIX2).t2x.bin \
- $(PREFIX2).t3x.bin \
- $(PREFIX2).autoseq.bin
+r: modes/$(PREFIX1b).mode  \
+   $(PREFIX1n).autoseq.bin \
+   $(PREFIX1n).rtx.bin     \
+   $(PREFIX1b).autoseq.bin \
+   $(PREFIX1b).rtx.bin     \
+   $(PREFIX2).rtx.bin      \
+   $(PREFIX2).t1x.bin      \
+   $(PREFIX2).t2x.bin      \
+   $(PREFIX2).t3x.bin      \
+   $(PREFIX2).autoseq.bin
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).seg.rlx.bin $(LANG1).rlx.bin
 	cd $(AP_SRC2n) && ${MAKE} $(LANG2n).seg.rlx.bin $(LANG2n).rlx.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin

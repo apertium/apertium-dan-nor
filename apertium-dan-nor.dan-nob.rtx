@@ -261,9 +261,9 @@ VP ->
     | "VP→v"   0: %vblex.*.pasv { %1 }
     | "VP→v"   0: %vblex.*.actv { %1[voice=""] }
 
-    ! | "VP.pasv→bli v.pp:solgtes teen → ble teen solgt"
-    !   2: %vblex.*.pasv
-    !   { *(vblex)[lemh = "bli", tense = 1.tense, voice = ""] _ %1[tense = pp, voice = ""] }
+    | "VP.past.pasv→bli v.pp:solgtes teen → ble teen solgt"
+      2: %vblex.past.pasv
+      { *(vblex)[lemh = "bli", tense = 1.tense, voice = ""] _ %1[tense = pp, voice = ""] }
     ;
 
 ! If bidix removed clb, ensure it stays removed:
