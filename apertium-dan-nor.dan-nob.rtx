@@ -49,6 +49,8 @@ w_ogeller = og eller ;
 
 w_dendenne = Denne Den den denne ;
 
+w_month = januar jan februar feb mars mar april apr mai juni jun juli jul august aug september sep oktober okt november nov desember des ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!
 ! Tag Rewrite Rules: !
@@ -228,7 +230,7 @@ DP ->
 
     | "DP→dem NP:de seneste år → de seneste årene"
       [w_dendenne]@det.dem %NP.*.ind
-      ?((not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      ?((not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl) and (not (2.lemh incl w_month))) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
         _
         2[defnes=def]           ! we know defnes is not empty, so safe to set to def

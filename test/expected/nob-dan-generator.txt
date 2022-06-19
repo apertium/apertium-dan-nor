@@ -1,6 +1,6 @@
 [0AQS_LbbTu4t#0] det er en rovfugl, der er udbredt
 [/0AQS_LbbTu4t]
-[0fNOhzUY_A9i#0] Karsygdomme er en fællesbetegnelse på sygdomme i blodårerne, både arterier og vener.
+[0fNOhzUY_A9i#0] Karsygdomme er en fællesbetegnelse for sygdomme i blodårerne, både arterier og vener.
 [/0fNOhzUY_A9i]
 [1eDW_0xrRUhX#0] selve by
 [/1eDW_0xrRUhX]
@@ -8,7 +8,7 @@
 [/1x4sVzQ8s9s1]
 [2PNxxSpAa4MU#0] et karakteristisk ravinelandskab
 [/2PNxxSpAa4MU]
-[3sk50h4xINoB#0] Riget grundlagdes sandsynligvis midt i 800-tallet af svenske vikinger, der lagde området syd for Ladoga under sig, og derefter udvidede herredømmet i 880'erne til også at omfatte Kiev-området.
+[3sk50h4xINoB#0] Riget grundlagdes sandsynligvis midt i 800-tallet af svenske vikinger, der underlagde sig området syd for Ladoga, og derefter udvidede herredømmet i 880'erne til også at omfatte Kiev-området.
 [/3sk50h4xINoB]
 [57KhqMt0wmzr#0] på den anden side
 [/57KhqMt0wmzr]
@@ -20,7 +20,7 @@
 [/6KvLKp1kq_xT]
 [6w_Cyw_s5ZbW#0] et tysk modsvar
 [/6w_Cyw_s5ZbW]
-[Bf1sj1J3_fgB#0] den udenrigs- og sikkerhedpolitiske justeringen
+[Bf1sj1J3_fgB#0] den udenrigs- og sikkerhedspolitiske justering
 [/Bf1sj1J3_fgB]
 [DErPv2VMubRs#0] hvilke byer
 [/DErPv2VMubRs]
@@ -56,7 +56,7 @@
 [/RMBRkDyMsyJJ]
 [RyVFEsQt_nVl#0] hun kan ikke lide dette noget særligt
 [/RyVFEsQt_nVl]
-[T6rtDLF3hR86#0] Det gør ond.
+[T6rtDLF3hR86#0] Det gør ondt.
 [/T6rtDLF3hR86]
 [U-lthZ4hNtMU#0] i såkaldt fri og grundlæggende forskning
 [/U-lthZ4hNtMU]
@@ -92,7 +92,7 @@
 [/e__pH5O_IXrG]
 [i9Gb-OzPrtqd#0] største væbnede opstanden
 [/i9Gb-OzPrtqd]
-[lI7hQm9NW8av#0] Der er dumt at køre for stærkt.
+[lI7hQm9NW8av#0] Det er dumt, at køre for stærkt.
 [/lI7hQm9NW8av]
 [liZAWyCanT6V#0] Karsygdomme kan medføre både udvidelser (*aneurismer, åreknuder) og forsnævringer og tilstopninger af blodårerne.
 [/liZAWyCanT6V]
@@ -118,7 +118,7 @@
 [/wYh4HfrgvFOJ]
 [xGJ3PFiIgeNa#0] Jeg tror at det kommer mange i år.
 [/xGJ3PFiIgeNa]
-[xfjI-IfBFEYJ#0] andre venstre orienterede
+[xfjI-IfBFEYJ#0] andre venstreorienterede
 [/xfjI-IfBFEYJ]
 [y2AQ--Or3hx2#0] Det vises film på skolen i morgen.
 [/y2AQ--Or3hx2]
