@@ -9,6 +9,7 @@ SIDE_SOURCES = tl ref ;
 
 gender = m f nt ut un fn mf xpst xpsts xpsto xcomp xsup acr ;
 gender_n = m f nt ut un fn mf acr ;
+gender_unmf = un mf ;
 ! TODO do I need non_overwritable_gender = … @mf ;
 gender_adj_sg_ind = nt ut ;
 number = sg pl sp ;
@@ -168,9 +169,9 @@ PP -> pr %DP { 1 _ 2 } ;
 detOfN: (always                 ! TODO why not sp?
          1(det)[gender=(if (1.number/tl not = sp and (1.number_n = pl or 1.gender/sl = un))
                             un
-                        el-if (1.gender = un) ! never apply noun <un>-gender to determiner
-                            1.gender
-                        el-if (1.gender_n = un) ! never apply noun <un>-gender to determiner
+                        el-if (1.gender = un) ! always keep determiner <un>
+                            un
+                        el-if (1.gender_n in gender_unmf) ! never apply noun <un>/<mf>-gender to determiner
                             1.gender
                         else
                             1.gender_n
