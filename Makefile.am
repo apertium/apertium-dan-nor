@@ -51,19 +51,18 @@ TARGETS_PREFIX2 =              \
       $(PREFIX2).autoseq.bin   \
       $(PREFIX2).autobil.bin   \
       $(PREFIX2).autogen.bin   \
+      $(PREFIX2).autolex.bin   \
       $(PREFIX2).rtx.bin
 TARGETS_PREFIX2n =             \
       $(PREFIX2n).prob         \
       $(PREFIX2n).automorf.bin \
       $(PREFIX2b).seg.rlx.bin  \
-      $(PREFIX2n).rlx.bin      \
-      $(PREFIX2n).autolex.bin
+      $(PREFIX2n).rlx.bin
 TARGETS_PREFIX2b =             \
       $(PREFIX2b).prob         \
       $(PREFIX2b).automorf.bin \
       $(PREFIX2b).seg.rlx.bin  \
-      $(PREFIX2b).rlx.bin      \
-      $(PREFIX2b).autolex.bin
+      $(PREFIX2b).rlx.bin
 
 
 # Debug/development goals:
@@ -230,8 +229,7 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 EXTRA_DIST=$(BASENAME).$(PREFIX1).dix  \
 	   $(BASENAME).$(PREFIX1b).lrx \
 	   $(BASENAME).$(PREFIX1n).lrx \
-	   $(BASENAME).$(PREFIX2b).lrx \
-	   $(BASENAME).$(PREFIX2n).lrx \
+	   $(BASENAME).$(PREFIX2).lrx \
 	   $(BASENAME).$(PREFIX1b).rtx \
 	   $(BASENAME).$(PREFIX1n).rtx \
 	   $(BASENAME).$(PREFIX2).rtx  \

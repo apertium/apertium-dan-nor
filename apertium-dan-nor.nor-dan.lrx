@@ -1,0 +1,371 @@
+<lrx>
+  <def-seqs>
+    <def-seq n="ANYTAG">
+      <or>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+        <match tags="prn.*"/>
+        <match tags="det.*"/>
+        <match tags="vblex.*"/>
+        <match tags="ij"/>
+        <match tags="ij.*"/>
+        <match tags="adv"/>
+        <match tags="adv.*"/>
+        <match tags="pr"/>
+        <match tags="pr.*"/>
+        <match tags="adj.*"/>
+        <match tags="part"/>
+        <match tags="part.*"/>
+        <match tags="cnjsub"/>
+        <match tags="cnjsub.*"/>
+        <match tags="cnjcoo"/>
+        <match tags="cnjcoo.*"/>
+        <match tags="cnjadv"/>
+        <match tags="cnjadv.*"/>
+        <match tags="acr"/>
+        <match tags="acr.*"/>
+        <match tags="sent"/>
+        <match tags="sent.*"/>
+        <match tags="cm"/>
+        <match tags="cm.*"/>
+        <match tags="apos"/>
+        <match tags="apos.*"/>
+        <match tags="lpar"/>
+        <match tags="lpar.*"/>
+        <match tags="rpar"/>
+        <match tags="rpar.*"/>
+        <match tags="lquot"/>
+        <match tags="lquot.*"/>
+        <match tags="rquot"/>
+        <match tags="rquot.*"/>
+        <match tags="date"/>
+        <match tags="date.*"/>
+        <match tags="url"/>
+        <match tags="url.*"/>
+        <match tags="guio"/>
+        <match tags="guio.*"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="pp">
+      <or>
+        <match tags="vblex.pp"/>
+        <match tags="adj.pp.*"/>
+      </or>
+    </def-seq>
+
+  </def-seqs>
+  <rules>
+    <rule> <match lemma="ete"><select lemma="spise"/></match> </rule>
+    <rule weight="2.0">
+      <or>
+        <match lemma="gris"/>
+        <match lemma="ku"/>
+        <match lemma="hund"/>
+      </or>
+      <match lemma="ete"><select lemma="æde"/></match>
+    </rule>
+
+    <rule> <match lemma="kval"><select lemma="hval"/></match> </rule>
+    <rule weight="2.0">
+      <match lemma="val" tags="n.*.gen"/>
+      <match lemma="kval" tags="n.*.pl.*"><select lemma="kval"/></match>
+    </rule>
+
+    <rule> <match lemma="omsetje"><select lemma="oversætte"/></match> </rule>
+    <rule> <match lemma="omsette"><select lemma="oversætte"/></match> </rule>
+    <rule weight="2.0">
+      <or>
+        <match lemma="omsetje"><select lemma="omsætte"/></match>
+        <match lemma="omsette"><select lemma="omsætte"/></match>
+      </or>
+      <repeat from="0" upto="2"> <match/></repeat>
+      <match lemma="for"/>
+    </rule>
+
+    <rule>
+      <match lemma="han"><select lemma="han"/></match>
+    </rule>
+
+    <rule>
+      <match lemma="hun"><select lemma="hun"/></match>
+    </rule>
+    <rule>
+      <match lemma="ho"><select lemma="hun"/></match>
+    </rule>
+    <rule>
+      <or><match lemma="høyre"/><match lemma="høre"/></or>
+      <or><match lemma="heime"/><match lemma="hjemme"/></or>
+      <match lemma="innom"><select lemma="ind under"/></match>
+    </rule>
+
+    <rule><match lemma="høst" tags="n.*"><select lemma="efterår"/></match></rule>
+    <rule><match lemma="haust" tags="n.*"><select lemma="efterår"/></match></rule>
+
+    <rule><match lemma="som" tags="cnjsub"><select lemma="som"/></match></rule>
+
+    <rule weight="2.0" c="celler som finnes">
+      <or>
+        <match lemma=","/>
+        <match tags="n.*"/>
+      </or>
+      <match lemma="som" tags="cnjsub"><select lemma="der"/></match>
+      <or>
+        <match tags="vblex.pres.*"/>
+        <match tags="vblex.pret.*"/>
+        <match tags="vblex.pres"/>
+        <match tags="vblex.pret"/>
+      </or>
+    </rule>
+
+    <!-- DET (lemma "den") vs DER (lemma "der") -->
+    <rule c="det → det
+             Conservative default">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+    </rule>
+    <rule weight="2.0" c="Det finnes → Der findes">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <or>
+        <match tags="vblex.*.pasv"/>
+        <match tags="vblex.pstv.*"/>
+        <match tags="vblex.pstv"/>
+      </or>
+    </rule>
+    <rule weight="2.0" c="Det er noen som → Der er noen som
+                          Utrygg">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+      </or>
+      <or><match lemma="noe"/><match lemma="noko"/></or>
+      <match lemma="som"/>
+    </rule>
+    <rule weight="3.0" c="ble det ringmærket → blev der ringmærket
+                          Generelt DER før pp, men regel nedanfor kan overstyra.">
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+      </or>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="pp"/>
+    </rule>
+    <!-- override der: -->
+    <rule weight="3.0" c="ble det besluttet → blev det besluttet
+                          Visse pp oftare brukt med «det»">
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+      </or>
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="beslutte"/>
+        <match lemma="annonsere"/>
+        <match lemma="rapportere"/>
+        <match lemma="bekrefte"/>
+        <match lemma="stadfeste"/>
+        <match lemma="vedta"/>
+        <match lemma="avsløre"/>
+        <match lemma="foreslå"/>
+        <match lemma="føreslå"/>
+        <match lemma="utgi"/>
+        <match lemma="utgje"/>
+        <match lemma="overdra"/>
+        <match lemma="flytte"/>
+        <match lemma="endre"/>
+        <match lemma="overta"/>
+        <match lemma="omdanne"/>
+        <match lemma="ombygge"/>
+      </or>
+    </rule>
+    <rule weight="2.0" c="det var erklært → det var erklært
+                          Peiker på tidlegare subjekt, t.d. «skipet»">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+      </or>
+      <repeat from="0" upto="1"><match lemma="noe"/><match lemma="gang"/></repeat>
+      <or>
+        <match tags="vblex.pp"/>
+        <match tags="adj.*"/>
+      </or>
+    </rule>
+    <rule weight="3.0" c="det er en rovfugl som → det er en rovfugl som
+                          Utrygg. Peiker på tema frå tidlegare setning">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+      </or>
+      <or><match lemma="en"/><match lemma="ein"/></or>
+      <match/>
+      <repeat from="0" upto="3"><match lemma=","/></repeat>
+      <match lemma="som"/>
+    </rule>
+    <!-- /DET vs DER -->
+
+    <rule><match lemma="fort" tags="adj.*"><select lemma="stærk"/></match></rule>
+    <rule weight="2.0">
+      <or><match lemma="kjøre"/><match lemma="køyre"/></or>
+      <repeat from="0" upto="3"><match/></repeat>
+      <match lemma="fort" tags="adj.*"><select lemma="fort"/></match>
+    </rule>
+
+    <rule><match lemma="sjef" tags="n.*"><select lemma="chef"/></match></rule>
+
+    <rule c="fæstne sin lid til"><match lemma="lit" tags="n.*"><select lemma="lid"/></match></rule>
+
+    <rule><match lemma="helse" tags="n.*"><select lemma="helse"/></match></rule>
+
+    <rule><match lemma="for" tags="pr"><select lemma="for"/></match></rule>
+    <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
+    <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
+    <rule weight="2.0" c="en betegnelse for">
+      <or>
+        <match lemma="betegnelse"/>
+        <match lemma="fellesbetegnelse"/>
+      </or>
+      <match lemma="på" tags="pr"><select lemma="for"/></match>
+    </rule>
+    <rule weight="2.0" c="midt i 800-tallet">
+      <match lemma="midt på" tags="pr"><select lemma="midt i"/></match>
+      <match tags="n.nt.sg.def"/> <!-- TODO: no regex, want only 0-9-tall -->
+    </rule>
+
+    <rule><match lemma="vanlig" tags="adj.*"><select lemma="almindelig"/></match></rule>
+    <rule><match lemma="vanleg" tags="adj.*"><select lemma="almindelig"/></match></rule>
+    <rule><match lemma="brette" tags="vblex.*"><select lemma="smøge"/></match></rule>
+    <rule weight="2.0">
+      <match lemma="brette" tags="vblex.*"><select lemma="brætte"/></match>
+      <match lemma="opp"/>
+    </rule>
+
+    <rule><match lemma="greie" tags="vblex.*"><select lemma="klare"/></match></rule>
+
+    <rule><match lemma="håndtere" tags="vblex.*"><select lemma="håndtere"/></match></rule>
+    <rule><match lemma="handtere" tags="vblex.*"><select lemma="håndtere"/></match></rule>
+    <rule weight="2.0" c="svær at greje">
+      <match tags="adj.*"/>
+      <match lemma="å"/>
+      <or>
+        <match lemma="handtere" tags="vblex.*"><select lemma="håndtere"/></match>
+        <match lemma="håndtere" tags="vblex.*"><select lemma="håndtere"/></match>
+      </or>
+    </rule>
+
+    <rule><match lemma="vanskelig" tags="adj.*"><select lemma="svær"/></match></rule>
+    <rule><match lemma="vanskeleg" tags="adj.*"><select lemma="svær"/></match></rule>
+
+    <rule weight="2.0">
+    <or>
+      <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
+      <match lemma="vanskeleg" tags="adj.*"><select lemma="vanskelig"/></match>
+    </or>
+      <or>
+        <match lemma="tilgjengelig"/>
+        <match lemma="grunnet"/>
+        <match lemma="tilgjengeleg"/>
+        <match lemma="grunna"/>
+        <match lemma="på grunn av"/>
+        <match lemma="pga"/>
+      </or>
+    </rule>
+    <rule weight="2.0">
+      <or>
+        <match lemma="kun"/>
+        <match lemma="bare"/>
+        <match lemma="berre"/>
+      </or>
+      <or>
+        <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
+        <match lemma="vanskeleg" tags="adj.*"><select lemma="vanskelig"/></match>
+      </or>
+      <match lemma="kan"/>
+    </rule>
+
+    <rule><match lemma="lei" tags="adj.*"><select lemma="ked"/></match></rule>
+    <rule><match lemma="rar" tags="adj.*"><select lemma="mærkelig"/></match></rule>
+
+    <rule><match lemma="etasje" tags="n.*"><select lemma="etage"/></match></rule>
+    <rule weight="2.0" c="første etasje → andre sal">
+      <match tags="adj.ord.*"/>
+      <match lemma="etasje" tags="n.*"><select lemma="sal"/></match>
+    </rule>
+
+    <!-- Modals: -->
+    <!-- show a defective conjugation pattern. For epistemic modals, this pattern is even
+         more defective than for non-epistemic modals. Notably, epistemic modals lack
+         participles … infinitive modals can only rarely be used epistemically. Whereas
+         the morphological -s-passive is compatible only with a non-epistemic reading of
+         the modals in the scope of which it occurs, the blive-passive typically goes with
+         an epistemic reading. Epistemic modals always require a bare infinitive.
+         Mortelmans, T., Boye, K., & Van Der Auwera, J. (2009). Modals in the Germanic languages. Modals in the languages of Europe: A reference work, 11, 69.
+    -->
+    <rule><match lemma="måtte" tags="vblex.*"><select lemma="skulle"/></match></rule>
+    <rule weight="2.0" c="epistemisk">
+      <match lemma="måtte" tags="vblex.*"><select lemma="måtte"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="medføre"/>
+      </or>
+    </rule>
+    <!-- TODO: epistemisk «Butleren må→må være morderen» -->
+
+    <rule><match lemma="kunne" tags="vblex.*"><select lemma="måtte"/></match></rule>
+    <rule weight="2.0" c="kan det være vanskelig → kan det være svært">
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+      <match lemma="den"/>
+      <match lemma="være"/>
+      <match tags="adj.*"/>
+    </rule>
+    <rule weight="2.0" c="skal kunne → skal kunne">
+      <or>
+        <match lemma="skulle"/>
+        <match lemma="skulle"/>
+      </or>
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    </rule>
+    <rule weight="2.0" c="håpte å kunne → håbede at kunne">
+      <or>
+        <match lemma="håpe"/>
+        <match lemma="ønske"/>
+        <match lemma="for"/>
+      </or>
+      <match lemma="å"/>
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    </rule>
+    <rule weight="2.0" c="som kan anvendes → der kan anvendes">
+      <match lemma="som"/>
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+      <match tags="vblex.*.pasv"/>
+    </rule>
+    <rule weight="2.0" c="kan medføre → kan medføre">
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="medføre"/>
+        <match lemma="oppstå"/>   <!-- nye arter kan opstå-->
+        <match lemma="vere"/>     <!-- årsagen kan være -->
+        <match lemma="være"/>     <!-- årsagen kan være -->
+        <match lemma="føre"/>     <!-- det kan føre til -->
+      </or>
+    </rule>
+    <rule weight="2.0" c="liker ikke → kan ikke lide">
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+      <repeat from="0" upto="3"><match/></repeat>
+      <match lemma="like"/>
+    </rule>
+    <!-- TODO: epistemisk «Butleren kan→kan være morderen» -->
+
+    <rule><match lemma="slutt" tags="n.*"><select lemma="slutning"/></match></rule>
+    <rule weight="2.0"><match lemma="slutt" tags="n.*.sg.ind"><select lemma="slut"/></match></rule>
+    <rule weight="2.0"><match lemma="slutt" tags="n.*.sg.ind.cmp"><select lemma="slut"/></match></rule>
+  </rules>
+
+</lrx>
