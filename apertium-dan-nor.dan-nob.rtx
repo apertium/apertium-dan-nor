@@ -1,4 +1,4 @@
-! nor-dan.rtx
+! dan-nob.rtx
 
 ! Pick genders etc. from tl (and if not, from anaphoric referent), but don't fall back to sl:
 SIDE_SOURCES = tl ref ;
@@ -38,12 +38,6 @@ mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser vau
 w_paux = bli blive være vere ;
 w_bli = bli blive ;
 w_supnaux = ha være vere ;
-
-! We never turn pp's of these into pasv (regardless of tense):
-w_no_pasv = aldres dages drages enes erfares fattes findes forefindes forældes færdes føles kappes kives ledes mindes mistrives mødes nedarves omgås opleves plages rygtes samles skilles skyldes slås snakkes stortrives trives træffes trænges tækkes undres vantrives væmmes være ynges ynkes ældes ;
-
-! We never turn pp's of these into past.pasv:
-w_no_past_pasv = afhjælpe afhænge afvige aldres angribe begribe behænge bestikke bide bifalde blankslide bundfryse bære dages domfælde drages drikke dybfryse efterlade enes erfares falde fattes findes flydyde flyve fnyse forefindes forfryse forgribe forskrækkes forsove forvride forældes fravige fryse færdes føles genfødes glide gnide gribe gælde halvsove hjemfalde hjælpe hundefryse hænge høres hånle indebære indlade kapdrikke kappes kives klukle knivstikke krybe kvæles kæderyge lade le lede ledes lide lyve længes løslade løsnes mindes mistrives mødes nedarves nedlade omgås omtales opleves opslide overfalde overhænge overlade overskride plages ride ryge rygtes samles sidde skambide skamfrysyse ske skide skilles skoggerle skride skridide skrige skyldes skændes skære slide slippe slås smide smugdrikke smugryge smyge småfryse snakkes snige snorksove sove stikke stinke storskrige stortrives stride stryge synes tilfryse trives trænges tækkes tændes udtrykke undres undslippe undvige vantrives vide vige vride væmmes være ynges ynkes æde ældes årelade ;
 
 w_ogeller = og eller ;
 
