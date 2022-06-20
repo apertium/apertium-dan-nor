@@ -37,3 +37,6 @@ Ynglebestanden er vurderet som sårbar på den danske rødliste.
 De vurderedes tværtimod udelukkende i deres egenskab som isolerede grundstykker.
 Langt det meste af al menneskelig aktivitet foregik, før vi lærte at skrive.
 De vurderedes
+værdifuldere
+borgerligst
+borgerligste

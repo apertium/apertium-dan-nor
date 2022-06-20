@@ -115,16 +115,29 @@ N ->
    | "N→vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
    ;
 
-A -> "A→adj"       %adj ?(1.mainpos/tl = adj)
-                         { %1[gender=(if (1.number = sg and 1.defnes = ind)
-                                          (if ($gender = nt or $gender = ut) $gender else 1.gender)
-                                      el-if (1.a_adj = pprs or 1.a_adj = pp)
-                                          ""
-                                      else
-                                          un),
-                              number=$number,
-                              a_adj=1.a_adj/tl
-                              ] }
+A -> "A→adj"       %adj
+     ?(1.mainpos/tl = adj)
+     { %1[gender=(if (1.number = sg and 1.defnes = ind)
+                      (if ($gender = nt or $gender = ut) $gender else 1.gender)
+                  el-if (1.a_adj = pprs or 1.a_adj = pp)
+                      ""
+                  else
+                      un),
+          number=$number,
+          a_adj=1.a_adj/tl
+          ] }
+   | "A.sint→adj.unsint" 1: %adj
+     ?(1.mainpos/tl = adj and (1.a_comp not = pst) and (1.a_adj/sl = sint) and (1.a_adj/tl not = sint))
+     { *(adj)[lemh = "mykje",
+              a_adj = sint, a_comp = 1.a_comp, gender = un, number = sp, defnes = (if (1.defnes = def) ind else 1.defnes)]
+        _
+       %1[gender=(if (1.defnes = def) un else (if ($gender = nt) nt else mf)),
+          number=(if (1.defnes = def) sp else sg),
+          a_adj=1.a_adj/tl,
+          defnes=(if (1.defnes = "") ind else 1.defnes),
+          a_comp=pst
+          ]
+      }
    | "A→n+A"      n.*.cmp %A { 1 %2 }
    | "A→np+A"    np.*.cmp %A { 1 %2 }
    | "A→vb+A" vblex.*.cmp %A { 1 %2 }
