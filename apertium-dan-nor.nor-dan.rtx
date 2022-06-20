@@ -221,7 +221,7 @@ DP ->
 
     | "DP→det NP:vennene mine → mina venner"
       %NP det.pos
-      ?((2.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
+      ?((1.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
@@ -310,5 +310,5 @@ S ->
     | "S→qnt remspc:3." det.qnt sent.clb.remspc   { %1 2 }
     | "S→VP ADV"   VP ADV     { %1 _ 2 }
     | "S→det AP"   det AP     { 1 _ %2 }
-    | "S→det SENT (no space)" det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
+    | "S→DP SENT (no space)" DP SENT { 1 %2 } ! probably never want spaces between numbers and punct?
     ;
