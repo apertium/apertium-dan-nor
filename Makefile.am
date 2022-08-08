@@ -56,7 +56,7 @@ TARGETS_PREFIX2 =              \
 TARGETS_PREFIX2n =             \
       $(PREFIX2n).prob         \
       $(PREFIX2n).automorf.bin \
-      $(PREFIX2b).seg.rlx.bin  \
+      $(PREFIX2n).seg.rlx.bin  \
       $(PREFIX2n).rlx.bin
 TARGETS_PREFIX2b =             \
       $(PREFIX2b).prob         \
