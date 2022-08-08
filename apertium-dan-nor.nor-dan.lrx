@@ -366,6 +366,14 @@
     <rule><match lemma="slutt" tags="n.*"><select lemma="slutning"/></match></rule>
     <rule weight="2.0"><match lemma="slutt" tags="n.*.sg.ind"><select lemma="slut"/></match></rule>
     <rule weight="2.0"><match lemma="slutt" tags="n.*.sg.ind.cmp"><select lemma="slut"/></match></rule>
-  </rules>
+
+    <rule><match lemma="svindel" tags="n.*"><select lemma="svindel"/></match></rule>
+
+    <rule><match lemma="skille" tags="n.*.cmp"><select lemma="skille"/></match></rule>
+    <rule><match lemma="skilje" tags="n.*.cmp"><select lemma="skille"/></match></rule>
+    <rule><match lemma="skille" tags="n.*"><select lemma="forskel"/></match></rule>
+    <rule><match lemma="skilje" tags="n.*"><select lemma="forskel"/></match></rule>
+
+</rules>
 
 </lrx>
