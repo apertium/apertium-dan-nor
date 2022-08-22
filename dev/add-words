@@ -35,8 +35,10 @@ echo "${tmpd}/nno" >&2
 cut -f2 -d: "${tmpd}"/bi |apertium-destxt -n |apertium -f none  -d ../apertium-nno nno-morph|apertium-retxt >"${tmpd}"/nno
 
 echo "${tmpd}/dan-known" >&2
-cut -f1 -d: "${tmpd}"/bi|apertium-destxt -n |apertium -f none -d . dan-nob-morph  |apertium-retxt |grep '^\^[^*+]*\$$'|sed 's,/.*,,'|tr -d ^ >"${tmpd}"/dan-known
+cut -f1 -d: "${tmpd}"/bi|apertium-destxt -n |apertium -f none -d . dan-nob-morph  |apertium-retxt |grep '^\^[^*+]*\$$' >"${tmpd}"/dan-known
 echo "${tmpd}/nob-known" >&2
-cut -f2 -d: "${tmpd}"/bi|apertium-destxt -n |apertium -f none -d . nob-dan-morph|apertium-retxt |grep '^\^[^*+]*\$$'|sed 's,/.*,,'|tr -d ^ >"${tmpd}"/nob-known
+cut -f2 -d: "${tmpd}"/bi|apertium-destxt -n |apertium -f none -d . nob-dan-morph|apertium-retxt |grep '^\^[^*+]*\$$' >"${tmpd}"/nob-known
+echo "${tmpd}/nno-known" >&2
+cut -f2 -d: "${tmpd}"/bi|apertium-destxt -n |apertium -f none -d . nno-dan-morph|apertium-retxt |grep '^\^[^*+]*\$$' >"${tmpd}"/nno-known
 
 awk -v tmpd="${tmpd}" -f "$(dirname "$0")"/"${script}" /dev/null
