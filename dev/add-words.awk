@@ -36,7 +36,7 @@ BEGIN {
           if($a~$1"<vblex>"vrestrict)      ana[lang]["v"][$1]++
           if($a~$1"<adj><pp>"vprestrict)   ana[lang]["v"][$1]++
           if($a~$1"<adj><sint>"asrestrict) ana[lang]["as"][$1]++
-          if($a~$1"<adj>"anrestrict)       ana[lang]["an"][$1]++
+          if($a~$1"<adj><pst>"anrestrict)  ana[lang]["an"][$1]++
           if($a~$1"<adv>"avrestrict)       ana[lang]["av"][$1]++
       }
     }
@@ -50,8 +50,8 @@ BEGIN {
           if($a~$1"<n>")         biknown[lang]["nt"][$1]++
           if($a~$1"<vblex>")     biknown[lang]["v"][$1]++
           if($a~$1"<adj><pp>")   biknown[lang]["v"][$1]++
-          if($a~$1"<adj><sint>") biknown[lang]["as"][$1]++
-          if($a~$1"<adj>")       biknown[lang]["an"][$1]++
+          if($a~$1"<adj><(sint|pst)>") biknown[lang]["as"][$1]++
+          if($a~$1"<adj><(sint|pst)>") biknown[lang]["an"][$1]++
           if($a~$1"<adv>")       biknown[lang]["av"][$1]++
       }
     }
