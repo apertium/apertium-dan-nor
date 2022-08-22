@@ -13,6 +13,7 @@ for mono in dan nno nob; do
     grep -ho "lm=\".*${parsuf}" ../apertium-${mono}/*dix | sed 's/lm="//;s/".*/./' >/tmp/"${parsuf}".${mono}
 done
 
+# dan:nob, regex on the nob-side:
 echo 'agt:agd$
 neur:nevr
 kul:kull
@@ -32,6 +33,7 @@ ldt:lt$
 yg:ygg$
 gøre:gjøre
 ør:ørr$
+ørred:ørret
 und:unn$
 vag:vak$
 givet:gitt$
@@ -83,6 +85,7 @@ nde:nne$
 gte:kte$
 ind:inn
 høj:høy
+hæng:heng
 bag:bak
 mod:mot
 præ:pre
