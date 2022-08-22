@@ -65,7 +65,8 @@ BEGIN {
        lr=""
        if(bw in biknown["nob"][ng] && nw in biknown["dan"][ng]) {
            bgs="";for(mainpos in mainposes) if(bw in ana["nob"][mainpos]) bgs=bgs"+"mainpos; sub(/^\+/,"",bgs)
-           print "<apertium-notrans>Both sides in (dan "ng"; nob " bgs"), skipping. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
+           ngs="";for(mainpos in mainposes) if(nw in ana["dan"][mainpos]) ngs=ngs"+"mainpos; sub(/^\+/,"",ngs)
+           print "<apertium-notrans>Both sides in (dan "ngs"; nob " bgs"), skipping. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
            continue
        }
        else if(bw in biknown["nob"][ng]) {
