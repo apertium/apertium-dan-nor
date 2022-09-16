@@ -76,11 +76,14 @@ r: modes/$(PREFIX1b).mode  \
    $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
    $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
    $(PREFIX2).t1x.bin  $(PREFIX2).t2x.bin  $(PREFIX2).t3x.bin  \
+   $(PREFIX1n).autolex.bin \
    $(PREFIX1n).autoseq.bin \
    $(PREFIX1n).rtx.bin     \
+   $(PREFIX1b).autolex.bin \
    $(PREFIX1b).autoseq.bin \
    $(PREFIX1b).rtx.bin     \
    $(PREFIX2).rtx.bin  \
+   $(PREFIX2).autolex.bin \
    $(PREFIX2).autoseq.bin
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).seg.rlx.bin $(LANG1).rlx.bin
 	cd $(AP_SRC2n) && ${MAKE} $(LANG2n).seg.rlx.bin $(LANG2n).rlx.bin
