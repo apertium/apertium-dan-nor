@@ -318,6 +318,10 @@
     <!-- TODO: epistemisk «Butleren må→må være morderen» -->
 
     <rule><match lemma="kunne" tags="vblex.*"><select lemma="måtte"/></match></rule>
+    <rule weight="2.1" c="man kan → man kan">
+      <match lemma="man"/>
+      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
+    </rule>
     <rule weight="2.0" c="kan det være vanskelig → kan det være svært">
       <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
       <match lemma="den"/>
