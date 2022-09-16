@@ -78,7 +78,9 @@ BEGIN {
        }
        for(pos in ana["nno"]) {
            if(lr)s=""; else s="         "
-           if(bw in ana["nno"][pos]) e[pos]="<e"lr">"s; else e[pos]="<e"lr" vr=\"nob\">"
+           if(bw in ana["nno"][pos] && bw in ana["nob"][pos]) e[pos]="<e"lr">"s
+           else if(bw in ana["nno"][pos]) e[pos]="<e"lr" vr=\"nno\">"
+           else e[pos]="<e"lr" vr=\"nob\">"
        }
        if(ng=="f" &&nw in ana["dan"]["m"]) print "dan-side dupe!"
        if(ng=="f" &&nw in ana["dan"]["nt"]) print "dan-side dupe!"
@@ -94,15 +96,20 @@ BEGIN {
        else {
            pr = 0
            nno_f_nob_m = (bw in ana["nno"]["f"] && bw in ana["nob"]["m"])
-           if(nno_f_nob_m)                { pr++; print "<e>       <p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/></r></p><par n=\":f/m\"/></e>" }
-           else if(bw in ana["nob"]["m"]) { pr++; print e["m"]    "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"m\"/></r></p></e>" }
-           if(bw in ana["nob"]["mf"])     { pr++; print e["mf"]   "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"mf\"/></r><par n=\"sgpl:sp\"/></p></e>" }
-           if(bw in ana["nob"]["nt"])     { pr++; print e["nt"]   "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"nt\"/></r></p></e>" }
+           some_m      = (bw in ana["nno"]["m"] || bw in ana["nob"]["m"])
+           some_f      = (bw in ana["nno"]["f"] || bw in ana["nob"]["f"])
+           some_mf     = (bw in ana["nno"]["mf"] || bw in ana["nob"]["mf"])
+           some_nt     = (bw in ana["nno"]["nt"] || bw in ana["nob"]["nt"])
+           if(nno_f_nob_m) { pr++; print "<e"lr">"s"<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/></r></p><par n=\":f/m\"/></e>" }
+           else if(some_m) { pr++; print e["m"]    "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"m\"/></r></p></e>" }
+           else if(some_f) { pr++; print e["f"]    "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"f\"/></r></p></e>" }
+           if(some_mf)     { pr++; print e["mf"]   "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"mf\"/></r></p><par n=\"sgpl:sp\"/></e>" }
+           if(some_nt)     { pr++; print e["nt"]   "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"nt\"/></r></p></e>" }
            if(!pr) {
                # all the print <e> above failed:
                bgg=""; for(bg in ana["nob"])if(bw in ana["nob"][bg])bgg=bgg"]["bg; sub(/^\]\[/,"",bgg)
                if(!bgg) {
-                   print "Only found in dan: "nw"["ng"], nob: "bw
+                   print "Only found in dan: "nw"["ng"], couldn't find in nno/nob: "bw
                }
                else {
                    print "Only mismatching PoS found: "nw"["ng"] vs "bw"["bgg"]"

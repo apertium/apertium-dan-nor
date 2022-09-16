@@ -15,7 +15,7 @@ else
     script=add-words.awk
 fi
 
-make -q langs
+make -q langs >&2
 if [[ $? = 1 ]]; then
     echo "make -j langs # do this first" 1>&2
 fi
