@@ -14,6 +14,7 @@ BEGIN {
     langs["nob"]++
     langs["nno"]++
     mainposes["m"]++
+    mainposes["mf"]++
     mainposes["f"]++
     mainposes["ut"]++
     mainposes["nt"]++
@@ -30,6 +31,7 @@ BEGIN {
       gsub(/[$^]/,"")
       for(a=2;a<=NF;a++){
           if($a~$1"<n><m>"nrestrict)       ana[lang]["m"][$1]++;
+          if($a~$1"<n><mf>"nrestrict)      ana[lang]["mf"][$1]++;
           if($a~$1"<n><f>"nrestrict)       ana[lang]["f"][$1]++;
           if($a~$1"<n><ut>"nrestrict)      ana[lang]["ut"][$1]++;
           if($a~$1"<n><nt>"nrestrict)      ana[lang]["nt"][$1]++;
@@ -45,6 +47,7 @@ BEGIN {
       for(a=2;a<=NF;a++){
           # biknown is used to skip existing – we want to skip ana[m] if biknown[ut/f/nt/m]:
           if($a~$1"<n>")         biknown[lang]["m"][$1]++
+          if($a~$1"<n>")         biknown[lang]["mf"][$1]++
           if($a~$1"<n>")         biknown[lang]["f"][$1]++
           if($a~$1"<n>")         biknown[lang]["ut"][$1]++
           if($a~$1"<n>")         biknown[lang]["nt"][$1]++
@@ -89,19 +92,22 @@ BEGIN {
        else if(ng=="an" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nW"</l><r>"bW"</r></p><par n=\"adj\"/></e>"
        else if(ng=="av" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nW"<s n=\"adv\"/></l><r>"bW"<s n=\"adv\"/></r></p></e>"
        else {
-            if(bw in ana["nno"]["f"] && bw in ana["nob"]["m"]) print "<e>       <p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/></r></p><par n=\":f/m\"/></e>"
-            else if(bw in ana["nob"]["m"])         print e["m"]  "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"m\"/></r></p></e>"
-            if(bw in ana["nob"]["nt"])             print e["nt"] "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"nt\"/></r></p></e>"
-            else if(!(bw in ana["nob"]["f"] || bw in ana["nob"]["m"])) {
-                # all the print <e> above failed:
-                bgg=""; for(bg in ana["nob"])if(bw in ana["nob"][bg])bgg=bgg"]["bg; sub(/^\]\[/,"",bgg)
-                if(!bgg) {
-                    print "Only found in dan: "nw"["ng"], nob: "bw
-                }
-                else {
-                    print "Only mismatching PoS found: "nw"["ng"] vs "bw"["bgg"]"
-                }
-            }
+           pr = 0
+           nno_f_nob_m = (bw in ana["nno"]["f"] && bw in ana["nob"]["m"])
+           if(nno_f_nob_m)                { pr++; print "<e>       <p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/></r></p><par n=\":f/m\"/></e>" }
+           else if(bw in ana["nob"]["m"]) { pr++; print e["m"]    "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"m\"/></r></p></e>" }
+           if(bw in ana["nob"]["mf"])     { pr++; print e["mf"]   "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"mf\"/></r><par n=\"sgpl:sp\"/></p></e>" }
+           if(bw in ana["nob"]["nt"])     { pr++; print e["nt"]   "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"nt\"/></r></p></e>" }
+           if(!pr) {
+               # all the print <e> above failed:
+               bgg=""; for(bg in ana["nob"])if(bw in ana["nob"][bg])bgg=bgg"]["bg; sub(/^\]\[/,"",bgg)
+               if(!bgg) {
+                   print "Only found in dan: "nw"["ng"], nob: "bw
+               }
+               else {
+                   print "Only mismatching PoS found: "nw"["ng"] vs "bw"["bgg"]"
+               }
+           }
        }
       }
      }
