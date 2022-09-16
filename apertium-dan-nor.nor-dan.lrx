@@ -374,6 +374,7 @@
     <rule><match lemma="skille" tags="n.*"><select lemma="forskel"/></match></rule>
     <rule><match lemma="skilje" tags="n.*"><select lemma="forskel"/></match></rule>
 
+    <rule><match lemma="tourettes syndrom" tags="n.*"><select lemma="tourettes syndrom"/></match></rule>
 </rules>
 
 </lrx>
