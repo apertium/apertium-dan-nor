@@ -22,6 +22,7 @@ BEGIN {
     mainposes["as"]++
     mainposes["an"]++
     mainposes["av"]++
+    mainposes["np"]++
     for(lang in langs) for(mainpos in mainposes) {
             # initialize so awk doesn't type-fail
             ana[lang][mainpos][""]++; delete ana[lang][mainpos][""]
@@ -40,6 +41,7 @@ BEGIN {
           if($a~$1"<adj><sint>"asrestrict) ana[lang]["as"][$1]++
           if($a~$1"<adj><pst>"anrestrict)  ana[lang]["an"][$1]++
           if($a~$1"<adv>"avrestrict)       ana[lang]["av"][$1]++
+          if($a~$1"<np>")                  ana[lang]["np"][$1]++
       }
     }
     for(lang in langs) while(getline<(tmpd"/"lang"-known")){
@@ -56,6 +58,7 @@ BEGIN {
           if($a~$1"<adj><(sint|pst)>") biknown[lang]["as"][$1]++
           if($a~$1"<adj><(sint|pst)>") biknown[lang]["an"][$1]++
           if($a~$1"<adv>")       biknown[lang]["av"][$1]++
+          if($a~$1"<np>")        biknown[lang]["np"][$1]++
       }
     }
     FS=":"
@@ -93,6 +96,7 @@ BEGIN {
        else if(ng=="as" && bw in ana["nob"]["an"]) print e["an"] "<p><l>"nW"</l><r>"bW"</r></p><par n=\"adj_sint:adj\"/></e>"
        else if(ng=="an" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nW"</l><r>"bW"</r></p><par n=\"adj\"/></e>"
        else if(ng=="av" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nW"<s n=\"adv\"/></l><r>"bW"<s n=\"adv\"/></r></p></e>"
+       else if(ng=="np" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nW"<s n=\"np\"/></l><r>"bW"<s n=\"np\"/></r></p></e>"
        else {
            pr = 0
            nno_f_nob_m = (bw in ana["nno"]["f"] && bw in ana["nob"]["m"])
