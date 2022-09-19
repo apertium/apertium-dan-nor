@@ -161,4 +161,6 @@
   <rule><match lemma="klare" tags="vblex.*"><select lemma="klare"/></match></rule>
 
   <rule><match lemma="killing" tags="n.*"><select lemma="kattunge"/></match></rule>
+
+  <rule><match lemma="klistre" tags="vblex.*"><select lemma="klistre"/></match></rule>
 </rules>
