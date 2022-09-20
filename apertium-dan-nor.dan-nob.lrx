@@ -163,4 +163,5 @@
   <rule><match lemma="killing" tags="n.*"><select lemma="kattunge"/></match></rule>
 
   <rule><match lemma="klistre" tags="vblex.*"><select lemma="klistre"/></match></rule>
+  <rule><match lemma="hjul" tags="n.*"><select lemma="hjul"/></match></rule>
 </rules>

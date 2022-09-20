@@ -269,5 +269,6 @@
   <rule><match lemma="klare" tags="vblex.*"><select lemma="klare"/></match></rule>
 
   <rule><match lemma="killing" tags="n.*"><select lemma="kattunge"/></match></rule>
+  <rule><match lemma="hjul" tags="n.*"><select lemma="hjul"/></match></rule>
 </rules>
 

@@ -379,6 +379,15 @@
     <rule><match lemma="skilje" tags="n.*"><select lemma="forskel"/></match></rule>
 
     <rule><match lemma="tourettes syndrom" tags="n.*"><select lemma="tourettes syndrom"/></match></rule>
+
+    <rule><match lemma="av" tags="adv"><select lemma="af"/></match></rule>
+
+  <rule><match lemma="bygd" tags="n.*"><select lemma="bygd"/></match></rule>
+
+  <rule><match lemma="snelle" tags="n.*"><select lemma="hjul"/></match></rule>
+
+  <rule><match lemma="nøyaktig" tags="adv"><select lemma="præcis"/></match></rule>
+  <rule><match lemma="vase" tags="n.*"><select lemma="vase"/></match></rule>
 </rules>
 
 </lrx>

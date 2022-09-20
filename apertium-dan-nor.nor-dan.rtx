@@ -219,7 +219,7 @@ DP ->
         2
       }
 
-    | "DP→det NP:vennene mine → mina venner"
+    | "DP→det NP:vennene mine → mine venner"
       %NP det.pos
       ?((1.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
