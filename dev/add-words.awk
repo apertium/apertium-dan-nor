@@ -23,6 +23,11 @@ BEGIN {
     mainposes["an"]++
     mainposes["av"]++
     mainposes["np"]++
+    nounpos["m"]++
+    nounpos["f"]++
+    nounpos["mf"]++
+    nounpos["ut"]++
+    nounpos["nt"]++
     for(lang in langs) for(mainpos in mainposes) {
             # initialize so awk doesn't type-fail
             ana[lang][mainpos][""]++; delete ana[lang][mainpos][""]
@@ -99,11 +104,11 @@ BEGIN {
        else if(ng=="np" && bw in ana["nob"][ng])   print e[ng]   "<p><l>"nW"<s n=\"np\"/></l><r>"bW"<s n=\"np\"/></r></p></e>"
        else {
            pr = 0
-           nno_f_nob_m = (bw in ana["nno"]["f"] && bw in ana["nob"]["m"])
-           some_m      = (bw in ana["nno"]["m"] || bw in ana["nob"]["m"])
-           some_f      = (bw in ana["nno"]["f"] || bw in ana["nob"]["f"])
-           some_mf     = (bw in ana["nno"]["mf"] || bw in ana["nob"]["mf"])
-           some_nt     = (bw in ana["nno"]["nt"] || bw in ana["nob"]["nt"])
+           nno_f_nob_m = (ng in nounpos && (bw in ana["nno"]["f"] && bw in ana["nob"]["m"]))
+           some_m      = (ng in nounpos && (bw in ana["nno"]["m"] || bw in ana["nob"]["m"]))
+           some_f      = (ng in nounpos && (bw in ana["nno"]["f"] || bw in ana["nob"]["f"]))
+           some_mf     = (ng in nounpos && (bw in ana["nno"]["mf"] || bw in ana["nob"]["mf"]))
+           some_nt     = (ng in nounpos && (bw in ana["nno"]["nt"] || bw in ana["nob"]["nt"]))
            if(nno_f_nob_m) { pr++; print "<e"lr">"s"<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/></r></p><par n=\":f/m\"/></e>" }
            else if(some_m) { pr++; print e["m"]    "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"m\"/></r></p></e>" }
            else if(some_f) { pr++; print e["f"]    "<p><l>"nW"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bW"<s n=\"n\"/><s n=\"f\"/></r></p></e>" }
