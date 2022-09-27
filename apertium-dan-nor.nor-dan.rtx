@@ -203,6 +203,13 @@ DP ->
         5[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
+    | "DP→det.emph NP: selve skiven → selve skiven" ! override below rule, don't want to change def→ind here
+      2: det.emph %NP
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+        _
+        2
+      }
+
     | "DP→det NP:de seneste årene → de seneste år"
       det %NP
       ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
