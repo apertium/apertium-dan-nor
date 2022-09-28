@@ -388,6 +388,8 @@
 
   <rule><match lemma="nøyaktig" tags="adv"><select lemma="præcis"/></match></rule>
   <rule><match lemma="vase" tags="n.*"><select lemma="vase"/></match></rule>
+
+  <rule><match lemma="bak" tags="adv"><select lemma="bag"/></match></rule>
 </rules>
 
 </lrx>
