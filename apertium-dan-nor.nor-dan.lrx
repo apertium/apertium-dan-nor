@@ -390,6 +390,10 @@
   <rule><match lemma="vase" tags="n.*"><select lemma="vase"/></match></rule>
 
   <rule><match lemma="bak" tags="adv"><select lemma="bag"/></match></rule>
+
+  <rule><match lemma="til" tags="adv"><select lemma="til"/></match></rule>
+  <rule><match lemma="mot" tags="adv"><select lemma="mod"/></match></rule>
+  <rule><match lemma="detaljert" tags="adj.*"><select lemma="detaljeret"/></match></rule>
 </rules>
 
 </lrx>
