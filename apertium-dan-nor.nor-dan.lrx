@@ -317,54 +317,55 @@
     </rule>
     <!-- TODO: epistemisk «Butleren må→må være morderen» -->
 
-    <rule><match lemma="kunne" tags="vblex.*"><select lemma="måtte"/></match></rule>
-    <rule weight="2.1" c="man kan → man kan">
-      <match lemma="man"/>
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-    </rule>
-    <rule weight="2.0" c="kan det være vanskelig → kan det være svært">
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-      <match lemma="den"/>
-      <match lemma="være"/>
-      <match tags="adj.*"/>
-    </rule>
-    <rule weight="2.0" c="skal kunne → skal kunne">
-      <or>
-        <match lemma="skulle"/>
-        <match lemma="skulle"/>
-      </or>
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-    </rule>
-    <rule weight="2.0" c="håpte å kunne → håbede at kunne">
-      <or>
-        <match lemma="håpe"/>
-        <match lemma="ønske"/>
-        <match lemma="for"/>
-      </or>
-      <match lemma="å"/>
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-    </rule>
-    <rule weight="2.0" c="som kan anvendes → der kan anvendes">
-      <match lemma="som"/>
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-      <match tags="vblex.*.pasv"/>
-    </rule>
-    <rule weight="2.0" c="kan medføre → kan medføre">
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-      <or>
-        <match lemma="bli"/>
-        <match lemma="medføre"/>
-        <match lemma="oppstå"/>   <!-- nye arter kan opstå-->
-        <match lemma="vere"/>     <!-- årsagen kan være -->
-        <match lemma="være"/>     <!-- årsagen kan være -->
-        <match lemma="føre"/>     <!-- det kan føre til -->
-      </or>
-    </rule>
-    <rule weight="2.0" c="liker ikke → kan ikke lide">
-      <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match>
-      <repeat from="0" upto="3"><match/></repeat>
-      <match lemma="like"/>
-    </rule>
+    <rule><match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match></rule>
+    <!-- kan/kunne alltid kan/kunne! -->
+    <!-- <rule weight="2.1" c="man kan → man kan"> -->
+    <!--   <match lemma="man"/> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!-- </rule> -->
+    <!-- <rule weight="2.0" c="kan det være vanskelig → kan det være svært"> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!--   <match lemma="den"/> -->
+    <!--   <match lemma="være"/> -->
+    <!--   <match tags="adj.*"/> -->
+    <!-- </rule> -->
+    <!-- <rule weight="2.0" c="skal kunne → skal kunne"> -->
+    <!--   <or> -->
+    <!--     <match lemma="skulle"/> -->
+    <!--     <match lemma="skulle"/> -->
+    <!--   </or> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!-- </rule> -->
+    <!-- <rule weight="2.0" c="håpte å kunne → håbede at kunne"> -->
+    <!--   <or> -->
+    <!--     <match lemma="håpe"/> -->
+    <!--     <match lemma="ønske"/> -->
+    <!--     <match lemma="for"/> -->
+    <!--   </or> -->
+    <!--   <match lemma="å"/> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!-- </rule> -->
+    <!-- <rule weight="2.0" c="som kan anvendes → der kan anvendes"> -->
+    <!--   <match lemma="som"/> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!--   <match tags="vblex.*.pasv"/> -->
+    <!-- </rule> -->
+    <!-- <rule weight="2.0" c="kan medføre → kan medføre"> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!--   <or> -->
+    <!--     <match lemma="bli"/> -->
+    <!--     <match lemma="medføre"/> -->
+    <!--     <match lemma="oppstå"/>   <!-\- nye arter kan opstå-\-> -->
+    <!--     <match lemma="vere"/>     <!-\- årsagen kan være -\-> -->
+    <!--     <match lemma="være"/>     <!-\- årsagen kan være -\-> -->
+    <!--     <match lemma="føre"/>     <!-\- det kan føre til -\-> -->
+    <!--   </or> -->
+    <!-- </rule> -->
+    <!-- <rule weight="2.0" c="liker ikke → kan ikke lide"> -->
+    <!--   <match lemma="kunne" tags="vblex.*"><select lemma="kunne"/></match> -->
+    <!--   <repeat from="0" upto="3"><match/></repeat> -->
+    <!--   <match lemma="like"/> -->
+    <!-- </rule> -->
     <!-- TODO: epistemisk «Butleren kan→kan være morderen» -->
 
     <rule><match lemma="slutt" tags="n.*"><select lemma="slutning"/></match></rule>
