@@ -21,7 +21,7 @@ voice = pasv actv ;
 a_pstv = pstv ;
 case = nom acc gen ;
 ! a_ for attribute:
-a_np = ant cog top org al attr cgguess ;
+a_np = ant cog top org al attr guess cgguess ;
 a_guio = guio ;
 a_adj = sint ord pp pprs ;
 a_cmp = cmp cmp-split ;
