@@ -100,10 +100,10 @@ r: modes/$(PREFIX1b).mode  \
 # Danish
 
 $(PREFIX1b).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1b).autobil.bin
-	lt-trim $^ $@
+	lt-trim --match-section=regex@standard $^ $@
 
 $(PREFIX1n).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1n).autobil.bin
-	lt-trim $^ $@
+	lt-trim --match-section=regex@standard $^ $@
 
 $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 	cp $< $@
@@ -112,12 +112,12 @@ $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 # Norwegian
 
 $(PREFIX2b).automorf.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $^ $@
+	lt-trim --match-section=regex@standard $^ $@
 $(PREFIX2b).automorf-untrimmed.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin
 	cp $< $@
 
 $(PREFIX2n).automorf.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $^ $@
+	lt-trim --match-section=regex@standard $^ $@
 $(PREFIX2n).automorf-untrimmed.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin
 	cp $< $@
 
