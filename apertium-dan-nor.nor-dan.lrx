@@ -396,6 +396,11 @@
   <rule><match lemma="mot" tags="adv"><select lemma="mod"/></match></rule>
   <rule><match lemma="detaljert" tags="adj.*"><select lemma="detaljeret"/></match></rule>
   <rule><match lemma="umiddelbart" tags="adv"><select lemma="umiddelbart"/></match></rule>
+  <rule><match lemma="opphøye" tags="vblex.*"><select lemma="ophøje"/></match></rule>
+  <rule><match lemma="opphøgje" tags="vblex.*"><select lemma="ophøje"/></match></rule>
+  <rule><match lemma="opphøyd" tags="adj.*"><select lemma="ophøjet"/></match></rule>
+
+  <rule><match lemma="stup" tags="n.*"><select lemma="fald"/></match></rule>
 </rules>
 
 </lrx>
