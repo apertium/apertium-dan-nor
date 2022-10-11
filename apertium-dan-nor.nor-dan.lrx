@@ -401,6 +401,9 @@
   <rule><match lemma="opphøyd" tags="adj.*"><select lemma="ophøjet"/></match></rule>
 
   <rule><match lemma="stup" tags="n.*"><select lemma="fald"/></match></rule>
+  <rule><match lemma="luke" tags="vblex.*"><select lemma="luge"/></match></rule>
+
+  <rule><match lemma="revers" tags="n.*"><select lemma="bakgear"/></match></rule>
 </rules>
 
 </lrx>
