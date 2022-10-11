@@ -408,6 +408,13 @@
   <rule><match lemma="kupert" tags="adj.*"><select lemma="kuperet"/></match></rule>
   <rule><match lemma="sambuar" tags="n.*"><select lemma="sambo"/></match></rule>
   <rule><match lemma="samboer" tags="n.*"><select lemma="sambo"/></match></rule>
+  <rule><match lemma="henting" tags="n.*"><select lemma="hentning"/></match></rule>
+  <rule><match lemma="avvikling" tags="n.*"><select lemma="afvikling"/></match></rule>
+
+  <rule><match lemma="gjerde" tags="n.*"><select lemma="hegn"/></match></rule>
+  <rule><match lemma="dominerende" tags="adj.*"><select lemma="dominerende"/></match></rule>
+  <rule><match lemma="dominerande" tags="adj.*"><select lemma="dominerende"/></match></rule>
+  <rule><match lemma="varme" tags="vblex.*"><select lemma="varme"/></match></rule>
 </rules>
 
 </lrx>

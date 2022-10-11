@@ -275,5 +275,6 @@
   <rule><match lemma="idet" tags="cnjadv"><select lemma="ettersom"/></match></rule>
   <rule><match lemma="løb" tags="n.*"><select lemma="løp"/></match></rule>
   <rule><match lemma="kuperet" tags="adj.*"><select lemma="kupert"/></match></rule>
+  <rule><match lemma="agern" tags="n.*"><select lemma="eikenøtt"/></match></rule>
 </rules>
 
