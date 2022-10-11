@@ -404,6 +404,7 @@
   <rule><match lemma="luke" tags="vblex.*"><select lemma="luge"/></match></rule>
 
   <rule><match lemma="revers" tags="n.*"><select lemma="bakgear"/></match></rule>
+  <rule><match lemma="kontusjon" tags="n.*"><select lemma="kontusion"/></match></rule>
 </rules>
 
 </lrx>
