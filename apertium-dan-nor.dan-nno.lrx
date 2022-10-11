@@ -273,5 +273,7 @@
   <rule><match lemma="til" tags="adv"><select lemma="til"/></match></rule>
 
   <rule><match lemma="idet" tags="cnjadv"><select lemma="ettersom"/></match></rule>
+  <rule><match lemma="løb" tags="n.*"><select lemma="løp"/></match></rule>
+  <rule><match lemma="kuperet" tags="adj.*"><select lemma="kupert"/></match></rule>
 </rules>
 

@@ -405,6 +405,7 @@
 
   <rule><match lemma="revers" tags="n.*"><select lemma="bakgear"/></match></rule>
   <rule><match lemma="kontusjon" tags="n.*"><select lemma="kontusion"/></match></rule>
+  <rule><match lemma="kupert" tags="adj.*"><select lemma="kuperet"/></match></rule>
 </rules>
 
 </lrx>
