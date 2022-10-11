@@ -406,6 +406,8 @@
   <rule><match lemma="revers" tags="n.*"><select lemma="bakgear"/></match></rule>
   <rule><match lemma="kontusjon" tags="n.*"><select lemma="kontusion"/></match></rule>
   <rule><match lemma="kupert" tags="adj.*"><select lemma="kuperet"/></match></rule>
+  <rule><match lemma="sambuar" tags="n.*"><select lemma="sambo"/></match></rule>
+  <rule><match lemma="samboer" tags="n.*"><select lemma="sambo"/></match></rule>
 </rules>
 
 </lrx>
