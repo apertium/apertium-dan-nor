@@ -415,6 +415,7 @@
   <rule><match lemma="dominerende" tags="adj.*"><select lemma="dominerende"/></match></rule>
   <rule><match lemma="dominerande" tags="adj.*"><select lemma="dominerende"/></match></rule>
   <rule><match lemma="varme" tags="vblex.*"><select lemma="varme"/></match></rule>
+  <rule><match lemma="om lag" tags="pr.*"><select lemma="cirka"/></match></rule>
 </rules>
 
 </lrx>
