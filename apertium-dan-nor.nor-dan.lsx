@@ -555,6 +555,14 @@
       <i><w/><s n="cnjsub"/><d/></i>
     </e>
 
+    <e lm="de Xene som → de X, som" c="de X, som">
+      <i>den<s n="det"/></i> <par n="td"/>
+      <i><w/><s n="n"/><t/></i> <p><l><s n="def"/></l><r><s n="ind"/></r></p>    <i><d space="no"/></i>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i><w/><s n="cnjsub"/><d/></i>
+    </e>
+
+
     <e lm="(er) dumt å → (er) dumt, å" c="(er) dumt, at">
       <i><w/><s n="adj"/></i> <par n="td-nospc"/>
       <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
