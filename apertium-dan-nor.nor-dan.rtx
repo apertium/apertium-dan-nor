@@ -20,7 +20,8 @@ voice = pasv actv ;
 a_pstv = pstv ;
 case = nom acc gen ;
 ! a_ for attribute:
-a_np = ant cog top org al attr guess cgguess ;
+a_np = ant cog top org al attr ;
+a_guess = guess cgguess ;
 a_guio = guio ;
 a_adj = sint ord pp pprs ;
 a_cmp = cmp cmp-split ;
@@ -62,7 +63,7 @@ number > number_n : sg sg, sp sp, pl pl ;
 
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
 n:     _.gender.number.defnes.case.a_cmp.a_guio;
-np:    _.a_np.gender.number.defnes.case.a_cmp.a_guio;
+np:    _.a_np.gender.number.defnes.a_guess.case.a_cmp.a_guio;
 vblex: _.tense.voice.a_cmp; ! dan.dix doesn't use pstv tag, so remove it by not including it here
 pr:    _;
 adv:   _.a_comp;
