@@ -427,10 +427,15 @@
   </rule>
 
   <rule><match lemma="klare" tags="vblex.*"><select lemma="klare"/></match></rule>
-  <rule weight="1.1">
+  <rule weight="2.0">
     <match lemma="klare" tags="vblex.*"><select lemma="være# i stand til"/></match>
   </rule>
-  <rule weight="2.0">
+  <rule weight="3.0">
+    <or>
+      <match tags="n.*"/>
+      <match tags="np.*"/>
+      <match tags="prn.*"/>
+    </or>
     <match lemma="klare" tags="vblex.*"><select lemma="lykkes"/></match>
   </rule>
 

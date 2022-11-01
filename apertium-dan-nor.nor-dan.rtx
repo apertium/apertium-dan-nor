@@ -325,6 +325,7 @@ DP2 ->
 S ->
       "S→DP VP"     DP VP     { 1 _ %2 }
     | "S→DP VPactv2pstv ADV" 2: DP VPactv2pstv ADV { "den"@det.dem.nt.sg.expl _ %2 _ 3 _ 1 } ! det lykkedes imidlertid Luther at
+    | "S→DP VPactv2pstv"     2: DP VPactv2pstv ADV { "den"@det.dem.nt.sg.expl _ %2 _     1 } ! det lykkedes            Luther at
     | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
     | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
     | "S→DP VP DP2" DP VP DP2 { 1 _ %2 _ 3 }
