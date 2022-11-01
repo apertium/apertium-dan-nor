@@ -325,7 +325,10 @@ DP2 ->
 S ->
       "S→DP VP"     DP VP     { 1 _ %2 }
     | "S→DP VPactv2pstv ADV" 2: DP VPactv2pstv ADV { "den"@det.dem.nt.sg.expl _ %2 _ 3 _ 1 } ! det lykkedes imidlertid Luther at
-    | "S→DP VPactv2pstv"     2: DP VPactv2pstv ADV { "den"@det.dem.nt.sg.expl _ %2 _     1 } ! det lykkedes            Luther at
+    | "S→DP VPactv2pstv"     2: DP VPactv2pstv     { "den"@det.dem.nt.sg.expl _ %2 _     1 } ! det lykkedes            Luther at
+    | "S→VPactv2pstv"        2: VPactv2pstv        { %1 _ "den"@det.dem.nt.sg.expl }
+    | "S→DP VPactv2pstv DP"  2: DP VPactv2pstv DP { 1 _ %2 _ "den"@det.dem.nt.sg.expl _ 3  } ! Tidlig i august lykkedes det amerikanerene
+    | "S→DP VPactv2pstv ADV ADV" 2: DP VPactv2pstv ADV ADV { "den"@det.dem.nt.sg.expl _ %2 _ 3 _ 4 _ 1  }
     | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
     | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
     | "S→DP VP DP2" DP VP DP2 { 1 _ %2 _ 3 }
