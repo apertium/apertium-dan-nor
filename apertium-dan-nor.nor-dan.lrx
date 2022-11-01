@@ -1,4 +1,4 @@
-<lrx>
+<lrx glob="star">
   <def-seqs>
     <def-seq n="ANYTAG">
       <or>
@@ -7,42 +7,25 @@
         <match tags="prn.*"/>
         <match tags="det.*"/>
         <match tags="vblex.*"/>
-        <match tags="ij"/>
         <match tags="ij.*"/>
         <match tags="adv"/>
         <match tags="adv.*"/>
-        <match tags="pr"/>
         <match tags="pr.*"/>
         <match tags="adj.*"/>
-        <match tags="part"/>
         <match tags="part.*"/>
-        <match tags="cnjsub"/>
         <match tags="cnjsub.*"/>
-        <match tags="cnjcoo"/>
         <match tags="cnjcoo.*"/>
-        <match tags="cnjadv"/>
         <match tags="cnjadv.*"/>
-        <match tags="acr"/>
         <match tags="acr.*"/>
-        <match tags="sent"/>
         <match tags="sent.*"/>
-        <match tags="cm"/>
         <match tags="cm.*"/>
-        <match tags="apos"/>
         <match tags="apos.*"/>
-        <match tags="lpar"/>
         <match tags="lpar.*"/>
-        <match tags="rpar"/>
         <match tags="rpar.*"/>
-        <match tags="lquot"/>
         <match tags="lquot.*"/>
-        <match tags="rquot"/>
         <match tags="rquot.*"/>
-        <match tags="date"/>
         <match tags="date.*"/>
-        <match tags="url"/>
         <match tags="url.*"/>
-        <match tags="guio"/>
         <match tags="guio.*"/>
       </or>
     </def-seq>
@@ -416,6 +399,7 @@
   <rule><match lemma="dominerande" tags="adj.*"><select lemma="dominerende"/></match></rule>
   <rule><match lemma="varme" tags="vblex.*"><select lemma="varme"/></match></rule>
   <rule><match lemma="om lag" tags="pr.*"><select lemma="cirka"/></match></rule>
+
 </rules>
 
 </lrx>

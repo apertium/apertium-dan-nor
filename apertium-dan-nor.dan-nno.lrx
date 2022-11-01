@@ -1,3 +1,43 @@
+<lrx glob="star">
+  <def-seqs>
+    <def-seq n="ANYTAG">
+      <or>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+        <match tags="prn.*"/>
+        <match tags="det.*"/>
+        <match tags="vblex.*"/>
+        <match tags="ij.*"/>
+        <match tags="adv"/>
+        <match tags="adv.*"/>
+        <match tags="pr.*"/>
+        <match tags="adj.*"/>
+        <match tags="part.*"/>
+        <match tags="cnjsub.*"/>
+        <match tags="cnjcoo.*"/>
+        <match tags="cnjadv.*"/>
+        <match tags="acr.*"/>
+        <match tags="sent.*"/>
+        <match tags="cm.*"/>
+        <match tags="apos.*"/>
+        <match tags="lpar.*"/>
+        <match tags="rpar.*"/>
+        <match tags="lquot.*"/>
+        <match tags="rquot.*"/>
+        <match tags="date.*"/>
+        <match tags="url.*"/>
+        <match tags="guio.*"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="pp">
+      <or>
+        <match tags="vblex.pp"/>
+        <match tags="adj.pp.*"/>
+      </or>
+    </def-seq>
+
+  </def-seqs>
 <rules>
   <rule> <match lemma="svæve" tags="vblex.*"> <select lemma="sveve"/> </match> </rule>
   <rule weight="2.0">
@@ -277,4 +317,5 @@
   <rule><match lemma="kuperet" tags="adj.*"><select lemma="kupert"/></match></rule>
   <rule><match lemma="agern" tags="n.*"><select lemma="eikenøtt"/></match></rule>
 </rules>
+</lrx>
 
