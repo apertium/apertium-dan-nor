@@ -400,6 +400,31 @@
   <rule><match lemma="varme" tags="vblex.*"><select lemma="varme"/></match></rule>
   <rule><match lemma="om lag" tags="pr.*"><select lemma="cirka"/></match></rule>
 
+  <rule>
+    <or>
+      <match lemma="innen" tags="pr.*"><select lemma="inden"/></match>
+      <match lemma="innan" tags="pr.*"><select lemma="inden"/></match>
+    </or>
+  </rule>
+  <rule weight="2.0" c="innen den kunnskapsbaserte medisinen → inden for den videnskabsbaserede medicin">
+    <or>
+      <match lemma="innen" tags="pr.*"><select lemma="inden for"/></match>
+      <match lemma="innan" tags="pr.*"><select lemma="inden for"/></match>
+    </or>
+    <or>
+      <match tags="det.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+  <rule><match lemma="kunnskapsbasert" tags="adj.*"><select lemma="kundskabsbaseret"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="kunnskapsbasert" tags="adj.*"><select lemma="videnskabsbaseret"/></match>
+    <or>
+      <match lemma="medisin"/>
+      <match lemma="måte"/>
+      <match lemma="produkt"/>
+    </or>
+  </rule>
 </rules>
 
 </lrx>
