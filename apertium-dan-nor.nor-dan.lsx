@@ -181,8 +181,8 @@
       <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="gen"/><s n="AA"/><d/></i></e>
     </pardef>
     <pardef n="ncmp">
-      <e><i><w/><s n="n"/><t/><s n="cmp"/><d/></i></e>
-      <e><i><w/><s n="n"/><t/><s n="cmp"/><t/><d/></i></e>
+      <e><i><w/><t/><s n="cmp"/><d/></i></e>
+      <e><i><w/><t/><s n="cmp"/><t/><d/></i></e>
     </pardef>
     <pardef n="ncmp*.n.sg.ind">
       <e>                                             <par n="n.sg.ind"/></e>
@@ -198,11 +198,18 @@
       <e><par n="ncmp"/><par n="ncmp"/><par n="ncmp"/><par n="n"/></e>
     </pardef>
 
+    <pardef n="NP">
+      <e><i><w/><s n="np"/></i> <par n="td"/> </e>
+      <e><i><w/><s n="np"/></i> <par n="td"/> <i><w/><s n="np"/></i> <par n="td"/> </e>
+      <e><i><w/><s n="np"/></i> <par n="td"/> <i><w/><s n="np"/></i> <par n="td"/> <i><w/><s n="np"/></i> <par n="td"/> </e>
+    </pardef>
+    
     <pardef n="SN">
       <e>                            <par n="ncmp*.n"/></e>
       <e>              <par n="adj"/><par n="ncmp*.n"/></e>
       <e><par n="adj"/><par n="adj"/><par n="ncmp*.n"/></e>
-      <e><i><w/><s n="np"/><t/><d/></i></e>
+      <e><par n="NP"/></e>
+      <e><re>[0-9]+\-årin?g</re> <par n="td"/><par n="NP"/></e>
     </pardef>
 
     <pardef n="SN|" c="Includes empty!">
@@ -221,6 +228,30 @@
         <i><w/><s n="pr"/><d/></i>
         <par n="SN"/>
       </e>
+    </pardef>
+
+    <pardef n="wide-SN" c="includes determiners, prep phrases">
+      <e>
+        <i><w/><s n="det"/><s n="dem"/></i><par n="td"/> <!-- de -->
+        <i><w/><s n="det"/><s n="qnt"/></i><par n="td"/> <!-- to -->
+        <par n="SN"/>                                    <!-- landene -->
+      </e>
+      <e>
+        <i><w/><s n="det"/></i> <par n="td"/> <!-- en -->
+        <par n="SN"/>                         <!-- person -->
+      </e>
+      <e>
+        <i><w/><s n="det"/></i> <par n="td"/> <!-- Den -->
+        <par n="SN"/>                         <!-- tilfeldige karakteren-->
+        <i><w/><s n="pr"/><d/></i>            <!-- av -->
+        <par n="SN"/>                         <!-- rekrutteringen -->
+      </e>
+      <e>
+        <par n="SN"/>              <!-- kjøleskapet-->
+        <i><w/><s n="pr"/><d/></i> <!-- fra -->
+        <par n="SN"/>              <!-- Jula -->
+      </e>
+      <e> <par n="SN"/> </e>
     </pardef>
 
     <pardef n="SN|adv|prn|" c="Includes empty!">
@@ -473,6 +504,33 @@
       <p><l>hope<s n="vblex"/></l>   <r>opphope<s n="vblex"/></r></p><par n="td"/>
       <i>seg</i><par n="td"/>
     </e>
+
+
+    <!-- Other verb + adv + noun phrase rewritings: -->
+
+    
+    <e lm="Luther klarte imidlertid å → det lykkedes imidlertid Luther å">
+      <p><l></l> <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/><d/></r></p>
+      <p><l></l> <r>lykkes<s n="vblex"/><s n="pstv"/><s n="pret"/><d/></r></p>
+      <p><l></l> <r>imidlertid<s n="adv"/><d/></r></p>
+      <par n="wide-SN"/>
+      <p><l>klare</l>   <r></r></p> <par n="td:"/>
+      <p><l>imidlertid</l>   <r></r></p><par n="td:"/>
+      <i>å</i> <par n="td"/>
+    </e>
+
+    <e lm="flere grundige studier klarte imidlertid ikke (å) → det lykkedes imidlertid ikke flere grundige studier (å)">
+      <p><l></l> <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/><d/></r></p>
+      <p><l></l> <r>lykkes<s n="vblex"/><s n="pstv"/><s n="pret"/><d/></r></p>
+      <p><l></l> <r>imidlertid<s n="adv"/><d/></r></p>
+      <p><l></l> <r>ikke<s n="adv"/><d/></r></p>
+      <par n="wide-SN"/>
+      <p><l>klare</l>   <r></r></p> <par n="td:"/>
+      <p><l>imidlertid</l>   <r></r></p><par n="td:"/>
+      <p><l>ikke</l>   <r></r></p><par n="td:"/>
+      <i>å</i> <par n="td"/>
+    </e>
+
 
 
     <!-- Separable nouns -->
