@@ -425,6 +425,16 @@
       <match lemma="produkt"/>
     </or>
   </rule>
+
+  <rule><match lemma="klare" tags="vblex.*"><select lemma="klare"/></match></rule>
+  <rule weight="1.1">
+    <match lemma="klare" tags="vblex.*"><select lemma="være# i stand til"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="klare" tags="vblex.*"><select lemma="lykkes"/></match>
+  </rule>
+
+
 </rules>
 
 </lrx>

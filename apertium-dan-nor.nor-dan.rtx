@@ -17,6 +17,7 @@ defnes = def ind ;
 tense = inf pret past pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
 voice = pasv actv ;
+a_pstv = pstv ;
 case = nom acc gen ;
 ! a_ for attribute:
 a_np = ant cog top org al attr guess cgguess ;
@@ -62,7 +63,7 @@ number > number_n : sg sg, sp sp, pl pl ;
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
 n:     _.gender.number.defnes.case.a_cmp.a_guio;
 np:    _.a_np.gender.number.defnes.case.a_cmp.a_guio;
-vblex: _.tense.voice.a_cmp;
+vblex: _.tense.voice.a_cmp; ! dan.dix doesn't use pstv tag, so remove it by not including it here
 pr:    _;
 adv:   _.a_comp;
 ij:    _;
@@ -90,10 +91,12 @@ AP:    _.a_adj.a_comp.gender.number.defnes.case;
 NP:    _.gender.number.defnes.a_split;
 DP:    _.gender.number.defnes.a_split;
 PP:    _;
-VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
+VP:    _.a_pstv.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
+VPactv2pstv: _.a_pstv.tense.number.voice;
 ADV:   _;
 SENT:  _;
 CNJCOO:  _;
+PART:  _;
 DP2:   _;                       ! issue 80-workaround
 S:     _;                       ! issue 80-workaround
 
@@ -103,6 +106,8 @@ S:     _;                       ! issue 80-workaround
 !!!!!!!!!!!!!!!!!!!!
 
 CNJCOO -> %cnjcoo { %1 } ;      ! for some reason need this to get rid of @nkon?
+
+PART -> %part { %1 } ;
 
 N ->
      "N→A"   %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
@@ -147,7 +152,8 @@ NP -> "NP→N"  %N { %1[lemcase=$lemcase] }
        ?(2.gender/sl = 2.gender/tl)
        ! Noun gender didn't change in bidix, don't change adj gender:
        { 1 _ %2 }
-    | "AN" 0: AP             %N { 1[gender=2.gender] _ %2 }
+    | "AN"    0: AP %N { 1[gender=2.gender] _ %2 }
+    | "NP→np" 0:   %np { %1 }   ! We allow np under DP, there are (slightly odd) examples like «selve Luther» or «en Luther»
     ;
 
 PP -> pr %DP { 1 _ 2 } ;
@@ -245,6 +251,13 @@ ADV -> "ADV→adv" %adv { %1 }
     | det.dem år@N { 1 _ %2 }
     ;
 
+VPactv2pstv ->
+      "VP→klarte→lykkedes"
+      %vblex
+      ?((1.a_pstv/sl not = pstv) and (1.a_pstv/tl = pstv))
+      { %1 }
+    ;
+
 VP ->
       "VP→imp" 3: %vblex.imp { %1[voice=""] }
 
@@ -310,6 +323,7 @@ DP2 ->
 
 S ->
       "S→DP VP"     DP VP     { 1 _ %2 }
+    | "S→DP VPactv2pstv ADV" 2: DP VPactv2pstv ADV { "den"@det.dem.nt.sg.expl _ %2 _ 3 _ 1 } ! det lykkedes imidlertid Luther at
     | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
     | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
     | "S→DP VP DP2" DP VP DP2 { 1 _ %2 _ 3 }

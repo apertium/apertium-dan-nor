@@ -508,27 +508,11 @@
 
     <!-- Other verb + adv + noun phrase rewritings: -->
 
-    
-    <e lm="Luther klarte imidlertid å → det lykkedes imidlertid Luther å">
-      <p><l></l> <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/><d/></r></p>
-      <p><l></l> <r>lykkes<s n="vblex"/><s n="pstv"/><s n="pret"/><d/></r></p>
-      <p><l></l> <r>imidlertid<s n="adv"/><d/></r></p>
-      <par n="wide-SN"/>
-      <p><l>klare</l>   <r></r></p> <par n="td:"/>
-      <p><l>imidlertid</l>   <r></r></p><par n="td:"/>
-      <i>å</i> <par n="td"/>
-    </e>
-
-    <e lm="flere grundige studier klarte imidlertid ikke (å) → det lykkedes imidlertid ikke flere grundige studier (å)">
-      <p><l></l> <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/><d/></r></p>
-      <p><l></l> <r>lykkes<s n="vblex"/><s n="pstv"/><s n="pret"/><d/></r></p>
-      <p><l></l> <r>imidlertid<s n="adv"/><d/></r></p>
-      <p><l></l> <r>ikke<s n="adv"/><d/></r></p>
-      <par n="wide-SN"/>
-      <p><l>klare</l>   <r></r></p> <par n="td:"/>
-      <p><l>imidlertid</l>   <r></r></p><par n="td:"/>
-      <p><l>ikke</l>   <r></r></p><par n="td:"/>
-      <i>å</i> <par n="td"/>
+    <e lm="klarte ikke å fortsette → kunne ikke fortsette">
+      <p><l>klare</l>   <r>kunne</r></p> <par n="td"/>
+      <i>ikke</i> <par n="td"/>
+      <p><l>å</l> <r></r></p> <par n="td:"/>
+      <i>fortsette</i> <par n="td"/>
     </e>
 
 
