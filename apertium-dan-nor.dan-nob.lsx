@@ -26,6 +26,7 @@
 
     <sdef n="nt"      c="Neuter"/>
     <sdef n="mf"      c="Masculine / feminine, also utrum in nouns"/>
+    <sdef n="ut"  c="Common gender (utrum)"/>
     <sdef n="un"      c="No gender"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
@@ -50,6 +51,10 @@
 	<sdef n="ref"     c="Reflexive pronoun"/>
 
     <sdef n="vblex"   c="Verb"/>
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="vaux"  c="Auxiliary verb"/>
+    <sdef n="vbser"   c="'To be' verb"/>
+    <sdef n="vbhaver"   c="'To have' verb"/>
     <sdef n="pstv"    c="-st verb (Nynorsk)"/>
     <sdef n="pasv"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
     <sdef n="inf"     c="Infinitive"/>
@@ -439,6 +444,12 @@
       <i><w/><s n="adj"/></i> <par n="td-dospc"/>
       <p> <l>,<s n="cm"/><d/></l> <r></r></p>
       <i>at<s n="part"/><d/></i>
+    </e>
+
+    <e lm="ligger hunden begravet" c="er problemet">
+      <p> <l>ligge<s n="vblex"/></l> <r>være<s n="vbser"/></r></p> <par n="td"/>
+      <p> <l>hund<s n="n"/><s n="ut"/></l> <r>problem<s n="n"/><s n="nt"/></r></p> <par n="td"/>
+      <p> <l>begrave</l> <r></r></p> <par n="td:"/>
     </e>
 
   </section>

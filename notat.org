@@ -33,6 +33,7 @@
   - lag_layer → lag
     lag_team → hold
   - kledt med → beklædt med
+  - innspill → innspark
   - skole og andre voksne[,] som barn har nærkontakt med
   - den samlede veiledningen[,] barn og unge får
   - kjertelen er et blodrigt organ[,] og gennemstrømmes
