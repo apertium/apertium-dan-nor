@@ -8,13 +8,9 @@
   - er ramte → som er rammet/som rammes (eller som lider av?)
   - stor overvekt av X blant dem som er rammet → stor overvekt av X lider (pleonasme)
   - «Andre har opplevd» blir *«Annet har»
-  - barnefødsler→børnefødsler
-  - barneoppdragelse → børneoppdragelse
-  - barneårene → barndommen
-  - barn og unge → børn og unge
   - den samlede veiledningen barn og unge får til→i å
   - kunnskaper → viden
-  - den kultur barnet vokser opp på→i
+  - den kultur[,] barnet vokser opp på→i
   - alle sider ved→av personligheten
   - Man anteger at → Man antager, at
   - medikamentell → medisinsk
@@ -31,7 +27,6 @@
   - vev manglar cp-R (støttevev, kjertelvev)
     - pulpavæv
   - kledt med → beklædt med
-  - innspill → innspark
   - skole og andre voksne[,] som barn har nærkontakt med
   - den samlede veiledningen[,] barn og unge får
   - kjertelen er et blodrigt organ[,] og gennemstrømmes
@@ -106,4 +101,3 @@
   - øjekontakt → øjenkontakt
   - Barnet tager efter → Barnet rækker ud efter
   - 3-månedersalderen regex
-  - 

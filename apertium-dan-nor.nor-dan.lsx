@@ -589,6 +589,12 @@
       </p>
     </e>
 
+    <!-- number change -->
+
+    <e lm="barneårene → barndommen" c="barndommen">
+      <p><l>barneår<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/><d/></l> <r>barndom<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/></r></p>
+    </e>
+
     <!-- Comma insertion -->
 
     <e lm="til tross for at → til tross for, at" c="til trods for, at">
