@@ -1,0 +1,37 @@
+* fejl [2022-11-02 on.]
+
+  - Flyskrekk er av tre typer → det finnes
+  - 5 prosenter  → 5 procent (procenter er t.d. rabatt, de fikk procenter, aldri med tal føre)
+    - litre→liter
+    - millimetre→milimeter
+  - Det er stor _ → Der er stor _
+  - er ramte → som er rammet/som rammes (eller som lider av?)
+  - stor overvekt av X blant dem som er rammet → stor overvekt av X lider (pleonasme)
+  - «Andre har opplevd» blir *«Annet har»
+  - barnefødsler→børnefødsler
+  - Man anteger at → Man antager, at
+  - medikamentell → medisinsk
+  - medikamentutløst → medisinutløst, osb for cp-L medikament-
+  - bortset fra de tilfælde, der→hvor
+  - eksponseringsbehandling→~terapi
+  - kun=only, bare=just
+    - det kan vi bare gjøre
+    - man skal bare huske
+    - unntak: ikke bare → ikke bare
+  - midtelap→midterlap
+  - Normalt veier den → Normalt vejeR den
+  - også forstørres noe under → også forstørres lidt under
+  - vev manglar cp-R (støttevev, kjertelvev)
+  - lag_layer → lag
+    lag_team → hold
+  - kledt med → beklædt med
+  - kjertelen er et blodrigt organ[,] og gennemstrømmes
+    ANTEN ikkje komma, ELLER legg inn subjekt (den)
+    (kan me ta «, og» → «og» ?)
+  - cirka → ca.
+  - i folliklenes hulrom finnes det→der
+    mellom folliklene ligger det→der
+  - Cushings syndrom→sygdom?
+    vanleg forskjell, kan me finna ei liste?
+  - 
+
