@@ -187,7 +187,7 @@ DP ->
       "DP→det NP.cmp-split CNJCOO DP" ! «den utenriks og sikkerhetspolitiske justeringen»
       det NP.*.cmp-split CNJCOO %DP
       ?((4.defnes = def) and (not (1.number = sg and 4.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
-      { 1(detOfN)[gender=1.gender, gender_n=4.gender, number_n=4.number, lemcase=1.lemcase]
+      { 1(detOfN)[gender=1.gender, gender_n=4.gender, number_n=4.number, lemcase=$lemcase]
         _
         2
         _
@@ -199,7 +199,7 @@ DP ->
     | "DP→det A CNJCOO A N" ! «de vanligste og alvorligste sykdomstilstandene»
       det A CNJCOO A %N
       ?((5.defnes = def) and (not (1.number = sg and 5.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
-      { 1(detOfN)[gender=1.gender, gender_n=5.gender, number_n=5.number, lemcase=1.lemcase]
+      { 1(detOfN)[gender=1.gender, gender_n=5.gender, number_n=5.number, lemcase=$lemcase]
         _
         2[gender=5.gender]
         _
@@ -212,7 +212,7 @@ DP ->
 
     | "DP→det.emph NP: selve skiven → selve skiven" ! override below rule, don't want to change def→ind here
       2: det.emph %NP
-      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=$lemcase]
         _
         2
       }
@@ -220,15 +220,25 @@ DP ->
     | "DP→det NP:de seneste årene → de seneste år"
       det %NP
       ?((2.defnes = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
-      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=$lemcase]
         _
         2[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
+      }
+
+    | "DP→dem qnt NP:de to landene → de to land"
+      det.dem det.qnt %NP
+      ?((3.defnes = def) and (not (1.number = sg and 2.number = pl)) and (not (2.number = sg and 3.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=$lemcase]
+        _
+        2(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number]
+        _
+        3[defnes=ind]           ! we know defnes is not empty, so safe to set to ind
       }
 
     | "DP→det NP:en lærebok → en lærebok"
       det %NP
       ?((2.defnes not = def) and (not (1.number = sg and 2.number = pl)) and (1.a_expl not = expl)) ! reject if number mismatch (det doesn't modify n)
-      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=$lemcase]
         _
         2
       }
@@ -236,14 +246,14 @@ DP ->
     | "DP→det NP:vennene mine → mine venner"
       %NP det.pos
       ?((1.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
-      { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
+      { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=$lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
       }
 
-    | "DP→det" %det { %1 }
+    | "DP→det" %det { %1[lemcase=$lemcase] }
 
-    | "DP→NP" %NP { %1 }
+    | "DP→NP" %NP { %1[lemcase=$lemcase] }
       ;
 
 ! TODO: Do any tags need propagating here?
@@ -314,6 +324,10 @@ SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
 ! of a verb to the left or something if we try to only do fragmented
 ! "bottom up" analyses. But if there's a parse covering both verbs,
 ! the rules will apply.
+explDet: (always                 ! TODO why not sp?
+         "den"@det.dem.nt.sg.expl[lemcase=1.lemcase]
+        )
+        ;
 
 DP2 ->
       "vennene mine virtuelt" DP AP        { %1 _ 2 }
@@ -324,11 +338,14 @@ DP2 ->
 
 S ->
       "S→DP VP"     DP VP     { 1 _ %2 }
-    | "S→DP VPactv2pstv ADV" 2: DP VPactv2pstv ADV { "den"@det.dem.nt.sg.expl _ %2 _ 3 _ 1 } ! det lykkedes imidlertid Luther at
-    | "S→DP VPactv2pstv"     2: DP VPactv2pstv     { "den"@det.dem.nt.sg.expl _ %2 _     1 } ! det lykkedes            Luther at
-    | "S→VPactv2pstv"        2: VPactv2pstv        { %1 _ "den"@det.dem.nt.sg.expl }
-    | "S→DP VPactv2pstv DP"  2: DP VPactv2pstv DP { 1 _ %2 _ "den"@det.dem.nt.sg.expl _ 3  } ! Tidlig i august lykkedes det amerikanerene
-    | "S→DP VPactv2pstv ADV ADV" 2: DP VPactv2pstv ADV ADV { "den"@det.dem.nt.sg.expl _ %2 _ 3 _ 4 _ 1  }
+      ! active to passive:
+    | "S→DP VPactv2pstv ADV" 2: DP VPactv2pstv ADV { 1(explDet) _ %2 _ 3 _ 1[lemcase="aa"] } ! det lykkedes imidlertid Luther at
+    | "S→DP VPactv2pstv"     2: DP VPactv2pstv     { 1(explDet) _ %2 _     1[lemcase="aa"] } ! det lykkedes            Luther at
+    | "S→VPactv2pstv"        2: VPactv2pstv        { %1 _ *(explDet)[lemcase="aa"] }
+    | "S→DP VPactv2pstv DP"  2: DP VPactv2pstv DP { 1 _ %2 _ 2(explDet) _ 3  } ! Tidlig i august lykkedes det amerikanerene
+    | "S→DP VPactv2pstv ADV ADV" 2: DP VPactv2pstv ADV ADV { 1(explDet) _ %2 _ 3 _ 4 _ 1[lemcase="aa"]  }
+    | "S→DP pr DP VPactv2pstv ADV ADV" 2: DP pr DP VPactv2pstv ADV ADV { 1(explDet) _ %4 _ 5 _ 6 _ 1[lemcase="aa"] _ 2 _ 3  }
+    ! &c:
     | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
     | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
     | "S→DP VP DP2" DP VP DP2 { 1 _ %2 _ 3 }
