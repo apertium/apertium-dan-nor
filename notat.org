@@ -9,7 +9,13 @@
   - stor overvekt av X blant dem som er rammet → stor overvekt av X lider (pleonasme)
   - «Andre har opplevd» blir *«Annet har»
   - barnefødsler→børnefødsler
+  - barneoppdragelse → børneoppdragelse
   - barneårene → barndommen
+  - barn og unge → børn og unge
+  - den samlede veiledningen barn og unge får til→i å
+  - kunnskaper → viden
+  - den kultur barnet vokser opp på→i
+  - alle sider ved→av personligheten
   - Man anteger at → Man antager, at
   - medikamentell → medisinsk
   - medikamentutløst → medisinutløst, osb for cp-L medikament-
@@ -27,12 +33,16 @@
   - lag_layer → lag
     lag_team → hold
   - kledt med → beklædt med
+  - skole og andre voksne[,] som barn har nærkontakt med
+  - den samlede veiledningen[,] barn og unge får
   - kjertelen er et blodrigt organ[,] og gennemstrømmes
     ANTEN ikkje komma, ELLER legg inn subjekt (den)
     (kan me ta «, og» → «og» ?)
   - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
   - cirka → ca.
   - totalvurdering → helhedsvurdering
+  - Det er meget[,] som→der tyder på
+  - Det har lenge vært kjent[,] at barnets psykiske u…
   - som tidligere nevnt er det→der
     Det→Der er mye som tyder på
     i folliklenes hulrom finnes det→der
