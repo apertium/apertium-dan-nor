@@ -22,6 +22,7 @@
   - Normalt veier den → Normalt vejeR den
   - også forstørres noe under → også forstørres lidt under
   - vev manglar cp-R (støttevev, kjertelvev)
+    - pulpavæv
   - lag_layer → lag
     lag_team → hold
   - kledt med → beklædt med
@@ -31,7 +32,47 @@
   - cirka → ca.
   - i folliklenes hulrom finnes det→der
     mellom folliklene ligger det→der
+    , og det→der kan udvikle sig
   - Cushings syndrom→sygdom?
     vanleg forskjell, kan me finna ei liste?
-  - 
+  - *blåmerker → blå mærke
+  - knogleskørhed, ikkje knogleskrøbelighed
+  - rødfiolett → rødlilla (eller rødviolet)
+  - bristninger i huden → blodutrædninger
+  - føre til død(en) → medføre døden
+  - sår gror → sår heler
+  - slapphet → udmattelse
+  - føle seg slapp→udmattet
+  - mer sjelden behandles → mer sjeldent behandles
+    (ingen subst etter, så -t)
 
+  - indreb i munden[,] og kæbe- ansigtsskelettet.
+    (ikkje komma ved det innskotet på slutten av setninga – kan me laga reglar for det?)
+
+  - spekter → spektrum, utanom alle spekterets farver
+  - bløtdelsvevet → det bløde væv, bløtdelsvæv → blødt væv
+  - (som) er festet → (som) sitter fast LSX
+  - er på plass → sidder riktigt??? for spesifikt
+  - -itt → -itis eller enkel t -it, hydroksylapatit
+  - En tann består av krone og rot. Kronen er synlig i munnen og roten er festet i kjeven
+    omvendt def/ind!!
+    #+BEGIN_SRC nxml
+    <pardef n="r/od__n">
+      <e>       <p><l>ødderne</l>   <r>od<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+      <e>       <p><l>ødder</l>     <r>od<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+      <e>       <p><l>od</l>        <r>od<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+      <e>       <p><l>oden</l>      <r>od<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case\Ø\s_cp-both"/></e>
+    
+    </pardef>
+    #+END_SRC
+    [[file:~/src/ap/apertium-dan/apertium-dan.dan.dix::<pardef n="r/od__n">]]
+  - brukes til å bite av og tygge mat → brukes til å bide over??
+  - Pulpaen ligger i et rom→hulrom(blir en rom?) inni tannbeinet
+  - Melketennene er det første tannsettet hos barn→børn DIS
+  - de vil etterhvert bli «spist[e] opp» – ikkje adj.pp her! DIS
+  - Den består da normalt bare av kronen → Den består så almindeligvis kun af kronen
+  - Melketannen blir løsere og felles<v!> når roten er helt resorbert DIS
+  - Hvis det→der går mer enn
+  - knapt nok → knap nok
+  - ~årsjeksel → ~årstand (seksårstand, tolvårstand)
+  - fra femårsalder → fra femårsalderEN

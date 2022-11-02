@@ -446,6 +446,13 @@
   <rule><match lemma="frisk" tags="adj.*"><select lemma="rask"/></match></rule>
 
   <rule><match lemma="medikament" tags="n.*"><select lemma="lægemiddel"/></match></rule>
+  <rule><match lemma="underkjeve" tags="n.*"><select lemma="underkæbe"/></match></rule>
+
+  <rule><match lemma="lag" tags="n.*"><select lemma="hold"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="?"/>
+    <match lemma="lag" tags="n.*"><select lemma="lag"/></match>
+  </rule>
 </rules>
 
 </lrx>
