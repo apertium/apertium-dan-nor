@@ -205,6 +205,7 @@
     <rule c="fæstne sin lid til"><match lemma="lit" tags="n.*"><select lemma="lid"/></match></rule>
 
     <rule><match lemma="helse" tags="n.*"><select lemma="helse"/></match></rule>
+    <rule weight="2.0"><match lemma="helse" tags="n.*.cmp.*"><select lemma="sundhed"/></match></rule>
 
     <rule><match lemma="for" tags="pr"><select lemma="for"/></match></rule>
     <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
@@ -440,6 +441,11 @@
   </rule>
 
 
+  <rule><match lemma="bare" tags="adv.*"><select lemma="kun"/></match></rule>
+
+  <rule><match lemma="frisk" tags="adj.*"><select lemma="rask"/></match></rule>
+
+  <rule><match lemma="medikament" tags="n.*"><select lemma="lægemiddel"/></match></rule>
 </rules>
 
 </lrx>
