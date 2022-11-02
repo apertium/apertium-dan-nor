@@ -9,6 +9,7 @@
   - stor overvekt av X blant dem som er rammet → stor overvekt av X lider (pleonasme)
   - «Andre har opplevd» blir *«Annet har»
   - barnefødsler→børnefødsler
+  - barneårene → barndommen
   - Man anteger at → Man antager, at
   - medikamentell → medisinsk
   - medikamentutløst → medisinutløst, osb for cp-L medikament-
@@ -29,10 +30,25 @@
   - kjertelen er et blodrigt organ[,] og gennemstrømmes
     ANTEN ikkje komma, ELLER legg inn subjekt (den)
     (kan me ta «, og» → «og» ?)
+  - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
   - cirka → ca.
-  - i folliklenes hulrom finnes det→der
+  - totalvurdering → helhedsvurdering
+  - som tidligere nevnt er det→der
+    Det→Der er mye som tyder på
+    i folliklenes hulrom finnes det→der
     mellom folliklene ligger det→der
     , og det→der kan udvikle sig
+    Hvis det→der går mer enn
+    Samtidig kan det→der også findes→være betennelse i ryggmargen
+    - findes→være pga. den er ikkje funnen, men eksisterer
+    kommer det→der også
+  - er veldig→meget forskjellige
+  - blant anden→andet
+  - av hva slags → av hvilken slags
+  - aller letteste → allerletteste
+  - aller fleste → allerfleste
+  - i voksen alder → i voksenalderen
+  - snakke → tale (snakke er meir snakke saman, «papegøyer snakker, vi taler»)
   - Cushings syndrom→sygdom?
     vanleg forskjell, kan me finna ei liste?
   - *blåmerker → blå mærke
@@ -40,7 +56,14 @@
   - rødfiolett → rødlilla (eller rødviolet)
   - bristninger i huden → blodutrædninger
   - føre til død(en) → medføre døden
+  - varige defekter → varige men
   - sår gror → sår heler
+  - lokaliserte byller → lokale bylder (ikkje lokaliserede)
+  - bør en kunne → bør man kunne
+  - helsearbejder → sundehedsarbejder (men helsepost, og behold helsestasjon for det finst ikkje i dk)
+  - psykisk helse→sundhed
+  - personens helse→sundhed/helbred
+  - i økende grad → i stigende grad
   - slapphet → udmattelse
   - føle seg slapp→udmattet
   - mer sjelden behandles → mer sjeldent behandles
@@ -69,10 +92,23 @@
   - brukes til å bite av og tygge mat → brukes til å bide over??
   - Pulpaen ligger i et rom→hulrom(blir en rom?) inni tannbeinet
   - Melketennene er det første tannsettet hos barn→børn DIS
+  - Avvik<sg!> bør undersøkes nøye DIS
   - de vil etterhvert bli «spist[e] opp» – ikkje adj.pp her! DIS
   - Den består da normalt bare av kronen → Den består så almindeligvis kun af kronen
   - Melketannen blir løsere og felles<v!> når roten er helt resorbert DIS
-  - Hvis det→der går mer enn
   - knapt nok → knap nok
   - ~årsjeksel → ~årstand (seksårstand, tolvårstand)
   - fra femårsalder → fra femårsalderEN
+  - herpe+svi+rus
+  - cp-L: encefalo, myelo, meningo
+  - meningoencefalomyelitt → -itis
+  - Slike reaksjoner → Denslags, ikkje Sådanne – nesten alltid
+    - en slik reaksjon → denslags reaksjon
+  - bamblesyke→bornholmsk syge
+  - slå seg til i → angribe
+  - en sjælden gang → sjældent
+  - svampEinfektioner
+  - øjekontakt → øjenkontakt
+  - Barnet tager efter → Barnet rækker ud efter
+  - 3-månedersalderen regex
+  - 
