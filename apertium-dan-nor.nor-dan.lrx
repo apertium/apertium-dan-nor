@@ -448,10 +448,59 @@
   <rule><match lemma="medikament" tags="n.*"><select lemma="lægemiddel"/></match></rule>
   <rule><match lemma="underkjeve" tags="n.*"><select lemma="underkæbe"/></match></rule>
 
-  <rule><match lemma="lag" tags="n.*"><select lemma="hold"/></match></rule>
-  <rule weight="2.0">
-    <match lemma="?"/>
+  <rule c="lag"><match lemma="lag" tags="n.*"><select lemma="lag"/></match></rule>
+  <rule c="øvre lag" weight="2.0">
+    <or>
+      <match lemma="øvre"/>
+      <match lemma="øverst"/>
+      <match lemma="nedre"/>
+      <match lemma="sosial"/>
+      <match lemma="tett"/>
+      <match lemma="beskytte"/>
+      <match lemma="dyp"/>
+      <match lemma="djup"/>
+      <match lemma="tynn"/>
+      <match lemma="skille"/>
+      <match lemma="skilje"/>
+      <match lemma="ulik"/>
+      <match lemma="forskjellig"/>
+      <match lemma="ytre"/>
+      <match lemma="ytterst"/>
+      <match lemma="indre"/>
+    </or>
     <match lemma="lag" tags="n.*"><select lemma="lag"/></match>
+  </rule>
+  <rule c="lag af" weight="2.0">
+    <match lemma="lag" tags="n.*"><select lemma="lag"/></match>
+    <or>
+      <match lemma="av"/>
+      <match lemma="bestå"/>
+      <match lemma="med"/>
+    </or>
+  </rule>
+  <rule c="bedste hold" weight="2.0">
+    <or>
+      <match lemma="britisk"/>
+      <match lemma="kristen"/>
+      <match lemma="dansk"/>
+      <match lemma="norsk"/>
+      <match lemma="amerikansk"/>
+      <match lemma="nasjonal"/>
+      <match lemma="plassere"/>
+      <match lemma="god"/>
+    </or>
+    <match lemma="lag" tags="n.*"><select lemma="hold"/></match>
+  </rule>
+  <rule c="hold spillede" weight="2.0">
+    <match lemma="lag" tags="n.*"><select lemma="hold"/></match>
+    <or>
+      <match lemma="i"/>
+      <match lemma="som"/>
+      <match lemma="fra"/>
+      <match lemma="frå"/>
+      <match lemma="spille"/>
+      <match lemma="spele"/>
+    </or>
   </rule>
 </rules>
 

@@ -30,8 +30,6 @@
   - også forstørres noe under → også forstørres lidt under
   - vev manglar cp-R (støttevev, kjertelvev)
     - pulpavæv
-  - lag_layer → lag
-    lag_team → hold
   - kledt med → beklædt med
   - innspill → innspark
   - skole og andre voksne[,] som barn har nærkontakt med
