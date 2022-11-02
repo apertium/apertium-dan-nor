@@ -537,6 +537,12 @@
     </e>
 
 
+    <!-- aller – remove space (what are the exceptions?) -->
+    <e lm="aller Xste" c="allerXste">
+      <i>aller</i> <par n="td-nospc"/>
+      <i><w/><s n="adj"/><s n="sint"/><s n="sup"/></i>  <par n="td"/>
+    </e>
+
     <!-- Fixed expressions -->
 
     <e lm="i siste liten → i siste øyeblikk" c="i sidste øjeblik">
