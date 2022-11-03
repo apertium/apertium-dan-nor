@@ -101,3 +101,55 @@
   - øjekontakt → øjenkontakt
   - Barnet tager efter → Barnet rækker ud efter
   - 3-månedersalderen regex
+
+* fejl [2022-11-03 to.]
+  - Behandlingen er strengt glutenfri kost (blir hygget!)
+  - som ikke tåler → som ikke kan tåle LSX
+  - Fett og fettløselige vitaminer → Fedt og fedtopløselige
+  - benbygningen → knogleopbygningen
+  - udiagnostiseret
+  - går udiagnostisert i lang tid → forblir diagnosticeret i lang tid LRX
+  - oppsuging→optagelse av næringsstoffer LRX
+  - suger X opp → optager X LSX
+  - i utgangspunktet → som udgangspunkt
+  - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
+  - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
+  - Det→Der er mange[,] som har sykdommen i lett grad
+  - og da kan det→der gå lang tid
+  - Matvareintoleranse→Fødevareintoleranse
+  - voksen alder → voksenalderen
+  - blir stilt, ikkje omskriv til stilles
+  - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
+  - stille riktig diagnose → den rigtige diagnose
+  - før en riktig diagnose blir stilt → før den rigtige diagnose blir stilt
+  - avmagring → afmagring
+  - vantrivsel → mistrivsel
+  - mineralforstyrrelse → mineralmangel
+  - blodfattig → anæmisk (men ein roman kan vere blodfattig)
+  - ukarakteristiske → ukarakteristiske
+  - dersom→hvis (alltid, det er arkaisk)
+  - eller om→hvis det→der er
+    «Malabsorpsjon forekommer særlig ved kroniske betennelser i tynntarmen, dersom store deler av tynntarmen er fjernet ved operasjoner, eller om det er for liten tilførsel av fordøyelsesenzymer fra bukspyttkjertelen eller av galle fra leveren.»
+  - kosthold → kost
+  - diett → kost (diæt er ein *plan* for kost)
+    - en absolut diæt → en streng diæt
+  - tarmtott ← tarmtrevle (la tarmtott stå, men LR)
+  - overfølsomhed for→over_for gluten
+  - i slike tilfeller → i de tilfælde
+    - elles: den_slags
+  - disse frøsorte → disse frøsorteR
+  - soya → soja
+  - Det→Der skal kun små mængder af
+  - vil symptomene melde seg ganske raskt igjen → melde sig igen temmelig hurtigt
+    (ganske → temmelig, ræt)
+  - spædbØrn og småbØrn
+    (Cøliaki er en livslang sykdom, men en forbigående overfølsomhet for gluten kan forekomme hos enkelte spedbarn og småbarn. )
+  - livslang sykdom → kronisk sygdom
+  - malabsorpsjon blir «skabelon~»! LRX på cmp
+  - galle → galde
+  - tapes → tabes
+  - perifrastisk passiv: behold slik det er for norsk, avvent om me
+    ser noko som må ha omskriving mot leksikal passiv
+  - 
+
+
