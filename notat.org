@@ -163,4 +163,41 @@
   - helsepersonelloven<np!>
   - De→Dem med helsefaglig bakgrunn
   - Utøvere innenfor alternativ medisin kan ha helsefaglig utdannelse, og for eksempel være leger, sykepleiere eller fysioterapeuter.
+  - under gange og løp → under gang og løb (utan -e i gang)
+  - forlemmeRne, også medlemmeRne
+  - lem → legemsdel
+  - Armen er lemmet som danner → Armen er den legemsdel, som danner
+  - Armene har→er blitt helt frigjorte (generelt! «har blevet» er feil)
+    har det blitt → er der blevet
+  - har svært for→ved at gå
+  - bli frigjort fra arbeidet med → slet ikke lenger bruges til
+  - gange på bakken → gang på jorden (ikkje «bagen»)
+  - overarmsbeinet → ~knoglen
+  - Bevegelser i skulderleddet gjør det mulig[ikkje komma!] å føre armen ut fra kroppen
+  - å feste→fæstne overarmen til skulderbladet
+  - Vi skiller→skelner mellom to uttrykk
+  - Vi skiller fra → adskille
+  - Vi skiller mellom skulderleddet (humeri)[,] som er forbindelsen mellom A og B.
+  - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
+  - Formen på leddhodet tilsier[,] at overarmsbeinet kan beveges i alle retninger.
+  - Leddet har en kort hals (collum humeri), hvor vi finner to beinknuter (tuberculum majus & minus)[,] som er feste for noen av skuldermusklene (rotatormansjetten).
+  - På hver side av leddflaten finner vi den indre og ytre albueknoken (epicondylus medialis & lateralis)[,] som kan kjennes under huden.
+  - arteria ulnaris[,] som følger albuebeinet, og arteria radialis[,] som følger spolebeinet.
+  - Den fortsetter gjennom armhulen (axilla)[ikkje komma!] som arteria axillaris og ned langs overarmens innside som arteria brachialis.
+  - ulna<n>, select tidleg i DIS
+  - Man kan kjenne→mærke kanten av albuebeinet
+    - kjenne→kende igjen
+    - kjenne→kende en venn
+    - kjenne→føle seg
+  - angive ET sted (når man skal angi sted)
+  - skrueledd → drejeled
+  - valseformet → cylinderformet
+  - en mængde → en lang række
+  - vevenes → vævenes (ikkje R, et vev, ikkje en vev i DIS)
+  - utvidet kunnskaben → udvidet vores viden
+    denne kunnskapen → den viden
+  - fiksasjon→fiksasjon
+  - vevenes bygning → vævenes opbygning
+  - I håndflaten har de to arteriene bueformede forbindelser (anastomoser),[fjern komma!] med blodkar ut til fingrene.
+
 
