@@ -35,17 +35,24 @@
   - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
   - cirka → ca.
   - totalvurdering → helhedsvurdering
+
   - Det er meget[,] som→der tyder på
   - Det har lenge vært kjent[,] at barnets psykiske u…
-  - som tidligere nevnt er det→der
-    Det→Der er mye som tyder på
-    i folliklenes hulrom finnes det→der
-    mellom folliklene ligger det→der
-    , og det→der kan udvikle sig
-    Hvis det→der går mer enn
-    Samtidig kan det→der også findes→være betennelse i ryggmargen
-    - findes→være pga. den er ikkje funnen, men eksisterer
-    kommer det→der også
+
+  - [X] som tidligere nevnt er det→der
+  - eller om→hvis det→der er
+  - og da kan det→der gå lang tid
+  - Det→Der er mange[,] som har sykdommen i lett grad
+  - Det→Der skal kun små mængder af
+  - Det→Der er mye som tyder på
+  - [X] i folliklenes hulrom finnes det→der
+  - mellom folliklene ligger det→der
+  - , og det→der kan udvikle sig
+  - Hvis det→der går mer enn
+  - Samtidig kan det→der også findes→være betennelse i ryggmargen
+  - - findes→være pga. den er ikkje funnen, men eksisterer
+  - kommer det→der også
+
   - er veldig→meget forskjellige
   - blant anden→andet
   - av hva slags → av hvilken slags
@@ -114,8 +121,6 @@
   - i utgangspunktet → som udgangspunkt
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
   - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
-  - Det→Der er mange[,] som har sykdommen i lett grad
-  - og da kan det→der gå lang tid
   - Matvareintoleranse→Fødevareintoleranse
   - voksen alder → voksenalderen
   - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
@@ -127,7 +132,6 @@
   - blodfattig → anæmisk (men ein roman kan vere blodfattig)
   - ukarakteristiske → ukarakteristiske
   - dersom→hvis (alltid, det er arkaisk)
-  - eller om→hvis det→der er
     «Malabsorpsjon forekommer særlig ved kroniske betennelser i tynntarmen, dersom store deler av tynntarmen er fjernet ved operasjoner, eller om det er for liten tilførsel av fordøyelsesenzymer fra bukspyttkjertelen eller av galle fra leveren.»
   - kosthold → kost
   - diett → kost (diæt er ein *plan* for kost)
@@ -138,7 +142,6 @@
     - elles: den_slags
   - disse frøsorte → disse frøsorteR
   - soya → soja
-  - Det→Der skal kun små mængder af
   - vil symptomene melde seg ganske raskt igjen → melde sig igen temmelig hurtigt
     (ganske → temmelig, ræt)
   - spædbØrn og småbØrn

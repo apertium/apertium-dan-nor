@@ -30,6 +30,25 @@
       </or>
     </def-seq>
 
+    <def-seq n="bli_vere_finnast">
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+        <match lemma="finnes"/>
+        <match lemma="finnast"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="mykje_mange_liten">
+      <or>
+        <match lemma="mykje"/>
+        <match lemma="mye"/>
+        <match lemma="mange"/>
+        <match lemma="liten"/>
+      </or>
+    </def-seq>
+
     <def-seq n="pp">
       <or>
         <match tags="vblex.pp"/>
@@ -106,6 +125,18 @@
              Conservative default">
       <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
     </rule>
+    <rule weight="1.1" c="ligger det → ligger der
+                          Generelt oftare «der» når det er *etter* verbet">
+      <or>
+        <match tags="vblex.pres.*"/>
+        <match tags="vblex.pret.*"/>
+      </or>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+    </rule>
+    <rule weight="2.0" c="hvis det går → hvis der går">
+      <match tags="cnjsub.*"/>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+    </rule>
     <rule weight="2.0" c="Det finnes → Der findes">
       <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
       <or>
@@ -117,23 +148,38 @@
     <rule weight="2.0" c="Det er noen som → Der er noen som
                           Utrygg">
       <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
-      <or>
-        <match lemma="bli"/>
-        <match lemma="være"/>
-        <match lemma="vere"/>
-      </or>
+      <seq n="bli_vere_finnast"/>
       <or><match lemma="noe"/><match lemma="noko"/></or>
       <match lemma="som"/>
     </rule>
-    <rule weight="3.0" c="ble det ringmærket → blev der ringmærket
-                          Generelt DER før pp, men regel nedanfor kan overstyra.">
+    <rule weight="4.0" c="dessuten finnes det → dessuden er der">
       <or>
-        <match lemma="bli"/>
-        <match lemma="være"/>
-        <match lemma="vere"/>
+        <match lemma="finnes"/>
+        <match lemma="finnast"/>
       </or>
       <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+    </rule>
+    <rule weight="3.0" c="ble det ringmærket → blev der ringmærket
+                          Generelt DER før pp, men regel nedanfor kan overstyra.">
+      <seq n="bli_vere_finnast"/>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
       <seq n="pp"/>
+    </rule>
+    <rule weight="4.0" c="det er mange problem, det er mye som kan gå galt">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="bli_vere_finnast"/>
+      <seq n="mykje_mange_liten"/>
+    </rule>
+    <rule weight="4.0" c="det er mange problem, det er mye som kan gå galt">
+      <seq n="bli_vere_finnast"/>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="mykje_mange_liten"/>
+    </rule>
+    <rule weight="2.0" c="om det er for lite → om der er for lille">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="bli_vere_finnast"/>
+      <match lemma="for"/>
+      <seq n="mykje_mange_liten"/>
     </rule>
     <!-- override der: -->
     <rule weight="3.0" c="ble det besluttet → blev det besluttet
