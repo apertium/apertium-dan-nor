@@ -175,5 +175,5 @@
   - sammensat → kompleks
   - helsepersonelloven<np!>
   - De→Dem med helsefaglig bakgrunn
-  - Utøvere innenfor alternativ medisin kan ha helsefaglig utdannelse[,fjern komma!] og for eksempel være leger, sykepleiere eller fysioterapeuter.
+  - Utøvere innenfor alternativ medisin kan ha helsefaglig utdannelse, og for eksempel være leger, sykepleiere eller fysioterapeuter.
 

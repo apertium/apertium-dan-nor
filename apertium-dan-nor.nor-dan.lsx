@@ -109,6 +109,9 @@
 
   <pardefs>
 
+    <pardef n="d"> <!-- pre-emptive paradigm in case we later introduce syntax tags -->
+      <e><i><d/></i></e>
+    </pardef>
     <pardef n="td">
       <e><i><t/><d/></i></e>
     </pardef>
@@ -621,6 +624,16 @@
       <i><w/><s n="adj"/></i> <par n="td-nospc"/>
       <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
       <i>å<s n="part"/><d/></i>
+    </e>
+
+    <!-- Comma deletion if not clb -->
+    <e lm=", og.clb → , og.clb" c=", og.clb (keep comma!)">
+      <i>,</i> <par n="td"/>
+      <i>og<s n="cnjcoo"/><s n="clb"/></i> <par n="td"/>
+    </e>
+    <e lm=", og → , og" c=", og">
+      <p> <l>,<s n="cm"/><d/></l> <r></r></p>
+      <i>og<s n="cnjcoo"/></i> <par n="d"/> <!-- no clb-tag -->
     </e>
 
   </section>
