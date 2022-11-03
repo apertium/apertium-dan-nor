@@ -147,6 +147,33 @@
   - malabsorpsjon blir «skabelon~»! LRX på cmp
   - galle → galde
   - tapes → tabes
-  - 
+  - blir liggende bevisstløs → ligger bevisstløs
+  - som blir målt → som blir målt (ikkje malet??)
+  - dødsfald som er angitt å skyldes drukning → dødsfall hvor dødsårsaken angives som drukning(?)
+  - i hovedsag → primært (ev. fortrinnsvis)
+  - en samlebetegnelse→fællesbetegnelse på→for
+  - fotsoneterapi→soneterapi
+  - i liten grad → i mindre grad (ikkje lille)
+  - sykepleier → sygeplejerske/sosu-hjælper/sosu-assistant
+  - anestesisykepleier → anestesisygeplejerske
+    afdelingssygeplejerske
+    operationssygeplejerske
+    børnesygeplejerske
+    oversygeplejerske
+    chefssygeplejerske
+    bedrifts~ → virksomhedssygeplejerske
+    osb. for dei fleste utanom:
+    hjemmesykepleier→sygeplejerske/sosu-hjælper/sosu-assistant
+    helsesykepleier→sundhedsplejerske
+  - hjelpepleier → sygeplejer
 
+  - inne → indenfor<adv>
+  - innenfor → inden for<pr>
+  - utenfor → uden for<pr>
+  - andre utøvere mangler→har_ikke helsefaglig bakgrunn («mangle» meir som «sakne» på dansk)
+  - lovreguleringen → lovgivningen
+  - sammensat → kompleks
+  - helsepersonelloven<np!>
+  - De→Dem med helsefaglig bakgrunn
+  - Utøvere innenfor alternativ medisin kan ha helsefaglig utdannelse[,fjern komma!] og for eksempel være leger, sykepleiere eller fysioterapeuter.
 
