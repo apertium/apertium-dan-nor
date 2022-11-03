@@ -40,11 +40,7 @@ w_paux = bli blive være vere ;
 w_bli = bli blive ;
 w_supnaux = ha være vere ;
 
-! We never turn pp's of these into pasv (regardless of temps):
-w_no_pasv = aldres dages drages enes erfares fattes findes forefindes forældes færdes føles kappes kives ledes mindes mistrives mødes nedarves omgås opleves plages rygtes samles skilles skyldes slås snakkes stortrives trives træffes trænges tækkes undres vantrives væmmes være ynges ynkes ældes stille ;
-
-! We never turn pp's of these into past.pasv:
-w_no_past_pasv = afhjælpe afhænge afvige aldres angribe begribe behænge bestikke bide bifalde blankslide bundfryse bære dages domfælde drages drikke dybfryse efterlade enes erfares falde fattes findes flydyde flyve fnyse forefindes forfryse forgribe forskrækkes forsove forvride forældes fravige fryse færdes føles genfødes glide gnide gribe gælde halvsove hjemfalde hjælpe hundefryse hænge høres hånle indebære indlade kapdrikke kappes kives klukle knivstikke krybe kvæles kæderyge lade le lede ledes lide lyve længes løslade løsnes mindes mistrives mødes nedarves nedlade omgås omtales opleves opslide overfalde overhænge overlade overskride plages ride ryge rygtes samles sidde skambide skamfrysyse ske skide skilles skoggerle skride skridide skrige skyldes skændes skære slide slippe slås smide smugdrikke smugryge smyge småfryse snakkes snige snorksove sove stikke stinke storskrige stortrives stride stryge synes tilfryse trives trænges tækkes tændes udtrykke undres undslippe undvige vantrives vide vige vride væmmes være ynges ynkes æde ældes årelade stille ;
+w_do_pasv = angi ;
 
 w_ogeller = og eller ;
 
@@ -276,39 +272,31 @@ VP ->
 
     | "VP→v"   0: %vblex     { %1 }
 
-
-    | "VP→bli NP v.pp:ble teen drukket → blev teen drukket"
-      2: %[w_bli]@vblex.pret NP [w_no_past_pasv]@vblex.pp
-      { %1 _ 2 _ 3 }
-    | "VP→bli NP adj.pp:ble teen drukket → blev teen drukket"
-      2: %[w_bli]@vblex.pret NP [w_no_past_pasv]@adj.pp
-      { %1 _ 2 _ 3 }
-
     | "VP→bli NP v.pp:ble landet delt → deledes landetV"
       %[w_bli]@vblex NP vblex.pp
-      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
+      ?(1.tense not = pp and (3.lemh/tl in w_do_pasv))
       { 3[voice = pasv, tense = 1.tense] _ 2 }
     | "VP→bli NP adj.pp:ble landet delt → deledes landetA"
       %[w_bli]@vblex NP adj.pp
-      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
+      ?(1.tense not = pp and (3.lemh/tl in w_do_pasv))
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
     | "VP→bli ADV v.pp:ble senere delt → deledes senereV"
       %[w_bli]@vblex ADV vblex.pp
-      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
+      ?(1.tense not = pp and (3.lemh/tl in w_do_pasv))
       { 3[voice = pasv, tense = 1.tense] _ 2 }
     | "VP→bli ADV adj.pp:ble senere delt → deledes senereA"
       %[w_bli]@vblex ADV adj.pp
-      ?(1.tense not = pp and (not (3.lemh/tl in w_no_pasv)))
+      ?(1.tense not = pp and (3.lemh/tl in w_do_pasv))
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
     | "VP→bli v.pp:ble delt → deledes"
       %[w_bli]@vblex vblex.pp
-      ?(1.tense not = pp and (not (2.lemh/tl in w_no_pasv)))
+      ?(1.tense not = pp and (2.lemh/tl in w_do_pasv))
       { 2[voice = pasv, tense = 1.tense] }
     | "VP→bli adj.pp:ble delt → deledes"
       %[w_bli]@vblex adj.pp
-      ?(1.tense not = pp and (not (2.lemh/tl in w_no_pasv)))
+      ?(1.tense not = pp and (2.lemh/tl in w_do_pasv))
       { *(vblex)[lemh=2.lemh, voice = pasv, tense = 1.tense] }
 
     ;

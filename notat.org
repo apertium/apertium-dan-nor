@@ -118,7 +118,6 @@
   - og da kan det→der gå lang tid
   - Matvareintoleranse→Fødevareintoleranse
   - voksen alder → voksenalderen
-  - blir stilt, ikkje omskriv til stilles
   - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
   - stille riktig diagnose → den rigtige diagnose
   - før en riktig diagnose blir stilt → før den rigtige diagnose blir stilt
@@ -148,8 +147,6 @@
   - malabsorpsjon blir «skabelon~»! LRX på cmp
   - galle → galde
   - tapes → tabes
-  - perifrastisk passiv: behold slik det er for norsk, avvent om me
-    ser noko som må ha omskriving mot leksikal passiv
   - 
 
 
