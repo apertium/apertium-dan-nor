@@ -120,6 +120,16 @@
       </or>
     </rule>
 
+
+    <!-- findes (note: see below rule for «findes det.expl» → «er der») -->
+    <rule c="finnes → findes
+             default">
+      <or>
+        <match lemma="finnes"><select lemma="findes"/></match>
+        <match lemma="finnast"><select lemma="findes"/></match>
+      </or>
+    </rule>
+
     <!-- DET (lemma "den") vs DER (lemma "der") -->
     <rule c="det → det
              Conservative default">
@@ -154,8 +164,8 @@
     </rule>
     <rule weight="4.0" c="dessuten finnes det → dessuden er der">
       <or>
-        <match lemma="finnes"/>
-        <match lemma="finnast"/>
+        <match lemma="finnes"><select lemma="være"/></match>
+        <match lemma="finnast"><select lemma="være"/></match>
       </or>
       <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
     </rule>
@@ -236,6 +246,17 @@
       <match/>
       <repeat from="0" upto="3"><match lemma=","/></repeat>
       <match lemma="som"/>
+    </rule>
+    <rule weight="3.0" c="at det er?
+                          before sentence end">
+      <match tags="cnjsub.*"/>
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <or>
+        <match lemma="bli"/>
+        <match lemma="være"/>
+        <match lemma="vere"/>
+      </or>
+      <match tags="sent.*"/>
     </rule>
     <!-- /DET vs DER -->
 
