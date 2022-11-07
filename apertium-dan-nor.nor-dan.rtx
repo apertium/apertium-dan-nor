@@ -334,6 +334,10 @@ explDet: (always                 ! TODO why not sp?
          "den"@det.dem.nt.sg.expl[lemcase=1.lemcase]
         )
         ;
+explDer: (always                 ! TODO why not sp?
+         "der"@det.dem.nt.sg.expl[lemcase=1.lemcase]
+        )
+        ;
 
 DP2 ->
       "vennene mine virtuelt" DP AP        { %1 _ 2 }
@@ -357,7 +361,7 @@ S ->
     | "S→X er av Y typer:"
       3: DP %[w_vere]@vblex [w_av]@pr [w_type]@DP.*.pl SENT
       ?(1.lemcase = "Aa")
-      { 1(explDet) _ 2[lemh="findes",mainpos=vblex] _ 4 _ 1[lemcase="aa",defnes=ind] 5 _ }
+      { 1(explDer) _ 2[lemh="findes",mainpos=vblex] _ 4 _ 1[lemcase="aa",defnes=ind] 5 _ }
 
     ! &c:
     | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }

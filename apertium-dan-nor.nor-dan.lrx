@@ -191,6 +191,48 @@
       <match lemma="for"/>
       <seq n="mykje_mange_liten"/>
     </rule>
+    <rule weight="4.0" c="Det er stor uenighet → Der er stor uenighed
+                          Only at sentence start">
+      <begin/>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="bli_vere_finnast"/>
+      <match lemma="stor"/>
+    </rule>
+    <rule weight="3.0" c="det er mistanke → der er mistanke">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <seq n="bli_vere_finnast"/>
+      <match lemma="mistanke"/>
+    </rule>
+    <rule weight="3.0" c="kan det gå lang tid → kan det gå lang tid">
+      <match lemma="kunne"/>
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <match lemma="gå"/>
+    </rule>
+    <rule weight="3.0" c="det kan gå lang tid → det kan gå lang tid
+                          det skal kun få → der skal kun få">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <or>
+        <match lemma="kunne"/>
+        <match lemma="skulle"/>
+        <match lemma="ville"/>
+      </or>
+      <or>
+        <match lemma="gå"/>
+        <match lemma="bare"/>
+        <match lemma="kun"/>
+      </or>
+    </rule>
+    <rule weight="3.0" c="det kan bli en">
+      <match lemma="den" tags="det.*.expl"><select lemma="der"/></match>
+      <or>
+        <match lemma="kunne"/>
+        <match lemma="skulle"/>
+        <match lemma="ville"/>
+      </or>
+      <match tags="vblex.inf.*"/>
+      <repeat from="0" upto="1"><match lemma="seg"/></repeat>
+      <match lemma="en"/>
+    </rule>
     <!-- override der: -->
     <rule weight="3.0" c="ble det besluttet → blev det besluttet
                           Visse pp oftare brukt med «det»">
