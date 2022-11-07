@@ -39,6 +39,9 @@ mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser vau
 w_paux = bli blive være vere ;
 w_bli = bli blive ;
 w_supnaux = ha være vere ;
+w_vere = være vere ;
+w_av = av af ;
+w_type = type ;
 
 w_do_pasv = angi ;
 
@@ -60,7 +63,7 @@ number > number_n : sg sg, sp sp, pl pl ;
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
 n:     _.gender.number.defnes.case.a_cmp.a_guio;
 np:    _.a_np.gender.number.defnes.a_guess.case.a_cmp.a_guio;
-vblex: _.tense.voice.a_cmp; ! dan.dix doesn't use pstv tag, so remove it by not including it here
+vblex: mainpos.tense.voice.a_cmp; ! dan.dix doesn't use pstv tag, so remove it by not including it here
 pr:    _;
 adv:   _.a_comp;
 ij:    _;
@@ -341,13 +344,21 @@ DP2 ->
 
 S ->
       "S→DP VP"     DP VP     { 1 _ %2 }
-      ! active to passive:
+
+    ! active to passive:
     | "S→DP VPactv2pstv ADV" 2: DP VPactv2pstv ADV { 1(explDet) _ %2 _ 3 _ 1[lemcase="aa"] } ! det lykkedes imidlertid Luther at
     | "S→DP VPactv2pstv"     2: DP VPactv2pstv     { 1(explDet) _ %2 _     1[lemcase="aa"] } ! det lykkedes            Luther at
     | "S→VPactv2pstv"        2: VPactv2pstv        { %1 _ *(explDet)[lemcase="aa"] }
     | "S→DP VPactv2pstv DP"  2: DP VPactv2pstv DP { 1 _ %2 _ 2(explDet) _ 3  } ! Tidlig i august lykkedes det amerikanerene
     | "S→DP VPactv2pstv ADV ADV" 2: DP VPactv2pstv ADV ADV { 1(explDet) _ %2 _ 3 _ 4 _ 1[lemcase="aa"]  }
     | "S→DP pr DP VPactv2pstv ADV ADV" 2: DP pr DP VPactv2pstv ADV ADV { 1(explDet) _ %4 _ 5 _ 6 _ 1[lemcase="aa"] _ 2 _ 3  }
+
+    ! X er av to typer → Det findes to typer X:
+    | "S→X er av Y typer:"
+      3: DP %[w_vere]@vblex [w_av]@pr [w_type]@DP.*.pl SENT
+      ?(1.lemcase = "Aa")
+      { 1(explDet) _ 2[lemh="findes",mainpos=vblex] _ 4 _ 1[lemcase="aa",defnes=ind] 5 _ }
+
     ! &c:
     | "S→DP VP ADV" DP VP ADV { 1 _ %2 _ 3 }
     | "S→DP VP DP"  DP VP DP  { 1 _ %2 _ 3 }
