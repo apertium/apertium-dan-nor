@@ -1,9 +1,5 @@
 * fejl [2022-11-02 on.]
 
-  - Flyskrekk er av tre typer → det finnes
-  - 5 prosenter  → 5 procent (procenter er t.d. rabatt, de fikk procenter, aldri med tal føre)
-    - litre→liter
-    - millimetre→milimeter
   - Det er stor _ → Der er stor _
   - er ramte → som er rammet/som rammes (eller som lider av?)
   - stor overvekt av X blant dem som er rammet → stor overvekt av X lider (pleonasme)
@@ -39,13 +35,11 @@
   - Det er meget[,] som→der tyder på
   - Det har lenge vært kjent[,] at barnets psykiske u…
 
-  - [X] som tidligere nevnt er det→der
   - eller om→hvis det→der er
   - og da kan det→der gå lang tid
   - Det→Der er mange[,] som har sykdommen i lett grad
   - Det→Der skal kun små mængder af
   - Det→Der er mye som tyder på
-  - [X] i folliklenes hulrom finnes det→der
   - mellom folliklene ligger det→der
   - , og det→der kan udvikle sig
   - Hvis det→der går mer enn
