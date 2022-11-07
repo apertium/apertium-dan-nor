@@ -86,6 +86,7 @@ N:     _.gender.number.defnes.case.a_cmp;
 A:     _.a_adj.a_comp.gender.number.defnes.case.a_cmp;
 AP:    _.a_adj.a_comp.gender.number.defnes.case;
 NP:    _.gender.number.defnes.a_split;
+Name:  _.gender.number.defnes.a_split;
 DP:    _.gender.number.defnes.a_split;
 PP:    _;
 VP:    _.a_pstv.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
@@ -144,13 +145,25 @@ AP -> "AP→A:godt"           0:        %A      { %1[gender=$gender] }
     | "AP→A A:stor god"     1: A      %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
     ;
 
+Name -> "np" %np { %1 }
+    | "ant cog" %np.ant np.ant { %1 _ 2 }
+    | "7-åringen np"
+       n.*.def %np
+       ?(1.lemh EndsWith "-årig")
+       { 1 _ %2 }
+    | "7-åringen ant cog"
+       n.*.def %np.ant np.cog
+       ?(1.lemh EndsWith "-årig")
+       { 1 _ %2 _ 3 }
+    ;
+
 NP -> "NP→N"  %N { %1[lemcase=$lemcase] }
     | "AN no chg" 4: AP %N
        ?(2.gender/sl = 2.gender/tl)
        ! Noun gender didn't change in bidix, don't change adj gender:
        { 1 _ %2 }
     | "AN"    0: AP %N { 1[gender=2.gender] _ %2 }
-    | "NP→np" 0:   %np { %1 }   ! We allow np under DP, there are (slightly odd) examples like «selve Luther» or «en Luther»
+    | "NP→Name" 0: %Name { %1 }   ! We allow np under DP, there are (slightly odd) examples like «selve Luther» or «en Luther»
     ;
 
 PP -> pr %DP { 1 _ 2 } ;
