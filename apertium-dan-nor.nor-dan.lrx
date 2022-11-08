@@ -300,6 +300,10 @@
       </or>
       <match tags="sent.*"/>
     </rule>
+    <rule weight="3.0" c="det regner">
+      <match lemma="den" tags="det.*.expl"><select lemma="den"/></match>
+      <match lemma="regne"/>
+    </rule>
     <!-- /DET vs DER -->
 
     <rule><match lemma="fort" tags="adj.*"><select lemma="stærk"/></match></rule>
