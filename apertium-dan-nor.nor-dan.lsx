@@ -547,6 +547,15 @@
       <i><w/><s n="adj"/><s n="sint"/><s n="sup"/></i>  <par n="td"/>
     </e>
 
+    <!-- slik / den slags -->
+    <e lm="en slik → slik" c="den slags">
+      <p>
+        <l>en<t/><d/></l>
+        <r></r>
+      </p>
+      <i>slik<t/><d/></i>
+    </e>
+
     <!-- Fixed expressions -->
 
     <e lm="i siste liten → i siste øyeblikk" c="i sidste øjeblik">
