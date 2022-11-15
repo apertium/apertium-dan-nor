@@ -615,6 +615,9 @@
       <match lemma="spele"/>
     </or>
   </rule>
+
+  <rule><match lemma="bygg" tags="n.*"><select lemma="bygning"/></match></rule>
+  <rule><match lemma="bygning" tags="n.*"><select lemma="bygning"/></match></rule>
 </rules>
 
 </lrx>
