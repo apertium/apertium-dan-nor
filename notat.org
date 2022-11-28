@@ -1,7 +1,6 @@
 * fejl [2022-11-02 on.]
 
   - er ramte → som er rammet/som rammes (eller som lider av?)
-  - stor overvekt av X blant dem som er rammet → stor overvekt av X lider (pleonasme)
   - «Andre har opplevd» blir *«Annet har»
   - den samlede veiledningen barn og unge får til→i å
   - kunnskaper → viden

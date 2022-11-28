@@ -331,9 +331,9 @@
       <e><i>kunne<s n="vblex"/><t/><d/></i></e>
     </pardef>
 
-    <pardef n="være/bli">
-      <e><i>være<s n="vblex"/><t/><d/></i></e>
-      <e><i>bli<s n="vblex"/><t/><d/></i></e>
+    <pardef n="være/bli:">
+      <e><p><l>være</l><r></r></p></e>
+      <e><p><l>bli</l><r></r></p></e>
     </pardef>
 
     <pardef n="sent-cm">
@@ -447,6 +447,14 @@
       <e><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/></e>
       <e><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/></e>
       <e><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/><par n="ANYWORD"/></e>
+    </pardef>
+
+    <pardef n="blant_de:|" c="fjern «blant de», inkluderer tom overgang">
+      <e></e>
+      <e>
+        <p><l>blant<s n="pr"/><d/></l> <r></r></p>
+        <p><l>de<s n="prn"/></l> <r></r></p> <par n="td:"/>
+      </e>
     </pardef>
 
   </pardefs>
@@ -600,6 +608,34 @@
         <l>som<t/><d/></l>
         <r>og<s n="cnjcoo"/><d/></r>
       </p>
+    </e>
+
+    <e lm="det er overvekt av X blant dem som er rammet" c="en overvekt av X lider">
+      <p>
+        <l>den<s n="det"/><s n="dem"/><s n="nt"/><t/></l>
+        <r>en<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r>
+      </p> <par n="d"/>
+      <par n="være/bli:"/> <par n="td:"/>
+      <par n="ANYWORD_1,7"/>
+      <i>overvekt</i> <par n="td"/>
+      <i>av</i> <par n="td"/>
+      <i><w/><s n="n"/><t/><d/></i>
+      <par n="blant_de:|"/>
+      <p><l>som<s n="cnjsub"/><d/></l> <r></r></p>
+      <par n="være/bli:"/> <p><l></l> <r>lide</r></p> <par n="td"/>
+      <p><l>ramme<s n="adj"/><s n="pp"/><s n="pl"/><d/></l> <r></r></p>
+    </e>
+    <e lm="er det overvekt av X blant dem som er rammet" c="lider en overvekt av X">
+      <par n="være/bli:"/> <p><l></l> <r>lide</r></p> <par n="td"/>
+      <p><l>den<s n="det"/><s n="dem"/><s n="nt"/></l><r></r></p> <par n="td:"/>
+      <par n="ANYWORD_1,7"/>
+      <i>overvekt</i> <par n="td"/>
+      <i>av</i> <par n="td"/>
+      <i><w/><s n="n"/><t/><d/></i>
+      <par n="blant_de:|"/>
+      <p><l>som<s n="cnjsub"/><d/></l> <r></r></p>
+      <par n="være/bli:"/> <par n="td:"/>
+      <p><l>ramme<s n="adj"/><s n="pp"/><s n="pl"/><d/></l> <r></r></p>
     </e>
 
     <!-- number change -->
