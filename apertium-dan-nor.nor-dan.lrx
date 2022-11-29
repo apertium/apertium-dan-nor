@@ -320,7 +320,26 @@
     <rule><match lemma="helse" tags="n.*"><select lemma="helse"/></match></rule>
     <rule weight="2.0"><match lemma="helse" tags="n.*.cmp.*"><select lemma="sundhed"/></match></rule>
 
-    <rule><match lemma="for" tags="pr"><select lemma="for"/></match></rule>
+    <rule><match lemma="for" tags="pr.*"><select lemma="for"/></match></rule>
+    <rule weight="2.0">
+      <or>
+        <match lemma="ansvarlig"/>
+        <match lemma="ansvarleg"/>
+        <match lemma="følsomhet"/>
+        <match lemma="overfølsomhet"/>
+      </or>
+      <match lemma="for" tags="pr.*"><select lemma="over for"/></match>
+    </rule>
+
+    <rule><match lemma="til" tags="pr.*"><select lemma="til"/></match></rule>
+    <rule weight="2.0">
+      <or>
+        <match lemma="skeptisk"/>
+        <match lemma="kritisk"/>
+      </or>
+      <match lemma="til" tags="pr.*"><select lemma="over for"/></match>
+    </rule>
+
     <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
     <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
     <rule weight="2.0" c="en betegnelse for">
@@ -661,6 +680,8 @@
     </or>
     <match lemma="diett" tags="n.*"><select lemma="diæt"/></match>
   </rule>
+
+
 </rules>
 
 </lrx>
