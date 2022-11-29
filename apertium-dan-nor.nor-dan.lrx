@@ -624,6 +624,25 @@
 
   <rule><match lemma="kost" tags="n.*"><select lemma="kost"/></match></rule>
   <rule><match lemma="matvare" tags="n.*"><select lemma="fødevare"/></match></rule>
+
+  <rule><match lemma="forstyrrelse" tags="n.*"><select lemma="forstyrrelse"/></match></rule>
+  <rule><match lemma="forstyrring" tags="n.*"><select lemma="forstyrrelse"/></match></rule>
+  <rule weight="2.0" c="mineralforstyrrelse → mineralmangel">
+    <or>
+      <match lemma="mineral"/>
+      <match lemma="mineral"/>
+    </or>
+    <match lemma="forstyrrelse" tags="n.*"><select lemma="mangel"/></match>
+  </rule>
+
+  <rule><match lemma="blodfattig" tags="adj.*"><select lemma="anæmisk"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="blodfattig" tags="adj.*"><select lemma="blodfattig"/></match>
+    <or>
+      <match lemma="roman"/>
+      <match lemma="bok"/>
+    </or>
+  </rule>
 </rules>
 
 </lrx>
