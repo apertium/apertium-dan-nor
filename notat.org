@@ -87,17 +87,14 @@
   - 3-månedersalderen regex
 
 * fejl [2022-11-03 to.]
-  - som ikke tåler → som ikke kan tåle LSX
   - Fett og fettløselige vitaminer → Fedt og fedtopløselige
   - benbygningen → knogleopbygningen
   - udiagnostiseret
   - går udiagnostisert i lang tid → forblir diagnosticeret i lang tid LRX
   - oppsuging→optagelse av næringsstoffer LRX
   - suger X opp → optager X LSX
-  - i utgangspunktet → som udgangspunkt
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
   - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
-  - Matvareintoleranse→Fødevareintoleranse
   - voksen alder → voksenalderen
   - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
   - stille riktig diagnose → den rigtige diagnose

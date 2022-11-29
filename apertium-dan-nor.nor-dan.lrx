@@ -623,6 +623,7 @@
   <rule><match lemma="påkjennelse" tags="n.*"><select lemma="belastning"/></match></rule>
 
   <rule><match lemma="kost" tags="n.*"><select lemma="kost"/></match></rule>
+  <rule><match lemma="matvare" tags="n.*"><select lemma="fødevare"/></match></rule>
 </rules>
 
 </lrx>

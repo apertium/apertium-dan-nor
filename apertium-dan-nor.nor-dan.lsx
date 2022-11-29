@@ -265,6 +265,13 @@
       <e><i><w/><s n="det"/><s n="dem"/><t/><d/></i></e>
     </pardef>
 
+    <pardef n="adv|prn.nom|expl|" c="Includes empty!">
+      <e></e>
+      <e><par n="adv"/></e>
+      <e><par n="prn"/></e>
+      <e><i><w/><s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="expl"/><d/></i></e>
+    </pardef>
+
     <pardef n="SN|prn" c="nonempty">
       <e><par n="SN"/></e>
       <e><par n="prn"/></e>
@@ -636,6 +643,12 @@
       <p><l>som<s n="cnjsub"/><d/></l> <r></r></p>
       <par n="være/bli:"/> <par n="td:"/>
       <p><l>ramme<s n="adj"/><s n="pp"/><s n="pl"/><d/></l> <r></r></p>
+    </e>
+
+    <e lm="tåler det → kan det tåle" c="kan det tåle">
+      <p><l>tåle</l> <r>kunne</r></p> <par n="td"/>
+      <par n="adv|prn.nom|expl|"/> <!-- @subj -->
+      <p><l></l> <r>tåle<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
     <!-- number change -->
