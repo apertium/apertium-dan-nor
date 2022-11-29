@@ -651,6 +651,16 @@
       <p><l></l> <r>tåle<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
+    <e lm="voksen alder → voksenalderen" c="voksenalderen">
+      <i>voksen</i> <par n="td:"/>
+      <i>alder<s n="n"/><s n="m"/><s n="sg"/></i> <p><l><s n="ind"/></l> <r><s n="def"/></r></p> <par n="d"/>
+    </e>
+    <e lm="ung voksen alder → ung voksenalder" c="ung voksenalder">
+      <i><w/><s n="adj"/></i> <par n="td"/>
+      <i>voksen</i> <par n="td:"/>
+      <i>alder</i>  <par n="td"/>
+    </e>
+
     <!-- number change -->
 
     <e lm="barneårene → barndommen" c="barndommen">
