@@ -643,6 +643,11 @@
       <match lemma="bok"/>
     </or>
   </rule>
+
+  <rule><match lemma="mal" tags="n.*"><select lemma="skabelon"/></match></rule>
+  <rule weight="2.0" c="malabsorbsjon">
+    <match lemma="mal" tags="n.*.cmp"><select lemma="mal"/></match>
+  </rule>
 </rules>
 
 </lrx>

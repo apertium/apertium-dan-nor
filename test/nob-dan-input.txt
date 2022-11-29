@@ -151,3 +151,4 @@ Tilstanden viser seg fra tidlig barnealder og kan vare inn i voksen alder.
 Det kan imidlertid by på store problemer å stille en riktig diagnose, hvis man skal kunne stille riktig diagnose.
 Symptomene er avmagring, sterkt redusert melkeytelse, nedsatt appetitt og illeluktende avføring, vantrivsel, brekninger og vekttap.
 Pasientene kan også bli blodfattige, og mineralforstyrrelser kan føre til muskelsmerter og kramper.
+Malabsorpsjon forekommer særlig ved kroniske betennelser i tynntarmen, dersom store deler av tynntarmen er fjernet ved operasjoner, eller om det er for liten tilførsel av fordøyelsesenzymer fra bukspyttkjertelen eller av galle fra leveren.

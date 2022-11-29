@@ -96,9 +96,6 @@
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
   - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
   - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
-  - ukarakteristiske → ukarakteristiske
-  - dersom→hvis (alltid, det er arkaisk)
-    «Malabsorpsjon forekommer særlig ved kroniske betennelser i tynntarmen, dersom store deler av tynntarmen er fjernet ved operasjoner, eller om det er for liten tilførsel av fordøyelsesenzymer fra bukspyttkjertelen eller av galle fra leveren.»
   - kosthold → kost
   - diett → kost (diæt er ein *plan* for kost)
     - en absolut diæt → en streng diæt
