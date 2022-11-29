@@ -96,8 +96,6 @@
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
   - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
   - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
-  - stille riktig diagnose → den rigtige diagnose
-  - før en riktig diagnose blir stilt → før den rigtige diagnose blir stilt
   - avmagring → afmagring
   - vantrivsel → mistrivsel
   - mineralforstyrrelse → mineralmangel

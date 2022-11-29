@@ -464,6 +464,11 @@
       </e>
     </pardef>
 
+    <pardef n="en2den" c="viss «en», skriv om til «den», elles berre skriv «den»">
+      <e> <p><l>en<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/><d/></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><d/></r></p> </e>
+      <e> <p><l></l>                                                    <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><d/></r></p> </e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -523,6 +528,11 @@
       <i>seg</i><par n="td"/>
     </e>
 
+    <e lm="tåler det → kan det tåle" c="kan det tåle">
+      <p><l>tåle</l> <r>kunne</r></p> <par n="td"/>
+      <par n="adv|prn.nom|expl|"/> <!-- @subj -->
+      <p><l></l> <r>tåle<s n="vblex"/><s n="inf"/><d/></r></p>
+    </e>
 
     <!-- Other verb + adv + noun phrase rewritings: -->
 
@@ -645,12 +655,6 @@
       <p><l>ramme<s n="adj"/><s n="pp"/><s n="pl"/><d/></l> <r></r></p>
     </e>
 
-    <e lm="tåler det → kan det tåle" c="kan det tåle">
-      <p><l>tåle</l> <r>kunne</r></p> <par n="td"/>
-      <par n="adv|prn.nom|expl|"/> <!-- @subj -->
-      <p><l></l> <r>tåle<s n="vblex"/><s n="inf"/><d/></r></p>
-    </e>
-
     <e lm="voksen alder → voksenalderen" c="voksenalderen">
       <i>voksen</i> <par n="td:"/>
       <i>alder<s n="n"/><s n="m"/><s n="sg"/></i> <p><l><s n="ind"/></l> <r><s n="def"/></r></p> <par n="d"/>
@@ -659,6 +663,14 @@
       <i><w/><s n="adj"/></i> <par n="td"/>
       <i>voksen</i> <par n="td:"/>
       <i>alder</i>  <par n="td"/>
+    </e>
+
+    <e lm="stille riktig diagnose" c="stille den rigtige diagnose">
+      <par n="en2den"/>
+      <i>riktig<s n="adj"/><s n="sint"/><s n="pst"/></i>
+        <p><l><s n="mf"/><s n="sg"/><s n="ind"/></l> <r><s n="un"/><s n="sp"/><s n="def"/></r></p>
+        <par n="d"/>
+      <i>diagnose</i>  <par n="td"/>
     </e>
 
     <!-- number change -->
