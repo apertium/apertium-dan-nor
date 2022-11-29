@@ -87,7 +87,6 @@
   - 3-månedersalderen regex
 
 * fejl [2022-11-03 to.]
-  - Behandlingen er strengt glutenfri kost (blir hygget!)
   - som ikke tåler → som ikke kan tåle LSX
   - Fett og fettløselige vitaminer → Fedt og fedtopløselige
   - benbygningen → knogleopbygningen

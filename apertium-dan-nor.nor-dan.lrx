@@ -618,6 +618,11 @@
 
   <rule><match lemma="bygg" tags="n.*"><select lemma="bygning"/></match></rule>
   <rule><match lemma="bygning" tags="n.*"><select lemma="bygning"/></match></rule>
+
+  <rule><match lemma="påkjenning" tags="n.*"><select lemma="belastning"/></match></rule>
+  <rule><match lemma="påkjennelse" tags="n.*"><select lemma="belastning"/></match></rule>
+
+  <rule><match lemma="kost" tags="n.*"><select lemma="kost"/></match></rule>
 </rules>
 
 </lrx>
