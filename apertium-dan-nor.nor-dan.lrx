@@ -648,6 +648,19 @@
   <rule weight="2.0" c="malabsorbsjon">
     <match lemma="mal" tags="n.*.cmp"><select lemma="mal"/></match>
   </rule>
+
+  <rule><match lemma="kosthald" tags="n.*"><select lemma="kost"/></match></rule>
+  <rule><match lemma="kosthold" tags="n.*"><select lemma="kost"/></match></rule>
+
+  <rule><match lemma="absolutt" tags="adj.*"><select lemma="absolut"/></match></rule>
+  <rule><match lemma="diett" tags="n.*"><select lemma="kost"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="absolutt" tags="adj.*"><select lemma="streng"/></match>
+      <match lemma="streng" tags="adj.*"><select lemma="streng"/></match>
+    </or>
+    <match lemma="diett" tags="n.*"><select lemma="diæt"/></match>
+  </rule>
 </rules>
 
 </lrx>
