@@ -87,8 +87,6 @@
   - 3-månedersalderen regex
 
 * fejl [2022-11-03 to.]
-  - udiagnostiseret
-  - går udiagnostisert i lang tid → forblir diagnosticeret i lang tid LRX
   - oppsuging→optagelse av næringsstoffer LRX
   - suger X opp → optager X LSX
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.

@@ -317,6 +317,9 @@
   <rule><match lemma="kuperet" tags="adj.*"><select lemma="kupert"/></match></rule>
   <rule><match lemma="agern" tags="n.*"><select lemma="eikenøtt"/></match></rule>
   <rule><match lemma="byggeri" tags="n.*"><select lemma="bygning"/></match></rule>
+
+  <rule><match lemma="gå"><select lemma="gå"/></match></rule>
+  <rule><match lemma="optage"><select lemma="oppta"/></match></rule>
 </rules>
 </lrx>
 

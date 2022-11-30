@@ -681,6 +681,16 @@
     <match lemma="diett" tags="n.*"><select lemma="diæt"/></match>
   </rule>
 
+  <rule><match lemma="gå"><select lemma="gå"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="gå"><select lemma="forblive"/></match>
+    <repeat from="0" upto="2"> <match/></repeat>
+    <or>
+      <match lemma="diagnostisere"/>
+      <match lemma="udiagnostisert"/>
+    </or>
+  </rule>
+
   <!-- men adverbet alltid «løselig» (løselig basert på) -->
   <rule>
     <or>
@@ -711,6 +721,8 @@
       <match lemma="par"/>
     </or>
   </rule>
+
+  <rule><match lemma="oppsuge" tags="vblex.*"><select lemma="optage"/></match></rule>
 </rules>
 
 </lrx>
