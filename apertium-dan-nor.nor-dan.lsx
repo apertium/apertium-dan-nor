@@ -598,6 +598,13 @@
       </p>
     </e>
 
+    <e lm="en sjelden gang → sjeldent" c="sjældent">
+      <p><l>en<t/><d/></l><r/></p>
+      <p><l>sjelden<t/><d/></l><r/></p>
+      <p><l>gang<s n="n"/><t/></l><r></r></p>
+      <p><l></l> <r>sjelden<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
+    </e>
+
     <e lm="vann.n med kullsyre → vann med kullsyre.n" c="danskvand">
       <p>
         <l>vann</l>
@@ -659,6 +666,11 @@
       <p><l>som<s n="cnjsub"/><d/></l> <r></r></p>
       <par n="være/bli:"/> <par n="td:"/>
       <p><l>ramme<s n="adj"/><s n="pp"/><s n="pl"/><d/></l> <r></r></p>
+    </e>
+
+    <e lm="femårsalder → femårsalderen (etc., regex)" c="femårsalderen">
+      <re>[a-zæøå]+års</re>
+      <i>alder<s n="n"/><s n="m"/><s n="sg"/></i> <p><l><s n="ind"/></l> <r><s n="def"/></r></p> <par n="d"/>
     </e>
 
     <e lm="voksen alder → voksenalderen" c="voksenalderen">

@@ -741,6 +741,30 @@
     <match lemma="spekter" tags="n.*"><select lemma="spekter"/></match>
     <match lemma="farge"/>
   </rule>
+
+  <rule><match lemma="kle" tags="vblex.*"><select lemma="klæde"/></match></rule>
+  <rule weight="2.0" c="beklædt med">
+    <match lemma="kle"><select lemma="beklæde"/></match>
+    <match lemma="med"/>
+  </rule>
+
+  <rule>
+    <or>
+      <match lemma="da" tags="adv.*"><select lemma="da"/></match>
+      <match lemma="då" tags="adv.*"><select lemma="da"/></match>
+    </or>
+  </rule>
+  <rule weight="2.0" c="den består da normalt av → den består så almindeligvis av">
+    <or>
+      <match lemma="da" tags="adv.*"><select lemma="så"/></match>
+      <match lemma="då" tags="adv.*"><select lemma="så"/></match>
+    </or>
+    <match tags="adv.*"/>
+  </rule>
+
+
+  <rule><match lemma="normalt"><select lemma="almindeligvis"/></match></rule>
+
 </rules>
 
 </lrx>
