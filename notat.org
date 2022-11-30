@@ -87,8 +87,6 @@
   - 3-månedersalderen regex
 
 * fejl [2022-11-03 to.]
-  - Fett og fettløselige vitaminer → Fedt og fedtopløselige
-  - benbygningen → knogleopbygningen
   - udiagnostiseret
   - går udiagnostisert i lang tid → forblir diagnosticeret i lang tid LRX
   - oppsuging→optagelse av næringsstoffer LRX

@@ -681,7 +681,36 @@
     <match lemma="diett" tags="n.*"><select lemma="diæt"/></match>
   </rule>
 
+  <!-- men adverbet alltid «løselig» (løselig basert på) -->
+  <rule>
+    <or>
+      <match lemma="løselig" tags="adj.*"><select lemma="opløselig"/></match>
+      <match lemma="lauseleg" tags="adj.*"><select lemma="opløselig"/></match>
+    </or>
+  </rule>
 
+  <rule>
+    <or>
+      <match lemma="bein" tags="n.*"><select lemma="ben"/></match>
+      <match lemma="ben" tags="n.*"><select lemma="ben"/></match>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="bein" tags="n.*.cmp.*"><select lemma="knogle"/></match>
+      <match lemma="ben" tags="n.*.cmp.*"><select lemma="knogle"/></match>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="bein" tags="n.*.cmp.*"><select lemma="ben"/></match>
+      <match lemma="ben" tags="n.*.cmp.*"><select lemma="ben"/></match>
+    </or>
+    <or>
+      <match lemma="par"/>
+      <match lemma="par"/>
+    </or>
+  </rule>
 </rules>
 
 </lrx>
