@@ -4,7 +4,6 @@
   - «Andre har opplevd» blir *«Annet har»
   - den samlede veiledningen barn og unge får til→i å
   - kunnskaper → viden
-  - den kultur[,] barnet vokser opp på→i
   - alle sider ved→av personligheten
   - Man anteger at → Man antager, at
   - medikamentell → medisinsk
@@ -21,18 +20,11 @@
   - vev manglar cp-R (støttevev, kjertelvev)
     - pulpavæv
   - kledt med → beklædt med
-  - skole og andre voksne[,] som barn har nærkontakt med
-  - den samlede veiledningen[,] barn og unge får
-  - kjertelen er et blodrigt organ[,] og gennemstrømmes
     ANTEN ikkje komma, ELLER legg inn subjekt (den)
     (kan me ta «, og» → «og» ?)
-  - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
   - cirka → ca.
   - totalvurdering → helhedsvurdering
 
-  - Det er meget[,] som→der tyder på
-  - Det har lenge vært kjent[,] at barnets psykiske u…
-  - Det→Der er mange[,] som har sykdommen i lett grad
 
   - Samtidig kan det→der også findes→være betennelse i ryggmargen
   - - findes→være pga. den er ikkje funnen, men eksisterer
@@ -63,7 +55,6 @@
   - mer sjelden behandles → mer sjeldent behandles
     (ingen subst etter, så -t)
 
-  - indreb i munden[,] og kæbe- ansigtsskelettet.
     (ikkje komma ved det innskotet på slutten av setninga – kan me laga reglar for det?)
 
   - spekter → spektrum, utanom alle spekterets farver
@@ -86,10 +77,26 @@
   - Barnet tager efter → Barnet rækker ud efter
   - 3-månedersalderen regex
 
-* fejl [2022-11-03 to.]
-  - oppsuging→optagelse av næringsstoffer LRX
-  - suger X opp → optager X LSX
+* kommafejl [2022-11-02 on.]--[2022-11-03 to.]
+
+  - den kultur[,] barnet vokser opp på→i
+  - skole og andre voksne[,] som barn har nærkontakt med
+  - den samlede veiledningen[,] barn og unge får
+  - kjertelen er et blodrigt organ[,] og gennemstrømmes
+  - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
+  - Det er meget[,] som→der tyder på
+  - Det har lenge vært kjent[,] at barnets psykiske u…
+  - Det→Der er mange[,] som har sykdommen i lett grad
+  - indreb i munden[,] og kæbe- ansigtsskelettet.
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
+  - Vi skiller mellom skulderleddet (humeri)[,] som er forbindelsen mellom A og B.
+  - Formen på leddhodet tilsier[,] at overarmsbeinet kan beveges i alle retninger.
+  - Leddet har en kort hals (collum humeri), hvor vi finner to beinknuter (tuberculum majus & minus)[,] som er feste for noen av skuldermusklene (rotatormansjetten).
+  - På hver side av leddflaten finner vi den indre og ytre albueknoken (epicondylus medialis & lateralis)[,] som kan kjennes under huden.
+  - arteria ulnaris[,] som følger albuebeinet, og arteria radialis[,] som følger spolebeinet.
+
+
+* fejl [2022-11-03 to.]
   - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
   - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
   - vil symptomene melde seg ganske raskt igjen → melde sig igen temmelig hurtigt
@@ -130,12 +137,7 @@
   - å feste→fæstne overarmen til skulderbladet
   - Vi skiller→skelner mellom to uttrykk
   - Vi skiller fra → adskille
-  - Vi skiller mellom skulderleddet (humeri)[,] som er forbindelsen mellom A og B.
   - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
-  - Formen på leddhodet tilsier[,] at overarmsbeinet kan beveges i alle retninger.
-  - Leddet har en kort hals (collum humeri), hvor vi finner to beinknuter (tuberculum majus & minus)[,] som er feste for noen av skuldermusklene (rotatormansjetten).
-  - På hver side av leddflaten finner vi den indre og ytre albueknoken (epicondylus medialis & lateralis)[,] som kan kjennes under huden.
-  - arteria ulnaris[,] som følger albuebeinet, og arteria radialis[,] som følger spolebeinet.
   - Den fortsetter gjennom armhulen (axilla)[ikkje komma!] som arteria axillaris og ned langs overarmens innside som arteria brachialis.
   - ulna<n>, select tidleg i DIS
   - Man kan kjenne→mærke kanten av albuebeinet
