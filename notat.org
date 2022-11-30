@@ -10,10 +10,6 @@
   - medikamentutløst → medisinutløst, osb for cp-L medikament-
   - bortset fra de tilfælde, der→hvor
   - eksponseringsbehandling→~terapi
-  - kun=only, bare=just
-    - det kan vi bare gjøre
-    - man skal bare huske
-    - unntak: ikke bare → ikke bare
   - midtelap→midterlap
   - Normalt veier den → Normalt vejeR den
   - også forstørres noe under → også forstørres lidt under
@@ -57,7 +53,6 @@
 
     (ikkje komma ved det innskotet på slutten av setninga – kan me laga reglar for det?)
 
-  - spekter → spektrum, utanom alle spekterets farver
   - bløtdelsvevet → det bløde væv, bløtdelsvæv → blødt væv
   - (som) er festet → (som) sitter fast LSX
   - er på plass → sidder riktigt??? for spesifikt

@@ -377,12 +377,11 @@
 
     <rule><match lemma="vanskelig" tags="adj.*"><select lemma="svær"/></match></rule>
     <rule><match lemma="vanskeleg" tags="adj.*"><select lemma="svær"/></match></rule>
-
-    <rule weight="2.0">
-    <or>
-      <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
-      <match lemma="vanskeleg" tags="adj.*"><select lemma="vanskelig"/></match>
-    </or>
+    <rule weight="2.0" c="vanskelig tilgjengelig">
+      <or>
+        <match lemma="vanskelig" tags="adj.*"><select lemma="vanskelig"/></match>
+        <match lemma="vanskeleg" tags="adj.*"><select lemma="vanskelig"/></match>
+      </or>
       <or>
         <match lemma="tilgjengelig"/>
         <match lemma="grunnet"/>
@@ -392,7 +391,7 @@
         <match lemma="pga"/>
       </or>
     </rule>
-    <rule weight="2.0">
+    <rule weight="2.0" c="bare vanskelig kan">
       <or>
         <match lemma="kun"/>
         <match lemma="bare"/>
@@ -573,7 +572,20 @@
   </rule>
 
 
+  <!-- kun=only, bare=just -->
   <rule><match lemma="bare" tags="adv.*"><select lemma="kun"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="man"/>
+    <match lemma="skal"/>
+    <match lemma="bare" tags="adv.*"><select lemma="bare"/></match>
+  </rule>
+  <rule weight="2.0" c="ikke bare">
+    <or>
+      <match lemma="ikke"/>
+      <match lemma="ikkje"/>
+    </or>
+    <match lemma="bare" tags="adv.*"><select lemma="bare"/></match>
+  </rule>
 
   <rule><match lemma="frisk" tags="adj.*"><select lemma="rask"/></match></rule>
 
@@ -723,6 +735,12 @@
   </rule>
 
   <rule><match lemma="oppsuge" tags="vblex.*"><select lemma="optage"/></match></rule>
+
+  <rule><match lemma="spekter" tags="n.*"><select lemma="spektrum"/></match></rule>
+  <rule weight="2.0" c="spekterets farver">
+    <match lemma="spekter" tags="n.*"><select lemma="spekter"/></match>
+    <match lemma="farge"/>
+  </rule>
 </rules>
 
 </lrx>
