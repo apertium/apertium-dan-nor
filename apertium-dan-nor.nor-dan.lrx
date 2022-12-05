@@ -764,6 +764,10 @@
 
 
   <rule><match lemma="normalt"><select lemma="almindeligvis"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="normalt"><select lemma="normalt"/></match>
+    <match lemma="."/>
+  </rule>
 
 </rules>
 
