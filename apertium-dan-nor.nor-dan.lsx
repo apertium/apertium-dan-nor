@@ -696,6 +696,12 @@
       <i>tilfelle</i>  <par n="td"/>
     </e>
 
+    <e lm="bitte liten → ørliten" c="lillebitte">
+      <p><l>bitte<t/><d/></l> <r></r></p>
+      <p><l>liten<s n="adj"/></l> <r>ørliten<s n="adj"/></r></p> <par n="td"/>
+    </e>
+
+
     <!-- number change -->
 
     <e lm="barneårene → barndommen" c="barndommen">
