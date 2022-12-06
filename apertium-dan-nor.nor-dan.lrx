@@ -338,6 +338,12 @@
       </or>
       <match lemma="til" tags="pr.*"><select lemma="over for"/></match>
     </rule>
+    <rule weight="2.0" c="veiledningen barn og unge får til→i å">
+      <match lemma="veiledning" tags="n.*"/> <!-- other such? -->
+      <repeat from="0" upto="5"><match/></repeat>
+      <match lemma="til" tags="pr.*"><select lemma="i"/></match>
+      <match lemma="å"/>
+    </rule>
 
     <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
     <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
@@ -775,6 +781,19 @@
     <match lemma="plage" tags="n.*.pl.*"><select lemma="symptom"/></match>
   </rule>
 
+  <rule><match lemma="ved" tags="pr.*"><select lemma="ved"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="all"/>
+      <match lemma="flere"/>
+      <match lemma="fleire"/>
+      <match lemma="andre"/>
+      <match lemma="annen"/>
+      <match lemma="annan"/>
+    </or>
+    <match lemma="side"/>
+    <match lemma="ved" tags="pr.*"><select lemma="af"/></match>
+  </rule>
 </rules>
 
 </lrx>

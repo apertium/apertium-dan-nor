@@ -1,11 +1,6 @@
 * fejl [2022-11-02 on.]
 
   - er ramte → som er rammet/som rammes (eller som lider av?)
-  - «Andre har opplevd» blir *«Annet har»
-  - den samlede veiledningen barn og unge får til→i å
-  - kunnskaper → viden
-  - alle sider ved→av personligheten
-  - Man anteger at → Man antager, at
   - medikamentell → medisinsk
   - medikamentutløst → medisinutløst, osb for cp-L medikament-
   - bortset fra de tilfælde, der→hvor
@@ -23,7 +18,6 @@
   - kommer det→der også
 
   - er veldig→meget forskjellige
-  - blant anden→andet
   - av hva slags → av hvilken slags
   - i voksen alder → i voksenalderen
   - snakke → tale (snakke er meir snakke saman, «papegøyer snakker, vi taler»)
@@ -62,6 +56,7 @@
 
 * kommafejl [2022-11-02 on.]--[2022-11-03 to.]
 
+  - Man antager[,] at
   - den kultur[,] barnet vokser opp på→i
   - skole og andre voksne[,] som barn har nærkontakt med
   - den samlede veiledningen[,] barn og unge får

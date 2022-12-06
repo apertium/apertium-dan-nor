@@ -214,5 +214,6 @@
 
   <rule><match lemma="gå"><select lemma="gå"/></match></rule>
   <rule><match lemma="optage"><select lemma="oppta"/></match></rule>
+  <rule><match lemma="af" tags="pr.*"><select lemma="av"/></match></rule>
 </rules>
 </lrx>
