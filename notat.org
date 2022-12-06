@@ -1,8 +1,6 @@
 * fejl [2022-11-02 on.]
 
   - er ramte → som er rammet/som rammes (eller som lider av?)
-  - medikamentell → medisinsk
-  - medikamentutløst → medisinutløst, osb for cp-L medikament-
   - bortset fra de tilfælde, der→hvor
   - eksponseringsbehandling→~terapi
   - midtelap→midterlap
@@ -21,8 +19,6 @@
   - av hva slags → av hvilken slags
   - i voksen alder → i voksenalderen
   - snakke → tale (snakke er meir snakke saman, «papegøyer snakker, vi taler»)
-  - Cushings syndrom→sygdom?
-    vanleg forskjell, kan me finna ei liste?
   - *blåmerker → blå mærke
   - knogleskørhed, ikkje knogleskrøbelighed
   - rødfiolett → rødlilla (eller rødviolet)

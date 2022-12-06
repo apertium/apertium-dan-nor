@@ -595,6 +595,9 @@
   <rule><match lemma="frisk" tags="adj.*"><select lemma="rask"/></match></rule>
 
   <rule><match lemma="medikament" tags="n.*"><select lemma="lægemiddel"/></match></rule>
+  <rule>
+    <match lemma="medikament" tags="n.*.cmp.*"><select lemma="medicin"/></match>
+  </rule>
   <rule><match lemma="underkjeve" tags="n.*"><select lemma="underkæbe"/></match></rule>
 
   <rule c="lag"><match lemma="lag" tags="n.*"><select lemma="lag"/></match></rule>
@@ -793,6 +796,14 @@
     </or>
     <match lemma="side"/>
     <match lemma="ved" tags="pr.*"><select lemma="af"/></match>
+  </rule>
+
+  <rule><match lemma="medikamentell" tags="adj.*"><select lemma="medicinsk"/></match></rule>
+
+  <rule><match lemma="syndrom" tags="n.*"><select lemma="syndrom"/></match></rule>
+  <rule weight="2.0" c="Cushings syndrom → Cushings sygdom">
+    <match tags="np.*.gen.*"/>
+    <match lemma="syndrom" tags="n.*"><select lemma="sygdom"/></match>
   </rule>
 </rules>
 
