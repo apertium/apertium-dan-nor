@@ -769,6 +769,12 @@
   </rule>
 
   <rule><match lemma="klesvask" tags="n.*"><select lemma="tøjvask"/></match></rule>
+
+  <rule><match lemma="plage" tags="n.*"><select lemma="plage"/></match></rule>
+  <rule weight="2.0" c="plager (fleirtal) → symptom">
+    <match lemma="plage" tags="n.*.pl.*"><select lemma="symptom"/></match>
+  </rule>
+
 </rules>
 
 </lrx>
