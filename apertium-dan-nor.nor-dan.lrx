@@ -768,6 +768,7 @@
     <match lemma="."/>
   </rule>
 
+  <rule><match lemma="klesvask" tags="n.*"><select lemma="tøjvask"/></match></rule>
 </rules>
 
 </lrx>
