@@ -8,7 +8,7 @@
 [/0fNOhzUY_A9i]
 [0hALHGLyo0Bi#0] Giveren skal ikke have sygdom, der kan overføres gennem blod (for eksempel syfilis, malaria, hepatitis, HIV og andre vira eller bakterielle infektioner) eller været akut syg de sidste to uger før tapning.
 [/0hALHGLyo0Bi]
-[1Ah3VsvsneVx#0] Formidling af holdninger, normer, værdier, viden og færdigheder, der er vigtige i den kultur barnet vokser op i er centralt i børneopdragelsen.
+[1Ah3VsvsneVx#0] Formidling af holdninger, normer, værdier, viden og færdigheder, der er vigtige i den kultur, barnet vokser op i er centralt i børneopdragelsen.
 [/1Ah3VsvsneVx]
 [1QfScZ9farIF#0] Enkle sulfater dannes af V(II) og V(III), for eksempel _vanadium(II)sulfat_, med kemisk formel VSO₄ · *7H₂O, et rødlilla stof, som let oxideres i luft og løses i vand.
 [/1QfScZ9farIF]
@@ -116,7 +116,7 @@
 [/MlOW-v2xgolS]
 [MtwhjGkZ0Cby#0] Planten kan ikke tåle temperaturer under 10 grader.
 [/MtwhjGkZ0Cby]
-[NZtQVhFIuq3_#0] Børneopdragelse er den samlede vejledning børn og unge får i at beherske livet og udvikle sig til voksne, selvstændige mennesker.
+[NZtQVhFIuq3_#0] Børneopdragelse er den samlede vejledning, børn og unge får i at beherske livet og udvikle sig til voksne, selvstændige mennesker.
 [/NZtQVhFIuq3_]
 [NjoGcjnyg01W#0] Særlig i Tyskland har det været drevet seriøs forskning rundt fænomenet, men i dag har det ingen plads i den videnskabelige litteratur.
 [/NjoGcjnyg01W]
@@ -242,7 +242,7 @@
 [/m6_qiCdh824e]
 [mHdb9RZQDlWp#0] den direkte pressestøtte.
 [/mHdb9RZQDlWp]
-[mgR6gyAKGX8l#0] Vi er ikke tilfredse med tiltagene regeringen skitserer.
+[mgR6gyAKGX8l#0] Vi er ikke tilfredse med tiltagene, regeringen skitserer.
 [/mgR6gyAKGX8l]
 [mmaAGiyZsxfv#0] en senere omdiskuteret ordre.
 [/mmaAGiyZsxfv]
