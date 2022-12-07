@@ -8,6 +8,8 @@
 [/0fNOhzUY_A9i]
 [0hALHGLyo0Bi#0] Giveren skal ikke have sygdom, der kan overføres gennem blod (for eksempel syfilis, malaria, hepatitis, HIV og andre vira eller bakterielle infektioner) eller været akut syg de sidste to uger før tapning.
 [/0hALHGLyo0Bi]
+[1QfScZ9farIF#0] Enkle sulfater dannes af V(II) og V(III), for eksempel _vanadium(II)sulfat_, med kemisk formel VSO₄ · *7H₂O, et rødlilla stof, som let oxideres i luft og løses i vand.
+[/1QfScZ9farIF]
 [1x4sVzQ8s9s1#0] Om sommeren er der mange danskere, der cykler. Også selvom det regner.
 [/1x4sVzQ8s9s1]
 [2PGRy4OmOzYo#0] Behandlingen er strengt glutenfri kost.
@@ -30,6 +32,8 @@
 [/4wFKM-Yi4QCY]
 [5pP8Q6Gc8x6t#0] Karsygdomme omfatter sygdomsprocesser som *årebetennelser (arteritis, flebitis), aterosklerose og blodprop, sjældnere også svulster (*angiom).
 [/5pP8Q6Gc8x6t]
+[66teRkQpzt0S#0] Dette brud rammer hyppigst ældre og de med knogleskørhed.
+[/66teRkQpzt0S]
 [6KvLKp1kq_xT#0] Det vises film.
 [/6KvLKp1kq_xT]
 [7QuFCf5meKOT#0] Den består så almindeligvis kun af kronen.
@@ -62,7 +66,7 @@
 [/DWfCnYS0Za9R]
 [DofWEpn1PnRQ#0] Men som tidligere nævnt er der flere problemer med dette.
 [/DofWEpn1PnRQ]
-[E0jS9VmvL-a0#0] Cøliaki er en tyndtarmssygdom, som skyldes at den som har sygdommen ikke kan tåle kornproteinet gluten.
+[E0jS9VmvL-a0#0] Cøliaki er en tyndtarmssygdom, som skyldes, at den som har sygdommen ikke kan tåle kornproteinet gluten.
 [/E0jS9VmvL-a0]
 [E69xPcv3u6jF#0] Jeg synes nu at det er helt *okay. Det er nogle gange hyggeligt at det kun er os fra kontoret.
 [/E69xPcv3u6jF]
@@ -104,7 +108,7 @@
 [/M3ijeHVUIu40]
 [M7UWaKlf32al#0] selve byen.
 [/M7UWaKlf32al]
-[MkUazdFyfp1f#0] *Toksoplasmose er en protozosygdom, som blandt andet kan ramme gravide kvinder uden at disse selv bliver syge, men barnet kan blive født med en meget alvorlig encefalitis.
+[MkUazdFyfp1f#0] *Toksoplasmose er en protozosygdom, som blandt andet kan ramme gravide kvinder, uden at disse selv bliver syge, men barnet kan blive født med en meget alvorlig encefalitis.
 [/MkUazdFyfp1f]
 [MlOW-v2xgolS#0] *Cushings syndrom er en sygdom, som skyldes forhøjet koncentration i blodet af hormonet kortisol eller lægemidler, der indeholder *glukokortikoider, såkaldt medicinudløst *Cushings syndrom.
 [/MlOW-v2xgolS]
@@ -116,9 +120,11 @@
 [/NjoGcjnyg01W]
 [O6bNSL-jKyd2#0] Vi er ikke tilfredse med de tiltag, som regeringen skitserer.
 [/O6bNSL-jKyd2]
+[OHFfcYLORFR0#0] Overdosering kan give små blødninger og blå mærker. Farven på blå mærkerne ændrer sig over tid.
+[/OHFfcYLORFR0]
 [PA38_k7zrqvo#0] en senere omdiskuteret stopordre.
 [/PA38_k7zrqvo]
-[PgQbI5sKvvOj#0] Ja, det gør jeg helt sikkert, men det er virkelig surt at kærester ikke får blive med.
+[PgQbI5sKvvOj#0] Ja, det gør jeg helt sikkert, men det er virkelig surt, at kærester ikke får blive med.
 [/PgQbI5sKvvOj]
 [PvJH5vuzrwdD#0] andre venstreorienterede.
 [/PvJH5vuzrwdD]
@@ -196,7 +202,7 @@
 [/e__pH5O_IXrG]
 [edeETerdHFNC#0] Planteolierne er vældig koncentrerede, og anses af udøvere af aromaterapi at være virksomme selv i små mængder.
 [/edeETerdHFNC]
-[fbSfW4Rc22od#0] I selvbiografien skriver *Rushdie at han aldrig havde hørt ordet fatwa før, og at ham ikke i sin vildeste fantasi havde påtænkt at en bogudgivelse villes føre til optøjer.
+[fbSfW4Rc22od#0] I selvbiografien skriver *Rushdie at han aldrig havde hørt ordet fatwa før, og at ham ikke i sin vildeste fantasi havde påtænkt, at en bogudgivelse villes føre til optøjer.
 [/fbSfW4Rc22od]
 [gDGxN4tzGwAL#0] tyske styrker.
 [/gDGxN4tzGwAL]
@@ -248,7 +254,7 @@
 [/nS85iOksLfEc]
 [oCodoACc6FXX#0] Det er vigtigt for udviklingen af biddet, at seksårstanden bryder frem normalt.
 [/oCodoACc6FXX]
-[oCrYI0MpnnGh#0] Det betyder at mindst fire patienter skal behandles for at en ekstra patient skal blive rask.
+[oCrYI0MpnnGh#0] Det betyder, at mindst fire patienter skal behandles for at en ekstra patient skal blive rask.
 [/oCrYI0MpnnGh]
 [ooVQTS2vCbo_#0] Opdragelse kan omfatte alle sider af personligheden.
 [/ooVQTS2vCbo_]

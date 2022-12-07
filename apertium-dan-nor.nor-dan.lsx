@@ -469,6 +469,12 @@
       <e> <p><l></l>                                                    <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><d/></r></p> </e>
     </pardef>
 
+    <pardef n=".n|vblex|adj" c="Initial dot means: Just the tag">
+      <e><i><s n="n"/></i></e>
+      <e><i><s n="vblex"/></i></e>
+      <e><i><s n="adj"/></i></e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -726,6 +732,19 @@
     </e>
 
     <!-- Comma insertion -->
+
+    <e lm="kvinner uten at → kvinner, uten at" c="kvinder, uden at">
+      <i><w/></i> <par n=".n|vblex|adj"/> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>uten</i> <par n="td"/>
+      <i>at</i> <par n="td"/>
+    </e>
+
+    <e lm="anta at → anta, at" c="antage, at">
+      <i><w/></i> <par n=".n|vblex|adj"/> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>at</i> <par n="td"/>
+    </e>
 
     <e lm="til tross for at → til tross for, at" c="til trods for, at">
       <i>til<b/>tross<b/>for</i> <par n="td-nospc"/>
