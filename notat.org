@@ -74,7 +74,6 @@
   - som blir målt → som blir målt (ikkje malet??)
   - dødsfald som er angitt å skyldes drukning → dødsfall hvor dødsårsaken angives som drukning(?)
   - i hovedsag → primært (ev. fortrinnsvis)
-  - andre utøvere mangler→har_ikke helsefaglig bakgrunn («mangle» meir som «sakne» på dansk)
   - helsepersonelloven<np!>
   - De→Dem med helsefaglig bakgrunn
   - Utøvere innenfor alternativ medisin kan ha helsefaglig utdannelse, og for eksempel være leger, sykepleiere eller fysioterapeuter.

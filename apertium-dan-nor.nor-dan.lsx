@@ -569,6 +569,16 @@
       <i>fortsette</i> <par n="td"/>
     </e>
 
+    <e lm="mangler → har ikke" c="har ikke">
+      <p><l>mangle<s n="vblex"/></l>   <r>ha<s n="vblex"/></r></p> <par n="td"/>
+      <p><l></l>   <r>ikke<s n="adv"/><d/></r></p> 
+    </e>
+    <e lm="OVERRIDE: mangler ikke → mangler ikke" c="mangler ikke">
+      <i>mangle<s n="vblex"/></i> <par n="td"/>
+      <i>ikke</i> <par n="td"/>
+    </e>
+
+
 
 
 
