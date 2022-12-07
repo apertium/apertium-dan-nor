@@ -819,6 +819,18 @@
     <match lemma="grad"/>
   </rule>
 
+  <rule><match lemma="livslang" tags="adj.*"><select lemma="livslang"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="livslang" tags="adj.*"><select lemma="kronisk"/></match>
+    <or>
+      <match lemma="sykdom"/>
+      <match lemma="sjukdom"/>
+      <match lemma="syndrom"/>
+      <match lemma="plage"/>
+      <match lemma="risiko"/>
+      <!-- men kanskje ikkje «immunitet» :) -->
+    </or>
+  </rule>
 </rules>
 
 </lrx>
