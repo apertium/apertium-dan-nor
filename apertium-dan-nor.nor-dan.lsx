@@ -549,6 +549,17 @@
       <p><l>opp<t/><d/></l> <r></r></p>
     </e>
 
+    <e lm="blir liggende bevisstløs → ligger bevisstløs" c="ligger bevisstløs">
+      <p><l>bli</l> <r>ligge</r></p> <par n="td"/>
+      <p><l>ligge</l> <r></r></p> <par n="td:"/>
+      <i><w/><s n="adj"/></i> <par n="td"/>
+    </e>
+    <e lm="blir liggende i → ligger i" c="ligger i">
+      <p><l>bli</l> <r>ligge</r></p> <par n="td"/>
+      <p><l>ligge</l> <r></r></p> <par n="td:"/>
+      <i>i<s n="pr"/></i> <par n="d"/>
+    </e>
+
     <!-- Other verb + adv + noun phrase rewritings: -->
 
     <e lm="klarte ikke å fortsette → kunne ikke fortsette">
