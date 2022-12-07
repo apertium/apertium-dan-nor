@@ -326,6 +326,7 @@
 
   <rule><match lemma="medicin" tags="n.*"><select lemma="medisin"/></match></rule>
   <rule><match lemma="sygdom" tags="n.*"><select lemma="sjukdom"/></match></rule>
+  <rule><match lemma="mindre" tags="adj.*"><select lemma="mindre"/></match></rule>
 </rules>
 </lrx>
 

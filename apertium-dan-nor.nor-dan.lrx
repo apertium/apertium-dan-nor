@@ -811,6 +811,14 @@
     <match tags="np.*.gen.*"/>
     <match lemma="syndrom" tags="n.*"><select lemma="sygdom"/></match>
   </rule>
+
+  <rule><match lemma="liten" tags="adj.*"><select lemma="liten"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="i"/>
+    <match lemma="liten" tags="adj.*"><select lemma="mindre"/></match>
+    <match lemma="grad"/>
+  </rule>
+
 </rules>
 
 </lrx>
