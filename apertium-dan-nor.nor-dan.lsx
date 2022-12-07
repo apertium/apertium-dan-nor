@@ -119,6 +119,9 @@
       <e><p><l><t/><d/></l><r></r></p></e>
     </pardef>
 
+    <pardef n="d-nospc">
+      <e><i><d space="no"/></i></e>
+    </pardef>
     <pardef n="td-nospc">
       <e><i><t/><d space="no"/></i></e>
     </pardef>
@@ -765,11 +768,22 @@
       <i><w/><s n="cnjsub"/><d/></i>
     </e>
 
-
     <e lm="(er) dumt å → (er) dumt, å" c="(er) dumt, at">
       <i><w/><s n="adj"/></i> <par n="td-nospc"/>
       <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
       <i>å<s n="part"/><d/></i>
+    </e>
+
+    <e lm="den kulturen barnet har → den kulturen, barnet har" c=" → den kultur, barnet har">
+      <i><w/><s n="n"/><t/><s n="def"/></i> <par n="d-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i><w/><s n="n"/><t/><s n="def"/></i>
+    </e>
+
+    <e lm="den kulturen barn har → den kulturen, barn har" c=" → den kultur, børn har">
+      <i><w/><s n="n"/><t/><s n="def"/></i> <par n="d-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i><w/><s n="n"/><t/><s n="pl"/></i> <par n="td"/>
     </e>
 
     <!-- Comma deletion if not clb -->
