@@ -846,6 +846,13 @@
     </or>
     <match lemma="av"/>
   </rule>
+
+  <rule><match lemma="ha" tags="vblex.*"><select lemma="have"/></match></rule>
+  <rule weight="2.0" c="har det blitt">
+    <match lemma="ha" tags="vblex.*"><select lemma="være"/></match>
+    <repeat from="0" upto="2"> <match/></repeat>
+    <match lemma="bli"/>
+  </rule>
 </rules>
 
 </lrx>
