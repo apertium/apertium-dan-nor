@@ -706,6 +706,18 @@
       <p><l>plage<s n="n"/><s n="m"/></l> <r>symptom<s n="n"/><s n="nt"/></r></p><par n="td"/>
     </e>
 
+    <!-- TODO: some sort of generalisation for these (adj+n agreement, det insertion for definites?): -->
+    <e lm="blåmerke → blått merke" c="blåt mærke">
+      <p><l></l>         <r>blå<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
+      <p><l>blåmerke</l> <r>merke</r></p> <i><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></i>
+    </e>
+    <e lm="blåmerker → blå merker" c="blå mærke">
+      <p><l></l>         <r>blå<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/><d/></r></p>
+      <p><l>blåmerke</l> <r>merke</r></p> <i><s n="n"/><s n="nt"/></i> <par n="td"/>
+    </e>
+
+
+
 
     <!-- number change -->
 
