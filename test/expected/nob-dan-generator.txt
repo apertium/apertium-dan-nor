@@ -8,6 +8,8 @@
 [/0fNOhzUY_A9i]
 [0hALHGLyo0Bi#0] Giveren skal ikke have sygdom, der kan overføres gennem blod (for eksempel syfilis, malaria, hepatitis, HIV og andre vira eller bakterielle infektioner) eller været akut syg de sidste to uger før tapning.
 [/0hALHGLyo0Bi]
+[1Ah3VsvsneVx#0] Formidling af holdninger, normer, værdier, viden og færdigheder, der er vigtige i den kultur barnet vokser op i er centralt i børneopdragelsen.
+[/1Ah3VsvsneVx]
 [1QfScZ9farIF#0] Enkle sulfater dannes af V(II) og V(III), for eksempel _vanadium(II)sulfat_, med kemisk formel VSO₄ · *7H₂O, et rødlilla stof, som let oxideres i luft og løses i vand.
 [/1QfScZ9farIF]
 [1x4sVzQ8s9s1#0] Om sommeren er der mange danskere, der cykler. Også selvom det regner.
@@ -68,7 +70,7 @@
 [/DofWEpn1PnRQ]
 [E0jS9VmvL-a0#0] Cøliaki er en tyndtarmssygdom, som skyldes, at den som har sygdommen ikke kan tåle kornproteinet gluten.
 [/E0jS9VmvL-a0]
-[E69xPcv3u6jF#0] Jeg synes nu at det er helt *okay. Det er nogle gange hyggeligt at det kun er os fra kontoret.
+[E69xPcv3u6jF#0] Jeg synes nu at det er helt *okay. Det er nogle gange hyggeligt, at det kun er os fra kontoret.
 [/E69xPcv3u6jF]
 [ELNDjrMeoXml#0] Fra det frosne væv kan det skæres tynde snit, der farves sådan at man i løbet af rundt en halv time kan stille en foreløbig diagnose.
 [/ELNDjrMeoXml]

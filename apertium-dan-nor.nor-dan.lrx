@@ -346,6 +346,12 @@
     </rule>
 
     <rule><match lemma="i" tags="pr"><select lemma="i"/></match></rule>
+    <rule weight="2.0">
+      <match lemma="rette"/>
+      <match lemma="opp"/>
+      <match lemma="i" tags="pr"><select lemma="på"/></match>
+    </rule>
+
     <rule><match lemma="på" tags="pr"><select lemma="på"/></match></rule>
     <rule weight="2.0" c="en betegnelse for">
       <or>
