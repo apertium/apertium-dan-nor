@@ -357,6 +357,7 @@
       <or>
         <match lemma="betegnelse"/>
         <match lemma="fellesbetegnelse"/>
+        <match lemma="samlebetegnelse"/>
       </or>
       <match lemma="på" tags="pr"><select lemma="for"/></match>
     </rule>
@@ -830,6 +831,20 @@
       <match lemma="risiko"/>
       <!-- men kanskje ikkje «immunitet» :) -->
     </or>
+  </rule>
+
+  <rule>
+    <or>
+      <match lemma="sammensatt" tags="adj.*"><select lemma="kompleks"/></match>
+      <match lemma="samansett" tags="adj.*"><select lemma="kompleks"/></match>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="sammensatt" tags="adj.*"><select lemma="sammensat"/></match>
+      <match lemma="samansett" tags="adj.*"><select lemma="sammensat"/></match>
+    </or>
+    <match lemma="av"/>
   </rule>
 </rules>
 

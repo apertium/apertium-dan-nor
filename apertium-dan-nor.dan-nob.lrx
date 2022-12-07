@@ -221,5 +221,8 @@
   <rule><match lemma="medicin" tags="n.*"><select lemma="medisin"/></match></rule>
   <rule><match lemma="sygdom" tags="n.*"><select lemma="sykdom"/></match></rule>
   <rule><match lemma="mindre" tags="adj.*"><select lemma="mindre"/></match></rule>
+  <rule><match lemma="kompleks" tags="adj.*"><select lemma="kompleks"/></match></rule>
+  <rule><match lemma="lovgivning" tags="n.*"><select lemma="lovgivning"/></match></rule>
+  <rule><match lemma="fællesbetegnelse" tags="n.*"><select lemma="samlebetegnelse"/></match></rule>
 </rules>
 </lrx>
