@@ -747,6 +747,14 @@
     </e>
 
 
+    <!-- Double definitenes: -->
+
+    <e lm="er lemmet som → er det lemmet som" c="er den legemsdel som">
+      <i>være</i>  <par n="td"/>
+      <p><l></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><d/></r></p>
+      <i><w/><s n="n"/><t/><s n="sg"/><s n="def"/></i> <par n="d"/>
+      <i>som</i>  <par n="td"/>
+    </e>
 
 
     <!-- number change -->
