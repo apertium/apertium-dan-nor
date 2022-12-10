@@ -330,6 +330,8 @@
   <rule><match lemma="kompleks" tags="adj.*"><select lemma="kompleks"/></match></rule>
   <rule><match lemma="lovgivning" tags="n.*"><select lemma="lovgivning"/></match></rule>
   <rule><match lemma="fællesbetegnelse" tags="n.*"><select lemma="samlebetegnelse"/></match></rule>
+
+  <rule><match lemma="der" tags="cnjsub.*"><select lemma="som"/></match></rule>
 </rules>
 </lrx>
 
