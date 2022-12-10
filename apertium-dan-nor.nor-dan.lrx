@@ -853,6 +853,9 @@
     <repeat from="0" upto="2"> <match/></repeat>
     <match lemma="bli"/>
   </rule>
+
+  <rule><match lemma="slik" tags="adv.*"><select lemma="sådan"/></match></rule>
+  <rule><match lemma="altså" tags="adv.*"><select lemma="altså"/></match></rule>
 </rules>
 
 </lrx>

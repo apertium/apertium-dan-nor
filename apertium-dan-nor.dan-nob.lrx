@@ -226,5 +226,15 @@
   <rule><match lemma="fællesbetegnelse" tags="n.*"><select lemma="samlebetegnelse"/></match></rule>
 
   <rule><match lemma="der" tags="cnjsub.*"><select lemma="som"/></match></rule>
+
+  <rule><match lemma="således" tags="adv.*"><select lemma="slik"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="således" tags="adv.*"><select lemma="altså"/></match>
+    <match lemma="i"/>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="være"/>
+    <match lemma="således" tags="adv.*"><select lemma="altså"/></match>
+  </rule>
 </rules>
 </lrx>
