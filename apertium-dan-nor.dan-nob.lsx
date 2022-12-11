@@ -116,6 +116,9 @@
 
   <pardefs>
 
+    <pardef n="d"> <!-- pre-emptive paradigm in case we later introduce syntax tags -->
+      <e><i><d/></i></e>
+    </pardef>
     <pardef n="td">
       <e><i><t/><d/></i></e>
     </pardef>
@@ -445,6 +448,8 @@
       <p> <l>,<s n="cm"/><d/></l> <r></r></p>
       <i>at<s n="part"/><d/></i>
     </e>
+
+    <!-- Fixed expressions -->
 
     <e lm="ligger hunden begravet" c="er problemet">
       <p> <l>ligge<s n="vblex"/></l> <r>være<s n="vbser"/></r></p> <par n="td"/>

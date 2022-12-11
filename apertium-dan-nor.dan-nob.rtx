@@ -62,7 +62,11 @@ number > number_n : sg sg, sp sp, pl pl ;
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp.a_guio;
 n:     _.gender.number.defnes.case.a_cmp.a_guio;
 np:    _.a_np.gender.number.defnes.case.a_cmp.a_guio;
-vblex: _.a_pstv.tense.voice.a_cmp;
+vblex:   _.a_pstv.tense.voice.a_cmp;
+vbser:   _.a_pstv.tense.voice.a_cmp;
+vaux:    _.a_pstv.tense.voice.a_cmp;
+vbhaver: _.a_pstv.tense.voice.a_cmp;
+vbmod:   _.a_pstv.tense.voice.a_cmp;
 pr:    _;
 adv:   _.a_comp;
 ij:    _;
@@ -90,7 +94,8 @@ AP:    _.a_adj.a_comp.gender.number.defnes.case;
 NP:    _.gender.number.defnes.a_split;
 DP:    _.gender.number.defnes.a_split;
 PP:    _;
-VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
+VP:    _.a_pstv.tense.voice.number; ! TODO: Put gender/number on VP for pp-samsvar stuff?
+V:     _.a_pstv.tense.voice.a_cmp;
 ADV:   _;
 SENT:  _;
 CNJCOO:  _;
@@ -110,10 +115,10 @@ N ->
    | "N→n"          %n ?(1.a_cmp not = cmp) { %1[lemcase=$lemcase] }
    | "N→ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
    | "N→npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
-   | "N→vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | "N→vbcmpN"     V.*.cmp %N { 1[lemcase=$lemcase] %2 }
    | "N→ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
    | "N→npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
-   | "N→vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
+   | "N→vbcmpsplit" V.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
    ;
 
 A -> "A→adj"       %adj
@@ -141,7 +146,7 @@ A -> "A→adj"       %adj
       }
    | "A→n+A"      n.*.cmp %A { 1 %2 }
    | "A→np+A"    np.*.cmp %A { 1 %2 }
-   | "A→vb+A" vblex.*.cmp %A { 1 %2 }
+   | "A→vb+A" V.*.cmp %A { 1 %2 }
    ;
 
 ! TODO: Stop <sint> getting copied from sl side if not in tl side!
@@ -259,19 +264,27 @@ DP ->
       ;
 
 ! TODO: Do any tags need propagating here?
-ADV -> "ADV→adv" %adv { %1 }
+ADV -> "ADV→adv" %adv { %1[lemh=1.lemh] }
     | "ADV→AP.nt" %AP.*.nt { %1 }
     | det.dem år@N { 1 _ %2 }
+    | "i"@pr "de fleste"@det "tilfelle"@N { 1 _ 2 _ %3 }
     ;
 
-VP ->
-      "VP→imp" 3: %vblex.imp { %1[voice=""] }
+V -> %vblex { %1 }
+   | %vbser { %1 }
+   | %vbhaver { %1 }
+   | %vaux { %1 }
+   | %vbmod { %1 }
+   ;
 
-    | "VP→v"   0: %vblex.*.pasv { %1 }
-    | "VP→v"   0: %vblex.*.actv { %1[voice=""] }
+VP ->
+      "VP→imp" 3: %V.imp { %1[voice=""] }
+
+    | "VP→v"   0: %V.*.pasv { %1 }
+    | "VP→v"   0: %V.*.actv { %1[voice=""] }
 
     | "VP.past.pasv→bli v.pp:solgtes teen → ble teen solgt"
-      2: %vblex.past.pasv
+      2: %V.pret.pasv           ! pret instead of past here when using V
       { *(vblex)[lemh = "bli", tense = 1.tense, voice = ""] _ %1[tense = pp, voice = ""] }
     ;
 
@@ -306,4 +319,9 @@ S ->
     | "S→VP ADV"   VP ADV     { %1 _ 2 }
     | "S→det AP"   det AP     { 1 _ %2 }
     | "S→det SENT (no space)" det SENT { 1 %2 } ! probably never want spaces between numbers and punct?
+
+    | ", hvorfor X er → , derfor er X"
+      cm "hvorfor"@adv DP ADV %V
+      ! ?(1.tense not = pp and (2.lemh/tl in w_do_pasv))
+      { 1 _ 2[lemh="derfor", mainpos="adv"] _ %5 _ 3 _ 4 }
     ;
