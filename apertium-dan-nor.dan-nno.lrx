@@ -342,6 +342,7 @@
     <match lemma="kirke"/>
   </rule>
 
+  <rule><match lemma="forøge" tags="vblex.*"><select lemma="auke"/></match></rule>
 </rules>
 </lrx>
 

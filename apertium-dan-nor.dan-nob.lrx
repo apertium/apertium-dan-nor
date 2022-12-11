@@ -215,5 +215,6 @@
     <match lemma="kirke"/>
   </rule>
 
+  <rule><match lemma="forøge" tags="vblex.*"><select lemma="øke"/></match></rule>
 </rules>
 </lrx>

@@ -856,6 +856,10 @@
 
   <rule><match lemma="slik" tags="adv.*"><select lemma="sådan"/></match></rule>
   <rule><match lemma="altså" tags="adv.*"><select lemma="altså"/></match></rule>
+
+  <rule><match lemma="øke" tags="vblex.*"><select lemma="øge"/></match></rule>
+
+  <rule><match lemma="auke" tags="vblex.*"><select lemma="øge"/></match></rule>
 </rules>
 
 </lrx>
