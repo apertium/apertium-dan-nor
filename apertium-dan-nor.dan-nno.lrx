@@ -334,6 +334,14 @@
   <rule><match lemma="der" tags="cnjsub.*"><select lemma="som"/></match></rule>
 
   <rule><match lemma="således" tags="adv.*"><select lemma="soleis"/></match></rule>
+
+  <rule><match lemma="uneret" tags="adj.*"><select lemma="forent"/></match></rule>
+  <rule><match lemma="uneret" tags="adj.*"><select lemma="sameina"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="uneret" tags="adj.*"><select lemma="gresk-katolsk"/></match>
+    <match lemma="kirke"/>
+  </rule>
+
 </rules>
 </lrx>
 

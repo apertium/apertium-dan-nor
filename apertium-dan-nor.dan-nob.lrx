@@ -42,35 +42,6 @@
   <rule> <match lemma="vinde" tags="vblex.*"> <select lemma="vinne"/> </match> </rule>
   <rule> <match lemma="stor" tags="adj.*"> <select lemma="stor"/> </match> </rule>
 
-  <rule weight="2.0">
-    <match lemma="måling" tags="n.*.pl.*">
-      <select lemma="måling"/>
-    </match>
-  </rule>
-  <rule weight="2.0">
-    <or>
-      <match lemma="tynd"/>
-      <match lemma="oljebasert"/>
-      <match lemma="sort"/>
-      <match lemma="lag"/>
-      <match lemma="forme"/>
-    </or>
-    <match lemma="måling" tags="n.*.sg.ind">
-      <select lemma="maling"/>
-    </match>
-  </rule>
-  <rule weight="2.0">
-    <match lemma="måling" tags="n.*.sg.ind">
-      <select lemma="maling"/>
-    </match>
-    <match/>
-    <or>
-      <match lemma="altertavle"/>
-      <match lemma="væg"/>
-      <match lemma="kunst"/>
-      <match lemma="grafisk"/>
-    </or>
-  </rule>
 
   <rule weight="2.0">
     <match lemma="bid" tags="n.*">
@@ -236,5 +207,13 @@
     <match lemma="være"/>
     <match lemma="således" tags="adv.*"><select lemma="altså"/></match>
   </rule>
+
+  <rule><match lemma="uneret" tags="adj.*"><select lemma="forent"/></match></rule>
+  <rule><match lemma="uneret" tags="adj.*"><select lemma="sameina"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="uneret" tags="adj.*"><select lemma="gresk-katolsk"/></match>
+    <match lemma="kirke"/>
+  </rule>
+
 </rules>
 </lrx>
