@@ -56,6 +56,33 @@
       </or>
     </def-seq>
 
+    <def-seq n="n.def">
+        <match tags="n.*.def.*"/>
+    </def-seq>
+    <def-seq n="n.cmp+n.def">
+        <match tags="n.*.cmp.*"/>
+        <match tags="n.*.def.*"/>
+    </def-seq>
+    <def-seq n="2n.cmp+n.def">
+        <match tags="n.*.cmp.*"/>
+        <match tags="n.*.cmp.*"/>
+        <match tags="n.*.def.*"/>
+    </def-seq>
+    <def-seq n="3n.cmp+n.def">
+        <match tags="n.*.cmp.*"/>
+        <match tags="n.*.cmp.*"/>
+        <match tags="n.*.cmp.*"/>
+        <match tags="n.*.def.*"/>
+    </def-seq>
+    <def-seq n="0-3n.cmp+n.def">
+      <or>
+        <seq n="n.def"/>
+        <seq n="n.cmp+n.def"/>
+        <seq n="2n.cmp+n.def"/>
+        <seq n="3n.cmp+n.def"/>
+      </or>
+    </def-seq>
+
   </def-seqs>
   <rules>
     <rule> <match lemma="ete"><select lemma="spise"/></match> </rule>
@@ -860,6 +887,18 @@
   <rule><match lemma="øke" tags="vblex.*"><select lemma="øge"/></match></rule>
 
   <rule><match lemma="auke" tags="vblex.*"><select lemma="øge"/></match></rule>
+
+  <rule><match lemma="der" tags="cnjsub.*"><select lemma="der"/></match></rule>
+  <rule weight="2.0" c="tilfellene der flyskrekken → tilfeller, hvor flyskrekken">
+    <or>
+      <match tags="n.*.def.*"/>
+      <match tags="n.*.pl.*"/>
+    </or>
+    <match lemma=","/>
+    <match lemma="der" tags="cnjsub.*"><select lemma="hvor"/></match>
+    <seq n="0-3n.cmp+n.def"/>
+  </rule>
+
 </rules>
 
 </lrx>

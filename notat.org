@@ -1,6 +1,5 @@
 * fejl [2022-11-02 on.]
 
-  - er ramte → som er rammet/som rammes (eller som lider av?)
   - bortset fra de tilfælde, der→hvor
   - eksponseringsbehandling→~terapi
   - midtelap→midterlap
