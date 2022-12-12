@@ -1,7 +1,5 @@
 * fejl [2022-11-02 on.]
 
-    ANTEN ikkje komma, ELLER legg inn subjekt (den)
-    (kan me ta «, og» → «og» ?)
   - cirka → ca.
 
   - kommer det→der også
@@ -41,7 +39,6 @@
 * kommafejl [2022-11-02 on.]--[2022-11-03 to.]
 
   - skole og andre voksne[,] som barn har nærkontakt med
-  - kjertelen er et blodrigt organ[,] og gennemstrømmes
   - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
   - Det er meget[,] som→der tyder på
   - Det har lenge vært kjent[,] at barnets psykiske u…

@@ -820,9 +820,15 @@
       <i>,</i> <par n="td"/>
       <i>og<s n="cnjcoo"/><s n="clb"/></i> <par n="td"/>
     </e>
-    <e lm=", og → , og" c=", og">
+    <e lm=", og → og" c="og">
       <p> <l>,<s n="cm"/><d/></l> <r><d space="yes"/></r></p> <!-- TODO: https://github.com/apertium/apertium-separable/issues/42#issuecomment-1346153747 -->
       <i>og<s n="cnjcoo"/></i> <par n="d"/> <!-- no clb-tag -->
+    </e>
+    <e lm=", og gjennomstrømmes → og gjennomstrømmes" c="og gennemstrømmes
+                                                         Missing subject => no comma">
+      <p> <l>,<s n="cm"/><d/></l> <r><d space="yes"/></r></p>
+      <i>og<s n="cnjcoo"/></i> <par n="td"/> <!-- regardless of clb-tag -->
+      <i><w/><s n="vblex"/><t/><s n="pasv"/></i> <par n="d"/>
     </e>
 
   </section>
