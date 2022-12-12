@@ -821,7 +821,7 @@
       <i>og<s n="cnjcoo"/><s n="clb"/></i> <par n="td"/>
     </e>
     <e lm=", og → , og" c=", og">
-      <p> <l>,<s n="cm"/><d/></l> <r></r></p>
+      <p> <l>,<s n="cm"/><d/></l> <r><d space="yes"/></r></p> <!-- TODO: https://github.com/apertium/apertium-separable/issues/42#issuecomment-1346153747 -->
       <i>og<s n="cnjcoo"/></i> <par n="d"/> <!-- no clb-tag -->
     </e>
 
