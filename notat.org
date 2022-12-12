@@ -1,9 +1,5 @@
 * fejl [2022-11-02 on.]
 
-  - bortset fra de tilfælde, der→hvor
-  - eksponseringsbehandling→~terapi
-  - midtelap→midterlap
-  - også forstørres noe under → også forstørres lidt under
     ANTEN ikkje komma, ELLER legg inn subjekt (den)
     (kan me ta «, og» → «og» ?)
   - cirka → ca.

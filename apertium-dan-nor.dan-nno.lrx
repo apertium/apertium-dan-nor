@@ -343,6 +343,7 @@
   </rule>
 
   <rule><match lemma="forøge" tags="vblex.*"><select lemma="auke"/></match></rule>
+  <rule><match lemma="behandling" tags="n.*"><select lemma="behandling"/></match></rule>
 </rules>
 </lrx>
 

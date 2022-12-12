@@ -899,6 +899,38 @@
     <seq n="0-3n.cmp+n.def"/>
   </rule>
 
+  <rule><match lemma="behandling" tags="n.*"><select lemma="behandling"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="eksponering"/>
+    <match lemma="behandling" tags="n.*"><select lemma="terapi"/></match>
+  </rule>
+
+  <rule><match lemma="noe" tags="adv.*"><select lemma="noget"/></match></rule>
+  <rule><match lemma="noko" tags="adv.*"><select lemma="noget"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="ikke"/>
+      <match lemma="ikkje"/>
+    </or>
+    <or>
+      <match lemma="noe" tags="adv.*"><select lemma="noget"/></match>
+      <match lemma="noko" tags="adv.*"><select lemma="noget"/></match>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="noe" tags="adv.*"><select lemma="lidt"/></match>
+      <match lemma="noko" tags="adv.*"><select lemma="lidt"/></match>
+    </or>
+    <or>
+      <match tags="pr.*"/>
+      <match lemma="mer"/>
+      <match lemma="mykje"/>
+      <match lemma="mye"/>
+      <match lemma="liten"/>
+    </or>
+  </rule>
+
 </rules>
 
 </lrx>
