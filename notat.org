@@ -53,7 +53,6 @@
 
 
 * fejl [2022-11-03 to.]
-  - dødsfald som er angitt å skyldes drukning → dødsfall hvor dødsårsaken angives som drukning(?)
   - i hovedsag → primært (ev. fortrinnsvis)
   - helsepersonelloven<np!>
   - De→Dem med helsefaglig bakgrunn

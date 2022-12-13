@@ -182,3 +182,4 @@ Dersom man begynner å spise mat med gluten, vil symptomene melde seg ganske ras
 De fire temperamenter samsvarte i den hippokratiske medisinen med kroppsvæskene blod, flegma, gul og svart galle.
 Energi tapes for hvert ledd i næringskjeden.
 Hensikten med dette er å bruke avviket mellom målt og ønsket verdi til å beregne et pådrag som skal påvirke prosessen som blir målt.
+ Fuktig kulde fører raskt til varmetap, og mange dødsfall som er angitt å skyldes drukning, skyldes sannsynligvis hypotermi.

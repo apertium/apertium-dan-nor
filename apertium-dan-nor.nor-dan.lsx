@@ -736,6 +736,26 @@
       <p><l>plage<s n="n"/><s n="m"/></l> <r>symptom<s n="n"/><s n="nt"/></r></p><par n="td"/>
     </e>
 
+    <e lm=", som er angitt å skyldes → , hvor årsaken angis som" c=", hvor årsagen angives som">
+      <i><w/><t/><d space="no"/></i>
+      <p><l>som<t/><d/></l>     <r>,<s n="cm"/><d space="yes"/>hvor<s n="cnjsub"/><d/></r></p>
+      <p><l>være<t/><d/></l>    <r></r></p>
+      <p><l>angi<t/><d/></l>    <r></r></p>
+      <p><l>å<t/><d/></l>       <r></r></p>
+      <p><l>skylde<w/><t/><d/></l> <r></r></p> <!-- <w/> to allow both skylde and skyldes -->
+      <p><l></l>    <r>årsak<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/>angi<s n="vblex"/><s n="pres"/><s n="pasv"/><d/>som<s n="cnjsub"/><d/></r></p>
+    </e>
+
+    <e lm="som er angitt å skyldes → hvor årsaken angis som" c="hvor årsagen angives som">
+      <p><l>som<t/><d/></l>     <r>hvor<s n="cnjsub"/><d/></r></p>
+      <p><l>være<t/><d/></l>    <r></r></p>
+      <p><l>angi<t/><d/></l>    <r></r></p>
+      <p><l>å<t/><d/></l>       <r></r></p>
+      <p><l>skylde<w/><t/><d/></l> <r></r></p> <!-- <w/> to allow both skylde and skyldes -->
+      <p><l></l>    <r>årsak<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/>angi<s n="vblex"/><s n="pres"/><s n="pasv"/><d/>som<s n="cnjsub"/><d/></r></p>
+    </e>
+
+
     <!-- TODO: some sort of generalisation for these (adj+n agreement, det insertion for definites?): -->
     <e lm="blåmerke → blått merke" c="blåt mærke">
       <p><l></l>         <r>blå<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
