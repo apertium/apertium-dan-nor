@@ -350,7 +350,7 @@
     <rule><match lemma="helse" tags="n.*"><select lemma="sundhed"/></match></rule>
 
     <rule><match lemma="for" tags="pr.*"><select lemma="for"/></match></rule>
-    <rule weight="2.0">
+    <rule weight="2.0" c="ansvarlig over for">
       <or>
         <match lemma="ansvarlig"/>
         <match lemma="ansvarleg"/>
@@ -358,6 +358,16 @@
         <match lemma="overfølsomhet"/>
       </or>
       <match lemma="for" tags="pr.*"><select lemma="over for"/></match>
+    </rule>
+    <rule weight="2.0" c="svært ved at">
+      <or>
+        <match lemma="vanskelig"/>
+        <match lemma="vanskeleg"/>
+        <match lemma="tung"/>
+        <match lemma="tungt"/>
+      </or>
+      <match lemma="for" tags="pr.*"><select lemma="ved"/></match>
+      <match lemma="å"/>
     </rule>
 
     <rule><match lemma="til" tags="pr.*"><select lemma="til"/></match></rule>

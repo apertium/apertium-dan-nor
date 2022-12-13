@@ -344,6 +344,8 @@
 
   <rule><match lemma="forøge" tags="vblex.*"><select lemma="auke"/></match></rule>
   <rule><match lemma="behandling" tags="n.*"><select lemma="behandling"/></match></rule>
+
+  <rule><match lemma="ved" tags="pr.*"><select lemma="ved"/></match></rule>
 </rules>
 </lrx>
 
