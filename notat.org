@@ -53,8 +53,6 @@
 
 
 * fejl [2022-11-03 to.]
-  - Andre utvikler ikke sykdommen før i voksen alder (blir Andet)
-  - som gjør det vanskelig[ikkje komma!] å stille riktig diagnose
   - vil symptomene melde seg ganske raskt igjen → melde sig igen temmelig hurtigt
     (ganske → temmelig, ræt)
   - galle → galde
