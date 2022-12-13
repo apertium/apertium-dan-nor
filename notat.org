@@ -53,11 +53,6 @@
 
 
 * fejl [2022-11-03 to.]
-  - vil symptomene melde seg ganske raskt igjen → melde sig igen temmelig hurtigt
-    (ganske → temmelig, ræt)
-  - galle → galde
-  - tapes → tabes
-  - som blir målt → som blir målt (ikkje malet??)
   - dødsfald som er angitt å skyldes drukning → dødsfall hvor dødsårsaken angives som drukning(?)
   - i hovedsag → primært (ev. fortrinnsvis)
   - helsepersonelloven<np!>

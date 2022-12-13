@@ -934,6 +934,43 @@
     </or>
   </rule>
 
+  <rule><match lemma="ganske" tags="adv.*"><select lemma="ganske"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="ganske" tags="adv.*"><select lemma="temmelig"/></match>
+    <or>
+      <match lemma="alminnelig"/>
+      <match lemma="alminneleg"/>
+      <match lemma="rask"/>
+      <match lemma="fort"/>
+      <match lemma="hurtig"/>
+      <match lemma="vanlig"/>
+      <match lemma="vanleg"/>
+      <match lemma="mye"/>
+      <match lemma="mykje"/>
+      <match lemma="sjelden"/>
+      <match lemma="sjeldan"/>
+      <match lemma="stor"/>
+      <match lemma="mange"/>
+      <match lemma="omfattende"/>
+      <match lemma="omfattande"/>
+      <match lemma="lang"/>
+      <match lemma="mørk"/>
+      <match lemma="tett"/>
+      <match lemma="sterk"/>
+      <match lemma="bred"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="ganske" tags="adv.*"><select lemma="ret"/></match>
+    <or>
+      <match lemma="sterk"/>
+      <match lemma="god"/>
+    </or>
+  </rule>
+
+  <rule><match lemma="galle" tags="n.*"><select lemma="galde"/></match></rule>
+
+  <rule><match lemma="tape" tags="vblex.*"><select lemma="tape"/></match></rule>
 </rules>
 
 </lrx>

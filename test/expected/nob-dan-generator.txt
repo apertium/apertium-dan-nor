@@ -4,6 +4,8 @@
 [/-V0vIHPaFb4P]
 [0OWR5cjWorZF#0] de allierede.
 [/0OWR5cjWorZF]
+[0QbCVrZzq7DE#0] Hensigten med dette er at bruge afvigelsen mellem målt og ønsket værdi til at beregne et pådrag som skal påvirke processen, der bliver målt.
+[/0QbCVrZzq7DE]
 [0fNOhzUY_A9i#0] Karsygdomme er en fællesbetegnelse for sygdomme i blodårerne, både arterier og vener.
 [/0fNOhzUY_A9i]
 [0hALHGLyo0Bi#0] Giveren skal ikke have sygdom, der kan overføres gennem blod (for eksempel syfilis, malaria, hepatitis, HIV og andre vira eller bakterielle infektioner) eller været akut syg de sidste to uger før tapning.
@@ -240,6 +242,8 @@
 [/j7V2ZK-_rqH7]
 [jcFG-bsbP5B2#0] Da kan der gå lang tid, før den rigtige diagnose bliver stillet.
 [/jcFG-bsbP5B2]
+[kCUjn4li0AV7#0] De fire temperamenter tilsvarede i den *hippokratiske medicinen med kropsvæskerne blod, flegma, gul og sort galde.
+[/kCUjn4li0AV7]
 [kJlQlyRZImuF#0] Der er meget som tyder på at agiteret *delir udløses af en akut ubalance af dopamin i hjernen.
 [/kJlQlyRZImuF]
 [kqlBs4TAI9td#0] Andre opgaveoverføringer, som drift af kulturinstitutioner, udredes.
@@ -252,7 +256,7 @@
 [/lQgvMCwIfQsM]
 [lSDVPRGrCbBZ#0] På sin specielle måde skriver ham om grundlaget for den fundamentalisme, som nylig holdt på at koste ham livet:
 [/lSDVPRGrCbBZ]
-[laFOMlWIG_M0#0] Malabsorbtion forekommer særligt ved kroniske betændelser i tyndtarmen, hvis store dele af tyndtarmen er fjernet ved operationer, eller om der er for lille tilførsel af fordøjelsesenzymer fra bugspytkirtlen eller af galle fra leveren.
+[laFOMlWIG_M0#0] Malabsorbtion forekommer særligt ved kroniske betændelser i tyndtarmen, hvis store dele af tyndtarmen er fjernet ved operationer, eller om der er for lille tilførsel af fordøjelsesenzymer fra bugspytkirtlen eller af galde fra leveren.
 [/laFOMlWIG_M0]
 [liZAWyCanT6V#0] Karsygdomme kan medføre både udvidelser (*aneurismer, åreknuder) og forsnævringer og tilstopninger af blodårerne.
 [/liZAWyCanT6V]
@@ -280,6 +284,8 @@
 [/oCodoACc6FXX]
 [oCrYI0MpnnGh#0] Det betyder, at mindst fire patienter skal behandles for at en ekstra patient skal blive rask.
 [/oCrYI0MpnnGh]
+[oN_GQIQRV3DB#0] Energi tapes for hvert led i næringskæden.
+[/oN_GQIQRV3DB]
 [ooVQTS2vCbo_#0] Opdragelse kan omfatte alle sider af personligheden.
 [/ooVQTS2vCbo_]
 [pJolExHpM5Np#0] De har som udgangspunkt fødevareintolerance
@@ -326,6 +332,8 @@
 [/vH6hCidr2VtE]
 [veFlxxtxOva0#0] den udenrigs- og sikkerhedspolitiske justering.
 [/veFlxxtxOva0]
+[vkVSklBfRHRM#0] Hvis man begynder at spise mad med gluten, vil symptomerne melde sig temmelig raskt igen.
+[/vkVSklBfRHRM]
 [w0ToPT3Buzbp#0] Udøvere inden for alternativ medicin kan have sundhedsfaglig uddannelse og for eksempel være læger, sygeplejerske\/sosu-hjælper\/sosu-assistenter eller fysioterapeuter.
 [/w0ToPT3Buzbp]
 [wBwWxw5blUow#0] En tysk-sovjetisk *ukjentordher.
