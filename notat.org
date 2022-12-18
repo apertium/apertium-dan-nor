@@ -1,7 +1,5 @@
 * fejl [2022-11-02 on.]
 
-  - cirka → ca.
-
   - kommer det→der også
 
   - er veldig→meget forskjellige
