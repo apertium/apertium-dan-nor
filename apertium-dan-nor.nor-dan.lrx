@@ -981,6 +981,16 @@
   <rule><match lemma="galle" tags="n.*"><select lemma="galde"/></match></rule>
 
   <rule><match lemma="tape" tags="vblex.*"><select lemma="tape"/></match></rule>
+
+  <rule><match lemma="snakke" tags="vblex.*"><select lemma="tale"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="papegøye"/>
+      <match lemma="ara"/>
+      <match lemma="dyr"/>
+    </or>
+    <match lemma="snakke" tags="vblex.*"><select lemma="snakke"/></match>
+  </rule>
 </rules>
 
 </lrx>

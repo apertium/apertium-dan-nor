@@ -736,6 +736,11 @@
       <p><l>hovedsak<s n="n"/><t/><s n="sg"/><s n="ind"/></l> <r>primær<s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p> <par n="d"/>
     </e>
 
+    <e lm="hva slags → hvilken slags" c="hvilken slags">
+      <p><l>hva<t/></l> <r>hvilken<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p> <par n="d"/>
+      <i>slags<t/><d/></i>
+    </e>
+
     <e lm="symptomplager → symptom" c="symptomer">
       <p> <l>symptom<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/><s n="cmp"/><d/></l> <r/></p>
       <p><l>plage<s n="n"/><s n="m"/></l> <r>symptom<s n="n"/><s n="nt"/></r></p><par n="td"/>
