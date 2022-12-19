@@ -22,6 +22,8 @@ PREFIX2n=$(LANG2n)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
+TARGETS_PREFS=prefs/$(PREFIX1n).xml
+
 TARGETS_COMMON =                                               \
     $(TARGETS_PREFIX1) $(TARGETS_PREFIX1n) $(TARGETS_PREFIX1b) \
     $(TARGETS_PREFIX2) $(TARGETS_PREFIX2n) $(TARGETS_PREFIX2b)
@@ -37,6 +39,7 @@ TARGETS_PREFIX1n =                                                \
       $(PREFIX1n).autobil.bin                                     \
       $(PREFIX1n).autolex.bin                                     \
       $(PREFIX1n).rtx.bin                                         \
+      $(PREFIX1n).biprefs.rlx.bin                                 \
       $(PREFIX1n).genprefs.rlx.bin                                \
       $(PREFIX1n).autogen.bin
 TARGETS_PREFIX1b =                                                \
@@ -172,6 +175,9 @@ $(PREFIX2n).seg.rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).seg.rlx
 ## Variant preferences
 ###############################################################################
 
+$(PREFIX1n).biprefs.rlx.bin: $(BASENAME).$(PREFIX1n).biprefs.rlx
+	cg-comp $< $@
+
 $(PREFIX1n).genprefs.rlx.bin: $(AP_SRC2n)/$(LANG2n).prefs.rlx.bin
 	cp $< $@
 
@@ -224,6 +230,25 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-postchunk $<
 	apertium-preprocess-transfer $< $@
 
+###############################################################################
+## Preferences
+###############################################################################
+
+$(LANG2n).preferences.xml: $(AP_SRC2n)/$(LANG2n).preferences.xml
+	cp $< $@
+
+define mergePrefs =
+$(MKDIR_P) prefs
+echo '<preferences>' >$@.tmp
+for f in $^; do xmllint --xpath '/preferences/preference' "$$f"; done >>$@.tmp
+echo '</preferences>' >>$@.tmp
+mv $@.tmp $@
+endef
+
+prefs/$(PREFIX1n).xml: $(LANG2n).preferences.xml $(PREFIX1n).preferences.xml
+	$(mergePrefs)
+
+
 
 ###############################################################################
 ## Distribution
@@ -247,9 +272,11 @@ apertium_dan_nordir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_dan_nor_DATA=$(TARGETS_COMMON)
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1b).mode
+noinst_DATA=modes/$(PREFIX1b).mode $(TARGETS_PREFS)
 
 install-data-local: install-modes
+	$(MKDIR_P) $(DESTDIR)$(apertium_modesdir)/../prefs
+	$(INSTALL_DATA) $(TARGETS_PREFS) $(DESTDIR)$(apertium_modesdir)/../prefs
 
 ###############################################################################
 ## Cleanup

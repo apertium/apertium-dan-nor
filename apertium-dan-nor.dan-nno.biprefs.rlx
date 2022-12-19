@@ -1,0 +1,33 @@
+# -*- cg-pre-pipe: "apertium -f none -d . dan-nno-biltrans"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z -w apertium-nno-nob.dan-nno.biprefs.rlx # " -*-
+
+# GPL-2+
+#
+# Bilingual dictionary preference rules.
+#
+# We expect stream variables to set or remove variables with naming
+# scheme "VAR:default_override", where "override" is chosen if set,
+# otherwise "default" is chosen. For any "default", there may be
+# multiple possible "override"''s.
+
+DELIMITERS = ".";
+
+LIST m = m ;
+LIST f = f ;
+LIST nt = nt ;
+
+# General format of rules:
+# SELECT:default_other   ("other"i) IF (0 ("default"i) + (VAR:default_other));
+# REMOVE:default_default ("other"i) IF (0 ("default"i));
+
+SELECT:forskjell_skilnad   ("skilnad"i) IF (0 ("forskjell"i) + (VAR:forskjell_skilnad));
+REMOVE:forskjell_forskjell ("skilnad"i) IF (0 ("forskjell"i));
+
+# DEBUG NOTES:
+# $ echo '[<STREAMCMD:SETVAR:forskjell_skilnad,samd_einig>]^forskjell<n><m><sg><ind>/forskjell<n><m><sg><ind>/skilnad<n><m><sg><ind>$ ^enig<adj><sint><pst><nt><sg><ind>/samd<adj><sint><pst><nt><sg><ind>/einig<adj><sint><pst><nt><sg><ind>$' | ~/src/ap/vislcg3/src/cg-proc -t biprefs.dan-nno.rlx.bin |cg-conv
+# [<STREAMCMD:SETVAR:forskjell_skilnad,samd_einig>]
+# "<forskjell>" n m sg ind
+#         "skilnad" n m sg ind SELECT:12:forskjell_skilnad
+#         "¬forskjell" n m sg ind SELECT:12:forskjell_skilnad
+# "<enig>" adj sint pst nt sg ind
+#         "einig" adj sint pst nt sg ind SELECT:15:samd_einig
+#         "¬samd" adj sint pst nt sg ind SELECT:15:samd_einig

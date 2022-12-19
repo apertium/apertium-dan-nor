@@ -1,0 +1,13 @@
+<preferences>
+  <!--
+    Val er konsekvente, så viss du har valt lova→loven, får du òg skuleloven osb.
+
+    Visse val gjeld fleire ord som varierer på same måte, t.d.
+    blå→blåe, grå→gråe, her vil det stå «system: » først i
+    beskrivelsen.
+  -->
+  <preference id="forskjell_skilnad">
+    <description lang="nno">forskjell → skilnad</description>
+    <description lang="nob">forskjell → skilnad</description>
+  </preference>
+</preferences>
