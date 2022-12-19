@@ -996,6 +996,24 @@
     <match lemma="varig"/>
     <match lemma="defekt" tags="n.*"><select lemma="men"/></match>
   </rule>
+
+  <rule><match lemma="heile" tags="vblex.*"><select lemma="hele"/></match></rule>
+  <rule><match lemma="hele" tags="vblex.*"><select lemma="hele"/></match></rule>
+  <rule><match lemma="gro" tags="vblex.*"><select lemma="gro"/></match></rule>
+  <rule><match lemma="heile" tags="adj.*"><select lemma="hele"/></match></rule>
+  <rule><match lemma="hele" tags="adj.*"><select lemma="hele"/></match></rule>
+  <rule><match lemma="gro" tags="adj.*"><select lemma="gro"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="sår"/>
+    <repeat from="0" upto="8"><match/></repeat>
+    <match lemma="gro"><select lemma="hele"/></match>
+  </rule>
+
+  <rule><match lemma="lokalisert" tags="adj.*"><select lemma="lokaliseret"/></match></rule>
+  <rule weight="2.0" c="lokaliserte byller → lokale byller">
+    <match lemma="lokalisert" tags="adj.*.pl.*"><select lemma="lokal"/></match>
+    <match tags="n.*.pl.*"/>
+  </rule>
 </rules>
 
 </lrx>

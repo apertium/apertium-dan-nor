@@ -1,7 +1,5 @@
 * fejl [2022-11-02 on.]
 
-  - sår gror → sår heler
-  - lokaliserte byller → lokale bylder (ikkje lokaliserede)
   - bør en kunne → bør man kunne
   - helsearbejder → sundehedsarbejder (men helsepost, og behold helsestasjon for det finst ikkje i dk)
   - psykisk helse→sundhed
