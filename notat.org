@@ -1,11 +1,5 @@
 * fejl [2022-11-02 on.]
 
-  - kommer det→der også
-
-  - er veldig→meget forskjellige
-  - bristninger i huden → blodutrædninger
-  - føre til død(en) → medføre døden
-  - varige defekter → varige men
   - sår gror → sår heler
   - lokaliserte byller → lokale bylder (ikkje lokaliserede)
   - bør en kunne → bør man kunne

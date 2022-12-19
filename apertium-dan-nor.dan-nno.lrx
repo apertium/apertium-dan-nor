@@ -346,6 +346,7 @@
   <rule><match lemma="behandling" tags="n.*"><select lemma="behandling"/></match></rule>
 
   <rule><match lemma="ved" tags="pr.*"><select lemma="ved"/></match></rule>
+  <rule><match lemma="men" tags="n.*"><select lemma="mein"/></match></rule>
 </rules>
 </lrx>
 

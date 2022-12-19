@@ -991,6 +991,11 @@
     </or>
     <match lemma="snakke" tags="vblex.*"><select lemma="snakke"/></match>
   </rule>
+  <rule><match lemma="defekt" tags="n.*"><select lemma="defekt"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="varig"/>
+    <match lemma="defekt" tags="n.*"><select lemma="men"/></match>
+  </rule>
 </rules>
 
 </lrx>
