@@ -1025,6 +1025,13 @@
 
   <rule><match lemma="slapphet" tags="n.*"><select lemma="udmattelse"/></match></rule>
 
+  <rule><match lemma="slapp" tags="adj.*"><select lemma="udmattet"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="slapp" tags="adj.sint.sup.*"><select lemma="slap"/></match>
+      <match lemma="slapp" tags="adj.sint.comp.*"><select lemma="slap"/></match>
+    </or>
+  </rule>
 </rules>
 
 </lrx>
