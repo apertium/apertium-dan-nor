@@ -1014,6 +1014,8 @@
     <match lemma="lokalisert" tags="adj.*.pl.*"><select lemma="lokal"/></match>
     <match tags="n.*.pl.*"/>
   </rule>
+
+  <rule><match lemma="sakte" tags="adj.*"><select lemma="langsom"/></match></rule>
 </rules>
 
 </lrx>
