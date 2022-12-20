@@ -1,12 +1,6 @@
 * fejl [2022-11-02 on.]
 
   - bør en kunne → bør man kunne
-  - helsearbejder → sundehedsarbejder (men helsepost, og behold helsestasjon for det finst ikkje i dk)
-  - psykisk helse→sundhed
-  - personens helse→sundhed/helbred
-  - i økende grad → i stigende grad
-  - slapphet → udmattelse
-  - føle seg slapp→udmattet
   - mer sjelden behandles → mer sjeldent behandles
     (ingen subst etter, så -t)
 

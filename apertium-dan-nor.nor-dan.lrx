@@ -897,9 +897,15 @@
   <rule><match lemma="slik" tags="adv.*"><select lemma="sådan"/></match></rule>
   <rule><match lemma="altså" tags="adv.*"><select lemma="altså"/></match></rule>
 
-  <rule><match lemma="øke" tags="vblex.*"><select lemma="øge"/></match></rule>
-
-  <rule><match lemma="auke" tags="vblex.*"><select lemma="øge"/></match></rule>
+  <rule><match lemma="øke"><select lemma="øge"/></match></rule>
+  <rule><match lemma="auke"><select lemma="øge"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="auke"><select lemma="stige"/></match>
+      <match lemma="øke"><select lemma="stige"/></match>
+    </or>
+    <match lemma="grad"/>
+  </rule>
 
   <rule><match lemma="der" tags="cnjsub.*"><select lemma="der"/></match></rule>
   <rule weight="2.0" c="tilfellene der flyskrekken → tilfeller, hvor flyskrekken">
@@ -1016,6 +1022,9 @@
   </rule>
 
   <rule><match lemma="sakte" tags="adj.*"><select lemma="langsom"/></match></rule>
+
+  <rule><match lemma="slapphet" tags="n.*"><select lemma="udmattelse"/></match></rule>
+
 </rules>
 
 </lrx>

@@ -353,6 +353,7 @@
   <rule><match lemma="lokal" tags="adj.*"><select lemma="lokal"/></match></rule>
 
   <rule><match lemma="lav" tags="adj.*"><select lemma="låg"/></match></rule>
+  <rule><match lemma="stige" tags="vblex.*"><select lemma="stige"/></match></rule>
 </rules>
 </lrx>
 
