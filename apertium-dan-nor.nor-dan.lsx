@@ -603,6 +603,26 @@
       <p><l>hud<t/><d/></l>                     <r></r></p>
     </e>
 
+    <e lm="bløtdelsvevet → det bløte vev" c="det bløde væv">
+      <p><l></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><d/></r></p>
+      <p><l></l> <r>bløt<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
+      <p><l>bløtdelsvev<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></l> <r>vev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="d"/>
+    </e>
+    <e lm="bløtdelsvev → bløtt vev" c="blødt væv">
+      <p><l></l> <r>bløt<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
+      <p><l>bløtdelsvev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r>vev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="d"/>
+    </e>
+    <e lm="bløtvevet → det bløte vev" c="det bløde væv">
+      <p><l></l> <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><d/></r></p>
+      <p><l></l> <r>bløt<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
+      <p><l>bløtvev<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></l> <r>vev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="d"/>
+    </e>
+    <e lm="bløtvev → bløtt vev" c="blødt væv">
+      <p><l></l> <r>bløt<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
+      <p><l>bløtvev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r>vev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="d"/>
+    </e>
+
+
     <!-- Etasje -->
     <e lm="andre etasje → første etasje" c="første sal">
       <par n="decrease-ordinal"/> <par n="td"/>
