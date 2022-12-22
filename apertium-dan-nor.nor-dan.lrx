@@ -1050,6 +1050,12 @@
       <match tags="adj.*"/>
     </or>
   </rule>
+
+  <rule><match lemma="bakke" tags="n.*"><select lemma="bakke"/></match></rule>
+  <rule weight="2.0" c="gange på jorden">
+    <match lemma="på"/>
+    <match lemma="bakke" tags="n.*"><select lemma="jord"/></match>
+  </rule>
 </rules>
 
 </lrx>

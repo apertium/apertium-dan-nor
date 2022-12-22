@@ -31,7 +31,6 @@
   - De→Dem med helsefaglig bakgrunn
   - lem → legemsdel
   - bli frigjort fra arbeidet med → slet ikke lenger bruges til
-  - gange på bakken → gang på jorden (ikkje «bagen»)
   - Bevegelser i skulderleddet gjør det mulig[ikkje komma!] å føre armen ut fra kroppen
   - å feste→fæstne overarmen til skulderbladet
   - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
