@@ -1,11 +1,6 @@
 * fejl [2022-11-02 on.]
 
   - bør en kunne → bør man kunne
-  - mer sjelden behandles → mer sjeldent behandles
-    (ingen subst etter, så -t)
-
-    (ikkje komma ved det innskotet på slutten av setninga – kan me laga reglar for det?)
-
   - bløtdelsvevet → det bløde væv, bløtdelsvæv → blødt væv
   - (som) er festet → (som) sitter fast LSX
   - er på plass → sidder riktigt??? for spesifikt
@@ -24,6 +19,7 @@
   - Det har lenge vært kjent[,] at barnets psykiske u…
   - Det→Der er mange[,] som har sykdommen i lett grad
   - indreb i munden[,] og kæbe- ansigtsskelettet.
+    (ikkje komma ved det innskotet på slutten av setninga – kan me laga reglar for det?)
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
   - Vi skiller mellom skulderleddet (humeri)[,] som er forbindelsen mellom A og B.
   - Formen på leddhodet tilsier[,] at overarmsbeinet kan beveges i alle retninger.
