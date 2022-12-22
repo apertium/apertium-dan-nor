@@ -1,12 +1,10 @@
 * fejl [2022-11-02 on.]
 
   - bør en kunne → bør man kunne
-  - (som) er festet → (som) sitter fast LSX
   - er på plass → sidder riktigt??? for spesifikt
   - -itt → -itis eller enkel t -it, hydroksylapatit
   - brukes til å bite av og tygge mat → brukes til å bide over??
   - de vil etterhvert bli «spist[e] opp» – ikkje adj.pp her! DIS
-  - bamblesyke→bornholmsk syge
   - slå seg til i → angribe
   - Barnet tager efter → Barnet rækker ud efter
 
@@ -28,6 +26,7 @@
 
   - Bevegelser i skulderleddet gjør det mulig[ikkje komma!] å føre armen ut fra kroppen
   - Den fortsetter gjennom armhulen (axilla)[ikkje komma!] som arteria axillaris og ned langs overarmens innside som arteria brachialis.
+  - I håndflaten har de to arteriene bueformede forbindelser (anastomoser),[fjern komma!] med blodkar ut til fingrene.
 
 * fejl [2022-11-03 to.]
   - De→Dem med helsefaglig bakgrunn
@@ -35,7 +34,6 @@
   - bli frigjort fra arbeidet med → slet ikke lenger bruges til
   - å feste→fæstne overarmen til skulderbladet
   - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
-  - ulna<n>, select tidleg i DIS
   - angive ET sted (når man skal angi sted)
   - skrueledd → drejeled
   - valseformet → cylinderformet
@@ -43,6 +41,5 @@
   - utvidet kunnskaben → udvidet vores viden
     denne kunnskapen → den viden
   - vevenes bygning → vævenes opbygning
-  - I håndflaten har de to arteriene bueformede forbindelser (anastomoser),[fjern komma!] med blodkar ut til fingrene.
 
 

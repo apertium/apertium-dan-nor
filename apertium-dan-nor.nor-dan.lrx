@@ -1091,6 +1091,7 @@
     </or>
   </rule>
 
+  <rule><match lemma="feste" tags="vblex.*"><select lemma="fæstne"/></match></rule>
 </rules>
 
 </lrx>

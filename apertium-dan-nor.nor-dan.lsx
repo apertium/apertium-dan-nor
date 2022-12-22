@@ -556,6 +556,20 @@
       <par n="SN"/>
     </e>
 
+    <e lm="er festet til → sitter fast i" c="sidder fast i">
+      <p><l>være</l>          <r>sitte</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>feste<t/><d/></l> <r></r></p>
+      <p><l></l>              <r>fast<s n="adv"/><d/></r></p>
+      <p><l>til</l> <r>i</r></p> <par n="td"/>
+    </e>
+    <e lm="er festet → sitter fast" c="sidder fast">
+      <p><l>være</l>          <r>sitte</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>feste<t/><d/></l> <r></r></p>
+      <p><l></l>              <r>fast<s n="adv"/><d/></r></p>
+    </e>
+
     <e lm="blir liggende bevisstløs → ligger bevisstløs" c="ligger bevisstløs">
       <p><l>bli</l> <r>ligge</r></p> <par n="td"/>
       <p><l>ligge</l> <r></r></p> <par n="td:"/>
