@@ -549,6 +549,13 @@
       <p><l>opp<t/><d/></l> <r></r></p>
     </e>
 
+    <e lm="skiller X fra Y → adskiller X og Y" c="adskiller X fra Y">
+      <p><l>skille</l> <r>adskille</r></p> <par n="td"/>
+      <par n="SN"/>
+      <i>fra</i> <par n="td"/>
+      <par n="SN"/>
+    </e>
+
     <e lm="blir liggende bevisstløs → ligger bevisstløs" c="ligger bevisstløs">
       <p><l>bli</l> <r>ligge</r></p> <par n="td"/>
       <p><l>ligge</l> <r></r></p> <par n="td:"/>

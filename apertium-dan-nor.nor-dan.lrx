@@ -546,6 +546,9 @@
     <rule><match lemma="skille" tags="n.*"><select lemma="forskel"/></match></rule>
     <rule><match lemma="skilje" tags="n.*"><select lemma="forskel"/></match></rule>
 
+    <rule><match lemma="skille" tags="vblex.*"><select lemma="skelne"/></match></rule>
+    <rule><match lemma="skilje" tags="vblex.*"><select lemma="skelne"/></match></rule>
+
     <rule><match lemma="tourettes syndrom" tags="n.*"><select lemma="tourettes syndrom"/></match></rule>
 
     <rule><match lemma="av" tags="adv"><select lemma="af"/></match></rule>
