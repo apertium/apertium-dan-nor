@@ -889,10 +889,21 @@
       <i>at</i> <par n="td"/>
     </e>
 
-    <e lm="X som → X , som" c="X, der">
+    <e lm="SUBST CNJSUB → SUBST, CNJSUB" c="SUBST, CNJSUB">
       <i><w/><s n="n"/></i> <par n="td-nospc"/>
       <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
       <i><w/><s n="cnjsub"/><d/></i>
+    </e>
+    <e lm="ADJ som → ADJ, som" c="ADJ, der">
+      <i><w/><s n="adj"/></i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>som<s n="cnjsub"/><d/></i>
+    </e>
+    <e lm="den som har → den, som har" c="den, der har">
+      <i>den</i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>som<s n="cnjsub"/></i><par n="d"/>
+      <i>ha</i><par n="td"/>
     </e>
 
     <e lm="de Xene som → de X, som" c="de X, som">
