@@ -26,20 +26,16 @@
   - På hver side av leddflaten finner vi den indre og ytre albueknoken (epicondylus medialis & lateralis)[,] som kan kjennes under huden.
   - arteria ulnaris[,] som følger albuebeinet, og arteria radialis[,] som følger spolebeinet.
 
+  - Bevegelser i skulderleddet gjør det mulig[ikkje komma!] å føre armen ut fra kroppen
+  - Den fortsetter gjennom armhulen (axilla)[ikkje komma!] som arteria axillaris og ned langs overarmens innside som arteria brachialis.
 
 * fejl [2022-11-03 to.]
   - De→Dem med helsefaglig bakgrunn
   - lem → legemsdel
   - bli frigjort fra arbeidet med → slet ikke lenger bruges til
-  - Bevegelser i skulderleddet gjør det mulig[ikkje komma!] å føre armen ut fra kroppen
   - å feste→fæstne overarmen til skulderbladet
   - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
-  - Den fortsetter gjennom armhulen (axilla)[ikkje komma!] som arteria axillaris og ned langs overarmens innside som arteria brachialis.
   - ulna<n>, select tidleg i DIS
-  - Man kan kjenne→mærke kanten av albuebeinet
-    - kjenne→kende igjen
-    - kjenne→kende en venn
-    - kjenne→føle seg
   - angive ET sted (når man skal angi sted)
   - skrueledd → drejeled
   - valseformet → cylinderformet

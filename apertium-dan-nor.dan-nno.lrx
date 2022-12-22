@@ -355,6 +355,7 @@
   <rule><match lemma="lav" tags="adj.*"><select lemma="låg"/></match></rule>
   <rule><match lemma="stige" tags="vblex.*"><select lemma="stige"/></match></rule>
   <rule><match lemma="jord" tags="n.*"><select lemma="jord"/></match></rule>
+  <rule><match lemma="føle" tags="vblex.*"><select lemma="føle"/></match></rule>
 </rules>
 </lrx>
 

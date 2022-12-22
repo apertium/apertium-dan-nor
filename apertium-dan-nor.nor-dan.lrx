@@ -1056,6 +1056,41 @@
     <match lemma="på"/>
     <match lemma="bakke" tags="n.*"><select lemma="jord"/></match>
   </rule>
+
+  <!--
+  - Man kan kjenne→mærke kanten av albuebeinet
+    - kjenne→kende igjen
+    - kjenne→kende en venn
+    - kjenne→føle seg
+  -->
+  <rule><match lemma="kjenne" tags="vblex.*"><select lemma="mærke"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="kjenne" tags="vblex.*.cmp.*"><select lemma="kende"/></match>
+  </rule>
+  <rule weight="3.0">
+    <match lemma="kjenne" tags="vblex.*"><select lemma="kende"/></match>
+    <repeat from="0" upto="1"><match/></repeat>
+    <or>
+      <match lemma="igjen"/>
+      <match lemma="att"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="kjenne" tags="vblex.*"><select lemma="kende"/></match>
+    <repeat from="0" upto="6"><match/></repeat>
+    <or>
+      <match lemma="venn"/>
+      <match lemma="venninne"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="kjenne" tags="vblex.*"><select lemma="føle"/></match>
+    <or>
+      <match lemma="seg"/>
+      <match tags="prn.*.acc.*"/>
+    </or>
+  </rule>
+
 </rules>
 
 </lrx>
