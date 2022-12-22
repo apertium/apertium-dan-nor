@@ -35,11 +35,6 @@
   - å feste→fæstne overarmen til skulderbladet
   - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
   - angive ET sted (når man skal angi sted)
-  - skrueledd → drejeled
-  - valseformet → cylinderformet
-  - en mængde → en lang række
-  - utvidet kunnskaben → udvidet vores viden
-    denne kunnskapen → den viden
   - vevenes bygning → vævenes opbygning
 
 

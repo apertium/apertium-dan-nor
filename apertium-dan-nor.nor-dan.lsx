@@ -670,8 +670,23 @@
       <i>slik<t/><d/></i>
     </e>
 
-    <!-- Fixed expressions -->
+    <!-- viden -->
+    <e lm="utvide kunnskapen → utvide ens viten" c="utvide ens viden
+                                                    Not quite ideal, but anaphoric">
+      <i><w/><s n="vblex"/><t/><d/></i>
+      <p>
+        <l></l>
+        <r>ens<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/><d/></r>
+      </p>
+      <p>
+        <l>kunnskap</l>
+        <r>viten</r>
+      </p>
+      <par n="td"/>
+    </e>
 
+    <!-- Fixed expressions -->
+ 
     <e lm="i siste liten → i siste øyeblikk" c="i sidste øjeblik">
       <i>i<t/><d/></i>
       <i>sist<t/><d/></i>
@@ -679,6 +694,13 @@
         <l>lit<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/></l>
         <r>øyeblikk<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r>
       </p>
+    </e>
+
+    <e lm="en mengde → en lang rekke" c="en lang række">
+      <i>en<t/><d/></i>
+      <p><l>mengde</l><r></r></p> <par n="td:"/>
+      <p><l></l> <r>lang<s n="adj"/><s n="sint"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/><d/></r></p>
+      <p><l></l> <r>rekke<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><d/></r></p>
     </e>
 
     <e lm="en sjelden gang → sjeldent" c="sjældent">
