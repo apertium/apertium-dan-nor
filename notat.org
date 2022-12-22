@@ -10,27 +10,24 @@
 
 * kommafejl [2022-11-02 on.]--[2022-11-03 to.]
 
+  legg til komma:
   - skole og andre voksne[,] som barn har nærkontakt med
   - Toksoplasmose er en protozosykdom[,] som blant annet kan ramme gravide kvinner[,] uten at disse selv blir syke, men barnet kan bli født med en meget alvorlig encefalitt.
-  - Det har lenge vært kjent[,] at barnets psykiske u…
-  - indreb i munden[,] og kæbe- ansigtsskelettet.
-    (ikkje komma ved det innskotet på slutten av setninga – kan me laga reglar for det?)
   - Cøliaki er en tynntarmsykdom[,] som skyldes[,] at den[,] som har sykdommen[,] ikke tåler kornproteinet gluten.
   - Vi skiller mellom skulderleddet (humeri)[,] som er forbindelsen mellom A og B.
-  - Formen på leddhodet tilsier[,] at overarmsbeinet kan beveges i alle retninger.
   - Leddet har en kort hals (collum humeri), hvor vi finner to beinknuter (tuberculum majus & minus)[,] som er feste for noen av skuldermusklene (rotatormansjetten).
   - På hver side av leddflaten finner vi den indre og ytre albueknoken (epicondylus medialis & lateralis)[,] som kan kjennes under huden.
   - arteria ulnaris[,] som følger albuebeinet, og arteria radialis[,] som følger spolebeinet.
 
+  fjern komma:
   - Bevegelser i skulderleddet gjør det mulig[ikkje komma!] å føre armen ut fra kroppen
   - Den fortsetter gjennom armhulen (axilla)[ikkje komma!] som arteria axillaris og ned langs overarmens innside som arteria brachialis.
-  - I håndflaten har de to arteriene bueformede forbindelser (anastomoser),[fjern komma!] med blodkar ut til fingrene.
+  - I håndflaten har de to arteriene bueformede forbindelser (anastomoser)[fjern komma!] med blodkar ut til fingrene.
+  - indgreb i munden[ikkje komma!] og kæbe- ansigtsskelettet.
 
 * fejl [2022-11-03 to.]
   - De→Dem med helsefaglig bakgrunn
-  - lem → legemsdel
   - bli frigjort fra arbeidet med → slet ikke lenger bruges til
-  - å feste→fæstne overarmen til skulderbladet
   - Det nedre (*distale) ledhodet→ledhoved (RTX-regel for parentes!)
   - angive ET sted (når man skal angi sted)
   - vevenes bygning → vævenes opbygning

@@ -1073,6 +1073,7 @@
     <or>
       <match lemma="igjen"/>
       <match lemma="att"/>
+      <match lemma="at"/>       <!-- lenge vært kjent at – ev. «erkendt»? -->
     </or>
   </rule>
   <rule weight="2.0">
