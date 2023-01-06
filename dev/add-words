@@ -29,7 +29,16 @@ fi
 tmpd=$(mktemp -dt apertium-add-words.XXXXXXXXXX)
 echo "${tmpd}" >&2
 
-cat >"${tmpd}/bi"
+exclude () {
+    cat <<EOF
+de:Dei
+forfriske:kvege
+nævne:orde
+berolige:kvare
+EOF
+}
+
+grep -vxf <(exclude) >"${tmpd}/bi"
 
 echo "${tmpd}/dan" >&2
 cut -f1 -d: "${tmpd}"/bi |apertium-destxt -n |apertium -f none  -d ../apertium-dan dan-morph|apertium-retxt >"${tmpd}"/dan

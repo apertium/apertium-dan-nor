@@ -1093,6 +1093,10 @@
   </rule>
 
   <rule><match lemma="feste" tags="vblex.*"><select lemma="fæstne"/></match></rule>
+
+  <rule><match lemma="krav" tags="n.*"><select lemma="krav"/></match></rule>
+  <rule><match lemma="gje" tags="vblex.*"><select lemma="give"/></match></rule>
+  <rule><match lemma="dekke" tags="vblex.*"><select lemma="dække"/></match></rule>
 </rules>
 
 </lrx>
