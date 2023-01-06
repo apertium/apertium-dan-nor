@@ -1099,6 +1099,7 @@
   <rule><match lemma="dekke" tags="vblex.*"><select lemma="dække"/></match></rule>
   <rule><match lemma="alvor" tags="n.*"><select lemma="alvor"/></match></rule>
   <rule><match lemma="lem" tags="n.*"><select lemma="kropsdel"/></match></rule>
+  <rule><match lemma="kunnskap" tags="n.*"><select lemma="viden"/></match></rule>
 </rules>
 
 </lrx>
