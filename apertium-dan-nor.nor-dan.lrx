@@ -1097,6 +1097,8 @@
   <rule><match lemma="krav" tags="n.*"><select lemma="krav"/></match></rule>
   <rule><match lemma="gje" tags="vblex.*"><select lemma="give"/></match></rule>
   <rule><match lemma="dekke" tags="vblex.*"><select lemma="dække"/></match></rule>
+  <rule><match lemma="alvor" tags="n.*"><select lemma="alvor"/></match></rule>
+  <rule><match lemma="lem" tags="n.*"><select lemma="kropsdel"/></match></rule>
 </rules>
 
 </lrx>
