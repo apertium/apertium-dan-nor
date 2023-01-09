@@ -357,6 +357,8 @@
   <rule><match lemma="jord" tags="n.*"><select lemma="jord"/></match></rule>
   <rule><match lemma="føle" tags="vblex.*"><select lemma="føle"/></match></rule>
   <rule><match lemma="overfladisk" tags="adj.*"><select lemma="overflatisk"/></match></rule>
+  <rule><match lemma="farvning" tags="n.*"><select lemma="farging"/></match></rule>
+  <rule><match lemma="bøjning" tags="n.*"><select lemma="bøying"/></match></rule>
 </rules>
 </lrx>
 
