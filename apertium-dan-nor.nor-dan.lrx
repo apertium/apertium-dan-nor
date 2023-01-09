@@ -1102,6 +1102,7 @@
   <rule><match lemma="kunnskap" tags="n.*"><select lemma="viden"/></match></rule>
 
   <rule><match lemma="fleksjon" tags="n.*"><select lemma="bøjning"/></match></rule>
+  <rule><match lemma="vasking" tags="n.*"><select lemma="rengøring"/></match></rule>
 </rules>
 
 </lrx>

@@ -10,7 +10,7 @@
 # $ echo 'vejene:veiene' | dev/add-words inflected > new-words.dix
 set -euo pipefail
 
-if [[ $1 = inflected ]]; then
+if [[ $# -ge 1 && $1 = inflected ]]; then
     script=add-words-inflected.awk
 else
     script=add-words.awk
