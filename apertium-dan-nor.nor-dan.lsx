@@ -555,6 +555,17 @@
       <p><l>opp<t/><d/></l> <r></r></p>
     </e>
 
+    <e lm="legger X frem → fremlegger X" c="fremlegger X">
+      <p><l>legge</l> <r>fremlegge</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>frem<t/><d/></l> <r></r></p>
+    </e>
+    <e lm="legger X fram → fremlegger X" c="fremlegger X">
+      <p><l>legge</l> <r>fremlegge</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>fram<t/><d/></l> <r></r></p>
+    </e>
+
     <e lm="skiller X fra Y → adskiller X og Y" c="adskiller X fra Y">
       <p><l>skille</l> <r>adskille</r></p> <par n="td"/>
       <par n="SN"/>
@@ -612,10 +623,8 @@
     </e>
 
 
-
-
-
     <!-- Separable nouns -->
+
 
     <e lm="bestekameraten min → min beste venn" c="min bedste ven">
       <p><l>bestekamerat<s n="n"/><s n="m"/><s n="sg"/><t/><d/></l> <r></r></p>
@@ -647,6 +656,17 @@
     <e lm="bløtvev → bløtt vev" c="blødt væv">
       <p><l></l> <r>bløt<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
       <p><l>bløtvev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r>vev<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="d"/>
+    </e>
+
+    <e lm="på dagtid → om dagen" c="om dagen">
+      <p><l>på</l> <r>om</r></p> <par n="td"/>
+      <p><l>dagtid<t/><d/></l>                      <r></r></p> 
+      <p><l></l> <r>dag<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/></r></p>
+    </e>
+
+    <e lm="lik tilgang → like adgang" c="lige adgang">
+      <p><l>lik<s n="adj"/><s n="sint"/></l> <r>like<s n="adj"/></r></p> <par n="td"/>
+      <p><l>tilgang</l>                      <r>adgang</r></p> <par n="td"/>
     </e>
 
     <!-- Etasje -->

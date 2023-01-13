@@ -243,5 +243,6 @@
       <match lemma="dreng"/>
     </or>
   </rule>
+  <rule><match lemma="mindske" tags="vblex.*"><select lemma="minske"/></match></rule>
 </rules>
 </lrx>

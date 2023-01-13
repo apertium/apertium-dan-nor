@@ -1,6 +1,6 @@
 [-DLGYkv6vZp1#0] en barnefødsel, flere børnefødsler.
 [/-DLGYkv6vZp1]
-[-V0vIHPaFb4P#0] Angst er en følelse af uro, *anspenthet og nagende forventning om at noget farligt måske, eller en overdreven frygtreaktion på en hændelse.
+[-V0vIHPaFb4P#0] Angst er en følelse af uro, anspændthed og nagende forventning om at noget farligt måske, eller en overdreven frygtreaktion på en hændelse.
 [/-V0vIHPaFb4P]
 [0OWR5cjWorZF#0] de allierede.
 [/0OWR5cjWorZF]
@@ -8,11 +8,11 @@
 [/0QbCVrZzq7DE]
 [0fNOhzUY_A9i#0] Karsygdomme er en fællesbetegnelse for sygdomme i blodårerne, både arterier og vener.
 [/0fNOhzUY_A9i]
-[0hALHGLyo0Bi#0] Giveren skal ikke have sygdom, der kan overføres gennem blod (for eksempel syfilis, malaria, hepatitis, HIV og andre vira eller bakterielle infektioner) eller været akut syg de sidste to uger før tapning.
+[0hALHGLyo0Bi#0] Giveren skal ikke have sygdom, der kan overføres gennem blod (fx syfilis, malaria, hepatitis, HIV og andre vira eller bakterielle infektioner) eller været akut syg de sidste to uger før tapning.
 [/0hALHGLyo0Bi]
 [1Ah3VsvsneVx#0] Formidling af holdninger, normer, værdier, viden og færdigheder, der er vigtige i den kultur, barnet vokser op i er centralt i børneopdragelsen.
 [/1Ah3VsvsneVx]
-[1QfScZ9farIF#0] Enkle sulfater dannes af V(II) og V(III), for eksempel _vanadium(II)sulfat_, med kemisk formel VSO₄ · *7H₂O, et rødlilla stof, som let oxideres i luft og løses i vand.
+[1QfScZ9farIF#0] Enkle sulfater dannes af V(II) og V(III), fx _vanadium(II)sulfat_, med kemisk formel VSO₄ · *7H₂O, et rødlilla stof, som let oxideres i luft og løses i vand.
 [/1QfScZ9farIF]
 [1x4sVzQ8s9s1#0] Om sommeren er der mange danskere, der cykler. Også selvom det regner.
 [/1x4sVzQ8s9s1]
@@ -78,6 +78,8 @@
 [/CBoEnOBlS_fP]
 [CH3qN1cSeUUt#0] Ved begge sygdomme kommer der flere følgetilstande.
 [/CH3qN1cSeUUt]
+[CHp1SCZh4zuy#0] De tog billedundersøgelser med lige adgang for forebyggelse af forskellige felt om dagen.
+[/CHp1SCZh4zuy]
 [CJRw3aLTFagH#0] personerne blev dræbte umiddelbart.
 [/CJRw3aLTFagH]
 [CPqqMmRGmvPQ#0] Sanseceller kan imidlertid også reagere på andre (*inadekvate) stimuli, men deres intensitet skal være meget kraftigere for at aktivere receptorerne.
@@ -106,6 +108,8 @@
 [/Fz2y0DOErJLk]
 [G2UUOpMskrtv#0] Man tror der skyldes lokale svagheder i tarmvæggen, som over år kan udvide sig og blive til *divertikler på grund af højt tryk inde i tarmen.
 [/G2UUOpMskrtv]
+[GEgB8Ae7LwoD#0] Den kan optage forværrelser i bronkievæggen på forskellige rygmarvsnerver i børnekirurgien og børnesammensætningsgrævlingen.
+[/GEgB8Ae7LwoD]
 [HFBeVqTSGI6f#0] Og da kan der gå lang tid.
 [/HFBeVqTSGI6f]
 [HrfnF4TgbEaN#0] Mellem kanalerne ligger der cellegrupper.
@@ -170,7 +174,7 @@
 [/PgQbI5sKvvOj]
 [PvJH5vuzrwdD#0] andre venstreorienterede.
 [/PvJH5vuzrwdD]
-[PymI-iPap2RL#0] Hovedsymptomet er angst i situationer, hvor personen er udsat for ukendte mennesker eller for muligt *gransking af andre. Personen er bange for at han skal optræde på en måde, der vil være nedværdigende eller pinlig.
+[PymI-iPap2RL#0] Hovedsymptomet er angst i situationer, hvor personen er udsat for ukendte mennesker eller for mulig granskning af andre. Personen er bange for at han skal optræde på en måde, der vil være nedværdigende eller pinlig.
 [/PymI-iPap2RL]
 [Q_nKVjPg44Tr#0] Det kan imidlertid byde på store problemer at stille den rigtige diagnose, hvis man skal kunne stille den rigtige diagnose.
 [/Q_nKVjPg44Tr]
@@ -180,6 +184,8 @@
 [/R0NfHR7ZfjsB]
 [RFBcBU0b0a1O#0] Der findes tre typer flyskræk:
 [/RFBcBU0b0a1O]
+[RcUe0VluvdNP#0] Men i 2. Verdenskrig fremlagde de reducerede tester på hvad der skete i folkemunde.
+[/RcUe0VluvdNP]
 [RkmG8ogR446n#0] De bruger armene både under klatring i træerne og som støtte under gang på jorden.
 [/RkmG8ogR446n]
 [SMhJayM2RxZZ#0] Der skal kun små mængder af gluten til for at give symptomer.
@@ -216,13 +222,13 @@
 [/ZWY9abSv3bU0]
 [Zm-5sgeRAgiG#0] Ubehandlet kan sygdommen medføre døden.
 [/Zm-5sgeRAgiG]
-[ZsPigI8QneM1#0] Symptomerne er afmagring, stærkt reduceret rognydelse, nedsat appetit og ildeluktende afføring, mistrivsel, brækninger og vægttab.
+[ZsPigI8QneM1#0] Symptomerne er afmagring, stærkt nedsat rognydelse, nedsat appetit og ildeluktende afføring, mistrivsel, brækninger og vægttab.
 [/ZsPigI8QneM1]
 [_-tOsmRGb3Fu#0] Brugene er lidt under middel store og har alsidig drift.
 [/_-tOsmRGb3Fu]
-[_F1WITBIh8rh#0] Det lykkedes imidlertid ikke Flere grundige studier at påvise sundhedseffekter, og efter anden verdenskrig blev magnetisme forladt som helbredelsesmetode inden for den videnskabsbaserede medicin.
+[_F1WITBIh8rh#0] Det lykkedes imidlertid ikke Flere grundige studier at påvise sundhedseffekter, og efter 2. Verdenskrig blev magnetisme forladt som helbredelsesmetode inden for den videnskabsbaserede medicin.
 [/_F1WITBIh8rh]
-[_SaeLA3t3KqR#0] Armen er den legemsdel der danner en forbindelse med kroppen (*truncus) via skulderens led og muskler.
+[_SaeLA3t3KqR#0] Armen er den kropsdel der danner en forbindelse med kroppen (*truncus) via skulderens led og muskler.
 [/_SaeLA3t3KqR]
 [_TNMiNTQEGWM#0] Symptomer og tegn på *Hodgkins *lymfom er fast hævelse af lymfeknuderne og for nogen feber og blodmangel (anæmi), så man føler sig udmattet og uoplagt.
 [/_TNMiNTQEGWM]
@@ -258,7 +264,7 @@
 [/dIZnmePUU4TR]
 [dKxf-_irk_qd#0] Det starter et nyt kursus om 14 dage.
 [/dKxf-_irk_qd]
-[eZgtN-3HgEiy#0] Personlighed er defineret som de relativt stabile individuelle forskellene i hvordan ulige mennesker tænker, handler og føler på tværs af forskellige situationer.
+[eZgtN-3HgEiy#0] Personlighed er defineret som de relativt stabile individuelle forskellene i hvordan forskellige mennesker tænker, handler og føler på tværs af forskellige situationer.
 [/eZgtN-3HgEiy]
 [e__pH5O_IXrG#0] Det banker på døren. Hvem tror du at det er?
 [/e__pH5O_IXrG]
@@ -314,9 +320,9 @@
 [/mgR6gyAKGX8l]
 [mmaAGiyZsxfv#0] en senere omdiskuteret ordre.
 [/mmaAGiyZsxfv]
-[my5jcWfSz7IZ#0] Dette kan for eksempel ske hos et menneske, der ligger bevidstløs ude i vinterkulden eller som falder i koldt vand.
+[my5jcWfSz7IZ#0] Dette kan fx ske hos et menneske, der ligger bevidstløs ude i vinterkulden eller som falder i koldt vand.
 [/my5jcWfSz7IZ]
-[n98k8JcSizvA#0] Man har tidligere været helt ubevist for vandproblematik og klimaændringer, når man har bygget, siger hun.
+[n98k8JcSizvA#0] Man har tidligere været helt ubevist for vandproblematik og klimaforandringer, når man har bygget, siger hun.
 [/n98k8JcSizvA]
 [nK5v-QUB-q8b#0] Ca. 80–90 procent af patienterne bliver fint.
 [/nK5v-QUB-q8b]
@@ -392,7 +398,7 @@
 [/veFlxxtxOva0]
 [vkVSklBfRHRM#0] Hvis man begynder at spise mad med gluten, vil symptomerne melde sig temmelig raskt igen.
 [/vkVSklBfRHRM]
-[w0ToPT3Buzbp#0] Udøvere inden for alternativ medicin kan have sundhedsfaglig uddannelse og for eksempel være læger, sygeplejerske\/sosu-hjælper\/sosu-assistenter eller fysioterapeuter.
+[w0ToPT3Buzbp#0] Udøvere inden for alternativ medicin kan have sundhedsfaglig uddannelse og fx være læger, sygeplejerske\/sosu-hjælper\/sosu-assistenter eller fysioterapeuter.
 [/w0ToPT3Buzbp]
 [wBwWxw5blUow#0] En tysk-sovjetisk *ukjentordher.
 [/wBwWxw5blUow]
