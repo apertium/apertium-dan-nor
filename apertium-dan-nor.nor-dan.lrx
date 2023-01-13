@@ -603,7 +603,8 @@
       <match tags="adj.*"/>
     </or>
   </rule>
-  <rule><match lemma="kunnskapsbasert" tags="adj.*"><select lemma="kundskabsbaseret"/></match></rule>
+  <!-- <rule><match lemma="kunnskapsbasert" tags="adj.*"><select lemma="kundskabsbaseret"/></match></rule> -->
+  <rule><match lemma="kunnskapsbasert" tags="adj.*"><select lemma="videnskabsbaseret"/></match></rule>
   <rule weight="2.0">
     <match lemma="kunnskapsbasert" tags="adj.*"><select lemma="videnskabsbaseret"/></match>
     <or>
