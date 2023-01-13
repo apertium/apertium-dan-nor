@@ -1130,6 +1130,23 @@
     </or>
     <match lemma="spesialitet" tags="n.*"><select lemma="specialitet"/></match>
   </rule>
+  <rule><match lemma="openbar" tags="adj.*"><select lemma="åbenbar"/></match></rule>
+  <rule><match lemma="åpenbar" tags="adj.*"><select lemma="åbenbar"/></match></rule>
+
+  <rule><match lemma="gjøre" tags="vblex.*"><select lemma="gøre"/></match></rule>
+  <rule><match lemma="gjere" tags="vblex.*"><select lemma="gøre"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="gjøre" tags="vblex.*"><select lemma="lave"/></match>
+      <match lemma="gjere" tags="vblex.*"><select lemma="lave"/></match>
+    </or>
+    <repeat from="0" upto="2"><match/></repeat>
+    <or>
+      <match lemma="undersøkelse"/>
+      <match lemma="undersøking"/>
+    </or>
+
+  </rule>
 </rules>
 
 </lrx>
