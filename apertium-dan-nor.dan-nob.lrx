@@ -244,5 +244,6 @@
     </or>
   </rule>
   <rule><match lemma="mindske" tags="vblex.*"><select lemma="minske"/></match></rule>
+  <rule><match lemma="side" tags="n.*"><select lemma="side"/></match></rule>
 </rules>
 </lrx>

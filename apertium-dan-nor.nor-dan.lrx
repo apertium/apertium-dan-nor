@@ -594,6 +594,19 @@
       <match lemma="innan" tags="pr.*"><select lemma="inden"/></match>
     </or>
   </rule>
+  <rule weight="2.0" c="innen seks år, innen utgangen av mai → inden">
+    <or>
+      <match lemma="innen" tags="pr.*"><select lemma="inden"/></match>
+      <match lemma="innan" tags="pr.*"><select lemma="inden"/></match>
+    </or>
+    <or>
+      <match tags="det.qnt.*"/>
+      <match lemma="neste"/>
+      <match lemma="start"/>
+      <match lemma="avslutning"/>
+      <match lemma="utgang"/>
+    </or>
+  </rule>
   <rule weight="2.0" c="innen den kunnskapsbaserte medisinen → inden for den videnskabsbaserede medicin">
     <or>
       <match lemma="innen" tags="pr.*"><select lemma="inden for"/></match>
@@ -602,6 +615,7 @@
     <or>
       <match tags="det.*"/>
       <match tags="adj.*"/>
+      <match tags="n.*"/>
     </or>
   </rule>
   <!-- <rule><match lemma="kunnskapsbasert" tags="adj.*"><select lemma="kundskabsbaseret"/></match></rule> -->
@@ -1164,6 +1178,16 @@
 
   <rule><match lemma="ulik"><select lemma="forskellig"/></match></rule>
 
+  <rule><match lemma="bakre" tags="adj.*"><select lemma="bagerst"/></match></rule>
+
+  <rule><match lemma="svært" tags="adv.*"><select lemma="vældig"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="svært" tags="adv.*"><select lemma="meget"/></match>
+    <or>
+      <match lemma="sjelden"/>
+      <match lemma="ofte"/>
+    </or>
+  </rule>
 </rules>
 
 </lrx>

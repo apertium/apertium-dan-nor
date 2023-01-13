@@ -548,6 +548,23 @@
       <par n="SN|adv|prn|"/>
       <p><l>opp<t/><d/></l> <r></r></p>
     </e>
+ 
+    <e lm="løser X opp → oppløser X" c="opløser X">
+      <p><l>løse</l> <r>oppløse</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>opp<t/><d/></l> <r></r></p>
+    </e> 
+    <e lm="løyser X opp → oppløyser X" c="opløser X">
+      <p><l>løyse</l> <r>oppløyse</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>opp<t/><d/></l> <r></r></p>
+    </e>
+
+    <e lm="bli X borte → forsvinne X" c="forsvinne X">
+      <p><l>bli</l> <r>forsvinne</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>borte<t/><d/></l> <r></r></p>
+    </e>
 
     <e lm="tar X opp → opptar X" c="optager X">
       <p><l>ta</l> <r>oppta</r></p> <par n="td"/>
@@ -599,6 +616,13 @@
     </e>
 
     <!-- Other verb + adv + noun phrase rewritings: -->
+
+    <e lm="bli kvalm → få kvalme" c="få kvalme">
+      <p><l>bli</l>           <r>få</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>kvalm<t/><d/></l> <r></r></p>
+      <p><l></l>              <r>kvalme<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><d/></r></p>
+    </e>
 
     <e lm="klarte ikke å fortsette → kunne ikke fortsette">
       <p><l>klare</l>   <r>kunne</r></p> <par n="td"/>
@@ -662,6 +686,11 @@
       <p><l>på</l> <r>om</r></p> <par n="td"/>
       <p><l>dagtid<t/><d/></l>                      <r></r></p> 
       <p><l></l> <r>dag<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/></r></p>
+    </e>
+    <e lm="på morgensiden → om morgenen" c="om morgenen">
+      <p><l>på</l> <r>om</r></p> <par n="td"/>
+      <p><l>morgenside<t/><d/></l>                      <r></r></p> 
+      <p><l></l> <r>morgen<s n="n"/><s n="m"/><s n="sg"/><s n="def"/><d/></r></p>
     </e>
 
     <e lm="lik tilgang → like adgang" c="lige adgang">
@@ -819,6 +848,16 @@
         <p><l><s n="mf"/><s n="sg"/><s n="ind"/></l> <r><s n="un"/><s n="sp"/><s n="def"/></r></p>
         <par n="d"/>
       <i>diagnose</i>  <par n="td"/>
+    </e>
+
+    <e lm="les mer i Store norske leksikon → les mer i Den Store Danske" c="læs mere i Den Store Danske">
+      <i>lese</i><par n="td"/>
+      <i>mer</i><par n="td"/>
+      <i>i</i><par n="td"/>
+      <p><l>stor<t/><d/></l> <r></r></p>
+      <p><l>norsk<t/><d/></l> <r></r></p>
+      <p><l>leksikon<t/><d/></l> <r></r></p>
+      <p><l></l> <r>Den store danske<s n="np"/><s n="org"/><d/></r></p>
     </e>
 
     <e lm="i slike tilfeller → i de tilfeller" c="i de tilfælde">
