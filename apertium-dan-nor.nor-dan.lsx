@@ -549,6 +549,12 @@
       <p><l>opp<t/><d/></l> <r></r></p>
     </e>
 
+    <e lm="tar X opp → opptar X" c="optager X">
+      <p><l>ta</l> <r>oppta</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>opp<t/><d/></l> <r></r></p>
+    </e>
+
     <e lm="skiller X fra Y → adskiller X og Y" c="adskiller X fra Y">
       <p><l>skille</l> <r>adskille</r></p> <par n="td"/>
       <par n="SN"/>

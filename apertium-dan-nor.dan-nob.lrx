@@ -232,5 +232,16 @@
   <rule><match lemma="overfladisk" tags="adj.*"><select lemma="overfladisk"/></match></rule>
   <rule><match lemma="farvning" tags="n.*"><select lemma="farging"/></match></rule>
   <rule><match lemma="bøjning" tags="n.*"><select lemma="bøying"/></match></rule>
+  <rule><match lemma="rask" tags="adj.*"><select lemma="frisk"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="rask" tags="adj.*"><select lemma="frisk"/></match>
+    <or>
+      <match lemma="beslutning"/>
+      <match lemma="skridt"/>
+      <match lemma="tag"/>
+      <match lemma="mål"/>
+      <match lemma="dreng"/>
+    </or>
+  </rule>
 </rules>
 </lrx>

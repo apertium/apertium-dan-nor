@@ -645,6 +645,8 @@
 
   <rule><match lemma="frisk" tags="adj.*"><select lemma="rask"/></match></rule>
 
+  <rule><match lemma="rask" tags="adj.*"><select lemma="hurtig"/></match></rule>
+
   <rule><match lemma="medikament" tags="n.*"><select lemma="lægemiddel"/></match></rule>
   <rule>
     <match lemma="medikament" tags="n.*.cmp.*"><select lemma="medicin"/></match>
@@ -1104,6 +1106,30 @@
 
   <rule><match lemma="fleksjon" tags="n.*"><select lemma="bøjning"/></match></rule>
   <rule><match lemma="vasking" tags="n.*"><select lemma="rengøring"/></match></rule>
+
+  <rule c="hans speciale er, med speciale i(nden)"><match lemma="spesialitet" tags="n.*"><select lemma="speciale"/></match></rule>
+  <rule weight="2.0" c="er en spesialitet fra Bayern">
+    <match lemma="spesialitet" tags="n.*"><select lemma="specialitet"/></match>
+    <or>
+      <match lemma="fra"/>
+      <match lemma="frå"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="en"/>
+      <match lemma="ein"/>
+      <match lemma="lokal"/>
+      <match lemma="særlig"/>
+      <match lemma="regional"/>
+      <match lemma="kulinarisk"/>
+      <match lemma="spansk"/>   <!-- TODO def-seq nationalities -->
+      <match lemma="tysk"/>
+      <match lemma="japansk"/>
+      <match lemma="østpreussisk"/>
+    </or>
+    <match lemma="spesialitet" tags="n.*"><select lemma="specialitet"/></match>
+  </rule>
 </rules>
 
 </lrx>
