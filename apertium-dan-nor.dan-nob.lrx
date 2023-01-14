@@ -245,5 +245,8 @@
   </rule>
   <rule><match lemma="mindske" tags="vblex.*"><select lemma="minske"/></match></rule>
   <rule><match lemma="side" tags="n.*"><select lemma="side"/></match></rule>
+  <rule><match lemma="speciale" tags="n.*"><select lemma="spesialitet"/></match></rule>
+  <rule><match lemma="kropsdel" tags="n.*"><select lemma="kroppsdel"/></match></rule>
+  <rule><match lemma="hjemmemark" tags="n.*"><select lemma="innmark"/></match></rule>
 </rules>
 </lrx>

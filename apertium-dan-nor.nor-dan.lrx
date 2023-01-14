@@ -1120,6 +1120,15 @@
   <rule><match lemma="kunnskap" tags="n.*"><select lemma="viden"/></match></rule>
 
   <rule><match lemma="fleksjon" tags="n.*"><select lemma="bøjning"/></match></rule>
+  <rule weight="2.0" c="forklaring a la «fleksjon (bøyning)»">
+    <match lemma="fleksjon" tags="n.*"><select lemma="fleksion"/></match>
+    <repeat from="0" upto="5"><match/></repeat>
+    <or>
+      <match lemma="bøyning"/>
+      <match lemma="bøying"/>
+    </or>
+  </rule>
+
   <rule><match lemma="vasking" tags="n.*"><select lemma="rengøring"/></match></rule>
 
   <rule c="hans speciale er, med speciale i(nden)"><match lemma="spesialitet" tags="n.*"><select lemma="speciale"/></match></rule>
