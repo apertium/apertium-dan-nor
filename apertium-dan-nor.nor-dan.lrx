@@ -1197,6 +1197,35 @@
       <match lemma="ofte"/>
     </or>
   </rule>
+
+  <!-- in SML and NTB, occurrences of «skeiv» are in the «queer» sense,
+       while «skjev» is used for «skæv»: -->
+  <rule><match lemma="skjev" tags="adj.*"><select lemma="skæv"/></match></rule>
+  <rule><match lemma="skeiv" tags="adj.*"><select lemma="queer"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="skeiv" tags="adj.*"><select lemma="skæv"/></match>
+    <repeat from="0" upto="2"><match/></repeat>
+    <or>
+      <match lemma="hornhinne"/>
+      <match lemma="ryggsøyle"/>
+      <match lemma="belastning"/>
+      <match lemma="stilling"/>
+      <match lemma="rygg"/>
+      <match lemma="bitt"/>
+      <match lemma="bremse"/>
+      <match lemma="fordeling"/>
+      <match lemma="tårn"/>
+      <match lemma="fasade"/>
+      <match lemma="balanse"/>
+      <match lemma="maktbalanse"/>
+      <match lemma="start"/>
+      <match lemma="innsats"/>
+    </or>
+  </rule>
+  <rule weight="2.0" c="et skeivt blikk, etc">
+    <match lemma="skeiv" tags="adj.*.nt.*"><select lemma="skæv"/></match>
+  </rule>
+
 </rules>
 
 </lrx>
