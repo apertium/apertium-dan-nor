@@ -80,6 +80,12 @@ BEGIN {
            print "<apertium-notrans>Both sides in (dan "ngs"; nob " bgs"), skipping. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
            continue
        }
+       else if(!(bw in ana["nob"][ng]) && bw in biknown["nno"][ng] && nw in biknown["dan"][ng]) {
+           bgs="";for(mainpos in mainposes) if(bw in ana["nno"][mainpos]) bgs=bgs"+"mainpos; sub(/^\+/,"",bgs)
+           ngs="";for(mainpos in mainposes) if(nw in ana["dan"][mainpos]) ngs=ngs"+"mainpos; sub(/^\+/,"",ngs)
+           print "<apertium-notrans>Both sides in (dan "ngs"; nno " bgs"; no nob analysis), skipping. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
+           continue
+       }
        else if(bw in biknown["nob"][ng]) {
            print "<apertium-notrans>nob-side already in bidix ("ng"), LR-ing. Compare </apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
            lr=" r=\"LR\""
