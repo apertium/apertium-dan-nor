@@ -47,6 +47,7 @@ w_do_pasv = angi ;
 
 w_ogeller = og eller ;
 
+denominal_adjectives = xpsts xpst xpsto xsup xcomp ;
 
 !!!!!!!!!!!!!!!!!!!!!!
 ! Tag Rewrite Rules: !
@@ -171,7 +172,7 @@ NP -> "NP→N"  %N { %1[lemcase=$lemcase] }
 
 PP -> pr %DP { 1 _ 2 } ;
 
-n_gender_not_usable_for_det = "" un m f ;
+n_gender_not_usable_for_det = "" un m f xpst xpsts xpsto xsup xcomp ;
 n_number_not_usable_for_det = "" sp ;
 detOfN: (always                 ! TODO why not sp?
          1(det)[gender=(if (1.number/tl not = sp and (1.number_n = pl or 1.gender/sl = un))
@@ -257,7 +258,7 @@ DP ->
         2
       }
 
-    | "DP→det NP:vennene mine → mine venner"
+    | "DP→NP det:vennene mine → mine venner"
       %NP det.pos
       ?((1.defnes = def) and (not (2.number = pl and 1.number = sg))) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=$lemcase]
