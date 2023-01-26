@@ -490,6 +490,13 @@
       <p><l></l>   <r>like<s n="vblex"/><s n="inf"/><d/></r></p>
     </e>
 
+    <e lm="sovne" c="falde i søvn">
+      <p><l>sovne<s n="vblex"/></l>   <r>falde<s n="vblex"/></r></p><par n="td"/>
+      <par n="prn.pers.nom|adv|"/>
+      <p><l></l> <r>i<s n="pr"/><d/></r></p>
+      <p><l></l> <r>søvn<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><d/></r></p>
+    </e>
+
     <e lm="bli sliten" c="gå kold">
       <p><l>bli<s n="vblex"/></l>   <r>gå<s n="vblex"/></r></p> <par n="td"/>
       <par n="SN|"/>
