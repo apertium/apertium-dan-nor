@@ -441,6 +441,15 @@
       </e>
     </pardef>
 
+    <pardef n="kommune:kommunal|primær">
+      <e><p><l>kommune</l><r>kommunal</r></p></e>
+      <e><p><l>primær</l><r>primær</r></p></e>
+    </pardef>
+
+    <pardef n="cmpdrop">
+      <e><p><l><s n="cmp"/></l><r></r></p></e>
+    </pardef>
+
     <pardef n="ANYWORD">
       <e><i><w/><t/><d/></i></e>
       <e><i><w/><d/></i></e>    <!--unknown-->
@@ -662,6 +671,33 @@
       <i><w/><s n="det"/><s n="pos"/></i> <par n="td"/>
       <p><l></l>                     <r>god<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
       <p><l></l>                     <r>venn<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/></r></p>
+    </e>
+
+    <e lm="primærhelsetjenesten" c="den primære sundhedstjenesten">
+      <p><l></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><d/></r></p>
+      <!-- primær/kommunal/… as cmp-prefix turned into adj: -->
+      <par n="kommune:kommunal|primær"/> <p><l></l> <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
+      <i>helset<w/>neste</i>    <!--teneste/tjeneste -->
+       <par n="td"/>
+    </e>
+    <e lm="NOB: primærhelsetjenestetilbud" c="tilbud fra den primære sundhedstjeneste">
+      <p><l></l> <r>tilbud<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
+      <p><l></l> <r>fra<s n="pr"/><d/></r></p>
+      <p><l></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><d/></r></p>
+      <!-- primær/kommunal/… as cmp-prefix turned into adj: -->
+      <par n="kommune:kommunal|primær"/> <p><l></l> <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
+      <!-- drop cmp: -->
+      <i>helsetjeneste<t/></i> <p><l><s n="cmp"/></l> <r></r></p> <par n="d"/>
+      <p><l>tilbud<s n="n"/><t/><d/></l> <r></r></p>
+    </e>
+    <e lm="NNO: primærhelsetenestetilbod" c="tilbud fra den primære sundhedstjeneste">
+      <p><l></l> <r>tilbod<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/><d/></r></p>
+      <p><l></l> <r>frå<s n="pr"/><d/></r></p>
+      <p><l></l> <r>den<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><d/></r></p>
+      <!-- primær/kommunal/… as cmp-prefix turned into adj: -->
+      <par n="kommune:kommunal|primær"/> <p><l></l> <r><s n="adj"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/><d/></r></p>
+      <i>helseteneste<t/></i> <p><l><s n="cmp"/></l> <r></r></p> <par n="d"/>
+      <p><l>tilbod<s n="n"/><t/><d/></l> <r></r></p>
     </e>
 
     <e lm="bristninger i huden → blodutredninger" c="blodutrædninger">
