@@ -619,6 +619,11 @@
       <p><l>feste<t/><d/></l> <r></r></p>
       <p><l></l>              <r>fast<s n="adv"/><d/></r></p>
     </e>
+    <e lm="OVERRIDE: er feste for → er feste for" c="er fæste for">
+      <i>være</i> <par n="td"/>
+      <i>feste</i><par n="td"/>
+      <i>for</i><par n="td"/>
+    </e>
 
     <e lm="blir liggende bevisstløs → ligger bevisstløs" c="ligger bevisstløs">
       <p><l>bli</l> <r>ligge</r></p> <par n="td"/>
@@ -1011,6 +1016,12 @@
       <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
       <i>som<s n="cnjsub"/></i><par n="d"/>
       <i>ha</i><par n="td"/>
+    </e>
+    <!-- This rule naively assumes we have a finite verb before the parenthesis – not always true! But more often than not: -->
+    <e lm=") som → ), som" c="), der">
+      <i>)</i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i><w/><s n="cnjsub"/><d/></i>
     </e>
 
     <e lm="den som har X skal → den, som har X, skal" c="den, der har X, skal">
