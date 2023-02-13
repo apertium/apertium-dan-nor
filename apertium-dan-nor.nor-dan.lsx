@@ -1013,6 +1013,18 @@
       <i>ha</i><par n="td"/>
     </e>
 
+    <e lm="den som har X skal → den, som har X, skal" c="den, der har X, skal">
+      <i>den</i> <par n="td-nospc"/>
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <i>som<s n="cnjsub"/></i><par n="d"/>
+      <i>ha</i><par n="td"/>
+      <par n="wide-SN"/> <!-- TODO: would like space="no" on final d here, but that requires a copy of all internal pardefs :( -->
+      <p> <l></l> <r>,<s n="cm"/><d space="yes"/></r></p>
+      <par n="adv|"/>
+      <par n="FV"/>
+    </e>
+
+
     <e lm="de Xene som → de X, som" c="de X, som">
       <i>den<s n="det"/></i> <par n="td"/>
       <i><w/><s n="n"/><t/></i> <p><l><s n="def"/></l><r><s n="ind"/></r></p>    <i><d space="no"/></i>
