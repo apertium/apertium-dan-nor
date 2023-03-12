@@ -913,6 +913,13 @@
       <i>tilfelle</i>  <par n="td"/>
     </e>
 
+    <e lm="i tidligere tider → tidligere" c="tidligere">
+      <p><l>i<t/><d/></l><r></r></p>
+      <p><l>tidli<w/><t/><d/></l> <r></r></p>
+      <p><l></l> <r>tidligere<s n="adv"/><d/></r></p>
+      <p><l>tid<t/><d/></l><r></r></p>
+    </e>
+
     <e lm="bitte liten → ørliten" c="lillebitte">
       <p><l>bitte<t/><d/></l> <r></r></p>
       <p><l>liten<s n="adj"/></l> <r>ørliten<s n="adj"/></r></p> <par n="td"/>
