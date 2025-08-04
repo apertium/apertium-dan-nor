@@ -118,6 +118,7 @@ N ->
    | "N→ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
    | "N→npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
    | "N→vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | "N→adjcmpN"    adj.*.cmp %N   { 1[lemcase=$lemcase] %2 }
    | "N→ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
    | "N→npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
    | "N→vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
@@ -143,10 +144,11 @@ A -> "A->adj"       %adj { %1[gender=(if (1.number = sg and 1.defnes = ind)
 ! should not get sint!
 
 ! Recurse on multiple adj's in a row, don't change gender on first if only the first is nt:
-AP -> "AP→A:godt"           0:        %A      { %1[gender=$gender] }
-    | "AP→A A:stort godt"   3: A.*.nt %A.*.nt { 1[gender=$gender] _ %2[gender=$gender] } ! both nt, assume we can override gender of both using outer NP
-    | "AP→A A:relativt god" 2: A.*.nt %A      { 1                 _ %2[gender=$gender] } ! only first is nt, assume first adj modifies second adj (and not followin NP)
-    | "AP→A A:stor god"     1: A      %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
+AP -> "AP→A:godt"           0:         %A      { %1[gender=$gender] }
+    | "AP→A A:kjempegodt"   3: A.*.cmp %A      { 1 %2[gender=$gender] }
+    | "AP→A A:stort godt"   3: A.*.nt  %A.*.nt { 1[gender=$gender] _ %2[gender=$gender] } ! both nt, assume we can override gender of both using outer NP
+    | "AP→A A:relativt god" 2: A.*.nt  %A      { 1                 _ %2[gender=$gender] } ! only first is nt, assume first adj modifies second adj (and not followin NP)
+    | "AP→A A:stor god"     1: A       %A      { 1[gender=$gender] _ %2[gender=$gender] } ! neither nt, assume we can override gender of both using outer NP
     ;
 
 Name -> "np" %np { %1 }

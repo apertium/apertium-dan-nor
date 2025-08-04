@@ -15113,7 +15113,6 @@
 <e>         <p><l>opposition<s n="n"/><s n="ut"/></l>    <r>opposisjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>oppositionsparti<s n="n"/><s n="nt"/></l><r>opposisjonsparti<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>oppositionspolitik<s n="n"/><s n="ut"/></l><r>opposisjonspolitikk<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>opretstående<b/>væv<s n="n"/><s n="ut"/></l><r>oppstadvev<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>oprettelse<s n="n"/><s n="ut"/></l> <r>skiping<s n="n"/><s n="f"/></r></p></e>
 <e vr="nob"><p><l>oprettelse<s n="n"/><s n="ut"/></l> <r>opprettelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>oprindelse<s n="n"/><s n="ut"/></l> <r>opphav<s n="n"/><s n="nt"/></r></p></e>
@@ -21458,9 +21457,9 @@
 <e>         <p><l>øgruppe<s n="n"/><s n="ut"/></l>               <r>øygruppe<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>øgruppe<s n="n"/><s n="ut"/></l>    <r>øygruppe<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>øgård<s n="n"/><s n="ut"/></l>         <r>øygard<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>øjeblik<s n="n"/><s n="nt"/></l>    <r>augeblink<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>øjeblik<s n="n"/><s n="nt"/></l>    <r>augeblink<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>øjeblik<s n="n"/><s n="nt"/></l>    <r>augneblink<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>øjeblik<s n="n"/><s n="nt"/></l>    <r>augneblunk<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>øjeblik<s n="n"/><s n="nt"/></l>    <r>augneblunk<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>øjeblik<s n="n"/><s n="nt"/></l>    <r>øyeblikk<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>øje<s n="n"/><s n="nt"/></l>        <r>auga<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>øje<s n="n"/><s n="nt"/></l>        <r>auge<s n="n"/><s n="nt"/></r></p></e>
@@ -77243,7 +77242,7 @@
 <e>         <p><l>gråblå</l>                     <r>gråblå</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"> <p><l>grænsebrydende</l>             <r>grensesprengande</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"> <p><l>grænsebrydende</l>             <r>grensesprengende</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>græsk</l>                      <r>gresk</r></p><par n="adj_sint"/></e>
+<e>         <p><l>græsk</l>                      <r>gresk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>grøn</l>                       <r>grøn</r></p><par n="adj_sint"/></e>
 <e>         <p><l>gul</l>                        <r>gul</r></p><par n="adj_sint"/></e>
 <e vr="nno"> <p><l>guldbelagt</l>                 <r>gullslegen</r></p><par n="adj_sint:adj"/></e>
@@ -91882,7 +91881,8 @@
 <e vr="nob"><p><l>mægle</l>                           <r>megle</r></p><par n="vblex"/></e>
 <e>         <p><l>mæle</l>                               <r>mæle</r></p><par n="vblex"/></e>
 <e>         <p><l>mænge</l>                              <r>menge</r></p><par n="vblex"/></e>
-<e>         <p><l>ringmærke</l>                              <r>ringmerke</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>ringmærke</l>                              <r>ringmerkje</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>ringmærke</l>                              <r>ringmerke</r></p><par n="vblex"/></e>
 <e>         <p><l>mæske</l>                              <r>meske</r></p><par n="vblex"/></e>
 <e>         <p><l>mæske</l>                              <r>roste</r></p><par n="vblex"/></e>
 <e>         <p><l>mætte</l>                              <r>mette</r></p><par n="vblex"/></e>
@@ -96553,7 +96553,7 @@
 <e><re>[½¹²³¼¾]</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 <e>       <p><l>..<s n="sent"/></l><r>..<s n="sent"/></r></p></e>
 <e>       <p><l>...<s n="sent"/></l><r>...<s n="sent"/></r></p></e>
-<e>       <p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+<e>       <p><l>'<s n="apos"/></l><r>’<s n="apos"/></r></p></e>
 <e>       <p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
 <e>       <p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
 <e><re>[,/]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>

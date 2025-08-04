@@ -13,13 +13,15 @@ trap 'rm -f "${out}"' EXIT
 for dir in dan-nob dan-nno nob-dan; do
     src=${dir%%-*}
 
-    cat ../texts/*."${src}".txt | apertium -f html-noent -d .. "${dir}"-dgen > "${out}"
+    cat ../texts/*."${src}".txt | apertium-deshtml | apertium -f none -d .. "${dir}"-dgen > "${out}"
 
     current=$(grep -c '[#@]' "${out}" || true)
 
     if [[ "${current}" -gt 0 ]]; then
         echo "ERROR: texts/*.${src}.txt translated through ${dir} gave debug sybols [#@]:"
         grep -n '[#@]' "${out}"
+        echo
+        grep -o '[#@][^$ ]*' "${out}" | tr -d '\\' | sort | uniq -c | sort -nr
         exit 1
     fi
 done
